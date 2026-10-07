@@ -20,6 +20,7 @@ def cex_exchanges(n=15):
     rows = get_json(f"{CG}/exchanges", params={"per_page": n, "page": 1}, headers=CG_HEADERS)
     return [
         {
+            "id": r.get("id"),
             "name": r["name"],
             "trust": r.get("trust_score"),
             "volume_btc": r.get("trade_volume_24h_btc_normalized") or r.get("trade_volume_24h_btc") or 0,
@@ -113,7 +114,8 @@ def dex_volumes():
     def top(d, n=12):
         rows = sorted(d.get("protocols") or [], key=lambda p: p.get("total24h") or 0, reverse=True)[:n]
         return [
-            {"name": p.get("displayName") or p.get("name"), "vol_24h": p.get("total24h") or 0,
+            {"name": p.get("displayName") or p.get("name"), "slug": p.get("slug") or p.get("module"),
+             "vol_24h": p.get("total24h") or 0,
              "ch_1d": p.get("change_1d"), "chains": (p.get("chains") or [])[:4]}
             for p in rows
         ]

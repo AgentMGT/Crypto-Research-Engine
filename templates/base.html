@@ -34,6 +34,19 @@
   Signals are mechanical rules over public data; verify before acting.</p>
   <p class="src">{% block sources %}{% endblock %}</p>
 </footer>
+{% block data %}{% endblock %}
+<div class="chart-modal" id="chart-modal" hidden>
+  <div class="chart-box" role="dialog" aria-modal="true" aria-labelledby="chart-title">
+    <div class="chart-head">
+      <h3 id="chart-title">Chart</h3>
+      <div class="ranges" id="chart-ranges"></div>
+      <a id="chart-link" target="_blank" rel="noopener" hidden>Open source ↗</a>
+      <button type="button" class="chart-close" id="chart-close" aria-label="Close chart">✕</button>
+    </div>
+    <div class="chart-area" id="chart-area"></div>
+    <div class="chart-note" id="chart-note"></div>
+  </div>
+</div>
 <script src="app.js"></script>
 </body>
 </html>

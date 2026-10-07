@@ -55,7 +55,7 @@ def fake_crypto():
         "markets": markets,
         "global": {"total_market_cap": {"usd": 3.1e12}, "total_volume": {"usd": 1.4e11},
                    "market_cap_percentage": {"btc": 57.2, "eth": 11.4}, "market_cap_change_percentage_24h_usd": 1.8},
-        "trending": [{"symbol": s.lower(), "market_cap_rank": i + 1} for i, (_, s, _) in enumerate(NAMES[:7])],
+        "trending": [{"id": cid, "name": n, "symbol": s.lower(), "market_cap_rank": i + 1} for i, (cid, s, n) in enumerate(NAMES[:7])],
         "fear_greed": [{"value": str(max(5, min(95, int(55 + 18 * math.sin(d / 5)))))} for d in range(30)],
         "defi": {"chains": [{"name": n, "tvl": t} for n, t in
                             [("Ethereum", 6.4e10), ("Solana", 1.1e10), ("Base", 4.2e9), ("BSC", 5.6e9), ("Arbitrum", 3.1e9)]],
@@ -144,16 +144,16 @@ def fake_venues():
           for _, sym, _ in NAMES if sym not in ("USDT", "USDC")] + [
           {"venue": "Hyperliquid", "base": "PUMP", "price": 0.004, "ch_24h": 8.1, "funding": 0.009, "oi_usd": 4.1e7, "volume_usd": 2.2e8}]
     return {
-        "cex_exchanges": [{"name": n, "trust": t, "volume_btc": v, "country": None} for n, t, v in
+        "cex_exchanges": [{"id": n.lower().split()[0], "name": n, "trust": t, "volume_btc": v, "country": None} for n, t, v in
                           [("Binance", 10, 182000), ("Bybit", 10, 41000), ("Coinbase Exchange", 10, 38500), ("OKX", 10, 35200),
                            ("Upbit", 10, 22100), ("Bitget", 9, 19800), ("Gate", 9, 15400), ("Kraken", 10, 9300)]],
         "cex_perps": perps,
         "dex_trending": [fake_pool(i) for i in range(40)],
         "dex_new": [fake_pool(100 + i, new=True) for i in range(20)],
         "dex_volumes": {"spot_total_24h": 1.21e10, "spot_change_1d": 6.4, "perp_total_24h": 1.37e10, "perp_change_1d": -3.1,
-                        "spot_top": [{"name": n, "vol_24h": v, "ch_1d": random.gauss(0, 12), "chains": []} for n, v in
+                        "spot_top": [{"name": n, "slug": n.lower(), "vol_24h": v, "ch_1d": random.gauss(0, 12), "chains": []} for n, v in
                                      [("Uniswap", 3.1e9), ("PancakeSwap", 2.4e9), ("Raydium", 1.3e9), ("Aerodrome", 8.8e8), ("Meteora", 7.1e8), ("Orca", 5.2e8), ("Curve", 3.3e8)]],
-                        "perp_top": [{"name": n, "vol_24h": v, "ch_1d": random.gauss(0, 12), "chains": []} for n, v in
+                        "perp_top": [{"name": n, "slug": n.lower(), "vol_24h": v, "ch_1d": random.gauss(0, 12), "chains": []} for n, v in
                                      [("Hyperliquid", 8.4e9), ("Aster", 2.2e9), ("Lighter", 1.4e9), ("edgeX", 6.0e8), ("Jupiter Perps", 4.1e8)]]},
         "dex_perps": hl,
         "errors": [],

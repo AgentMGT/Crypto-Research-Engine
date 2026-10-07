@@ -7,7 +7,7 @@
 <p class="sub">Subnet prices, pool liquidity, emissions and net TAO flow read directly from the Finney chain at block {{ eco.block }}. Rebuilt three times a day.</p>
 
 <div class="cards">
-  <div class="card"><div class="k">TAO price</div><div class="v">{{ tao.price|money }}</div><div class="n {{ tao.chg_24h|cls }}">{{ tao.chg_24h|signed }} 24h · <span class="{{ tao.chg_7d|cls }}">{{ tao.chg_7d|signed }} 7d</span></div></div>
+  <div class="card"{{ {'t': 'cg', 'id': 'bittensor', 'label': 'TAO · Bittensor'}|chart }}><div class="k">TAO price</div><div class="v">{{ tao.price|money }}</div><div class="n {{ tao.chg_24h|cls }}">{{ tao.chg_24h|signed }} 24h · <span class="{{ tao.chg_7d|cls }}">{{ tao.chg_7d|signed }} 7d</span></div></div>
   <div class="card"><div class="k">TAO market cap</div><div class="v">{{ tao.mcap|money }}</div><div class="n">{{ tao.circulating|num(0) }} / {{ tao.max_supply|num(0) }} TAO</div></div>
   <div class="card"><div class="k">Subnets</div><div class="v">{{ eco.subnet_count }}</div><div class="n">{{ eco.inflow_count }} with net inflows</div></div>
   <div class="card"><div class="k">Alpha market cap</div><div class="v">{{ eco.total_alpha_mcap_tao|num(0) }} TAO</div><div class="n">{{ (eco.total_alpha_mcap_tao * tao.price)|money }}</div></div>
@@ -33,7 +33,7 @@
 <h2>Ideas from this run</h2>
 <div class="ideas">
 {% for s in sig.ideas %}
-  <div class="idea">
+  <div class="idea"{{ {'t': 'sn', 'netuid': s.netuid, 'label': 'SN' ~ s.netuid ~ ' · ' ~ s.name}|chart }}>
     <div class="hd"><span class="sym">SN{{ s.netuid }}</span><span class="nm">{{ s.name }}</span><span class="kind">{{ s.kind }}</span></div>
     <div class="row">
       <span><b>{{ s.price_tao|num(5) }}</b> τ</span>
@@ -54,7 +54,7 @@
   <div>
     <div class="tablewrap"><table>
       <thead><tr><th class="l">Spot venue</th><th class="l">Type</th><th class="l">Pair</th><th>Price</th><th>24h volume</th><th>Spread</th><th>±2% depth</th></tr></thead>
-      <tbody>{% for x in sig.tao_venues %}<tr><td class="l">{{ x.venue }}</td><td class="l"><span class="tag">{{ x.kind }}</span></td><td class="l">{{ x.pair }}</td><td>{{ x.price|money }}</td><td>{{ x.volume|money }}</td><td>{{ x.spread|num(2) }}%</td><td>{{ x.depth_2pct|money if x.depth_2pct else '–' }}</td></tr>{% endfor %}</tbody>
+      <tbody>{% for x in sig.tao_venues %}<tr{{ {'t': 'cg', 'id': 'bittensor', 'label': 'TAO · ' ~ x.venue ~ ' ' ~ x.pair}|chart }}><td class="l">{{ x.venue }}</td><td class="l"><span class="tag">{{ x.kind }}</span></td><td class="l">{{ x.pair }}</td><td>{{ x.price|money }}</td><td>{{ x.volume|money }}</td><td>{{ x.spread|num(2) }}%</td><td>{{ x.depth_2pct|money if x.depth_2pct else '–' }}</td></tr>{% endfor %}</tbody>
     </table></div>
   </div>
   {% endif %}
@@ -62,7 +62,7 @@
   <div>
     <div class="tablewrap"><table>
       <thead><tr><th class="l">Perp venue</th><th>Funding</th><th>Open interest</th><th>24h volume</th></tr></thead>
-      <tbody>{% for x in sig.tao_perp_venues %}<tr><td class="l">{{ x.venue }}</td><td class="{{ x.funding|cls }}">{{ x.funding|num(4) }}%{{ ' /h' if x.venue == 'Hyperliquid' }}</td><td>{{ x.oi_usd|money }}</td><td>{{ x.volume_usd|money }}</td></tr>{% endfor %}</tbody>
+      <tbody>{% for x in sig.tao_perp_venues %}<tr{{ ({'t': 'hl', 'coin': 'TAO', 'label': 'TAO perpetual · Hyperliquid'} if x.venue == 'Hyperliquid' else {'t': 'cg', 'id': 'bittensor', 'label': 'TAO · ' ~ x.venue})|chart }}><td class="l">{{ x.venue }}</td><td class="{{ x.funding|cls }}">{{ x.funding|num(4) }}%{{ ' /h' if x.venue == 'Hyperliquid' }}</td><td>{{ x.oi_usd|money }}</td><td>{{ x.volume_usd|money }}</td></tr>{% endfor %}</tbody>
     </table></div>
     {% for r in sig.tao_perps %}<p class="sub" style="margin-top:8px">OI-weighted CEX funding {{ r.funding_8h|num(4) }}% per 8h ({{ r.funding_ann|num(1) }}% annualised) across {{ r.venues }} venues{% if r.tags %}: {{ r.tags|join(', ') }}{% endif %}.</p>{% endfor %}
   </div>
@@ -84,7 +84,7 @@
 </tr></thead>
 <tbody>
 {% for s in sig.subnets|sort(attribute='score', reverse=true) %}
-  <tr data-q="SN{{ s.netuid }} {{ s.name }} {{ s.tags|join(' ') }}">
+  <tr data-q="SN{{ s.netuid }} {{ s.name }} {{ s.tags|join(' ') }}"{{ {'t': 'sn', 'netuid': s.netuid, 'label': 'SN' ~ s.netuid ~ ' · ' ~ s.name}|chart }}>
     <td class="l">{{ s.netuid }}</td>
     <td class="l">{{ s.name }}</td>
     <td data-v="{{ s.price_tao }}">{{ s.price_tao|num(5) }}</td>
@@ -113,5 +113,7 @@
   <p style="margin:0;color:var(--dim);font-size:13.5px"><b style="color:var(--text)">Emis/mcap</b> annualises the subnet's TAO emission against its alpha market cap — high values mean the market is paying little for a large share of rewards, which is a value screen and also a dilution warning.</p>
 </div>
 {% endblock %}
+
+{% block data %}<script id="series-data" type="application/json">{{ series|tojson }}</script>{% endblock %}
 
 {% block sources %}Sources: Bittensor Finney chain via the official SDK; CoinGecko for TAO price, spot venues and perps; Hyperliquid. {{ history|length }} snapshots retained.{% endblock %}

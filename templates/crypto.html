@@ -45,7 +45,7 @@
 <h2>Ideas from this run</h2>
 <div class="ideas">
 {% for c in sig.ideas %}
-  <div class="idea">
+  <div class="idea"{{ {'t': 'cg', 'id': c.id, 'label': c.symbol ~ ' · ' ~ c.name}|chart }}>
     <div class="hd"><span class="sym">{{ c.symbol }}</span><span class="nm">{{ c.name }}</span><span class="kind">{{ c.kind }}</span></div>
     <div class="row">
       <span><b>{{ c.price|money }}</b></span>
@@ -78,7 +78,7 @@
 <thead><tr><th class="l">Asset</th><th>CEX funding 8h</th><th>Annualised</th><th>Hyperliquid 8h</th><th>CEX OI</th><th>Hyperliquid OI</th><th>OI / mcap</th><th>Venues</th><th class="l">Tags</th></tr></thead>
 <tbody>
 {% for r in v.perps %}
-  <tr>
+  <tr{{ ({'t': 'hl', 'coin': r.base, 'label': r.base ~ ' perpetual · Hyperliquid', 'cg': r.cg_id} if r.hl_oi_usd else {'t': 'cg', 'id': r.cg_id, 'label': r.base}) |chart if (r.hl_oi_usd or r.cg_id) }}>
     <td class="l"><b>{{ r.base }}</b></td>
     <td class="{{ r.funding_8h|cls }}">{{ r.funding_8h|num(4) }}%</td>
     <td class="{{ r.funding_ann|cls }}">{{ r.funding_ann|num(1) }}%</td>
@@ -101,8 +101,8 @@
 <thead><tr><th class="l">Pool</th><th class="l">Chain · DEX</th><th>Price</th><th>1h</th><th>24h</th><th>Liquidity</th><th>Volume 24h</th><th>Buy share</th><th>Buyers / sellers</th><th>Score</th><th class="l">Tags</th></tr></thead>
 <tbody>
 {% for p in v.dex_trending %}
-  <tr>
-    <td class="l"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></td>
+  <tr{{ {'t': 'gt', 'net': p.network, 'pool': p.address, 'label': p.name ~ ' · ' ~ p.dex, 'link': p.url}|chart }}>
+    <td class="l">{{ p.name }}</td>
     <td class="l">{{ p.network }} · {{ p.dex }}</td>
     <td>{{ p.price_usd|money }}</td>
     <td class="{{ p.ch_1h|cls }}">{{ p.ch_1h|signed }}</td>
@@ -126,8 +126,8 @@
 <thead><tr><th class="l">Pool</th><th class="l">Chain · DEX</th><th class="l">Created</th><th>Liquidity</th><th>Volume 24h</th><th>24h</th><th>Buy share</th><th class="l">Tags</th></tr></thead>
 <tbody>
 {% for p in v.dex_new %}
-  <tr>
-    <td class="l"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></td>
+  <tr{{ {'t': 'gt', 'net': p.network, 'pool': p.address, 'label': p.name ~ ' · ' ~ p.dex, 'link': p.url}|chart }}>
+    <td class="l">{{ p.name }}</td>
     <td class="l">{{ p.network }} · {{ p.dex }}</td>
     <td class="l">{{ (p.created or '')[:16]|replace('T', ' ') }}</td>
     <td>{{ p.liquidity|money }}</td>
@@ -147,7 +147,7 @@
     <h2>Top centralized exchanges</h2>
     <div class="tablewrap"><table>
       <thead><tr><th class="l">Exchange</th><th>Trust</th><th>24h volume (BTC)</th></tr></thead>
-      <tbody>{% for x in v.exchanges %}<tr><td class="l">{{ x.name }}</td><td>{{ x.trust or '–' }}/10</td><td>{{ x.volume_btc|num(0) }}</td></tr>{% endfor %}</tbody>
+      <tbody>{% for x in v.exchanges %}<tr{{ {'t': 'cgx', 'id': x.id, 'label': x.name ~ ' · volume (BTC)'}|chart if x.id }}><td class="l">{{ x.name }}</td><td>{{ x.trust or '–' }}/10</td><td>{{ x.volume_btc|num(0) }}</td></tr>{% endfor %}</tbody>
     </table></div>
   </div>
   <div>
@@ -155,8 +155,8 @@
     <div class="tablewrap"><table>
       <thead><tr><th class="l">Protocol</th><th>24h volume</th><th>1d</th></tr></thead>
       <tbody>
-      {% for x in (v.dex_volumes.spot_top or [])[:7] %}<tr><td class="l">{{ x.name }} <small class="flat">spot</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
-      {% for x in (v.dex_volumes.perp_top or [])[:5] %}<tr><td class="l">{{ x.name }} <small class="flat">perps</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
+      {% for x in (v.dex_volumes.spot_top or [])[:7] %}<tr{{ {'t': 'llama', 'slug': x.slug, 'label': x.name ~ ' · daily DEX volume'}|chart if x.slug }}><td class="l">{{ x.name }} <small class="flat">spot</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
+      {% for x in (v.dex_volumes.perp_top or [])[:5] %}<tr{{ {'t': 'llama', 'slug': x.slug, 'kind': 'derivatives', 'label': x.name ~ ' · daily perp volume'}|chart if x.slug }}><td class="l">{{ x.name }} <small class="flat">perps</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
       </tbody>
     </table></div>
   </div>
@@ -176,7 +176,7 @@
 </tr></thead>
 <tbody>
 {% for c in sig.coins|sort(attribute='score', reverse=true) %}
-  <tr data-q="{{ c.symbol }} {{ c.name }} {{ c.tags|join(' ') }}">
+  <tr data-q="{{ c.symbol }} {{ c.name }} {{ c.tags|join(' ') }}"{{ {'t': 'cg', 'id': c.id, 'label': c.symbol ~ ' · ' ~ c.name}|chart }}>
     <td class="l">{{ c.rank or '' }}</td>
     <td class="l"><div class="name">{% if c.image %}<img src="{{ c.image }}" alt="" loading="lazy">{% endif %}<span>{{ c.symbol }}</span><small>{{ c.name }}</small></div></td>
     <td data-v="{{ c.price }}">{{ c.price|money }}</td>
@@ -203,7 +203,7 @@
 <thead><tr><th class="l">Instrument</th><th>Level</th><th>1d</th><th>1m</th><th class="l">1m trend</th></tr></thead>
 <tbody>
 {% for m in data.macro %}
-  <tr><td class="l">{{ m.name }}</td><td>{{ m.price|num(2) }}</td>
+  <tr{{ {'t': 'tv', 'sym': tv_symbols.get(m.symbol), 'label': m.name}|chart if tv_symbols.get(m.symbol) }}><td class="l">{{ m.name }}</td><td>{{ m.price|num(2) }}</td>
   <td class="{{ m.chg_1d|cls }}">{{ m.chg_1d|signed }}</td>
   <td class="{{ m.chg_1m|cls }}">{{ m.chg_1m|signed }}</td>
   <td class="l">{{ m.spark|spark|safe }}</td></tr>
@@ -215,7 +215,7 @@
 
 {% if data.trending %}
 <h2>Trending searches</h2>
-<div class="tags">{% for t in data.trending %}<span class="tag">{{ t.symbol|upper }} · rank {{ t.market_cap_rank or '–' }}</span>{% endfor %}</div>
+<div class="tags">{% for t in data.trending %}<span class="tag"{{ {'t': 'cg', 'id': t.id, 'label': (t.symbol|upper) ~ ' · ' ~ t.name}|chart }}>{{ t.symbol|upper }} · rank {{ t.market_cap_rank or '–' }}</span>{% endfor %}</div>
 {% endif %}
 {% endblock %}
 

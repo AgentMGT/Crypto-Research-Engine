@@ -8,7 +8,10 @@ import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
+from html import escape
+
 from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
+from markupsafe import Markup
 
 from . import ai_brief, fetch_crypto, fetch_tao, fetch_venues, signals
 
@@ -19,6 +22,13 @@ HIST = DATA / "history"
 KEEP = 90  # ~30 days at 3 refreshes a day
 
 _venues = None
+
+# Yahoo symbol -> TradingView symbol, for the macro rows' click-through charts.
+TV_SYMBOLS = {
+    "^GSPC": "SP:SPX", "^IXIC": "NASDAQ:IXIC", "^VIX": "TVC:VIX", "DX-Y.NYB": "TVC:DXY",
+    "^TNX": "TVC:US10Y", "GC=F": "COMEX:GC1!", "CL=F": "NYMEX:CL1!",
+    "COIN": "NASDAQ:COIN", "MSTR": "NASDAQ:MSTR", "IBIT": "NASDAQ:IBIT",
+}
 
 
 def venues():
@@ -95,6 +105,26 @@ def spark(series, width=120, height=28):
     )
 
 
+def chart(spec):
+    """Attributes that make an element open the chart panel (see static/app.js)."""
+    spec = {k: v for k, v in spec.items() if v not in (None, "") and not isinstance(v, Undefined)}
+    return Markup(f' data-chart="{escape(json.dumps(spec, default=str))}" tabindex="0" role="button"')
+
+
+def series_from_history(history, key, field="price"):
+    """Per-item price series from stored snapshots, as {id: [[unix_seconds, value], ...]}."""
+    out = {}
+    for snap in history:
+        try:
+            t = int(datetime.strptime(snap["ts"], "%Y-%m-%d %H:%M UTC").replace(tzinfo=timezone.utc).timestamp())
+        except (KeyError, ValueError):
+            continue
+        for k, v in (snap.get(key) or {}).items():
+            if v.get(field) is not None:
+                out.setdefault(k, []).append([t, v[field]])
+    return out
+
+
 def env():
     e = Environment(
         loader=FileSystemLoader(ROOT / "templates"),
@@ -102,7 +132,7 @@ def env():
         trim_blocks=True,
         lstrip_blocks=True,
     )
-    e.filters.update(money=money, num=num, signed=signed, cls=cls, spark=spark)
+    e.filters.update(money=money, num=num, signed=signed, cls=cls, spark=spark, chart=chart)
     return e
 
 
@@ -123,6 +153,7 @@ def build_crypto(e, ts):
     ai = ai_brief.brief("crypto", sig)
     html = e.get_template("crypto.html").render(
         edition="crypto",
+        tv_symbols=TV_SYMBOLS,
         updated=ts,
         sig=sig,
         data=data,
@@ -161,6 +192,9 @@ def build_tao(e, ts):
         sig=sig,
         tao=sig["tao"],
         ai=ai,
+        series={"subnets": series_from_history(history, "subnets"),
+                "tao": [[t, v] for t, v in series_from_history(
+                    [{"ts": h["ts"], "x": {"tao": {"price": h.get("tao_price")}}} for h in history], "x").get("tao", [])]},
         history=history,
         errors=data.get("errors") or [],
     )

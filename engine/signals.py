@@ -378,6 +378,7 @@ def venue_signals(venues, global_stats, coins):
     by_sym = {c["symbol"]: c for c in coins or []}
     for r in perps:
         c = by_sym.get(r["base"])
+        r["cg_id"] = c["id"] if c else None
         if c and c["mcap"]:
             r["oi_to_mcap"] = ((r["oi_usd"] or 0) + (r["hl_oi_usd"] or 0)) / c["mcap"] * 100
             if r["oi_to_mcap"] > 8:
