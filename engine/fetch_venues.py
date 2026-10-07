@@ -103,7 +103,12 @@ def dex_new():
 def dex_volumes():
     params = {"excludeTotalDataChart": "true", "excludeTotalDataChartBreakdown": "true"}
     spot = get_json("https://api.llama.fi/overview/dexs", params=params)
-    perps = get_json("https://api.llama.fi/overview/derivatives", params=params)
+    try:
+        perps = get_json("https://api.llama.fi/overview/derivatives", params=params, retries=1)
+    except RuntimeError as e:
+        # DefiLlama moved this endpoint behind its paid API; spot DEX volumes are still free.
+        print(f"  perp DEX volumes unavailable: {e}")
+        perps = {}
 
     def top(d, n=12):
         rows = sorted(d.get("protocols") or [], key=lambda p: p.get("total24h") or 0, reverse=True)[:n]

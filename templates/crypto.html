@@ -65,7 +65,7 @@
 <div class="cards">
   <div class="card"><div class="k">DEX spot volume 24h</div><div class="v">{{ v.dex_volumes.spot_total_24h|money }}</div><div class="n {{ v.dex_volumes.spot_change_1d|cls }}">{{ v.dex_volumes.spot_change_1d|signed }} 1d</div></div>
   <div class="card"><div class="k">DEX share of spot</div><div class="v">{{ v.dex_share|num(1) }}%</div><div class="n">vs all tracked spot volume</div></div>
-  <div class="card"><div class="k">Perp DEX volume 24h</div><div class="v">{{ v.dex_volumes.perp_total_24h|money }}</div><div class="n {{ v.dex_volumes.perp_change_1d|cls }}">{{ v.dex_volumes.perp_change_1d|signed }} 1d</div></div>
+  {% if v.dex_volumes.perp_total_24h %}<div class="card"><div class="k">Perp DEX volume 24h</div><div class="v">{{ v.dex_volumes.perp_total_24h|money }}</div><div class="n {{ v.dex_volumes.perp_change_1d|cls }}">{{ v.dex_volumes.perp_change_1d|signed }} 1d</div></div>{% endif %}
   <div class="card"><div class="k">Perp open interest</div><div class="v">{{ v.total_oi|money }}</div><div class="n">CEX perps + Hyperliquid</div></div>
   <div class="card"><div class="k">Crowded longs</div><div class="v">{{ v.crowded|length }}</div><div class="n">funding &gt; 0.05% / 8h</div></div>
   <div class="card"><div class="k">Shorts paying</div><div class="v">{{ v.squeeze|length }}</div><div class="n">funding &lt; −0.02% / 8h</div></div>
@@ -155,8 +155,8 @@
     <div class="tablewrap"><table>
       <thead><tr><th class="l">Protocol</th><th>24h volume</th><th>1d</th></tr></thead>
       <tbody>
-      {% for x in v.dex_volumes.spot_top[:7] %}<tr><td class="l">{{ x.name }} <small class="flat">spot</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
-      {% for x in v.dex_volumes.perp_top[:5] %}<tr><td class="l">{{ x.name }} <small class="flat">perps</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
+      {% for x in (v.dex_volumes.spot_top or [])[:7] %}<tr><td class="l">{{ x.name }} <small class="flat">spot</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
+      {% for x in (v.dex_volumes.perp_top or [])[:5] %}<tr><td class="l">{{ x.name }} <small class="flat">perps</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
       </tbody>
     </table></div>
   </div>

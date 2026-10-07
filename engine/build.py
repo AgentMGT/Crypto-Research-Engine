@@ -4,10 +4,11 @@ import json
 import os
 import shutil
 import sys
+import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 
 from . import ai_brief, fetch_crypto, fetch_tao, fetch_venues, signals
 
@@ -48,8 +49,12 @@ def save_history(edition, history, snapshot):
     return history
 
 
+def _missing(v):
+    return v is None or isinstance(v, Undefined)
+
+
 def money(v, dp=2):
-    if v is None:
+    if _missing(v):
         return "–"
     v = float(v)
     for cut, suf in ((1e12, "T"), (1e9, "B"), (1e6, "M"), (1e3, "K")):
@@ -61,15 +66,15 @@ def money(v, dp=2):
 
 
 def num(v, dp=2):
-    return "–" if v is None else f"{float(v):,.{dp}f}"
+    return "–" if _missing(v) else f"{float(v):,.{dp}f}"
 
 
 def signed(v, dp=1):
-    return "–" if v is None else f"{float(v):+,.{dp}f}%"
+    return "–" if _missing(v) else f"{float(v):+,.{dp}f}%"
 
 
 def cls(v):
-    if v is None:
+    if _missing(v):
         return "flat"
     return "up" if v > 0 else "down" if v < 0 else "flat"
 
@@ -174,10 +179,15 @@ def main():
     e = env()
 
     built = []
-    if which in ("crypto", "all"):
-        built.append(("crypto", build_crypto(e, ts)))
-    if which in ("tao", "all"):
-        built.append(("tao", build_tao(e, ts)))
+    for name, fn in (("crypto", build_crypto), ("tao", build_tao)):
+        if which not in (name, "all"):
+            continue
+        try:
+            built.append((name, fn(e, ts)))
+        except Exception:
+            # One broken edition must not take the other one down with it.
+            traceback.print_exc()
+            built.append((name, None))
 
     for name in ("style.css", "app.js"):
         src = ROOT / "static" / name
