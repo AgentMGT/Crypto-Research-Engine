@@ -9,13 +9,24 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import ai_brief, fetch_crypto, fetch_tao, signals
+from . import ai_brief, fetch_crypto, fetch_tao, fetch_venues, signals
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
 DATA = ROOT / "data"
 HIST = DATA / "history"
 KEEP = 90  # ~30 days at 3 refreshes a day
+
+_venues = None
+
+
+def venues():
+    """CEX/DEX scan is shared by both editions, so fetch it once per run."""
+    global _venues
+    if _venues is None:
+        print("== venue scan (CEX + DEX)")
+        _venues = fetch_venues.fetch_all()
+    return _venues
 
 
 # ------------------------------------------------------------------ helpers
@@ -97,6 +108,9 @@ def build_crypto(e, ts):
     data = fetch_crypto.fetch_all()
     history = load_history("crypto")
     sig = signals.crypto_signals(data, history)
+    v = venues()
+    sig["venues"] = signals.venue_signals(v, data.get("global"), sig["coins"])
+    data["errors"] = (data.get("errors") or []) + (v.get("errors") or [])
     if not sig["coins"]:
         print("  no market data; keeping previous page")
         return None
@@ -113,7 +127,7 @@ def build_crypto(e, ts):
     )
     (OUT / "index.html").write_text(html)
     (DATA / "crypto-latest.json").write_text(
-        json.dumps({"updated": ts, "regime": sig["regime"], "ideas": sig["ideas"], "coins": sig["coins"], "ai": ai}, default=str)
+        json.dumps({"updated": ts, "regime": sig["regime"], "ideas": sig["ideas"], "coins": sig["coins"], "venues": sig["venues"], "ai": ai}, default=str)
     )
     return sig
 
@@ -124,6 +138,13 @@ def build_tao(e, ts):
     history = load_history("tao")
     sig = signals.tao_signals(data, history)
     sig["tao"] = data.get("tao") or {}
+    v = venues()
+    sig["tao_venues"] = data.get("venues") or []
+    sig["tao_perps"] = [r for r in signals.perp_book(v.get("cex_perps"), v.get("dex_perps")) if r["base"] == "TAO"]
+    sig["tao_perp_venues"] = sorted(
+        [p for p in (v.get("cex_perps") or []) + (v.get("dex_perps") or []) if (p.get("base") or "").upper() == "TAO" and p.get("oi_usd")],
+        key=lambda p: -(p["oi_usd"] or 0),
+    )[:12]
     if not sig["subnets"]:
         print("  no chain data; keeping previous page")
         return None

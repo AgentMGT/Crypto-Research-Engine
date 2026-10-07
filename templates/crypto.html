@@ -59,6 +59,110 @@
 {% endfor %}
 </div>
 
+{% set v = sig.venues %}
+{% if v %}
+<h2 id="venues">Centralized vs decentralized markets</h2>
+<div class="cards">
+  <div class="card"><div class="k">DEX spot volume 24h</div><div class="v">{{ v.dex_volumes.spot_total_24h|money }}</div><div class="n {{ v.dex_volumes.spot_change_1d|cls }}">{{ v.dex_volumes.spot_change_1d|signed }} 1d</div></div>
+  <div class="card"><div class="k">DEX share of spot</div><div class="v">{{ v.dex_share|num(1) }}%</div><div class="n">vs all tracked spot volume</div></div>
+  <div class="card"><div class="k">Perp DEX volume 24h</div><div class="v">{{ v.dex_volumes.perp_total_24h|money }}</div><div class="n {{ v.dex_volumes.perp_change_1d|cls }}">{{ v.dex_volumes.perp_change_1d|signed }} 1d</div></div>
+  <div class="card"><div class="k">Perp open interest</div><div class="v">{{ v.total_oi|money }}</div><div class="n">CEX perps + Hyperliquid</div></div>
+  <div class="card"><div class="k">Crowded longs</div><div class="v">{{ v.crowded|length }}</div><div class="n">funding &gt; 0.05% / 8h</div></div>
+  <div class="card"><div class="k">Shorts paying</div><div class="v">{{ v.squeeze|length }}</div><div class="n">funding &lt; −0.02% / 8h</div></div>
+</div>
+
+<h2>Perpetuals positioning</h2>
+<p class="sub">Funding is open-interest weighted across centralized venues and normalised to 8 hours; the Hyperliquid column is the same asset on an on-chain venue. Persistent high funding means longs are paying to stay in, which is where squeezes start.</p>
+<div class="tablewrap">
+<table>
+<thead><tr><th class="l">Asset</th><th>CEX funding 8h</th><th>Annualised</th><th>Hyperliquid 8h</th><th>CEX OI</th><th>Hyperliquid OI</th><th>OI / mcap</th><th>Venues</th><th class="l">Tags</th></tr></thead>
+<tbody>
+{% for r in v.perps %}
+  <tr>
+    <td class="l"><b>{{ r.base }}</b></td>
+    <td class="{{ r.funding_8h|cls }}">{{ r.funding_8h|num(4) }}%</td>
+    <td class="{{ r.funding_ann|cls }}">{{ r.funding_ann|num(1) }}%</td>
+    <td class="{{ r.hl_funding_8h|cls }}">{{ r.hl_funding_8h|num(4) }}%</td>
+    <td>{{ r.oi_usd|money if r.oi_usd else '–' }}</td>
+    <td>{{ r.hl_oi_usd|money if r.hl_oi_usd else '–' }}</td>
+    <td>{{ r.oi_to_mcap|num(1) }}{{ '%' if r.oi_to_mcap is not none }}</td>
+    <td>{{ r.venues or '–' }}</td>
+    <td class="l">{% for t in r.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+<h2>DEX scanner: trending pools</h2>
+<p class="sub">Trending pools across every chain GeckoTerminal indexes, filtered to at least $50K liquidity. Buy share is buys over all swaps in 24h. These are the highest-risk assets on the site; check the contract and holder spread before anything else.</p>
+<div class="tablewrap">
+<table>
+<thead><tr><th class="l">Pool</th><th class="l">Chain · DEX</th><th>Price</th><th>1h</th><th>24h</th><th>Liquidity</th><th>Volume 24h</th><th>Buy share</th><th>Buyers / sellers</th><th>Score</th><th class="l">Tags</th></tr></thead>
+<tbody>
+{% for p in v.dex_trending %}
+  <tr>
+    <td class="l"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></td>
+    <td class="l">{{ p.network }} · {{ p.dex }}</td>
+    <td>{{ p.price_usd|money }}</td>
+    <td class="{{ p.ch_1h|cls }}">{{ p.ch_1h|signed }}</td>
+    <td class="{{ p.ch_24h|cls }}">{{ p.ch_24h|signed }}</td>
+    <td>{{ p.liquidity|money }}</td>
+    <td>{{ p.vol_24h|money }}</td>
+    <td>{{ (p.buy_ratio * 100)|num(0) if p.buy_ratio is not none else '–' }}%</td>
+    <td>{{ p.buyers }} / {{ p.sellers }}</td>
+    <td><span class="score">{{ p.score }}</span></td>
+    <td class="l">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+{% if v.dex_new %}
+<h2>DEX scanner: new pools with traction</h2>
+<div class="tablewrap">
+<table>
+<thead><tr><th class="l">Pool</th><th class="l">Chain · DEX</th><th class="l">Created</th><th>Liquidity</th><th>Volume 24h</th><th>24h</th><th>Buy share</th><th class="l">Tags</th></tr></thead>
+<tbody>
+{% for p in v.dex_new %}
+  <tr>
+    <td class="l"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></td>
+    <td class="l">{{ p.network }} · {{ p.dex }}</td>
+    <td class="l">{{ (p.created or '')[:16]|replace('T', ' ') }}</td>
+    <td>{{ p.liquidity|money }}</td>
+    <td>{{ p.vol_24h|money }}</td>
+    <td class="{{ p.ch_24h|cls }}">{{ p.ch_24h|signed }}</td>
+    <td>{{ (p.buy_ratio * 100)|num(0) if p.buy_ratio is not none else '–' }}%</td>
+    <td class="l">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+{% endif %}
+
+<div class="split">
+  <div>
+    <h2>Top centralized exchanges</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th class="l">Exchange</th><th>Trust</th><th>24h volume (BTC)</th></tr></thead>
+      <tbody>{% for x in v.exchanges %}<tr><td class="l">{{ x.name }}</td><td>{{ x.trust or '–' }}/10</td><td>{{ x.volume_btc|num(0) }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+  </div>
+  <div>
+    <h2>Top DEXs, spot and perps</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th class="l">Protocol</th><th>24h volume</th><th>1d</th></tr></thead>
+      <tbody>
+      {% for x in v.dex_volumes.spot_top[:7] %}<tr><td class="l">{{ x.name }} <small class="flat">spot</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
+      {% for x in v.dex_volumes.perp_top[:5] %}<tr><td class="l">{{ x.name }} <small class="flat">perps</small></td><td>{{ x.vol_24h|money }}</td><td class="{{ x.ch_1d|cls }}">{{ x.ch_1d|signed }}</td></tr>{% endfor %}
+      </tbody>
+    </table></div>
+  </div>
+</div>
+{% endif %}
+
 <h2>Screener</h2>
 <div class="filter">
   <input id="q" type="search" placeholder="Filter by name, symbol or tag" aria-label="Filter coins">
@@ -115,4 +219,4 @@
 {% endif %}
 {% endblock %}
 
-{% block sources %}Sources: CoinGecko, alternative.me Fear &amp; Greed, DefiLlama, Yahoo Finance. {{ history|length }} snapshots retained.{% endblock %}
+{% block sources %}Sources: CoinGecko (spot, exchanges, derivatives), GeckoTerminal, DefiLlama, Hyperliquid, alternative.me Fear &amp; Greed, Yahoo Finance. {{ history|length }} snapshots retained.{% endblock %}

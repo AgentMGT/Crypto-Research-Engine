@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from engine import build, fetch_crypto, fetch_tao, signals  # noqa: E402
+from engine import build, fetch_crypto, fetch_tao, fetch_venues, signals  # noqa: E402
 
 random.seed(7)
 
@@ -101,11 +101,67 @@ def fake_tao():
         "tao": {"price": 412.5, "mcap": 3.9e9, "volume": 1.8e8, "chg_24h": 2.4, "chg_7d": -5.1,
                 "chg_30d": 12.8, "ath": 757.0, "circulating": 9_410_000, "max_supply": 21_000_000,
                 "history": walk(380, 90, 0.001, 0.03)},
+        "venues": [
+            {"venue": v, "kind": k, "pair": pr, "price": 412.5 * random.uniform(0.998, 1.002), "volume": vol,
+             "spread": random.uniform(0.01, 0.4), "depth_2pct": vol * random.uniform(0.005, 0.03), "trust": "green", "stale": False}
+            for v, k, pr, vol in [("Binance", "CEX", "TAO/USDT", 6.1e7), ("Upbit", "CEX", "TAO/KRW", 2.4e7), ("Bybit", "CEX", "TAO/USDT", 1.1e7),
+                                  ("Coinbase Exchange", "CEX", "TAO/USD", 9.2e6), ("Kraken", "CEX", "TAO/USD", 3.3e6),
+                                  ("Uniswap V3 (Ethereum)", "DEX", "WTAO/WETH", 1.2e6), ("Raydium", "DEX", "TAO/SOL", 4.0e5)]
+        ],
         "errors": ["demo build: synthetic data, no live sources"],
     }
 
 
+CHAINS = [("solana", "Raydium"), ("base", "Aerodrome"), ("eth", "Uniswap V3"), ("bsc", "PancakeSwap V3"), ("arbitrum", "Camelot")]
+
+
+def fake_pool(i, new=False):
+    net, dex = random.choice(CHAINS)
+    liq = 10 ** random.uniform(4.5, 7.2)
+    buys, sells = random.randint(200, 9000), random.randint(200, 9000)
+    return {
+        "name": f"TOKEN{i} / {'SOL' if net == 'solana' else 'WETH'}", "address": f"0x{i:040x}", "network": net, "dex": dex,
+        "price_usd": 10 ** random.uniform(-6, 0), "liquidity": liq, "fdv": liq * random.uniform(3, 40), "mcap": None,
+        "vol_24h": liq * random.uniform(0.3, 12), "vol_1h": liq * random.uniform(0.01, 0.6),
+        "ch_1h": random.gauss(0, 6), "ch_24h": random.gauss(10, 45),
+        "buys": buys, "sells": sells, "buyers": int(buys * 0.6), "sellers": int(sells * 0.6),
+        "created": "2026-10-06T09:14:00Z" if new else "2026-08-21T12:00:00Z",
+        "url": "https://www.geckoterminal.com",
+    }
+
+
+def fake_venues():
+    perps = []
+    for _, sym, _ in NAMES:
+        if sym in ("USDT", "USDC"):
+            continue
+        for venue in ("Binance (Futures)", "Bybit (Futures)", "OKX (Futures)", "Bitget Futures"):
+            perps.append({"venue": venue, "symbol": f"{sym}USDT", "base": sym, "price": 1.0,
+                          "funding": random.gauss(0.012, 0.025), "oi_usd": 10 ** random.uniform(7, 9.6),
+                          "volume_usd": 10 ** random.uniform(7.5, 10), "basis": 0})
+    hl = [{"venue": "Hyperliquid", "base": sym, "price": 1.0, "ch_24h": random.gauss(0, 4),
+           "funding": random.gauss(0.0015, 0.003), "oi_usd": 10 ** random.uniform(6.5, 9), "volume_usd": 10 ** random.uniform(7, 9.5)}
+          for _, sym, _ in NAMES if sym not in ("USDT", "USDC")] + [
+          {"venue": "Hyperliquid", "base": "PUMP", "price": 0.004, "ch_24h": 8.1, "funding": 0.009, "oi_usd": 4.1e7, "volume_usd": 2.2e8}]
+    return {
+        "cex_exchanges": [{"name": n, "trust": t, "volume_btc": v, "country": None} for n, t, v in
+                          [("Binance", 10, 182000), ("Bybit", 10, 41000), ("Coinbase Exchange", 10, 38500), ("OKX", 10, 35200),
+                           ("Upbit", 10, 22100), ("Bitget", 9, 19800), ("Gate", 9, 15400), ("Kraken", 10, 9300)]],
+        "cex_perps": perps,
+        "dex_trending": [fake_pool(i) for i in range(40)],
+        "dex_new": [fake_pool(100 + i, new=True) for i in range(20)],
+        "dex_volumes": {"spot_total_24h": 1.21e10, "spot_change_1d": 6.4, "perp_total_24h": 1.37e10, "perp_change_1d": -3.1,
+                        "spot_top": [{"name": n, "vol_24h": v, "ch_1d": random.gauss(0, 12), "chains": []} for n, v in
+                                     [("Uniswap", 3.1e9), ("PancakeSwap", 2.4e9), ("Raydium", 1.3e9), ("Aerodrome", 8.8e8), ("Meteora", 7.1e8), ("Orca", 5.2e8), ("Curve", 3.3e8)]],
+                        "perp_top": [{"name": n, "vol_24h": v, "ch_1d": random.gauss(0, 12), "chains": []} for n, v in
+                                     [("Hyperliquid", 8.4e9), ("Aster", 2.2e9), ("Lighter", 1.4e9), ("edgeX", 6.0e8), ("Jupiter Perps", 4.1e8)]]},
+        "dex_perps": hl,
+        "errors": [],
+    }
+
+
 fetch_crypto.fetch_all = fake_crypto
+fetch_venues.fetch_all = fake_venues
 fetch_tao.fetch_all = fake_tao
 
 # Two past snapshots so the "since last refresh" and 1d/7d columns have something to compare.

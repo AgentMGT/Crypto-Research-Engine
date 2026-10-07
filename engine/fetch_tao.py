@@ -118,8 +118,46 @@ def tao_market():
     }
 
 
+DEX_HINTS = ("uniswap", "raydium", "orca", "meteora", "jupiter", "aerodrome", "velodrome", "pancakeswap",
+             "sushi", "curve", "balancer", "camelot", "trader_joe", "hydradx", "osmosis", "swap", "dex")
+
+
+def _is_dex(market):
+    ident = f"{market.get('identifier') or ''} {market.get('name') or ''}".lower()
+    return any(h in ident for h in DEX_HINTS)
+
+
+def tao_venues():
+    """Where TAO trades: CEX order books and DEX pools, from CoinGecko's ticker feed."""
+    d = get_json(f"{CG}/coins/bittensor/tickers", params={"order": "volume_desc", "depth": "true"}, headers=CG_HEADERS)
+    rows = []
+    for t in d.get("tickers") or []:
+        m = t.get("market") or {}
+        rows.append(
+            {
+                "venue": m.get("name"),
+                "kind": "DEX" if _is_dex(m) else "CEX",
+                "pair": f"{t.get('base')}/{t.get('target')}",
+                "price": (t.get("converted_last") or {}).get("usd"),
+                "volume": (t.get("converted_volume") or {}).get("usd") or 0,
+                "spread": t.get("bid_ask_spread_percentage"),
+                "depth_2pct": (t.get("cost_to_move_up_usd") or 0) + (t.get("cost_to_move_down_usd") or 0),
+                "trust": t.get("trust_score"),
+                "stale": t.get("is_stale") or t.get("is_anomaly"),
+            }
+        )
+    rows = [r for r in rows if not r["stale"] and r["volume"]]
+    return sorted(rows, key=lambda r: -r["volume"])[:20]
+
+
 def fetch_all():
     out, errors = {}, []
+    try:
+        print("fetch tao venues")
+        out["venues"] = tao_venues()
+    except Exception as e:
+        print(f"  FAILED tao venues: {e}")
+        errors.append(f"tao venues: {e}")
     try:
         print("fetch tao market")
         out["tao"] = tao_market()

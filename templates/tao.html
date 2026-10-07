@@ -47,6 +47,30 @@
 {% endfor %}
 </div>
 
+{% if sig.tao_venues or sig.tao_perp_venues %}
+<h2>Where TAO trades</h2>
+<div class="split">
+  {% if sig.tao_venues %}
+  <div>
+    <div class="tablewrap"><table>
+      <thead><tr><th class="l">Spot venue</th><th class="l">Type</th><th class="l">Pair</th><th>Price</th><th>24h volume</th><th>Spread</th><th>±2% depth</th></tr></thead>
+      <tbody>{% for x in sig.tao_venues %}<tr><td class="l">{{ x.venue }}</td><td class="l"><span class="tag">{{ x.kind }}</span></td><td class="l">{{ x.pair }}</td><td>{{ x.price|money }}</td><td>{{ x.volume|money }}</td><td>{{ x.spread|num(2) }}%</td><td>{{ x.depth_2pct|money if x.depth_2pct else '–' }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+  </div>
+  {% endif %}
+  {% if sig.tao_perp_venues %}
+  <div>
+    <div class="tablewrap"><table>
+      <thead><tr><th class="l">Perp venue</th><th>Funding</th><th>Open interest</th><th>24h volume</th></tr></thead>
+      <tbody>{% for x in sig.tao_perp_venues %}<tr><td class="l">{{ x.venue }}</td><td class="{{ x.funding|cls }}">{{ x.funding|num(4) }}%{{ ' /h' if x.venue == 'Hyperliquid' }}</td><td>{{ x.oi_usd|money }}</td><td>{{ x.volume_usd|money }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+    {% for r in sig.tao_perps %}<p class="sub" style="margin-top:8px">OI-weighted CEX funding {{ r.funding_8h|num(4) }}% per 8h ({{ r.funding_ann|num(1) }}% annualised) across {{ r.venues }} venues{% if r.tags %}: {{ r.tags|join(', ') }}{% endif %}.</p>{% endfor %}
+  </div>
+  {% endif %}
+</div>
+<p class="sub">Subnet alpha tokens trade only on Bittensor's own on-chain pools, which is what the table below reads.</p>
+{% endif %}
+
 <h2>All subnets</h2>
 <div class="filter">
   <input id="q" type="search" placeholder="Filter by name or tag" aria-label="Filter subnets">
@@ -90,4 +114,4 @@
 </div>
 {% endblock %}
 
-{% block sources %}Sources: Bittensor Finney chain via the official SDK, CoinGecko for TAO/USD. {{ history|length }} snapshots retained.{% endblock %}
+{% block sources %}Sources: Bittensor Finney chain via the official SDK; CoinGecko for TAO price, spot venues and perps; Hyperliquid. {{ history|length }} snapshots retained.{% endblock %}

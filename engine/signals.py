@@ -284,3 +284,116 @@ def tao_snapshot(sig, ts, tao_price):
             for s in sig["subnets"]
         },
     }
+
+
+# ---------------------------------------------------------------- CEX + DEX venues
+
+FUNDING_HOT = 0.05    # % per 8h: longs paying ~55% annualised
+FUNDING_COLD = -0.02  # % per 8h: shorts paying
+
+
+def perp_book(cex_perps, dex_perps):
+    """Per-asset perp positioning across CEX venues, with Hyperliquid alongside."""
+    agg = {}
+    for p in cex_perps or []:
+        base = (p.get("base") or "").upper()
+        if not base or p.get("funding") is None or not p.get("oi_usd"):
+            continue
+        a = agg.setdefault(base, {"base": base, "oi": 0.0, "vol": 0.0, "fw": 0.0, "venues": set()})
+        a["oi"] += p["oi_usd"]
+        a["vol"] += p.get("volume_usd") or 0
+        a["fw"] += p["funding"] * p["oi_usd"]
+        a["venues"].add(p.get("venue"))
+    hl = {(p.get("base") or "").upper(): p for p in dex_perps or []}
+    rows = []
+    for base, a in agg.items():
+        f8 = a["fw"] / a["oi"] if a["oi"] else None
+        h = hl.get(base)
+        hl8 = h["funding"] * 8 if h and h.get("funding") is not None else None
+        tags = []
+        if f8 is not None and f8 > FUNDING_HOT:
+            tags.append("Crowded longs")
+        if f8 is not None and f8 < FUNDING_COLD:
+            tags.append("Shorts paying")
+        if f8 is not None and hl8 is not None and abs(f8 - hl8) > 0.03:
+            tags.append("CEX/DEX funding gap")
+        rows.append({
+            "base": base, "oi_usd": a["oi"], "volume_usd": a["vol"], "venues": len(a["venues"]),
+            "funding_8h": f8, "funding_ann": f8 * 3 * 365 if f8 is not None else None,
+            "hl_funding_8h": hl8, "hl_oi_usd": h.get("oi_usd") if h else None, "tags": tags,
+        })
+    # Assets that only trade as perps on Hyperliquid still matter for an on-chain read.
+    for base, h in hl.items():
+        if base not in agg and h.get("oi_usd", 0) > 5e6 and h.get("funding") is not None:
+            hl8 = h["funding"] * 8
+            rows.append({
+                "base": base, "oi_usd": 0, "volume_usd": 0, "venues": 0, "funding_8h": None,
+                "funding_ann": None, "hl_funding_8h": hl8, "hl_oi_usd": h["oi_usd"],
+                "tags": ["DEX-only perp"] + (["Crowded longs"] if hl8 > FUNDING_HOT else []),
+            })
+    return sorted(rows, key=lambda r: -((r["oi_usd"] or 0) + (r["hl_oi_usd"] or 0)))
+
+
+def dex_pool_signals(pools, min_liq=50_000):
+    seen, rows = set(), []
+    for p in pools or []:
+        key = (p["network"], p["address"])
+        if key in seen or not p.get("liquidity") or p["liquidity"] < min_liq:
+            continue
+        seen.add(key)
+        tx = (p["buys"] or 0) + (p["sells"] or 0)
+        buy_ratio = p["buys"] / tx if tx else None
+        turnover = (p["vol_24h"] or 0) / p["liquidity"]
+        tags = []
+        if p["liquidity"] < 150_000:
+            tags.append("Thin liquidity")
+        if buy_ratio is not None and buy_ratio > 0.6 and p["buyers"] > p["sellers"]:
+            tags.append("Buy pressure")
+        if buy_ratio is not None and buy_ratio < 0.4:
+            tags.append("Sell pressure")
+        if turnover > 8:
+            tags.append("Churn > 8x liquidity")
+        if p.get("created") and p["created"][:10] >= _days_ago(2):
+            tags.append("New pool")
+        score = (
+            0.35 * clamp(((buy_ratio or 0.5) - 0.5) * 5)
+            + 0.25 * clamp(math.log10(max(p["liquidity"], 1) / 500_000))
+            + 0.25 * clamp((p["ch_24h"] or 0) / 50)
+            - (0.25 if turnover > 8 else 0)
+        )
+        rows.append({**p, "buy_ratio": buy_ratio, "turnover": turnover, "score": round(score * 100), "tags": tags})
+    return rows
+
+
+def _days_ago(n):
+    from datetime import datetime, timedelta, timezone
+    return (datetime.now(timezone.utc) - timedelta(days=n)).strftime("%Y-%m-%d")
+
+
+def venue_signals(venues, global_stats, coins):
+    perps = perp_book(venues.get("cex_perps"), venues.get("dex_perps"))
+    vols = venues.get("dex_volumes") or {}
+    cex_spot = ((global_stats or {}).get("total_volume") or {}).get("usd")
+    dex_spot = vols.get("spot_total_24h")
+    by_sym = {c["symbol"]: c for c in coins or []}
+    for r in perps:
+        c = by_sym.get(r["base"])
+        if c and c["mcap"]:
+            r["oi_to_mcap"] = ((r["oi_usd"] or 0) + (r["hl_oi_usd"] or 0)) / c["mcap"] * 100
+            if r["oi_to_mcap"] > 8:
+                r["tags"].append("Leverage heavy")
+            c["tags"] = c["tags"] + [t for t in r["tags"] if t in ("Crowded longs", "Shorts paying", "Leverage heavy")]
+        else:
+            r["oi_to_mcap"] = None
+    return {
+        "exchanges": venues.get("cex_exchanges") or [],
+        "perps": perps[:40],
+        "dex_trending": sorted(dex_pool_signals(venues.get("dex_trending")), key=lambda p: -p["score"])[:25],
+        "dex_new": sorted(dex_pool_signals(venues.get("dex_new"), min_liq=25_000), key=lambda p: -(p["vol_24h"] or 0))[:15],
+        "dex_volumes": vols,
+        # CoinGecko's global volume already includes the DEX pairs it tracks, so this is a share of the whole.
+        "dex_share": min(dex_spot / cex_spot * 100, 100) if dex_spot and cex_spot else None,
+        "total_oi": sum((r["oi_usd"] or 0) + (r["hl_oi_usd"] or 0) for r in perps),
+        "crowded": [r for r in perps if "Crowded longs" in r["tags"]][:8],
+        "squeeze": [r for r in perps if "Shorts paying" in r["tags"]][:8],
+    }

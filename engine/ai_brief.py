@@ -35,6 +35,13 @@ def _payload(edition, signals):
                 {k: c[k] for k in ("symbol", "name", "rank", "price", "ch24", "ch7", "ch30", "rsi", "range7", "turnover", "score", "tags")}
                 for c in sorted(signals["coins"], key=lambda x: -x["score"])[:25]
             ],
+            "venues": {
+                "dex_share_of_spot_pct": signals["venues"]["dex_share"],
+                "total_perp_oi_usd": signals["venues"]["total_oi"],
+                "crowded_longs": [{k: r[k] for k in ("base", "funding_8h", "oi_usd", "hl_funding_8h", "oi_to_mcap")} for r in signals["venues"]["crowded"]],
+                "shorts_paying": [{k: r[k] for k in ("base", "funding_8h", "oi_usd", "hl_funding_8h", "oi_to_mcap")} for r in signals["venues"]["squeeze"]],
+                "dex_trending": [{k: p[k] for k in ("name", "network", "dex", "liquidity", "vol_24h", "ch_24h", "buy_ratio", "tags")} for p in signals["venues"]["dex_trending"][:10]],
+            } if signals.get("venues") else None,
             "worst_by_score": [
                 {k: c[k] for k in ("symbol", "name", "ch24", "ch7", "ch30", "rsi", "score", "tags")}
                 for c in sorted(signals["coins"], key=lambda x: x["score"])[:10]
@@ -43,6 +50,8 @@ def _payload(edition, signals):
     return {
         "tao": {k: signals["tao"][k] for k in ("price", "mcap", "chg_24h", "chg_7d", "chg_30d") if k in signals.get("tao", {})},
         "ecosystem": signals["eco"],
+        "tao_perps": signals.get("tao_perps"),
+        "tao_spot_venues": (signals.get("tao_venues") or [])[:8],
         "top_subnets": [
             {k: s[k] for k in ("netuid", "name", "price_tao", "ema_premium", "daily_flow_tao", "em_share", "em_to_mcap", "mcap_tao", "tao_liquidity", "ch_1d", "ch_7d", "score", "tags")}
             for s in sorted(signals["subnets"], key=lambda x: -x["score"])[:25]
