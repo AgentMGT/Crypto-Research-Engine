@@ -20,6 +20,15 @@
       <a href="index.html#news">News</a>
     </nav>
     <div class="stamp">Updated {{ updated }}</div>
+    <div class="scan" id="scan" data-repo="{{ repo }}" data-workflow="refresh.yml">
+      <button type="button" id="scan-btn">Scan now</button>
+      <div class="scan-pop" id="scan-pop" hidden>
+        <p>Scans run on GitHub Actions. On the page that just opened, press <b>Run workflow</b>, then <b>Run workflow</b> again in the menu. You need to be signed in to GitHub.</p>
+        <p>Keep this tab open: it shows the scan's progress and reloads itself when the new data is live, usually within 5 minutes.</p>
+        <a id="scan-open" target="_blank" rel="noopener" href="https://github.com/{{ repo }}/actions/workflows/refresh.yml">Open GitHub again ↗</a>
+      </div>
+      <span class="scan-state" id="scan-state" aria-live="polite"></span>
+    </div>
   </div>
 </header>
 

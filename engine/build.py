@@ -147,6 +147,8 @@ def env():
         lstrip_blocks=True,
     )
     e.filters.update(money=money, num=num, signed=signed, cls=cls, spark=spark, chart=chart)
+    # Repo the "Scan now" button triggers; Actions sets GITHUB_REPOSITORY.
+    e.globals["repo"] = os.environ.get("GITHUB_REPOSITORY") or "AgentMGT/Crypto-Research-Engine"
     e.tests["contains"] = lambda seq, x: x in (seq or [])
     return e
 

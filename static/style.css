@@ -166,3 +166,21 @@ body.modal-open { overflow: hidden; }
   .clarity-grid { grid-template-columns: 1fr; }
   .news { grid-template-columns: 1fr; }
 }
+
+/* ---- scan now */
+.scan { position: relative; display: flex; align-items: center; gap: 8px; }
+.scan button { font: inherit; font-size: 13px; font-weight: 600; color: var(--bg); background: var(--accent); border: 0; border-radius: 7px; padding: 6px 12px; cursor: pointer; }
+.scan button:disabled { opacity: 0.6; cursor: default; }
+.scan-state { font-size: 12.5px; color: var(--dim); white-space: nowrap; }
+.scan-state.ok { color: var(--up); }
+.scan-state.bad { color: var(--down); }
+.scan-pop { position: absolute; right: 0; top: calc(100% + 8px); width: min(340px, calc(100vw - 32px)); background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; box-shadow: 0 8px 30px rgb(0 0 0 / 0.25); font-size: 13px; color: var(--dim); z-index: 6; }
+.scan-pop p { margin: 0 0 8px; }
+.scan-pop b { color: var(--text); }
+.scan-pop a { color: var(--accent); }
+@media (max-width: 640px) {
+  .top-row { height: auto; padding-top: 8px; padding-bottom: 8px; row-gap: 8px; }
+  .scan { order: 4; width: 100%; }
+  .scan-pop { left: 0; right: auto; }
+  .scan-state { white-space: normal; }
+}

@@ -342,3 +342,72 @@
     });
   });
 })();
+
+// "Scan now": opens the refresh workflow on GitHub (running it needs the owner's
+// GitHub sign-in, so no token ever lives in this public page), then follows the
+// run through the public Actions API and reloads once the new build is deployed.
+(function () {
+  var box = document.getElementById("scan");
+  if (!box) return;
+  var btn = document.getElementById("scan-btn");
+  var pop = document.getElementById("scan-pop");
+  var state = document.getElementById("scan-state");
+  var api = "https://api.github.com/repos/" + box.dataset.repo + "/actions/workflows/" + box.dataset.workflow + "/runs?per_page=5";
+  var KEY = "scan-requested-at";
+  var timer = null;
+
+  function stored() { try { return +localStorage.getItem(KEY) || 0; } catch (e) { return 0; } }
+  function store(v) { try { v ? localStorage.setItem(KEY, String(v)) : localStorage.removeItem(KEY); } catch (e) {} }
+  function show(text, kind) { state.textContent = text; state.className = "scan-state" + (kind ? " " + kind : ""); }
+
+  function poll() {
+    var since = stored();
+    fetch(api, { headers: { Accept: "application/vnd.github+json" } })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) {
+        var runs = d.workflow_runs || [];
+        var active = runs.filter(function (r) { return r.status !== "completed"; })[0];
+        // The run started after the button was pressed (a minute of slack for clock skew).
+        var mine = since && runs.filter(function (r) { return Date.parse(r.created_at) > since - 60000; })[0];
+        if (active) {
+          btn.disabled = true;
+          show(active.status === "queued" || active.status === "waiting" ? "Scan queued…" : "Scanning…");
+          pop.hidden = true;
+          schedule(20000);
+        } else if (mine && mine.conclusion === "success") {
+          store(0);
+          show("Scan done, reloading…", "ok");
+          // Give the Pages CDN a moment to serve the new files.
+          setTimeout(function () { location.replace(location.pathname + "?t=" + Date.now() + location.hash); }, 15000);
+        } else if (mine) {
+          store(0);
+          btn.disabled = false;
+          show("Scan " + (mine.conclusion || "stopped"), "bad");
+        } else if (since && Date.now() - since < 10 * 60000) {
+          show("Waiting for the run to start…");
+          schedule(15000);
+        } else {
+          store(0);
+          btn.disabled = false;
+          show("");
+        }
+      })
+      .catch(function () {
+        btn.disabled = false;
+        show(stored() ? "Can't check progress; reload later" : "");
+      });
+  }
+
+  function schedule(ms) { clearTimeout(timer); timer = setTimeout(poll, ms); }
+
+  btn.addEventListener("click", function () {
+    store(Date.now());
+    window.open(document.getElementById("scan-open").href, "_blank", "noopener");
+    pop.hidden = false;
+    show("Waiting for the run to start…");
+    schedule(15000);
+  });
+  document.addEventListener("click", function (e) { if (!box.contains(e.target)) pop.hidden = true; });
+
+  poll(); // picks up a scan already in flight, e.g. the scheduled one
+})();
