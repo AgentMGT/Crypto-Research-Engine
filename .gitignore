@@ -2,5 +2,4 @@ site/
 __pycache__/
 *.pyc
 .venv/
-data/history/*.json
 data/*-latest.json
