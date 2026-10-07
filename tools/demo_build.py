@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from engine import build, fetch_crypto, fetch_tao, fetch_venues, signals  # noqa: E402
+from engine import build, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals  # noqa: E402
 
 random.seed(7)
 
@@ -160,6 +160,39 @@ def fake_venues():
     }
 
 
+HEADLINES = {
+    "coindesk": ["Bitcoin holds $60K as ETF outflows slow", "Solana DEX volume tops Ethereum for third week",
+                 "SEC chair Atkins signals token taxonomy guidance", "Chainlink adds CCIP lanes for tokenized funds"],
+    "cointelegraph": ["Ethereum staking ETF sees record inflows", "Hacker drains $40M from cross-chain bridge",
+                      "Fed rate cut odds rise after soft CPI print", "Tether mints $1B USDT on Tron"],
+    "theblock": ["Senate leaders weigh lame-duck vote on CLARITY Act", "CFTC nominee backs spot crypto oversight"],
+    "decrypt": ["Hyperliquid open interest hits new high", "XRP lawsuit appeal briefing set"],
+    "blockworks": ["Market structure bill: what the failed cloture vote means for exchanges"],
+    "CLARITY": ["Tillis motion to reconsider keeps CLARITY Act alive - Reuters",
+                "Crypto PACs rethink midterm spending after CLARITY Act stalls - Bloomberg",
+                "Lummis: market structure bill is dead for this Congress - Politico"],
+    "Bittensor": ["Bittensor subnet emissions shift after dTAO update - CoinDesk",
+                  "Grayscale files for Bittensor TAO trust conversion - The Block"],
+}
+
+
+def fake_feed(url):
+    key = next((k for k in HEADLINES if k.lower() in url.lower()), None)
+    google = "news.google.com" in url
+    items = []
+    for i, t in enumerate(HEADLINES.get(key, []) if key else []):
+        when = datetime.now(timezone.utc).timestamp() - (i * 5 + random.random() * 30) * 3600
+        pub = datetime.fromtimestamp(when, timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+        src = f"<source url='https://x'>{t.rsplit(' - ', 1)[1]}</source>" if google and " - " in t else ""
+        items.append(f"<item><title>{t}</title><link>https://example.com/{key}/{i}</link><pubDate>{pub}</pubDate>{src}"
+                     f"<description>&lt;p&gt;Synthetic summary for {t}.&lt;/p&gt;</description></item>")
+    return f"<?xml version='1.0'?><rss><channel>{''.join(items)}</channel></rss>".encode()
+
+
+fetch_news._get = fake_feed
+fetch_news.get_json = lambda *a, **k: {"objects": [{"current_status_label": "Passed House",
+                                                     "current_status_date": "2025-07-17",
+                                                     "link": "https://www.govtrack.us/congress/bills/119/hr3633"}]}
 fetch_crypto.fetch_all = fake_crypto
 fetch_venues.fetch_all = fake_venues
 fetch_tao.fetch_all = fake_tao

@@ -37,6 +37,17 @@ Every data source is free and needs no account. Two optional secrets:
 A source that fails leaves its section empty and is listed in a banner at the top
 of the page, so one bad API never breaks the build.
 
+## News and the CLARITY Act tracker
+
+`engine/fetch_news.py` pulls the last 7 days of headlines from CoinDesk, Cointelegraph,
+The Block, Decrypt, Blockworks and Google News RSS searches (CLARITY Act, market
+structure, SEC/CFTC, Bittensor). Headlines are de-duplicated, tagged by topic and by
+the coins they mention, and fed to the AI brief as context.
+
+The CLARITY Act panel combines live headlines and GovTrack's official bill status with
+the hand-kept milestone list in `data/clarity.json`. Edit that file when the bill moves
+(new vote, markup, signing) and update `status_label`, `status_note` and `status_as_of`.
+
 ## Running it locally
 
 ```bash

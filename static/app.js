@@ -325,3 +325,20 @@
   document.getElementById("chart-close").addEventListener("click", close);
   modal.addEventListener("click", function (ev) { if (ev.target === modal) close(); });
 })();
+
+// Headline topic filter.
+(function () {
+  document.querySelectorAll(".news-filter").forEach(function (bar) {
+    var list = bar.nextElementSibling;
+    if (!list) return;
+    bar.addEventListener("click", function (e) {
+      var b = e.target.closest("button");
+      if (!b) return;
+      bar.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
+      var t = b.dataset.topic;
+      list.querySelectorAll(".news-item").forEach(function (li) {
+        li.hidden = !!t && li.dataset.topics.split("|").indexOf(t) < 0;
+      });
+    });
+  });
+})();

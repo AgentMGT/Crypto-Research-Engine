@@ -1,0 +1,66 @@
+{# Headline list and CLARITY Act tracker, shared by both editions. #}
+
+{% macro headline(n) %}
+  <li class="news-item" data-topics="{{ n.topics|join('|') }}">
+    <a class="news-title" href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a>
+    <div class="news-meta">
+      <span>{{ n.source }}</span>{% if n.age %}<span title="{{ n.ts }}">{{ n.age }}</span>{% endif %}
+      {% for t in n.topics %}<span class="tag topic{{ ' hot' if t == 'CLARITY Act' }}">{{ t }}</span>{% endfor %}
+      {% for c in n.coins %}<span class="tag coin"{{ {'t': 'cg', 'id': c.id, 'label': c.symbol ~ ' · ' ~ c.name}|chart }}>{{ c.symbol }}</span>{% endfor %}
+    </div>
+    {% if n.summary %}<p class="news-sum">{{ n.summary }}</p>{% endif %}
+  </li>
+{% endmacro %}
+
+{% macro news_list(items, topics=None, empty='No headlines came back this run.') %}
+{% if topics %}
+<div class="news-filter" role="group" aria-label="Filter headlines">
+  <button type="button" class="on" data-topic="">All <span>{{ items|length }}</span></button>
+  {% for t in topics %}{% set k = items|selectattr('topics', 'contains', t)|list|length %}{% if k %}
+  <button type="button" data-topic="{{ t }}">{{ t }} <span>{{ k }}</span></button>
+  {% endif %}{% endfor %}
+</div>
+{% endif %}
+{% if items %}
+<ul class="news">
+{% for n in items %}{{ headline(n) }}{% endfor %}
+</ul>
+{% else %}
+<p class="sub">{{ empty }}</p>
+{% endif %}
+{% endmacro %}
+
+{% macro clarity_panel(c) %}
+{% if c and c.bill %}
+<div class="clarity">
+  <div class="clarity-head">
+    <div>
+      <div class="k">Bill tracker</div>
+      <h3>{{ c.bill.name }}</h3>
+      <div class="n">{{ c.bill.label }} · <a href="{{ c.bill.congress_url }}" target="_blank" rel="noopener">Congress.gov ↗</a></div>
+    </div>
+    <span class="pill warn">{{ c.status_label or "In progress" }}</span>
+  </div>
+  {% if c.live and c.live.status %}
+  <p class="clarity-live">Congress record: <b>{{ c.live.status }}</b>{% if c.live.date %} since {{ c.live.date }}{% endif %}{% if c.live.link %} · <a href="{{ c.live.link }}" target="_blank" rel="noopener">GovTrack ↗</a>{% endif %}</p>
+  {% endif %}
+  <p class="clarity-what">{{ c.bill.what }}</p>
+  <p class="clarity-note">{{ c.status_note }} <span class="faint">(as of {{ c.status_as_of }})</span></p>
+  <div class="clarity-grid">
+    <ol class="timeline">
+    {% for m in c.milestones|reverse %}
+      <li class="{{ 'upcoming' if m.upcoming }}"><span class="d">{{ m.date }}</span><span>{{ m.event }}</span></li>
+    {% endfor %}
+    </ol>
+    <div>
+      <h4>Latest CLARITY Act headlines</h4>
+      {% if c.headlines %}
+      <ul class="news compact">{% for n in c.headlines[:8] %}{{ headline(n) }}{% endfor %}</ul>
+      {% else %}
+      <p class="sub">No CLARITY Act headlines in the last 7 days.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endmacro %}

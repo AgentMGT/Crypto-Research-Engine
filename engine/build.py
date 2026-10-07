@@ -13,7 +13,7 @@ from html import escape
 from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 from markupsafe import Markup
 
-from . import ai_brief, fetch_crypto, fetch_tao, fetch_venues, signals
+from . import ai_brief, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
@@ -22,6 +22,7 @@ HIST = DATA / "history"
 KEEP = 90  # ~30 days at 3 refreshes a day
 
 _venues = None
+_news = None
 
 # Yahoo symbol -> TradingView symbol, for the macro rows' click-through charts.
 TV_SYMBOLS = {
@@ -38,6 +39,19 @@ def venues():
         print("== venue scan (CEX + DEX)")
         _venues = fetch_venues.fetch_all()
     return _venues
+
+
+def news(coins=None):
+    """Headlines are shared too; coin tagging uses the screener's list when it exists."""
+    global _news
+    if _news is None:
+        print("== news")
+        try:
+            _news = fetch_news.fetch_all(sorted(coins or [], key=lambda c: c.get("rank") or 9999))
+        except Exception as e:  # never let headlines take a page down
+            traceback.print_exc()
+            _news = {"crypto": [], "tao": [], "clarity": {}, "topics": [], "errors": [f"news: {e}"]}
+    return _news
 
 
 # ------------------------------------------------------------------ helpers
@@ -133,6 +147,7 @@ def env():
         lstrip_blocks=True,
     )
     e.filters.update(money=money, num=num, signed=signed, cls=cls, spark=spark, chart=chart)
+    e.tests["contains"] = lambda seq, x: x in (seq or [])
     return e
 
 
@@ -145,7 +160,9 @@ def build_crypto(e, ts):
     sig = signals.crypto_signals(data, history)
     v = venues()
     sig["venues"] = signals.venue_signals(v, data.get("global"), sig["coins"])
-    data["errors"] = (data.get("errors") or []) + (v.get("errors") or [])
+    n = news(sig["coins"])
+    sig["news"] = n
+    data["errors"] = (data.get("errors") or []) + (v.get("errors") or []) + (n.get("errors") or [])
     if not sig["coins"]:
         print("  no market data; keeping previous page")
         return None
@@ -163,7 +180,7 @@ def build_crypto(e, ts):
     )
     (OUT / "index.html").write_text(html)
     (DATA / "crypto-latest.json").write_text(
-        json.dumps({"updated": ts, "regime": sig["regime"], "ideas": sig["ideas"], "coins": sig["coins"], "venues": sig["venues"], "ai": ai}, default=str)
+        json.dumps({"updated": ts, "regime": sig["regime"], "ideas": sig["ideas"], "coins": sig["coins"], "venues": sig["venues"], "news": sig["news"], "ai": ai}, default=str)
     )
     return sig
 
@@ -181,6 +198,7 @@ def build_tao(e, ts):
         [p for p in (v.get("cex_perps") or []) + (v.get("dex_perps") or []) if (p.get("base") or "").upper() == "TAO" and p.get("oi_usd")],
         key=lambda p: -(p["oi_usd"] or 0),
     )[:12]
+    sig["news"] = news()
     if not sig["subnets"]:
         print("  no chain data; keeping previous page")
         return None

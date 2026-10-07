@@ -13,7 +13,9 @@ rule-based signals computed from it.
 
 Write for an experienced investor who wants a fast, honest read. Rules:
 - Ground every claim in the numbers provided. Never invent a number, a headline, or an event.
-- You have no news feed: do not speculate about causes you cannot see in the data.
+- You also get recent headlines (titles only). Use them as context for what the market may be \
+reacting to, attribute them to their source, and never treat a headline as confirmed fact or \
+infer details beyond its title. Don't speculate about causes that neither the data nor a headline shows.
 - Say plainly when the data is mixed or thin.
 - Research and risk framing only. No "buy X" instructions, no price targets, no leverage advice.
 
@@ -28,8 +30,13 @@ Keep watchlist to at most 5 entries, risks and questions to 3 each."""
 
 def _payload(edition, signals):
     """Trim the snapshot to what the model needs — keeps the prompt small and cheap."""
+    news = signals.get("news") or {}
+    heads = lambda items, n: [{k: i.get(k) for k in ("title", "source", "ts", "topics")} for i in (items or [])[:n]]
     if edition == "crypto":
         return {
+            "headlines": heads(news.get("crypto"), 25),
+            "clarity_act": {"status": (news.get("clarity") or {}).get("status_note"),
+                            "headlines": heads((news.get("clarity") or {}).get("headlines"), 6)},
             "regime": signals["regime"],
             "top_by_score": [
                 {k: c[k] for k in ("symbol", "name", "rank", "price", "ch24", "ch7", "ch30", "rsi", "range7", "turnover", "score", "tags")}
@@ -48,6 +55,7 @@ def _payload(edition, signals):
             ],
         }
     return {
+        "headlines": heads(news.get("tao"), 12),
         "tao": {k: signals["tao"][k] for k in ("price", "mcap", "chg_24h", "chg_7d", "chg_30d") if k in signals.get("tao", {})},
         "ecosystem": signals["eco"],
         "tao_perps": signals.get("tao_perps"),

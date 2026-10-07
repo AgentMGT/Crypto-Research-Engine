@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "name": "Digital Asset Market Clarity Act (CLARITY Act)",
+    "number": 3633,
+    "congress": 119,
+    "govtrack_type": "house_bill",
+    "label": "H.R. 3633, 119th Congress",
+    "congress_url": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
+    "what": "Splits crypto oversight between the CFTC (digital commodities, spot markets) and the SEC (investment contracts), sets a path for tokens to count as decentralized, and registers exchanges, brokers and dealers."
+  },
+  "status_label": "Stalled in Senate",
+  "status_note": "Stalled in the Senate after a failed cloture vote on 2026-09-15 (49-50, 60 needed). A motion to reconsider keeps a later vote possible; the lame-duck session after the 2026-11-03 midterms is the last window for this Congress.",
+  "status_as_of": "2026-10-07",
+  "milestones": [
+    {"date": "2025-05-29", "event": "Introduced in the House by Financial Services Chair French Hill"},
+    {"date": "2025-07-17", "event": "Passed the House, 294-134"},
+    {"date": "2025-09-18", "event": "Received in the Senate, referred to the Banking Committee"},
+    {"date": "2026-05-14", "event": "Senate Banking advanced an amended version, 15-9"},
+    {"date": "2026-06-01", "event": "Reported to the full Senate and placed on the calendar"},
+    {"date": "2026-07-22", "event": "Merged Senate draft released, adding ethics language"},
+    {"date": "2026-09-15", "event": "Senate cloture on the motion to proceed failed, 49-50; Tillis entered a motion to reconsider"},
+    {"date": "2026-11-03", "event": "US midterm elections", "upcoming": true}
+  ]
+}

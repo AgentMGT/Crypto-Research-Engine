@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_news.html" import news_list %}
 {% block title %}Bittensor &amp; subnets — research engine{% endblock %}
 {% set eco = sig.eco %}
 
@@ -26,7 +27,7 @@
     {% if ai.risks %}<div><h4>Risks</h4><ul>{% for x in ai.risks %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
     {% if ai.questions %}<div><h4>Next to check</h4><ul>{% for x in ai.questions %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
   </div>
-  <div class="by">Written by {{ ai.model }} from this run's on-chain figures only — it has no news feed.</div>
+  <div class="by">Written by {{ ai.model }} from this run's on-chain figures and Bittensor headlines.</div>
 </div>
 {% endif %}
 
@@ -46,6 +47,9 @@
   </div>
 {% endfor %}
 </div>
+
+<h2 id="news">Bittensor news</h2>
+{{ news_list((sig.news.tao if sig.news else [])[:20], empty='No Bittensor headlines in the last 7 days.') }}
 
 {% if sig.tao_venues or sig.tao_perp_venues %}
 <h2>Where TAO trades</h2>
@@ -116,4 +120,4 @@
 
 {% block data %}<script id="series-data" type="application/json">{{ series|tojson }}</script>{% endblock %}
 
-{% block sources %}Sources: Bittensor Finney chain via the official SDK; CoinGecko for TAO price, spot venues and perps; Hyperliquid. {{ history|length }} snapshots retained.{% endblock %}
+{% block sources %}Sources: Google News RSS for headlines; Bittensor Finney chain via the official SDK; CoinGecko for TAO price, spot venues and perps; Hyperliquid. {{ history|length }} snapshots retained.{% endblock %}
