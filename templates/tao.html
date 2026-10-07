@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}Bittensor &amp; subnets — research engine{% endblock %}
+{% set eco = sig.eco %}
+
+{% block content %}
+<h1>Bittensor (TAO) &amp; subnets</h1>
+<p class="sub">Subnet prices, pool liquidity, emissions and net TAO flow read directly from the Finney chain at block {{ eco.block }}. Rebuilt three times a day.</p>
+
+<div class="cards">
+  <div class="card"><div class="k">TAO price</div><div class="v">{{ tao.price|money }}</div><div class="n {{ tao.chg_24h|cls }}">{{ tao.chg_24h|signed }} 24h · <span class="{{ tao.chg_7d|cls }}">{{ tao.chg_7d|signed }} 7d</span></div></div>
+  <div class="card"><div class="k">TAO market cap</div><div class="v">{{ tao.mcap|money }}</div><div class="n">{{ tao.circulating|num(0) }} / {{ tao.max_supply|num(0) }} TAO</div></div>
+  <div class="card"><div class="k">Subnets</div><div class="v">{{ eco.subnet_count }}</div><div class="n">{{ eco.inflow_count }} with net inflows</div></div>
+  <div class="card"><div class="k">Alpha market cap</div><div class="v">{{ eco.total_alpha_mcap_tao|num(0) }} TAO</div><div class="n">{{ (eco.total_alpha_mcap_tao * tao.price)|money }}</div></div>
+  <div class="card"><div class="k">Pool liquidity</div><div class="v">{{ eco.total_pool_tao|num(0) }} TAO</div><div class="n">across all subnet pools</div></div>
+  <div class="card"><div class="k">Net daily flow</div><div class="v {{ eco.net_daily_flow_tao|cls }}">{{ eco.net_daily_flow_tao|num(0) }} TAO</div><div class="n">EMA of TAO in/out per day</div></div>
+  <div class="card"><div class="k">Top-5 emission share</div><div class="v">{{ eco.top5_em_share|num(1) }}%</div><div class="n">concentration of rewards</div></div>
+  {% if tao.history %}<div class="card"><div class="k">TAO, 90 days</div><div class="v" style="font-size:15px">{{ tao.history|spark(140, 34)|safe }}</div><div class="n {{ tao.chg_30d|cls }}">{{ tao.chg_30d|signed }} 30d</div></div>{% endif %}
+</div>
+
+{% if ai %}
+<div class="brief">
+  <h3>{{ ai.headline }}</h3>
+  <p>{{ ai.summary }}</p>
+  <div class="cols">
+    {% if ai.watchlist %}<div><h4>Watchlist</h4><ul>{% for w in ai.watchlist %}<li><b>{{ w.name }}</b> — {{ w.why }}</li>{% endfor %}</ul></div>{% endif %}
+    {% if ai.risks %}<div><h4>Risks</h4><ul>{% for x in ai.risks %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+    {% if ai.questions %}<div><h4>Next to check</h4><ul>{% for x in ai.questions %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+  </div>
+  <div class="by">Written by {{ ai.model }} from this run's on-chain figures only — it has no news feed.</div>
+</div>
+{% endif %}
+
+<h2>Ideas from this run</h2>
+<div class="ideas">
+{% for s in sig.ideas %}
+  <div class="idea">
+    <div class="hd"><span class="sym">SN{{ s.netuid }}</span><span class="nm">{{ s.name }}</span><span class="kind">{{ s.kind }}</span></div>
+    <div class="row">
+      <span><b>{{ s.price_tao|num(5) }}</b> τ</span>
+      <span class="{{ s.ema_premium|cls }}">{{ s.ema_premium|signed }} vs EMA</span>
+      <span class="{{ s.daily_flow_tao|cls }}">{{ s.daily_flow_tao|num(0) }} τ/day flow</span>
+      <span>emis <b>{{ s.em_share|num(2) }}%</b></span>
+      <span>score <b>{{ s.score }}</b></span>
+    </div>
+    <div class="tags">{% for t in s.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+  </div>
+{% endfor %}
+</div>
+
+<h2>All subnets</h2>
+<div class="filter">
+  <input id="q" type="search" placeholder="Filter by name or tag" aria-label="Filter subnets">
+  <span>Click a column to sort. Price is TAO per alpha; flow is the chain's EMA net TAO flow scaled to a day.</span>
+</div>
+<div class="tablewrap">
+<table id="screener" data-sort="score">
+<thead><tr>
+  <th class="l">Netuid</th><th class="l">Name</th><th>Price (τ)</th><th>vs EMA</th><th>1d</th><th>7d</th>
+  <th>Mkt cap (τ)</th><th>Pool (τ)</th><th>Flow τ/d</th><th>Emis %</th><th>Emis/mcap</th><th>Neurons</th><th>Age (d)</th><th>Score</th><th class="l">Tags</th>
+</tr></thead>
+<tbody>
+{% for s in sig.subnets|sort(attribute='score', reverse=true) %}
+  <tr data-q="SN{{ s.netuid }} {{ s.name }} {{ s.tags|join(' ') }}">
+    <td class="l">{{ s.netuid }}</td>
+    <td class="l">{{ s.name }}</td>
+    <td data-v="{{ s.price_tao }}">{{ s.price_tao|num(5) }}</td>
+    <td data-v="{{ s.ema_premium or 0 }}" class="{{ s.ema_premium|cls }}">{{ s.ema_premium|signed }}</td>
+    <td data-v="{{ s.ch_1d or 0 }}" class="{{ s.ch_1d|cls }}">{{ s.ch_1d|signed }}</td>
+    <td data-v="{{ s.ch_7d or 0 }}" class="{{ s.ch_7d|cls }}">{{ s.ch_7d|signed }}</td>
+    <td data-v="{{ s.mcap_tao }}">{{ s.mcap_tao|num(0) }}</td>
+    <td data-v="{{ s.tao_liquidity }}">{{ s.tao_liquidity|num(0) }}</td>
+    <td data-v="{{ s.daily_flow_tao }}" class="{{ s.daily_flow_tao|cls }}">{{ s.daily_flow_tao|num(0) }}</td>
+    <td data-v="{{ s.em_share }}">{{ s.em_share|num(2) }}</td>
+    <td data-v="{{ s.em_to_mcap or 0 }}">{{ s.em_to_mcap|num(0) }}%</td>
+    <td data-v="{{ s.neurons }}">{{ s.neurons }}</td>
+    <td data-v="{{ s.age_days or 0 }}">{{ s.age_days|num(0) }}</td>
+    <td data-v="{{ s.score }}"><span class="score">{{ s.score }}</span></td>
+    <td class="l">{% for t in s.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+<h2>How to read this</h2>
+<div class="card" style="margin-bottom:8px">
+  <p style="margin:0 0 8px;color:var(--dim);font-size:13.5px"><b style="color:var(--text)">vs EMA</b> compares spot alpha price to the chain's own moving price — the metric root stakers are paid against, so a large discount or premium is the cleanest dislocation signal on a subnet.</p>
+  <p style="margin:0 0 8px;color:var(--dim);font-size:13.5px"><b style="color:var(--text)">Flow τ/d</b> is <code>SubnetEmaTaoFlow</code> scaled to a day: positive means TAO is being staked into the subnet faster than it leaves.</p>
+  <p style="margin:0;color:var(--dim);font-size:13.5px"><b style="color:var(--text)">Emis/mcap</b> annualises the subnet's TAO emission against its alpha market cap — high values mean the market is paying little for a large share of rewards, which is a value screen and also a dilution warning.</p>
+</div>
+{% endblock %}
+
+{% block sources %}Sources: Bittensor Finney chain via the official SDK, CoinGecko for TAO/USD. {{ history|length }} snapshots retained.{% endblock %}

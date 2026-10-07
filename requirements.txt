@@ -1,0 +1,4 @@
+requests>=2.32
+Jinja2>=3.1
+bittensor>=11.0,<12
+anthropic>=1.0

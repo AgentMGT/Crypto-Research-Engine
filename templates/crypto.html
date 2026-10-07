@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block title %}Crypto &amp; markets — research engine{% endblock %}
+{% set r = sig.regime %}
+
+{% block content %}
+<h1>Crypto &amp; broader markets</h1>
+<p class="sub">Screens over the top ~250 coins, global crypto aggregates, DeFi flows and a macro dashboard. Rebuilt three times a day.</p>
+
+<div class="regime">
+  <span class="pill {{ 'up' if r.label == 'Risk-on' else 'down' if r.label == 'Risk-off' }}">{{ r.label }}</span>
+  <div class="body">
+    <strong>Regime read</strong>
+    <ul>
+      {% for reason in r.reasons %}<li>{{ reason }}</li>{% endfor %}
+      {% if not r.reasons %}<li>No strong directional signals in the inputs.</li>{% endif %}
+    </ul>
+  </div>
+  {% if r.fear_greed_series %}<div>{{ r.fear_greed_series|spark(150, 36)|safe }}<div class="stamp">Fear &amp; Greed, 30d</div></div>{% endif %}
+</div>
+
+<div class="cards">
+  <div class="card"><div class="k">Total market cap</div><div class="v">{{ r.total_mcap|money }}</div><div class="n {{ r.mcap_change_24h|cls }}">{{ r.mcap_change_24h|signed }} 24h</div></div>
+  <div class="card"><div class="k">24h volume</div><div class="v">{{ r.total_volume|money }}</div></div>
+  <div class="card"><div class="k">BTC dominance</div><div class="v">{{ r.btc_dominance|num(1) }}%</div><div class="n">ETH {{ r.eth_dominance|num(1) }}%</div></div>
+  <div class="card"><div class="k">Fear &amp; Greed</div><div class="v">{{ r.fear_greed if r.fear_greed is not none else '–' }}</div><div class="n">week ago {{ r.fear_greed_week_ago if r.fear_greed_week_ago is not none else '–' }}</div></div>
+  {% if data.defi %}
+  <div class="card"><div class="k">DeFi TVL (top 15)</div><div class="v">{{ data.defi.chains|sum(attribute='tvl')|money }}</div><div class="n">{{ data.defi.chains[0].name }} leads</div></div>
+  <div class="card"><div class="k">Stablecoin supply</div><div class="v">{{ data.defi.stablecoin_supply|money }}</div></div>
+  {% endif %}
+</div>
+
+{% if ai %}
+<div class="brief">
+  <h3>{{ ai.headline }}</h3>
+  <p>{{ ai.summary }}</p>
+  <div class="cols">
+    {% if ai.watchlist %}<div><h4>Watchlist</h4><ul>{% for w in ai.watchlist %}<li><b>{{ w.name }}</b> — {{ w.why }}</li>{% endfor %}</ul></div>{% endif %}
+    {% if ai.risks %}<div><h4>Risks</h4><ul>{% for x in ai.risks %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+    {% if ai.questions %}<div><h4>Next to check</h4><ul>{% for x in ai.questions %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+  </div>
+  <div class="by">Written by {{ ai.model }} from this run's figures only — it has no news feed.</div>
+</div>
+{% endif %}
+
+<h2>Ideas from this run</h2>
+<div class="ideas">
+{% for c in sig.ideas %}
+  <div class="idea">
+    <div class="hd"><span class="sym">{{ c.symbol }}</span><span class="nm">{{ c.name }}</span><span class="kind">{{ c.kind }}</span></div>
+    <div class="row">
+      <span><b>{{ c.price|money }}</b></span>
+      <span class="{{ c.ch24|cls }}">{{ c.ch24|signed }} 24h</span>
+      <span class="{{ c.ch7|cls }}">{{ c.ch7|signed }} 7d</span>
+      <span>RSI <b>{{ c.rsi|num(0) }}</b></span>
+      <span>score <b>{{ c.score }}</b></span>
+    </div>
+    <div class="tags">{% for t in c.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+  </div>
+{% endfor %}
+</div>
+
+<h2>Screener</h2>
+<div class="filter">
+  <input id="q" type="search" placeholder="Filter by name, symbol or tag" aria-label="Filter coins">
+  <span>Click a column to sort. Score blends relative strength, trend position and turnover.</span>
+</div>
+<div class="tablewrap">
+<table id="screener" data-sort="score">
+<thead><tr>
+  <th class="l">#</th><th class="l">Asset</th><th>Price</th><th>24h</th><th>7d</th><th>30d</th>
+  <th>RSI</th><th>7d range</th><th>Turnover</th><th>Mkt cap</th><th>Score</th><th class="l">7d</th><th class="l">Tags</th>
+</tr></thead>
+<tbody>
+{% for c in sig.coins|sort(attribute='score', reverse=true) %}
+  <tr data-q="{{ c.symbol }} {{ c.name }} {{ c.tags|join(' ') }}">
+    <td class="l">{{ c.rank or '' }}</td>
+    <td class="l"><div class="name">{% if c.image %}<img src="{{ c.image }}" alt="" loading="lazy">{% endif %}<span>{{ c.symbol }}</span><small>{{ c.name }}</small></div></td>
+    <td data-v="{{ c.price }}">{{ c.price|money }}</td>
+    <td data-v="{{ c.ch24 or 0 }}" class="{{ c.ch24|cls }}">{{ c.ch24|signed }}</td>
+    <td data-v="{{ c.ch7 or 0 }}" class="{{ c.ch7|cls }}">{{ c.ch7|signed }}</td>
+    <td data-v="{{ c.ch30 or 0 }}" class="{{ c.ch30|cls }}">{{ c.ch30|signed }}</td>
+    <td data-v="{{ c.rsi or 0 }}">{{ c.rsi|num(0) }}</td>
+    <td data-v="{{ c.range7 or 0 }}"><div class="bar" title="{{ c.range7|num(0) }}% of 7d range"><i style="width:{{ c.range7|num(0) if c.range7 else 0 }}%"></i></div></td>
+    <td data-v="{{ c.turnover }}">{{ c.turnover|num(1) }}%</td>
+    <td data-v="{{ c.mcap }}">{{ c.mcap|money }}</td>
+    <td data-v="{{ c.score }}"><span class="score">{{ c.score }}</span></td>
+    <td class="l">{{ c.spark|spark|safe }}</td>
+    <td class="l">{% for t in c.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+
+{% if data.macro %}
+<h2>Macro dashboard</h2>
+<div class="tablewrap">
+<table>
+<thead><tr><th class="l">Instrument</th><th>Level</th><th>1d</th><th>1m</th><th class="l">1m trend</th></tr></thead>
+<tbody>
+{% for m in data.macro %}
+  <tr><td class="l">{{ m.name }}</td><td>{{ m.price|num(2) }}</td>
+  <td class="{{ m.chg_1d|cls }}">{{ m.chg_1d|signed }}</td>
+  <td class="{{ m.chg_1m|cls }}">{{ m.chg_1m|signed }}</td>
+  <td class="l">{{ m.spark|spark|safe }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+{% endif %}
+
+{% if data.trending %}
+<h2>Trending searches</h2>
+<div class="tags">{% for t in data.trending %}<span class="tag">{{ t.symbol|upper }} · rank {{ t.market_cap_rank or '–' }}</span>{% endfor %}</div>
+{% endif %}
+{% endblock %}
+
+{% block sources %}Sources: CoinGecko, alternative.me Fear &amp; Greed, DefiLlama, Yahoo Finance. {{ history|length }} snapshots retained.{% endblock %}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Research engine{% endblock %}</title>
+<meta name="description" content="Self-updating crypto and Bittensor research dashboard, refreshed three times a day.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <div class="brand">
+      <span class="dot"></span>
+      <span>Research engine</span>
+    </div>
+    <nav>
+      <a href="index.html" class="{{ 'on' if edition == 'crypto' }}">Crypto &amp; markets</a>
+      <a href="bittensor.html" class="{{ 'on' if edition == 'tao' }}">Bittensor</a>
+    </nav>
+    <div class="stamp">Updated {{ updated }}</div>
+  </div>
+</header>
+
+<main class="wrap">
+{% if errors %}
+  <div class="banner">Some sources failed this run: {{ errors|join('; ') }}</div>
+{% endif %}
+{% block content %}{% endblock %}
+</main>
+
+<footer class="wrap foot">
+  <p>Research and screening output only. Nothing here is investment advice, and no trades are placed.
+  Signals are mechanical rules over public data; verify before acting.</p>
+  <p class="src">{% block sources %}{% endblock %}</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
