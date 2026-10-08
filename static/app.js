@@ -278,6 +278,11 @@
     lastFocus = from;
     titleEl.textContent = spec.label || "Chart";
     linkEl.hidden = true;
+    var research = document.getElementById("chart-research");
+    if (research) {
+      research.hidden = !(spec.t === "cg" && spec.id) || /research\.html$/.test(location.pathname);
+      if (spec.t === "cg") research.href = "research.html?id=" + encodeURIComponent(spec.id);
+    }
     rangesEl.innerHTML = "";
     modal.hidden = false;
     document.body.classList.add("modal-open");
@@ -323,6 +328,7 @@
     }
   });
   document.getElementById("chart-close").addEventListener("click", close);
+  window.openChart = function (spec, from) { if (spec && (LOADERS[spec.t] || spec.t === "tv")) open(spec, from); };
   modal.addEventListener("click", function (ev) { if (ev.target === modal) close(); });
 })();
 

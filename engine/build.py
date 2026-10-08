@@ -225,6 +225,11 @@ def build_tao(e, ts):
     return sig
 
 
+def build_research(e, ts):
+    """The coin research page is static; it loads everything in the browser."""
+    (OUT / "research.html").write_text(e.get_template("research.html").render(edition="research", updated=ts, errors=[]))
+
+
 def main():
     which = (sys.argv[1] if len(sys.argv) > 1 else "all").lower()
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -243,7 +248,8 @@ def main():
             traceback.print_exc()
             built.append((name, None))
 
-    for name in ("style.css", "app.js"):
+    build_research(e, ts)
+    for name in ("style.css", "app.js", "research.js"):
         src = ROOT / "static" / name
         if src.exists():
             shutil.copy(src, OUT / name)

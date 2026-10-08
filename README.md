@@ -37,6 +37,14 @@ Every data source is free and needs no account. Two optional secrets:
 A source that fails leaves its section empty and is listed in a banner at the top
 of the page, so one bad API never breaks the build.
 
+## Coin research
+
+`research.html` (static/research.js) lets you search any coin. It loads the profile,
+supply, venues and on-chain pools live from CoinGecko and GeckoTerminal in the browser,
+adds this engine's latest signals and headlines from `crypto-latest.json`, and runs a
+set of mechanical checks (dilution, liquidity, drawdown, momentum, venue concentration,
+funding). Deep link with `research.html?id=<coingecko id>` or `?q=<ticker>`.
+
 ## News and the CLARITY Act tracker
 
 `engine/fetch_news.py` pulls the last 7 days of headlines from CoinDesk, Cointelegraph,

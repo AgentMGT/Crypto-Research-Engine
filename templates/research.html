@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Research a coin — research engine{% endblock %}
+
+{% block content %}
+<h1>Research a coin</h1>
+<p class="sub">Type any coin or token. You get its market profile, supply and dilution, where it trades on centralized and decentralized venues, on-chain pools, this engine's signals and recent headlines. The data loads live from CoinGecko and GeckoTerminal when you search.</p>
+
+<div class="rs-search" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="rs-suggest">
+  <input id="rs-q" type="search" placeholder="Search by name or ticker, e.g. Solana, LINK, bittensor" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-controls="rs-suggest">
+  <ul id="rs-suggest" class="rs-suggest" role="listbox" hidden></ul>
+</div>
+<div class="rs-quick" id="rs-quick"></div>
+
+<div id="rs-status" class="rs-status" aria-live="polite"></div>
+<div id="rs-out"></div>
+{% endblock %}
+
+{% block scripts %}<script src="research.js"></script>{% endblock %}
+
+{% block sources %}Sources: CoinGecko (coin profile, tickers, search), GeckoTerminal (on-chain pools), and this engine's latest screener, perps and news snapshot.{% endblock %}
