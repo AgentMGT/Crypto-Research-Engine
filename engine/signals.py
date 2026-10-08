@@ -210,20 +210,20 @@ def tao_signals(data, history):
         liq_1d = pct(s["tao_liquidity"], (d1.get(k) or {}).get("liq"))
 
         score = (
-            0.30 * clamp((prem or 0) / 30)
-            + 0.25 * clamp(s["ema_tao_flow"] * 7200 / 500)  # daily EMA net flow vs 500 TAO
-            + 0.20 * clamp(((em_to_mcap or 0) - 50) / 100)
+            0.30 * clamp((prem or 0) / 10)
+            + 0.25 * clamp(s["ema_tao_flow"] * 7200 / 200)  # daily EMA net flow vs 200 TAO
+            + 0.20 * clamp(((em_to_mcap or 0) - 5) / 15)
             + 0.15 * clamp((ch_7d or 0) / 40)
             + 0.10 * clamp(math.log10(max(s["tao_liquidity"], 1) / 3000))
         )
         tags = []
-        if s["ema_tao_flow"] > 0 and (prem or 0) > 5:
+        if s["ema_tao_flow"] > 0 and (prem or 0) > 2:
             tags.append("Inflows + above EMA")
         if s["ema_tao_flow"] < 0:
             tags.append("Net outflows")
-        if em_to_mcap and em_to_mcap > 150 and s["ema_tao_flow"] >= 0:
+        if em_to_mcap and em_to_mcap > 15 and s["ema_tao_flow"] >= 0:
             tags.append("Cheap vs emissions")
-        if (prem or 0) < -20:
+        if (prem or 0) < -8:
             tags.append("Far below EMA")
         if s["tao_liquidity"] < 1000:
             tags.append("Thin liquidity")
@@ -280,7 +280,8 @@ def tao_snapshot(sig, ts, tao_price):
         "ts": ts,
         "tao_price": tao_price,
         "subnets": {
-            str(s["netuid"]): {"price": s["price_tao"], "volume": s["volume_total_tao"], "liq": s["tao_liquidity"]}
+            str(s["netuid"]): {"price": s["price_tao"], "volume": s["volume_total_tao"], "liq": s["tao_liquidity"],
+                               "flow": s["daily_flow_tao"], "em": s["em_share"]}
             for s in sig["subnets"]
         },
     }

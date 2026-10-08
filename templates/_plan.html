@@ -1,0 +1,126 @@
+{# Bittensor trading plan: live regime, entry board, trim/exit watch, sizing calculator and the written rules. #}
+
+{% macro plan_row(r, p) %}
+<tr data-q="SN{{ r.netuid }} {{ r.name }} {{ r.status }} {{ r.setup or '' }}" data-pool="{{ r.pool_tao }}"{{ {'t': 'sn', 'netuid': r.netuid, 'label': 'SN' ~ r.netuid ~ ' · ' ~ r.name}|chart }}>
+  <td class="l sub-cell"><b>SN{{ r.netuid }}</b> {{ r.name }}<div class="why" title="{{ r.reasons|join(' ') }}">{{ r.short }}</div></td>
+  <td class="l">{% if r.setup %}<span class="tag setup">{{ r.setup }}</span>{% else %}<span class="tag st-{{ r.status|lower|replace(' / ', '-')|replace(' ', '-') }}">{{ r.status }}</span>{% endif %}</td>
+  <td data-v="{{ r.price_tao }}">{{ r.price_tao|num(5) }}</td>
+  <td data-v="{{ r.ema_premium or 0 }}" class="{{ r.ema_premium|cls }}">{{ r.ema_premium|signed }}</td>
+  <td data-v="{{ r.daily_flow_tao }}" class="{{ r.daily_flow_tao|cls }}">{{ r.daily_flow_tao|num(0) }}{% if r.flow_rising %} ↑{% endif %}</td>
+  <td data-v="{{ r.em_to_mcap or 0 }}">{{ r.em_to_mcap|num(0) }}%</td>
+  <td data-v="{{ r.pool_tao }}">{{ r.pool_tao|num(0) }}</td>
+  <td class="calc-size">–</td>
+  <td class="calc-slip">–</td>
+  <td data-v="{{ r.stop_tao }}">{{ r.stop_tao|num(5) }}</td>
+  <td data-v="{{ r.trim_tao }}">{{ r.trim_tao|num(5) }}</td>
+</tr>
+{% endmacro %}
+
+{% macro plan_head() %}
+<thead><tr>
+  <th class="l">Subnet</th><th class="l">Setup / status</th><th>Price (TAO)</th><th>vs EMA</th><th>Flow TAO/d</th><th>Emis/mcap</th><th>Pool (TAO)</th>
+  <th title="Largest position the plan allows for your portfolio">Max size (TAO)</th><th title="Estimated price impact to buy the max size, and roughly the same to exit">Slippage</th>
+  <th title="Exit if price falls here, in TAO terms">Stop (TAO)</th><th title="Trim a third here">Trim at (TAO)</th>
+</tr></thead>
+{% endmacro %}
+
+{% macro trading_plan(plan) %}
+{% if plan %}
+{% set p = plan.params %}{% set g = plan.regime %}
+<h2 id="plan">Trading plan</h2>
+<p class="sub">A rules-based plan for TAO and subnet alpha, re-checked against the chain on every refresh. It tells you which subnets meet the entry, trim and exit rules right now and how big a position the rules allow. It is research, not advice, and nothing here places trades.</p>
+
+<div class="plan-regime {{ g.label }}">
+  <div class="plan-regime-head">
+    <span class="pill {{ 'up' if g.label == 'risk_on' else 'down' if g.label == 'risk_off' else '' }}">{{ g.title }}</span>
+    <b>Core TAO:</b> {{ g.stance }}
+  </div>
+  <ul>{% for x in g.reasons %}<li>{{ x }}</li>{% endfor %}</ul>
+  <div class="plan-buckets">
+    <div><span>Core TAO</span><b>{{ p.allocation_pct.core_tao }}%</b></div>
+    <div><span>Subnet basket cap this run</span><b>{{ g.basket_cap_pct }}%</b></div>
+    <div><span>Reserve (unstaked TAO)</span><b>{{ 100 - p.allocation_pct.core_tao - g.basket_cap_pct }}%</b></div>
+    <div><span>Entry candidates</span><b>{{ plan.entries|length }}</b></div>
+    <div><span>Trim signals</span><b>{{ plan.counts.get('Trim', 0) }}</b></div>
+    <div><span>Exit / avoid</span><b>{{ plan.counts.get('Exit / avoid', 0) + plan.counts.get('Avoid', 0) }}</b></div>
+  </div>
+</div>
+
+<div class="plan-calc" id="plan-calc" data-core="{{ p.allocation_pct.core_tao }}" data-basket="{{ g.basket_cap_pct }}"
+     data-posmax="{{ p.position_max_pct }}" data-poolshare="{{ p.max_pool_share_pct }}" data-tranches="{{ p.tranches }}" data-maxpos="{{ p.max_positions }}">
+  <label for="plan-size">Your portfolio, in TAO</label>
+  <input id="plan-size" type="number" min="0" step="any" inputmode="decimal" value="100">
+  <div class="plan-calc-out" id="plan-calc-out" aria-live="polite"></div>
+</div>
+
+<h3 class="plan-h">Entry candidates <span class="faint">ranked; the plan holds at most {{ p.max_positions }} positions</span></h3>
+{% if plan.entries %}
+<div class="tablewrap"><table class="plan-table">{{ plan_head() }}<tbody>
+{% for r in plan.entries %}{{ plan_row(r, p) }}{% endfor %}
+</tbody></table></div>
+{% else %}
+<p class="sub">No subnet meets the entry rules this run. Holding the reserve is the plan.</p>
+{% endif %}
+
+{% set trims = plan.rows|selectattr('status', 'equalto', 'Trim')|list %}
+{% set exits = plan.rows|selectattr('status', 'equalto', 'Exit / avoid')|list %}
+<h3 class="plan-h">If you hold these <span class="faint">trim and exit signals for this run</span></h3>
+<div class="tablewrap"><table class="plan-table">{{ plan_head() }}<tbody>
+{% for r in trims %}{{ plan_row(r, p) }}{% endfor %}
+{% for r in exits|sort(attribute='em_share', reverse=true) %}{% if loop.index <= 25 %}{{ plan_row(r, p) }}{% endif %}{% endfor %}
+</tbody></table></div>
+<p class="sub">Showing every trim signal and the {{ [exits|length, 25]|min }} largest subnets with an exit signal, out of {{ exits|length }}. Filter the full subnet table below for the rest.</p>
+
+<details class="plan-rules">
+<summary>Read the full plan</summary>
+
+<h4>1. What you are trading</h4>
+<p>Each subnet has its own alpha token, traded only against TAO in an on-chain pool. Buying alpha adds TAO to the pool and pushes the price up; selling does the reverse. Since November 2025, subnet emissions follow <b>net TAO flow</b>: subnets where more TAO is staked in than taken out earn emissions, and subnets with zero or negative smoothed flow earn nothing until inflows return. On top of that, an emission gate concentrates rewards near the top of the market, subnets priced lowest get pruned, and on 2026-06-22 emissions were switched off for 57 subnets with no real miners or code. The rules change often and with little notice, and that is the biggest risk in this plan. It is why positions stay small.</p>
+
+<h4>2. Allocation</h4>
+<ul>
+  <li><b>Core TAO, {{ p.allocation_pct.core_tao }}%.</b> Hold it, and stake it to root or a large validator for yield. Add on the regular DCA schedule and, in a risk-on regime, on pullbacks toward the 30-day average.</li>
+  <li><b>Subnet basket, up to {{ p.allocation_pct.subnet_basket }}%.</b> The cap moves with the regime: {{ p.basket_cap_pct.risk_on }}% risk-on, {{ p.basket_cap_pct.neutral }}% neutral, {{ p.basket_cap_pct.risk_off }}% risk-off. At most {{ p.max_positions }} positions.</li>
+  <li><b>Reserve, the rest.</b> Unstaked TAO, ready for entries and for adding to the core after sharp drops.</li>
+</ul>
+
+<h4>3. Which subnets qualify</h4>
+<ul>
+  <li>Earning emissions, with positive net flow.</li>
+  <li>Pool of at least {{ '{:,}'.format(p.min_pool_tao) }} τ, so you can get out.</li>
+  <li>At least {{ p.min_age_days }} days old.</li>
+  <li>Not in the bottom {{ p.prune_zone_pct }}% by price, which is where pruning happens.</li>
+</ul>
+
+<h4>4. Entry setups</h4>
+<ul>
+  <li><b>A · Flow leader.</b> Top {{ p.leader_top_em_rank }} by emissions, positive flow, 7-day change above zero, and price between {{ p.leader_min_premium }}% and +{{ p.entry_max_premium }}% of its moving price. This is momentum you join, not chase.</li>
+  <li><b>B · Value with inflows.</b> Emissions worth at least {{ p.value_min_em_to_mcap }}% of market cap a year, positive flow, and price between {{ p.value_min_premium }}% and +{{ p.value_max_premium }}% of its moving price. You are paid to wait.</li>
+  <li>Never open a position that already shows a trim signal.</li>
+</ul>
+
+<h4>5. Sizing</h4>
+<ul>
+  <li>One position is at most {{ p.position_max_pct }}% of the portfolio <i>and</i> at most {{ p.max_pool_share_pct }}% of the subnet's TAO pool. Buying x τ into a pool holding T τ moves the price by about x ÷ T, so this caps the cost of getting in and out at roughly {{ p.max_pool_share_pct }}% each way.</li>
+  <li>Enter in {{ p.tranches }} equal tranches, at least one refresh apart. Add the next tranche only if the setup still holds.</li>
+  <li>No leverage, and no perps for subnet exposure.</li>
+</ul>
+
+<h4>6. Exits</h4>
+<ul>
+  <li><b>Thesis exit:</b> sell the whole position when flow turns negative, emissions stop, or the subnet enters the pruning zone. The plan flags these each run.</li>
+  <li><b>Stop:</b> sell if the price falls {{ p.stop_loss_pct }}% below your average entry, measured in TAO. The Stop column shows that level from today's price.</li>
+  <li><b>Trim:</b> sell a third when price is more than {{ p.trim_premium }}% above its moving price, or up more than {{ p.trim_7d }}% in 7 days. Trim once per signal.</li>
+  <li><b>Basket circuit breaker:</b> if the whole basket falls {{ p.basket_drawdown_halve_pct }}% from its peak in TAO terms, halve every position and wait for a risk-on regime before rebuilding.</li>
+</ul>
+
+<h4>7. Routine</h4>
+<ul>
+  <li>Check after each refresh (06:17, 14:17, 22:17 UTC) or press Scan now. Act on exits first, then trims, then entries.</li>
+  <li>Keep a trade journal: date, subnet, setup, size, entry price in TAO and USD, and the reason. Review it weekly against the plan.</li>
+  <li>After any network rule change, stop entries until you have read it and checked that this plan's rules still make sense.</li>
+</ul>
+<p class="faint">Thresholds live in <code>data/tao_plan.json</code> in the repo; change them there and the page follows on the next refresh.</p>
+</details>
+{% endif %}
+{% endmacro %}

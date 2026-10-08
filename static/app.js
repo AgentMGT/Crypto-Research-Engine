@@ -417,3 +417,42 @@
 
   poll(); // picks up a scan already in flight, e.g. the scheduled one
 })();
+
+// Trading plan sizing: turns the plan's percentage rules into TAO amounts for the
+// portfolio size typed in, capped by each subnet's pool depth.
+(function () {
+  var box = document.getElementById("plan-calc");
+  if (!box) return;
+  var input = document.getElementById("plan-size");
+  var out = document.getElementById("plan-calc-out");
+  var d = box.dataset;
+  var KEY = "plan-portfolio-tao";
+  try { var saved = localStorage.getItem(KEY); if (saved) input.value = saved; } catch (e) {}
+
+  function fmt(v, dp) { return v.toLocaleString("en-US", { maximumFractionDigits: dp == null ? 1 : dp }); }
+
+  function update() {
+    var total = parseFloat(input.value) || 0;
+    try { localStorage.setItem(KEY, String(total)); } catch (e) {}
+    var basket = total * +d.basket / 100;
+    var posCap = Math.min(total * +d.posmax / 100, basket / Math.max(1, Math.min(+d.maxpos, 3)));
+    out.innerHTML =
+      "<div><span>Core TAO</span><b>" + fmt(total * +d.core / 100) + " τ</b></div>" +
+      "<div><span>Subnet basket, max</span><b>" + fmt(basket) + " τ</b></div>" +
+      "<div><span>Reserve</span><b>" + fmt(total - total * +d.core / 100 - basket) + " τ</b></div>" +
+      "<div><span>Per position, max</span><b>" + fmt(posCap) + " τ</b><small>in " + d.tranches + " tranches of " + fmt(posCap / +d.tranches) + " τ</small></div>";
+    document.querySelectorAll(".plan-table tbody tr").forEach(function (tr) {
+      var pool = +tr.dataset.pool || 0;
+      var size = Math.min(posCap, pool * +d.poolshare / 100);
+      var slip = pool ? size / (pool + size) * 100 : 0;
+      var s = tr.querySelector(".calc-size"), p = tr.querySelector(".calc-slip");
+      s.textContent = fmt(size, size < 10 ? 2 : 1);
+      s.dataset.v = size;
+      s.title = size < posCap ? "Capped by pool depth" : "Capped by the plan's position limit";
+      p.textContent = fmt(slip, 2) + "%";
+      p.dataset.v = slip;
+    });
+  }
+  input.addEventListener("input", update);
+  update();
+})();

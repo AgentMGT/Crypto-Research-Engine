@@ -1,0 +1,31 @@
+{
+  "_note": "Parameters for the Bittensor trading plan (engine/tao_plan.py). Edit and push to change the rules; the page shows whatever is here.",
+  "allocation_pct": {
+    "core_tao": 60,
+    "subnet_basket": 30,
+    "reserve": 10
+  },
+  "basket_cap_pct": {
+    "risk_on": 30,
+    "neutral": 20,
+    "risk_off": 10
+  },
+  "max_positions": 8,
+  "position_max_pct": 5,
+  "tranches": 3,
+  "max_pool_share_pct": 1.0,
+  "min_pool_tao": 5000,
+  "min_age_days": 60,
+  "prune_zone_pct": 15,
+  "entry_max_premium": 8,
+  "value_min_premium": -10,
+  "value_min_em_to_mcap": 15,
+  "leader_top_em_rank": 30,
+  "trim_premium": 15,
+  "trim_7d": 40,
+  "stop_loss_pct": 30,
+  "basket_drawdown_halve_pct": 25,
+  "funding_hot_8h": 0.05,
+  "leader_min_premium": -3,
+  "value_max_premium": 2
+}

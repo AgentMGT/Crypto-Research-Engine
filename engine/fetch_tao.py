@@ -35,10 +35,15 @@ def _fixed(v):
 
 
 def _ema_flow(v):
-    """SubnetEmaTaoFlow is (last_block, FixedI128 ema) -> ema in TAO per block."""
-    if isinstance(v, (list, tuple)) and len(v) == 2:
-        return _fixed(v[1]) / RAO
-    return _fixed(v) / RAO
+    """SubnetEmaTaoFlow is (last_block, I64F64 ema in rao) -> ema in TAO per block.
+
+    I64F64 has 64 fractional bits, not the 32 of the I96F32 prices, so `_fixed`
+    alone overstates it by 2**32 (live runs showed flows of ~1e12 TAO/day).
+    """
+    x = v[1] if isinstance(v, (list, tuple)) and len(v) == 2 else v
+    if isinstance(x, dict) and "bits" in x:
+        return int(x["bits"]) / 2 ** 64 / RAO
+    return _fixed(x) / RAO
 
 
 async def _chain_subnets():

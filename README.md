@@ -37,6 +37,15 @@ Every data source is free and needs no account. Two optional secrets:
 A source that fails leaves its section empty and is listed in a banner at the top
 of the page, so one bad API never breaks the build.
 
+## Bittensor trading plan
+
+`engine/tao_plan.py` evaluates a rules-based plan on every refresh: a core TAO stance
+from trend, network flow and perp funding; entry setups (flow leaders, value with
+inflows); trim and exit signals (outflows, no emissions, pruning zone, stretched
+price); and position caps from pool depth. The Bittensor page shows the board, a sizing
+calculator and the full written rules. Thresholds live in `data/tao_plan.json`.
+Research output only: nothing places trades.
+
 ## Coin research
 
 `research.html` (static/research.js) lets you search any coin. It loads the profile,

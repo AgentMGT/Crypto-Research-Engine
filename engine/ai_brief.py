@@ -56,6 +56,12 @@ def _payload(edition, signals):
         }
     return {
         "headlines": heads(news.get("tao"), 12),
+        "trading_plan": {
+            "regime": {k: (signals.get("plan") or {}).get("regime", {}).get(k) for k in ("title", "stance", "reasons", "basket_cap_pct")},
+            "entry_candidates": [{k: r[k] for k in ("netuid", "name", "setup", "ema_premium", "daily_flow_tao", "em_to_mcap", "pool_tao")}
+                                 for r in (signals.get("plan") or {}).get("entries", [])],
+            "trim": [r["netuid"] for r in (signals.get("plan") or {}).get("rows", []) if r["status"] == "Trim"],
+        },
         "tao": {k: signals["tao"][k] for k in ("price", "mcap", "chg_24h", "chg_7d", "chg_30d") if k in signals.get("tao", {})},
         "ecosystem": signals["eco"],
         "tao_perps": signals.get("tao_perps"),

@@ -13,7 +13,7 @@ from html import escape
 from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 from markupsafe import Markup
 
-from . import ai_brief, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals
+from . import ai_brief, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals, tao_plan
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
@@ -205,6 +205,7 @@ def build_tao(e, ts):
         print("  no chain data; keeping previous page")
         return None
     history = save_history("tao", history, signals.tao_snapshot(sig, ts, (data.get("tao") or {}).get("price")))
+    sig["plan"] = tao_plan.build(sig, sig["tao"], history)
     ai = ai_brief.brief("tao", sig)
     html = e.get_template("tao.html").render(
         edition="tao",
@@ -220,7 +221,7 @@ def build_tao(e, ts):
     )
     (OUT / "bittensor.html").write_text(html)
     (DATA / "tao-latest.json").write_text(
-        json.dumps({"updated": ts, "eco": sig["eco"], "ideas": sig["ideas"], "subnets": sig["subnets"], "ai": ai}, default=str)
+        json.dumps({"updated": ts, "eco": sig["eco"], "ideas": sig["ideas"], "subnets": sig["subnets"], "plan": sig["plan"], "ai": ai}, default=str)
     )
     return sig
 

@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% from "_news.html" import news_list %}
+{% from "_plan.html" import trading_plan %}
 {% block title %}Bittensor &amp; subnets — research engine{% endblock %}
 {% set eco = sig.eco %}
 
 {% block content %}
 <h1>Bittensor (TAO) &amp; subnets</h1>
-<p class="sub">Subnet prices, pool liquidity, emissions and net TAO flow read directly from the Finney chain at block {{ eco.block }}. Rebuilt three times a day.</p>
+<p class="sub">Subnet prices, pool liquidity, emissions and net TAO flow read directly from the Finney chain at block {{ eco.block }}. Rebuilt three times a day. <a href="#plan">Jump to the trading plan ↓</a></p>
 
 <div class="cards">
   <div class="card"{{ {'t': 'cg', 'id': 'bittensor', 'label': 'TAO · Bittensor'}|chart }}><div class="k">TAO price</div><div class="v">{{ tao.price|money }}</div><div class="n {{ tao.chg_24h|cls }}">{{ tao.chg_24h|signed }} 24h · <span class="{{ tao.chg_7d|cls }}">{{ tao.chg_7d|signed }} 7d</span></div></div>
@@ -48,6 +49,8 @@
 {% endfor %}
 </div>
 
+{{ trading_plan(sig.plan) }}
+
 <h2 id="news">Bittensor news</h2>
 {{ news_list((sig.news.tao if sig.news else [])[:20], empty='No Bittensor headlines in the last 7 days.') }}
 
@@ -83,8 +86,8 @@
 <div class="tablewrap">
 <table id="screener" data-sort="score">
 <thead><tr>
-  <th class="l">Netuid</th><th class="l">Name</th><th>Price (τ)</th><th>vs EMA</th><th>1d</th><th>7d</th>
-  <th>Mkt cap (τ)</th><th>Pool (τ)</th><th>Flow τ/d</th><th>Emis %</th><th>Emis/mcap</th><th>Neurons</th><th>Age (d)</th><th>Score</th><th class="l">Tags</th>
+  <th class="l">Netuid</th><th class="l">Name</th><th>Price (TAO)</th><th>vs EMA</th><th>1d</th><th>7d</th>
+  <th>Mkt cap (TAO)</th><th>Pool (TAO)</th><th>Flow TAO/d</th><th>Emis %</th><th>Emis/mcap</th><th>Neurons</th><th>Age (d)</th><th>Score</th><th class="l">Tags</th>
 </tr></thead>
 <tbody>
 {% for s in sig.subnets|sort(attribute='score', reverse=true) %}
