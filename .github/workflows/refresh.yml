@@ -2,8 +2,9 @@ name: Refresh research site
 
 on:
   schedule:
-    # 3x/day: 06:00, 14:00, 22:00 UTC
-    - cron: "0 6,14,22 * * *"
+    # 3x/day around 06:00, 14:00, 22:00 UTC. Off the top of the hour, when GitHub's
+    # scheduler is busiest and delays or drops runs.
+    - cron: "17 6,14,22 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -39,12 +40,21 @@ jobs:
         run: python -m engine.build all
 
       - name: Commit history snapshots
+        # A failed history push must not stop the fresh pages from deploying.
+        continue-on-error: true
         run: |
           git config user.name "research-engine"
           git config user.email "actions@github.com"
           git add data
-          git diff --cached --quiet || git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Another scan may have pushed while this one ran (two Scan now clicks, or a
+          # scan overlapping the schedule). Rebase onto it, keeping this run's snapshot.
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs origin main || { git rebase --abort; exit 1; }
+          done
+          exit 1
 
       - uses: actions/upload-pages-artifact@v3
         with:
