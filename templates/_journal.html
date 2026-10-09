@@ -1,0 +1,58 @@
+{# Trade journal: every closed practice trade plus trades logged by hand, with notes per trade. Driven by static/journal.js #}
+<p class="sub">Every trade in one place: both practice accounts, plus trades you made anywhere else that you log here. Write down why you took each trade, how you felt, what happened and what you learned. The Trade review reads these notes.</p>
+
+<div class="pp-bar">
+  <div class="jr-filters">
+    <select id="jr-acct" aria-label="Account">
+      <option value="all">All accounts</option>
+      <option value="crypto">Crypto practice</option>
+      <option value="tao">Bittensor practice</option>
+      <option value="logged">Logged trades</option>
+    </select>
+    <select id="jr-result" aria-label="Result">
+      <option value="all">All results</option>
+      <option value="win">Winners</option>
+      <option value="loss">Losers</option>
+      <option value="open">Still open</option>
+      <option value="todo">Not journaled yet</option>
+    </select>
+    <select id="jr-strat" aria-label="Strategy"><option value="all">All strategies</option></select>
+    <input id="jr-q" type="search" placeholder="Search asset, notes, lessons" aria-label="Search the journal">
+  </div>
+  <div class="pp-tools">
+    <button type="button" class="rs-btn primary" id="jr-new">Log a trade</button>
+    <button type="button" class="rs-btn" id="jr-csv">Export CSV</button>
+    <button type="button" class="rs-btn" id="jr-export">Back up</button>
+    <label class="rs-btn" for="jr-import">Restore<input type="file" id="jr-import" accept="application/json" hidden></label>
+  </div>
+</div>
+
+<form class="pp-panel jr-form" id="jr-form" hidden autocomplete="off">
+  <h3 id="jr-form-title">Log a trade</h3>
+  <p class="sub" style="margin-top:0">For trades you made outside this site, real or on another simulator. Prices and fees in US dollars. Leave the exit empty while the trade is still open.</p>
+  <div class="jr-grid">
+    <div><label class="pp-l" for="jf-asset">Asset</label><input id="jf-asset" type="text" maxlength="40" required placeholder="e.g. BTC, SOL, SN64"></div>
+    <div><label class="pp-l" for="jf-dir">Direction</label><select id="jf-dir"><option value="long">Long</option><option value="short">Short</option></select></div>
+    <div><label class="pp-l" for="jf-venue">Venue</label><input id="jf-venue" type="text" maxlength="40" placeholder="e.g. Coinbase, Hyperliquid"></div>
+    <div><label class="pp-l" for="jf-strat">Strategy</label><input id="jf-strat" type="text" maxlength="40" list="jr-strats" placeholder="e.g. Breakout"></div>
+    <div><label class="pp-l" for="jf-opened">Opened</label><input id="jf-opened" type="datetime-local" required></div>
+    <div><label class="pp-l" for="jf-entry">Entry price ($)</label><input id="jf-entry" type="number" min="0" step="any" required inputmode="decimal"></div>
+    <div><label class="pp-l" for="jf-qty">Quantity (coins)</label><input id="jf-qty" type="number" min="0" step="any" required inputmode="decimal"></div>
+    <div><label class="pp-l" for="jf-fees">Fees, total ($)</label><input id="jf-fees" type="number" min="0" step="any" value="0" inputmode="decimal"></div>
+    <div><label class="pp-l" for="jf-stop">Stop price ($)</label><input id="jf-stop" type="number" min="0" step="any" inputmode="decimal" placeholder="optional"></div>
+    <div><label class="pp-l" for="jf-target">Target price ($)</label><input id="jf-target" type="number" min="0" step="any" inputmode="decimal" placeholder="optional"></div>
+    <div><label class="pp-l" for="jf-closed">Closed</label><input id="jf-closed" type="datetime-local"></div>
+    <div><label class="pp-l" for="jf-exit">Exit price ($)</label><input id="jf-exit" type="number" min="0" step="any" inputmode="decimal" placeholder="empty if open"></div>
+  </div>
+  <label class="pp-l" for="jf-note">Why this trade</label>
+  <input id="jf-note" type="text" maxlength="300" placeholder="The setup, and what would prove it wrong">
+  <div class="pp-preview" id="jf-preview"></div>
+  <div class="jr-form-actions">
+    <button type="submit" class="rs-btn primary">Save trade</button>
+    <button type="button" class="rs-btn" id="jf-cancel">Cancel</button>
+  </div>
+</form>
+<datalist id="jr-strats"></datalist>
+
+<div class="cards" id="jr-cards"></div>
+<div id="jr-list"></div>

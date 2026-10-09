@@ -251,7 +251,7 @@ def main():
             built.append((name, None))
 
     build_research(e, ts)
-    for name in ("style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js"):
+    for name in ("style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js"):
         src = ROOT / "static" / name
         if src.exists():
             shutil.copy(src, OUT / name)

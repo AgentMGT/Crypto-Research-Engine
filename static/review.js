@@ -9,6 +9,7 @@
   var TAGS = ["Followed plan", "Good entry", "Good exit", "FOMO", "Early exit", "Late exit", "Oversized", "No stop", "Revenge", "Moved stop"];
   var GOOD_TAGS = ["Followed plan", "Good entry", "Good exit"];
   var acctName = "crypto";
+  try { acctName = localStorage.getItem("review-acct") || "crypto"; } catch (e) {}
   var data = null;
 
   // ------------------------------------------------------------ helpers
@@ -36,40 +37,7 @@
   function parseStamp(s) { return typeof s === "number" ? s : Date.parse(String(s).replace(" UTC", "Z").replace(" ", "T")); }
   function day(ms) { return new Date(ms).toISOString().slice(0, 16).replace("T", " "); }
 
-  // ------------------------------------------------------------ normalise journals
-  function load(which) {
-    if (which === "crypto") {
-      var a = read("paper-crypto-v1");
-      if (!a) return null;
-      var opens = a.trades.filter(function (t) { return t.type === "Open"; });
-      var closes = a.trades.filter(function (t) { return t.type === "Close"; }).map(function (t) {
-        var risk = t.slPct && t.cost ? t.cost * t.slPct / 100 : null;
-        return {
-          key: "c-" + t.lid + "-" + t.t, acct: "crypto", unit: "$", asset: t.symbol, dir: t.dir, strategy: t.strategy || "Untagged",
-          opened: t.opened || (t.t - (t.held || 0)), closed: t.t, pnl: t.pnl, pnlPct: t.pnlPct, cost: t.cost, held: t.held,
-          exit: t.reason, slPct: t.slPct, tpPct: t.tpPct, sizePct: t.sizePct, r: risk ? t.pnl / risk : null, note: t.note, offPlan: []
-        };
-      });
-      return { name: "crypto", unit: "$", start: a.start, trades: closes.sort(function (x, y) { return x.closed - y.closed; }),
-        opens: opens.map(function (o) { return { t: o.t, size: o.size, asset: o.symbol }; }) };
-    }
-    var b = read("paper-tao-v1");
-    if (!b) return null;
-    var buys = b.trades.filter(function (t) { return t.side === "Buy"; });
-    var sells = b.trades.filter(function (t) { return t.side === "Sell"; }).map(function (t) {
-      var closed = parseStamp(t.t), opened = t.opened ? parseStamp(t.opened) : null;
-      var mine = buys.filter(function (x) { return x.netuid === t.netuid && parseStamp(x.t) <= closed && (!opened || parseStamp(x.t) >= opened - 60000); });
-      var setup = (mine[mine.length - 1] || {}).planStatus || "TAO plan";
-      var off = t.offPlan.concat.apply(t.offPlan, mine.map(function (x) { return x.offPlan; }));
-      return {
-        key: "t-" + t.t + "-" + t.netuid, acct: "tao", unit: "τ", asset: "SN" + t.netuid + " " + t.name, dir: "long", strategy: setup,
-        opened: opened, closed: closed, pnl: t.pnl, pnlPct: t.pnlPct, cost: t.cost, held: opened ? closed - opened : null,
-        exit: t.planStatus, sizePct: (mine[0] || {}).sizePct, r: null, note: t.note, offPlan: off
-      };
-    });
-    return { name: "tao", unit: "τ", start: b.start, trades: sells.sort(function (x, y) { return x.closed - y.closed; }),
-      opens: buys.map(function (o) { return { t: parseStamp(o.t), size: o.tao, asset: "SN" + o.netuid }; }) };
-  }
+  var load = Trades.load;
 
   // ------------------------------------------------------------ stats and findings
   function stats(tr) {
@@ -149,8 +117,15 @@
     tr.forEach(function (t) { ((reviews[t.key] || {}).tags || []).forEach(function (x) { tagCount[x] = (tagCount[x] || 0) + 1; }); });
     var bad = Object.keys(tagCount).filter(function (x) { return GOOD_TAGS.indexOf(x) < 0; }).sort(function (a, b) { return tagCount[b] - tagCount[a]; });
     if (bad.length) add("warn", "Your most common self-tagged mistake: " + bad[0] + " (" + tagCount[bad[0]] + " trade" + (tagCount[bad[0]] > 1 ? "s" : "") + ").");
-    var reviewed = tr.filter(function (t) { return reviews[t.key] && ((reviews[t.key].tags || []).length || reviews[t.key].lesson); }).length;
-    if (s.n && reviewed < s.n) add("warn", reviewed + " of " + s.n + " trades have your own review. Tag the rest below; the AI review is much better with them.");
+    // Mood before entry, from the journal: compare results when calm vs. not.
+    var moods = group(tr.filter(function (t) { return (reviews[t.key] || {}).emotion; }), function (t) { return reviews[t.key].emotion; });
+    if (moods.length >= 2) {
+      var worstMood = moods[moods.length - 1], bestMood = moods[0], low = function (m) { return m === "FOMO" ? m : m.toLowerCase(); };
+      if (worstMood.s.n >= 2 && worstMood.s.total < 0) add("warn", "Trades entered feeling " + low(worstMood.name) + " made " + sgnText(worstMood.s.total, u) + " over " + worstMood.s.n +
+        " trades, against " + sgnText(bestMood.s.total, u) + " when " + low(bestMood.name) + ". Check how you feel before you click.");
+    }
+    var reviewed = tr.filter(function (t) { var r = reviews[t.key]; return r && ((r.tags || []).length || r.lesson || r.emotion || r.happened); }).length;
+    if (s.n && reviewed < s.n) add("warn", reviewed + " of " + s.n + " trades have your own review. Tag the rest below or in the Journal; the AI review is much better with them.");
     return f;
   }
   function sgnText(v, u) { return (v > 0 ? "+" : "") + money(v, u); }
@@ -203,7 +178,7 @@
 
   function autoFlags(t) {
     var f = [];
-    if (t.acct === "crypto" && !t.slPct) f.push("No stop");
+    if (t.acct !== "tao" && !t.slPct) f.push("No stop");
     if (t.sizePct > 25) f.push("Oversized");
     if (t.offPlan && t.offPlan.length) f.push("Off plan");
     if (t.slPct && t.pnlPct < -t.slPct * 1.5) f.push("Past stop");
@@ -258,16 +233,18 @@
   function payload() {
     var tr = data.trades, reviews = read(REVIEWS) || {}, s = stats(tr);
     return {
-      account: data.name === "crypto" ? "Crypto paper account (USD), long and short, any coin" : "Bittensor subnet paper account (TAO), trading a rules-based plan",
+      account: { crypto: "Crypto paper account (USD), long and short, any coin", tao: "Bittensor subnet paper account (TAO), trading a rules-based plan",
+        logged: "Trades the trader logged by hand from outside the simulator (USD)" }[data.name],
       units: data.unit === "$" ? "USD" : "TAO", starting_balance: data.start,
-      stats: s, findings: findings(data, s, reviews).map(function (x) { return x.kind + ": " + x.text; }),
+      stats: s, journal_fields: "my_emotion is how I felt before entering; my_execution is my own 1-5 rating of how well I followed my process", findings: findings(data, s, reviews).map(function (x) { return x.kind + ": " + x.text; }),
       by_strategy: group(tr, function (t) { return t.strategy; }), by_asset: group(tr, function (t) { return t.asset; }),
       trades: tr.slice(-150).map(function (t) {
         var rv = reviews[t.key] || {};
         return { closed: day(t.closed), asset: t.asset, dir: t.dir, strategy: t.strategy, pnl: +n(t.pnl, 4).replace(/,/g, ""), pnl_pct: t.pnlPct != null ? +t.pnlPct.toFixed(2) : null,
           r: t.r != null ? +t.r.toFixed(2) : null, held_hours: t.held != null ? +hrs(t.held).toFixed(1) : null, exit: t.exit, stop_pct: t.slPct || null,
           size_pct_of_account: t.sizePct != null ? +t.sizePct.toFixed(1) : null, off_plan: t.offPlan.length ? t.offPlan : undefined,
-          entry_note: t.note || undefined, my_tags: (rv.tags || []).length ? rv.tags : undefined, my_lesson: rv.lesson || undefined };
+          entry_note: t.note || undefined, my_tags: (rv.tags || []).length ? rv.tags : undefined, my_lesson: rv.lesson || undefined,
+          my_emotion: rv.emotion || undefined, my_execution: rv.execution || undefined, what_happened: rv.happened || undefined };
       })
     };
   }
@@ -364,9 +341,11 @@
     var b = e.target.closest("button[data-acct]");
     if (!b) return;
     acctName = b.dataset.acct;
+    try { localStorage.setItem("review-acct", acctName); } catch (e) {}
     this.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
     status(""); render();
   });
+  document.querySelectorAll(".rv-acct button").forEach(function (x) { x.classList.toggle("on", x.dataset.acct === acctName); });
   document.addEventListener("review:show", render);
   render();
 })();
