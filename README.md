@@ -96,3 +96,11 @@ places an order.
 - **Bittensor plan:** a TAO account that buys and sells subnet alpha against each pool's reserves from the latest refresh, checked against the trading plan's rules (entry setup, tranche size, position and basket caps, stops, trims). Staking emissions are not simulated.
 - **Journal:** every closed practice trade plus trades logged by hand from anywhere else (entry, exit, size, fees, stop), with notes per trade: mood before entry, a 1–5 execution rating, tags, what happened and the lesson. Filter, search, export CSV, and back up or restore as JSON.
 - **Trade review:** rule-based statistics and findings on closed trades (profit factor, R, hold times, stops, plan discipline, revenge trades), per-trade tags and lessons, and an optional AI review. The AI review calls the Anthropic API from the browser with the visitor's own key (stored only in that browser), or copies a prompt to paste into a Claude chat.
+
+## Paper trading bot
+
+`engine/bot.py` runs after each build (at most once every 3 hours) and trades two simulated accounts: a crypto account in USD on the trend and oversold signals, and a Bittensor account in TAO that follows the trading plan. Rules live in `data/bot.json`; state in `data/bot/state.json`, committed with the history snapshots and published as `bot.json`. With the `ANTHROPIC_API_KEY` secret set, Claude reviews each proposed entry and can skip it with a reason; exits are never vetoed. The bot never connects to an exchange or wallet. Its trades appear on the Practice page's Bot tab and in the Journal and Trade review.
+
+## Wallets
+
+`wallets.html` is watch-only. It reads public addresses (pasted, or shared by a browser wallet) and shows balances from public nodes: ETH and major tokens on Ethereum, Base, Arbitrum and Optimism; SOL and SPL tokens; free TAO on Bittensor. It never requests signatures or transactions, and addresses stay in the visitor's browser.

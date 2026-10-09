@@ -6,7 +6,7 @@
   var TAGS = ["Followed plan", "Good entry", "Good exit", "FOMO", "Early exit", "Late exit", "Oversized", "No stop", "Revenge", "Moved stop"];
   var GOOD_TAGS = ["Followed plan", "Good entry", "Good exit"];
   var MOODS = ["Calm", "Confident", "Excited", "Anxious", "FOMO", "Bored", "Frustrated"];
-  var ACCT = { crypto: "Crypto practice", tao: "Bittensor practice", logged: "Logged" };
+  var ACCT = { crypto: "Crypto practice", tao: "Bittensor practice", logged: "Logged", "bot-crypto": "Bot · crypto", "bot-tao": "Bot · Bittensor" };
   var rows = [], editing = null, openKeys = {};
 
   // ------------------------------------------------------------ helpers
@@ -34,7 +34,7 @@
   // ------------------------------------------------------------ data
   function collect() {
     var out = [];
-    ["crypto", "tao", "logged"].forEach(function (k) {
+    ["crypto", "tao", "logged", "bot-crypto", "bot-tao"].forEach(function (k) {
       var d = Trades.load(k);
       if (!d) return;
       out = out.concat(d.trades, d.openTrades || []);
@@ -119,7 +119,7 @@
       '<span class="jr-pnl">' + (t.open ? '<span class="flat">open</span>' : sgnMoney(t.pnl, t.unit) + (t.pnlPct != null ? ' <span class="faint">' + n(t.pnlPct, 1) + "%</span>" : "")) + (t.r != null ? ' <span class="faint">' + n(t.r, 2) + "R</span>" : "") + "</span>" +
       '<span class="jr-badge">' + badge + "</span></summary>" +
       '<div class="jr-body"><div class="jr-facts"><dl>' + facts.map(function (f) { return "<dt>" + f[0] + "</dt><dd>" + f[1] + "</dd>"; }).join("") + "</dl>" +
-      (t.note ? '<p class="jr-why"><b>Why I took it:</b> ' + esc(t.note) + "</p>" : "") +
+      (t.note ? '<p class="jr-why"><b>' + (t.bot ? "Why the bot took it:" : "Why I took it:") + "</b> " + esc(t.note) + "</p>" : "") +
       (t.acct === "logged" ? '<div class="jr-actions"><button type="button" class="rs-btn" data-edit="' + esc(t.raw.id) + '">' + (t.open ? "Close or edit" : "Edit") + '</button><button type="button" class="rs-btn" data-del="' + esc(t.raw.id) + '">Delete</button></div>' : "") +
       '</div><div class="jr-notes">' +
       '<div class="pp-l">How you felt before entering</div><div class="rv-tags" data-group="emotion">' + MOODS.map(function (m) { return chip(m, nt.emotion === m, "mood", "data-mood"); }).join("") + "</div>" +
@@ -288,4 +288,5 @@
 
   document.addEventListener("journal:show", render);
   render();
+  Trades.ready.then(function (d) { if (d) render(); });
 })();

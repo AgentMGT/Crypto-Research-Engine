@@ -13,7 +13,7 @@ from html import escape
 from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 from markupsafe import Markup
 
-from . import ai_brief, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals, tao_plan
+from . import ai_brief, bot, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals, tao_plan
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
@@ -229,7 +229,8 @@ def build_tao(e, ts):
 def build_research(e, ts):
     """The coin research and paper trading pages are static; they load everything in the browser."""
     (OUT / "research.html").write_text(e.get_template("research.html").render(edition="research", updated=ts, errors=[]))
-    (OUT / "paper.html").write_text(e.get_template("paper.html").render(edition="paper", updated=ts, errors=[]))
+    (OUT / "paper.html").write_text(e.get_template("paper.html").render(edition="paper", updated=ts, errors=[], bot_cfg=bot.config()))
+    (OUT / "wallets.html").write_text(e.get_template("wallets.html").render(edition="wallets", updated=ts, errors=[]))
 
 
 def main():
@@ -250,8 +251,17 @@ def main():
             traceback.print_exc()
             built.append((name, None))
 
+    sigs = dict(built)
+    if any(sigs.values()):
+        try:
+            print("== paper trading bot")
+            bot.run(sigs.get("crypto"), sigs.get("tao"), ts)
+        except Exception:
+            # The bot must never stop the site from deploying.
+            traceback.print_exc()
+
     build_research(e, ts)
-    for name in ("style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js"):
+    for name in ("style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js", "bot.js", "wallets.js"):
         src = ROOT / "static" / name
         if src.exists():
             shutil.copy(src, OUT / name)
@@ -259,6 +269,8 @@ def main():
         src = DATA / name
         if src.exists():
             shutil.copy(src, OUT / name)
+    if bot.STATE.exists():
+        shutil.copy(bot.STATE, OUT / "bot.json")
 
     ok = [n for n, s in built if s]
     print(f"built: {', '.join(ok) if ok else 'nothing'} -> {OUT}")

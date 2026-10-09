@@ -1,0 +1,45 @@
+{
+  "_note": "Rules for the paper trading bot (engine/bot.py). It trades two simulated accounts on each refresh; nothing here touches a real exchange or wallet. Edit and push to change the rules.",
+  "min_hours_between_ticks": 3,
+  "crypto": {
+    "start_usd": 10000,
+    "fee_pct": 0.1,
+    "max_positions": 8,
+    "max_new_per_tick": 2,
+    "cooldown_hours": 24,
+    "min_volume_usd": 20000000,
+    "max_rank": 200,
+    "setups": {
+      "trend": {
+        "label": "Trend: momentum leader",
+        "size_pct": 8,
+        "stop_pct": 8,
+        "target_pct": 20,
+        "max_hold_days": 14,
+        "min_score": 25,
+        "tags_any": ["Momentum leader", "Breaking 7d high", "Pullback in uptrend"],
+        "tags_none": ["Overbought", "Heavy selling"],
+        "regimes": ["Risk-on", "Neutral"]
+      },
+      "reversion": {
+        "label": "Reversion: oversold large cap",
+        "size_pct": 4,
+        "stop_pct": 6,
+        "target_pct": 10,
+        "max_hold_days": 5,
+        "max_rank": 100,
+        "max_rsi": 30,
+        "tags_none": ["Heavy selling"],
+        "regimes": ["Risk-on", "Neutral", "Risk-off"]
+      }
+    },
+    "exit_tags": ["Heavy selling"]
+  },
+  "tao": {
+    "start_tao": 100,
+    "fee_pct": 0.05,
+    "max_new_per_tick": 3,
+    "cooldown_hours": 24,
+    "retrim_days": 7
+  }
+}

@@ -23,6 +23,7 @@ window.Trades = (function () {
   }
 
   function load(which) {
+    if (which === "bot-crypto" || which === "bot-tao") return loadBot(which);
     if (which === "crypto") {
       var a = read("paper-crypto-v1");
       if (!a) return null;
@@ -65,7 +66,39 @@ window.Trades = (function () {
       opens: buys.map(function (o) { return { t: parseStamp(o.t), size: o.tao, asset: "SN" + o.netuid }; }) };
   }
 
+  // The paper trading bot's accounts come from the site's bot.json, written on each refresh.
+  var bot = null;
+  var ready = fetch("bot.json?t=" + Date.now()).then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) { bot = d; return d; }).catch(function () { return null; });
+
+  function loadBot(which) {
+    if (!bot) return null;
+    if (which === "bot-crypto") {
+      var a = bot.crypto;
+      var closes = a.trades.filter(function (t) { return t.type === "Close"; }).map(function (t) {
+        return {
+          key: "bc-" + t.pid + "-" + t.t, acct: which, unit: "$", asset: t.symbol, dir: "long", strategy: t.setup,
+          opened: t.opened, closed: t.t, pnl: t.pnl, pnlPct: t.pnl_pct, cost: t.cost, held: t.held, exit: t.reason,
+          slPct: t.stop_pct, sizePct: t.size_pct, r: t.stop_pct ? t.pnl / (t.cost * t.stop_pct / 100) : null, note: t.entry_reason, offPlan: [], bot: true
+        };
+      });
+      return { name: which, unit: "$", start: a.start, trades: closes.sort(function (x, y) { return x.closed - y.closed; }),
+        opens: a.trades.filter(function (t) { return t.type === "Open"; }).map(function (o) { return { t: o.t, size: o.size, asset: o.symbol }; }) };
+    }
+    var b = bot.tao;
+    var sells = b.trades.filter(function (t) { return t.side === "Sell"; }).map(function (t) {
+      return {
+        key: "bt-" + t.t + "-" + t.netuid, acct: which, unit: "τ", asset: "SN" + t.netuid + " " + t.name, dir: "long", strategy: t.setup || "TAO plan",
+        opened: t.opened, closed: t.t, pnl: t.pnl, pnlPct: t.pnl_pct, cost: t.cost, held: t.opened ? t.t - t.opened : null,
+        exit: t.reason, sizePct: null, r: null, note: t.rule, offPlan: [], bot: true
+      };
+    });
+    return { name: which, unit: "τ", start: b.start, trades: sells.sort(function (x, y) { return x.closed - y.closed; }),
+      opens: b.trades.filter(function (t) { return t.side === "Buy"; }).map(function (o) { return { t: o.t, size: o.tao, asset: "SN" + o.netuid }; }) };
+  }
+
   return {
+    ready: ready, bot: function () { return bot; },
     LOG: LOG, NOTES: NOTES, read: read, write: write, load: load,
     log: function () { return read(LOG) || []; },
     saveLog: function (v) { write(LOG, v); },

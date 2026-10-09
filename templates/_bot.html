@@ -1,0 +1,52 @@
+{# Paper trading bot: shows bot.json written by engine/bot.py on each refresh. Driven by static/bot.js #}
+<p class="sub">A bot that trades two practice accounts on its own, with simulated money only. Each time the site refreshes, it follows fixed rules: trend and oversold setups for crypto, and your trading plan for Bittensor subnets. When the AI reviewer is switched on, Claude checks every new entry and can skip it, giving a reason. Stops, targets and plan exits always go through. The bot never connects to an exchange or a wallet.</p>
+
+<div class="pp-bar">
+  <div class="pp-snap" id="bt-status">Loading the bot's accounts…</div>
+</div>
+
+<div id="bt-empty" class="pp-panel" hidden><p class="sub" style="margin:0">The bot hasn't run yet. It makes its first trades on the next refresh, or when you press <b>Scan now</b>.</p></div>
+
+<div id="bt-main" hidden>
+  <h3 class="pp-h2">Latest run <span class="faint" id="bt-run-when"></span></h3>
+  <div class="pp-panel" id="bt-run"></div>
+
+  <div class="bt-accts">
+    <section class="bt-acct">
+      <h3 class="pp-h2">Crypto account <span class="faint">US dollars</span></h3>
+      <div class="cards" id="bt-c-cards"></div>
+      <div class="pp-panel"><h3>Open positions</h3><div id="bt-c-pos"></div></div>
+      <div class="pp-panel bt-eqp"><h3>Account value</h3><div class="pp-equity" id="bt-c-eq"></div></div>
+    </section>
+    <section class="bt-acct">
+      <h3 class="pp-h2">Bittensor account <span class="faint">TAO, following your trading plan</span></h3>
+      <div class="cards" id="bt-t-cards"></div>
+      <div class="pp-panel"><h3>Open positions</h3><div id="bt-t-pos"></div></div>
+      <div class="pp-panel bt-eqp"><h3>Account value</h3><div class="pp-equity" id="bt-t-eq"></div></div>
+    </section>
+  </div>
+
+  <h3 class="pp-h2">Trade log <span class="faint">every order, with the rule that fired and the AI reviewer's call</span></h3>
+  <div id="bt-trades"></div>
+</div>
+
+<details class="plan-rules">
+<summary>The bot's rules</summary>
+{% set c = bot_cfg.crypto %}{% set t = bot_cfg.tao %}
+<ul>
+  <li><b>When it trades:</b> on each refresh, at most once every {{ bot_cfg.min_hours_between_ticks }} hours. Extra Scan now runs within that window don't trade.</li>
+  <li><b>Crypto account</b> starts with ${{ "{:,}".format(c.start_usd) }}. It only looks at coins ranked in the top {{ c.max_rank }} with at least ${{ "{:,}".format((c.min_volume_usd / 1e6)|int) }}M of daily volume. It holds at most {{ c.max_positions }} positions and opens at most {{ c.max_new_per_tick }} new ones per refresh. Positions are long only, and fills include a {{ c.fee_pct }}% fee plus slippage scaled to volume.
+    <ul>
+      {% for k, s in c.setups.items() %}
+      <li><b>{{ s.label }}:</b> {{ s.size_pct }}% of the account per trade, stop-loss at -{{ s.stop_pct }}%, target at +{{ s.target_pct }}%, and it sells after {{ s.max_hold_days }} days if neither is hit.
+        {% if k == "trend" %}Entry needs a signal score of at least {{ s.min_score }} and one of the tags {{ s.tags_any|join(", ") }}. It skips coins tagged {{ s.tags_none|join(" or ") }}.{% else %}Entry needs a 4-hour RSI at or below {{ s.max_rsi }} on a top-{{ s.max_rank }} coin.{% endif %}
+        Regimes: {{ s.regimes|join(", ") }}.</li>
+      {% endfor %}
+      <li>It also sells when a coin it holds gets tagged {{ c.exit_tags|join(" or ") }}. After selling a coin, it waits {{ c.cooldown_hours }} hours before buying it again.</li>
+      <li>Stops and targets are checked against 4-hour prices since the last run, so a brief wick inside 4 hours can be missed. If the price gapped through a stop, the fill is at the worse price.</li>
+    </ul></li>
+  <li><b>Bittensor account</b> starts with {{ t.start_tao }} τ and follows the <a href="bittensor.html#plan">trading plan</a> to the letter. It buys plan entries one tranche at a time, at most {{ t.max_new_per_tick }} per refresh, within the plan's position, pool-depth and basket caps. It sells everything on a plan exit or the plan's stop, and trims a third on a trim signal (at most once every {{ t.retrim_days }} days). Fills use each subnet's pool with a {{ t.fee_pct }}% fee. Staking emissions aren't counted, so returns understate what holding earns.</li>
+  <li><b>AI reviewer:</b> runs when the site has an Anthropic API key (the ANTHROPIC_API_KEY repository secret). Claude sees each proposed entry with its numbers, the regime, the bot's holdings and recent headlines, and answers take or skip with a reason and a 1–5 confidence. Without the key, the bot trades on the rules alone.</li>
+  <li>The rules live in <code>data/bot.json</code> in the repository. Change them there and push.</li>
+</ul>
+</details>

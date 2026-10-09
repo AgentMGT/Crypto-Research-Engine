@@ -178,7 +178,7 @@
 
   function autoFlags(t) {
     var f = [];
-    if (t.acct !== "tao" && !t.slPct) f.push("No stop");
+    if (t.unit === "$" && !t.slPct) f.push("No stop");
     if (t.sizePct > 25) f.push("Oversized");
     if (t.offPlan && t.offPlan.length) f.push("Off plan");
     if (t.slPct && t.pnlPct < -t.slPct * 1.5) f.push("Past stop");
@@ -234,7 +234,9 @@
     var tr = data.trades, reviews = read(REVIEWS) || {}, s = stats(tr);
     return {
       account: { crypto: "Crypto paper account (USD), long and short, any coin", tao: "Bittensor subnet paper account (TAO), trading a rules-based plan",
-        logged: "Trades the trader logged by hand from outside the simulator (USD)" }[data.name],
+        logged: "Trades the trader logged by hand from outside the simulator (USD)",
+        "bot-crypto": "The automated paper trading bot's crypto account (USD): fixed trend and mean-reversion rules, entries checked by an AI reviewer. Review the rules, not a person's discipline; tags and lessons are the trader's comments on the bot.",
+        "bot-tao": "The automated paper trading bot's Bittensor account (TAO): follows the subnet trading plan mechanically, entries checked by an AI reviewer. Review the rules, not a person's discipline." }[data.name],
       units: data.unit === "$" ? "USD" : "TAO", starting_balance: data.start,
       stats: s, journal_fields: "my_emotion is how I felt before entering; my_execution is my own 1-5 rating of how well I followed my process", findings: findings(data, s, reviews).map(function (x) { return x.kind + ": " + x.text; }),
       by_strategy: group(tr, function (t) { return t.strategy; }), by_asset: group(tr, function (t) { return t.asset; }),
@@ -348,4 +350,5 @@
   document.querySelectorAll(".rv-acct button").forEach(function (x) { x.classList.toggle("on", x.dataset.acct === acctName); });
   document.addEventListener("review:show", render);
   render();
+  Trades.ready.then(function (d) { if (d && acctName.indexOf("bot") === 0) render(); });
 })();

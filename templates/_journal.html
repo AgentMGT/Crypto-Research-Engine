@@ -1,5 +1,5 @@
 {# Trade journal: every closed practice trade plus trades logged by hand, with notes per trade. Driven by static/journal.js #}
-<p class="sub">Every trade in one place: both practice accounts, plus trades you made anywhere else that you log here. Write down why you took each trade, how you felt, what happened and what you learned. The Trade review reads these notes.</p>
+<p class="sub">Every trade in one place: both practice accounts, the paper bot's trades, plus trades you made anywhere else that you log here. Write down why you took each trade, how you felt, what happened and what you learned. The Trade review reads these notes.</p>
 
 <div class="pp-bar">
   <div class="jr-filters">
@@ -8,6 +8,8 @@
       <option value="crypto">Crypto practice</option>
       <option value="tao">Bittensor practice</option>
       <option value="logged">Logged trades</option>
+      <option value="bot-crypto">Bot · crypto</option>
+      <option value="bot-tao">Bot · Bittensor</option>
     </select>
     <select id="jr-result" aria-label="Result">
       <option value="all">All results</option>

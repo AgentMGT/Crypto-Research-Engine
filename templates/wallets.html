@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Wallets — research engine{% endblock %}
+
+{% block content %}
+<h1>Wallets</h1>
+<p class="sub">See what your wallets hold without leaving the site. This page is <b>watch-only</b>: it reads public addresses and looks up balances on public blockchain nodes. It never asks your wallet to sign or send anything, and it can't move funds. If anything here ever asks you to approve a transaction or enter a seed phrase, it isn't this site, so close it.</p>
+
+<div class="pp-panel wl-add">
+  <h3>Connect a browser wallet</h3>
+  <p class="sub" style="margin-top:0">Your wallet will ask whether to share your address with this site. That's all it shares.</p>
+  <div class="wl-connect">
+    <button type="button" class="rs-btn" id="wl-connect-evm">Ethereum wallet <span class="faint">MetaMask, Rabby, Coinbase</span></button>
+    <button type="button" class="rs-btn" id="wl-connect-sol">Solana wallet <span class="faint">Phantom, Solflare</span></button>
+    <button type="button" class="rs-btn" id="wl-connect-tao">Bittensor wallet <span class="faint">Talisman, SubWallet, Polkadot.js</span></button>
+  </div>
+  <h3 style="margin-top:16px">Or paste an address</h3>
+  <form class="pp-row" id="wl-form" autocomplete="off">
+    <input id="wl-addr" type="text" spellcheck="false" placeholder="0x…, a Solana address, or a Bittensor 5… address" aria-label="Wallet address">
+    <input id="wl-label" type="text" maxlength="40" placeholder="Label (optional)" aria-label="Label" class="wl-label">
+    <button type="submit" class="rs-btn primary">Watch</button>
+  </form>
+  <div class="pp-preview" id="wl-kind"></div>
+  <div class="pp-preview" id="wl-msg" aria-live="polite"></div>
+</div>
+
+<div class="pp-bar">
+  <div class="pp-snap" id="wl-total"></div>
+  <div class="pp-tools"><button type="button" class="rs-btn" id="wl-refresh">Refresh balances</button></div>
+</div>
+<div id="wl-empty" class="pp-panel" hidden><p class="sub" style="margin:0">No wallets yet. Connect one or paste an address above.</p></div>
+<div id="wl-list"></div>
+
+<details class="plan-rules">
+<summary>What this page checks</summary>
+<ul>
+  <li><b>Ethereum-style addresses</b> (0x…): ETH on Ethereum, Base, Arbitrum and Optimism, plus USDC, USDT, WETH, WBTC and wTAO on Ethereum, USDC and WETH on Base, USDC, USDT, WETH and ARB on Arbitrum, and USDC and OP on Optimism. Other tokens aren't listed yet.</li>
+  <li><b>Solana addresses:</b> SOL and every SPL token the address holds. Prices come from CoinGecko where it lists the token.</li>
+  <li><b>Bittensor addresses</b> (5…): the free TAO balance, read straight from the chain. TAO staked to validators and subnet alpha aren't read yet; the taostats link on each wallet shows them.</li>
+  <li>Balances come from public nodes (publicnode.com for EVM and Solana, the Opentensor Foundation's Finney entrypoint for Bittensor) and USD prices from CoinGecko. They load in your browser; nothing is sent to this site's server, and your addresses are saved only in this browser.</li>
+</ul>
+</details>
+{% endblock %}
+
+{% block scripts %}<script src="wallets.js"></script>{% endblock %}
+
+{% block sources %}Balances: public blockchain nodes, read live in your browser. Prices: CoinGecko.{% endblock %}

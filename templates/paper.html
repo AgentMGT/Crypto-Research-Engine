@@ -8,12 +8,17 @@
 <div class="pp-tabs" role="tablist">
   <button type="button" role="tab" data-tab="crypto" aria-selected="true">Crypto, any coin</button>
   <button type="button" role="tab" data-tab="tao" aria-selected="false">Bittensor plan</button>
+  <button type="button" role="tab" data-tab="bot" aria-selected="false">Bot</button>
   <button type="button" role="tab" data-tab="journal" aria-selected="false">Journal</button>
   <button type="button" role="tab" data-tab="review" aria-selected="false">Trade review</button>
 </div>
 
 <section id="tab-crypto" role="tabpanel">
 {% include "_paper_crypto.html" %}
+</section>
+
+<section id="tab-bot" role="tabpanel" hidden>
+{% include "_bot.html" %}
 </section>
 
 <section id="tab-journal" role="tabpanel" hidden>
@@ -98,20 +103,20 @@
 </section>
 {% endblock %}
 
-{% block scripts %}<script src="paper.js"></script><script src="paper-crypto.js"></script><script src="trades.js"></script><script src="journal.js"></script><script src="review.js"></script>
+{% block scripts %}<script src="paper.js"></script><script src="paper-crypto.js"></script><script src="trades.js"></script><script src="bot.js"></script><script src="journal.js"></script><script src="review.js"></script>
 <script>
 (function () {
   var tabs = document.querySelectorAll(".pp-tabs [data-tab]");
   function show(t) {
     tabs.forEach(function (b) { b.setAttribute("aria-selected", String(b.dataset.tab === t)); });
-    ["crypto", "tao", "journal", "review"].forEach(function (k) { document.getElementById("tab-" + k).hidden = t !== k; });
+    ["crypto", "tao", "bot", "journal", "review"].forEach(function (k) { document.getElementById("tab-" + k).hidden = t !== k; });
     if (t === "review" || t === "journal") document.dispatchEvent(new Event(t + ":show"));
     try { localStorage.setItem("paper-tab", t); } catch (e) {}
   }
   tabs.forEach(function (b) { b.addEventListener("click", function () { show(b.dataset.tab); }); });
   var q = new URLSearchParams(location.search), t = null;
   try { t = localStorage.getItem("paper-tab"); } catch (e) {}
-  show(q.get("sn") ? "tao" : q.get("coin") ? "crypto" : ["#tao", "#crypto", "#journal", "#review"].indexOf(location.hash) >= 0 ? location.hash.slice(1) : t || "crypto");
+  show(q.get("sn") ? "tao" : q.get("coin") ? "crypto" : ["#tao", "#crypto", "#bot", "#journal", "#review"].indexOf(location.hash) >= 0 ? location.hash.slice(1) : t || "crypto");
 })();
 </script>{% endblock %}
 
