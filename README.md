@@ -87,3 +87,11 @@ Scores are mechanical screens, deliberately simple and readable in
 
 They are a reading list, not trade instructions, and nothing in this repository
 places an order.
+
+## Practice trading and trade review
+
+`paper.html` has two paper accounts and a review tab. Everything is stored in the visitor's browser (localStorage); use Export/Import to keep or move an account.
+
+- **Crypto, any coin:** a US-dollar account for any CoinGecko coin, long or short at 1×, with stop-loss, take-profit, a taker fee and volume-scaled slippage. Prices refresh every minute while the page is open, and stops/targets crossed while away are filled from price history on the next visit. Tag trades with a strategy to compare results.
+- **Bittensor plan:** a TAO account that buys and sells subnet alpha against each pool's reserves from the latest refresh, checked against the trading plan's rules (entry setup, tranche size, position and basket caps, stops, trims). Staking emissions are not simulated.
+- **Trade review:** rule-based statistics and findings on closed trades (profit factor, R, hold times, stops, plan discipline, revenge trades), per-trade tags and lessons, and an optional AI review. The AI review calls the Anthropic API from the browser with the visitor's own key (stored only in that browser), or copies a prompt to paste into a Claude chat.

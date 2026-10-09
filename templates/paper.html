@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block title %}Practice trading — research engine{% endblock %}
+
+{% block content %}
+<h1>Practice trading</h1>
+<p class="sub">Paper trading accounts to rehearse your plans and test strategies without real money. Both accounts live in this browser; use Export to keep a copy.</p>
+
+<div class="pp-tabs" role="tablist">
+  <button type="button" role="tab" data-tab="crypto" aria-selected="true">Crypto, any coin</button>
+  <button type="button" role="tab" data-tab="tao" aria-selected="false">Bittensor plan</button>
+  <button type="button" role="tab" data-tab="review" aria-selected="false">Trade review</button>
+</div>
+
+<section id="tab-crypto" role="tabpanel">
+{% include "_paper_crypto.html" %}
+</section>
+
+<section id="tab-review" role="tabpanel" hidden>
+{% include "_review.html" %}
+</section>
+
+<section id="tab-tao" role="tabpanel" hidden>
+<p class="sub">A paper account for subnet alpha, in TAO. Orders fill against each subnet's real pool from the latest refresh, using the same pool maths as the chain, so a large order pays real-looking slippage. Every order is checked against the <a href="bittensor.html#plan">trading plan</a> and logged in your journal. Nothing touches the chain.</p>
+
+<div class="pp-bar" id="pp-bar">
+  <div class="pp-snap" id="pp-snap">Loading prices…</div>
+  <div class="pp-tools">
+    <button type="button" class="rs-btn" id="pp-export">Export</button>
+    <label class="rs-btn" for="pp-import">Import<input type="file" id="pp-import" accept="application/json" hidden></label>
+    <button type="button" class="rs-btn" id="pp-reset">Reset account</button>
+  </div>
+</div>
+
+<div id="pp-setup" class="pp-panel" hidden>
+  <h3>Start a practice account</h3>
+  <p class="sub">Pick a starting balance in TAO. The plan's allocation rules apply to it from the first order.</p>
+  <div class="pp-row">
+    <input id="pp-start" type="number" min="1" step="any" value="1000" inputmode="decimal" aria-label="Starting balance in TAO">
+    <span>τ</span>
+    <button type="button" class="rs-btn primary" id="pp-start-btn">Start</button>
+  </div>
+</div>
+
+<div id="pp-main" hidden>
+  <div class="cards" id="pp-cards"></div>
+
+  <div class="pp-grid">
+    <div class="pp-panel" id="pp-ticket">
+      <h3>New order</h3>
+      <label class="pp-l" for="pp-sn">Subnet</label>
+      <select id="pp-sn"></select>
+      <div class="pp-side" role="group" aria-label="Side">
+        <button type="button" data-side="buy" class="on">Buy</button>
+        <button type="button" data-side="sell">Sell</button>
+      </div>
+      <label class="pp-l" for="pp-amt" id="pp-amt-label">Amount to spend (τ)</label>
+      <div class="pp-row">
+        <input id="pp-amt" type="number" min="0" step="any" inputmode="decimal">
+        <div class="pp-quick" id="pp-quick"></div>
+      </div>
+      <label class="pp-l" for="pp-note">Why are you taking this trade?</label>
+      <input id="pp-note" type="text" maxlength="200" placeholder="e.g. Setup A, first tranche">
+      <div class="pp-preview" id="pp-preview"></div>
+      <div class="pp-checks" id="pp-checks"></div>
+      <button type="button" class="rs-btn primary pp-submit" id="pp-submit" disabled>Place order</button>
+    </div>
+
+    <div class="pp-panel">
+      <h3>Positions</h3>
+      <div id="pp-positions"></div>
+      <h3 class="pp-h2">Plan alerts on your positions</h3>
+      <ul class="rs-flags" id="pp-alerts"></ul>
+    </div>
+  </div>
+
+  <h3 class="pp-h2">Equity <span class="faint">account value in TAO at each refresh you've seen</span></h3>
+  <div class="pp-panel"><div id="pp-equity" class="pp-equity"></div></div>
+
+  <h3 class="pp-h2">Journal</h3>
+  <div id="pp-journal"></div>
+</div>
+
+<details class="plan-rules">
+<summary>How the simulator works</summary>
+<ul>
+  <li><b>Prices</b> come from the latest site refresh (three times a day, or when you press Scan now). Between refreshes, prices and your positions' values stay fixed.</li>
+  <li><b>Fills</b> use each subnet's pool: buying x τ from a pool with T τ and A alpha gets you A × x ÷ (T + x) alpha. Your own orders move the pool until the next refresh, so splitting an order doesn't dodge slippage. An assumed fee of <span id="pp-fee-txt">0.05%</span> is charged on every swap.</li>
+  <li><b>Plan checks</b> compare every order with the plan as it stood at that refresh: setup, position limits, pool-depth cap, basket cap, tranches. You can place an off-plan order, but the journal marks it, and your plan adherence score counts it.</li>
+  <li><b>Not simulated:</b> staking emissions and validator take. Positions only gain or lose from price.</li>
+  <li><b>Your account lives in this browser.</b> Clearing site data erases it, and it doesn't sync between devices. Use Export to keep a copy and Import to restore it or move it to another device.</li>
+</ul>
+</details>
+</section>
+{% endblock %}
+
+{% block scripts %}<script src="paper.js"></script><script src="paper-crypto.js"></script><script src="review.js"></script>
+<script>
+(function () {
+  var tabs = document.querySelectorAll(".pp-tabs [data-tab]");
+  function show(t) {
+    tabs.forEach(function (b) { b.setAttribute("aria-selected", String(b.dataset.tab === t)); });
+    ["crypto", "tao", "review"].forEach(function (k) { document.getElementById("tab-" + k).hidden = t !== k; });
+    if (t === "review") document.dispatchEvent(new Event("review:show"));
+    try { localStorage.setItem("paper-tab", t); } catch (e) {}
+  }
+  tabs.forEach(function (b) { b.addEventListener("click", function () { show(b.dataset.tab); }); });
+  var q = new URLSearchParams(location.search), t = null;
+  try { t = localStorage.getItem("paper-tab"); } catch (e) {}
+  show(q.get("sn") ? "tao" : q.get("coin") ? "crypto" : ["#tao", "#crypto", "#review"].indexOf(location.hash) >= 0 ? location.hash.slice(1) : t || "crypto");
+})();
+</script>{% endblock %}
+
+{% block sources %}Crypto prices: CoinGecko, live in your browser. Bittensor prices and pools: the Finney chain via this site's latest refresh (tao-latest.json).{% endblock %}

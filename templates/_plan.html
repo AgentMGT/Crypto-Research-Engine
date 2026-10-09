@@ -2,7 +2,7 @@
 
 {% macro plan_row(r, p) %}
 <tr data-q="SN{{ r.netuid }} {{ r.name }} {{ r.status }} {{ r.setup or '' }}" data-pool="{{ r.pool_tao }}"{{ {'t': 'sn', 'netuid': r.netuid, 'label': 'SN' ~ r.netuid ~ ' · ' ~ r.name}|chart }}>
-  <td class="l sub-cell"><b>SN{{ r.netuid }}</b> {{ r.name }}<div class="why" title="{{ r.reasons|join(' ') }}">{{ r.short }}</div></td>
+  <td class="l sub-cell"><b>SN{{ r.netuid }}</b> {{ r.name }}<div class="why" title="{{ r.reasons|join(' ') }}">{{ r.short }}</div><a class="pp-link" href="paper.html?sn={{ r.netuid }}">Paper trade →</a></td>
   <td class="l">{% if r.setup %}<span class="tag setup">{{ r.setup }}</span>{% else %}<span class="tag st-{{ r.status|lower|replace(' / ', '-')|replace(' ', '-') }}">{{ r.status }}</span>{% endif %}</td>
   <td data-v="{{ r.price_tao }}">{{ r.price_tao|num(5) }}</td>
   <td data-v="{{ r.ema_premium or 0 }}" class="{{ r.ema_premium|cls }}">{{ r.ema_premium|signed }}</td>
@@ -28,6 +28,7 @@
 {% if plan %}
 {% set p = plan.params %}{% set g = plan.regime %}
 <h2 id="plan">Trading plan</h2>
+<p class="sub"><a href="paper.html">Practice this plan with paper trades →</a></p>
 <p class="sub">A rules-based plan for TAO and subnet alpha, re-checked against the chain on every refresh. It tells you which subnets meet the entry, trim and exit rules right now and how big a position the rules allow. It is research, not advice, and nothing here places trades.</p>
 
 <div class="plan-regime {{ g.label }}">

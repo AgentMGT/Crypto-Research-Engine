@@ -1,0 +1,46 @@
+{# Trade review: rule-based analysis of the practice journals, your own notes per trade, and an AI review. Driven by static/review.js #}
+<p class="sub">Looks back over your closed practice trades. The computer review measures your results and discipline. You can tag each trade with what went right or wrong, and the AI review reads all of it and tells you which patterns to keep and which to fix.</p>
+
+<div class="pp-bar">
+  <div class="pp-side rv-acct" role="group" aria-label="Account">
+    <button type="button" data-acct="crypto" class="on">Crypto account</button>
+    <button type="button" data-acct="tao">Bittensor account</button>
+  </div>
+  <div class="pp-snap" id="rv-range"></div>
+</div>
+
+<div id="rv-empty" class="pp-panel" hidden><p class="sub" style="margin:0">No closed trades in this account yet. Close a few practice trades and come back.</p></div>
+
+<div id="rv-main" hidden>
+  <div class="cards" id="rv-cards"></div>
+
+  <h3 class="pp-h2">Computer review <span class="faint">rule-based checks on your results and discipline</span></h3>
+  <ul class="rs-flags" id="rv-findings"></ul>
+
+  <div class="pp-grid rv-grid">
+    <div class="pp-panel"><h3>By strategy</h3><div id="rv-by-strategy"></div></div>
+    <div class="pp-panel"><h3>By asset</h3><div id="rv-by-asset"></div></div>
+  </div>
+
+  <h3 class="pp-h2">AI review <span class="faint">Claude reads your stats, findings, trades and notes</span></h3>
+  <div class="pp-panel" id="rv-ai">
+    <div class="rv-ai-actions">
+      <button type="button" class="rs-btn primary" id="rv-ai-run">Run AI review</button>
+      <button type="button" class="rs-btn" id="rv-ai-copy">Copy for Claude chat</button>
+      <button type="button" class="rs-btn" id="rv-ai-key">API key</button>
+    </div>
+    <div class="rv-key" id="rv-key" hidden>
+      <p class="sub">To run the review on this page, paste your own Anthropic API key. It is stored only in this browser and sent only to Anthropic's API. Anyone who can use this browser can read it, so use a key with a spending limit. Without a key, use <b>Copy for Claude chat</b> and paste into a Claude conversation instead.</p>
+      <div class="pp-row">
+        <input id="rv-key-input" type="password" autocomplete="off" placeholder="sk-ant-…" aria-label="Anthropic API key">
+        <button type="button" class="rs-btn primary" id="rv-key-save">Save</button>
+        <button type="button" class="rs-btn" id="rv-key-clear">Remove</button>
+      </div>
+    </div>
+    <div class="pp-preview" id="rv-ai-status"></div>
+    <div id="rv-ai-out"></div>
+  </div>
+
+  <h3 class="pp-h2">Closed trades <span class="faint">tag what happened; tags and lessons feed the reviews</span></h3>
+  <div id="rv-trades"></div>
+</div>

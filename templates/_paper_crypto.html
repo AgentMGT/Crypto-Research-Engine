@@ -1,0 +1,82 @@
+{# Crypto paper trading panel; driven by static/paper-crypto.js #}
+<p class="sub">A paper account in US dollars for any coin CoinGecko lists. Prices are live while this page is open. Fills include a taker fee and slippage scaled to the coin's 24-hour volume. Tag every trade with a strategy and the results table shows which strategies are working.</p>
+
+<div class="pp-bar">
+  <div class="pp-snap" id="pc-status">Loading…</div>
+  <div class="pp-tools">
+    <button type="button" class="rs-btn" id="pc-export">Export</button>
+    <label class="rs-btn" for="pc-import">Import<input type="file" id="pc-import" accept="application/json" hidden></label>
+    <button type="button" class="rs-btn" id="pc-reset">Reset account</button>
+  </div>
+</div>
+
+<div id="pc-setup" class="pp-panel" hidden>
+  <h3>Start a crypto practice account</h3>
+  <div class="pp-row">
+    <span>$</span>
+    <input id="pc-start" type="number" min="1" step="any" value="10000" inputmode="decimal" aria-label="Starting balance in US dollars">
+    <button type="button" class="rs-btn primary" id="pc-start-btn">Start</button>
+  </div>
+</div>
+
+<div id="pc-main" hidden>
+  <div class="cards" id="pc-cards"></div>
+
+  <div class="pp-grid">
+    <div class="pp-panel" id="pc-ticket">
+      <h3>New position</h3>
+      <label class="pp-l" for="pc-q">Coin</label>
+      <div class="rs-search pc-search">
+        <input id="pc-q" type="search" placeholder="Search a coin, e.g. SOL" autocomplete="off" spellcheck="false">
+        <ul id="pc-suggest" class="rs-suggest" role="listbox" hidden></ul>
+      </div>
+      <div class="pc-coin" id="pc-coin"></div>
+      <div class="pp-side" role="group" aria-label="Direction">
+        <button type="button" data-dir="long" class="on">Long</button>
+        <button type="button" data-dir="short">Short</button>
+      </div>
+      <label class="pp-l" for="pc-amt">Size ($)</label>
+      <div class="pp-row">
+        <input id="pc-amt" type="number" min="0" step="any" inputmode="decimal">
+        <div class="pp-quick" id="pc-quick"></div>
+      </div>
+      <div class="pc-two">
+        <div><label class="pp-l" for="pc-sl">Stop-loss (%)</label><input id="pc-sl" type="number" min="0" step="any" placeholder="e.g. 8"></div>
+        <div><label class="pp-l" for="pc-tp">Take-profit (%)</label><input id="pc-tp" type="number" min="0" step="any" placeholder="e.g. 20"></div>
+      </div>
+      <label class="pp-l" for="pc-strat">Strategy</label>
+      <input id="pc-strat" type="text" maxlength="40" list="pc-strats" placeholder="e.g. Breakout, Funding squeeze">
+      <datalist id="pc-strats"></datalist>
+      <label class="pp-l" for="pc-note">Note</label>
+      <input id="pc-note" type="text" maxlength="200" placeholder="Why this trade, what would prove it wrong">
+      <div class="pp-preview" id="pc-preview"></div>
+      <div class="pp-checks" id="pc-checks"></div>
+      <button type="button" class="rs-btn primary pp-submit" id="pc-submit" disabled>Open position</button>
+    </div>
+
+    <div class="pp-panel">
+      <h3>Open positions</h3>
+      <div id="pc-positions"></div>
+    </div>
+  </div>
+
+  <h3 class="pp-h2">Strategy results <span class="faint">closed trades, grouped by strategy tag</span></h3>
+  <div id="pc-strategies"></div>
+
+  <h3 class="pp-h2">Equity <span class="faint">account value in dollars, sampled while the page is open</span></h3>
+  <div class="pp-panel"><div id="pc-equity" class="pp-equity"></div></div>
+
+  <h3 class="pp-h2">Journal</h3>
+  <div id="pc-journal"></div>
+
+  <details class="plan-rules">
+  <summary>How the crypto simulator works</summary>
+  <ul>
+    <li><b>Prices</b> are CoinGecko's aggregate USD price, refreshed every minute while the page is open.</li>
+    <li><b>Costs:</b> a <span id="pc-fee-txt">0.10%</span> taker fee on every fill, plus slippage of 10 × your order's share of the coin's 24-hour volume (so $10,000 of a coin trading $1M a day costs about 10%). Capped at 20%.</li>
+    <li><b>Shorts</b> are 1× with no borrow or funding cost. The full size is set aside as collateral, and profit or loss is the price change.</li>
+    <li><b>Stops and targets</b> trigger at your level, also while you're away: on each visit the simulator replays price history since your last visit and fills any stop or target that was crossed. If both were crossed in the same price bar, the stop is assumed to fill first.</li>
+    <li><b>Your account lives in this browser.</b> Use Export to keep a copy and Import to restore it.</li>
+  </ul>
+  </details>
+</div>

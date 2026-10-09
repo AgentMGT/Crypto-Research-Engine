@@ -227,8 +227,9 @@ def build_tao(e, ts):
 
 
 def build_research(e, ts):
-    """The coin research page is static; it loads everything in the browser."""
+    """The coin research and paper trading pages are static; they load everything in the browser."""
     (OUT / "research.html").write_text(e.get_template("research.html").render(edition="research", updated=ts, errors=[]))
+    (OUT / "paper.html").write_text(e.get_template("paper.html").render(edition="paper", updated=ts, errors=[]))
 
 
 def main():
@@ -250,7 +251,7 @@ def main():
             built.append((name, None))
 
     build_research(e, ts)
-    for name in ("style.css", "app.js", "research.js"):
+    for name in ("style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js"):
         src = ROOT / "static" / name
         if src.exists():
             shutil.copy(src, OUT / name)
