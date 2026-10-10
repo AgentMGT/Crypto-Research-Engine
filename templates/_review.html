@@ -12,7 +12,18 @@
   <div class="pp-snap" id="rv-range"></div>
 </div>
 
-<div id="rv-empty" class="pp-panel" hidden><p class="sub" style="margin:0">No closed trades here yet. Close a few practice trades, or log trades you made elsewhere in the Journal tab, and come back.</p></div>
+<div class="pp-panel rv-key" id="rv-key" hidden>
+  <h3>Anthropic API key</h3>
+      <p class="sub">To run the review on this page, paste your own Anthropic API key. It is stored only in this browser and sent only to Anthropic's API. Anyone who can use this browser can read it, so use a key with a spending limit. Without a key, use <b>Copy for Claude chat</b> and paste into a Claude conversation instead.</p>
+      <div class="pp-row">
+        <input id="rv-key-input" type="password" autocomplete="off" placeholder="sk-ant-…" aria-label="Anthropic API key">
+        <button type="button" class="rs-btn primary" id="rv-key-save">Save</button>
+        <button type="button" class="rs-btn" id="rv-key-clear">Remove</button>
+      </div>
+  <div class="pp-preview" id="rv-key-msg" aria-live="polite"></div>
+</div>
+
+<div id="rv-empty" class="pp-panel" hidden><p class="sub" style="margin:0">No closed trades here yet. Close a few practice trades, or log trades you made elsewhere in the Journal tab, and come back.</p><p style="margin:10px 0 0"><button type="button" class="rs-btn" id="rv-key-open">Set up the AI review key</button></p></div>
 
 <div id="rv-main" hidden>
   <div class="cards" id="rv-cards"></div>
@@ -31,14 +42,6 @@
       <button type="button" class="rs-btn primary" id="rv-ai-run">Run AI review</button>
       <button type="button" class="rs-btn" id="rv-ai-copy">Copy for Claude chat</button>
       <button type="button" class="rs-btn" id="rv-ai-key">API key</button>
-    </div>
-    <div class="rv-key" id="rv-key" hidden>
-      <p class="sub">To run the review on this page, paste your own Anthropic API key. It is stored only in this browser and sent only to Anthropic's API. Anyone who can use this browser can read it, so use a key with a spending limit. Without a key, use <b>Copy for Claude chat</b> and paste into a Claude conversation instead.</p>
-      <div class="pp-row">
-        <input id="rv-key-input" type="password" autocomplete="off" placeholder="sk-ant-…" aria-label="Anthropic API key">
-        <button type="button" class="rs-btn primary" id="rv-key-save">Save</button>
-        <button type="button" class="rs-btn" id="rv-key-clear">Remove</button>
-      </div>
     </div>
     <div class="pp-preview" id="rv-ai-status"></div>
     <div id="rv-ai-out"></div>

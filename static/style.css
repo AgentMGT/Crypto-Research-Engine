@@ -335,7 +335,7 @@ tr[data-chart] { cursor: pointer; }
 .rv-tags button.on.bad { color: var(--down); border-color: var(--down); background: color-mix(in srgb, var(--down) 14%, var(--panel)); }
 .rv-lesson { width: 100%; box-sizing: border-box; margin-top: 5px; font: inherit; font-size: 12.5px; color: var(--text); background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
 .rv-ai-actions { display: flex; gap: 6px; flex-wrap: wrap; }
-.rv-key { margin-top: 10px; }
+.rv-key { margin: 0 0 12px; }
 .rv-key input { font: inherit; font-size: 14px; color: var(--text); background: var(--panel-2); border: 1px solid var(--line); border-radius: 7px; padding: 8px 10px; }
 .rv-ai-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin: 12px 0 6px; }
 .rv-ai-head .pill { font-size: 15px; font-weight: 700; }

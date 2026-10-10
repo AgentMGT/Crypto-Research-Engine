@@ -326,17 +326,26 @@
       ta.remove();
     }
   });
-  $("rv-ai-key").addEventListener("click", function () { $("rv-key").hidden = !$("rv-key").hidden; });
+  function keyPanel() {
+    var k = $("rv-key"); k.hidden = !k.hidden;
+    if (!k.hidden) {
+      var has = null; try { has = localStorage.getItem(KEYSTORE); } catch (e) {}
+      $("rv-key-msg").textContent = has ? "A key is saved in this browser." : "No key saved yet.";
+      k.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+  }
+  $("rv-ai-key").addEventListener("click", keyPanel);
+  $("rv-key-open").addEventListener("click", keyPanel);
   $("rv-key-save").addEventListener("click", function () {
     var v = $("rv-key-input").value.trim();
-    if (!/^sk-ant-/.test(v)) { status("That doesn't look like an Anthropic API key (they start with sk-ant-).", true); return; }
+    if (!/^sk-ant-/.test(v)) { $("rv-key-msg").textContent = "That doesn't look like an Anthropic API key (they start with sk-ant-)."; return; }
     try { localStorage.setItem(KEYSTORE, v); } catch (e) {}
-    $("rv-key-input").value = ""; $("rv-key").hidden = true;
-    status("Key saved in this browser."); renderAI();
+    $("rv-key-input").value = "";
+    $("rv-key-msg").textContent = "Key saved in this browser."; status("Key saved in this browser."); renderAI();
   });
   $("rv-key-clear").addEventListener("click", function () {
     try { localStorage.removeItem(KEYSTORE); } catch (e) {}
-    status("Key removed from this browser."); renderAI();
+    $("rv-key-msg").textContent = "Key removed from this browser."; status("Key removed from this browser."); renderAI();
   });
 
   document.querySelector(".rv-acct").addEventListener("click", function (e) {
