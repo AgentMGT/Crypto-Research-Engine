@@ -102,5 +102,40 @@
       }).join("") + "</tbody></table></div>" : '<p class="sub">No trades yet.</p>';
   }
 
+  // ------------------------------------------------------------ live trading status
+  function renderLive(lv) {
+    var box = $("lv-panel");
+    if (!lv || !lv.crypto) {
+      box.innerHTML = '<p class="sub" style="margin:0">Live trading is set up but <b>off</b>. Nothing has run yet; the first dry run happens on the next refresh.</p>';
+      return;
+    }
+    var L = lv.limits || {};
+    function acct(key, title, u) {
+      var a = lv[key] || {}, lim = L[key] || {}, live = a.mode === "live";
+      var badge = a.halted ? '<span class="tag st-exit-avoid">Paused</span>' : live ? '<span class="tag jr-done">LIVE</span>' : '<span class="tag">Off · dry run</span>';
+      var budget = key === "crypto" ? lim.budget_usd : lim.budget_tao, dloss = key === "crypto" ? lim.max_daily_loss_usd : lim.max_daily_loss_tao;
+      var pos = Object.keys(a.positions || {});
+      return '<div class="lv-acct"><div class="lv-head"><b>' + title + "</b> " + badge + "</div>" +
+        '<div class="lv-grid"><div><span class="faint">Budget</span><br>' + money(budget, u) + '</div><div><span class="faint">Value now</span><br>' + money(a.equity != null ? a.equity : budget, u) +
+        '</div><div><span class="faint">Today</span><br>' + (a.loss_today ? sgn(-a.loss_today, u) : money(0, u)) + ' <span class="faint">(limit -' + money(dloss, u) + ")</span></div>" +
+        '<div><span class="faint">Positions</span><br>' + pos.length + "</div></div>" +
+        (a.halted ? '<p class="lv-why down">' + esc(a.halted.reason) + "</p>" : "") +
+        (!live && a.why_not_live && a.why_not_live.length ? '<p class="lv-why">Not live because: ' + esc(a.why_not_live.join("; ")) + ".</p>" : "") +
+        (key === "crypto" ? '<p class="lv-why">Exchange: ' + esc(lim.exchange || "–") + " · max order " + money(lim.max_order_usd, "$") + " · up to " + lim.max_positions + " positions · stop-loss placed on the exchange</p>"
+          : '<p class="lv-why">Stakes through a Staking proxy (can stake and unstake, cannot transfer) · max order ' + money(lim.max_order_tao, "τ") + "</p>") + "</div>";
+    }
+    var log = (lv.log || []).slice(-60).reverse();
+    box.innerHTML = '<div class="lv-accts">' + acct("crypto", "Crypto", "$") + acct("tao", "Bittensor", "τ") + "</div>" +
+      '<p class="sub">While an account is off, it runs as a dry run: each time the bot trades, it works out the real order it would place against its budget and limits, and logs it below. Nothing reaches an exchange or the chain.</p>' +
+      (log.length ? '<div class="tablewrap"><table><thead><tr><th class="l">When (UTC)</th><th class="l">Account</th><th class="l">Order</th><th class="l">Asset</th><th>Size</th><th class="l">Result</th></tr></thead><tbody>' +
+        log.map(function (e) {
+          var u = e.account === "crypto" ? "$" : "τ";
+          var st = e.status === "placed" ? '<span class="tag jr-done">placed</span>' : e.status === "would place" ? '<span class="tag">would place</span>' : e.status === "failed" ? '<span class="tag st-exit-avoid">failed</span>' : '<span class="tag st-trim">' + esc(e.status) + "</span>";
+          return '<tr><td class="l">' + stamp(e.t) + '</td><td class="l">' + (e.account === "crypto" ? "Crypto" : "Bittensor") + '</td><td class="l">' + esc(e.side) + '</td><td class="l"><b>' + esc(e.asset) + "</b></td><td>" +
+            (e.size != null ? money(e.size, u) : e.pnl != null ? sgn(e.pnl, u) : "–") + '</td><td class="l pp-note">' + st + " " + esc(e.note || e.reason || "") + "</td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="sub">No orders yet.</p>');
+  }
+  fetch("live.json?t=" + Date.now()).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(renderLive);
+
   Trades.ready.then(render);
 })();

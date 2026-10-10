@@ -18,6 +18,8 @@ CONFIG = ROOT / "data" / "bot.json"
 STATE = ROOT / "data" / "bot" / "state.json"
 MODEL = "claude-opus-5-5"
 KEEP_TRADES, KEEP_EQUITY, KEEP_TICKS = 600, 500, 60
+# Structured copy of this tick's fills, for engine/live.py to mirror. Reset on every run.
+ORDERS = []
 
 
 def now_ms():
@@ -81,6 +83,7 @@ def crypto_step(acct, sig, cfg, t, hours):
               "held": t - p["opened"], "reason": reason, "rule": rule, "stop_pct": p["stop_pct"], "size_pct": p["size_pct"], "entry_reason": p["reason"]}
         acct["trades"].append(tr)
         actions.append(f"Sold {p['symbol']} ({reason}): {pnl:+,.2f} USD")
+        ORDERS.append({"account": "crypto", "side": "sell", "id": p["id"], "symbol": p["symbol"], "frac": 1.0, "reason": reason, "price": price})
 
     # Exits: stop and target along the price path since the last tick, then time and signal exits.
     for p in list(acct["positions"]):
@@ -156,6 +159,8 @@ def crypto_open(acct, cfg, t, key, s, coin, why, size, ai):
     acct["positions"].append(p)
     acct["trades"].append({"type": "Open", "t": t, "pid": p["pid"], "id": coin["id"], "symbol": coin["symbol"], "setup": s["label"], "dir": "long",
                            "price": fill, "size": size, "slip": sl * 100, "reason": why, "ai": ai, "cash_before": eq_before})
+    ORDERS.append({"account": "crypto", "side": "buy", "id": coin["id"], "symbol": coin["symbol"], "setup": s["label"], "size_pct": s["size_pct"],
+                   "stop_pct": s["stop_pct"], "target_pct": s["target_pct"], "price": coin["price"], "volume": coin.get("volume"), "ai": ai})
     return f"Bought {coin['symbol']} ({s['label']}): {size:,.0f} USD"
 
 
@@ -201,6 +206,7 @@ def tao_step(acct, tsig, cfg, t, ts):
             p["cost"] -= cost
             p["trimmed"] = t
         actions.append(f"Sold {'all' if frac >= 0.999 else 'a third'} of SN{k} ({reason}): {pnl:+.3f} τ")
+        ORDERS.append({"account": "tao", "side": "sell", "netuid": int(k), "name": s["name"], "frac": frac, "reason": reason, "price": s["price_tao"]})
 
     stop = P.get("stop_loss_pct", 30)
     for k in list(acct["positions"]):
@@ -260,6 +266,8 @@ def tao_open(acct, tsig, cfg, t, ts, k, tranche, r, ai):
     acct["trades"].append({"side": "Buy", "t": t, "netuid": int(k), "name": s["name"], "alpha": alpha, "tao": tranche, "price": tranche / alpha,
                            "slip": (tranche / alpha / s["price_tao"] - 1) * 100, "setup": r["setup"], "tranche": p["tranches"],
                            "reason": " ".join(r["reasons"]), "ai": ai})
+    ORDERS.append({"account": "tao", "side": "buy", "netuid": int(k), "name": s["name"], "setup": r["setup"], "tranche": p["tranches"],
+                   "price": s["price_tao"], "pool_tao": s.get("tao_liquidity"), "ai": ai})
     return f"Bought SN{k} tranche {p['tranches']} ({r['setup']}): {tranche:.3f} τ"
 
 
@@ -329,8 +337,9 @@ def run(crypto_sig, tao_sig, ts):
     gap = float(os.environ.get("BOT_MIN_HOURS", cfg["min_hours_between_ticks"]))
     if last and t - last < gap * 3600000:
         print(f"  bot: last tick {(t - last) / 3600000:.1f}h ago, waiting for {gap:g}h")
-        return state
+        return None
     hours = (t - last) / 3600000 if last else 4
+    ORDERS.clear()
     actions, proposals, regimes = [], [], {}
     if crypto_sig and crypto_sig.get("coins"):
         a, p, regimes["crypto"] = crypto_step(state["crypto"], crypto_sig, cfg, t, hours)
@@ -379,7 +388,7 @@ def run(crypto_sig, tao_sig, ts):
         state[k]["trades"] = state[k]["trades"][-KEEP_TRADES:]
         state[k]["equity"] = state[k]["equity"][-KEEP_EQUITY:]
     state["ticks"] = (state["ticks"] + [{"t": t, "ts": ts, "regimes": regimes, "actions": actions, "skipped": skipped,
-                                         "ai_note": note, "ai_model": model, "ai": decisions is not None}])[-KEEP_TICKS:]
+                                         "ai_note": note, "ai_model": model, "ai": decisions is not None, "orders": list(ORDERS)}])[-KEEP_TICKS:]
     state["last_tick"] = t
     STATE.parent.mkdir(parents=True, exist_ok=True)
     STATE.write_text(json.dumps(state, default=str, separators=(",", ":")))

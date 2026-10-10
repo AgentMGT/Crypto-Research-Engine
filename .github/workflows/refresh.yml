@@ -37,6 +37,15 @@ jobs:
           # and CoinGecko runs on the public rate limit.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          # Live trading (engine/live.py). Real orders need LIVE_TRADING=on (a repository
+          # variable, the kill switch), armed=true in data/live.json, and these secrets.
+          # Anything missing keeps that account in dry run.
+          LIVE_TRADING: ${{ vars.LIVE_TRADING }}
+          LIVE_EXCHANGE_API_KEY: ${{ secrets.LIVE_EXCHANGE_API_KEY }}
+          LIVE_EXCHANGE_SECRET: ${{ secrets.LIVE_EXCHANGE_SECRET }}
+          LIVE_EXCHANGE_PASSWORD: ${{ secrets.LIVE_EXCHANGE_PASSWORD }}
+          LIVE_TAO_PROXY_MNEMONIC: ${{ secrets.LIVE_TAO_PROXY_MNEMONIC }}
+          LIVE_TAO_COLDKEY_SS58: ${{ secrets.LIVE_TAO_COLDKEY_SS58 }}
         run: python -m engine.build all
 
       - name: Commit history snapshots

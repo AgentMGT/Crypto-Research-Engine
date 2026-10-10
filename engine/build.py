@@ -13,7 +13,7 @@ from html import escape
 from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 from markupsafe import Markup
 
-from . import ai_brief, bot, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals, tao_plan
+from . import ai_brief, bot, fetch_crypto, fetch_news, fetch_tao, fetch_venues, live, signals, tao_plan
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
@@ -255,7 +255,9 @@ def main():
     if any(sigs.values()):
         try:
             print("== paper trading bot")
-            bot.run(sigs.get("crypto"), sigs.get("tao"), ts)
+            bstate = bot.run(sigs.get("crypto"), sigs.get("tao"), ts)
+            print("== live trading (mirrors the bot; dry run unless armed)")
+            live.run(bstate, sigs.get("crypto"), sigs.get("tao"))
         except Exception:
             # The bot must never stop the site from deploying.
             traceback.print_exc()
@@ -271,6 +273,8 @@ def main():
             shutil.copy(src, OUT / name)
     if bot.STATE.exists():
         shutil.copy(bot.STATE, OUT / "bot.json")
+    if live.STATE.exists():
+        shutil.copy(live.STATE, OUT / "live.json")
 
     ok = [n for n, s in built if s]
     print(f"built: {', '.join(ok) if ok else 'nothing'} -> {OUT}")

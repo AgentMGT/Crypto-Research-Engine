@@ -104,3 +104,7 @@ places an order.
 ## Wallets
 
 `wallets.html` is watch-only. It reads public addresses (pasted, or shared by a browser wallet) and shows balances from public nodes: ETH and major tokens on Ethereum, Base, Arbitrum and Optimism; SOL and SPL tokens; free TAO on Bittensor. It never requests signatures or transactions, and addresses stay in the visitor's browser.
+
+## Live trading (off)
+
+`engine/live.py` mirrors the bot's fills with real orders, inside hard limits, once an account is armed in `data/live.json`, the `LIVE_TRADING` repository variable is `on`, and its secrets are set. Until then it is a dry run that logs what it would have placed. See [docs/LIVE_TRADING.md](docs/LIVE_TRADING.md).

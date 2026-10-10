@@ -1,0 +1,27 @@
+{
+  "_note": "Live trading for the bot (engine/live.py). Both accounts are DISARMED. Real orders need all three locks: armed=true here, the repository variable LIVE_TRADING=on, and the account's API secrets. Until then the bot only logs what it would have done (dry run). Do not arm without Marvin's explicit command.",
+  "crypto": {
+    "armed": false,
+    "exchange": "coinbase",
+    "quote_currencies": ["USD", "USDC", "USDT"],
+    "budget_usd": 500,
+    "max_order_usd": 100,
+    "min_order_usd": 10,
+    "max_positions": 6,
+    "max_daily_loss_usd": 50,
+    "max_price_drift_pct": 2.0,
+    "place_exchange_stop": true,
+    "require_ai_approval": true
+  },
+  "tao": {
+    "armed": false,
+    "validator_hotkey": "",
+    "budget_tao": 2.0,
+    "max_order_tao": 0.5,
+    "min_order_tao": 0.05,
+    "max_daily_loss_tao": 0.3,
+    "rate_tolerance_pct": 2.0,
+    "position_max_pct": 20,
+    "require_ai_approval": true
+  }
+}
