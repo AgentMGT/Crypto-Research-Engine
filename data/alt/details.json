@@ -34,7 +34,7 @@
   ],
   "discord": null,
   "explorer": "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
-  "fetched": "2026-10-11T19:08:31.933437+00:00",
+  "fetched": "2026-10-11T19:25:14.510274+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.benqi.fi/",
@@ -48,7 +48,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BenqiFinance",
   "twitter_followers": null,
-  "watchers": 30424
+  "watchers": 30425
  },
  "bundle-cat": {
   "categories": [
@@ -74,7 +74,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0x07EBB29a38Fbcb41563817e5E19f2ceC619C90D2",
-  "fetched": "2026-10-11T19:06:08.754433+00:00",
+  "fetched": "2026-10-11T19:23:51.232898+00:00",
   "genesis": null,
   "github": "https://github.com/UVLabs-AI",
   "homepage": "https://mosh.trade/",
@@ -126,7 +126,7 @@
   ],
   "discord": "https://discordapp.com/invite/Trhab5w",
   "explorer": "https://etherscan.io/token/0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
-  "fetched": "2026-10-11T19:09:45.115759+00:00",
+  "fetched": "2026-10-11T19:27:27.652430+00:00",
   "genesis": null,
   "github": "https://github.com/celer-network/sgn-v2-contracts",
   "homepage": "https://www.celer.network/#",
@@ -180,7 +180,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
-  "fetched": "2026-10-11T19:09:48.346493+00:00",
+  "fetched": "2026-10-11T19:27:30.923762+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clearpool.finance/",
@@ -195,7 +195,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ClearpoolFin",
   "twitter_followers": null,
-  "watchers": 39166
+  "watchers": 39167
  },
  "clore-ai": {
   "categories": [
@@ -215,7 +215,7 @@
   "dex": [],
   "discord": "https://discord.com/invite/7sAEVGza8w",
   "explorer": null,
-  "fetched": "2026-10-11T19:08:25.402319+00:00",
+  "fetched": "2026-10-11T19:25:08.011093+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clore.ai",
@@ -251,7 +251,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-  "fetched": "2026-10-11T19:06:12.011381+00:00",
+  "fetched": "2026-10-11T19:23:54.446156+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cyberleek.ar.io/",
@@ -259,13 +259,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 48.2,
+  "sentiment_up": 48.49,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/cyberleek_ar_io",
   "twitter_followers": null,
-  "watchers": 2711
+  "watchers": 2714
  },
  "ekubo-protocol": {
   "categories": [
@@ -287,7 +287,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x04c46e830bb56ce22735d5d8fc9cb90309317d0f",
-  "fetched": "2026-10-11T19:08:35.191646+00:00",
+  "fetched": "2026-10-11T19:26:17.793776+00:00",
   "genesis": null,
   "github": "https://github.com/EkuboProtocol",
   "homepage": "https://app.ekubo.org/",
@@ -302,7 +302,60 @@
   "telegram_users": null,
   "twitter": "https://x.com/EkuboProtocol",
   "twitter_followers": null,
-  "watchers": 1865
+  "watchers": 1866
+ },
+ "elizaos": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "AI Agents",
+   "Binance Alpha Spotlight",
+   "AI Framework",
+   "Made in USA",
+   "Base Native"
+  ],
+  "cex": [
+   "BitKan",
+   "CEX.IO",
+   "Crypto.com Exchange",
+   "Gate",
+   "KCEX",
+   "Kraken",
+   "MEXC",
+   "Toobit",
+   "XT.COM"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/DuMbhu7mvQvqQHGcnikDgb4XegXJRyhUBfdU22uELiZA",
+  "fetched": "2026-10-11T19:27:37.301048+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": null,
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 75.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ElizaEcoFund",
+  "twitter_followers": null,
+  "watchers": 4677
  },
  "genesysgo-shadow": {
   "categories": [
@@ -326,7 +379,7 @@
   ],
   "discord": "https://discord.com/invite/shdwdrive",
   "explorer": "https://solscan.io/token/SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y",
-  "fetched": "2026-10-11T19:09:51.574782+00:00",
+  "fetched": "2026-10-11T19:27:34.111494+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.shdwdrive.com/",
@@ -378,7 +431,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP",
-  "fetched": "2026-10-11T19:06:05.535027+00:00",
+  "fetched": "2026-10-11T19:23:48.035594+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://griffain.com/",
@@ -420,7 +473,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
-  "fetched": "2026-10-11T19:10:58.366261+00:00",
+  "fetched": "2026-10-11T19:28:43.727871+00:00",
   "genesis": null,
   "github": "https://github.com/librecapital",
   "homepage": "https://www.kaio.xyz/",
@@ -459,7 +512,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
-  "fetched": "2026-10-11T19:08:28.679584+00:00",
+  "fetched": "2026-10-11T19:25:11.241277+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.mansory.com/",
@@ -492,7 +545,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/112/chart",
-  "fetched": "2026-10-11T19:09:41.796843+00:00",
+  "fetched": "2026-10-11T19:27:24.424870+00:00",
   "genesis": null,
   "github": "https://github.com/subnet112/minotaur_subnet",
   "homepage": "https://minotaursubnet.com/",
@@ -507,38 +560,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 75
- },
- "nuance-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets"
-  ],
-  "cex": [
-   "Subnet Tokens"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://taostats.io/subnets/23/chart",
-  "fetched": "2026-10-11T19:11:04.850581+00:00",
-  "genesis": null,
-  "github": "https://github.com/NuanceNetwork/Nuance",
-  "homepage": null,
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 131
  },
  "rivalz-network": {
   "categories": [
@@ -564,7 +585,7 @@
   ],
   "discord": "https://discord.com/invite/rivalzai",
   "explorer": "https://basescan.org/token/0x67543CF0304C19CA62AC95ba82FD4F4B40788dc1",
-  "fetched": "2026-10-11T19:07:22.109276+00:00",
+  "fetched": "2026-10-11T19:25:04.678238+00:00",
   "genesis": null,
   "github": "https://github.com/Rivalz-ai",
   "homepage": "https://rivalz.ai/",
@@ -607,7 +628,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-11T19:07:18.824252+00:00",
+  "fetched": "2026-10-11T19:25:01.482268+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -669,7 +690,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-10-11T19:11:01.627484+00:00",
+  "fetched": "2026-10-11T19:28:46.950983+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -712,7 +733,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-11T19:09:38.514890+00:00",
+  "fetched": "2026-10-11T19:26:21.121585+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -765,7 +786,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-10-11T19:10:55.045090+00:00",
+  "fetched": "2026-10-11T19:28:40.538358+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -801,7 +822,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-11T19:06:02.285937+00:00",
+  "fetched": "2026-10-11T19:23:44.845360+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -837,7 +858,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-10-11T19:07:15.597503+00:00",
+  "fetched": "2026-10-11T19:24:57.704393+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
