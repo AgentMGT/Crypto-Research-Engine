@@ -1,4 +1,59 @@
 {
+ "adex": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "AI Agents",
+   "AI Applications",
+   "DeFAI",
+   "x402 Ecosystem",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "Mudrex",
+   "Toobit"
+  ],
+  "cex_count": 14,
+  "chat": null,
+  "commits_4w": null,
+  "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
+  "fetched": "2026-10-11T22:57:33.235346+00:00",
+  "genesis": "2017-07-01",
+  "github": "https://github.com/heyauradev",
+  "homepage": "https://www.heyaura.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "robinhood"
+  ],
+  "reddit": "https://www.reddit.com/r/AdEx",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/+Oki8IRbVXVlmNTQ0",
+  "telegram_users": null,
+  "twitter": "https://x.com/heyAura",
+  "twitter_followers": null,
+  "watchers": 9345
+ },
  "aixbt": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -405,6 +460,52 @@
   "twitter": "https://x.com/AstarNetwork",
   "twitter_followers": null,
   "watchers": 48406
+ },
+ "auki-labs": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Augmented Reality",
+   "Metaverse",
+   "DePIN",
+   "Base Ecosystem",
+   "AI Applications",
+   "Outlier Ventures Portfolio",
+   "Peaq Ecosystem",
+   "Robotics",
+   "Base Native"
+  ],
+  "cex": [
+   "MEXC",
+   "MachineX"
+  ],
+  "cex_count": 2,
+  "chat": "https://auki.medium.com/",
+  "commits_4w": null,
+  "description": "Auki is making the physical world accessible to AI by building the real world web: a way for robots and digital devices like smart glasses and phones to browse, navigate, and search physical locations. At its foundation is the posemesh protocol, a collaborative and decentralized machine perception network that allows robots and XR devices to have a shared understanding of physical space, and a token economy for exchanging spatial data and compute resources.\n\n70% of the world economy is still tied to physical locations and labor, so making the physical world accessible to AI represents a 3X increase in the TAM of AI in general. Auki's goal is to become the decentralized nervous system of AI in the physical world, providing collaborative spatial reasoning for the next 100bn devices on Earth and beyond.\n\nFrom autonomous drone delivery to copilots for physical labor to robotic companions for children and navigation aid for the blind, the Auki network is a fast-growing ecosystem of cutting-edge physical AI applications. \n\nRapidly rolling out into thousands of commercial and private locations world-wide, the Auki network is now home to a growing number of applications that are already collecting millions of dollars in yearly revenue. \n\nWith a growing roster of robot integrations like Unitree, EngineAI, Padbot, Slamtec and more, Auki has cemented itself as the web3 robotics project with the most real world traction. \n\nThis year, Auki demonstrated the world's first large-scale autono",
+  "dex": [
+   "Aerodrome (Base)",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/auki",
+  "explorer": "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
+  "fetched": "2026-10-11T22:57:26.865520+00:00",
+  "genesis": null,
+  "github": "https://github.com/aukilabs",
+  "homepage": "https://www.auki.com/",
+  "platforms": [
+   "base",
+   "peaq"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/AukiNetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/Auki",
+  "twitter_followers": null,
+  "watchers": 6581
  },
  "aurora-near": {
   "categories": [
@@ -2182,6 +2283,45 @@
   "twitter_followers": null,
   "watchers": 3603
  },
+ "lcx": {
+  "categories": [
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Centralized Exchange (CEX) Token",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Alleged SEC Securities",
+   "Dex Aggregator"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Kraken"
+  ],
+  "cex_count": 2,
+  "chat": "https://www.instagram.com/lcx.exchange/",
+  "commits_4w": null,
+  "description": "LCX.com is a platform that innovates capital markets by providing solutions for compliant digital\nassets and security tokens. It is a secure and compliant platform for buying, selling, transferring,\nand storing digital currency.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x8CD41041505885EF0aD3858181D66f17BE8aae7E",
+  "fetched": "2026-10-11T22:58:39.570431+00:00",
+  "genesis": null,
+  "github": "https://github.com/LCX-AG",
+  "homepage": "https://lcx.com/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/JoinLCX",
+  "telegram_users": null,
+  "twitter": "https://x.com/lcx",
+  "twitter_followers": null,
+  "watchers": 50233
+ },
  "lisk": {
   "categories": [
    "Smart Contract Platform",
@@ -2819,6 +2959,61 @@
   "twitter_followers": null,
   "watchers": 671
  },
+ "nym": {
+  "categories": [
+   "Smart Contract Platform",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Osmosis Ecosystem",
+   "VPN",
+   "Andreessen Horowitz (a16z) Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Governance",
+   "CoinList Launchpad",
+   "Privacy Infrastructure",
+   "Privacy"
+  ],
+  "cex": [
+   "Bitfinex",
+   "Bitget",
+   "Bybit",
+   "CoinW",
+   "Gate",
+   "HTX",
+   "KCEX",
+   "KuCoin",
+   "LATOKEN",
+   "MEXC",
+   "Mudrex",
+   "Osmosis"
+  ],
+  "cex_count": 12,
+  "chat": "https://medium.com/nymtech",
+  "commits_4w": null,
+  "description": "Existing internet protocols leak sensitive data that can be used without users knowledge \u2014 Nym is developing the infrastructure to prevent this data leakage by protecting every packet\u2019s metadata at the network and application layers.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/nym",
+  "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
+  "fetched": "2026-10-11T22:57:30.053209+00:00",
+  "genesis": null,
+  "github": "https://github.com/nymtech/nym/",
+  "homepage": "https://nym.com",
+  "platforms": [
+   "ethereum",
+   "osmosis"
+  ],
+  "reddit": "https://www.reddit.com/r/nym",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/nymchan",
+  "telegram_users": null,
+  "twitter": "https://x.com/nym",
+  "twitter_followers": null,
+  "watchers": 30284
+ },
  "omega-any-to-any": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2938,6 +3133,58 @@
   "twitter": "https://x.com/OpenGradient",
   "twitter_followers": null,
   "watchers": 2500
+ },
+ "ovr": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Augmented Reality",
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "Robotics",
+   "Base Native"
+  ],
+  "cex": [
+   "Bilaxy",
+   "Gate",
+   "KuCoin",
+   "MEXC",
+   "MachineX"
+  ],
+  "cex_count": 5,
+  "chat": "https://www.instagram.com/over.metaverse/",
+  "commits_4w": null,
+  "description": "OVER: Decentralized Physical AI &amp; World's Largest 3D Map\n\nOVER is a leading Physical AI platform building the world's largest 3D map. Leveraging a Decentralized Physical Infrastructure Network (DePIN) framework, OVER incentivizes a global community of mappers with OVR Tokens to scan high-traffic locations using common smartphones and 360-degree cameras.\nWith over 150,000 locations mapped and 60 million+ images, OVER possesses the most extensive 3D Map dataset globally. This proprietary data powers diverse Physical AI applications: from training cutting-edge Vision Foundation Models to enabling precise Visual Positioning Systems and fostering AI-powered Extended Reality (XR) publishing and browsing.\n\nVision Foundation Models Training: OVER utilizes its vast 3D Map data to train Vision Foundation Models crucial for robotics machine perception, coherent 3D reconstruction, and generation from monocular views. OVER both directly trains these models and licenses its data to leading AI companies and research centers.\n\nVisual Positioning System (VPS): OVER offers an API-based, state-of-the-art Visual Positioning System (VPS) service across all its mapped locations. This technology allows devices and robots to determine their position and bearing in space with centimeter-level precision. This is critical for the future of robotics, augmented reality, and fleet management. Thanks to its patent-pending TEE-powered VPS, OVER ensures end-to-end privacy for re-localization tasks.\n\nXR P",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Polygon)"
+  ],
+  "discord": "https://discord.com/invite/PBcECmFQYZ",
+  "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
+  "fetched": "2026-10-11T22:57:36.384418+00:00",
+  "genesis": null,
+  "github": "https://github.com/OVR-Platform/unity-sdk",
+  "homepage": "https://www.overthereality.ai/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "polygon-pos"
+  ],
+  "reddit": "https://www.reddit.comhttps://www.reddit.com/r/OVR_AR_Platform/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/OVRtheReality",
+  "telegram_users": null,
+  "twitter": "https://x.com/OVRtheReality",
+  "twitter_followers": null,
+  "watchers": 114924
  },
  "paal-ai": {
   "categories": [
