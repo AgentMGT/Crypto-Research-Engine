@@ -37,6 +37,8 @@ jobs:
           # and CoinGecko runs on the public rate limit.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          # Free key from pro.coinmarketcap.com; adds CoinMarketCap's new listings to ALTCOINS.
+          COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
           # Live trading (engine/live.py). Real orders need LIVE_TRADING=on (a repository
           # variable, the kill switch), armed=true in data/live.json, and these secrets.
           # Anything missing keeps that account in dry run.

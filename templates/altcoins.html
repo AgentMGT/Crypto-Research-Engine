@@ -97,7 +97,7 @@
   <div class="card"><div class="k">Coins screened</div><div class="v">{{ alt.universe|length }}</div><div class="n">{{ alt.cfg.mcap_min_usd|money }} to {{ alt.cfg.mcap_max_usd|money }} market cap</div></div>
   <div class="card"><div class="k">Utility picks</div><div class="v">{{ alt.utility|length }}</div><div class="n">checked in detail</div></div>
   <div class="card"><div class="k">Meme coins</div><div class="v">{{ alt.meme|length }}</div><div class="n">checked in detail</div></div>
-  <div class="card"><div class="k">DEX early pools</div><div class="v">{{ alt.dex|length }}</div><div class="n">under $2M liquidity</div></div>
+  <div class="card"><div class="k">DEX early pools</div><div class="v">{{ alt.dex|length + (alt.dexscreener or [])|length }}</div><div class="n">GeckoTerminal + DEX Screener</div></div>
   <div class="card"><div class="k">Headlines scanned</div><div class="v">{{ alt.headline_count }}</div><div class="n">CoinGape, Changelly, Google News</div></div>
   <div class="card"><div class="k">AI due diligence</div><div class="v">{{ 'On' if alt.ai_on else 'Off' }}</div><div class="n">{{ 'web search on top picks' if alt.ai_on else 'switched off for now' }}</div></div>
 </div>
@@ -134,6 +134,7 @@
   <button type="button" role="tab" data-tab="utility" aria-selected="true">Utility picks</button>
   <button type="button" role="tab" data-tab="meme" aria-selected="false">Meme coins</button>
   <button type="button" role="tab" data-tab="dex" aria-selected="false">DEX early</button>
+  <button type="button" role="tab" data-tab="cmc" aria-selected="false">New on CoinMarketCap</button>
   <button type="button" role="tab" data-tab="all" aria-selected="false">All screened</button>
 </div>
 
@@ -159,7 +160,7 @@
   <p class="sub">Pools on decentralized exchanges with under $2M liquidity that are trending or new, without sell pressure. Many of these tokens aren't on CoinGecko yet. Highest risk on the site: check the contract and the holder spread before anything else.</p>
   <div class="tablewrap">
   <table>
-  <thead><tr><th class="l">Pool</th><th class="l">Chain · DEX</th><th>Price</th><th>24h</th><th>Liquidity</th><th>Volume 24h</th><th>Buy share</th><th>Buyers / sellers</th><th class="l">Tags</th></tr></thead>
+  <thead><tr><th class="l">Pool</th><th class="l">Chain · DEX</th><th>Price</th><th>24h</th><th>Liquidity</th><th>Volume 24h</th><th>Buy share</th><th>Buyers / sellers</th><th class="l">Tags</th><th class="l">Open</th></tr></thead>
   <tbody>
   {% for p in alt.dex %}
     <tr data-q="{{ p.name }} {{ p.network }} {{ p.dex }}"{{ {'t': 'gt', 'net': p.network, 'pool': p.address, 'label': p.name ~ ' · ' ~ p.dex, 'link': p.url}|chart }}>
@@ -169,11 +170,64 @@
       <td>{{ (p.buy_ratio * 100)|num(0) if p.buy_ratio is not none else '–' }}%</td>
       <td>{{ p.buyers }} / {{ p.sellers }}</td>
       <td class="l">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+      <td class="l alt-open">{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">GeckoTerminal</a>{% endif %}{% if p.dextools %} <a href="{{ p.dextools }}" target="_blank" rel="noopener">DEXTools</a>{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>
   </table>
   </div>
+
+  {% if alt.dexscreener %}
+  <h3 class="plan-h">New on DEX Screener</h3>
+  <p class="sub">Tokens that just set up a DEX Screener profile (the team paid to list their links) or bought a boost, with their deepest pool under $2M liquidity. A boost is a paid promotion, not a signal of quality.</p>
+  <div class="tablewrap">
+  <table>
+  <thead><tr><th class="l">Token</th><th class="l">Chain · DEX</th><th>Price</th><th>24h</th><th>Liquidity</th><th>Volume 24h</th><th>Mkt cap</th><th>Buy share</th><th>Pool age</th><th class="l">Channels</th><th class="l">Flags</th><th class="l">Open</th></tr></thead>
+  <tbody>
+  {% for t in alt.dexscreener %}
+    <tr data-q="{{ t.symbol }} {{ t.name }} {{ t.chain }} {{ t.dex }}">
+      <td class="l"><b>{{ t.symbol }}</b> <small class="faint">{{ t.name }}</small></td>
+      <td class="l">{{ t.chain }} · {{ t.dex }}</td>
+      <td>{{ t.price|money if t.price else '–' }}</td><td class="{{ t.ch24|cls }}">{{ t.ch24|signed }}</td>
+      <td>{{ t.liquidity|money }}</td><td>{{ t.volume|money if t.volume else '–' }}</td><td>{{ t.mcap|money if t.mcap else '–' }}</td>
+      <td>{{ (t.buy_share * 100)|num(0) ~ '%' if t.buy_share is not none else '–' }}</td>
+      <td>{{ (t.age_days|num(0) ~ 'd') if t.age_days is not none else '–' }}</td>
+      <td class="l alt-open">{% for k, label in [('website', 'Web'), ('twitter', 'X'), ('telegram', 'Telegram'), ('discord', 'Discord')] %}{% if t.links[k] %}<a href="{{ t.links[k] }}" target="_blank" rel="noopener">{{ label }}</a> {% endif %}{% endfor %}</td>
+      <td class="l">{% for f in t.flags %}<span class="tag warn">{{ f }}</span>{% endfor %}</td>
+      <td class="l alt-open"><a href="{{ t.url }}" target="_blank" rel="noopener">DEX Screener</a>{% if t.dextools %} <a href="{{ t.dextools }}" target="_blank" rel="noopener">DEXTools</a>{% endif %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+  </div>
+  {% endif %}
+</section>
+
+<section id="tab-cmc" role="tabpanel" hidden>
+  {% if alt.cmc is none %}
+  <p class="sub">CoinMarketCap needs a free API key. Sign up at <a href="https://pro.coinmarketcap.com/signup" target="_blank" rel="noopener">pro.coinmarketcap.com</a> (Basic plan, free), copy the key, and add it as a repository secret named <code>COINMARKETCAP_API_KEY</code> (GitHub repo → Settings → Secrets and variables → Actions → New repository secret). This tab fills in on the next refresh.</p>
+  {% elif alt.cmc %}
+  <p class="sub">The newest coins listed on CoinMarketCap with a market cap between {{ alt.cfg.mcap_min_usd|money }} and {{ alt.cfg.mcap_max_usd|money }}, newest first. Many aren't screened on CoinGecko yet.</p>
+  <div class="tablewrap">
+  <table>
+  <thead><tr><th class="l">Asset</th><th>Listed</th><th>Mkt cap</th><th>FDV</th><th>24h vol</th><th>7d</th><th>30d</th><th class="l">Tags</th><th class="l">Open</th></tr></thead>
+  <tbody>
+  {% for c in alt.cmc %}
+    <tr data-q="{{ c.symbol }} {{ c.name }} {{ c.tags|join(' ') }}"{{ {'t': 'cg', 'id': c.cg_id, 'label': c.symbol ~ ' · ' ~ c.name}|chart if c.cg_id }}>
+      <td class="l"><b>{{ c.symbol }}</b> <small class="faint">{{ c.name }}{% if c.chain %} · {{ c.chain }}{% endif %}</small></td>
+      <td>{{ c.added }}{% if c.age_days is not none %} <small class="faint">({{ c.age_days }}d)</small>{% endif %}</td>
+      <td>{{ c.mcap|money if c.mcap else '–' }}</td><td>{{ c.fdv|money if c.fdv else '–' }}</td><td>{{ c.volume|money if c.volume else '–' }}</td>
+      <td class="{{ c.ch7|cls }}">{{ c.ch7|signed }}</td><td class="{{ c.ch30|cls }}">{{ c.ch30|signed }}</td>
+      <td class="l">{% for t in c.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+      <td class="l alt-open"><a href="https://coinmarketcap.com/currencies/{{ c.slug }}/" target="_blank" rel="noopener">CoinMarketCap</a>{% if c.cg_id %} <a href="research.html?id={{ c.cg_id }}">Research</a>{% endif %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+  </div>
+  {% else %}
+  <p class="sub">CoinMarketCap returned nothing this run.</p>
+  {% endif %}
 </section>
 
 <section id="tab-all" role="tabpanel" hidden>
@@ -200,6 +254,6 @@
 {% endif %}
 {% endblock %}
 
-{% block sources %}Sources: CoinGecko (markets, categories, project details, community links), DefiLlama (protocol TVL), GeckoTerminal (DEX pools), CoinGape, Changelly and Google News (headlines){% if alt and alt.ai_on %}, Claude with web search (due diligence){% endif %}.{% endblock %}
+{% block sources %}Sources: CoinGecko (markets, categories, project details, community links), DefiLlama (protocol TVL), GeckoTerminal and DEX Screener (DEX pools, links to DEXTools){% if alt and alt.cmc %}, CoinMarketCap (new listings){% endif %}, CoinGape, Changelly and Google News (headlines){% if alt and alt.ai_on %}, Claude with web search (due diligence){% endif %}.{% endblock %}
 
 {% block scripts %}<script src="altcoins.js"></script>{% endblock %}

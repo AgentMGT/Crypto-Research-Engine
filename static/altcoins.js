@@ -61,7 +61,7 @@
   var quiet = document.getElementById("alt-quiet");
   function apply() {
     var term = (q && q.value || "").trim().toLowerCase();
-    document.querySelectorAll(".alt-card, #tab-dex tbody tr, #alt-all tbody tr").forEach(function (el) {
+    document.querySelectorAll(".alt-card, #tab-dex tbody tr, #tab-cmc tbody tr, #alt-all tbody tr").forEach(function (el) {
       var ok = !term || (el.getAttribute("data-q") || "").toLowerCase().indexOf(term) >= 0;
       if (el.classList.contains("alt-card")) {
         if (strong && strong.checked) ok = ok && Number(el.getAttribute("data-passed")) >= 60;

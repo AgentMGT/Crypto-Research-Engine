@@ -460,3 +460,4 @@ tr[data-chart] { cursor: pointer; }
   .alt-checks, .alt-mine-grid { grid-template-columns: 1fr; }
 }
 .alt-filter label input { min-width: 0; padding: 0; margin: 0; }
+.alt-open a { margin-right: 8px; white-space: nowrap; }

@@ -7,6 +7,9 @@ Pipeline, all from free keyless sources:
   3. Pre-score on market data, then pull CoinGecko detail (description, categories,
      community links, GitHub activity, exchange listings) for the best candidates.
      Details are cached for a day in data/alt/details.json to stay inside rate limits.
+  3b. DEX Screener's newest token profiles and boosts (DEXTools has no free API, so
+     every pool links to its DEXTools page), and, with a free COINMARKETCAP_API_KEY,
+     CoinMarketCap's newest listings in the same cap range.
   4. Headlines from CoinGape, Changelly and Google News that mention a candidate.
   5. Optional AI due diligence (ANTHROPIC_API_KEY): Claude searches the web for each
      top candidate's products, partnerships, staking and community activity.
@@ -201,6 +204,120 @@ def _loose_items(raw, source):
         if t and l:
             out.append({"title": fetch_news._clean(t.group(1)), "link": l.group(1).strip(), "source": source,
                         "published": fetch_news._when(d.group(1).strip() if d else None), "summary": ""})
+    return out
+
+
+# DEXTools has no free API, so DEX Screener (keyless) stands in for it and every
+# pool links out to its DEXTools page.
+DEXTOOLS_CHAIN = {"eth": "ether", "ethereum": "ether", "bsc": "bnb", "solana": "solana", "base": "base",
+                  "arbitrum": "arbitrum", "polygon_pos": "polygon", "polygon": "polygon", "avax": "avalanche",
+                  "avalanche": "avalanche", "optimism": "optimism", "ton": "ton", "sui": "sui", "tron": "tron"}
+
+
+def dextools_url(chain, pair):
+    c = DEXTOOLS_CHAIN.get((chain or "").lower())
+    return f"https://www.dextools.io/app/en/{c}/pair-explorer/{pair}" if c and pair else None
+
+
+def dexscreener(cfg, errors):
+    """Tokens that just bought a DEX Screener profile or boost, with their best pool."""
+    base = "https://api.dexscreener.com"
+    tokens = {}
+    for path, boosted in (("/token-profiles/latest/v1", False), ("/token-boosts/top/v1", True)):
+        try:
+            got = get_json(base + path)
+        except RuntimeError as e:
+            errors.append(f"DEX Screener {path}: {str(e)[:50]}")
+            continue
+        for t in got if isinstance(got, list) else []:
+            key = (t.get("chainId"), t.get("tokenAddress"))
+            if not all(key):
+                continue
+            row = tokens.setdefault(key, {"links": {}, "boosted": False, "description": ""})
+            row["boosted"] = row["boosted"] or boosted
+            row["description"] = row["description"] or (t.get("description") or "")[:200]
+            for l in t.get("links") or []:
+                kind = (l.get("type") or l.get("label") or "").lower()
+                kind = "website" if kind in ("", "website", "docs") else kind
+                if kind in ("website", "twitter", "telegram", "discord") and l.get("url"):
+                    row["links"].setdefault(kind, l["url"])
+    by_chain = {}
+    for (chain, addr) in tokens:
+        by_chain.setdefault(chain, []).append(addr)
+    out = []
+    for chain, addrs in by_chain.items():
+        for i in range(0, len(addrs), 30):
+            try:
+                pairs = get_json(f"{base}/tokens/v1/{chain}/{','.join(addrs[i:i + 30])}")
+            except RuntimeError as e:
+                errors.append(f"DEX Screener pairs {chain}: {str(e)[:50]}")
+                continue
+            best = {}
+            for p in pairs if isinstance(pairs, list) else []:
+                addr = (p.get("baseToken") or {}).get("address")
+                if addr and ((p.get("liquidity") or {}).get("usd") or 0) > ((best.get(addr) or {}).get("liquidity") or {}).get("usd", -1):
+                    best[addr] = p
+            for addr, p in best.items():
+                liq = (p.get("liquidity") or {}).get("usd") or 0
+                if not (cfg["dexs_min_liquidity_usd"] <= liq <= cfg["dex_max_liquidity_usd"]):
+                    continue
+                t = tokens.get((chain, addr)) or {"links": {}, "boosted": False, "description": ""}
+                tx = (p.get("txns") or {}).get("h24") or {}
+                created = p.get("pairCreatedAt")
+                age = (time.time() - created / 1000) / 86400 if created else None
+                bt = p.get("baseToken") or {}
+                flags_ = []
+                if t["boosted"]:
+                    flags_.append("Boosted (paid promotion)")
+                if age is not None and age < 3:
+                    flags_.append("New pool")
+                if liq < cfg["thin_volume_usd"]:
+                    flags_.append("Thin liquidity")
+                buys, sells = tx.get("buys") or 0, tx.get("sells") or 0
+                out.append({
+                    "name": bt.get("name"), "symbol": bt.get("symbol"), "chain": chain, "dex": p.get("dexId"),
+                    "url": p.get("url"), "dextools": dextools_url(chain, p.get("pairAddress")),
+                    "price": float(p["priceUsd"]) if p.get("priceUsd") else None, "liquidity": liq,
+                    "volume": (p.get("volume") or {}).get("h24"), "ch24": (p.get("priceChange") or {}).get("h24"),
+                    "mcap": p.get("marketCap") or p.get("fdv"), "age_days": age,
+                    "buy_share": buys / (buys + sells) if buys + sells else None,
+                    "links": t["links"], "description": t["description"], "flags": flags_,
+                })
+    out.sort(key=lambda r: (-len(r["links"]), -(r["volume"] or 0)))
+    return out[: cfg["show_dexscreener"]]
+
+
+def coinmarketcap(cfg, cg_views, errors):
+    """Newest CoinMarketCap listings in the cap range. Needs a free COINMARKETCAP_API_KEY."""
+    key = os.environ.get("COINMARKETCAP_API_KEY")
+    if not key:
+        return None
+    try:
+        got = get_json("https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
+                       params={"start": 1, "limit": cfg["cmc_limit"], "sort": "date_added", "sort_dir": "desc",
+                               "market_cap_min": cfg["mcap_min_usd"], "market_cap_max": cfg["mcap_max_usd"],
+                               "volume_24h_min": cfg["min_volume_usd"], "convert": "USD"},
+                       headers={"X-CMC_PRO_API_KEY": key})
+    except RuntimeError as e:
+        errors.append(f"CoinMarketCap: {str(e)[:60]}")
+        return []
+    cg = {((v["symbol"] or "").upper(), (v["name"] or "").lower()): v["id"] for v in cg_views}
+    out = []
+    for c in got.get("data") or []:
+        q = (c.get("quote") or {}).get("USD") or {}
+        added = (c.get("date_added") or "")[:10]
+        try:
+            age = (_now().date() - datetime.fromisoformat(added).date()).days
+        except ValueError:
+            age = None
+        out.append({
+            "name": c.get("name"), "symbol": c.get("symbol"), "slug": c.get("slug"), "rank": c.get("cmc_rank"),
+            "added": added, "age_days": age, "mcap": q.get("market_cap"), "fdv": q.get("fully_diluted_market_cap"),
+            "volume": q.get("volume_24h"), "ch7": q.get("percent_change_7d"), "ch30": q.get("percent_change_30d"),
+            "tags": [t for t in (c.get("tags") or []) if isinstance(t, str) and not t.endswith("-portfolio")][:4],
+            "chain": ((c.get("platform") or {}).get("name")),
+            "cg_id": cg.get(((c.get("symbol") or "").upper(), (c.get("name") or "").lower())),
+        })
     return out
 
 
@@ -524,6 +641,11 @@ def build(crypto_sig, crypto_data):
             seen_pools.add(p["address"])
             dex_rows.append(p)
 
+    dexs = dexscreener(cfg, errors)
+    cmc = coinmarketcap(cfg, views, errors)
+    for p in dex_rows:
+        p["dextools"] = dextools_url(p.get("network"), p.get("address"))
+
     slim = lambda v: {k: v.get(k) for k in ("id", "symbol", "name", "image", "rank", "price", "mcap", "fdv", "volume", "fdv_ratio",
                                            "float_pct", "turnover", "ch24", "ch7", "ch30", "from_ath", "cats", "tvl", "trending",
                                            "meme", "score", "passed", "passed_pct", "quiet_eco", "checks", "flags", "news", "ai")} | {
@@ -538,6 +660,8 @@ def build(crypto_sig, crypto_data):
         "universe": [{k: v.get(k) for k in ("id", "symbol", "name", "mcap", "volume", "fdv_ratio", "ch7", "ch30", "tvl", "meme", "score", "cats")}
                      for v in sorted(views, key=lambda v: -v["score"])],
         "dex": dex_rows[:20],
+        "dexscreener": dexs,
+        "cmc": cmc,
         "headline_count": len(seen),
         "ai_on": bool(os.environ.get("ANTHROPIC_API_KEY")) and bool(cfg.get("ai_due_diligence")),
         "errors": errors,

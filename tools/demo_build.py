@@ -236,6 +236,34 @@ altcoins._markets = fake_markets
 altcoins.coin_detail = fake_detail
 altcoins.llama_protocols = lambda errors: {a[0]: {"tvl": random.uniform(3e5, 4e7), "category": "Services", "name": a[2], "slug": a[0], "chains": ["Ethereum"]} for a in ALT if a[5]}
 altcoins.time.sleep = lambda s: None
+_real_get = altcoins.get_json
+
+
+def fake_alt_get(url, params=None, headers=None, **k):
+    if "token-profiles" in url or "token-boosts" in url:
+        return [{"chainId": "solana", "tokenAddress": f"So{i}", "description": "A new DePIN token", "links": [
+            {"type": "twitter", "url": "https://x.com/t"}, {"label": "Website", "url": "https://t.io"}, {"type": "telegram", "url": "https://t.me/t"}]}
+            for i in range(6 if "profiles" in url else 3)]
+    if "/tokens/v1/" in url:
+        addrs = url.rsplit("/", 1)[1].split(",")
+        return [{"chainId": "solana", "dexId": "raydium", "url": "https://dexscreener.com/solana/p" + a, "pairAddress": "p" + a,
+                 "baseToken": {"address": a, "name": "Token " + a, "symbol": a.upper()[:6]}, "priceUsd": "0.0123",
+                 "txns": {"h24": {"buys": 900, "sells": 400}}, "volume": {"h24": 3.1e5}, "priceChange": {"h24": 12.5},
+                 "liquidity": {"usd": 1.2e5 + 5e4 * i}, "fdv": 2.1e6, "marketCap": 1.9e6, "pairCreatedAt": 1791600000000}
+                for i, a in enumerate(addrs)]
+    if "coinmarketcap" in url:
+        return {"data": [{"name": "Akash Network", "symbol": "AKT", "slug": "akash-network", "cmc_rank": 400, "date_added": "2026-09-30T00:00:00.000Z",
+                          "tags": ["depin", "ai-big-data"], "platform": None,
+                          "quote": {"USD": {"market_cap": 9e7, "fully_diluted_market_cap": 1e8, "volume_24h": 2e6, "percent_change_7d": 4.2, "percent_change_30d": 12}}},
+                         {"name": "Brand New", "symbol": "BNEW", "slug": "brand-new", "cmc_rank": 2100, "date_added": "2026-10-09T00:00:00.000Z",
+                          "tags": ["meme"], "platform": {"name": "Solana"},
+                          "quote": {"USD": {"market_cap": 3e6, "fully_diluted_market_cap": 9e6, "volume_24h": 4e5, "percent_change_7d": 40, "percent_change_30d": None}}}]}
+    return _real_get(url, params=params, headers=headers, **k)
+
+
+altcoins.get_json = fake_alt_get
+import os
+os.environ.setdefault("COINMARKETCAP_API_KEY", "demo")
 fetch_news._get = fake_feed
 fetch_news.get_json = lambda *a, **k: {"objects": [{"current_status_label": "Passed House",
                                                      "current_status_date": "2025-07-17",
