@@ -39,6 +39,8 @@ jobs:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
           # Free key from pro.coinmarketcap.com; adds CoinMarketCap's new listings to ALTCOINS.
           COINMARKETCAP_API_KEY: ${{ secrets.COINMARKETCAP_API_KEY }}
+          # The workflow's own token: lifts GitHub's API limit for subnet developer activity.
+          GITHUB_TOKEN: ${{ github.token }}
           # Live trading (engine/live.py). Real orders need LIVE_TRADING=on (a repository
           # variable, the kill switch), armed=true in data/live.json, and these secrets.
           # Anything missing keeps that account in dry run.

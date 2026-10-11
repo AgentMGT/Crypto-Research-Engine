@@ -17,7 +17,7 @@ DEFAULTS = {
     "min_pool_tao": 5000, "min_age_days": 60, "prune_zone_pct": 15,
     "entry_max_premium": 8, "leader_min_premium": -3, "value_min_premium": -10, "value_max_premium": 2,
     "value_min_em_to_mcap": 15, "leader_top_em_rank": 30, "trim_premium": 15, "trim_7d": 40, "stop_loss_pct": 30,
-    "basket_drawdown_halve_pct": 25, "funding_hot_8h": 0.05,
+    "basket_drawdown_halve_pct": 25, "funding_hot_8h": 0.05, "prune_line_exit": 3,
 }
 
 
@@ -104,6 +104,9 @@ def evaluate(subnets, prev, p):
             exits.append(f"Net outflows ({flow:,.0f} τ/day): flow-based emissions stop while this lasts.")
         if s["netuid"] in prune:
             exits.append(f"In the bottom {p['prune_zone_pct']}% by price, where pruning happens.")
+        rank = s.get("dereg_rank")
+        if rank and rank <= p["prune_line_exit"]:
+            exits.append(f"#{rank} in line to be deregistered (lowest moving price without immunity, as Taostats ranks it).")
         if s["tao_liquidity"] < p["min_pool_tao"]:
             avoid.append(f"Pool is only {s['tao_liquidity']:,.0f} τ; the plan needs {p['min_pool_tao']:,} τ to exit cleanly.")
         if s.get("age_days") is not None and s["age_days"] < p["min_age_days"]:
@@ -126,6 +129,11 @@ def evaluate(subnets, prev, p):
                 why.append(f"Price is {_pc(prem)}% vs its moving price, still near or below it, and flows are positive.")
             if setup and rising:
                 why.append("Flow is rising since the last refresh.")
+            d = s.get("dev")
+            if setup and d and not d.get("missing"):
+                why.append(f"GitHub: {d['commits_30d']}{'+' if d.get('capped') else ''} commits in the last 30 days."
+                           if d.get("commits_30d") else
+                           f"Check the team: no GitHub commits in the last 30 days.")
             if setup and trims:
                 setup, why = None, []  # never open into a stretched move
 
@@ -152,7 +160,7 @@ def evaluate(subnets, prev, p):
             "warnings": (exits + avoid + trims) if setup is None else [],
             "price_tao": price, "ema_premium": s.get("ema_premium"), "daily_flow_tao": flow, "flow_rising": rising,
             "em_share": s["em_share"], "em_rank": em_rank[s["netuid"]], "em_to_mcap": s.get("em_to_mcap"),
-            "pool_tao": s["tao_liquidity"], "ch_7d": s.get("ch_7d"),
+            "pool_tao": s["tao_liquidity"], "ch_7d": s.get("ch_7d"), "dereg_rank": rank, "dev": s.get("dev"),
             # Position cap from pool depth: buying x τ into a pool holding T τ moves price by about x/T.
             "pool_cap_tao": s["tao_liquidity"] * p["max_pool_share_pct"] / 100,
             "stop_tao": price * (1 - p["stop_loss_pct"] / 100),

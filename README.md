@@ -46,6 +46,18 @@ price); and position caps from pool depth. The Bittensor page shows the board, a
 calculator and the full written rules. Thresholds live in `data/tao_plan.json`.
 Research output only: nothing places trades.
 
+
+### Taostats view (no key)
+
+The Bittensor page also has a "Subnet research (Taostats view)" table: the parts of Taostats
+that can be rebuilt from public data. It shows each subnet's on-chain identity (description,
+website, GitHub, Discord) and a link to its Taostats page. It counts GitHub commits over the
+last 30 days (`engine/tao_dev.py`, using the workflow's `GITHUB_TOKEN`, cached in
+`data/tao_dev.json`), estimates slippage for 10 and 100 TAO trades from pool reserves, and
+ranks the deregistration line (subnets without immunity, by lowest moving price). The plan
+exits any subnet in the top `prune_line_exit` (3) places of that line. The Taostats API itself
+needs a key (`TAOSTATS_API_KEY`), which isn't wired in yet.
+
 ## Coin research
 
 `research.html` (static/research.js) lets you search any coin. It loads the profile,

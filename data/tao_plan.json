@@ -27,5 +27,6 @@
   "basket_drawdown_halve_pct": 25,
   "funding_hot_8h": 0.05,
   "leader_min_premium": -3,
-  "value_max_premium": 2
+  "value_max_premium": 2,
+  "prune_line_exit": 3
 }

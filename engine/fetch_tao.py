@@ -46,13 +46,38 @@ def _ema_flow(v):
     return _fixed(x) / RAO
 
 
+IDENTITY_KEYS = ("github_repo", "subnet_url", "discord", "subnet_contact", "description", "additional")
+
+
+def _identity(v):
+    """SubnetIdentityV3 -> the public links and description a subnet owner published on chain."""
+    from bittensor.reads.base import utf8_text
+
+    out = {}
+    for k in IDENTITY_KEYS:
+        t = utf8_text((v or {}).get(k)) if isinstance(v, dict) else None
+        if isinstance(t, str) and t.strip() and not t.startswith("0x"):
+            out[k] = t.strip()[:400]
+    return out
+
+
+async def _optional(coro, default):
+    """Extra reads that must never take the core subnet scan down with them."""
+    try:
+        return await coro
+    except Exception as e:  # noqa: BLE001
+        print(f"  optional chain read failed: {e}")
+        return default
+
+
 async def _chain_subnets():
     from bittensor.client import Client
     from bittensor._generated import storage
 
     S = storage.SubtensorModule
     async with Client("finney") as client:
-        (names, prices, tao_in, alpha_in, alpha_out, moving, tao_em, volume, ema_flow, reg_at, n_neurons, block) = (
+        (names, prices, tao_in, alpha_in, alpha_out, moving, tao_em, volume, ema_flow, reg_at, n_neurons, block,
+         idents, immunity) = (
             await asyncio.gather(
                 client.read("subnet_names"),
                 client.read("alpha_prices"),
@@ -66,6 +91,8 @@ async def _chain_subnets():
                 client.query_map(S.NetworkRegisteredAt),
                 client.query_map(S.SubnetworkN),
                 client.query(("System", "Number")),
+                _optional(client.query_map(S.SubnetIdentitiesV3), []),
+                _optional(client.query(S.NetworkImmunityPeriod), 0),
             )
         )
 
@@ -74,6 +101,8 @@ async def _chain_subnets():
     moving, tao_em, volume = m(moving, _fixed), m(tao_em), m(volume)
     ema_flow, reg_at, n_neurons = m(ema_flow, _ema_flow), m(reg_at), m(n_neurons)
     block = _int(block)
+    idents = {int(k): _identity(v) for k, v in idents}
+    immunity = _int(immunity)
 
     subnets = []
     for netuid in sorted(set(tao_in) | set(prices)):
@@ -96,9 +125,12 @@ async def _chain_subnets():
                 "ema_tao_flow": ema_flow.get(netuid, 0.0),
                 "age_days": max(0, (block - reg_at.get(netuid, block)) * 12 / 86400) if block else None,
                 "neurons": n_neurons.get(netuid, 0),
+                "identity": idents.get(netuid) or {},
+                # New subnets can't be pruned until their immunity period ends.
+                "immune": bool(block and immunity and block - reg_at.get(netuid, 0) < immunity),
             }
         )
-    return {"block": block, "subnets": subnets}
+    return {"block": block, "immunity_days": immunity * 12 / 86400 if immunity else None, "subnets": subnets}
 
 
 def tao_market():

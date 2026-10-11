@@ -2,6 +2,7 @@
 not trade instructions."""
 
 import math
+from datetime import datetime, timezone
 
 STABLES = {
     "usdt", "usdc", "dai", "usde", "fdusd", "tusd", "usdd", "pyusd", "usds", "busd", "gusd", "frax", "lusd",
@@ -195,6 +196,11 @@ def tao_signals(data, history):
     total_em = sum(s["tao_emission_per_block"] for s in subnets) or 1
     prev, d1, d7 = _ago(history, 1), _ago(history, 3), _ago(history, 21)
     tao_usd = (data.get("tao") or {}).get("price") or 0
+    dev = data.get("dev") or {}
+    # Taostats' deregistration ranking: when a new subnet registers, the chain prunes the
+    # non-immune subnet with the lowest moving price.
+    exposed = sorted((s for s in subnets if not s.get("immune")), key=lambda s: s.get("moving_price_tao") or s["price_tao"])
+    dereg_rank = {s["netuid"]: i + 1 for i, s in enumerate(exposed)}
 
     rows = []
     for s in subnets:
@@ -229,6 +235,26 @@ def tao_signals(data, history):
             tags.append("Thin liquidity")
         if s["age_days"] is not None and s["age_days"] < 30:
             tags.append("New subnet")
+        rank = dereg_rank.get(s["netuid"])
+        if rank and rank <= 3:
+            tags.append("Next in prune line")
+        d = dev.get(s["netuid"]) or dev.get(str(s["netuid"]))
+        if d:
+            d = {"commits_30d": None, "days_since": None, **d}
+        if d and d.get("last_commit"):
+            try:
+                d = {**d, "days_since": (datetime.now(timezone.utc) - datetime.fromisoformat(d["last_commit"].replace("Z", "+00:00"))).days}
+            except ValueError:
+                pass
+        if d and not d.get("missing"):
+            if not d.get("commits_30d"):
+                tags.append("No GitHub commits 30d")
+            elif d["commits_30d"] >= 20:
+                tags.append("Active dev")
+        T = s["tao_liquidity"]
+        # Price impact on the pool's constant-product curve: buying x τ into a pool of T τ
+        # pays about x/T over spot; selling x τ worth of alpha gets about x/(T+x) less.
+        slip = {str(x): {"buy": x / T * 100, "sell": x / (T + x) * 100} if T else None for x in (1, 10, 100)}
         rows.append(
             {
                 **s,
@@ -246,6 +272,9 @@ def tao_signals(data, history):
                 "liq_1d": liq_1d,
                 "score": round(score * 100),
                 "tags": tags,
+                "dereg_rank": rank,
+                "dev": d,
+                "slippage": slip,
             }
         )
 
@@ -264,6 +293,11 @@ def tao_signals(data, history):
         "net_daily_flow_tao": sum(r["daily_flow_tao"] for r in rows),
         "inflow_count": sum(1 for r in rows if r["ema_tao_flow"] > 0),
         "top5_em_share": sum(sorted((r["em_share"] for r in rows), reverse=True)[:5]),
+        "immune_count": sum(1 for r in rows if r.get("immune")),
+        "immunity_days": chain.get("immunity_days"),
+        "dev_count": sum(1 for r in rows if r.get("dev") and not r["dev"].get("missing")),
+        "prune_line": [{"netuid": r["netuid"], "name": r["name"], "rank": r["dereg_rank"], "moving_price_tao": r.get("moving_price_tao"),
+                        "price_tao": r["price_tao"]} for r in sorted((r for r in rows if r.get("dereg_rank")), key=lambda r: r["dereg_rank"])[:5]],
         "block": chain.get("block"),
     }
     return {"subnets": rows, "ideas": ideas[:14], "eco": eco}

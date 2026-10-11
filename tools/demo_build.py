@@ -95,9 +95,13 @@ def fake_tao():
             "ema_tao_flow": random.gauss(0, 0.02),
             "age_days": random.uniform(5, 900),
             "neurons": random.randint(32, 256),
+            "identity": ({"github_repo": f"https://github.com/demo-org/subnet-{i}", "subnet_url": f"https://sn{i}.example.com",
+                          "discord": "https://discord.gg/demo", "description": "Decentralised inference marketplace for open models."}
+                         if i % 3 else {}),
+            "immune": i > 70,
         })
     return {
-        "chain": {"block": 6_241_883, "subnets": subs},
+        "chain": {"block": 6_241_883, "immunity_days": 28.0, "subnets": subs},
         "tao": {"price": 412.5, "mcap": 3.9e9, "volume": 1.8e8, "chg_24h": 2.4, "chg_7d": -5.1,
                 "chg_30d": 12.8, "ath": 757.0, "circulating": 9_410_000, "max_supply": 21_000_000,
                 "history": walk(380, 90, 0.001, 0.03)},
@@ -279,6 +283,11 @@ fetch_news.get_json = lambda *a, **k: {"objects": [{"current_status_label": "Pas
 fetch_crypto.fetch_all = fake_crypto
 fetch_venues.fetch_all = fake_venues
 fetch_tao.fetch_all = fake_tao
+build.tao_dev.fetch = lambda subnets, errors: {
+    s["netuid"]: ({"repo": "demo-org/x", "missing": True} if s["netuid"] == 5 else
+                  {"repo": "demo-org/x", "commits_30d": random.choice([0, 3, 18, 64, 100]), "capped": False,
+                   "last_commit": "2026-10-0%dT12:00:00Z" % random.randint(1, 9)})
+    for s in subnets if (s.get("identity") or {}).get("github_repo")}
 
 # Two past snapshots so the "since last refresh" and 1d/7d columns have something to compare.
 build.HIST.mkdir(parents=True, exist_ok=True)

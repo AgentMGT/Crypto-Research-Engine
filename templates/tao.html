@@ -6,7 +6,7 @@
 
 {% block content %}
 <h1>Bittensor (TAO) &amp; subnets</h1>
-<p class="sub">Subnet prices, pool liquidity, emissions and net TAO flow read directly from the Finney chain at block {{ eco.block }}. Rebuilt three times a day. <a href="#plan">Jump to the trading plan ↓</a></p>
+<p class="sub">Subnet prices, pool liquidity, emissions and net TAO flow read directly from the Finney chain at block {{ eco.block }}. Rebuilt three times a day. <a href="#plan">Jump to the trading plan ↓</a> · <a href="#taostats">Taostats view ↓</a></p>
 
 <div class="cards">
   <div class="card"{{ {'t': 'cg', 'id': 'bittensor', 'label': 'TAO · Bittensor'}|chart }}><div class="k">TAO price</div><div class="v">{{ tao.price|money }}</div><div class="n {{ tao.chg_24h|cls }}">{{ tao.chg_24h|signed }} 24h · <span class="{{ tao.chg_7d|cls }}">{{ tao.chg_7d|signed }} 7d</span></div></div>
@@ -113,6 +113,43 @@
 </table>
 </div>
 
+<h2 id="taostats">Subnet research (Taostats view)</h2>
+<p class="sub">The checks Taostats shows, rebuilt from the public chain and GitHub so no Taostats key is needed. Each subnet links to its Taostats page for the full picture.</p>
+<div class="cards">
+  <div class="card"><div class="k">Next in line to be pruned</div>
+    {% if eco.prune_line %}<div class="n" style="margin-top:4px">{% for x in eco.prune_line %}<div>#{{ x.rank }} <a href="https://taostats.io/subnets/{{ x.netuid }}" target="_blank" rel="noopener">SN{{ x.netuid }} {{ x.name }}</a></div>{% endfor %}</div>
+    {% else %}<div class="n">Not available this run</div>{% endif %}</div>
+  <div class="card"><div class="k">Immune from pruning</div><div class="v">{{ eco.immune_count if eco.immune_count is not none else '–' }}</div><div class="n">{% if eco.immunity_days %}registered less than {{ eco.immunity_days|num(0) }} days ago{% else %}new subnets{% endif %}</div></div>
+  <div class="card"><div class="k">Subnets with GitHub data</div><div class="v">{{ eco.dev_count or 0 }}</div><div class="n">repos listed in on-chain identity</div></div>
+</div>
+<div class="tablewrap">
+<table class="sortable" id="tao-research" style="margin-top:8px">
+<thead><tr>
+  <th class="l">Netuid</th><th class="l">Name</th><th class="l">Links</th><th>Commits 30d</th><th>Last commit</th>
+  <th>Buy 10 TAO</th><th>Sell 10 TAO</th><th>Buy 100 TAO</th><th>Prune line</th>
+</tr></thead>
+<tbody>
+{% for s in sig.subnets|sort(attribute='mcap_tao', reverse=true) %}{% set idn = s.identity or {} %}{% set d = s.dev %}{% set sl = s.slippage or {} %}
+  <tr data-q="SN{{ s.netuid }} {{ s.name }} {{ s.tags|join(' ') }}">
+    <td class="l">{{ s.netuid }}</td>
+    <td class="l">{{ s.name }}{% if idn.description %}<div class="sub" style="font-size:12px;max-width:340px;white-space:normal">{{ idn.description|truncate(140) }}</div>{% endif %}</td>
+    <td class="l tlinks"><a href="https://taostats.io/subnets/{{ s.netuid }}" target="_blank" rel="noopener">Taostats</a>
+      {% if idn.subnet_url and idn.subnet_url.startswith('http') %} · <a href="{{ idn.subnet_url }}" target="_blank" rel="noopener nofollow">Site</a>{% endif %}
+      {% if idn.github_repo and 'github.com' in idn.github_repo %} · <a href="{{ idn.github_repo if idn.github_repo.startswith('http') else 'https://' ~ idn.github_repo }}" target="_blank" rel="noopener nofollow">GitHub</a>{% endif %}
+      {% if idn.discord and idn.discord.startswith('http') %} · <a href="{{ idn.discord }}" target="_blank" rel="noopener nofollow">Discord</a>{% endif %}</td>
+    <td data-v="{{ d.commits_30d if d and d.commits_30d is not none else -1 }}">{% if d and d.missing %}<span class="sub">repo not found</span>{% elif d and d.commits_30d is not none %}<span class="{{ 'neg' if not d.commits_30d }}">{{ d.commits_30d }}{{ '+' if d.capped }}</span>{% else %}–{% endif %}</td>
+    <td data-v="{{ -(d.days_since) if d and d.days_since is not none else -99999 }}">{% if d and d.days_since is not none %}{{ 'today' if d.days_since == 0 else d.days_since ~ 'd ago' }}{% else %}–{% endif %}</td>
+    <td data-v="{{ sl['10'].buy if sl['10'] else 999 }}">{{ (sl['10'].buy|num(2) ~ '%') if sl['10'] else '–' }}</td>
+    <td data-v="{{ sl['10'].sell if sl['10'] else 999 }}">{{ (sl['10'].sell|num(2) ~ '%') if sl['10'] else '–' }}</td>
+    <td data-v="{{ sl['100'].buy if sl['100'] else 999 }}">{{ (sl['100'].buy|num(1) ~ '%') if sl['100'] else '–' }}</td>
+    <td data-v="{{ s.dereg_rank or 9999 }}">{% if s.immune %}<span class="tag">Immune</span>{% elif s.dereg_rank %}<span class="{{ 'neg' if s.dereg_rank <= 3 }}">#{{ s.dereg_rank }}</span>{% else %}–{% endif %}</td>
+  </tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+<p class="sub">Slippage is how much worse than the current price a trade of that size fills, from the pool's reserves (an estimate; bigger orders move small pools a lot). Prune line ranks subnets without immunity by moving price, lowest first: the chain removes #1 when a new subnet registers. Commits count the subnet's listed GitHub repo over 30 days.</p>
+
 <h2>How to read this</h2>
 <div class="card" style="margin-bottom:8px">
   <p style="margin:0 0 8px;color:var(--dim);font-size:13.5px"><b style="color:var(--text)">vs EMA</b> compares spot alpha price to the chain's own moving price — the metric root stakers are paid against, so a large discount or premium is the cleanest dislocation signal on a subnet.</p>
@@ -123,4 +160,4 @@
 
 {% block data %}<script id="series-data" type="application/json">{{ series|tojson }}</script>{% endblock %}
 
-{% block sources %}Sources: Google News RSS for headlines; Bittensor Finney chain via the official SDK; CoinGecko for TAO price, spot venues and perps; Hyperliquid. {{ history|length }} snapshots retained.{% endblock %}
+{% block sources %}Sources: Google News RSS for headlines; Bittensor Finney chain via the official SDK (prices, pools, identities, prune line); GitHub for subnet developer activity; Taostats links per subnet; CoinGecko for TAO price, spot venues and perps; Hyperliquid. {{ history|length }} snapshots retained.{% endblock %}

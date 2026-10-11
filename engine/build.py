@@ -13,7 +13,7 @@ from html import escape
 from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 from markupsafe import Markup
 
-from . import ai_brief, altcoins, bot, fetch_crypto, fetch_news, fetch_tao, fetch_venues, live, signals, tao_plan
+from . import ai_brief, altcoins, bot, fetch_crypto, fetch_news, fetch_tao, fetch_venues, live, signals, tao_dev, tao_plan
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
@@ -192,6 +192,14 @@ def build_crypto(e, ts):
 def build_tao(e, ts):
     print("== bittensor edition")
     data = fetch_tao.fetch_all()
+    chain_subnets = (data.get("chain") or {}).get("subnets") or []
+    if chain_subnets:
+        try:
+            print("fetch subnet github activity")
+            data["dev"] = tao_dev.fetch(chain_subnets, data.setdefault("errors", []))
+        except Exception as ex:  # noqa: BLE001
+            print(f"  FAILED github activity: {ex}")
+            data.setdefault("errors", []).append(f"github activity: {ex}")
     history = load_history("tao")
     sig = signals.tao_signals(data, history)
     sig["tao"] = data.get("tao") or {}
