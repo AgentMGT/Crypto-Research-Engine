@@ -321,6 +321,112 @@ def coinmarketcap(cfg, cg_views, errors):
     return out
 
 
+# ------------------------------------------------------------------ DEX pools per coin
+
+POOLS = CACHE_DIR / "pools.json"
+# CoinGecko platform id -> DEX Screener chain id
+DS_CHAIN = {"ethereum": "ethereum", "binance-smart-chain": "bsc", "solana": "solana", "base": "base",
+            "arbitrum-one": "arbitrum", "polygon-pos": "polygon", "avalanche": "avalanche",
+            "optimistic-ethereum": "optimism", "sui": "sui", "the-open-network": "ton", "tron": "tron"}
+
+
+def cg_contracts(errors):
+    """coin id -> {DEX Screener chain: token address}, from one CoinGecko call."""
+    try:
+        got = get_json(f"{CG}/coins/list", params={"include_platform": "true"}, headers=CG_HEADERS)
+    except RuntimeError as e:
+        errors.append(f"CoinGecko coin list: {str(e)[:50]}")
+        return {}
+    out = {}
+    for c in got:
+        plats = {DS_CHAIN[k]: a for k, a in (c.get("platforms") or {}).items() if k in DS_CHAIN and a}
+        if plats:
+            out[c["id"]] = plats
+    return out
+
+
+def coin_pools(views, contracts, cfg, errors):
+    """Each coin's DEX pools from DEX Screener: deepest pool, total DEX liquidity, buying trend."""
+    want = {}
+    for v in views:
+        for chain, addr in list((contracts.get(v["id"]) or {}).items())[:2]:
+            want.setdefault(chain, {})[addr.lower()] = v["id"]
+    agg = {}
+    for chain, addrs in want.items():
+        keys = list(addrs)
+        for i in range(0, len(keys), 30):
+            try:
+                pairs = get_json(f"https://api.dexscreener.com/tokens/v1/{chain}/{','.join(keys[i:i + 30])}")
+            except RuntimeError as e:
+                errors.append(f"DEX Screener pools {chain}: {str(e)[:40]}")
+                continue
+            time.sleep(0.3)
+            for p in pairs if isinstance(pairs, list) else []:
+                cid = addrs.get(((p.get("baseToken") or {}).get("address") or "").lower())
+                if not cid:
+                    continue  # the coin is the quote side; its own pools are counted where it's the base
+                a = agg.setdefault(cid, {"pools": 0, "total_liq": 0, "best": None, "v1": 0, "v6": 0, "v24": 0,
+                                         "b1": 0, "s1": 0, "b6": 0, "s6": 0, "b24": 0, "s24": 0})
+                liq = (p.get("liquidity") or {}).get("usd") or 0
+                a["pools"] += 1
+                a["total_liq"] += liq
+                vol, tx = p.get("volume") or {}, p.get("txns") or {}
+                for h in ("1", "6", "24"):
+                    a["v" + h] += vol.get(f"h{h}") or 0
+                    a["b" + h] += (tx.get(f"h{h}") or {}).get("buys") or 0
+                    a["s" + h] += (tx.get(f"h{h}") or {}).get("sells") or 0
+                if not a["best"] or liq > a["best"]["liquidity"]:
+                    a["best"] = {"liquidity": liq, "dex": p.get("dexId"), "chain": chain, "url": p.get("url"),
+                                 "pair": p.get("pairAddress"), "dextools": dextools_url(chain, p.get("pairAddress")),
+                                 "created": p.get("pairCreatedAt")}
+
+    hist = _load(POOLS, {})
+    now = _now()
+    out = {}
+    for cid, a in agg.items():
+        b6, s6, b24, s24 = a["b6"], a["s6"], a["b24"], a["s24"]
+        prev = [h for h in hist.get(cid, []) if 18 <= (now - datetime.fromisoformat(h["t"])).total_seconds() / 3600 <= 72]
+        liq_then = prev[0]["liq"] if prev else None
+        info = {
+            **a["best"], "total_liq": a["total_liq"], "pools": a["pools"],
+            "vol24": a["v24"], "vol6": a["v6"],
+            "buy_share_6h": b6 / (b6 + s6) if b6 + s6 else None,
+            "buy_share_24h": b24 / (b24 + s24) if b24 + s24 else None,
+            "vol_accel": (a["v6"] / 6) / (a["v24"] / 24) if a["v24"] else None,   # >1: last 6h busier than the day's average
+            "buy_accel": (b6 / 6) / (b24 / 24) if b24 else None,
+            "liq_change_pct": _pct(a["total_liq"], liq_then) if liq_then else None,
+        }
+        out[cid] = info
+        hist[cid] = (hist.get(cid, []) + [{"t": now.isoformat(), "liq": round(a["total_liq"]), "vol": round(a["v24"])}])[-12:]
+    # Forget coins not seen for a week so the file stays small.
+    hist = {k: h for k, h in hist.items() if h and (now - datetime.fromisoformat(h[-1]["t"])).days < 7}
+    _save(POOLS, hist)
+    return out
+
+
+def buying_up(pool, cfg):
+    """Rising buying: buyers outnumber sellers lately and activity is picking up (or liquidity is growing)."""
+    if not pool:
+        return False, []
+    why = []
+    bs6, va, ba, lc = pool.get("buy_share_6h"), pool.get("vol_accel"), pool.get("buy_accel"), pool.get("liq_change_pct")
+    if bs6 is not None and bs6 >= cfg["pregrad_buy_share"]:
+        why.append(f"{bs6 * 100:.0f}% of trades in the last 6h were buys")
+    if va is not None and va >= cfg["pregrad_accel"]:
+        why.append(f"volume running {va:.1f}x its daily pace")
+    if ba is not None and ba >= cfg["pregrad_accel"]:
+        why.append(f"buys running {ba:.1f}x their daily pace")
+    if lc is not None and lc >= cfg["pregrad_liq_growth_pct"]:
+        why.append(f"pool liquidity up {lc:.0f}% in a day")
+    ok = bs6 is not None and bs6 >= cfg["pregrad_buy_share"] and len(why) >= 2
+    return ok, why
+
+
+def in_pregrad_range(pool, cfg):
+    return bool(pool) and cfg["pregrad_pool_min_usd"] <= pool["liquidity"] <= cfg["pregrad_pool_max_usd"] \
+        and pool["total_liq"] < cfg["pregrad_graduated_usd"]
+
+
 # ------------------------------------------------------------------ scoring
 
 def _pct(a, b):
@@ -590,6 +696,14 @@ def build(crypto_sig, crypto_data):
     for v in views:
         v["pre"] += 10 * min(len(v["news"]), 2)  # in the news: check it sooner
 
+    # DEX pools for every coin; ones in the pre-graduation range with rising buys get checked first.
+    pools = coin_pools(views, cg_contracts(errors), cfg, errors)
+    for v in views:
+        v["pool"] = pools.get(v["id"])
+        v["buying_up"], v["buying_why"] = buying_up(v["pool"], cfg)
+        if in_pregrad_range(v["pool"], cfg):
+            v["pre"] += 15 + (15 if v["buying_up"] else 0)
+
     # Detail lookups for the best of each kind, reusing anything fetched in the last day.
     cache = {k: x for k, x in _load(DETAILS, {}).items() if _age_hours(x.get("fetched")) < cfg["detail_cache_hours"] * 3}
     util = sorted([v for v in views if not v["meme"]], key=lambda v: -v["pre"])[: cfg["detail_utility"]]
@@ -631,6 +745,36 @@ def build(crypto_sig, crypto_data):
     for v in views:
         v["ai"] = ai.get(v["id"])
 
+    # Pre-graduation top 5: deepest pool $100K-$500K (total DEX liquidity under $1M),
+    # passes most checks with real fundamentals, and buying is picking up.
+    def strong(v):
+        ok = {c["key"]: c["ok"] for c in v["checks"]}
+        if v["meme"]:
+            return v["passed_pct"] >= cfg["pregrad_min_pass_pct"] and ok.get("community")
+        return v["passed_pct"] >= cfg["pregrad_min_pass_pct"] and (ok.get("live") or ok.get("quiet_eco")) and ok.get("use")
+
+    def missing(v):
+        out = []
+        if not in_pregrad_range(v["pool"], cfg):
+            out.append("pool outside $100K-$500K")
+        if not v.get("detail"):
+            out.append("not checked in detail yet")
+        elif not strong(v):
+            out.append("fundamentals not strong enough")
+        if not v["buying_up"]:
+            out.append("buying not rising yet")
+        return out
+
+    in_range = [v for v in views if in_pregrad_range(v["pool"], cfg)]
+    for v in in_range:
+        v["pregrad_missing"] = missing(v)
+        bs = v["pool"].get("buy_share_6h") or 0.5
+        accel = max(v["pool"].get("vol_accel") or 0, v["pool"].get("buy_accel") or 0)
+        v["pregrad_score"] = round(0.6 * v["score"] + 25 * clamp((bs - 0.5) * 4) + 15 * clamp((accel - 1) / 2))
+    winners = sorted([v for v in in_range if not v["pregrad_missing"]], key=lambda v: -v["pregrad_score"])[:5]
+    close = sorted([v for v in in_range if v not in winners and len(v["pregrad_missing"]) == 1],
+                   key=lambda v: -v["pregrad_score"])[: 5 - len(winners)]
+
     dex = []
     for p in ((crypto_sig or {}).get("venues") or {}).get("dex_new", []) + ((crypto_sig or {}).get("venues") or {}).get("dex_trending", []):
         if p.get("liquidity") and p["liquidity"] <= cfg["dex_max_liquidity_usd"] and "Sell pressure" not in p.get("tags", []):
@@ -648,19 +792,25 @@ def build(crypto_sig, crypto_data):
 
     slim = lambda v: {k: v.get(k) for k in ("id", "symbol", "name", "image", "rank", "price", "mcap", "fdv", "volume", "fdv_ratio",
                                            "float_pct", "turnover", "ch24", "ch7", "ch30", "from_ath", "cats", "tvl", "trending",
-                                           "meme", "score", "passed", "passed_pct", "quiet_eco", "checks", "flags", "news", "ai")} | {
+                                           "meme", "score", "passed", "passed_pct", "quiet_eco", "checks", "flags", "news", "ai",
+                                           "pool", "buying_up", "buying_why", "pregrad_score", "pregrad_missing")} | {
         "detail": {k: (v.get("detail") or {}).get(k) for k in ("homepage", "twitter", "telegram", "discord", "chat", "reddit", "github",
                                                               "explorer", "categories", "watchers", "telegram_users", "commits_4w",
                                                               "cex", "cex_count", "dex", "platforms", "genesis")} if v.get("detail") else None,
         "llama_slug": (v.get("llama") or {}).get("slug")}
     return {
-        "cfg": {k: cfg[k] for k in ("mcap_min_usd", "mcap_max_usd", "small_cap_usd", "low_liquidity_usd", "min_volume_usd", "plan")},
+        "cfg": {k: cfg[k] for k in ("mcap_min_usd", "mcap_max_usd", "small_cap_usd", "low_liquidity_usd", "min_volume_usd", "plan",
+                                    "pregrad_pool_min_usd", "pregrad_pool_max_usd", "pregrad_graduated_usd", "pregrad_buy_share",
+                                    "pregrad_accel", "pregrad_min_pass_pct")},
         "utility": [slim(v) for v in ranked_util[: cfg["show_utility"]]],
         "meme": [slim(v) for v in ranked_meme[: cfg["show_meme"]]],
         "universe": [{k: v.get(k) for k in ("id", "symbol", "name", "mcap", "volume", "fdv_ratio", "ch7", "ch30", "tvl", "meme", "score", "cats")}
                      for v in sorted(views, key=lambda v: -v["score"])],
         "dex": dex_rows[:20],
         "dexscreener": dexs,
+        "pregrad": [slim(v) for v in winners],
+        "pregrad_close": [slim(v) for v in close],
+        "pregrad_in_range": len(in_range),
         "cmc": cmc,
         "headline_count": len(seen),
         "ai_on": bool(os.environ.get("ANTHROPIC_API_KEY")) and bool(cfg.get("ai_due_diligence")),

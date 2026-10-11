@@ -24,6 +24,20 @@
     {% if c.tvl %}<span>TVL <b>{{ c.tvl|money }}</b></span>{% endif %}
   </div>
 
+  {% if c.pool %}
+  <div class="alt-pool{{ ' up' if c.buying_up }}">
+    <div><b>DEX pool</b> {{ c.pool.liquidity|money }} on {{ c.pool.chain }} · {{ c.pool.dex }}{% if c.pool.pools > 1 %} <span class="faint">({{ c.pool.total_liq|money }} across {{ c.pool.pools }} pools)</span>{% endif %}</div>
+    <div class="alt-pool-nums">
+      {% if c.pool.buy_share_6h is not none %}<span>6h buys <b>{{ (c.pool.buy_share_6h * 100)|num(0) }}%</b></span>{% endif %}
+      {% if c.pool.vol_accel is not none %}<span>Volume pace <b>{{ c.pool.vol_accel|num(1) }}x</b></span>{% endif %}
+      {% if c.pool.liq_change_pct is not none %}<span class="{{ c.pool.liq_change_pct|cls }}">Liquidity {{ c.pool.liq_change_pct|signed }} 1d</span>{% endif %}
+      {% if c.pool.url %}<a href="{{ c.pool.url }}" target="_blank" rel="noopener">DEX Screener</a>{% endif %}
+      {% if c.pool.dextools %}<a href="{{ c.pool.dextools }}" target="_blank" rel="noopener">DEXTools</a>{% endif %}
+    </div>
+    {% if c.buying_up %}<div class="alt-pool-why">Buying rising: {{ c.buying_why|join('; ') }}</div>{% endif %}
+  </div>
+  {% endif %}
+
   <ul class="alt-checks">
     {% for k in c.checks %}
     <li class="{{ 'ok' if k.ok else 'no' if k.ok == false else 'unk' }}" title="{{ k.note }}">
@@ -102,7 +116,33 @@
   <div class="card"><div class="k">AI due diligence</div><div class="v">{{ 'On' if alt.ai_on else 'Off' }}</div><div class="n">{{ 'web search on top picks' if alt.ai_on else 'switched off for now' }}</div></div>
 </div>
 
-<details class="plan-rules alt-plan" open>
+<h2 id="pregrad">Pre-graduation top 5</h2>
+<p class="sub">Coins whose deepest DEX pool holds {{ alt.cfg.pregrad_pool_min_usd|money }} to {{ alt.cfg.pregrad_pool_max_usd|money }} (under {{ alt.cfg.pregrad_graduated_usd|money }} across all their pools), that pass at least {{ alt.cfg.pregrad_min_pass_pct }}% of the checks with real use and a live product or busy ecosystem, and where buying is picking up: at least {{ (alt.cfg.pregrad_buy_share * 100)|num(0) }}% of the last 6 hours' trades were buys, plus volume or buys running {{ alt.cfg.pregrad_accel }}x their daily pace or pool liquidity growing. {{ alt.pregrad_in_range or 0 }} coins have a pool in that range this run.</p>
+{% if alt.pregrad %}
+<div class="alt-grid alt-pregrad">{% for c in alt.pregrad %}{{ coin_card(c) }}{% endfor %}</div>
+{% else %}
+<p class="sub">No coin clears every rule this run.</p>
+{% endif %}
+{% if alt.pregrad_close %}
+<h3 class="plan-h">Close: one rule short</h3>
+<div class="tablewrap"><table>
+<thead><tr><th class="l">Asset</th><th>Pool</th><th>6h buys</th><th>Volume pace</th><th>Checks passed</th><th>Score</th><th class="l">Missing</th><th class="l">Open</th></tr></thead>
+<tbody>
+{% for c in alt.pregrad_close %}
+<tr{{ {'t': 'cg', 'id': c.id, 'label': c.symbol ~ ' · ' ~ c.name}|chart }}>
+  <td class="l"><b>{{ c.symbol }}</b> <small class="faint">{{ c.name }}</small></td>
+  <td>{{ c.pool.liquidity|money }}</td>
+  <td>{{ (c.pool.buy_share_6h * 100)|num(0) ~ '%' if c.pool.buy_share_6h is not none else '–' }}</td>
+  <td>{{ (c.pool.vol_accel|num(1) ~ 'x') if c.pool.vol_accel is not none else '–' }}</td>
+  <td>{{ c.passed_pct }}%</td><td><span class="score">{{ c.score }}</span></td>
+  <td class="l">{{ c.pregrad_missing|join('; ') }}</td>
+  <td class="l alt-open">{% if c.pool.url %}<a href="{{ c.pool.url }}" target="_blank" rel="noopener">DEX Screener</a>{% endif %}{% if c.pool.dextools %}<a href="{{ c.pool.dextools }}" target="_blank" rel="noopener">DEXTools</a>{% endif %}</td>
+</tr>
+{% endfor %}
+</tbody></table></div>
+{% endif %}
+
+<details class="plan-rules alt-plan">
 <summary>The asymmetric plan</summary>
 <ul>{% for x in alt.cfg.plan %}<li>{{ x }}</li>{% endfor %}</ul>
 </details>

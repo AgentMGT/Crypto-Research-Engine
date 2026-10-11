@@ -461,3 +461,9 @@ tr[data-chart] { cursor: pointer; }
 }
 .alt-filter label input { min-width: 0; padding: 0; margin: 0; }
 .alt-open a { margin-right: 8px; white-space: nowrap; }
+.alt-pool { background: var(--panel-2); border: 1px solid var(--line); border-radius: 7px; padding: 8px 10px; font-size: 13px; }
+.alt-pool.up { border-color: color-mix(in srgb, var(--up) 45%, var(--line)); }
+.alt-pool-nums { display: flex; flex-wrap: wrap; gap: 3px 12px; margin-top: 3px; color: var(--dim); font-variant-numeric: tabular-nums; }
+.alt-pool-nums b { color: var(--text); }
+.alt-pool-why { color: var(--up); margin-top: 4px; font-size: 12.5px; }
+.alt-pregrad .alt-card { border-color: color-mix(in srgb, var(--up) 40%, var(--line)); }

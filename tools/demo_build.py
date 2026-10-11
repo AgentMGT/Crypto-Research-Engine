@@ -244,13 +244,21 @@ def fake_alt_get(url, params=None, headers=None, **k):
         return [{"chainId": "solana", "tokenAddress": f"So{i}", "description": "A new DePIN token", "links": [
             {"type": "twitter", "url": "https://x.com/t"}, {"label": "Website", "url": "https://t.io"}, {"type": "telegram", "url": "https://t.me/t"}]}
             for i in range(6 if "profiles" in url else 3)]
+    if "/coins/list" in url:
+        return [{"id": a[0], "symbol": a[1].lower(), "name": a[2], "platforms": {"ethereum": f"0xC{i:039x}"}} for i, a in enumerate(ALT)]
     if "/tokens/v1/" in url:
         addrs = url.rsplit("/", 1)[1].split(",")
-        return [{"chainId": "solana", "dexId": "raydium", "url": "https://dexscreener.com/solana/p" + a, "pairAddress": "p" + a,
-                 "baseToken": {"address": a, "name": "Token " + a, "symbol": a.upper()[:6]}, "priceUsd": "0.0123",
-                 "txns": {"h24": {"buys": 900, "sells": 400}}, "volume": {"h24": 3.1e5}, "priceChange": {"h24": 12.5},
-                 "liquidity": {"usd": 1.2e5 + 5e4 * i}, "fdv": 2.1e6, "marketCap": 1.9e6, "pairCreatedAt": 1791600000000}
-                for i, a in enumerate(addrs)]
+        rnd = random.Random(len(addrs))
+        out = []
+        for i, a in enumerate(addrs):
+            b24, s24 = rnd.randint(300, 3000), rnd.randint(300, 3000)
+            b6, s6 = int(b24 * rnd.uniform(0.15, 0.6)), int(s24 * rnd.uniform(0.1, 0.35))
+            out.append({"chainId": "solana", "dexId": "raydium", "url": "https://dexscreener.com/solana/p" + a, "pairAddress": "p" + a,
+                        "baseToken": {"address": a, "name": "Token " + a, "symbol": a.upper()[:6]}, "priceUsd": "0.0123",
+                        "txns": {"h1": {"buys": b6 // 6, "sells": s6 // 6}, "h6": {"buys": b6, "sells": s6}, "h24": {"buys": b24, "sells": s24}},
+                        "volume": {"h1": 2e4, "h6": 3.1e5 * rnd.uniform(0.15, 0.6), "h24": 3.1e5}, "priceChange": {"h24": 12.5},
+                        "liquidity": {"usd": 10 ** rnd.uniform(4.6, 6.3)}, "fdv": 2.1e6, "marketCap": 1.9e6, "pairCreatedAt": 1791600000000})
+        return out
     if "coinmarketcap" in url:
         return {"data": [{"name": "Akash Network", "symbol": "AKT", "slug": "akash-network", "cmc_rank": 400, "date_added": "2026-09-30T00:00:00.000Z",
                           "tags": ["depin", "ai-big-data"], "platform": None,
