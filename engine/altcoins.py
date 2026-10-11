@@ -7,7 +7,7 @@ Pipeline, all from free keyless sources:
   3. Pre-score on market data, then pull CoinGecko detail (description, categories,
      community links, GitHub activity, exchange listings) for the best candidates.
      Details are cached for a day in data/alt/details.json to stay inside rate limits.
-  4. Headlines from CoinGape, Changelly, Superhero and Google News that mention a candidate.
+  4. Headlines from CoinGape, Changelly and Google News that mention a candidate.
   5. Optional AI due diligence (ANTHROPIC_API_KEY): Claude searches the web for each
      top candidate's products, partnerships, staking and community activity.
      Cached for three days per coin in data/alt/ai.json, a few new coins per run.
@@ -38,7 +38,6 @@ AI_CACHE = CACHE_DIR / "ai.json"
 FEEDS = [
     ("CoinGape", "https://coingape.com/feed/"),
     ("Changelly", "https://changelly.com/blog/feed/"),
-    ("Superhero", "https://www.superhero.com.au/feed/"),
     ("Google News", fetch_news.gnews("altcoin partnership OR mainnet OR listing")),
     ("Google News", fetch_news.gnews("crypto DePIN OR RWA token launch")),
 ]

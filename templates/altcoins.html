@@ -97,7 +97,7 @@
   <div class="card"><div class="k">Utility picks</div><div class="v">{{ alt.utility|length }}</div><div class="n">checked in detail</div></div>
   <div class="card"><div class="k">Meme coins</div><div class="v">{{ alt.meme|length }}</div><div class="n">checked in detail</div></div>
   <div class="card"><div class="k">DEX early pools</div><div class="v">{{ alt.dex|length }}</div><div class="n">under $2M liquidity</div></div>
-  <div class="card"><div class="k">Headlines scanned</div><div class="v">{{ alt.headline_count }}</div><div class="n">CoinGape, Changelly, Superhero, Google News</div></div>
+  <div class="card"><div class="k">Headlines scanned</div><div class="v">{{ alt.headline_count }}</div><div class="n">CoinGape, Changelly, Google News</div></div>
   <div class="card"><div class="k">AI due diligence</div><div class="v">{{ 'On' if alt.ai_on else 'Off' }}</div><div class="n">{{ 'web search on top picks' if alt.ai_on else 'switched off for now' }}</div></div>
 </div>
 
@@ -117,7 +117,7 @@
   <li><b>Powers a platform, staking, server access, partnerships:</b> read from the project's own description, so treat these as leads to verify.</li>
   <li><b>Scarcity:</b> a capped supply that is mostly in circulation, or a fully diluted value close to market cap (few unlocks ahead).</li>
   <li><b>Community:</b> whether it lists X, Telegram and Discord, and how many CoinGecko users watch it.</li>
-  <li><b>News:</b> headlines that name it on CoinGape, Changelly, Superhero and Google News.</li>
+  <li><b>News:</b> headlines that name it on CoinGape, Changelly and Google News.</li>
 </ul>
 <h4>You check (tick "My checks" on each card; saved in this browser)</h4>
 <ul>
@@ -197,6 +197,6 @@
 {% endif %}
 {% endblock %}
 
-{% block sources %}Sources: CoinGecko (markets, categories, project details, community links), DefiLlama (protocol TVL), GeckoTerminal (DEX pools), CoinGape, Changelly, Superhero and Google News (headlines){% if alt and alt.ai_on %}, Claude with web search (due diligence){% endif %}.{% endblock %}
+{% block sources %}Sources: CoinGecko (markets, categories, project details, community links), DefiLlama (protocol TVL), GeckoTerminal (DEX pools), CoinGape, Changelly and Google News (headlines){% if alt and alt.ai_on %}, Claude with web search (due diligence){% endif %}.{% endblock %}
 
 {% block scripts %}<script src="altcoins.js"></script>{% endblock %}
