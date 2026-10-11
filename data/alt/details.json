@@ -1593,6 +1593,39 @@
   "twitter_followers": null,
   "watchers": 1394
  },
+ "froggie": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Froggie ($FROGGIE) is a community-driven meme coin launched on the Binance Smart Chain (BSC), inspired by the viral \"Neural Frog\" (\u795e\u7ecf\u86d9) meme that originated within WeChat's massive ecosystem of over 1.3 billion users. The meme evolved from WeChat's unofficial \"Crazy Frog\" mascot, which has been a cultural staple since 2016, representing internet humor, creativity, and spontaneous community energy in Chinese digital culture.The project's name, \"Froggie,\" was officially decided through a public community vote initiated by WeChat's official X (formerly Twitter) account in mid-2025, where it secured 44.5% of the votes against alternatives like \"Nervous Frog.\" This grassroots naming process underscores its emphasis on decentralized participation and viral appeal, drawing parallels to iconic meme coins like Dogecoin and Pepe while targeting an untapped Asian market fueled by WeChat's sticker polls and humor-driven campaigns.Key aspects of the project include:Blockchain and Tokenomics: Built on BSC as a BEP-20 token (contract address: 0xa45f5eb48cecd034751651aeeda6271bd5df8888), with transparent, audited smart contracts to ensure trust and no hidden taxes.\nCommunity Focus: 100% driven by holders, with no confirmed founder involvement; growth relies on meme proliferation, social media buzz (especially on X), and global engagement rather than centralized marketing.\nMarket Traction: Launched in July 2025, it quickly hit a $12 million market cap with a 54% price surge in 24 hours, later",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
+  "fetched": "2026-10-11T22:09:42.839110+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://froggiebsc.xyz/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/Froggie_bsc1",
+  "telegram_users": null,
+  "twitter": "https://x.com/froggie_bsc0",
+  "twitter_followers": null,
+  "watchers": 171
+ },
  "gamercoin": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1952,6 +1985,64 @@
   "twitter": "https://x.com/JeanPhilMadame",
   "twitter_followers": null,
   "watchers": 120
+ },
+ "joe": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Yield Farming",
+   "Automated Market Maker (AMM)",
+   "BNB Chain Ecosystem",
+   "Avalanche Ecosystem",
+   "Launchpad",
+   "Arbitrum Ecosystem",
+   "Mantle Ecosystem",
+   "DeFiance Capital Portfolio",
+   "Delphi Ventures Portfolio",
+   "Dex Aggregator"
+  ],
+  "cex": [
+   "BVOX",
+   "Binance",
+   "BingX",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "BloFin",
+   "Crypto.com Exchange",
+   "Deepcoin"
+  ],
+  "cex_count": 29,
+  "chat": "https://joecontent.substack.com/",
+  "commits_4w": null,
+  "description": "Trader Joe is a leading decentralised exchange on Arbitrum, Avalanche and BNB Chain. \n\nOn the Trader Joe platform you can swap tokens, provide liquidity, yield farm and also shop for NFTs at the Joepegs Marketplace.\n\nThe Trader Joe DEX is powered by the Liquidity Book Automated Market Maker (AMM), the most efficient and versatile AMM in DeFi.\n\nJOE is the native governance token that also accrues a share of trading fees collected by Liquidity Pools.",
+  "dex": [
+   "LFJ"
+  ],
+  "discord": "https://discord.com/invite/lfj",
+  "explorer": "https://snowtrace.io/token/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
+  "fetched": "2026-10-11T22:09:49.248863+00:00",
+  "genesis": null,
+  "github": "https://github.com/traderjoe-xyz",
+  "homepage": "https://lfj.gg/avalanche",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "binance-smart-chain",
+   "mantle"
+  ],
+  "reddit": null,
+  "sentiment_up": 66.67,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/LFJ_gg",
+  "twitter_followers": null,
+  "watchers": 62923
  },
  "kaio": {
   "categories": [
@@ -2792,6 +2883,62 @@
   "twitter_followers": null,
   "watchers": 307
  },
+ "opengradient": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "BNB Chain Ecosystem",
+   "Mantle Ecosystem",
+   "Base Ecosystem",
+   "Binance Alpha Spotlight",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bybit",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "GroveX",
+   "HTX",
+   "Hotcoin"
+  ],
+  "cex_count": 20,
+  "chat": "https://opengradient.medium.com/",
+  "commits_4w": null,
+  "description": "OpenGradient is the Network for Open Intelligence \u2014 a decentralized infrastructure network designed to host, inference, and verify AI models at scale. Rather than functioning as a standalone blockchain, OpenGradient operates as a specialized AI coprocessor: it enables applications, blockchains, and autonomous agents to outsource computationally-heavy AI tasks to a dedicated network of GPU and Trusted Execution Environment (TEE) nodes. The validator set verifies every computational proof (TEE attestation or zkML proof) at the consensus level before it is committed on-chain, enabling trustless usage of AI from any network or application.",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "PancakeSwap V3 (Base)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0xFbC2051AE2265686a469421b2C5A2D5462FbF5eB",
+  "fetched": "2026-10-11T22:10:52.499674+00:00",
+  "genesis": null,
+  "github": "https://github.com/OpenGradient",
+  "homepage": "https://www.opengradient.ai/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "mantle"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/OpenGradient",
+  "twitter_followers": null,
+  "watchers": 2500
+ },
  "paal-ai": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2986,6 +3133,64 @@
   "twitter": "https://x.com/polariscloudai",
   "twitter_followers": null,
   "watchers": 119
+ },
+ "realio-network": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Layer 1 (L1)",
+   "Ethereum Ecosystem",
+   "Algorand Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "Osmosis Ecosystem",
+   "Stellar Ecosystem",
+   "RWA Protocol",
+   "Made in USA",
+   "Base Native"
+  ],
+  "cex": [
+   "BingX",
+   "DODO (BSC)",
+   "KCEX",
+   "KuCoin",
+   "MEXC",
+   "Mercado Bitcoin",
+   "Osmosis"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Realio is a digital issuance, investment and peer-to-peer trading platform that utilizes a proprietary distributed network for issuing-on and interconnecting decentralized ecosystems. The platform leverages both a permissioned and permissionless architecture to satisfy the need for stringent securities regulations while allowing uniquely democratized access to investment products normally reserved for a select subset of institutional investors. We source investment opportunities across many asset classes with a focus on real estate private equity and we also provide the tools for 3rd party issuers to digitize their assets and raise capital within the network or use our tech stack as a private white-label solution.\nOur network architecture is modular, scalable, and enables built-in liquidity while distributing previously highly-centralized activities such as issuance and regulatory compliance across a private and secure network of independent participants.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Raydium (CLMM)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": "https://discord.com/invite/WhRgHEfDF4",
+  "explorer": "https://etherscan.io/token/0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0",
+  "fetched": "2026-10-11T22:09:46.028274+00:00",
+  "genesis": null,
+  "github": "https://github.com/realiotech",
+  "homepage": "https://realio.network/",
+  "platforms": [
+   "algorand",
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/realio_network",
+  "twitter_followers": null,
+  "watchers": 64071
  },
  "renzo": {
   "categories": [
@@ -3320,6 +3525,56 @@
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
   "watchers": 151667
+ },
+ "spdr-s-p-500-etf-ondo-tokenized-etf": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Ondo Tokenized Assets",
+   "Tokenized Exchange-Traded Product (ETPs)"
+  ],
+  "cex": [
+   "BingX",
+   "Gate",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Manifest",
+   "Ondo Stocks"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SPYon is the Ondo Tokenized version of the SPDR S&amp;P 500 ETF, giving tokenholders economic exposure similar to holding SPY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xFeDC5f4a6c38211c1338aa411018DFAf26612c08",
+  "fetched": "2026-10-11T22:10:56.670264+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/spyon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 483
  },
  "sportstensor": {
   "categories": [
