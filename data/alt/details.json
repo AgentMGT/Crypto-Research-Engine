@@ -558,6 +558,44 @@
   "twitter_followers": null,
   "watchers": 30425
  },
+ "bitmine-immersion-technologies-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x3548da95a9effe481e8604664d75e95821e557f5",
+  "fetched": "2026-10-11T21:45:16.708859+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 66
+ },
  "bobo-coin-2": {
   "categories": [
    "Solana Ecosystem",
@@ -1117,6 +1155,47 @@
   "twitter_followers": null,
   "watchers": 23167
  },
+ "codec-flow": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem",
+   "Peaq Ecosystem",
+   "Robotics",
+   "x402 Ecosystem"
+  ],
+  "cex": [
+   "MachineX",
+   "XT.COM"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "CodecFlow is the first Operator platform built on Vision-Language Actions (VLAs), enabling AI to see, reason, and act across screens or robotic systems. \nIt includes Fabric, a multi-cloud execution layer for GPU-intensive or compute-heavy workloads. Fabric optimizes workload placement by sampling live capacity and pricing across connected providers and selecting the lowest-cost node that meets specified requirements.\n\nCodecFlow also developed Operator Kit (optr), a lightweight toolkit for building agents that operate on desktops, browsers, simulations, and robots. Optr provides composable utilities for managing actions, state, episodes, and safety, with a modular design that keeps other components pluggable. \n\nTogether, these components form a framework that supports the development and deployment of agents across diverse digital and physical environments",
+  "dex": [
+   "Meteora",
+   "PumpSwap",
+   "Raydium"
+  ],
+  "discord": "https://discord.gg/4Vu2CPepng",
+  "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
+  "fetched": "2026-10-11T21:47:39.520654+00:00",
+  "genesis": null,
+  "github": "https://github.com/codecflow",
+  "homepage": "https://codecflow.ai/",
+  "platforms": [
+   "peaq",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/codecflow",
+  "telegram_users": null,
+  "twitter": "https://x.com/Codecopenflow",
+  "twitter_followers": null,
+  "watchers": 1684
+ },
  "cookie": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1429,6 +1508,48 @@
   "twitter_followers": null,
   "watchers": 4677
  },
+ "fluence-2": {
+  "categories": [
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Multicoin Capital Portfolio",
+   "Alameda Research Portfolio",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BingX",
+   "Gate",
+   "Kanga Global",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The Fluence DePIN platform frees computation from centralized clouds by offering natively decentralized, low cost, and verifiable compute.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
+  "fetched": "2026-10-11T21:45:13.470197+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://fluence.network/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/fluence_project",
+  "twitter_followers": null,
+  "watchers": 8574
+ },
  "flying-tulip": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -1472,6 +1593,93 @@
   "twitter_followers": null,
   "watchers": 1394
  },
+ "gamercoin": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "AI Applications"
+  ],
+  "cex": [
+   "BitKan",
+   "Bithumb",
+   "Gate",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": "https://www.facebook.com/GamerHashApp/",
+  "commits_4w": null,
+  "description": "GamerCoin is a token of GamerHash platform - it's the last puzzle of gaming ecosystem and fuel which makes 500.000 users life easier.\nGamers will have many ways to earn GHX trough mining or entertainment on the platform. Keeping tokens in the wallet will bring many benefits &amp; spending GHX in the Marketplace will open special offers.\nIt's a game changer for gaming generation!",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Raydium",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/T3ZpnwBvvC",
+  "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
+  "fetched": "2026-10-11T21:46:23.197617+00:00",
+  "genesis": null,
+  "github": "https://github.com/GamerHash",
+  "homepage": "https://gamercoin.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/GamerHashOfficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/GamerHashCom",
+  "twitter_followers": null,
+  "watchers": 23673
+ },
+ "gamestop-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "KCEX"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
+  "fetched": "2026-10-11T21:46:26.425372+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 41
+ },
  "genesysgo-shadow": {
   "categories": [
    "Storage",
@@ -1509,6 +1717,45 @@
   "twitter": "https://x.com/genesysgo",
   "twitter_followers": null,
   "watchers": 17312
+ },
+ "giggle-mascot": {
+  "categories": [
+   "Charity",
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Mascot-Themed"
+  ],
+  "cex": [
+   "KCEX",
+   "MEXC",
+   "Matcha (BSC)"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "MAX is the community-driven meme token inspired by Max, the mascot of Giggle Academy. Built on BNB Chain, MAX combines meme culture with a real charitable purpose: supporting free education.\n\nThe token uses a 3% buy and 3% sell tax, with tax revenue automatically routed through Flap Protocol to Giggle Academy. This creates an ongoing donation mechanism tied directly to trading activity rather than relying solely on one-time contributions.\n\nSince launch, the MAX community has already generated hundreds of BNB in donations for Giggle Academy, helping support its mission of making high-quality education freely accessible worldwide.\n\nAt its core, MAX is about bringing together the BNB Chain community, meme culture, and transparent on-chain giving \u2014 proving that a memecoin can be fun while also creating measurable real-world impact.\n",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xe9Bc5C6A86caA44fD7b469bf3cc7c563E4F77777",
+  "fetched": "2026-10-11T21:44:06.671470+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.maxbnb.meme",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/GiggleMascotBNB",
+  "telegram_users": null,
+  "twitter": "https://x.com/GiggleMascotBNB",
+  "twitter_followers": null,
+  "watchers": 203
  },
  "griffain": {
   "categories": [
@@ -1561,6 +1808,63 @@
   "twitter": "https://x.com/griffaindotcom",
   "twitter_followers": null,
   "watchers": 25339
+ },
+ "ishares-silver-trust-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Ondo Tokenized Assets",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "Tokenized Commodity Exchange-Traded Products (ETPs)"
+  ],
+  "cex": [
+   "BingX",
+   "Gate",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks",
+   "Ourbit",
+   "Toobit",
+   "XT.COM"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
+  "fetched": "2026-10-11T21:47:45.951574+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/slvon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 1110
  },
  "ix-swap": {
   "categories": [
@@ -1738,6 +2042,55 @@
   "twitter_followers": null,
   "watchers": 7886
  },
+ "lava-network": {
+  "categories": [
+   "Infrastructure",
+   "Smart Contract Platform",
+   "Arbitrum Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "Modular Blockchain",
+   "Osmosis Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Bybit",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "Osmosis",
+   "Toobit"
+  ],
+  "cex_count": 7,
+  "chat": "https://www.lavanet.xyz/blog",
+  "commits_4w": null,
+  "description": "Lava's vision is to enable AI agents and anyone to use blockchain apps, 24/7, with no downtime.\n\nLava is a protocol which coordinates traffic from AI agents, apps and wallets on every blockchain. Specifically, the protocol focuses on RPC requests, which are used by everyone to make basic blockchain interactions such as sending any transaction or checking your wallet address. \n\nLava aggregates data providers and directs RPC traffic based on the speed and reliability of the provider. The protocol has chains and apps like NEAR, Starknet, Filecoin, and Axelar already paying LAVA stakers and providers $1m+ to offer ultra-reliable service. \n",
+  "dex": [
+   "PancakeSwap V3 (Arbitrum)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/e92uH2xNyx",
+  "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
+  "fetched": "2026-10-11T21:47:36.280642+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.lavanet.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "osmosis"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/+4FqlzOzdMTo1ZTdk",
+  "telegram_users": null,
+  "twitter": "https://x.com/lavanetxyz",
+  "twitter_followers": null,
+  "watchers": 3603
+ },
  "lisk": {
   "categories": [
    "Smart Contract Platform",
@@ -1833,6 +2186,67 @@
   "twitter": "https://x.com/lofitheyeti",
   "twitter_followers": null,
   "watchers": 7564
+ },
+ "magic": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Smart Contract Platform",
+   "NFT",
+   "Metaverse",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Layer 2 (L2)",
+   "Zero Knowledge (ZK)",
+   "Base Ecosystem",
+   "AI Agents",
+   "AI Agent Launchpad",
+   "x402 Ecosystem"
+  ],
+  "cex": [
+   "BVOX",
+   "Binance",
+   "Binance US",
+   "BitKan",
+   "Bithumb",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "BtcTurk | Kripto"
+  ],
+  "cex_count": 41,
+  "chat": null,
+  "commits_4w": null,
+  "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
+  "dex": [
+   "Camelot V3",
+   "Magicswap",
+   "Sushiswap (Arbitrum One)",
+   "Sushiswap V3 (Arbitrum)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
+  "fetched": "2026-10-11T21:47:49.053628+00:00",
+  "genesis": null,
+  "github": "https://github.com/TreasureProject",
+  "homepage": "https://treasure.lol/",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 66.67,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 38881
  },
  "mamo": {
   "categories": [
@@ -2038,6 +2452,42 @@
   "twitter_followers": null,
   "watchers": 7937
  },
+ "nearkat-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Stonk Ecosystem"
+  ],
+  "cex": [
+   "LBank",
+   "MEXC"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/6UtY9iTZMQQ5QZVrbzFnNaJntV7oySm9k97mvwnuZcxr",
+  "fetched": "2026-10-11T21:44:03.402394+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://nearkat.xyz/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/NearKatSol",
+  "twitter_followers": null,
+  "watchers": 250
+ },
  "nextplace": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2069,6 +2519,48 @@
   "twitter": "https://x.com/OpenQuantum_",
   "twitter_followers": null,
   "watchers": 323
+ },
+ "ninja-squad": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "BingX",
+   "MEXC",
+   "Paribu"
+  ],
+  "cex_count": 3,
+  "chat": "https://ninjasquad.medium.com/",
+  "commits_4w": null,
+  "description": "Ninja Squad Token ($NST) is the native token of the Ninja Traders ecosystem, which provides access to Ninja Traders products developed for both beginner and advanced traders. With a rich history of delivering products and insightful content since our inception in 2017, the Ninja ecosystem continues to evolve and expand, embracing innovation and introducing new features. The key to gaining access to these products is as simple as holding $NST or owning a Ninja Squad NFT. By doing so, traders gain exclusive access to products designed to elevate their trading experience to a new level.\n\nIn brief, $NST holders have access to the following products;\n- Ninja Terminal grants access to a live cryptocurrency news feed where traders can connect with their API key to open and manage positions in real-time, ensuring users are not losing any precious second while trading live feed.\n- Ninja Tools enables users to monitor on-chain and futures data, long/short ratios, heat maps, wallet analyses, economic calendar, and more on a single screen. Additionally, the ability to set personalized alerts ensures that users stay ahead of the market.\n- Ninja Capital grants exclusive access to allocations from upcoming investor rounds of top projects. It's your chance to invest before anyone else with specially reserved spots for Ninja.\n- Mentorship grants access to intimate discussions with our professional analysis team. Engage in conversations, gain valuable insights, and refine your trading strategi",
+  "dex": [
+   "Meteora",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V4 (Arbitrum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
+  "fetched": "2026-10-11T21:45:09.981189+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://ninjatraders.io/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/ninjatraderstr",
+  "telegram_users": null,
+  "twitter": "https://x.com/ninjasquadnft",
+  "twitter_followers": null,
+  "watchers": 2900
  },
  "nkyc-token": {
   "categories": [
@@ -2180,6 +2672,61 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 131
+ },
+ "nvidia-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Binance Alpha Spotlight",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "BingX",
+   "CoinW",
+   "Gate",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Manifest",
+   "Ondo Stocks",
+   "Toobit"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "NVDAon is the Ondo Tokenized version of NVIDIA, giving tokenholders economic exposure similar to holding NVDA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (BSC)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0x2D1F7226Bd1F780AF6B9A49DCC0aE00E8Df4bDEE",
+  "fetched": "2026-10-11T21:46:29.634595+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/nvdaon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 671
  },
  "omega-any-to-any": {
   "categories": [
@@ -2493,6 +3040,65 @@
   "twitter_followers": null,
   "watchers": 12547
  },
+ "reserve-rights-token": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "Coinbase Ventures Portfolio",
+   "Energi Ecosystem",
+   "Made in USA",
+   "Base Native"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "BVOX",
+   "BYDFi",
+   "Biconomy.com",
+   "Bilaxy",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitDelta",
+   "Bitget",
+   "Bithumb"
+  ],
+  "cex_count": 57,
+  "chat": "https://www.youtube.com/@reserveprotocol",
+  "commits_4w": null,
+  "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Curve (Arbitrum)",
+   "Curve (Ethereum)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+  "fetched": "2026-10-11T21:46:32.982889+00:00",
+  "genesis": null,
+  "github": "https://github.com/reserve-protocol/rsr",
+  "homepage": "https://reserve.org/",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "energi",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/reservecurrency",
+  "telegram_users": null,
+  "twitter": "https://x.com/reserveprotocol",
+  "twitter_followers": null,
+  "watchers": 90544
+ },
  "rivalz-network": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2625,6 +3231,95 @@
   "twitter": "https://x.com/sanctumso",
   "twitter_followers": null,
   "watchers": 5626
+ },
+ "sandisk-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "LBank"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x3ee4df61bd4f867e349beae8bfe07bc31b4850fb#transactions",
+  "fetched": "2026-10-11T21:47:42.755322+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.binance.com/bstocks-landing",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 198
+ },
+ "solidus-aitech": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Solana Ecosystem",
+   "Launchpad",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "ChainGPT Launchpad",
+   "AI Agents",
+   "Binance Alpha Spotlight",
+   "DeFAI"
+  ],
+  "cex": [
+   "BingX",
+   "Bitget",
+   "BloFin",
+   "Gate",
+   "HTX",
+   "KCEX",
+   "KuCoin",
+   "MEXC",
+   "WhiteBIT"
+  ],
+  "cex_count": 9,
+  "chat": "https://medium.com/@solidusaitech",
+  "commits_4w": null,
+  "description": "AITECH Cloud Network (ACN) is an enterprise-grade AI infrastructure ecosystem designed to support the next generation of AI builders. ACN brings together compute, agent orchestration, and an integrated economic layer to enable scalable, real-world AI execution within a secure, Web3-enabled environment.\n\nCompute Layer\nAccess to high-performance GPU infrastructure for AI training, inference, and large-scale workloads. NVIDIA H200's, H100's, L40's, RTX6000s\n\nAI Agent Orchestration Layer\nBuild, deploy, and manage autonomous agents capable of executing complex, multi-step workflows all through the conversational interface.\n\nEconomic Layer ($ACN)\nNative token on Ethereum Network powering payments, coordination, and value exchange across the network\n\nACN is structured to meet enterprise demands, combining performance, flexibility, and decentralized coordination into a single unified system.\n",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
+  "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
+  "fetched": "2026-10-11T21:45:19.912441+00:00",
+  "genesis": null,
+  "github": "https://github.com/Solidus-Ai-Tech",
+  "homepage": "https://aitech.io",
+  "platforms": [
+   "base",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": "https://www.reddit.com/r/AITECHtoken",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/solidusaitech",
+  "telegram_users": null,
+  "twitter": "https://x.com/AITECHio",
+  "twitter_followers": null,
+  "watchers": 151667
  },
  "sportstensor": {
   "categories": [
