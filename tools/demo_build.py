@@ -12,7 +12,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from engine import build, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals  # noqa: E402
+from engine import altcoins, build, fetch_crypto, fetch_news, fetch_tao, fetch_venues, signals  # noqa: E402
 
 random.seed(7)
 
@@ -171,6 +171,7 @@ HEADLINES = {
     "CLARITY": ["Tillis motion to reconsider keeps CLARITY Act alive - Reuters",
                 "Crypto PACs rethink midterm spending after CLARITY Act stalls - Bloomberg",
                 "Lummis: market structure bill is dead for this Congress - Politico"],
+    "coingape": ["Akash Network signs GPU deal as DePIN demand grows", "Top altcoins to watch: Ondo, Akash and Bonkers"],
     "Bittensor": ["Bittensor subnet emissions shift after dTAO update - CoinDesk",
                   "Grayscale files for Bittensor TAO trust conversion - The Block"],
 }
@@ -189,6 +190,52 @@ def fake_feed(url):
     return f"<?xml version='1.0'?><rss><channel>{''.join(items)}</channel></rss>".encode()
 
 
+ALT = [("akash-network", "AKT", "Akash Network", "DePIN", 9e7, True), ("ondo-x", "ONDX", "Ondo X", "RWA", 4.2e7, True),
+       ("nodehub", "NODE", "NodeHub", "DePIN", 1.2e7, False), ("gpu-grid", "GRID", "GPU Grid", "AI", 2.6e8, True),
+       ("bonkers", "BONKERS", "Bonkers", "Meme", 3.1e7, False), ("froggo", "FROG", "Froggo", "Meme", 6e6, False),
+       ("paystream", "PAYS", "Paystream", None, 1.8e7, True), ("usd-alt", "USDA", "USD Alt", None, 5e7, False)]
+ALT += [(f"alt-{i}", f"ALT{i}", f"Altcoin {i}", random.choice([None, None, "AI", "Meme", "RWA"]), 10 ** random.uniform(6.1, 8.4), random.random() < 0.3) for i in range(60)]
+
+
+def fake_markets(params):
+    cat = {"meme-token": "Meme", "depin": "DePIN", "artificial-intelligence": "AI", "real-world-assets-rwa": "RWA"}.get(params.get("category"))
+    rows = []
+    for i, (cid, sym, name, c, mc, _) in enumerate(ALT):
+        if cat and c != cat:
+            continue
+        if not cat and params.get("page") != 2:
+            continue
+        price = 10 ** random.uniform(-4, 1)
+        rows.append({"id": cid, "symbol": sym.lower(), "name": name, "image": "", "current_price": price, "market_cap": mc,
+                     "market_cap_rank": 260 + i, "total_volume": mc * random.uniform(0.002, 0.4),
+                     "fully_diluted_valuation": mc * random.choice([1.0, 1.2, 2.5, 6.0]),
+                     "circulating_supply": 6e8, "max_supply": random.choice([None, 1e9, 7e8]),
+                     "price_change_percentage_24h_in_currency": random.gauss(0, 6),
+                     "price_change_percentage_7d_in_currency": random.gauss(3, 15),
+                     "price_change_percentage_30d_in_currency": random.gauss(5, 35), "ath_change_percentage": -random.uniform(20, 95)})
+    return rows
+
+
+def fake_detail(cid):
+    row = next(a for a in ALT if a[0] == cid)
+    meme = row[3] == "Meme"
+    desc = ("A community meme coin on Solana with a dog mascot." if meme else
+            f"{row[2]} is a decentralized platform where the token pays fees for GPU compute and storage nodes. "
+            "Holders can stake to secure the network. Mainnet is live with 40,000 users and partnerships with major cloud providers.")
+    return {"fetched": altcoins._now().isoformat(), "categories": [row[3]] if row[3] else ["Infrastructure"], "description": desc,
+            "genesis": "2026-08-01" if cid == "froggo" else "2023-03-01", "homepage": "https://example.com",
+            "twitter": "https://x.com/example", "telegram": "https://t.me/example" if random.random() < 0.8 else None,
+            "discord": "https://discord.gg/example" if not meme else None, "chat": None, "reddit": None,
+            "github": None if meme else "https://github.com/example/repo", "explorer": "https://etherscan.io",
+            "twitter_followers": None, "telegram_users": random.choice([None, 12400]), "watchers": random.randint(200, 90000),
+            "sentiment_up": 80, "commits_4w": 0 if meme else random.randint(0, 140), "stars": 30,
+            "cex": random.sample(["Gate", "MEXC", "KuCoin", "Bitget", "Kraken"], 3), "cex_count": 3, "dex": ["Uniswap V3"], "platforms": ["ethereum"]}
+
+
+altcoins._markets = fake_markets
+altcoins.coin_detail = fake_detail
+altcoins.llama_protocols = lambda errors: {a[0]: {"tvl": random.uniform(3e5, 4e7), "category": "Services", "name": a[2], "slug": a[0], "chains": ["Ethereum"]} for a in ALT if a[5]}
+altcoins.time.sleep = lambda s: None
 fetch_news._get = fake_feed
 fetch_news.get_json = lambda *a, **k: {"objects": [{"current_status_label": "Passed House",
                                                      "current_status_date": "2025-07-17",

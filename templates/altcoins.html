@@ -1,0 +1,202 @@
+{% extends "base.html" %}
+{% block title %}ALTCOINS — research engine{% endblock %}
+
+{% macro money_or(v) %}{{ v|money if v else '–' }}{% endmacro %}
+
+{% macro coin_card(c) %}
+{% set d = c.detail or {} %}
+<article class="alt-card" data-id="{{ c.id }}" data-q="{{ c.symbol }} {{ c.name }} {{ (d.categories or c.cats)|join(' ') }}" data-passed="{{ c.passed_pct }}">
+  <div class="alt-hd">
+    {% if c.image %}<img src="{{ c.image }}" alt="" loading="lazy">{% endif %}
+    <span class="sym">{{ c.symbol }}</span><span class="nm">{{ c.name }}</span>
+    {% if c.trending %}<span class="tag hot">Trending</span>{% endif %}
+    <span class="alt-score" title="Scanner score out of 100">{{ c.score }}</span>
+  </div>
+  <div class="alt-cats">{% for t in (d.categories or c.cats)[:4] %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+  <div class="alt-nums">
+    <span>Price <b>{{ c.price|money }}</b></span>
+    <span>Mkt cap <b>{{ money_or(c.mcap) }}</b></span>
+    <span>FDV <b>{{ money_or(c.fdv) }}</b></span>
+    <span>24h vol <b>{{ money_or(c.volume) }}</b></span>
+    <span class="{{ c.ch7|cls }}">{{ c.ch7|signed }} 7d</span>
+    <span class="{{ c.ch30|cls }}">{{ c.ch30|signed }} 30d</span>
+    {% if c.tvl %}<span>TVL <b>{{ c.tvl|money }}</b></span>{% endif %}
+  </div>
+
+  <ul class="alt-checks">
+    {% for k in c.checks %}
+    <li class="{{ 'ok' if k.ok else 'no' if k.ok == false else 'unk' }}" title="{{ k.note }}">
+      <span class="mk" aria-hidden="true">{{ '✓' if k.ok else '✗' if k.ok == false else '?' }}</span>
+      <span><b>{{ k.label }}</b><small>{{ k.note }}</small></span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% if c.flags %}<div class="alt-flags">{% for f in c.flags %}<span class="tag warn">{{ f }}</span>{% endfor %}</div>{% endif %}
+
+  {% if c.ai %}
+  <div class="alt-ai v-{{ c.ai.verdict }}">
+    <div class="alt-ai-hd"><b>AI due diligence</b><span class="pill">{{ c.ai.verdict|capitalize }}</span><span class="faint">{{ (c.ai.ts or '')[:10] }}</span></div>
+    <p>{{ c.ai.summary }}</p>
+    <dl>
+      {% for key, label in [('platform', 'Platform'), ('partnerships', 'Partnerships'), ('staking', 'Staking / access'), ('community', 'Community')] %}
+      {% if c.ai[key] %}<dt>{{ label }}</dt><dd>{{ c.ai[key] }}</dd>{% endif %}
+      {% endfor %}
+    </dl>
+    {% if c.ai.red_flags %}<p class="alt-ai-flags"><b>Red flags:</b> {{ c.ai.red_flags|join('; ') }}</p>{% endif %}
+    {% if c.ai.sources %}<p class="alt-ai-src">{% for s in c.ai.sources[:5] %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title|truncate(48) }}</a>{% endfor %}</p>{% endif %}
+  </div>
+  {% endif %}
+
+  {% if c.news %}
+  <ul class="alt-news">{% for n in c.news %}<li><a href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a> <span class="faint">{{ n.source }} {{ n.ts }}</span></li>{% endfor %}</ul>
+  {% endif %}
+
+  <div class="alt-links">
+    {% if d.homepage %}<a href="{{ d.homepage }}" target="_blank" rel="noopener">Website</a>{% endif %}
+    {% if d.twitter %}<a href="{{ d.twitter }}" target="_blank" rel="noopener">X</a>{% endif %}
+    {% if d.telegram %}<a href="{{ d.telegram }}" target="_blank" rel="noopener">Telegram</a>{% endif %}
+    {% if d.discord %}<a href="{{ d.discord }}" target="_blank" rel="noopener">Discord</a>{% endif %}
+    {% if d.chat %}<a href="{{ d.chat }}" target="_blank" rel="noopener">Chat</a>{% endif %}
+    {% if d.reddit %}<a href="{{ d.reddit }}" target="_blank" rel="noopener">Reddit</a>{% endif %}
+    {% if d.github %}<a href="{{ d.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+    {% if d.explorer %}<a href="{{ d.explorer }}" target="_blank" rel="noopener">Explorer</a>{% endif %}
+    <a href="https://www.coingecko.com/en/coins/{{ c.id }}" target="_blank" rel="noopener">CoinGecko</a>
+    {% if c.llama_slug %}<a href="https://defillama.com/protocol/{{ c.llama_slug }}" target="_blank" rel="noopener">DefiLlama</a>{% endif %}
+  </div>
+  {% if d.cex or d.dex %}<p class="alt-where faint">Trades on {{ (d.cex + d.dex)[:6]|join(', ') }}{% if (d.cex|length + d.dex|length) > 6 %} and more{% endif %}</p>{% endif %}
+
+  <div class="alt-actions">
+    <button type="button" class="rs-btn"{{ {'t': 'cg', 'id': c.id, 'label': c.symbol ~ ' · ' ~ c.name}|chart }}>Chart</button>
+    <a class="rs-btn" href="research.html?id={{ c.id }}">Research</a>
+    <a class="rs-btn" href="paper.html?coin={{ c.id }}">Paper trade</a>
+  </div>
+
+  <details class="alt-mine">
+    <summary>My checks <span class="alt-mine-n" data-n></span></summary>
+    <div class="alt-mine-grid">
+      {% for key, label in [('platform', 'Powers a platform'), ('partners', 'Active partnerships verified'), ('staking', 'Staking or server access'), ('live', 'Product is live and used'), ('use', 'Solves a real-world problem'), ('exclusive', 'Exclusive / little competition'), ('community', 'Telegram, Discord and X active'), ('team', 'Team known, no red flags')] %}
+      <label><input type="checkbox" data-check="{{ key }}"> {{ label }}</label>
+      {% endfor %}
+    </div>
+    <textarea data-notes rows="2" placeholder="Notes: what you found, links, when to re-check"></textarea>
+  </details>
+</article>
+{% endmacro %}
+
+{% block content %}
+<h1>ALTCOINS</h1>
+<p class="sub">An asymmetric-bet scanner: small coins with real use or strong potential, and meme coins with live communities. It screens about a thousand coins on centralized and decentralized markets every refresh, checks each top candidate against your criteria, and links straight to its channels so you can finish the research yourself.</p>
+
+{% if not alt %}
+<div class="banner">The first altcoin scan hasn't run yet. It runs with the next refresh; press Scan now to start one.</div>
+{% else %}
+
+<div class="cards">
+  <div class="card"><div class="k">Coins screened</div><div class="v">{{ alt.universe|length }}</div><div class="n">{{ alt.cfg.mcap_min_usd|money }} to {{ alt.cfg.mcap_max_usd|money }} market cap</div></div>
+  <div class="card"><div class="k">Utility picks</div><div class="v">{{ alt.utility|length }}</div><div class="n">checked in detail</div></div>
+  <div class="card"><div class="k">Meme coins</div><div class="v">{{ alt.meme|length }}</div><div class="n">checked in detail</div></div>
+  <div class="card"><div class="k">DEX early pools</div><div class="v">{{ alt.dex|length }}</div><div class="n">under $2M liquidity</div></div>
+  <div class="card"><div class="k">Headlines scanned</div><div class="v">{{ alt.headline_count }}</div><div class="n">CoinGape, Changelly, Google News</div></div>
+  <div class="card"><div class="k">AI due diligence</div><div class="v">{{ 'On' if alt.ai_on else 'Off' }}</div><div class="n">{{ 'web search on top picks' if alt.ai_on else 'switched off for now' }}</div></div>
+</div>
+
+<details class="plan-rules alt-plan" open>
+<summary>The asymmetric plan</summary>
+<ul>{% for x in alt.cfg.plan %}<li>{{ x }}</li>{% endfor %}</ul>
+</details>
+
+<details class="plan-rules">
+<summary>What the scanner checks, and what you check</summary>
+<h4>Checked automatically</h4>
+<ul>
+  <li><b>Small, early cap:</b> market cap under {{ alt.cfg.small_cap_usd|money }}.</li>
+  <li><b>Low liquidity:</b> under {{ alt.cfg.low_liquidity_usd|money }} traded a day, but at least {{ alt.cfg.min_volume_usd|money }} so you can still get in and out.</li>
+  <li><b>Real-world use:</b> categories such as DePIN, AI, real-world assets, payments, storage, compute, oracles or infrastructure.</li>
+  <li><b>Live products:</b> money locked in its protocol on DefiLlama, recent GitHub commits, or a live product in its description.</li>
+  <li><b>Powers a platform, staking, server access, partnerships:</b> read from the project's own description, so treat these as leads to verify.</li>
+  <li><b>Scarcity:</b> a capped supply that is mostly in circulation, or a fully diluted value close to market cap (few unlocks ahead).</li>
+  <li><b>Community:</b> whether it lists X, Telegram and Discord, and how many CoinGecko users watch it.</li>
+  <li><b>News:</b> headlines that name it on CoinGape, Changelly and Google News.</li>
+</ul>
+<h4>You check (tick "My checks" on each card; saved in this browser)</h4>
+<ul>
+  <li>Open its Telegram, Discord and X: are people talking about the product, or only the price? Are the team posting updates?</li>
+  <li>Confirm partnerships on the partner's own site or account, not just the project's.</li>
+  <li>Try the product, check the staking page, look at who holds the supply on the explorer.</li>
+</ul>
+<p class="faint">✓ = the data supports it, ✗ = the data points the other way, ? = can't tell from free data. Telegram, Discord and X can't be read without paid access, so the scanner links to them instead.</p>
+</details>
+
+<div class="pp-tabs alt-tabs" role="tablist">
+  <button type="button" role="tab" data-tab="utility" aria-selected="true">Utility picks</button>
+  <button type="button" role="tab" data-tab="meme" aria-selected="false">Meme coins</button>
+  <button type="button" role="tab" data-tab="dex" aria-selected="false">DEX early</button>
+  <button type="button" role="tab" data-tab="all" aria-selected="false">All screened</button>
+</div>
+
+<div class="filter alt-filter">
+  <input id="alt-q" type="search" placeholder="Filter by name, symbol or category" aria-label="Filter altcoins">
+  <label><input type="checkbox" id="alt-strong"> Passes most checks</label>
+  <label><input type="checkbox" id="alt-mine"> Only coins I've checked</label>
+</div>
+
+<section id="tab-utility" role="tabpanel">
+  {% if alt.utility %}<div class="alt-grid">{% for c in alt.utility %}{{ coin_card(c) }}{% endfor %}</div>
+  {% else %}<p class="sub">No utility candidates this run.</p>{% endif %}
+</section>
+
+<section id="tab-meme" role="tabpanel" hidden>
+  <p class="sub">Meme coins are scored on community, momentum and trading activity rather than utility. Size them smallest of all.</p>
+  {% if alt.meme %}<div class="alt-grid">{% for c in alt.meme %}{{ coin_card(c) }}{% endfor %}</div>
+  {% else %}<p class="sub">No meme candidates this run.</p>{% endif %}
+</section>
+
+<section id="tab-dex" role="tabpanel" hidden>
+  <p class="sub">Pools on decentralized exchanges with under $2M liquidity that are trending or new, without sell pressure. Many of these tokens aren't on CoinGecko yet. Highest risk on the site: check the contract and the holder spread before anything else.</p>
+  <div class="tablewrap">
+  <table>
+  <thead><tr><th class="l">Pool</th><th class="l">Chain · DEX</th><th>Price</th><th>24h</th><th>Liquidity</th><th>Volume 24h</th><th>Buy share</th><th>Buyers / sellers</th><th class="l">Tags</th></tr></thead>
+  <tbody>
+  {% for p in alt.dex %}
+    <tr data-q="{{ p.name }} {{ p.network }} {{ p.dex }}"{{ {'t': 'gt', 'net': p.network, 'pool': p.address, 'label': p.name ~ ' · ' ~ p.dex, 'link': p.url}|chart }}>
+      <td class="l">{{ p.name }}</td><td class="l">{{ p.network }} · {{ p.dex }}</td>
+      <td>{{ p.price_usd|money }}</td><td class="{{ p.ch_24h|cls }}">{{ p.ch_24h|signed }}</td>
+      <td>{{ p.liquidity|money }}</td><td>{{ p.vol_24h|money }}</td>
+      <td>{{ (p.buy_ratio * 100)|num(0) if p.buy_ratio is not none else '–' }}%</td>
+      <td>{{ p.buyers }} / {{ p.sellers }}</td>
+      <td class="l">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+  </div>
+</section>
+
+<section id="tab-all" role="tabpanel" hidden>
+  <p class="sub">Every coin in this run's screen, by score. Coins without a detail check are scored on market data only.</p>
+  <div class="tablewrap">
+  <table id="alt-all">
+  <thead><tr><th class="l">Asset</th><th class="l">Type</th><th>Mkt cap</th><th>24h vol</th><th>FDV / mcap</th><th>7d</th><th>30d</th><th>TVL</th><th>Score</th></tr></thead>
+  <tbody>
+  {% for c in alt.universe %}
+    <tr data-q="{{ c.symbol }} {{ c.name }} {{ c.cats|join(' ') }}"{{ {'t': 'cg', 'id': c.id, 'label': c.symbol ~ ' · ' ~ c.name}|chart }}>
+      <td class="l"><b>{{ c.symbol }}</b> <small class="faint">{{ c.name }}</small></td>
+      <td class="l">{{ 'Meme' if c.meme else (c.cats|join(', ') or '–') }}</td>
+      <td>{{ c.mcap|money }}</td><td>{{ c.volume|money }}</td>
+      <td>{{ c.fdv_ratio|num(1) if c.fdv_ratio else '–' }}</td>
+      <td class="{{ c.ch7|cls }}">{{ c.ch7|signed }}</td><td class="{{ c.ch30|cls }}">{{ c.ch30|signed }}</td>
+      <td>{{ c.tvl|money if c.tvl else '–' }}</td>
+      <td><span class="score">{{ c.score }}</span></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+  </table>
+  </div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block sources %}Sources: CoinGecko (markets, categories, project details, community links), DefiLlama (protocol TVL), GeckoTerminal (DEX pools), CoinGape, Changelly and Google News (headlines){% if alt and alt.ai_on %}, Claude with web search (due diligence){% endif %}.{% endblock %}
+
+{% block scripts %}<script src="altcoins.js"></script>{% endblock %}

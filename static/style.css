@@ -415,3 +415,48 @@ tr[data-chart] { cursor: pointer; }
 .lv-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; font-size: 13.5px; }
 .lv-why { font-size: 12.5px; color: var(--dim); margin: 8px 0 0; }
 @media (max-width: 760px) { .lv-accts { grid-template-columns: minmax(0, 1fr); } .lv-grid { grid-template-columns: 1fr 1fr; } }
+
+/* ALTCOINS */
+.alt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 12px; }
+.alt-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; min-width: 0; display: flex; flex-direction: column; gap: 9px; }
+.alt-hd { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.alt-hd img { width: 22px; height: 22px; border-radius: 50%; }
+.alt-hd .sym { font-weight: 650; font-size: 16px; }
+.alt-hd .nm { color: var(--faint); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.alt-score { margin-left: auto; font-weight: 700; font-variant-numeric: tabular-nums; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line)); color: var(--accent); border-radius: 7px; padding: 2px 8px; }
+.alt-cats, .alt-flags { display: flex; flex-wrap: wrap; gap: 5px; }
+.tag.warn { color: var(--warn); border-color: color-mix(in srgb, var(--warn) 45%, var(--line)); }
+.alt-nums { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--dim); font-variant-numeric: tabular-nums; }
+.alt-nums b { color: var(--text); font-weight: 600; }
+.alt-checks { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; }
+.alt-checks li { display: flex; gap: 6px; font-size: 12.5px; min-width: 0; }
+.alt-checks li b { display: block; font-weight: 600; color: var(--text); }
+.alt-checks li small { display: block; color: var(--faint); font-size: 11.5px; overflow-wrap: anywhere; }
+.alt-checks .mk { flex: none; width: 18px; height: 18px; border-radius: 50%; display: grid; place-items: center; font-size: 11px; font-weight: 700; border: 1px solid var(--line); }
+.alt-checks .ok .mk { color: var(--up); border-color: color-mix(in srgb, var(--up) 50%, var(--line)); }
+.alt-checks .no .mk { color: var(--down); border-color: color-mix(in srgb, var(--down) 50%, var(--line)); }
+.alt-checks .unk .mk { color: var(--faint); }
+.alt-ai { border-left: 3px solid var(--accent); background: var(--panel-2); border-radius: 7px; padding: 9px 11px; font-size: 13px; }
+.alt-ai.v-strong { border-left-color: var(--up); } .alt-ai.v-avoid, .alt-ai.v-weak { border-left-color: var(--down); }
+.alt-ai-hd { display: flex; gap: 8px; align-items: center; margin-bottom: 4px; }
+.alt-ai p { margin: 0 0 6px; }
+.alt-ai dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; color: var(--dim); }
+.alt-ai dt { color: var(--text); font-weight: 600; }
+.alt-ai dd { margin: 0; }
+.alt-ai-src { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 12px; }
+.alt-news { margin: 0; padding-left: 16px; font-size: 12.5px; color: var(--dim); }
+.alt-news li { margin-bottom: 3px; }
+.alt-links { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; }
+.alt-where { margin: 0; font-size: 12px; }
+.alt-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.alt-mine { border-top: 1px solid var(--line); padding-top: 8px; font-size: 13px; }
+.alt-mine summary { cursor: pointer; font-weight: 600; }
+.alt-mine-n { color: var(--up); font-weight: 600; }
+.alt-mine-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; margin: 8px 0; color: var(--dim); }
+.alt-mine textarea { width: 100%; box-sizing: border-box; background: var(--bg); color: var(--text); border: 1px solid var(--line); border-radius: 7px; padding: 7px; font: inherit; font-size: 13px; }
+.alt-filter label { color: var(--dim); font-size: 13px; display: flex; gap: 5px; align-items: center; }
+.alt-plan ul li { margin-bottom: 4px; }
+@media (max-width: 560px) {
+  .alt-checks, .alt-mine-grid { grid-template-columns: 1fr; }
+}
+.alt-filter label input { min-width: 0; padding: 0; margin: 0; }

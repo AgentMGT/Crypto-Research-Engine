@@ -13,7 +13,7 @@ from html import escape
 from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 from markupsafe import Markup
 
-from . import ai_brief, bot, fetch_crypto, fetch_news, fetch_tao, fetch_venues, live, signals, tao_plan
+from . import ai_brief, altcoins, bot, fetch_crypto, fetch_news, fetch_tao, fetch_venues, live, signals, tao_plan
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "site"
@@ -157,7 +157,9 @@ def env():
 
 def build_crypto(e, ts):
     print("== crypto edition")
+    global _crypto_data
     data = fetch_crypto.fetch_all()
+    _crypto_data = data
     history = load_history("crypto")
     sig = signals.crypto_signals(data, history)
     v = venues()
@@ -226,6 +228,26 @@ def build_tao(e, ts):
     return sig
 
 
+_crypto_data = None
+
+
+def build_altcoins(e, ts, crypto_sig):
+    """ALTCOINS page. A failed scan keeps the last good one rather than an empty page."""
+    print("== altcoins")
+    alt = None
+    if crypto_sig:
+        try:
+            alt = altcoins.build(crypto_sig, _crypto_data)
+            alt["updated"] = ts
+            (DATA / "alt-latest.json").write_text(json.dumps(alt, default=str))
+        except Exception:
+            traceback.print_exc()
+    if alt is None and (DATA / "alt-latest.json").exists():
+        alt = json.loads((DATA / "alt-latest.json").read_text())
+    (OUT / "altcoins.html").write_text(e.get_template("altcoins.html").render(
+        edition="alt", updated=ts, alt=alt, errors=(alt or {}).get("errors") or []))
+
+
 def build_research(e, ts):
     """The coin research and paper trading pages are static; they load everything in the browser."""
     (OUT / "research.html").write_text(e.get_template("research.html").render(edition="research", updated=ts, errors=[]))
@@ -262,12 +284,13 @@ def main():
             # The bot must never stop the site from deploying.
             traceback.print_exc()
 
+    build_altcoins(e, ts, sigs.get("crypto"))
     build_research(e, ts)
-    for name in ("style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js", "bot.js", "wallets.js"):
+    for name in ("altcoins.js", "style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js", "bot.js", "wallets.js"):
         src = ROOT / "static" / name
         if src.exists():
             shutil.copy(src, OUT / name)
-    for name in ("crypto-latest.json", "tao-latest.json"):
+    for name in ("crypto-latest.json", "tao-latest.json", "alt-latest.json"):
         src = DATA / name
         if src.exists():
             shutil.copy(src, OUT / name)

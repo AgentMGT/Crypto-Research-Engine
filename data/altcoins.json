@@ -1,0 +1,43 @@
+{
+  "_note": "Settings for the ALTCOINS scanner (engine/altcoins.py). Edit and push to change the search; the page follows on the next refresh.",
+  "market_pages": [2, 3, 4],
+  "categories": {
+    "meme-token": "Meme",
+    "depin": "DePIN",
+    "artificial-intelligence": "AI",
+    "real-world-assets-rwa": "RWA"
+  },
+  "mcap_min_usd": 1000000,
+  "mcap_max_usd": 300000000,
+  "min_volume_usd": 50000,
+  "small_cap_usd": 100000000,
+  "low_liquidity_usd": 5000000,
+  "thin_volume_usd": 150000,
+  "live_tvl_usd": 250000,
+  "scarce_float_pct": 70,
+  "dex_max_liquidity_usd": 2000000,
+  "detail_utility": 40,
+  "detail_meme": 12,
+  "detail_per_run": 20,
+  "detail_cache_hours": 24,
+  "sleep_seconds": 3,
+  "show_utility": 30,
+  "show_meme": 10,
+  "ai_due_diligence": false,
+  "ai_model": "claude-opus-5-5",
+  "ai_top": 8,
+  "ai_per_run": 4,
+  "ai_cache_hours": 72,
+  "plan": [
+    "Treat every pick as a lottery ticket with research behind it: size so a total loss doesn't matter.",
+    "Put at most 1% of your portfolio into one altcoin, and at most 0.5% into one meme coin.",
+    "Keep the whole altcoin basket under 10% of your portfolio, across at most 10 coins.",
+    "Only buy after you have ticked the checklist yourself: live product, real use, active channels, no big unlocks ahead.",
+    "Buy in two halves a few days apart; skip the second half if the story weakened.",
+    "At 2x, sell half to take your stake back; let the rest run free.",
+    "At 5x and 10x, sell another quarter of what's left each time.",
+    "Sell everything if the thesis breaks: product shut down, team gone, liquidity pulled, exploit, or delisting.",
+    "No stop-loss on price alone for utility coins (they swing 50% routinely); size small instead. For meme coins, exit if volume dries up for a week.",
+    "Log each buy in the Journal with why you bought it, and review the basket monthly."
+  ]
+}

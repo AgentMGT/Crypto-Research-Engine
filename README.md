@@ -88,6 +88,10 @@ Scores are mechanical screens, deliberately simple and readable in
 They are a reading list, not trade instructions, and nothing in this repository
 places an order.
 
+## ALTCOINS
+
+`altcoins.html` is an asymmetric-bet scanner (`engine/altcoins.py`, settings in `data/altcoins.json`). Each refresh it screens CoinGecko coins ranked about 250 to 1,000 plus the meme, DePIN, AI and real-world-asset categories, keeps small caps that still trade, and checks the best candidates against a checklist: small cap, low liquidity, real-world use, live products (DefiLlama TVL, GitHub commits), powers a platform, partnerships, staking, server or compute access, scarcity and community channels. Headlines come from CoinGape, Changelly and Google News; DEX-only pools come from the GeckoTerminal scan. Each card links to the coin's website, X, Telegram, Discord and GitHub, and has a "My checks" list saved in the browser. Coin details are cached in `data/alt/` for a day to stay inside CoinGecko's free rate limit. AI due diligence with web search is built but off (`ai_due_diligence` in the settings file) because it spends API credit.
+
 ## Practice trading and trade review
 
 `paper.html` has two paper accounts and a review tab. Everything is stored in the visitor's browser (localStorage); use Export/Import to keep or move an account.
