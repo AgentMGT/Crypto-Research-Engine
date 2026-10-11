@@ -69,6 +69,15 @@ jobs:
           done
           exit 1
 
+      - name: Save the pages as a PDF
+        # site/research-engine.pdf, linked from every page's footer. Optional: a failure
+        # here never blocks the deploy.
+        continue-on-error: true
+        run: |
+          pip install playwright pypdf
+          python -m playwright install --with-deps chromium
+          python tools/site_pdf.py site
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

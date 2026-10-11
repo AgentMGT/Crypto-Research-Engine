@@ -467,3 +467,14 @@ tr[data-chart] { cursor: pointer; }
 .alt-pool-nums b { color: var(--text); }
 .alt-pool-why { color: var(--up); margin-top: 4px; font-size: 12.5px; }
 .alt-pregrad .alt-card { border-color: color-mix(in srgb, var(--up) 40%, var(--line)); }
+
+/* Paper: the PDF (tools/site_pdf.py) and the browser's own Print. */
+@media print {
+  .top { position: static; backdrop-filter: none; }
+  #scan-now, .scan, .chart-modal, .filter input, .alt-filter, .alt-tabs, .pp-link, .alt-actions, .alt-mine { display: none !important; }
+  .tablewrap { overflow: visible !important; }
+  table { font-size: 11px; }
+  tr, .card, .idea, .alt-card { break-inside: avoid; }
+  h2 { break-after: avoid; }
+  a { color: inherit; }
+}
