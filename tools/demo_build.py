@@ -207,7 +207,7 @@ def fake_markets(params):
             continue
         price = 10 ** random.uniform(-4, 1)
         rows.append({"id": cid, "symbol": sym.lower(), "name": name, "image": "", "current_price": price, "market_cap": mc,
-                     "market_cap_rank": 260 + i, "total_volume": mc * random.uniform(0.002, 0.4),
+                     "market_cap_rank": 260 + i, "total_volume": mc * random.uniform(0.004, 0.12),
                      "fully_diluted_valuation": mc * random.choice([1.0, 1.2, 2.5, 6.0]),
                      "circulating_supply": 6e8, "max_supply": random.choice([None, 1e9, 7e8]),
                      "price_change_percentage_24h_in_currency": random.gauss(0, 6),

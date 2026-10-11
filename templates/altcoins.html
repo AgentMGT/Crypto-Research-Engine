@@ -5,11 +5,12 @@
 
 {% macro coin_card(c) %}
 {% set d = c.detail or {} %}
-<article class="alt-card" data-id="{{ c.id }}" data-q="{{ c.symbol }} {{ c.name }} {{ (d.categories or c.cats)|join(' ') }}" data-passed="{{ c.passed_pct }}">
+<article class="alt-card" data-id="{{ c.id }}" data-q="{{ c.symbol }} {{ c.name }} {{ (d.categories or c.cats)|join(' ') }}" data-passed="{{ c.passed_pct }}" data-quiet="{{ 1 if c.quiet_eco else 0 }}">
   <div class="alt-hd">
     {% if c.image %}<img src="{{ c.image }}" alt="" loading="lazy">{% endif %}
     <span class="sym">{{ c.symbol }}</span><span class="nm">{{ c.name }}</span>
     {% if c.trending %}<span class="tag hot">Trending</span>{% endif %}
+    {% if c.quiet_eco %}<span class="tag setup" title="Busy ecosystem, little trading">Quiet ecosystem</span>{% endif %}
     <span class="alt-score" title="Scanner score out of 100">{{ c.score }}</span>
   </div>
   <div class="alt-cats">{% for t in (d.categories or c.cats)[:4] %}<span class="tag">{{ t }}</span>{% endfor %}</div>
@@ -116,6 +117,7 @@
   <li><b>Live products:</b> money locked in its protocol on DefiLlama, recent GitHub commits, or a live product in its description.</li>
   <li><b>Powers a platform, staking, server access, partnerships:</b> read from the project's own description, so treat these as leads to verify.</li>
   <li><b>Scarcity:</b> a capped supply that is mostly in circulation, or a fully diluted value close to market cap (few unlocks ahead).</li>
+  <li><b>Active ecosystem, limited volume:</b> at least two signs of a busy ecosystem (money locked in its protocol, 10+ GitHub commits in 4 weeks, 5,000+ CoinGecko watchlists, live on several chains, or X, Telegram and Discord all listed) while under 3% of its market cap trades a day. These are cards tagged "Quiet ecosystem".</li>
   <li><b>Community:</b> whether it lists X, Telegram and Discord, and how many CoinGecko users watch it.</li>
   <li><b>News:</b> headlines that name it on CoinGape, Changelly and Google News.</li>
 </ul>
@@ -137,6 +139,7 @@
 
 <div class="filter alt-filter">
   <input id="alt-q" type="search" placeholder="Filter by name, symbol or category" aria-label="Filter altcoins">
+  <label><input type="checkbox" id="alt-quiet"> Active ecosystem, limited volume</label>
   <label><input type="checkbox" id="alt-strong"> Passes most checks</label>
   <label><input type="checkbox" id="alt-mine"> Only coins I've checked</label>
 </div>

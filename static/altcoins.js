@@ -58,6 +58,7 @@
   var q = document.getElementById("alt-q");
   var strong = document.getElementById("alt-strong");
   var mine = document.getElementById("alt-mine");
+  var quiet = document.getElementById("alt-quiet");
   function apply() {
     var term = (q && q.value || "").trim().toLowerCase();
     document.querySelectorAll(".alt-card, #tab-dex tbody tr, #alt-all tbody tr").forEach(function (el) {
@@ -65,10 +66,11 @@
       if (el.classList.contains("alt-card")) {
         if (strong && strong.checked) ok = ok && Number(el.getAttribute("data-passed")) >= 60;
         if (mine && mine.checked) ok = ok && count(el) > 0;
+        if (quiet && quiet.checked) ok = ok && el.getAttribute("data-quiet") === "1";
       }
       el.hidden = !ok;
     });
   }
   [q, strong, mine].forEach(function (el) { if (el) el.addEventListener("input", apply); });
-  [strong, mine].forEach(function (el) { if (el) el.addEventListener("change", apply); });
+  [strong, mine, quiet].forEach(function (el) { if (el) el.addEventListener("change", apply); });
 })();

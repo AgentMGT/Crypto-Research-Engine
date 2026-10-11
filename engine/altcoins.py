@@ -239,7 +239,8 @@ def pre_score(v, cfg):
     mom = clamp((v["rs30"] + 20) / 60)
     product = 1 if (v["tvl"] or 0) >= cfg["live_tvl_usd"] else 0
     util = 1 if any(c != "Meme" for c in v["cats"]) else 0
-    return 30 * small + 15 * unlock + 20 * mom + 20 * product + 10 * util + (5 if v["trending"] else 0)
+    quiet_eco = 10 if product and v["turnover"] <= cfg["quiet_turnover_pct"] else 0  # live product, little trading
+    return 30 * small + 15 * unlock + 20 * mom + 20 * product + 10 * util + quiet_eco + (5 if v["trending"] else 0)
 
 
 def checks(v, d, cfg):
@@ -292,6 +293,23 @@ def checks(v, d, cfg):
     if d.get("telegram_users"):
         comm_note += f"; {d['telegram_users']:,} Telegram members"
     add("community", "Active community channels", True if len(socials) >= 2 else (None if not d else False), comm_note)
+    # Busy ecosystem the market hasn't noticed yet: real activity, little trading.
+    eco = []
+    if tvl >= cfg["live_tvl_usd"]:
+        eco.append(f"{_m(tvl)} locked")
+    if (d.get("commits_4w") or 0) >= cfg["eco_commits_4w"]:
+        eco.append(f"{d['commits_4w']} commits in 4 weeks")
+    if (d.get("watchers") or 0) >= cfg["eco_watchers"]:
+        eco.append(f"{d['watchers']:,} watchlists")
+    if len(d.get("platforms") or []) >= 2 or len(lp.get("chains") or []) >= 2:
+        eco.append("live on several chains")
+    if len(socials) >= 3:
+        eco.append("X, Telegram and Discord all listed")
+    quiet = v["turnover"] <= cfg["quiet_turnover_pct"] and v["volume"] <= cfg["low_liquidity_usd"]
+    active = len(eco) >= cfg["eco_min_signals"]
+    vol_note = f"only {v['turnover']:.1f}% of market cap traded a day" if quiet else f"{v['turnover']:.1f}% of market cap traded a day"
+    add("quiet_eco", "Active ecosystem, limited volume", True if active and quiet else (False if (active and not quiet) or (d and not active and not eco) else None),
+        ("; ".join(eco) or "little ecosystem activity found") + "; " + vol_note)
     return out
 
 
@@ -328,7 +346,7 @@ def score(v, d, chk, news_n, meme):
     if meme:
         s = 40 * community + 30 * momentum + 15 * clamp(math.log10(max(v["volume"], 1) / 1e5) / 2) + 15 * small
     else:
-        util = sum(1 for k, w in (("use", 1), ("live", 2), ("platform", 1), ("staking", 1), ("servers", 1), ("partners", 1)) for _ in range(w) if ok.get(k)) / 7
+        util = sum(1 for k, w in (("use", 1), ("live", 2), ("platform", 1), ("staking", 1), ("servers", 1), ("partners", 1), ("quiet_eco", 2)) for _ in range(w) if ok.get(k)) / 9
         scarce = 1 if ok.get("exclusive") else (0 if ok.get("exclusive") is False else 0.5)
         s = 35 * util + 15 * small + 10 * scarce + 15 * community + 15 * momentum + 10 * attention
     return round(s)
@@ -484,6 +502,7 @@ def build(crypto_sig, crypto_data):
         if v["meme"]:  # utility questions don't apply to meme coins
             v["checks"] = [c for c in v["checks"] if c["key"] in ("small", "liquidity", "exclusive", "community")]
         v["flags"] = flags(v, d, cfg)
+        v["quiet_eco"] = any(c["key"] == "quiet_eco" and c["ok"] for c in v["checks"])
         v["passed"] = sum(1 for c in v["checks"] if c["ok"])
         v["passed_pct"] = round(100 * v["passed"] / len(v["checks"]))
         v["score"] = score(v, d, v["checks"], len(v["news"]), v["meme"]) if d else round(v["pre"] * 0.6)
@@ -507,7 +526,7 @@ def build(crypto_sig, crypto_data):
 
     slim = lambda v: {k: v.get(k) for k in ("id", "symbol", "name", "image", "rank", "price", "mcap", "fdv", "volume", "fdv_ratio",
                                            "float_pct", "turnover", "ch24", "ch7", "ch30", "from_ath", "cats", "tvl", "trending",
-                                           "meme", "score", "passed", "passed_pct", "checks", "flags", "news", "ai")} | {
+                                           "meme", "score", "passed", "passed_pct", "quiet_eco", "checks", "flags", "news", "ai")} | {
         "detail": {k: (v.get("detail") or {}).get(k) for k in ("homepage", "twitter", "telegram", "discord", "chat", "reddit", "github",
                                                               "explorer", "categories", "watchers", "telegram_users", "commits_4w",
                                                               "cex", "cex_count", "dex", "platforms", "genesis")} if v.get("detail") else None,
