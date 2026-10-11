@@ -1,4 +1,64 @@
 {
+ "aixbt": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Solana Ecosystem",
+   "Meme",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "AI Meme",
+   "AI Agents",
+   "Virtuals Protocol Ecosystem",
+   "Binance Alpha Spotlight",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [
+   "BVOX",
+   "BYDFi",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bittime",
+   "Bitunix"
+  ],
+  "cex_count": 43,
+  "chat": null,
+  "commits_4w": null,
+  "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (Base)",
+   "Raydium",
+   "Uniswap V2 (Base)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
+  "fetched": "2026-10-11T21:03:34.157875+00:00",
+  "genesis": null,
+  "github": "https://github.com/aixbt",
+  "homepage": "https://aixbt.tech",
+  "platforms": [
+   "base",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/aixbtportal",
+  "telegram_users": null,
+  "twitter": "https://x.com/aixbt_agent",
+  "twitter_followers": null,
+  "watchers": 38575
+ },
  "aleph": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -207,6 +267,95 @@
   "twitter_followers": null,
   "watchers": 1084
  },
+ "api3": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Oracle",
+   "Ethereum Ecosystem",
+   "DWF Labs Portfolio",
+   "Pantera Capital Portfolio",
+   "Governance"
+  ],
+  "cex": [
+   "BTCC",
+   "BVOX",
+   "Bilaxy",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitDelta",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitlo"
+  ],
+  "cex_count": 51,
+  "chat": "https://medium.com/api3",
+  "commits_4w": null,
+  "description": "Api3 delivers first-party oracles that pay you \u2014 connecting real-world data directly to smart contracts while reclaiming lost value through Oracle Extractable Value (OEV). Explore the Api3 Market and start earning.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/qnRrcfnm5W",
+  "explorer": "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
+  "fetched": "2026-10-11T21:03:40.579859+00:00",
+  "genesis": null,
+  "github": "https://github.com/api3dao/airnode",
+  "homepage": "https://api3.org/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/API3/",
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/API3DAO",
+  "telegram_users": null,
+  "twitter": "https://x.com/API3DAO",
+  "twitter_followers": null,
+  "watchers": 45634
+ },
+ "arcblock": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "AI Framework",
+   "Made in USA"
+  ],
+  "cex": [
+   "Bitkub",
+   "Coinbase Exchange",
+   "Gate"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The ArcBlock project was created to create the first Blockchain ecosystem in the world. Develop and develop decentralized applications (DApp) according to objectives. ArcBlock, one of the ICO projects emerging in early 2018. Just launched on 3/1/2018, ArcBlock has quickly attracted the attention of technology as well as investors. ArcBlock brings great technological advancements that will open the third generation of blockchain applications.\n\nArcblock work by bridging the gap between different blockchains and their respective ecosystems has not been easy. There are some solutions which attempt to solve this problem, but it is evident there is plenty of room for competition in this regard. Building an open chain access layer capable of spanning multiple new and existing blockchains is a very interesting business model.\n\nBuilding a new ecosystem meant to connect various chains will not be easy. As of right now, the team has completed its token sale, and the first public release candidate for the Open Chain Access Protocol will be released in Q3. Early 2019 will herald the introduction of more technical features and an Ethereum Blocklet prototype.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
+  "fetched": "2026-10-11T21:04:56.705367+00:00",
+  "genesis": null,
+  "github": "https://github.com/ArcBlock/ArcBlock-Token",
+  "homepage": "https://www.arcblock.io/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/arcblock/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/ArcBlock",
+  "telegram_users": null,
+  "twitter": "https://x.com/ArcBlock_io",
+  "twitter_followers": null,
+  "watchers": 11078
+ },
  "astar": {
   "categories": [
    "Smart Contract Platform",
@@ -409,6 +558,46 @@
   "twitter_followers": null,
   "watchers": 30425
  },
+ "bobo-coin-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem",
+   "4chan-Themed"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Ourbit",
+   "XT.COM"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Bobo Coin is a meme Solana token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
+  "fetched": "2026-10-11T21:02:21.230388+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://bobothebear.io",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/bobocouncil",
+  "twitter_followers": null,
+  "watchers": 420
+ },
  "brickken": {
   "categories": [
    "Tokenized Assets",
@@ -489,6 +678,67 @@
   "twitter_followers": null,
   "watchers": 366
  },
+ "carv": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Gaming (GameFi)",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Impossible Finance Launchpad",
+   "Ethereum Ecosystem",
+   "Animoca Brands Portfolio",
+   "Base Ecosystem",
+   "Binance Alpha Spotlight",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 21,
+  "chat": "https://medium.com/@Carv",
+  "commits_4w": null,
+  "description": "CARV is where Sovereign AI Beings live, learn, and evolve.\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\n\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV\u2019s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\n\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/carv",
+  "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+  "fetched": "2026-10-11T21:06:10.183426+00:00",
+  "genesis": null,
+  "github": "https://github.com/carv-protocol",
+  "homepage": "https://carv.io",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/carv_official",
+  "twitter_followers": null,
+  "watchers": 7487
+ },
  "celer-network": {
   "categories": [
    "Arbitrum Ecosystem",
@@ -543,6 +793,95 @@
   "twitter_followers": null,
   "watchers": 45986
  },
+ "cets-on-gold": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Cat-Themed",
+   "Flap Ecosystem"
+  ],
+  "cex": [
+   "LBank"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (BSC) "
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xB0c2aB5af4028461acE3f6e1C33a4eE1404E7777",
+  "fetched": "2026-10-11T21:02:24.459522+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": null,
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/https://t.me/cetsongold",
+  "telegram_users": null,
+  "twitter": "https://x.com/cetsongold",
+  "twitter_followers": null,
+  "watchers": 245
+ },
+ "chex-token": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "RWA Protocol",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitunix",
+   "Gate",
+   "Kraken",
+   "MEXC"
+  ],
+  "cex_count": 4,
+  "chat": "https://www.linkedin.com/company/chintai-eos/",
+  "commits_4w": null,
+  "description": "Chintai: The Licensed Tokenization Platform for Financial Institutions\nChintai is a fully licensed and regulated tokenization platform tailored specifically for financial institutions. Harnessing the power of the $CHEX token, Chintai provides an end-to-end, compliant white-label solution for seamlessly tokenizing a diverse range of real-world assets (RWAs) on its custom-built, permissioned Layer 1 blockchain. The $CHEX Token: The Backbone of Chintai's Ecosystem\n$CHEX is the native utility token of the Chintai network, driving liquidity incentives and resource management. Fully distributed and inherently deflationary, $CHEX features flywheel tokenomics, becoming increasingly scarce as the demand for Chintai's platform grows. The key attributes here are: fully distributed, flywheel tokenomics, scarcity &amp; real utility. The token is multi-chain, available on Ethereum, Solana, EOS, Binance Smart Chain, and, of course, the Chintai Network.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Orca",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+  "fetched": "2026-10-11T21:04:53.496976+00:00",
+  "genesis": null,
+  "github": "https://github.com/chintai-platform/chexchexchex",
+  "homepage": "https://chintai.io/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": "https://www.reddit.com/r/chintai/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/chex_token",
+  "telegram_users": null,
+  "twitter": "https://x.com/ChintaiNexus",
+  "twitter_followers": null,
+  "watchers": 19128
+ },
  "chutes": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -576,6 +915,45 @@
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
   "watchers": 2088
+ },
+ "circle-rstock-2": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Morph L2 Ecosystem",
+   "Remora Markets Tokenized rStocks",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Circle Internet Group is a fintech and digital dollar infrastructure company best known for issuing and operating the USDC stablecoin and EURC. Through Circle Mint, APIs, wallet infrastructure, and settlement tools, the company serves exchanges, financial institutions, enterprises, and developers that need regulated digital-dollar payments, treasury operations, cross-border settlement, and on-chain application access. Its economics are tied to stablecoin circulation, reserve income, transaction activity, and adoption of new infrastructure products. In 2025, Circle launched Circle Payments Network and advanced Arc, a Layer-1 blockchain initiative focused on stablecoin payments and settlement.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+  "fetched": "2026-10-11T21:06:16.600085+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://realityfinance.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "morph-l2"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RealityFi_xyz",
+  "twitter_followers": null,
+  "watchers": 6
  },
  "claudia-2": {
   "categories": [
@@ -738,6 +1116,66 @@
   "twitter": "https://x.com/clore_ai",
   "twitter_followers": null,
   "watchers": 23167
+ },
+ "cookie": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Marketing",
+   "Analytics",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Animoca Brands Portfolio",
+   "Base Ecosystem",
+   "AI Agents",
+   "Binance Alpha Spotlight",
+   "InfoFi",
+   "Governance",
+   "Base Native"
+  ],
+  "cex": [
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "BloFin"
+  ],
+  "cex_count": 33,
+  "chat": "https://docs.cookie.community/cookie-dao",
+  "commits_4w": null,
+  "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 3",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/XKhHrHtSHK",
+  "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+  "fetched": "2026-10-11T21:04:59.904554+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.cookie.fun/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/cookie_dao",
+  "telegram_users": null,
+  "twitter": "https://x.com/cookiedotfun",
+  "twitter_followers": null,
+  "watchers": 33345
  },
  "coq-inu": {
   "categories": [
@@ -1124,6 +1562,53 @@
   "twitter_followers": null,
   "watchers": 25339
  },
+ "ix-swap": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "DWF Labs Portfolio",
+   "Poolz Finance Launchpad",
+   "Coinbase Ventures Portfolio",
+   "RWA Protocol",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [
+   "MEXC"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "IXS is the licensed yield layer for agentic finance. It is onchain infrastructure for tokenized real-world assets that both people and autonomous agents can hold, transact, and earn yield on. Most RWA platforms tokenize assets for human allocators. IXS builds the compliant rails for the point where agents meet those assets directly.\n\nThe platform delivers tokenized exposure to U.S. Treasuries, private credit, and BTC yield, sourced from licensed institutional issuers, with target yields in the 4-12% APY range. Access runs through ERC-4626 vaults in two forms: permissioned vaults for qualified participants, and permissionless, open-access vaults with no KYC at the protocol layer. These are the rails an agent can plug into without a human in the loop. U.S. investors can access IXS through a chaperoning U.S. broker-dealer.\n\nIXS is licensed under the Digital Assets and Registered Exchanges (DARE) Act by the Securities Commission of The Bahamas. It is backed by institutional partners including Coinbase Ventures, UOB Venture Management, Spartan Group, and Abed Group.\n\n$IXS has a fixed, fully unlocked supply: all 180 million tokens are in circulation, with no remaining lockups or future unlocks. The protocol runs a buy-back-and-burn that retires $IXS over time, tying supply reduction to platform activity. $IXS is live on Ethereum, Polygon, and Base.\n\nVision: To become the default settlement layer for tokenized real-world assets, where regulated yield becomes natively accessible to b",
+  "dex": [
+   "Quickswap",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
+  "fetched": "2026-10-11T21:07:23.018151+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.ixs.finance/",
+  "platforms": [
+   "base",
+   "ethereum",
+   "polygon-pos"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/ixsfinance",
+  "telegram_users": null,
+  "twitter": "https://x.com/IxsFinance",
+  "twitter_followers": null,
+  "watchers": 11511
+ },
  "jean-phil": {
   "categories": [
    "Solana Ecosystem",
@@ -1253,6 +1738,59 @@
   "twitter_followers": null,
   "watchers": 7886
  },
+ "lisk": {
+  "categories": [
+   "Smart Contract Platform",
+   "Ethereum Ecosystem",
+   "Layer 2 (L2)",
+   "Base Ecosystem",
+   "Optimism Superchain Ecosystem",
+   "Outlier Ventures Portfolio",
+   "Lisk Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "Bithumb",
+   "Bitrue",
+   "Bitvavo",
+   "CoinUp.io",
+   "Coincheck",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "HTX"
+  ],
+  "cex_count": 24,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Base and Ethereum, with Base as its primary Layer 2 network. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
+  "dex": [
+   "Aerodrome Slipstream 2",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+  "fetched": "2026-10-11T21:03:37.380910+00:00",
+  "genesis": null,
+  "github": "https://github.com/LiskHQ/lisk-sdk",
+  "homepage": "https://lisk.com",
+  "platforms": [
+   "base",
+   "ethereum",
+   "lisk"
+  ],
+  "reddit": "https://www.reddit.com/r/Lisk",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Lisk",
+  "twitter_followers": null,
+  "watchers": 30225
+ },
  "lofi-2": {
   "categories": [
    "Meme",
@@ -1296,6 +1834,46 @@
   "twitter_followers": null,
   "watchers": 7564
  },
+ "mamo": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "AI Agents",
+   "Virtuals Protocol Ecosystem",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "LBank"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Mamo turns what used to be complex into easy, human-first routines.\n\nIt works quietly in the background, finding smart opportunities for your money while you focus on what matters in your life. Think of Mamo as your knowledgeable friend who understands how to help your money grow and explain everything in plain language.\n\nBehind the scenes, Mamo applies proven strategies and real-time data to optimize your portfolio, reinvest earnings when conditions are right, and adapt to market shifts \u2014 all with your approval and full transparency.\n\nNo noise. No confusion. Just calm, steady growth.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V2 (Base)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
+  "fetched": "2026-10-11T21:05:03.442852+00:00",
+  "genesis": null,
+  "github": "https://github.com/moonwell-fi/mamo-contracts",
+  "homepage": "https://mamo.bot",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/MamoAIbot",
+  "telegram_users": null,
+  "twitter": "https://x.com/mamo",
+  "twitter_followers": null,
+  "watchers": 3768
+ },
  "mansory-token": {
   "categories": [
    "Retail",
@@ -1336,6 +1914,57 @@
   "twitter_followers": null,
   "watchers": 419
  },
+ "marlin": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Smart Contract Platform",
+   "Decentralized Finance (DeFi)",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Zero Knowledge (ZK)",
+   "DWF Labs Portfolio",
+   "Coinbase Ventures Portfolio",
+   "Pantera Capital Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "BitDelta",
+   "Bitvavo",
+   "Coinbase Exchange",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "LBank",
+   "MEXC",
+   "WEEX"
+  ],
+  "cex_count": 9,
+  "chat": "https://blog.marlin.org/",
+  "commits_4w": null,
+  "description": "High-performance network infrastructure for modern decentralized networks\n\n",
+  "dex": [
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/pdQZyyy",
+  "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
+  "fetched": "2026-10-11T21:03:43.800957+00:00",
+  "genesis": null,
+  "github": "https://github.com/marlinprotocol/OpenWeaver",
+  "homepage": "https://www.marlin.org/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/marlinprotocol/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/marlinprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/marlinprotocol",
+  "twitter_followers": null,
+  "watchers": 31920
+ },
  "minotaur-2": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1367,6 +1996,47 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 75
+ },
+ "natix-network": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Internet of Things (IOT)",
+   "Solana Ecosystem",
+   "DePIN",
+   "Robotics",
+   "CoinList Launchpad"
+  ],
+  "cex": [
+   "DigiFinex",
+   "Gate",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 4,
+  "chat": "https://www.youtube.com/@NATIXNetwork",
+  "commits_4w": null,
+  "description": "NATIX Network is a decentralized multi-camera data network that crowdsources real-world driving footage to power Physical AI, including autonomous driving and robotics. Built on Solana and operating across three continents, the network combines token incentives, computer vision, and proprietary edge infrastructure to collect, anonymize, and validate multi-camera street-level data at a scale and geographic diversity that traditional centralized fleets cannot match. Its flagship hardware product, VX360, taps into Tesla vehicles' built-in multi-camera systems to capture surrounding footage, which contributors can earn $NATIX tokens for. The data supports use cases ranging from world model training and end-to-end autonomous driving development to HD mapping and infrastructure monitoring.",
+  "dex": [
+   "Meteora DAMM V2",
+   "Orca"
+  ],
+  "discord": "https://discord.com/invite/natix-network-811964821000028160",
+  "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
+  "fetched": "2026-10-11T21:04:47.073637+00:00",
+  "genesis": null,
+  "github": "https://github.com/natixnetwork",
+  "homepage": "https://www.natix.network/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/NATIXNetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/NATIXNetwork",
+  "twitter_followers": null,
+  "watchers": 7937
  },
  "nextplace": {
   "categories": [
@@ -1431,6 +2101,53 @@
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
   "watchers": 675
+ },
+ "notcoin": {
+  "categories": [
+   "Gaming (GameFi)",
+   "Binance Launchpool",
+   "Meme",
+   "Play To Earn",
+   "TON Ecosystem",
+   "TON Meme",
+   "Tap to Earn"
+  ],
+  "cex": [
+   "Aivora Exchange",
+   "Azbit",
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitget",
+   "Bitlo",
+   "Bitrue"
+  ],
+  "cex_count": 51,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Notcoin ($NOT) is as a community-driven token aimed at onboarding users into the Web3 ecosystem through a tap-to-earn game.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://tonscan.org/address/EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+  "fetched": "2026-10-11T21:02:27.665842+00:00",
+  "genesis": null,
+  "github": "https://github.com/OpenBuilders",
+  "homepage": "https://t.me/notcoin_bot",
+  "platforms": [
+   "the-open-network"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/notcoin",
+  "telegram_users": null,
+  "twitter": "https://x.com/thenotcoin",
+  "twitter_followers": null,
+  "watchers": 117622
  },
  "nuance-2": {
   "categories": [
@@ -1588,6 +2305,69 @@
   "twitter_followers": null,
   "watchers": 63274
  },
+ "peaq-2": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Layer 1 (L1)",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "Outlier Ventures Portfolio",
+   "Binance Alpha Spotlight",
+   "Peaq Ecosystem",
+   "Robotics",
+   "x402 Ecosystem",
+   "CoinList Launchpad"
+  ],
+  "cex": [
+   "Bit2Me",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitvavo",
+   "CoinW",
+   "Crypto.com Exchange",
+   "Gate",
+   "KCEX",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 16,
+  "chat": "https://www.peaq.xyz/community/blog",
+  "commits_4w": null,
+  "description": "peaq is the economic system enabling robots and machines to do business on every chain. It provides a neutral, omnichain coordination layer that gives machines, including robots, vehicles, devices, sensors, and AI agents, everything they need to become autonomous economic actors. This includes verifiable identities, wallets, portable reputation, tokenization, and cross-chain settlement guarantees. \n\npeaq is structured in three layers. The Machine Layer (peaqOS) onboards any machine as a composable economic actor. The Trust Layer provides coordination, validation, and economically secured reputation scores backed by staked capital. The Service Layer connects machines to external service markets through a permissionless adapter framework for discovery, scoring, and orchestration. \n\npeaq is chain-neutral by design, operating as the shared trust and coordination layer for machines across existing blockchains. A machine onboarded through peaq exists across all supported chains simultaneously, and any application on any chain can discover, verify, and transact with it. peaq enables Robot Money, any medium of exchange, measure of value, or means of payment that robots and machines use across any chain.",
+  "dex": [
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://peaq.subscan.io/system_token_detail?unique_id=PEAQ",
+  "fetched": "2026-10-11T21:06:06.978077+00:00",
+  "genesis": null,
+  "github": "https://github.com/peaqnetwork",
+  "homepage": "https://www.peaq.xyz/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "peaq"
+  ],
+  "reddit": null,
+  "sentiment_up": 87.5,
+  "stars": null,
+  "telegram": "https://t.me/peaqcommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/peaq",
+  "twitter_followers": null,
+  "watchers": 25383
+ },
  "pinlink": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1659,6 +2439,59 @@
   "twitter": "https://x.com/polariscloudai",
   "twitter_followers": null,
   "watchers": 119
+ },
+ "renzo": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Binance Launchpool",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Restaking",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "OKX Ventures Portfolio"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bittime",
+   "Bitunix"
+  ],
+  "cex_count": 39,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Orca",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/renzoprotocol",
+  "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+  "fetched": "2026-10-11T21:04:50.302608+00:00",
+  "genesis": null,
+  "github": "https://github.com/Renzo-Protocol",
+  "homepage": "https://www.renzofinance.com/",
+  "platforms": [
+   "base",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RenzoAI",
+  "twitter_followers": null,
+  "watchers": 12547
  },
  "rivalz-network": {
   "categories": [
@@ -1745,6 +2578,53 @@
   "twitter": "https://x.com/trize_io",
   "twitter_followers": null,
   "watchers": 7331
+ },
+ "sanctum-2": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Liquid Staking Governance Tokens",
+   "LSDFi",
+   "Liquid Staking",
+   "Governance"
+  ],
+  "cex": [
+   "Backpack Exchange ",
+   "Bitrue",
+   "Bybit",
+   "Coinone",
+   "DigiFinex",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "Mudrex",
+   "Ourbit"
+  ],
+  "cex_count": 10,
+  "chat": "https://www.twitch.tv/sanctumso",
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora",
+   "Orca"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+  "fetched": "2026-10-11T21:06:19.781258+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.sanctum.so/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/+YbdmERNxJxNiMjU0",
+  "telegram_users": null,
+  "twitter": "https://x.com/sanctumso",
+  "twitter_followers": null,
+  "watchers": 5626
  },
  "sportstensor": {
   "categories": [
@@ -1924,6 +2804,45 @@
   "twitter_followers": null,
   "watchers": 3167
  },
+ "the-innovation-game": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Smart Contract Platform",
+   "Base Ecosystem",
+   "Decentralized Science (DeSci)",
+   "Proof of Work (PoW)",
+   "Base Native"
+  ],
+  "cex": [
+   "LBank",
+   "Ourbit"
+  ],
+  "cex_count": 2,
+  "chat": "https://medium.com/@tigfoundation",
+  "commits_4w": null,
+  "description": "The Innovation Game (TIG) is the network for algorithmic breakthroughs. It redefines the frontier of computational research by transforming proof-of-work into a global engine for open, autonomous innovation.\n\nTIG creates an open, collaborative ecosystem for algorithmic research by leveraging a decentralized network of highly skilled contributors. This approach seeks to overcome limitations of centralized research models and accelerate progress in complex scientific and technological domains.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/tigfoundation",
+  "explorer": "https://basescan.org/token/0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B",
+  "fetched": "2026-10-11T21:06:13.409065+00:00",
+  "genesis": null,
+  "github": "https://github.com/tig-foundation",
+  "homepage": "https://www.tig.foundation/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/tigfoundation",
+  "twitter_followers": null,
+  "watchers": 3766
+ },
  "uranium": {
   "categories": [
    "Tokenized Assets",
@@ -2018,6 +2937,41 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 23511
+ },
+ "utya": {
+  "categories": [
+   "Meme",
+   "TON Ecosystem",
+   "TON Meme",
+   "Sticker-Themed Coins"
+  ],
+  "cex": [
+   "DeDust",
+   "LBank",
+   "STON.fi"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "UTYA Token$UTYA is more than just a memecoin \u2013 it\u2019s a community-driven movement dedicated to spreading joy and positivity through the iconic Telegram Duck Emoji. $UTYA is seen by millions of people every year on Telegram, and so we thought it deserved a community to call its own on TON.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
+  "fetched": "2026-10-11T21:02:30.896065+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://tonutya.com/",
+  "platforms": [
+   "the-open-network"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/UtyaDuck",
+  "telegram_users": null,
+  "twitter": "https://x.com/TonUtyacoin",
+  "twitter_followers": null,
+  "watchers": 1833
  },
  "vidaio": {
   "categories": [
