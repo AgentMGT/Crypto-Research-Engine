@@ -408,7 +408,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xaeeaa594e7dc112d67b8547fe9767a02c15b5597",
-  "fetched": "2026-10-11T19:54:53.069381+00:00",
+  "fetched": "2026-10-12T22:47:22.944122+00:00",
   "genesis": null,
   "github": "https://github.com/AcronymFoundation",
   "homepage": "https://www.anvil.xyz",
@@ -416,13 +416,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/anvil_xyz",
   "twitter_followers": null,
-  "watchers": 1084
+  "watchers": 1090
  },
  "api3": {
   "categories": [
@@ -642,7 +642,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-11T19:44:04.765752+00:00",
+  "fetched": "2026-10-12T22:48:32.636502+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -658,7 +658,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23700
+  "watchers": 23696
  },
  "ava-ai": {
   "categories": [
@@ -735,7 +735,7 @@
    "DigiFinex",
    "Gate"
   ],
-  "cex_count": 20,
+  "cex_count": 21,
   "chat": null,
   "commits_4w": null,
   "description": "BENQI is a decentralized non-custodial liquidity market protocol, built on Avalanche. The protocol enables users to effortlessly lend, borrow, and earn interest with their digital assets. Depositors providing liquidity to the protocol may earn passive income, while borrowers are able to borrow in an over-collateralized manner.",
@@ -745,7 +745,7 @@
   ],
   "discord": null,
   "explorer": "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
-  "fetched": "2026-10-11T19:25:14.510274+00:00",
+  "fetched": "2026-10-12T22:49:45.538750+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.benqi.fi/",
@@ -753,7 +753,7 @@
    "avalanche"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/BenqiFinance",
   "telegram_users": null,
@@ -1133,9 +1133,10 @@
    "Flap Ecosystem"
   ],
   "cex": [
-   "LBank"
+   "LBank",
+   "Matcha (BSC)"
   ],
-  "cex_count": 1,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -1146,7 +1147,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xB0c2aB5af4028461acE3f6e1C33a4eE1404E7777",
-  "fetched": "2026-10-11T21:02:24.459522+00:00",
+  "fetched": "2026-10-12T22:47:13.312058+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -1374,8 +1375,10 @@
    "AI Agent Launchpad",
    "Pump Fund Portfolio"
   ],
-  "cex": [],
-  "cex_count": 0,
+  "cex": [
+   "Manifest"
+  ],
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "The official token from the clawpump.tech agentic gateway to Solana. Clawpump is a gasless. ClawPump enables AI agents to launch tokens on pump.fun without paying gas fees, solving the coldstart problems for agents entering Solana. The platform sponsors token creation, collects trading fees hourly, and distributes 65% of all revenue directly to agents.  Clawpump enables launches via SOL or USDC (x402 protocol), multiDEX arbitrage, and social skills for agents.",
@@ -1386,7 +1389,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
-  "fetched": "2026-10-11T19:56:02.903729+00:00",
+  "fetched": "2026-10-12T22:51:08.168637+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.clawpump.tech",
@@ -1394,13 +1397,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/clawpumptech",
   "twitter_followers": null,
-  "watchers": 206
+  "watchers": 222
  },
  "clearpool": {
   "categories": [
@@ -1438,7 +1441,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
-  "fetched": "2026-10-11T19:27:30.923762+00:00",
+  "fetched": "2026-10-12T22:50:52.046206+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clearpool.finance/",
@@ -1447,13 +1450,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/clearpoolofficial",
   "telegram_users": null,
   "twitter": "https://x.com/ClearpoolFin",
   "twitter_followers": null,
-  "watchers": 39167
+  "watchers": 39165
  },
  "clore-ai": {
   "categories": [
@@ -1511,7 +1514,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-11T21:47:39.520654+00:00",
+  "fetched": "2026-10-12T22:48:29.430687+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1520,13 +1523,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/codecflow",
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1684
+  "watchers": 1688
  },
  "constitutiondao": {
   "categories": [
@@ -1880,7 +1883,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-10-11T19:43:58.231628+00:00",
+  "fetched": "2026-10-12T22:47:19.740952+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dji6930.com/",
@@ -1888,7 +1891,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/DOWGEPortal",
   "telegram_users": null,
@@ -2024,7 +2027,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x04c46e830bb56ce22735d5d8fc9cb90309317d0f",
-  "fetched": "2026-10-11T19:26:17.793776+00:00",
+  "fetched": "2026-10-12T22:50:58.518087+00:00",
   "genesis": null,
   "github": "https://github.com/EkuboProtocol",
   "homepage": "https://app.ekubo.org/",
@@ -2033,13 +2036,13 @@
    "starknet"
   ],
   "reddit": null,
-  "sentiment_up": 40.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/Ekubo_Protocol",
   "telegram_users": null,
   "twitter": "https://x.com/EkuboProtocol",
   "twitter_followers": null,
-  "watchers": 1866
+  "watchers": 1875
  },
  "elizaos": {
   "categories": [
@@ -2259,7 +2262,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x5DD1A7A369e8273371d2DBf9d83356057088082c",
-  "fetched": "2026-10-11T19:54:43.275574+00:00",
+  "fetched": "2026-10-12T22:49:35.901605+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flyingtulip.com/",
@@ -2276,7 +2279,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/flyingtulip_",
   "twitter_followers": null,
-  "watchers": 1394
+  "watchers": 1401
  },
  "forta": {
   "categories": [
@@ -2671,6 +2674,46 @@
   "twitter_followers": null,
   "watchers": 83
  },
+ "imo": {
+  "categories": [
+   "Tokenized Real Estate",
+   "Tokenized Assets",
+   "Solana Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Balancer V2 (Base)",
+   "Bitunix",
+   "MEXC"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "IMO is a simple, modern and intuitive way to invest in real estate.\n\nThe project aims to enable individuals to benefit from passive monthly income, regardless of the amount invested and without having to provide their own funds. The democratization and expansion of IMO's crypto-money is contributing to the growth of the company, the assets it owns and thus the income it pays out.",
+  "dex": [
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x5A7a2bf9fFae199f088B25837DcD7E115CF8E1bb",
+  "fetched": "2026-10-12T22:51:04.914597+00:00",
+  "genesis": null,
+  "github": "https://github.com/IMOInvest",
+  "homepage": "https://imo-invest.com/",
+  "platforms": [
+   "base",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/IMO_Invest",
+  "telegram_users": null,
+  "twitter": "https://x.com/IMO__Invest",
+  "twitter_followers": null,
+  "watchers": 2938
+ },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -2799,7 +2842,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
-  "fetched": "2026-10-11T19:53:36.667177+00:00",
+  "fetched": "2026-10-12T22:47:16.528456+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://jeanphilmadame.com/",
@@ -2813,7 +2856,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/JeanPhilMadame",
   "twitter_followers": null,
-  "watchers": 120
+  "watchers": 129
  },
  "joe": {
   "categories": [
@@ -2999,6 +3042,51 @@
   "twitter": "https://x.com/komabnb",
   "twitter_followers": null,
   "watchers": 7886
+ },
+ "kryll": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Decentralized Finance (DeFi)",
+   "Analytics",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Base Ecosystem"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Gate",
+   "KuCoin",
+   "LATOKEN"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "At its core, Kryll features innovative technology that unifies data access and thought flow, skillfully combining Web3 data with AI capabilities. This enables Kryll\u00b3 to offer comprehensive coverage of crypto markets and projects, along with advanced analysis and decision-making tools, simplifying the complex ecosystem.\n\nThe KRL token is essential to the Kryll\u00b3 ecosystem, unlocking exclusive features, serving as a payment method, and enabling participation in governance decisions.\n\nKey tools include SmartFolio, an AI-powered portfolio manager that tracks and analyzes digital assets across multiple blockchains, providing real-time insights for optimized investments.\n\nX-Ray is a market analysis tool using AI to evaluate tokens, offering details on smart contracts, on-chain data, social activity, and financial indicators.\n\nGem Detector identifies emerging high-potential tokens through multi-chain surveillance and deep learning algorithms. Harpoon monitors top traders' strategies and transactions, offering insights into smart money movements.\n\nNews Hub centralizes dozens of information sources into a unified, queryable platform for news and updates, enhancing decision-making processes.\n\nKryll\u00b3 also offers its partners a revolutionary tool: Agent K. K is a conversational agent integrated into Web3 platforms and media sites, enabling natural language interaction with content. It makes complex concepts accessible to a wider audience, which is particularly beneficial for beginners.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Optimism)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
+  "fetched": "2026-10-12T22:50:55.276373+00:00",
+  "genesis": null,
+  "github": "https://github.com/Cryptense/KryllToken",
+  "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "optimistic-ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/Kryll_io",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/kryll_io",
+  "telegram_users": null,
+  "twitter": "https://x.com/kryll_io",
+  "twitter_followers": null,
+  "watchers": 5365
  },
  "lava-network": {
   "categories": [
@@ -3308,7 +3396,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
-  "fetched": "2026-10-11T19:25:11.241277+00:00",
+  "fetched": "2026-10-12T22:49:42.343632+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.mansory.com/",
@@ -4269,6 +4357,39 @@
   "twitter_followers": null,
   "watchers": 56596
  },
+ "pharaoh-liquid-staking-token": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Avalanche Ecosystem"
+  ],
+  "cex": [
+   "Pharaoh DLMM",
+   "Pharaoh Exchange",
+   "Pharaoh Exchange Legacy"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Pharaoh is a concentrated liquidity layer and exchange built on the Avalanche C-Chain, powered by the latest metaDEX x(3,3) methodology\u2014a more fluid and accessible version of the popular ve(3,3) model. Pharaoh is built on Ramses V3 Core, which is based on Uniswap V3, with several enhancements. These improvements include dynamic system and protocol fee mechanisms and x(3,3). Ramses V3 Core also introduces a new accounting system to track how much active liquidity each concentrated liquidity position provides.",
+  "dex": [],
+  "discord": "http://discord.gg/pharaoh",
+  "explorer": "https://snowscan.xyz/address/0x26e9dbe75aed331E41272BEcE932Ff1B48926Ca9",
+  "fetched": "2026-10-12T22:51:01.707317+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://phar.gg",
+  "platforms": [
+   "avalanche"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/PharaohExchange",
+  "twitter_followers": null,
+  "watchers": 171
+ },
  "pinlink": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4557,7 +4678,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 57,
+  "cex_count": 60,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4571,7 +4692,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-11T21:46:32.982889+00:00",
+  "fetched": "2026-10-12T22:49:48.789654+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4582,13 +4703,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 78.13,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90544
+  "watchers": 90657
  },
  "resistance-dog": {
   "categories": [
@@ -4692,7 +4813,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-11T19:25:01.482268+00:00",
+  "fetched": "2026-10-12T22:49:39.089024+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -4703,13 +4824,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/Rizenet_OfficialCommunity",
   "telegram_users": null,
   "twitter": "https://x.com/trize_io",
   "twitter_followers": null,
-  "watchers": 7331
+  "watchers": 7333
  },
  "rocket-pool": {
   "categories": [
@@ -5174,11 +5295,11 @@
    "BloFin",
    "Crypto.com Exchange",
    "DigiFinex",
+   "Digital X",
    "Gate",
-   "GroveX",
-   "Hyperliquid"
+   "GroveX"
   ],
-  "cex_count": 27,
+  "cex_count": 28,
   "chat": null,
   "commits_4w": null,
   "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
@@ -5190,7 +5311,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-10-11T19:28:46.950983+00:00",
+  "fetched": "2026-10-12T22:48:26.228971+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -5201,13 +5322,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
-  "watchers": 28861
+  "watchers": 28860
  },
  "test-3": {
   "categories": [
@@ -5374,6 +5495,41 @@
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
   "watchers": 19326
+ },
+ "tsuki": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Cat-Themed"
+  ],
+  "cex": [
+   "KCEX"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Solana native cat coin $TSUKI [Japanese Meaning: Moon \u6708] guides the way to the moon. It mirrors the moon's ethereal beauty and embodies profound growth, rooted deeply in Japanese culture.",
+  "dex": [
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/463SK47VkB7uE7XenTHKiVcMtxRsfNE2X4Q9wByaURVA",
+  "fetched": "2026-10-12T22:47:10.102394+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "http://tsukionsol.xyz",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/tsukionsol",
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 726
  },
  "uranium": {
   "categories": [
@@ -5587,7 +5743,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-11T19:23:44.845360+00:00",
+  "fetched": "2026-10-12T22:46:06.593501+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5601,7 +5757,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 149
+  "watchers": 153
  },
  "yee-token": {
   "categories": [
