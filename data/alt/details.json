@@ -697,6 +697,97 @@
   "twitter_followers": null,
   "watchers": 66
  },
+ "blue-chip-4": {
+  "categories": [
+   "Meme",
+   "Base Ecosystem",
+   "Base Meme"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Matcha (Base)",
+   "Ourbit",
+   "o1 Launchpad"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Bluechip on Base paired with tokenized NVDA stock",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
+  "fetched": "2026-10-12T01:23:11.494786+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://basebluechip.com/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 83.33,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/o1bluechip",
+  "twitter_followers": null,
+  "watchers": 329
+ },
+ "bluzelle": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Decentralized Science (DeSci)",
+   "Osmosis Ecosystem",
+   "Energi Ecosystem",
+   "GMCI DePIN Index",
+   "GMCI Index"
+  ],
+  "cex": [
+   "BingX",
+   "Coinbase Exchange",
+   "Gate",
+   "GroveX",
+   "Kraken",
+   "KuCoin",
+   "LATOKEN"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "At Bluzelle, we see technology as a powerful tool to solve humanity's most pressing challenges. As creators of a robust decentralized blockchain ecosystem\u2014including the Bluzelle Chain, BLZ token, and NFT marketplace Capella\u2014we are uniquely positioned to revolutionize how science is conducted, funded, and shared. Our DeSci (Decentralized Science) platform is designed to empower all scientific fields, fostering innovation across disciplines. ",
+  "dex": [
+   "ApeSwap",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
+  "fetched": "2026-10-12T01:23:14.779698+00:00",
+  "genesis": "2018-01-15",
+  "github": "https://github.com/njmurarka/bluzelle",
+  "homepage": "https://bluzelle.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "energi",
+   "ethereum",
+   "osmosis"
+  ],
+  "reddit": "https://www.reddit.com/r/Bluzelle/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/bluzelle",
+  "telegram_users": null,
+  "twitter": "https://x.com/BluzelleHQ",
+  "twitter_followers": null,
+  "watchers": 23885
+ },
  "bobo-coin-2": {
   "categories": [
    "Solana Ecosystem",
@@ -1518,6 +1609,62 @@
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
   "watchers": 3492
+ },
+ "eigenlayer": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Data Availability",
+   "Restaking",
+   "Polychain Capital Portfolio",
+   "AI Framework",
+   "Made in USA",
+   "x402 Ecosystem"
+  ],
+  "cex": [
+   "Aivora Exchange",
+   "BTCC",
+   "BTSE",
+   "BVOX",
+   "Balancer V3 (Ethereum)",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "Binance US",
+   "BingX",
+   "Bit2Me",
+   "BitKan"
+  ],
+  "cex_count": 66,
+  "chat": "https://www.youtube.com/@EigenLayer",
+  "commits_4w": null,
+  "description": "Renzo is a restaking protocol that abstracts and manages AVS strategies for Liquid Restaking Tokens (LRTs), making Ethereum and Solana restaking ezpz and accessible to everyone. The products $ezETH, $pzETH, and $ezSOL serve as interfaces to the EigenLayer, Symbiotic, and Jito Network ecosystems, respectively. Renzo's mission is to make restaking easy and accessible to everyone while abstracting the complexity away from the end user.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Curve (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/eigenlayer",
+  "explorer": "https://etherscan.io/token/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
+  "fetched": "2026-10-12T01:24:31.235119+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.eigencloud.xyz/",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/eigenlayer",
+  "twitter_followers": null,
+  "watchers": 29612
  },
  "ekubo-protocol": {
   "categories": [
@@ -3078,6 +3225,55 @@
   "twitter_followers": null,
   "watchers": 307
  },
+ "openeden": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "RWA Protocol"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Coinone"
+  ],
+  "cex_count": 21,
+  "chat": null,
+  "commits_4w": null,
+  "description": "OpenEden offers 24/7, on-chain access to tokenized US Treasury securities for Web3 CFOs, DAO treasury managers, and buy-side institutional investors seeking low-risk, highly liquid crypto cash management solutions.\n\nWe are the first tokenized real-world asset (RWA) issuer to receive a Moody's \"A-bf\" bond fund rating. Since launching in early 2023, OpenEden has already become the largest issuer of tokenied US Treasuries in Asia and Europe.\n\nAs part of our end-to-end tokenization stack, OpenEden is directly involved through its licensed investment management entity which manages its BVI-registered professional fund, which issues the $TBILL tokens and custodises the underlying assets with licensed third party custodians.  ",
+  "dex": [
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x235B6fe22B4642aDa16D311855c49Ce7DE260841",
+  "fetched": "2026-10-12T01:24:24.751921+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://openeden.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/openeden",
+  "telegram_users": null,
+  "twitter": "https://x.com/OpenEden_X",
+  "twitter_followers": null,
+  "watchers": 2221
+ },
  "opengradient": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3773,6 +3969,43 @@
   "twitter_followers": null,
   "watchers": 151667
  },
+ "spacex-reality-protocol": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V4 (Arbitrum)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
+  "fetched": "2026-10-12T01:23:18.025388+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
+  "platforms": [
+   "arbitrum-one"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 72
+ },
  "spdr-s-p-500-etf-ondo-tokenized-etf": {
   "categories": [
    "Tokenized Assets",
@@ -3854,6 +4087,44 @@
   "twitter": "https://x.com/sportstensor",
   "twitter_followers": null,
   "watchers": 434
+ },
+ "strategy-tokenized-bstocks": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "LBank"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xE87afb3076AeB0f9B14E368DE8145ae6a2826A14",
+  "fetched": "2026-10-12T01:24:21.498504+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 37
  },
  "surplus-intelligence": {
   "categories": [
@@ -4303,5 +4574,60 @@
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
   "watchers": 656
+ },
+ "zebec-network": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Real World Assets (RWA)",
+   "Payment Solutions",
+   "DePIN",
+   "Coinbase Ventures Portfolio",
+   "Alameda Research Portfolio",
+   "Circle Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "RWA Protocol",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitrue",
+   "BloFin",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "HTX",
+   "Hotcoin",
+   "Kraken"
+  ],
+  "cex_count": 18,
+  "chat": "https://medium.com/zebec-protocol",
+  "commits_4w": null,
+  "description": "Zebec's integrated products - real time payroll apps, on-chain payments infrastructure and networked DePIN - serve companies of all sizes, merchants and individuals and help transcend the boundaries of traditional banking and diminish the role of financial intermediaries. ",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": "https://discord.com/invite/fJM9cHuvvB",
+  "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+  "fetched": "2026-10-12T01:24:27.995715+00:00",
+  "genesis": null,
+  "github": "https://github.com/Zebec-protocol",
+  "homepage": "https://zebec.io/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/zebecprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/Zebec_HQ",
+  "twitter_followers": null,
+  "watchers": 21345
  }
 }
