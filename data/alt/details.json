@@ -114,6 +114,57 @@
   "twitter_followers": null,
   "watchers": 38575
  },
+ "aleo": {
+  "categories": [
+   "Infrastructure",
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Layer 1 (L1)",
+   "Zero Knowledge (ZK)",
+   "Andreessen Horowitz (a16z) Portfolio",
+   "Privacy Blockchain",
+   "Binance Alpha Spotlight",
+   "Made in USA"
+  ],
+  "cex": [
+   "BitKan",
+   "CEX.IO",
+   "CoinW",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "Hibt",
+   "Hotcoin",
+   "KCEX",
+   "Kraken",
+   "MEXC",
+   "Ourbit"
+  ],
+  "cex_count": 13,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Aleo was born from a desire to achieve the impossible - to build a user experience on the web that is both truly personal and truly private.\n\nAleo is the first platform to offer fully private applications.\n\nAleo achieves this by leveraging decentralized systems and zero-knowledge cryptography to protect user data on the web. At its core, Aleo offers users and application developers unbounded compute with absolute privacy.\n\nBy architecting Aleo as a blockchain that is private-by-default, open-source, and built for the web, we believe Aleo is uniquely positioned to address the shortcomings of blockchain adoption. With Aleo, users have access to a world of truly personalized web services without giving up control of their private data. \n\nAleo will reshape the role decentralized systems play in our society and introduce new experiences never before seen on the web.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": "https://discord.com/invite/aleo",
+  "explorer": "https://aleoscan.io/",
+  "fetched": "2026-10-12T03:21:49.593749+00:00",
+  "genesis": null,
+  "github": "https://github.com/AleoNet",
+  "homepage": "https://www.aleo.org/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 71.43,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AleoHQ",
+  "twitter_followers": null,
+  "watchers": 9278
+ },
  "aleph": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1494,6 +1545,47 @@
   "twitter_followers": null,
   "watchers": 52924
  },
+ "cortex-2": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "AI Agents",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://medium.com/cortex-protocol",
+  "commits_4w": null,
+  "description": "Cortex is the protocol for decentralized on-chain agents. In the future AI agents will be the primary way to interact with blockchains and make up the majority of crypto activity. This will happen in two stages, first human directed agents and then autonomous agents with their own objective functions.\n\nCortex is made up of two main parts: \n1. The Cortex Agent, our generalised trading agent: Allowing users to research coins, trade, and deploy to blockchains through a LLM interface\n2. Cortex Agent Platform: a platform that allows developers to permissionlessly deploy task-specific agents with on-chain capabilities.\n\nNow Cortex is building Hypercall, on-chain options built on top of Hyperliquid. \n",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Raydium (CLMM)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/cortexprotocol",
+  "explorer": "https://etherscan.io/address/0x000000000000012DeF132E61759048bE5b5C6033",
+  "fetched": "2026-10-12T03:21:46.412167+00:00",
+  "genesis": null,
+  "github": "https://github.com/cortexprotocol",
+  "homepage": "https://cortexprotocol.com/",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Cortex_Protocol",
+  "twitter_followers": null,
+  "watchers": 1432
+ },
  "cyberleek": {
   "categories": [
    "Solana Ecosystem",
@@ -1609,6 +1701,58 @@
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
   "watchers": 3492
+ },
+ "edu-coin": {
+  "categories": [
+   "Education",
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance Launchpad",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "BTCC",
+   "Binance",
+   "BitDelta",
+   "Bithumb",
+   "Bitlo",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "CoinTR",
+   "CoinW",
+   "Coinone"
+  ],
+  "cex_count": 30,
+  "chat": "https://opencampus-xyz.medium.com/",
+  "commits_4w": null,
+  "description": "Open Campus is a community-led protocol building the financial and credentialing rails for global education. We enable educators, learners, and institutions to issue verifiable credentials, access on-chain education finance (EduFi), and build consumer-facing education applications on a shared, open infrastructure.\n\nCore contributors to the Open Campus DAO include Animoca Brands, TinyTap, NewCampus, RiseIn, and HackQuest. Together, they are working with Open Campus to enhance the education system for teachers, learners, and institutions by using innovative blockchain protocols and funding initiatives.",
+  "dex": [
+   "Camelot V3",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
+  "fetched": "2026-10-12T03:22:55.982517+00:00",
+  "genesis": null,
+  "github": "https://github.com/opencampus-xyz/",
+  "homepage": "https://www.opencampus.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/opencampus_xyz",
+  "twitter_followers": null,
+  "watchers": 38060
  },
  "eigenlayer": {
   "categories": [
@@ -2756,6 +2900,55 @@
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
   "watchers": 31920
+ },
+ "memecoin-2": {
+  "categories": [
+   "NFT",
+   "Binance Launchpool",
+   "Meme",
+   "Ethereum Ecosystem",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "GMCI Meme Index",
+   "GMCI Index"
+  ],
+  "cex": [
+   "Azbit",
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitDelta",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue"
+  ],
+  "cex_count": 52,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/memeland",
+  "explorer": "https://etherscan.io/token/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74",
+  "fetched": "2026-10-12T03:21:43.263444+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.memecoin.org/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/memecoin",
+  "twitter_followers": null,
+  "watchers": 157864
  },
  "minotaur-2": {
   "categories": [
@@ -4272,6 +4465,43 @@
   "twitter_followers": null,
   "watchers": 3167
  },
+ "the-bitcoin-bull": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "KCEX"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Jason 'GoingParabolic' Williams (282K followers, self-described 'Core Lord') announced he bought 70% of a token's supply and asked his audience what he should do next: either a supply control thesis test in real time or a chaotic crowdsourced experiment on Crypto Twitter.\nJason is an accomplished executive, board member and investor with over 15 years demonstrated success leading companies through start-up, change, accelerated growth and successful exits. Recognized as a disruptive innovator and dynamic leader, Jason builds sound organizations from the ground level by substantiating unique value propositions and creating a competitive edge in large mature industries.\n\nAs a hands-on leader, Jason personally raised capital and carried organizations to exit; generating over a half billion dollars in value for shareholders. Jason leads and motivates companies with a customer-first mentality; where metrics and customers\u2019 success truly matter. Jason has in-depth knowledge of health care, pharmaceutical, medical device, energy and retail industries. He also has a number of patents pending and issued revolving around energy and robotics.",
+  "dex": [
+   "Meteora",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/42cXQvAAr7hcPBPWAS4ocVtDyeJ4Fa6gRR2uG4gppump",
+  "fetched": "2026-10-12T03:21:40.081645+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://bitcoinhard.money",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/goingparabolic",
+  "twitter_followers": null,
+  "watchers": 160
+ },
  "the-innovation-game": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4629,5 +4859,66 @@
   "twitter": "https://x.com/Zebec_HQ",
   "twitter_followers": null,
   "watchers": 21345
+ },
+ "zentry": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "BNB Chain Ecosystem",
+   "Play To Earn",
+   "Ethereum Ecosystem",
+   "Animoca Brands Portfolio",
+   "Base Ecosystem",
+   "DWF Labs Portfolio",
+   "Ronin Ecosystem",
+   "Coinbase Ventures Portfolio",
+   "DeFiance Capital Portfolio",
+   "Pantera Capital Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Binance Alpha Spotlight",
+   "Base Native"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bybit",
+   "DigiFinex",
+   "Gate",
+   "HTX",
+   "Hibt",
+   "LATOKEN",
+   "Mudrex",
+   "OKX"
+  ],
+  "cex_count": 14,
+  "chat": "https://medium.com/zentry",
+  "commits_4w": null,
+  "description": "Zentry is building the Human-Agentic Operating System\u2014a next-gen AI + crypto infrastructure where human life fuels AI, and AI in turn amplifies human potential. Through its tri-layer stack (zApp, zAI, zData), Zentry transforms everyday activity into structured data, trains intelligent agents, and powers a new user-owned economy. It's not just tech\u2014it\u2019s a platform for civilization-scale co-evolution between people and machines.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/zentryofficial",
+  "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
+  "fetched": "2026-10-12T03:21:52.729495+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://zentry.com",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "ronin"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/zentry",
+  "twitter_followers": null,
+  "watchers": 4425
  }
 }
