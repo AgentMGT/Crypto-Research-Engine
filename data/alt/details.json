@@ -1214,6 +1214,44 @@
   "twitter_followers": null,
   "watchers": 19128
  },
+ "chirp-token": {
+  "categories": [
+   "Infrastructure",
+   "Internet of Things (IOT)",
+   "Sui Ecosystem",
+   "Real World Assets (RWA)",
+   "DePIN",
+   "Mobile Mining"
+  ],
+  "cex": [
+   "Cetus",
+   "Gate",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 4,
+  "chat": "https://chirpiot.medium.com/",
+  "commits_4w": null,
+  "description": "Chirp is an IoT ecosystem built on the Sui blockchain, featuring two core components: a Decentralized Physical Infrastructure Network (DePIN) and a robust IoT platform. Chirp's DePIN operates through community-owned miners that provide connectivity for IoT devices, rewarding participants with $CHIRP tokens. The IoT platform enhances this connectivity by offering a comprehensive suite of tools for efficiently managing IoT devices and linking their data to the blockchain. This dual approach fosters community engagement and creates a sustainable ecosystem where Chirp delivers advanced IoT solutions for individuals, businesses, and Real-World Asset (RWA) projects. ",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://chirptoken.io/explorer/",
+  "fetched": "2026-10-12T15:20:16.276459+00:00",
+  "genesis": null,
+  "github": "https://github.com/chirpdepin",
+  "homepage": "https://chirptoken.io/",
+  "platforms": [
+   "sui"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/ChirpIoT",
+  "telegram_users": null,
+  "twitter": "https://x.com/ChirpDeWi",
+  "twitter_followers": null,
+  "watchers": 2988
+ },
  "chutes": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2595,6 +2633,44 @@
   "twitter_followers": null,
   "watchers": 25339
  },
+ "gstock": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [
+   "Gate",
+   "LBank",
+   "MEXC"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
+  "fetched": "2026-10-12T15:20:09.465554+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://slinkcoinrbh.lol/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 83
+ },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -3922,6 +3998,42 @@
   "twitter_followers": null,
   "watchers": 2500
  },
+ "openvpp-2": {
+  "categories": [
+   "Energy",
+   "Real World Assets (RWA)",
+   "DePIN",
+   "Base Ecosystem",
+   "RWA Protocol"
+  ],
+  "cex": [
+   "MEXC"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Rails for the decentralized global electric grid. The Internet of Energy | $OVPP",
+  "dex": [
+   "Aerodrome (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd",
+  "fetched": "2026-10-12T15:21:19.595835+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://openvpp.energy/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/OpenVPP",
+  "telegram_users": null,
+  "twitter": "https://x.com/openvpp",
+  "twitter_followers": null,
+  "watchers": 976
+ },
  "ovr": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -5220,6 +5332,48 @@
   "twitter": "https://x.com/tigfoundation",
   "twitter_followers": null,
   "watchers": 3766
+ },
+ "tornado-cash": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Privacy Infrastructure",
+   "Privacy"
+  ],
+  "cex": [
+   "HTX",
+   "MEXC"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (Ethereum)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
+  "fetched": "2026-10-12T15:20:12.942393+00:00",
+  "genesis": null,
+  "github": "https://github.com/tornadocash",
+  "homepage": "https://tornadocash.eth.limo",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/TornadoCashOfficialDAO",
+  "telegram_users": null,
+  "twitter": "https://x.com/TornadoCash",
+  "twitter_followers": null,
+  "watchers": 19326
  },
  "uranium": {
   "categories": [
