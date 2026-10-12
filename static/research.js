@@ -77,6 +77,34 @@
     var d = new DOMParser().parseFromString(html || "", "text/html");
     return (d.body.textContent || "").trim();
   }
+  // "What it does": the first sentence or two of the project's own description.
+  function shortDesc(c) {
+    var t = stripHTML((c.description || {}).en).replace(/\s+/g, " ").trim();
+    if (!t) {
+      var cats = (c.categories || []).filter(Boolean).slice(0, 2);
+      return cats.length ? c.name + " is listed under " + cats.join(" and ") + " on CoinGecko; it has no project description yet." : "";
+    }
+    var parts = t.match(/[^.!?]+[.!?]+(\s|$)/g) || [t];
+    var out = "";
+    for (var i = 0; i < parts.length; i++) {
+      if (out && (out + parts[i]).length > 280) break;
+      out += parts[i];
+      if (out.length >= 120) break;
+    }
+    out = out.trim();
+    return out.length > 320 ? out.slice(0, 320).replace(/\s+\S*$/, "") + "…" : out;
+  }
+  // "Team": sentences of the description that say who founded, built or runs the project.
+  var TEAM_RX = /\b(found(ed|er|ers|ing)|co-?founder|created by|developed by|built by|launched by|backed by|team|CEO|CTO|led by|foundation|labs?\b|company|inc\.|ltd|headquartered|based in|incubated)/i;
+  function teamInfo(c, skip) {
+    var t = stripHTML((c.description || {}).en).replace(/\s+/g, " ").trim();
+    var parts = t.match(/[^.!?]+[.!?]+(\s|$)/g) || [];
+    var hits = parts.filter(function (x) { return TEAM_RX.test(x); }).map(function (x) { return x.trim(); })
+      .filter(function (x) { return !skip || skip.indexOf(x) < 0; });
+    var out = "";
+    for (var i = 0; i < hits.length && out.length < 260; i++) out += (out ? " " : "") + hits[i];
+    return out.length > 360 ? out.slice(0, 360).replace(/\s+\S*$/, "") + "…" : out;
+  }
   function setStatus(text, kind) {
     status.textContent = text || "";
     status.className = "rs-status" + (kind ? " " + kind : "");
@@ -336,6 +364,16 @@
       '<div class="rs-price"><div class="p">' + price(md.current_price.usd) + "</div>" +
       '<div class="ch">' + pct(md.price_change_percentage_1h_in_currency && md.price_change_percentage_1h_in_currency.usd) + " 1h · " +
       pct(md.price_change_percentage_24h) + " 24h</div></div></div>";
+
+    var what = shortDesc(c), team = teamInfo(c, what);
+    if (what || team || home || x) {
+      h += '<div class="rs-what">' + (what ? "<span>What it does</span><p>" + esc(what) + "</p>" : "") +
+        "<span>Team</span><p>" + (team ? esc(team) :
+          "The project's description doesn't name its team. Check the founders on the " +
+          (home ? '<a target="_blank" rel="noopener" href="' + esc(home) + '">website ↗</a>' : "website") +
+          (x ? ' or <a target="_blank" rel="noopener" href="https://x.com/' + esc(x) + '">X ↗</a>' : "") +
+          "; an anonymous team is a risk to weigh.") + "</p></div>";
+    }
 
     h += '<div class="rs-actions"><button type="button" class="rs-btn primary"' + chartAttr(spec).replace(' tabindex="0" role="button"', "") + ">Open chart</button>" +
       '<a class="rs-btn" target="_blank" rel="noopener" href="https://www.coingecko.com/en/coins/' + esc(c.id) + '">CoinGecko ↗</a>' +
