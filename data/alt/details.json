@@ -54,6 +54,41 @@
   "twitter_followers": null,
   "watchers": 9345
  },
+ "agoras-currency-of-tau": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Smart Contract Platform",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "MEXC"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Agoras is the native currency of Tau, and it\u2019s designed as money you can program. Terms can be attached to the funds themselves, in the same plain language used for account rules. These terms can set how fast it can be spent, what it can be spent on, when it comes back and when it stops existing. For example, you can send 2,000 AGRS that can only be spent at 500 a week, or send funds to a brother so that anything unspent returns after 30 days. You can also send a donation that can only be spent on registered charitable purposes, and that restriction stays with the funds even if they\u2019re passed on. Because the terms travel with the money, they\u2019re enforced wherever it goes, and no one has to remember to follow up.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
+  "fetched": "2026-10-13T13:11:00.870117+00:00",
+  "genesis": null,
+  "github": "https://github.com/idni/tau",
+  "homepage": "https://tau.net/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/tauchain",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 9693
+ },
  "aixbt": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -994,7 +1029,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0x07EBB29a38Fbcb41563817e5E19f2ceC619C90D2",
-  "fetched": "2026-10-11T19:23:51.232898+00:00",
+  "fetched": "2026-10-13T13:09:51.087420+00:00",
   "genesis": null,
   "github": "https://github.com/UVLabs-AI",
   "homepage": "https://mosh.trade/",
@@ -1008,7 +1043,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BundleCatAI",
   "twitter_followers": null,
-  "watchers": 366
+  "watchers": 369
  },
  "carv": {
   "categories": [
@@ -2114,6 +2149,47 @@
   "twitter": "https://x.com/opencampus_xyz",
   "twitter_followers": null,
   "watchers": 38060
+ },
+ "egl1": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [
+   "Bitget",
+   "Bittime",
+   "Bitunix",
+   "DigiFinex",
+   "Gate",
+   "KuCoin",
+   "LBank",
+   "Ourbit",
+   "XT.COM"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "1st ever Superhero meme \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8 I am Eagle\u2019s Landing \ud83e\udd85\nAmerica 1st, bold eagle 1st, So be the EGL1.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
+  "fetched": "2026-10-13T13:09:47.925759+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://eagles.land",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/EGL1Nest",
+  "telegram_users": null,
+  "twitter": "https://x.com/egll_american",
+  "twitter_followers": null,
+  "watchers": 599
  },
  "eigenlayer": {
   "categories": [
@@ -3512,7 +3588,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://suiscan.xyz/coin/0xf22da9a24ad027cccb5f2d496cbe91de953d363513db08a3a734d361c7c17503::LOFI::LOFI",
-  "fetched": "2026-10-11T19:42:48.408894+00:00",
+  "fetched": "2026-10-13T13:09:54.311809+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://lofitheyeti.com/",
@@ -3520,13 +3596,13 @@
    "sui"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/LofiOnSui",
   "telegram_users": null,
   "twitter": "https://x.com/lofitheyeti",
   "twitter_followers": null,
-  "watchers": 7564
+  "watchers": 7566
  },
  "magic": {
   "categories": [
@@ -4198,7 +4274,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-11T22:57:30.053209+00:00",
+  "fetched": "2026-10-13T13:09:57.521589+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -4213,7 +4289,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30284
+  "watchers": 30278
  },
  "omega-any-to-any": {
   "categories": [
@@ -4568,6 +4644,42 @@
   "twitter": "https://x.com/PaalMind",
   "twitter_followers": null,
   "watchers": 63274
+ },
+ "paradex": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://www.youtube.com/@dimetvhq",
+  "commits_4w": null,
+  "description": "Paradex is a decentralized cryptocurrency exchange that supports trading of perpetual futures, spot markets, options, and pre-markets across over 250 instruments. \n\nIt operates on Paradex Chain, a high-performance Layer-2 blockchain initially developed as Starknet's first appchain in collaboration with StarkWare and powered by Starknet technology with custom optimizations (including the evolving DimeVM). \n\nThe platform enables self-custodial trading with institutional-grade privacy features implemented through a multi-layered zero-knowledge system: encrypted state commitments on Ethereum, authenticated RPC access on the Layer-2 chain, and off-chain order matching to prevent exposure of positions, entry/exit prices, liquidation levels, and profit/loss data while maintaining on-chain verifiability and settlement.\n\n",
+  "dex": [
+   "Meteora",
+   "Paradex (Spot)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/paradex",
+  "explorer": "https://etherscan.io/address/0xb32e10022ffbedfe10bc818a1c7e67d9d87e0fa7",
+  "fetched": "2026-10-13T13:11:04.102158+00:00",
+  "genesis": null,
+  "github": "https://github.com/tradeparadex",
+  "homepage": "https://paradex.trade/",
+  "platforms": [
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/paradex",
+  "telegram_users": null,
+  "twitter": "https://x.com/paradex",
+  "twitter_followers": null,
+  "watchers": 663
  },
  "peaq-2": {
   "categories": [
