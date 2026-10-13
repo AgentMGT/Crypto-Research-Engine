@@ -592,7 +592,7 @@
   ],
   "discord": "https://discord.gg/auki",
   "explorer": "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
-  "fetched": "2026-10-11T22:57:26.865520+00:00",
+  "fetched": "2026-10-13T03:06:09.895063+00:00",
   "genesis": null,
   "github": "https://github.com/aukilabs",
   "homepage": "https://www.auki.com/",
@@ -607,7 +607,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Auki",
   "twitter_followers": null,
-  "watchers": 6581
+  "watchers": 6578
  },
  "aurora-near": {
   "categories": [
@@ -1196,7 +1196,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
-  "fetched": "2026-10-11T21:04:53.496976+00:00",
+  "fetched": "2026-10-13T03:08:25.871652+00:00",
   "genesis": null,
   "github": "https://github.com/chintai-platform/chexchexchex",
   "homepage": "https://chintai.io/",
@@ -1207,7 +1207,7 @@
    "solana"
   ],
   "reddit": "https://www.reddit.com/r/chintai/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/chex_token",
   "telegram_users": null,
@@ -1785,6 +1785,37 @@
   "twitter": "https://x.com/Cortex_Protocol",
   "twitter_followers": null,
   "watchers": 1432
+ },
+ "crawlerpad": {
+  "categories": [
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Crawler is associated with Crawlpad, a Solana platform that pairs token launches on Pump.fun with a dedicated research crawler. Users can provide a project website and a research question, then direct the crawler to explore relevant public pages and gather useful context. Each run is designed to save source pages and their original links, giving communities a trail they can review and follow. Crawlpad aims to make project research more organized and transparent by helping users connect information, examine sources, and identify questions for further exploration. The platform brings token launches and curiosity-driven research together in one place.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/CQCDTp8rsFV3PhaPeYjcCW5LdGTxi6jFx7eC3UXnpump",
+  "fetched": "2026-10-13T03:07:19.467254+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://crawlerpad.online",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/crawlerpadsol",
+  "twitter_followers": null,
+  "watchers": 33
  },
  "cyberleek": {
   "categories": [
@@ -2532,7 +2563,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-11T21:46:23.197617+00:00",
+  "fetched": "2026-10-13T03:07:16.292437+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -2548,7 +2579,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/GamerHashCom",
   "twitter_followers": null,
-  "watchers": 23673
+  "watchers": 23672
  },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
@@ -3582,7 +3613,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
-  "fetched": "2026-10-11T21:05:03.442852+00:00",
+  "fetched": "2026-10-13T03:07:13.133085+00:00",
   "genesis": null,
   "github": "https://github.com/moonwell-fi/mamo-contracts",
   "homepage": "https://mamo.bot",
@@ -3596,7 +3627,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/mamo",
   "twitter_followers": null,
-  "watchers": 3768
+  "watchers": 3767
  },
  "mansory-token": {
   "categories": [
@@ -4459,7 +4490,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-11T22:57:36.384418+00:00",
+  "fetched": "2026-10-13T03:07:22.660223+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -5796,6 +5827,40 @@
   "twitter": "https://x.com/Stonks_Exchange",
   "twitter_followers": null,
   "watchers": 342
+ },
+ "tokenize-everything": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Tokenize Everything is the memecoin that took the most repeated phrase in crypto and made it literal. For years the sharpest voices in the space have said the future is to tokenize everything. So we did exactly that. Launched on Solana through pump dot fun, $EVERYTHING is equal parts celebration and satire of the massive real world asset narrative that Wall Street and institutions are now aggressively pursuing.\n\nStocks, bonds, real estate, commodities, identities, and literally everything else is heading onchain. $EVERYTHING exists as the cultural token and spiritual common denominator for this transformation. It revives the ancient human practice of barter where trust and community allowed direct trade of real goods before banks and governments complicated the world.\n\nOur community is the entire story. A vibrant, creative, and relentlessly positive group of meme makers, traders, and believers who create elite content daily and foster genuine culture. What started as a joke has evolved into one of the most organic and energetic movements on Solana. The vibes are immaculate, the humor is sharp, and the belief runs deep.\n\nWe are early to one of the largest financial shifts in history and we are doing it with laughter and heart. Tokenize responsibly. Join the everything gang.",
+  "dex": [
+   "Meteora",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
+  "fetched": "2026-10-13T03:06:06.743625+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://everythingtoken.xyz/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/TokenizeEverythingTelegram",
+  "telegram_users": null,
+  "twitter": "https://x.com/everythingrwas",
+  "twitter_followers": null,
+  "watchers": 19
  },
  "tornado-cash": {
   "categories": [
