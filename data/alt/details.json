@@ -184,7 +184,7 @@
   ],
   "discord": "https://discord.com/invite/aleo",
   "explorer": "https://aleoscan.io/",
-  "fetched": "2026-10-12T03:21:49.593749+00:00",
+  "fetched": "2026-10-13T14:10:34.204838+00:00",
   "genesis": null,
   "github": "https://github.com/AleoNet",
   "homepage": "https://www.aleo.org/",
@@ -192,13 +192,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 71.43,
+  "sentiment_up": 77.78,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AleoHQ",
   "twitter_followers": null,
-  "watchers": 9278
+  "watchers": 9281
  },
  "aleph": {
   "categories": [
@@ -250,6 +250,46 @@
   "twitter": "https://x.com/aleph_im",
   "twitter_followers": null,
   "watchers": 25056
+ },
+ "allinu": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Dog-Themed",
+   "Solana Meme",
+   "Stonk Ecosystem"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Poloniex"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
+  "fetched": "2026-10-13T14:09:17.234701+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.stonkfun.xyz/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 153
  },
  "altura": {
   "categories": [
@@ -2362,12 +2402,12 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
+   "Crypto.com Exchange",
    "DigiFinex",
    "Gate",
-   "Indodax",
-   "LATOKEN"
+   "Indodax"
   ],
-  "cex_count": 19,
+  "cex_count": 21,
   "chat": null,
   "commits_4w": null,
   "description": "The IQ token is a cryptocurrency that powers the Agent Tokenization Platform (ATP). ATP was built for developers to launch the next generation of tokenized agents that are verifiably autonomous and sovereign. These agents are capable of owning and managing digital and physical assets, from cryptocurrencies to DeFi transactions to robots.",
@@ -2378,7 +2418,7 @@
   ],
   "discord": "https://discord.com/invite/RkMDgWy5XQ",
   "explorer": "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
-  "fetched": "2026-10-12T13:50:24.302420+00:00",
+  "fetched": "2026-10-13T14:10:37.869576+00:00",
   "genesis": null,
   "github": "https://github.com/EveripediaNetwork/Everipedia",
   "homepage": "https://iqindustries.com",
@@ -2394,7 +2434,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/IQofficial",
   "twitter_followers": null,
-  "watchers": 14924
+  "watchers": 14925
  },
  "everything": {
   "categories": [
@@ -2418,7 +2458,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-10-12T13:47:57.429524+00:00",
+  "fetched": "2026-10-13T14:09:23.813128+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -2428,13 +2468,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/every_thing",
   "twitter_followers": null,
-  "watchers": 259
+  "watchers": 261
  },
  "fluence-2": {
   "categories": [
@@ -2559,7 +2599,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-12T13:49:14.096428+00:00",
+  "fetched": "2026-10-13T14:09:27.018730+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2570,13 +2610,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7591
+  "watchers": 7593
  },
  "froggie": {
   "categories": [
@@ -5177,7 +5217,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-10-12T13:36:58.942052+00:00",
+  "fetched": "2026-10-13T14:09:20.453705+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -6278,6 +6318,66 @@
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
   "watchers": 153
+ },
+ "wormhole": {
+  "categories": [
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Interoperability",
+   "Base Ecosystem",
+   "Multicoin Capital Portfolio",
+   "Cross-chain Communication",
+   "Made in USA",
+   "Governance",
+   "Base Native"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "BYDFi",
+   "Backpack Exchange ",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub"
+  ],
+  "cex_count": 62,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. ",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Orca",
+   "PumpSwap",
+   "Raydium",
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": "https://discord.com/invite/wormholecrypto",
+  "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+  "fetched": "2026-10-13T14:09:30.454587+00:00",
+  "genesis": null,
+  "github": "https://github.com/wormhole-foundation/wormhole",
+  "homepage": "https://wormhole.com/",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 68.75,
+  "stars": null,
+  "telegram": "https://t.me/wormholecrypto",
+  "telegram_users": null,
+  "twitter": "https://x.com/wormhole",
+  "twitter_followers": null,
+  "watchers": 43488
  },
  "yee-token": {
   "categories": [

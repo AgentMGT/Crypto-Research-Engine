@@ -224,6 +224,13 @@
 "repo": "DeSciClaims/Claims",
 "t": 1791860622.1953595
 },
+"endure-network/endure-subnet": {
+"capped": false,
+"commits_30d": 28,
+"last_commit": "2026-10-05T16:15:37Z",
+"repo": "Endure-Network/endure-subnet",
+"t": 1791900432.8567863
+},
 "entrius/allways": {
 "capped": false,
 "commits_30d": 26,
