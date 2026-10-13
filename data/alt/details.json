@@ -953,7 +953,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-11T19:54:49.839545+00:00",
+  "fetched": "2026-10-13T00:46:55.042407+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -968,7 +968,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114154
+  "watchers": 114153
  },
  "bundle-cat": {
   "categories": [
@@ -1271,7 +1271,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-10-11T19:54:46.549611+00:00",
+  "fetched": "2026-10-13T00:48:09.000288+00:00",
   "genesis": null,
   "github": "https://github.com/rayonlabs/chutes",
   "homepage": "https://chutes.ai/",
@@ -1279,13 +1279,13 @@
    "bittensor"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
-  "watchers": 2088
+  "watchers": 2094
  },
  "circle-rstock-2": {
   "categories": [
@@ -3057,7 +3057,7 @@
    "Crypto.com Exchange",
    "Deepcoin"
   ],
-  "cex_count": 29,
+  "cex_count": 30,
   "chat": "https://joecontent.substack.com/",
   "commits_4w": null,
   "description": "Trader Joe is a leading decentralised exchange on Arbitrum, Avalanche and BNB Chain. \n\nOn the Trader Joe platform you can swap tokens, provide liquidity, yield farm and also shop for NFTs at the Joepegs Marketplace.\n\nThe Trader Joe DEX is powered by the Liquidity Book Automated Market Maker (AMM), the most efficient and versatile AMM in DeFi.\n\nJOE is the native governance token that also accrues a share of trading fees collected by Liquidity Pools.",
@@ -3066,7 +3066,7 @@
   ],
   "discord": "https://discord.com/invite/lfj",
   "explorer": "https://snowtrace.io/token/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
-  "fetched": "2026-10-11T22:09:49.248863+00:00",
+  "fetched": "2026-10-13T00:48:02.280103+00:00",
   "genesis": null,
   "github": "https://github.com/traderjoe-xyz",
   "homepage": "https://lfj.gg/avalanche",
@@ -3077,13 +3077,13 @@
    "mantle"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/LFJ_gg",
   "twitter_followers": null,
-  "watchers": 62923
+  "watchers": 62918
  },
  "kaio": {
   "categories": [
@@ -3540,7 +3540,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-11T21:47:49.053628+00:00",
+  "fetched": "2026-10-13T00:48:05.594675+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3550,13 +3550,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38881
+  "watchers": 38900
  },
  "mamo": {
   "categories": [
@@ -3689,6 +3689,47 @@
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
   "watchers": 31921
+ },
+ "mass-vehicle-ledger": {
+  "categories": [
+   "Internet of Things (IOT)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "DWF Labs Portfolio"
+  ],
+  "cex": [
+   "Bithumb",
+   "Gate",
+   "Upbit"
+  ],
+  "cex_count": 3,
+  "chat": "https://t.me/mvlchain_kr",
+  "commits_4w": null,
+  "description": "It is a blockchain-based ecosystem that connects all services, like the car dealer shops, mechanic shops and car rental companies, that touch your car to collect its lifetime data. \n\nParticipants from automobile-related companies, services or trade industry will be connected and they will insert core data related to driving, traffic accidents, repairs and other car-related transactions into the blockchain. \n\nParticipants who provide data related to automobile will receive MVL Point (MVP), a reward system used to encourage contribution to the ecosystem. ",
+  "dex": [
+   "Biswap",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+  "fetched": "2026-10-13T00:47:58.596408+00:00",
+  "genesis": null,
+  "github": "https://github.com/mvlchain/PWSwitch",
+  "homepage": "https://mvlchain.io/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "the-open-network"
+  ],
+  "reddit": "https://www.reddit.com/r/MVL",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/mvlchain_en",
+  "telegram_users": null,
+  "twitter": "https://x.com/mvlchain",
+  "twitter_followers": null,
+  "watchers": 2976
  },
  "memecoin-2": {
   "categories": [
@@ -5740,7 +5781,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
-  "fetched": "2026-10-13T00:36:28.099506+00:00",
+  "fetched": "2026-10-13T00:46:48.417266+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.thestonks.exchange/",
@@ -6081,7 +6122,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-10-11T19:24:57.704393+00:00",
+  "fetched": "2026-10-13T00:46:51.726026+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
