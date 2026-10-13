@@ -1312,7 +1312,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://chirptoken.io/explorer/",
-  "fetched": "2026-10-12T15:20:16.276459+00:00",
+  "fetched": "2026-10-13T17:29:51.935761+00:00",
   "genesis": null,
   "github": "https://github.com/chirpdepin",
   "homepage": "https://chirptoken.io/",
@@ -1320,13 +1320,13 @@
    "sui"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/ChirpIoT",
   "telegram_users": null,
   "twitter": "https://x.com/ChirpDeWi",
   "twitter_followers": null,
-  "watchers": 2988
+  "watchers": 2990
  },
  "chutes": {
   "categories": [
@@ -1698,7 +1698,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
-  "fetched": "2026-10-12T13:46:50.632259+00:00",
+  "fetched": "2026-10-13T17:27:26.026936+00:00",
   "genesis": null,
   "github": "https://github.com/ConstitutionDAO",
   "homepage": "https://www.constitutiondao.com/",
@@ -1706,13 +1706,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/constitutiondao",
   "twitter_followers": null,
-  "watchers": 19296
+  "watchers": 19297
  },
  "cookie": {
   "categories": [
@@ -1842,7 +1842,7 @@
   ],
   "discord": "https://discord.com/invite/cortexprotocol",
   "explorer": "https://etherscan.io/address/0x000000000000012DeF132E61759048bE5b5C6033",
-  "fetched": "2026-10-12T03:21:46.412167+00:00",
+  "fetched": "2026-10-13T17:29:55.172501+00:00",
   "genesis": null,
   "github": "https://github.com/cortexprotocol",
   "homepage": "https://cortexprotocol.com/",
@@ -1859,7 +1859,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Cortex_Protocol",
   "twitter_followers": null,
-  "watchers": 1432
+  "watchers": 1434
  },
  "crawlerpad": {
   "categories": [
@@ -2651,6 +2651,62 @@
   "twitter_followers": null,
   "watchers": 171
  },
+ "gains-network": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Derivatives",
+   "Perpetuals",
+   "Polygon Ecosystem",
+   "Arbitrum Ecosystem",
+   "Base Ecosystem",
+   "ApeChain Ecosystem",
+   "MegaETH Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "Bitrue",
+   "Bitvavo",
+   "Gate",
+   "Kumbaya",
+   "MEXC",
+   "Mudrex",
+   "WEEX"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Camelot V3",
+   "Quickswap",
+   "Quickswap (v3)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Polygon)"
+  ],
+  "discord": "https://discord.com/invite/gains-network",
+  "explorer": "https://polygonscan.com/token/0xe5417af564e4bfda1c483642db72007871397896",
+  "fetched": "2026-10-13T17:29:45.505685+00:00",
+  "genesis": null,
+  "github": "https://github.com/GainsNetwork",
+  "homepage": "https://gains.trade/",
+  "platforms": [
+   "apechain",
+   "arbitrum-one",
+   "base",
+   "megaeth"
+  ],
+  "reddit": "https://www.reddit.com/r/GainsNetwork/",
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/GainsNetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/gains_trade",
+  "twitter_followers": null,
+  "watchers": 24354
+ },
  "gamercoin": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2900,6 +2956,41 @@
   "twitter_followers": null,
   "watchers": 17899
  },
+ "giveback": {
+  "categories": [
+   "Charity",
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://www.youtube.com/@gbackcoin",
+  "commits_4w": null,
+  "description": "Give Back Coin $GBACK transforms how the world funds relief and humanitarian aid. By combining blockchain transparency, community power, and sustainable funding through creator rewards.\nGiveBack Coin is a purpose-driven cryptocurrency designed to combine blockchain technology with real-world generosity. The project\u2019s mission is to turn everyday crypto activity  trading, holding, and community growth into meaningful social impact.\n\nUnlike traditional cryptocurrencies focused purely on profit, GiveBack Coin dedicates up to 50% of its profits to charitable donations and community aid projects, such as feeding the homeless, supporting humanitarian efforts, and funding local outreach programs.\n\nBuilt on the Solana blockchain, GiveBack Coin offers fast, low-cost, and transparent transactions, ensuring that every contribution and donation is traceable and accountable. The community also plays a central role holders can help vote on which causes and charities receive support",
+  "dex": [
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": "https://discord.com/invite/gbackcoin",
+  "explorer": "https://solscan.io/token/Fh7mLxtPAysdvHcMcJ37A3vc6WvBVh7JVDwxmwk6pump",
+  "fetched": "2026-10-13T17:27:19.399725+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://gbackcoin.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/gbackcoin",
+  "twitter_followers": null,
+  "watchers": 184
+ },
  "griffain": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2960,9 +3051,10 @@
   "cex": [
    "Gate",
    "LBank",
-   "MEXC"
+   "MEXC",
+   "Matcha (BSC)"
   ],
-  "cex_count": 3,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -2974,7 +3066,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
-  "fetched": "2026-10-12T15:20:09.465554+00:00",
+  "fetched": "2026-10-13T17:27:16.165813+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://slinkcoinrbh.lol/",
@@ -2988,7 +3080,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 83
+  "watchers": 84
  },
  "imo": {
   "categories": [
@@ -4173,7 +4265,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonscan.org/address/EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
-  "fetched": "2026-10-11T21:02:27.665842+00:00",
+  "fetched": "2026-10-13T17:27:22.689196+00:00",
   "genesis": null,
   "github": "https://github.com/OpenBuilders",
   "homepage": "https://t.me/notcoin_bot",
@@ -4187,7 +4279,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/thenotcoin",
   "twitter_followers": null,
-  "watchers": 117622
+  "watchers": 117623
  },
  "nuance-2": {
   "categories": [
@@ -4520,7 +4612,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd",
-  "fetched": "2026-10-12T15:21:19.595835+00:00",
+  "fetched": "2026-10-13T17:28:29.270667+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://openvpp.energy/",
@@ -4528,7 +4620,7 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/OpenVPP",
   "telegram_users": null,
@@ -4928,11 +5020,10 @@
   "cex": [
    "Gate",
    "KCEX",
-   "Kraken",
    "KuCoin",
    "Ourbit"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "Pipe Network is a decentralized edge supercloud that integrates content delivery (CDN), storage, and AI inference into one permissionless infrastructure. The project\u2019s goal is to solve the inefficiencies of traditional CDNs and centralized cloud providers by moving content and compute closer to end users through hyperlocal Points of Presence (PoPs).\n\nUnlike conventional networks owned by large operators, Pipe enables community-run nodes deployed within ~50 miles of users. This reduces latency to the single-digit millisecond range, improves throughput, and lowers delivery costs by up to 100\u00d7.\n\nThe system is coordinated through smart contracts on Solana, which verify proof-of-delivery, manage node reputation, and automate payments. The PIPE utility token powers bandwidth, storage, and compute credits, using a burn-to-credit model that ties token demand directly to real network usage.\nWith more than 60 PB of data delivered and over 1 billion files transferred, Pipe Network demonstrates that decentralized infrastructure can achieve enterprise-grade performance while scaling globally in a transparent and open way.",
@@ -4941,7 +5032,7 @@
   ],
   "discord": "https://discord.gg/e4YNnt5y4r",
   "explorer": "https://solscan.io/token/7s9MoSt7VV1J3jVNnw2AyocsQDBdCkPYz5apQDPKy9i5",
-  "fetched": "2026-10-12T13:48:04.158665+00:00",
+  "fetched": "2026-10-13T17:28:35.721635+00:00",
   "genesis": null,
   "github": "https://github.com/PipeNetwork",
   "homepage": "https://pipe.network/",
@@ -4955,7 +5046,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/pipenetwork",
   "twitter_followers": null,
-  "watchers": 430
+  "watchers": 429
  },
  "polariscloud-ai": {
   "categories": [
@@ -5319,6 +5410,45 @@
   "twitter_followers": null,
   "watchers": 7333
  },
+ "robinhood-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "LBank"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xa394dcea3fd3847fd793afbfd163e2e3858b7c65",
+  "fetched": "2026-10-13T17:28:32.487394+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.binance.com/bstocks-landing",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 55
+ },
  "rocket-pool": {
   "categories": [
    "Infrastructure",
@@ -5349,7 +5479,7 @@
    "Bithumb",
    "Bitkub"
   ],
-  "cex_count": 46,
+  "cex_count": 45,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -5361,7 +5491,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-12T13:48:10.688399+00:00",
+  "fetched": "2026-10-13T17:28:38.951795+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -5377,7 +5507,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25868
+  "watchers": 25867
  },
  "safe": {
   "categories": [
@@ -5439,7 +5569,7 @@
    "Backpack Exchange ",
    "Bitrue",
    "Bybit",
-   "Coinone",
+   "Crypto.com Exchange",
    "DigiFinex",
    "Gate",
    "Kraken",
@@ -5457,7 +5587,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-  "fetched": "2026-10-11T21:06:19.781258+00:00",
+  "fetched": "2026-10-13T17:29:48.708822+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sanctum.so/",
@@ -5465,13 +5595,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+YbdmERNxJxNiMjU0",
   "telegram_users": null,
   "twitter": "https://x.com/sanctumso",
   "twitter_followers": null,
-  "watchers": 5626
+  "watchers": 5631
  },
  "sandisk-bstocks-tokenized-stock": {
   "categories": [
@@ -5680,6 +5810,55 @@
   "twitter": "https://x.com/sportstensor",
   "twitter_followers": null,
   "watchers": 434
+ },
+ "ssv-network": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Ethereum Ecosystem",
+   "Restaking",
+   "Coinbase Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "Liquid Staking"
+  ],
+  "cex": [
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bittime"
+  ],
+  "cex_count": 41,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network \u2013 a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. ",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/eDXSP9R",
+  "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
+  "fetched": "2026-10-13T17:29:42.303751+00:00",
+  "genesis": null,
+  "github": "https://github.com/ssvlabs",
+  "homepage": "https://ssv.network/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ssv_network",
+  "twitter_followers": null,
+  "watchers": 10164
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -5925,7 +6104,7 @@
   ],
   "discord": "https://discord.com/invite/tigfoundation",
   "explorer": "https://basescan.org/token/0x0C03Ce270B4826Ec62e7DD007f0B716068639F7B",
-  "fetched": "2026-10-11T21:06:13.409065+00:00",
+  "fetched": "2026-10-13T17:31:01.662567+00:00",
   "genesis": null,
   "github": "https://github.com/tig-foundation",
   "homepage": "https://www.tig.foundation/",
@@ -5933,7 +6112,7 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -6491,6 +6670,7 @@
   "cex": [
    "Biconomy.com",
    "BitKan",
+   "Bitazza",
    "Bitget",
    "Bitkub",
    "Bybit",
@@ -6499,10 +6679,9 @@
    "HTX",
    "Hibt",
    "LATOKEN",
-   "Mudrex",
-   "OKX"
+   "Mudrex"
   ],
-  "cex_count": 14,
+  "cex_count": 15,
   "chat": "https://medium.com/zentry",
   "commits_4w": null,
   "description": "Zentry is building the Human-Agentic Operating System\u2014a next-gen AI + crypto infrastructure where human life fuels AI, and AI in turn amplifies human potential. Through its tri-layer stack (zApp, zAI, zData), Zentry transforms everyday activity into structured data, trains intelligent agents, and powers a new user-owned economy. It's not just tech\u2014it\u2019s a platform for civilization-scale co-evolution between people and machines.",
@@ -6512,7 +6691,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-10-12T03:21:52.729495+00:00",
+  "fetched": "2026-10-13T17:30:58.430895+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
@@ -6529,7 +6708,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/zentry",
   "twitter_followers": null,
-  "watchers": 4425
+  "watchers": 4423
  },
  "zignaly": {
   "categories": [
