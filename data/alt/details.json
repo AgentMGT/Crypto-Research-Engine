@@ -73,16 +73,16 @@
    "BYDFi",
    "Biconomy.com",
    "Binance",
+   "Binance US",
    "BingX",
    "Bit2Me",
    "BitKan",
    "Bitkub",
    "Bitlo",
    "Bitrue",
-   "Bittime",
-   "Bitunix"
+   "Bittime"
   ],
-  "cex_count": 43,
+  "cex_count": 45,
   "chat": null,
   "commits_4w": null,
   "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
@@ -96,7 +96,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-10-11T21:03:34.157875+00:00",
+  "fetched": "2026-10-13T00:17:09.348690+00:00",
   "genesis": null,
   "github": "https://github.com/aixbt",
   "homepage": "https://aixbt.tech",
@@ -112,7 +112,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/aixbt_agent",
   "twitter_followers": null,
-  "watchers": 38575
+  "watchers": 38574
  },
  "aleo": {
   "categories": [
@@ -458,7 +458,7 @@
   ],
   "discord": "https://discord.com/invite/qnRrcfnm5W",
   "explorer": "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-  "fetched": "2026-10-11T21:03:40.579859+00:00",
+  "fetched": "2026-10-13T00:20:48.509493+00:00",
   "genesis": null,
   "github": "https://github.com/api3dao/airnode",
   "homepage": "https://api3.org/",
@@ -466,13 +466,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/API3/",
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/API3DAO",
   "telegram_users": null,
   "twitter": "https://x.com/API3DAO",
   "twitter_followers": null,
-  "watchers": 45634
+  "watchers": 45637
  },
  "arcblock": {
   "categories": [
@@ -497,7 +497,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-11T21:04:56.705367+00:00",
+  "fetched": "2026-10-13T00:18:19.198810+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -511,7 +511,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11078
+  "watchers": 11079
  },
  "astar": {
   "categories": [
@@ -914,7 +914,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-11T21:02:21.230388+00:00",
+  "fetched": "2026-10-13T00:15:59.515221+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -922,7 +922,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1476,7 +1476,7 @@
   "dex": [],
   "discord": "https://discord.com/invite/7sAEVGza8w",
   "explorer": null,
-  "fetched": "2026-10-11T19:25:08.011093+00:00",
+  "fetched": "2026-10-13T00:21:01.469189+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clore.ai",
@@ -1488,7 +1488,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/clore_ai",
   "twitter_followers": null,
-  "watchers": 23167
+  "watchers": 23162
  },
  "codec-flow": {
   "categories": [
@@ -1530,6 +1530,68 @@
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
   "watchers": 1688
+ },
+ "coin98": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Perpetuals",
+   "Solana Ecosystem",
+   "Wallets",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance Launchpad",
+   "DWF Labs Portfolio",
+   "Multicoin Capital Portfolio",
+   "Alameda Research Portfolio",
+   "Viction Ecosystem",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitazza",
+   "Bithumb",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo"
+  ],
+  "cex_count": 41,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Coin98 is an all-in-one DeFi Platform that aims to fulfill untapped demand in the industry and become a Gateway bridging TradFi users to any DeFi services on multiple blockchains. It accomplishes this mission through a full suite of products, including Coin98 Wallet, Coin98 Exchange, and Space Gate (cross-chain bridge).\n\nCoin98 Wallet: Allows users to store, send, receive, manage crypto assets and connect to numerous dApps on multiple blockchains. It supports over 20 blockchains such as Ethereum, Binance Smart Chain, Solana, Polygon, Avalanche, Terra, etc on both mobile (iOS &amp; android) and Chrome extension versions.\n\nCoin98 Exchange: A multichain liquidity aggregator that allows users to swap, stake, lend, borrow, earn crypto with the best rates and low slippage.\n\nSpace Gate: A cross-chain bridge that enables swapping and transferring values across multiple networks. It supports token swaps between ERC20 tokens, BEP20 tokens, SPL tokens, and more.\n\nThe C98 token is the native utility token of the Coin98 platform and will be used to pay services fees, as staking incentives, for governance, and unique membership rights.",
+  "dex": [
+   "Biswap",
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "RabbitSwap",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xaec945e04baf28b135fa7c640f624f8d90f1c3a6",
+  "fetched": "2026-10-13T00:20:58.247973+00:00",
+  "genesis": null,
+  "github": "https://github.com/coin98",
+  "homepage": "https://coin98.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "polygon-pos",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/coin98_wallet",
+  "telegram_users": null,
+  "twitter": "https://x.com/coin98_wallet",
+  "twitter_followers": null,
+  "watchers": 38635
  },
  "constitutiondao": {
   "categories": [
@@ -1860,6 +1922,77 @@
   "twitter": "https://x.com/destranetwork",
   "twitter_followers": null,
   "watchers": 25444
+ },
+ "dimitra": {
+  "categories": [
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "DePIN"
+  ],
+  "cex": [
+   "BingX",
+   "DigiFinex",
+   "Gate",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": "https://www.linkedin.com/company/dimitra-technology/",
+  "commits_4w": null,
+  "description": "The Dimitra (DMTR) is a blockchain platform that is democratizing the Agricultural Technology space for smallholder farmers globally. Dimitra provides access to the blockchain, machine learning, Internet of Things sensors, and Satellite Technology through a mobile platform that helps farmers globally increase their yield, reduce costs and mitigate risks. Current farming practices are not sustainable; creating an evolution of practices will contribute to solving some of today's largest issues for farmers. Issues like poverty, hunger, global warming, carbon emissions, freshwater, and soil preservation are all impacted by the adoption of Dimitra. Dimitra\u2019s platform provides utility by combining the crypto investment cycle with agricultural development practices within nations globally.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
+  "fetched": "2026-10-13T00:19:35.510503+00:00",
+  "genesis": null,
+  "github": "https://github.com/DimitraAgTech",
+  "homepage": "https://dimitra.io",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/dimitraofficialgroup",
+  "telegram_users": null,
+  "twitter": "https://x.com/dimitratech",
+  "twitter_followers": null,
+  "watchers": 13514
+ },
+ "dot": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Dot is a privacy-centric AI ecosystem. It gives people access to powerful AI tools without the surveillance that comes with mainstream models. Every major AI assistant today logs your conversations, ties them to your identity, and uses them to train, profile, and target you. Dot is built on the opposite premise: we ask for nothing, so you can ask us anything. The ecosystem runs on open-weight models that can be self-hosted and inspected, meaning no third party sits between you and the AI. Products include dotchat (private conversational AI) and dotcode (a private coding assistant), with more tools planned under the same principle: your data stays yours.",
+  "dex": [
+   "Uniswap V2 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
+  "fetched": "2026-10-13T00:18:22.400722+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://usedot.xyz",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/usedotai",
+  "twitter_followers": null,
+  "watchers": 440
  },
  "dowge": {
   "categories": [
@@ -2222,7 +2355,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-10-11T21:45:13.470197+00:00",
+  "fetched": "2026-10-13T00:17:15.883752+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -2236,7 +2369,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8574
+  "watchers": 8575
  },
  "flying-tulip": {
   "categories": [
@@ -2355,7 +2488,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-11T22:09:42.839110+00:00",
+  "fetched": "2026-10-13T00:17:02.875643+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -2442,7 +2575,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-11T21:46:26.425372+00:00",
+  "fetched": "2026-10-13T00:20:45.248820+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2495,6 +2628,42 @@
   "twitter": "https://x.com/genesysgo",
   "twitter_followers": null,
   "watchers": 17312
+ },
+ "georgeplaysclashroyale": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "LBank"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Watch George play the game Clash Royale",
+  "dex": [
+   "Meteora",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
+  "fetched": "2026-10-13T00:17:06.095153+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/GeorgePlayClash",
+  "twitter_followers": null,
+  "watchers": 1283
  },
  "giggle-mascot": {
   "categories": [
@@ -2800,7 +2969,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-11T21:07:23.018151+00:00",
+  "fetched": "2026-10-13T00:19:32.167807+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -3176,6 +3345,62 @@
   "twitter_followers": null,
   "watchers": 50233
  },
+ "limewire-token": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Music",
+   "SocialFi",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Binance US",
+   "Bit2Me",
+   "Bitget",
+   "Bitvavo",
+   "Bybit",
+   "Crypto.com Exchange",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "LATOKEN",
+   "MEXC"
+  ],
+  "cex_count": 14,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://lmwr.co/discord",
+  "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+  "fetched": "2026-10-13T00:18:28.843112+00:00",
+  "genesis": null,
+  "github": "https://github.com/LimeWireOfficial",
+  "homepage": "https://limewire.com/u/home",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/limewire",
+  "telegram_users": null,
+  "twitter": "https://x.com/limewire",
+  "twitter_followers": null,
+  "watchers": 15719
+ },
  "lisk": {
   "categories": [
    "Smart Contract Platform",
@@ -3201,7 +3426,7 @@
    "Gate",
    "HTX"
   ],
-  "cex_count": 24,
+  "cex_count": 25,
   "chat": null,
   "commits_4w": null,
   "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Base and Ethereum, with Base as its primary Layer 2 network. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
@@ -3211,7 +3436,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-10-11T21:03:37.380910+00:00",
+  "fetched": "2026-10-13T00:20:55.002751+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -3221,13 +3446,13 @@
    "lisk"
   ],
   "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30225
+  "watchers": 30228
  },
  "lofi-2": {
   "categories": [
@@ -3432,13 +3657,14 @@
    "Bitvavo",
    "Coinbase Exchange",
    "Gate",
+   "HTX",
    "Kraken",
    "KuCoin",
    "LBank",
    "MEXC",
    "WEEX"
   ],
-  "cex_count": 9,
+  "cex_count": 10,
   "chat": "https://blog.marlin.org/",
   "commits_4w": null,
   "description": "High-performance network infrastructure for modern decentralized networks\n\n",
@@ -3447,7 +3673,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-11T21:03:43.800957+00:00",
+  "fetched": "2026-10-13T00:18:25.630110+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3456,13 +3682,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31920
+  "watchers": 31921
  },
  "memecoin-2": {
   "categories": [
@@ -3570,7 +3796,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-11T21:04:47.073637+00:00",
+  "fetched": "2026-10-13T00:20:51.778699+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3584,7 +3810,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7937
+  "watchers": 7941
  },
  "nearkat-2": {
   "categories": [
@@ -3678,7 +3904,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-10-11T21:45:09.981189+00:00",
+  "fetched": "2026-10-13T00:17:12.631982+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://ninjatraders.io/",
@@ -3694,7 +3920,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ninjasquadnft",
   "twitter_followers": null,
-  "watchers": 2900
+  "watchers": 2903
  },
  "nkyc-token": {
   "categories": [
@@ -4121,6 +4347,43 @@
   "twitter": "https://x.com/openvpp",
   "twitter_followers": null,
   "watchers": 976
+ },
+ "ore": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Mobile Mining"
+  ],
+  "cex": [
+   "LBank"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "ORE is future-proof electronic cash. ORE exists to advance the original vision for crypto, identified by Satoshi Nakamoto: creating digital money that cannot be debased or controlled by centralized authorities. \n\nBitcoin solved the double-spend problem. Solana solved scalability at the Layer 1 level. Modern wallets improved self-custody user experience. ORE solved the Proof-of-Work value leak.\n\nBuilt on Solana, ORE inherits the network's scalability, composability, and future upgrades, including privacy enhancements, without requiring the tradeoffs traditionally associated with securing blockchain consensus. For these reasons, we describe ORE (after Bitcoin: \"Peer-to-peer electronic cash\") as:\n- ORE, the asset, is a future-proof electronic cash system.\n- ORE, the protocol, is a future-proof electronic cash system on Solana.\n\nORE is named after Nicholas Oresme, the 14th-century philosopher and economist who argued that money should belong to the people who use it rather than rulers who debase it. That philosophy serves as the foundation for the protocol: in many ways, ORE is the continuation of a centuries-old idea \u2014 that monetary systems are strongest when they are governed by rules rather than rulers.",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2",
+   "Orca",
+   "Raydium"
+  ],
+  "discord": "https://discord.gg/bSKU7TdtcY",
+  "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
+  "fetched": "2026-10-13T00:19:41.946169+00:00",
+  "genesis": null,
+  "github": "https://github.com/regolith-labs/ore",
+  "homepage": "https://ore.supply/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/OREsupply",
+  "twitter_followers": null,
+  "watchers": 5136
  },
  "ovr": {
   "categories": [
@@ -4770,7 +5033,7 @@
   ],
   "discord": "https://discord.com/invite/rivalzai",
   "explorer": "https://basescan.org/token/0x67543CF0304C19CA62AC95ba82FD4F4B40788dc1",
-  "fetched": "2026-10-11T19:25:04.678238+00:00",
+  "fetched": "2026-10-13T00:19:38.723251+00:00",
   "genesis": null,
   "github": "https://github.com/Rivalz-ai",
   "homepage": "https://rivalz.ai/",
@@ -4781,7 +5044,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/RivalzAI_Ann",
   "telegram_users": null,
