@@ -836,6 +836,63 @@
   "twitter_followers": null,
   "watchers": 30425
  },
+ "bio-protocol": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Binance Launchpool",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Decentralized Science (DeSci)",
+   "Base Native"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "BigONE",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitbaby",
+   "Bitget",
+   "Bithumb",
+   "Bitlo",
+   "Bitrue"
+  ],
+  "cex_count": 48,
+  "chat": null,
+  "commits_4w": null,
+  "description": "BIO is a curation and liquidity protocol for Decentralized Science (DeSci). Our mission is to accelerate biotechnology by giving global communities of patients, scientists and biotech professionals the ability to collectively fund, build and own tokenized biotech projects and intellectual property (IP). \n\nThe team behind BIO helped create Molecule, a tokenization platform for early-stage biomedicine, and VitaDAO, the largest decentralized community for longevity science. Building on these successes, BIO is designed to catalyze an onchain scientific economy through decentralized funding, incentives and liquidity.\n\nThe BIO token gives holders access to BIO's network of scientific communities and IP, enabling broad exposure to the DeSci economy.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 2",
+   "Aerodrome Slipstream 3",
+   "Meteora DAMM V2",
+   "PancakeSwap V3 (BSC)",
+   "PancakeSwap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
+  "fetched": "2026-10-13T20:19:14.356920+00:00",
+  "genesis": null,
+  "github": "https://github.com/bio-xyz",
+  "homepage": "https://www.bio.xyz/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/bio_protocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/bioprotocol",
+  "twitter_followers": null,
+  "watchers": 17121
+ },
  "bitmine-immersion-technologies-bstocks-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -1411,11 +1468,12 @@
    "TikTok Meme"
   ],
   "cex": [
+   "Hadron",
    "LBank",
    "MEXC",
    "Manifest"
   ],
-  "cex_count": 3,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
@@ -1426,7 +1484,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-10-11T19:53:33.414653+00:00",
+  "fetched": "2026-10-13T20:19:11.048752+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -1434,13 +1492,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 41
+  "watchers": 45
  },
  "clawpump-tech": {
   "categories": [
@@ -2067,6 +2125,42 @@
   "twitter": "https://x.com/dimitratech",
   "twitter_followers": null,
   "watchers": 13514
+ },
+ "doge-pepe": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed",
+   "Frog-Themed",
+   "The Boy\u2019s Club"
+  ],
+  "cex": [
+   "Matcha (Ethereum)"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Doge Pepe ($DOPE) is an Ethereum-based memecoin inspired by a viral AI coding accident that resulted in the creation of a unique 3D hybrid character combining Doge and Pepe, two of the internet's most recognizable meme icons.\n\nThe story began when a creator experimenting with 3D meme design accidentally ran a script through the wrong API, consuming over 400 million tokens and generating approximately $1,900 in API charges. The unexpected result was a humorous Doge\u2013Pepe hybrid character, nicknamed \"DOPE.\"\n\nDoge Pepe transforms this accidental creation into a community-driven meme identity, celebrating internet humor, AI mishaps, creativity, and meme culture.\n\nBuilt on Ethereum, $DOPE represents the character and its origin story rather than claiming to be an AI tool or technology platform.\n\n**Project slogan:** Wrong API. Right face.",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x73df7018cbcb919ccde48c3f12f4326688ac4446",
+  "fetched": "2026-10-13T20:19:07.799617+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.dogepepeeth.lol/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 85.71,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/DogePepeETH",
+  "twitter_followers": null,
+  "watchers": 131
  },
  "dot": {
   "categories": [
@@ -3160,7 +3254,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-10-11T21:47:45.951574+00:00",
+  "fetched": "2026-10-13T20:20:21.143234+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -3177,7 +3271,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 1110
+  "watchers": 1114
  },
  "ix-swap": {
   "categories": [
@@ -4112,7 +4206,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6UtY9iTZMQQ5QZVrbzFnNaJntV7oySm9k97mvwnuZcxr",
-  "fetched": "2026-10-11T21:44:03.402394+00:00",
+  "fetched": "2026-10-13T20:19:04.603322+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nearkat.xyz/",
@@ -4126,7 +4220,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NearKatSol",
   "twitter_followers": null,
-  "watchers": 250
+  "watchers": 255
  },
  "nextplace": {
   "categories": [
@@ -5760,7 +5854,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xFeDC5f4a6c38211c1338aa411018DFAf26612c08",
-  "fetched": "2026-10-11T22:10:56.670264+00:00",
+  "fetched": "2026-10-13T20:20:17.832947+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/spyon",
@@ -5771,7 +5865,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
