@@ -108,16 +108,16 @@
    "BYDFi",
    "Biconomy.com",
    "Binance",
-   "Binance US",
    "BingX",
    "Bit2Me",
    "BitKan",
    "Bitkub",
    "Bitlo",
    "Bitrue",
-   "Bittime"
+   "Bittime",
+   "Bitunix"
   ],
-  "cex_count": 45,
+  "cex_count": 44,
   "chat": null,
   "commits_4w": null,
   "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
@@ -131,7 +131,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-10-13T00:37:38.194588+00:00",
+  "fetched": "2026-10-14T11:50:21.343881+00:00",
   "genesis": null,
   "github": "https://github.com/aixbt",
   "homepage": "https://aixbt.tech",
@@ -147,7 +147,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/aixbt_agent",
   "twitter_followers": null,
-  "watchers": 38574
+  "watchers": 38573
  },
  "aleo": {
   "categories": [
@@ -321,11 +321,12 @@
   "dex": [
    "BabySwap",
    "Biswap",
-   "PancakeSwap (v2)"
+   "PancakeSwap (v2)",
+   "Uniswap V4 (Base)"
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-10-12T13:49:17.532714+00:00",
+  "fetched": "2026-10-14T11:51:38.097178+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -340,7 +341,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113483
+  "watchers": 113479
  },
  "amp-token": {
   "categories": [
@@ -667,7 +668,7 @@
   ],
   "discord": "https://discord.gg/auki",
   "explorer": "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
-  "fetched": "2026-10-13T03:06:09.895063+00:00",
+  "fetched": "2026-10-14T11:51:31.443836+00:00",
   "genesis": null,
   "github": "https://github.com/aukilabs",
   "homepage": "https://www.auki.com/",
@@ -676,13 +677,13 @@
    "peaq"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/AukiNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/Auki",
   "twitter_followers": null,
-  "watchers": 6578
+  "watchers": 6576
  },
  "aurora-near": {
   "categories": [
@@ -1085,7 +1086,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-13T00:46:55.042407+00:00",
+  "fetched": "2026-10-14T11:54:10.762873+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -1100,7 +1101,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114153
+  "watchers": 114151
  },
  "bundle-cat": {
   "categories": [
@@ -1403,7 +1404,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-10-13T00:48:09.000288+00:00",
+  "fetched": "2026-10-14T11:54:13.971357+00:00",
   "genesis": null,
   "github": "https://github.com/rayonlabs/chutes",
   "homepage": "https://chutes.ai/",
@@ -1417,7 +1418,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
-  "watchers": 2094
+  "watchers": 2093
  },
  "circle-rstock-2": {
   "categories": [
@@ -1607,19 +1608,19 @@
   "dex": [],
   "discord": "https://discord.com/invite/7sAEVGza8w",
   "explorer": null,
-  "fetched": "2026-10-13T00:41:48.082835+00:00",
+  "fetched": "2026-10-14T11:54:00.920353+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clore.ai",
   "platforms": [],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/clorechat",
   "telegram_users": null,
   "twitter": "https://x.com/clore_ai",
   "twitter_followers": null,
-  "watchers": 23162
+  "watchers": 23160
  },
  "codec-flow": {
   "categories": [
@@ -2108,7 +2109,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
-  "fetched": "2026-10-13T00:39:21.332047+00:00",
+  "fetched": "2026-10-14T11:51:41.368833+00:00",
   "genesis": null,
   "github": "https://github.com/DimitraAgTech",
   "homepage": "https://dimitra.io",
@@ -2116,7 +2117,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/dimitraofficialgroup",
   "telegram_users": null,
@@ -2229,6 +2230,61 @@
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
   "watchers": 3493
+ },
+ "dusk-network": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Layer 1 (L1)",
+   "Ethereum Ecosystem",
+   "Zero Knowledge (ZK)",
+   "Real World Assets (RWA)",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Privacy Blockchain"
+  ],
+  "cex": [
+   "BTCC",
+   "Bancor (V2)",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "BitKan",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "CEX.IO"
+  ],
+  "cex_count": 31,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ\u2014Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V1 (BSC)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/dusk-official",
+  "explorer": "https://apps.dusk.network/explorer/",
+  "fetched": "2026-10-14T11:51:34.682733+00:00",
+  "genesis": null,
+  "github": "https://github.com/dusk-network/dusk-blockchain",
+  "homepage": "https://dusk.network/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/DuskNetwork/",
+  "sentiment_up": 53.85,
+  "stars": null,
+  "telegram": "https://t.me/DuskNetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/DuskFoundation",
+  "twitter_followers": null,
+  "watchers": 32021
  },
  "edu-coin": {
   "categories": [
@@ -2594,7 +2650,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-10-13T00:37:41.479895+00:00",
+  "fetched": "2026-10-14T11:50:27.984935+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -2727,7 +2783,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-13T00:36:31.414068+00:00",
+  "fetched": "2026-10-14T11:50:18.116472+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -2854,10 +2910,9 @@
    "bStocks Ecosystem"
   ],
   "cex": [
-   "Binance",
-   "KCEX"
+   "Binance"
   ],
-  "cex_count": 2,
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -2870,7 +2925,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-13T00:39:31.322757+00:00",
+  "fetched": "2026-10-14T11:52:47.889993+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2884,7 +2939,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 41
+  "watchers": 42
  },
  "genesysgo-shadow": {
   "categories": [
@@ -3300,7 +3355,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-13T00:39:18.006468+00:00",
+  "fetched": "2026-10-14T11:52:51.168407+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -3316,7 +3371,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/IxsFinance",
   "twitter_followers": null,
-  "watchers": 11511
+  "watchers": 11509
  },
  "jean-phil": {
   "categories": [
@@ -3619,7 +3674,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-10-11T21:47:36.280642+00:00",
+  "fetched": "2026-10-14T11:54:04.208548+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -3629,13 +3684,13 @@
    "osmosis"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+4FqlzOzdMTo1ZTdk",
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3603
+  "watchers": 3601
  },
  "lcx": {
   "categories": [
@@ -3871,7 +3926,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-13T00:48:05.594675+00:00",
+  "fetched": "2026-10-14T11:54:07.532214+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3881,13 +3936,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 75.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38900
+  "watchers": 38908
  },
  "mamo": {
   "categories": [
@@ -4167,7 +4222,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-13T00:40:37.913628+00:00",
+  "fetched": "2026-10-14T11:52:54.411929+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -4175,13 +4230,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7941
+  "watchers": 7942
  },
  "nearkat-2": {
   "categories": [
@@ -5439,7 +5494,7 @@
   ],
   "discord": "https://discord.com/invite/rivalzai",
   "explorer": "https://basescan.org/token/0x67543CF0304C19CA62AC95ba82FD4F4B40788dc1",
-  "fetched": "2026-10-13T00:39:27.858346+00:00",
+  "fetched": "2026-10-14T11:52:57.661418+00:00",
   "genesis": null,
   "github": "https://github.com/Rivalz-ai",
   "homepage": "https://rivalz.ai/",
@@ -6363,7 +6418,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-10-12T15:20:12.942393+00:00",
+  "fetched": "2026-10-14T11:52:44.675365+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -6378,7 +6433,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
-  "watchers": 19326
+  "watchers": 19324
  },
  "tsuki": {
   "categories": [
@@ -6723,7 +6778,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-10-13T00:46:51.726026+00:00",
+  "fetched": "2026-10-14T11:50:24.597134+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
