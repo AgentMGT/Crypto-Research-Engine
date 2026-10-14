@@ -483,7 +483,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xaeeaa594e7dc112d67b8547fe9767a02c15b5597",
-  "fetched": "2026-10-12T22:47:22.944122+00:00",
+  "fetched": "2026-10-14T01:18:18.862944+00:00",
   "genesis": null,
   "github": "https://github.com/AcronymFoundation",
   "homepage": "https://www.anvil.xyz",
@@ -491,7 +491,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -717,7 +717,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-12T22:48:32.636502+00:00",
+  "fetched": "2026-10-14T01:18:08.175699+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -733,7 +733,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23696
+  "watchers": 23694
  },
  "ava-ai": {
   "categories": [
@@ -810,7 +810,7 @@
    "DigiFinex",
    "Gate"
   ],
-  "cex_count": 21,
+  "cex_count": 22,
   "chat": null,
   "commits_4w": null,
   "description": "BENQI is a decentralized non-custodial liquidity market protocol, built on Avalanche. The protocol enables users to effortlessly lend, borrow, and earn interest with their digital assets. Depositors providing liquidity to the protocol may earn passive income, while borrowers are able to borrow in an over-collateralized manner.",
@@ -820,7 +820,7 @@
   ],
   "discord": null,
   "explorer": "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
-  "fetched": "2026-10-12T22:49:45.538750+00:00",
+  "fetched": "2026-10-14T01:18:22.402740+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.benqi.fi/",
@@ -828,13 +828,13 @@
    "avalanche"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/BenqiFinance",
   "telegram_users": null,
   "twitter": "https://x.com/BenqiFinance",
   "twitter_followers": null,
-  "watchers": 30425
+  "watchers": 30422
  },
  "bio-protocol": {
   "categories": [
@@ -1046,7 +1046,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-13T00:36:24.859025+00:00",
+  "fetched": "2026-10-14T01:17:04.304425+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -1054,13 +1054,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/bobocouncil",
   "twitter_followers": null,
-  "watchers": 420
+  "watchers": 421
  },
  "brickken": {
   "categories": [
@@ -1508,10 +1508,8 @@
    "AI Agent Launchpad",
    "Pump Fund Portfolio"
   ],
-  "cex": [
-   "Manifest"
-  ],
-  "cex_count": 1,
+  "cex": [],
+  "cex_count": 0,
   "chat": null,
   "commits_4w": null,
   "description": "The official token from the clawpump.tech agentic gateway to Solana. Clawpump is a gasless. ClawPump enables AI agents to launch tokens on pump.fun without paying gas fees, solving the coldstart problems for agents entering Solana. The platform sponsors token creation, collects trading fees hourly, and distributes 65% of all revenue directly to agents.  Clawpump enables launches via SOL or USDC (x402 protocol), multiDEX arbitrage, and social skills for agents.",
@@ -1522,7 +1520,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
-  "fetched": "2026-10-12T22:51:08.168637+00:00",
+  "fetched": "2026-10-14T01:21:55.538232+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.clawpump.tech",
@@ -1530,13 +1528,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/clawpumptech",
   "twitter_followers": null,
-  "watchers": 222
+  "watchers": 227
  },
  "clearpool": {
   "categories": [
@@ -1647,7 +1645,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-12T22:48:29.430687+00:00",
+  "fetched": "2026-10-14T01:20:37.384976+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1662,7 +1660,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1688
+  "watchers": 1685
  },
  "coin98": {
   "categories": [
@@ -2178,7 +2176,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-10-13T00:37:47.968610+00:00",
+  "fetched": "2026-10-14T01:18:11.728625+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -2192,7 +2190,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
-  "watchers": 440
+  "watchers": 441
  },
  "dowge": {
   "categories": [
@@ -2216,7 +2214,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-10-12T22:47:19.740952+00:00",
+  "fetched": "2026-10-14T01:16:49.359237+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dji6930.com/",
@@ -2230,7 +2228,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
-  "watchers": 3492
+  "watchers": 3493
  },
  "edu-coin": {
   "categories": [
@@ -2401,7 +2399,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x04c46e830bb56ce22735d5d8fc9cb90309317d0f",
-  "fetched": "2026-10-12T22:50:58.518087+00:00",
+  "fetched": "2026-10-14T01:19:33.483670+00:00",
   "genesis": null,
   "github": "https://github.com/EkuboProtocol",
   "homepage": "https://app.ekubo.org/",
@@ -2410,13 +2408,13 @@
    "starknet"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/Ekubo_Protocol",
   "telegram_users": null,
   "twitter": "https://x.com/EkuboProtocol",
   "twitter_followers": null,
-  "watchers": 1875
+  "watchers": 1881
  },
  "elizaos": {
   "categories": [
@@ -3571,7 +3569,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-10-12T22:50:55.276373+00:00",
+  "fetched": "2026-10-14T01:19:29.910060+00:00",
   "genesis": null,
   "github": "https://github.com/Cryptense/KryllToken",
   "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
@@ -3716,7 +3714,7 @@
   ],
   "discord": "https://lmwr.co/discord",
   "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-13T00:38:14.693554+00:00",
+  "fetched": "2026-10-14T01:20:48.082749+00:00",
   "genesis": null,
   "github": "https://github.com/LimeWireOfficial",
   "homepage": "https://limewire.com/u/home",
@@ -3726,13 +3724,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/limewire",
   "telegram_users": null,
   "twitter": "https://x.com/limewire",
   "twitter_followers": null,
-  "watchers": 15719
+  "watchers": 15718
  },
  "lisk": {
   "categories": [
@@ -3954,7 +3952,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
-  "fetched": "2026-10-12T22:49:42.343632+00:00",
+  "fetched": "2026-10-14T01:19:26.342002+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.mansory.com/",
@@ -3990,14 +3988,13 @@
    "Bitvavo",
    "Coinbase Exchange",
    "Gate",
-   "HTX",
    "Kraken",
    "KuCoin",
    "LBank",
    "MEXC",
    "WEEX"
   ],
-  "cex_count": 10,
+  "cex_count": 9,
   "chat": "https://blog.marlin.org/",
   "commits_4w": null,
   "description": "High-performance network infrastructure for modern decentralized networks\n\n",
@@ -4006,7 +4003,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-13T00:37:51.215897+00:00",
+  "fetched": "2026-10-14T01:20:51.564824+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -4015,13 +4012,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31921
+  "watchers": 31922
  },
  "mass-vehicle-ledger": {
   "categories": [
@@ -4278,7 +4275,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-10-13T00:17:12.631982+00:00",
+  "fetched": "2026-10-14T01:16:56.625201+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://ninjatraders.io/",
@@ -5350,7 +5347,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 60,
+  "cex_count": 58,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -5364,7 +5361,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-12T22:49:48.789654+00:00",
+  "fetched": "2026-10-14T01:20:44.557453+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -5375,13 +5372,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 78.13,
+  "sentiment_up": 81.82,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90657
+  "watchers": 90676
  },
  "resistance-dog": {
   "categories": [
@@ -5485,7 +5482,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-12T22:49:39.089024+00:00",
+  "fetched": "2026-10-14T01:18:15.287510+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -5502,7 +5499,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/trize_io",
   "twitter_followers": null,
-  "watchers": 7333
+  "watchers": 7330
  },
  "robinhood-bstocks-tokenized-stock": {
   "categories": [
@@ -6071,7 +6068,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-10-12T22:48:26.228971+00:00",
+  "fetched": "2026-10-14T01:20:40.970747+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -6082,13 +6079,67 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 75.0,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
-  "watchers": 28860
+  "watchers": 28858
+ },
+ "tesla-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Binance Alpha Spotlight",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "BingX",
+   "CoinW",
+   "Gate",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Matcha (BSC)",
+   "Ondo Stocks",
+   "Toobit"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "TSLAon is the Ondo Tokenized version of Tesla, giving tokenholders economic exposure similar to holding TSLA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (BSC)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+  "fetched": "2026-10-14T01:21:59.164274+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/tslaon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 371
  },
  "test-3": {
   "categories": [
@@ -6348,7 +6399,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/463SK47VkB7uE7XenTHKiVcMtxRsfNE2X4Q9wByaURVA",
-  "fetched": "2026-10-12T22:47:10.102394+00:00",
+  "fetched": "2026-10-14T01:17:00.207683+00:00",
   "genesis": null,
   "github": null,
   "homepage": "http://tsukionsol.xyz",
@@ -6362,7 +6413,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 726
+  "watchers": 727
  },
  "uranium": {
   "categories": [
@@ -6576,7 +6627,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-12T22:46:06.593501+00:00",
+  "fetched": "2026-10-14T01:16:53.058913+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -6590,7 +6641,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 153
+  "watchers": 156
  },
  "wormhole": {
   "categories": [
