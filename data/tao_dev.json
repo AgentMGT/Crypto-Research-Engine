@@ -212,6 +212,13 @@
 "repo": "DendriteHQ/SOMA",
 "t": 1792149547.2817101
 },
+"dendritelabs/ingot": {
+"capped": false,
+"commits_30d": 2,
+"last_commit": "2026-10-16T17:55:58Z",
+"repo": "DendriteLabs/ingot",
+"t": 1792173742.908952
+},
 "deprecated/deprecated": {
 "missing": true,
 "repo": "deprecated/deprecated",
@@ -530,10 +537,10 @@
 },
 "reaxlabs/reax-subnet": {
 "capped": false,
-"commits_30d": 70,
-"last_commit": "2026-10-15T19:47:50Z",
+"commits_30d": 88,
+"last_commit": "2026-10-16T16:29:41Z",
 "repo": "reaxlabs/reax-subnet",
-"t": 1792110221.2418787
+"t": 1792173742.908952
 },
 "redteamsubnet/redteam": {
 "capped": false,
