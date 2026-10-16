@@ -530,10 +530,10 @@
 },
 "reaxlabs/reax-subnet": {
 "capped": false,
-"commits_30d": 19,
-"last_commit": "2026-10-11T03:07:52Z",
+"commits_30d": 70,
+"last_commit": "2026-10-15T19:47:50Z",
 "repo": "reaxlabs/reax-subnet",
-"t": 1792063447.786007
+"t": 1792110221.2418787
 },
 "redteamsubnet/redteam": {
 "capped": false,
