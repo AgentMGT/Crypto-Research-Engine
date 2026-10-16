@@ -622,6 +622,47 @@
   "twitter_followers": null,
   "watchers": 17122
  },
+ "blue-chip-4": {
+  "categories": [
+   "Meme",
+   "Base Ecosystem",
+   "Base Meme"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Matcha (Base)",
+   "Ourbit",
+   "o1 Launchpad"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Bluechip on Base paired with tokenized NVDA stock",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
+  "fetched": "2026-10-16T11:22:17.442429+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://basebluechip.com/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/o1bluechip",
+  "twitter_followers": null,
+  "watchers": 342
+ },
  "bluzelle": {
   "categories": [
    "Smart Contract Platform",
@@ -1404,6 +1445,38 @@
   "twitter_followers": null,
   "watchers": 373
  },
+ "dogeball": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Meet $DOGEBALL, the world\u2019s only crypto playing DOGE! Combining the legendary DOGE spirit with the fun, energy, and competitive excitement of a ball game, DOGEBALL brings a fresh twist to meme culture. Built for the community, fueled by internet humor, and inspired by the unstoppable power of memes, $DOGEBALL is here to make crypto more entertaining. Whether you're a DOGE fan, a meme enthusiast, or simply looking for the next big meme phenomenon, DOGEBALL invites you to join the game, share the fun, and become part of the movement. The ball is in your court \u2014 are you ready to play DOGEBALL?",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xba41FF65Fd0a19Aa75dd4E6a04E9D3c15acaB887",
+  "fetched": "2026-10-16T11:22:14.208040+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.dogeballtoken.fun/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/dogeball_eth",
+  "twitter_followers": null,
+  "watchers": 2035
+ },
  "dot": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1550,9 +1623,9 @@
    "BloFin",
    "CoinTR",
    "CoinW",
-   "DigiFinex"
+   "Coinone"
   ],
-  "cex_count": 28,
+  "cex_count": 29,
   "chat": "https://opencampus-xyz.medium.com/",
   "commits_4w": null,
   "description": "Open Campus is a community-led protocol building the financial and credentialing rails for global education. We enable educators, learners, and institutions to issue verifiable credentials, access on-chain education finance (EduFi), and build consumer-facing education applications on a shared, open infrastructure.\n\nCore contributors to the Open Campus DAO include Animoca Brands, TinyTap, NewCampus, RiseIn, and HackQuest. Together, they are working with Open Campus to enhance the education system for teachers, learners, and institutions by using innovative blockchain protocols and funding initiatives.",
@@ -1563,7 +1636,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
-  "fetched": "2026-10-15T00:35:55.457703+00:00",
+  "fetched": "2026-10-16T11:23:27.211339+00:00",
   "genesis": null,
   "github": "https://github.com/opencampus-xyz/",
   "homepage": "https://www.opencampus.xyz/",
@@ -1573,13 +1646,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/opencampus_xyz",
   "twitter_followers": null,
-  "watchers": 38061
+  "watchers": 38062
  },
  "egl1": {
   "categories": [
@@ -2596,6 +2669,45 @@
   "twitter_followers": null,
   "watchers": 3600
  },
+ "lcx": {
+  "categories": [
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Centralized Exchange (CEX) Token",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Alleged SEC Securities",
+   "Dex Aggregator"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Kraken"
+  ],
+  "cex_count": 2,
+  "chat": "https://www.instagram.com/lcx.exchange/",
+  "commits_4w": null,
+  "description": "LCX.com is a platform that innovates capital markets by providing solutions for compliant digital\nassets and security tokens. It is a secure and compliant platform for buying, selling, transferring,\nand storing digital currency.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x8CD41041505885EF0aD3858181D66f17BE8aae7E",
+  "fetched": "2026-10-16T11:24:40.173734+00:00",
+  "genesis": null,
+  "github": "https://github.com/LCX-AG",
+  "homepage": "https://lcx.com/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 88.89,
+  "stars": null,
+  "telegram": "https://t.me/JoinLCX",
+  "telegram_users": null,
+  "twitter": "https://x.com/lcx",
+  "twitter_followers": null,
+  "watchers": 50239
+ },
  "limewire-token": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3142,6 +3254,61 @@
   "twitter": "https://x.com/MorpheusAIs",
   "twitter_followers": null,
   "watchers": 2379
+ },
+ "myshell": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DragonFly Capital Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Delphi Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "Binance HODLer Airdrops",
+   "AI Agent Launchpad",
+   "Binance Alpha Spotlight",
+   "AI Framework",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "BloFin",
+   "CEX.IO"
+  ],
+  "cex_count": 28,
+  "chat": null,
+  "commits_4w": null,
+  "description": "MyShell (http://myshell.ai/) is an AI consumer layer for everyone to build, share, and own AI agents. The team bridges AI and Blockchain through Agentic Frameworks, open-source models, and AI creator community. MyShell also provides users with AI-powered entertainment and utility while offering them shared ownership.\nTo learn more about MyShell, check the whitepaper (https://docs.myshell.ai/).\nMyShell leads in open-source AI with flagship models like MeloTTS (20M downloads in 2024) and OpenVoice (30K GitHub stars, top 0.03%). Both trended #1 on GitHub at launch.\nThe platform offers three modes for AI agent creation, catering to creators of different skill levels. ShellAgent is the most powerful and modular Agentic Framework.\nMyShell commercializes high-quality AI agents as investable assets for sustainable returns, benefiting both creators and investors.\nCurrently, 200K+ AI Agents are deployed on MyShell, with 170K active AI creators and 5M+ users.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
+  "fetched": "2026-10-16T11:23:30.406973+00:00",
+  "genesis": null,
+  "github": "https://github.com/myshell-ai",
+  "homepage": "https://myshell.ai/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/myshell_ai",
+  "twitter_followers": null,
+  "watchers": 3909
  },
  "natix-network": {
   "categories": [
@@ -3784,7 +3951,7 @@
   ],
   "discord": "https://discord.com/invite/phala-network",
   "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-10-14T20:45:49.303690+00:00",
+  "fetched": "2026-10-16T11:24:36.963122+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://phala.network/",
@@ -3793,13 +3960,13 @@
    "sora"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 80.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
-  "watchers": 56601
+  "watchers": 56606
  },
  "pipe-network": {
   "categories": [
@@ -4050,7 +4217,7 @@
   ],
   "discord": "https://discord.com/invite/rivalzai",
   "explorer": "https://basescan.org/token/0x67543CF0304C19CA62AC95ba82FD4F4B40788dc1",
-  "fetched": "2026-10-14T11:52:57.661418+00:00",
+  "fetched": "2026-10-16T11:23:23.979244+00:00",
   "genesis": null,
   "github": "https://github.com/Rivalz-ai",
   "homepage": "https://rivalz.ai/",
@@ -4067,7 +4234,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rivalz_AI",
   "twitter_followers": null,
-  "watchers": 1548
+  "watchers": 1549
  },
  "rize": {
   "categories": [
@@ -4211,6 +4378,55 @@
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
   "watchers": 25864
+ },
+ "ronin": {
+  "categories": [
+   "Smart Contract Platform",
+   "Gaming (GameFi)",
+   "NFT",
+   "Layer 1 (L1)",
+   "Play To Earn",
+   "Zero Knowledge (ZK)",
+   "FTX Holdings",
+   "Gaming Blockchains",
+   "SideChain",
+   "Andreessen Horowitz (a16z) Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "Bithumb",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "CoinW",
+   "Coinone",
+   "Coins.ph",
+   "Crypto.com Exchange"
+  ],
+  "cex_count": 27,
+  "chat": null,
+  "commits_4w": null,
+  "description": "RON is the ecosystem token for the Ronin chain. It will eventually be used to pay gas fees and secure the network for both Axie Infinity and future games/products hosted on the chain.",
+  "dex": [],
+  "discord": "https://discord.gg/roninnetwork",
+  "explorer": "https://explorer.roninchain.com/",
+  "fetched": "2026-10-16T11:24:43.335315+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://roninchain.com",
+  "platforms": [],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Ronin_Network",
+  "twitter_followers": null,
+  "watchers": 77671
  },
  "sanctum-2": {
   "categories": [
@@ -4997,7 +5213,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-10-14T20:44:33.215339+00:00",
+  "fetched": "2026-10-16T11:22:20.621648+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
@@ -5005,13 +5221,13 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/UtyaDuck",
   "telegram_users": null,
   "twitter": "https://x.com/TonUtyacoin",
   "twitter_followers": null,
-  "watchers": 1833
+  "watchers": 1836
  },
  "walrus-2": {
   "categories": [
@@ -5153,6 +5369,59 @@
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
   "watchers": 43511
+ },
+ "xyo-network": {
+  "categories": [
+   "Internet of Things (IOT)",
+   "Oracle",
+   "NFT",
+   "Metaverse",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Alleged SEC Securities",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BitKan",
+   "Bithumb",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "Gate",
+   "GroveX",
+   "HTX",
+   "Kraken"
+  ],
+  "cex_count": 17,
+  "chat": "https://www.youtube.com/channel/UCyZDqb9pgntVHJVt1pxXtsw",
+  "commits_4w": null,
+  "description": "XYO is the cryptographic proof layer for the real world, collecting, validating, and delivering physical-world data to AI, robotics, Web3, and enterprise systems. XYO, the original Decentralized Physical Infrastructure Network (DePIN), has been operating since 2018 and now has more than 10 million nodes worldwide. \n\nAt the core of XYO is XYO Layer One, a scalable data blockchain built to support high-volume data industries such as AI, robotics, location intelligence, and real-world asset (RWA) systems. Designed for high throughput and low transaction costs, it gives these data-intensive applications the capacity to process and validate information across massive datasets. XYO Layer One anchors XYO's Proof of Location and Proof of Origin technologies, establishing a verified origin, precise timing, and trusted source behind every piece of data. This verified data directly feeds the XYO AI SDK, a product built by XYO to provide accessibility for developers to build AI-powered applications, autonomous agents, robotics integrations and more using real-world data.\n\nXYO employs a unique dual-token model:\n\nXYO Token: An externally traded token supporting the DePIN ecosystem, rewards, staking, and governance, enhancing overall ecosystem value and scarcity.\n\n\nXL1 Token: Internal to the XYO Layer One blockchain, facilitating transactions, gas fees, and other blockchain-specific use cases.\n\nThe dual-token economics are strategically designed to increase scarcity and promote sustainable ",
+  "dex": [
+   "Curve (Ethereum)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/officialxyo",
+  "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
+  "fetched": "2026-10-16T11:23:33.619228+00:00",
+  "genesis": null,
+  "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
+  "homepage": "https://xyo.network/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/XYONetwork/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/official_xyo",
+  "telegram_users": null,
+  "twitter": "https://x.com/officialxyo",
+  "twitter_followers": null,
+  "watchers": 38900
  },
  "yee-token": {
   "categories": [
