@@ -73,7 +73,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-10-13T13:11:00.870117+00:00",
+  "fetched": "2026-10-16T03:24:12.757391+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -87,7 +87,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 9693
+  "watchers": 9691
  },
  "aixbt": {
   "categories": [
@@ -388,9 +388,10 @@
   "cex": [
    "Bitkub",
    "Coinbase Exchange",
-   "Gate"
+   "Gate",
+   "LATOKEN"
   ],
-  "cex_count": 3,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "The ArcBlock project was created to create the first Blockchain ecosystem in the world. Develop and develop decentralized applications (DApp) according to objectives. ArcBlock, one of the ICO projects emerging in early 2018. Just launched on 3/1/2018, ArcBlock has quickly attracted the attention of technology as well as investors. ArcBlock brings great technological advancements that will open the third generation of blockchain applications.\n\nArcblock work by bridging the gap between different blockchains and their respective ecosystems has not been easy. There are some solutions which attempt to solve this problem, but it is evident there is plenty of room for competition in this regard. Building an open chain access layer capable of spanning multiple new and existing blockchains is a very interesting business model.\n\nBuilding a new ecosystem meant to connect various chains will not be easy. As of right now, the team has completed its token sale, and the first public release candidate for the Open Chain Access Protocol will be released in Q3. Early 2019 will herald the introduction of more technical features and an Ethereum Blocklet prototype.",
@@ -400,7 +401,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-14T18:39:34.692587+00:00",
+  "fetched": "2026-10-16T03:24:19.320346+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -408,7 +409,7 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/arcblock/",
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/ArcBlock",
   "telegram_users": null,
@@ -652,7 +653,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
-  "fetched": "2026-10-14T18:39:31.402139+00:00",
+  "fetched": "2026-10-16T03:24:16.072266+00:00",
   "genesis": "2018-01-15",
   "github": "https://github.com/njmurarka/bluzelle",
   "homepage": "https://bluzelle.com/",
@@ -669,7 +670,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BluzelleHQ",
   "twitter_followers": null,
-  "watchers": 23882
+  "watchers": 23883
  },
  "bobo-coin-2": {
   "categories": [
@@ -734,7 +735,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-14T11:54:10.762873+00:00",
+  "fetched": "2026-10-16T03:26:48.886741+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -749,7 +750,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114151
+  "watchers": 114152
  },
  "bundle-cat": {
   "categories": [
@@ -790,58 +791,6 @@
   "twitter": "https://x.com/BundleCatAI",
   "twitter_followers": null,
   "watchers": 372
- },
- "chex-token": {
-  "categories": [
-   "Decentralized Exchange (DEX)",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Base Ecosystem",
-   "RWA Protocol",
-   "Base Native"
-  ],
-  "cex": [
-   "Bitunix",
-   "Gate",
-   "Kraken",
-   "MEXC"
-  ],
-  "cex_count": 4,
-  "chat": "https://www.linkedin.com/company/chintai-eos/",
-  "commits_4w": null,
-  "description": "Chintai: The Licensed Tokenization Platform for Financial Institutions\nChintai is a fully licensed and regulated tokenization platform tailored specifically for financial institutions. Harnessing the power of the $CHEX token, Chintai provides an end-to-end, compliant white-label solution for seamlessly tokenizing a diverse range of real-world assets (RWAs) on its custom-built, permissioned Layer 1 blockchain. The $CHEX Token: The Backbone of Chintai's Ecosystem\n$CHEX is the native utility token of the Chintai network, driving liquidity incentives and resource management. Fully distributed and inherently deflationary, $CHEX features flywheel tokenomics, becoming increasingly scarce as the demand for Chintai's platform grows. The key attributes here are: fully distributed, flywheel tokenomics, scarcity &amp; real utility. The token is multi-chain, available on Ethereum, Solana, EOS, Binance Smart Chain, and, of course, the Chintai Network.",
-  "dex": [
-   "Aerodrome (Base)",
-   "Orca",
-   "Raydium (CLMM)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Base)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
-  "fetched": "2026-10-13T03:08:25.871652+00:00",
-  "genesis": null,
-  "github": "https://github.com/chintai-platform/chexchexchex",
-  "homepage": "https://chintai.io/",
-  "platforms": [
-   "base",
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": "https://www.reddit.com/r/chintai/",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/chex_token",
-  "telegram_users": null,
-  "twitter": "https://x.com/ChintaiNexus",
-  "twitter_followers": null,
-  "watchers": 19128
  },
  "chirp-token": {
   "categories": [
@@ -899,7 +848,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-10-14T11:54:13.971357+00:00",
+  "fetched": "2026-10-16T03:25:35.743610+00:00",
   "genesis": null,
   "github": "https://github.com/rayonlabs/chutes",
   "homepage": "https://chutes.ai/",
@@ -913,7 +862,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
-  "watchers": 2093
+  "watchers": 2095
  },
  "circle-rstock-2": {
   "categories": [
@@ -980,7 +929,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-10-13T20:19:11.048752+00:00",
+  "fetched": "2026-10-16T03:23:06.001260+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -988,13 +937,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 45
+  "watchers": 54
  },
  "claus-2": {
   "categories": [
@@ -1019,7 +968,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8",
-  "fetched": "2026-10-14T18:39:38.010360+00:00",
+  "fetched": "2026-10-16T03:24:22.572587+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://claus.si/",
@@ -1027,13 +976,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/contractclaus",
   "twitter_followers": null,
-  "watchers": 107
+  "watchers": 108
  },
  "clawpump-tech": {
   "categories": [
@@ -1144,19 +1093,19 @@
   "dex": [],
   "discord": "https://discord.com/invite/7sAEVGza8w",
   "explorer": null,
-  "fetched": "2026-10-14T11:54:00.920353+00:00",
+  "fetched": "2026-10-16T03:26:39.095156+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clore.ai",
   "platforms": [],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/clorechat",
   "telegram_users": null,
   "twitter": "https://x.com/clore_ai",
   "twitter_followers": null,
-  "watchers": 23160
+  "watchers": 23162
  },
  "codec-flow": {
   "categories": [
@@ -1198,68 +1147,6 @@
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
   "watchers": 1689
- },
- "coin98": {
-  "categories": [
-   "Decentralized Finance (DeFi)",
-   "BNB Chain Ecosystem",
-   "Perpetuals",
-   "Solana Ecosystem",
-   "Wallets",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "Binance Launchpad",
-   "DWF Labs Portfolio",
-   "Multicoin Capital Portfolio",
-   "Alameda Research Portfolio",
-   "Viction Ecosystem",
-   "YZi Labs (Prev. Binance Labs) Portfolio"
-  ],
-  "cex": [
-   "BTCC",
-   "BTSE",
-   "Binance",
-   "BingX",
-   "BitKan",
-   "Bitazza",
-   "Bithumb",
-   "Bitkub",
-   "Bitlo",
-   "Bitrue",
-   "Bitunix",
-   "Bitvavo"
-  ],
-  "cex_count": 41,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Coin98 is an all-in-one DeFi Platform that aims to fulfill untapped demand in the industry and become a Gateway bridging TradFi users to any DeFi services on multiple blockchains. It accomplishes this mission through a full suite of products, including Coin98 Wallet, Coin98 Exchange, and Space Gate (cross-chain bridge).\n\nCoin98 Wallet: Allows users to store, send, receive, manage crypto assets and connect to numerous dApps on multiple blockchains. It supports over 20 blockchains such as Ethereum, Binance Smart Chain, Solana, Polygon, Avalanche, Terra, etc on both mobile (iOS &amp; android) and Chrome extension versions.\n\nCoin98 Exchange: A multichain liquidity aggregator that allows users to swap, stake, lend, borrow, earn crypto with the best rates and low slippage.\n\nSpace Gate: A cross-chain bridge that enables swapping and transferring values across multiple networks. It supports token swaps between ERC20 tokens, BEP20 tokens, SPL tokens, and more.\n\nThe C98 token is the native utility token of the Coin98 platform and will be used to pay services fees, as staking incentives, for governance, and unique membership rights.",
-  "dex": [
-   "Biswap",
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "RabbitSwap",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xaec945e04baf28b135fa7c640f624f8d90f1c3a6",
-  "fetched": "2026-10-13T00:40:44.569642+00:00",
-  "genesis": null,
-  "github": "https://github.com/coin98",
-  "homepage": "https://coin98.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "polygon-pos",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/coin98_wallet",
-  "telegram_users": null,
-  "twitter": "https://x.com/coin98_wallet",
-  "twitter_followers": null,
-  "watchers": 38635
  },
  "constitutiondao": {
   "categories": [
@@ -1389,7 +1276,7 @@
   ],
   "discord": "https://discord.com/invite/cortexprotocol",
   "explorer": "https://etherscan.io/address/0x000000000000012DeF132E61759048bE5b5C6033",
-  "fetched": "2026-10-14T20:46:58.990311+00:00",
+  "fetched": "2026-10-16T03:25:29.282332+00:00",
   "genesis": null,
   "github": "https://github.com/cortexprotocol",
   "homepage": "https://cortexprotocol.com/",
@@ -1400,44 +1287,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Cortex_Protocol",
   "twitter_followers": null,
   "watchers": 1434
- },
- "crawlerpad": {
-  "categories": [
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Crawler is associated with Crawlpad, a Solana platform that pairs token launches on Pump.fun with a dedicated research crawler. Users can provide a project website and a research question, then direct the crawler to explore relevant public pages and gather useful context. Each run is designed to save source pages and their original links, giving communities a trail they can review and follow. Crawlpad aims to make project research more organized and transparent by helping users connect information, examine sources, and identify questions for further exploration. The platform brings token launches and curiosity-driven research together in one place.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/CQCDTp8rsFV3PhaPeYjcCW5LdGTxi6jFx7eC3UXnpump",
-  "fetched": "2026-10-13T03:07:19.467254+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://crawlerpad.online",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/crawlerpadsol",
-  "twitter_followers": null,
-  "watchers": 33
  },
  "cronus-2": {
   "categories": [
@@ -1786,14 +1642,14 @@
    "BVOX",
    "Balancer V3 (Ethereum)",
    "Biconomy.com",
+   "BigONE",
    "Binance",
+   "Binance US",
    "BingX",
    "Bit2Me",
-   "BitKan",
-   "Bitazza",
-   "Bitbaby"
+   "BitKan"
   ],
-  "cex_count": 62,
+  "cex_count": 66,
   "chat": "https://www.youtube.com/@EigenLayer",
   "commits_4w": null,
   "description": "Renzo is a restaking protocol that abstracts and manages AVS strategies for Liquid Restaking Tokens (LRTs), making Ethereum and Solana restaking ezpz and accessible to everyone. The products $ezETH, $pzETH, and $ezSOL serve as interfaces to the EigenLayer, Symbiotic, and Jito Network ecosystems, respectively. Renzo's mission is to make restaking easy and accessible to everyone while abstracting the complexity away from the end user.",
@@ -1805,7 +1661,7 @@
   ],
   "discord": "https://discord.gg/eigenlayer",
   "explorer": "https://etherscan.io/token/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
-  "fetched": "2026-10-15T00:35:45.798916+00:00",
+  "fetched": "2026-10-16T03:26:45.627980+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.eigencloud.xyz/",
@@ -1814,13 +1670,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/eigenlayer",
   "twitter_followers": null,
-  "watchers": 29628
+  "watchers": 29633
  },
  "ekubo-protocol": {
   "categories": [
@@ -2080,7 +1936,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-14T18:41:08.637840+00:00",
+  "fetched": "2026-10-16T03:25:32.523864+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2091,13 +1947,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7595
+  "watchers": 7596
  },
  "froggie": {
   "categories": [
@@ -2216,7 +2072,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-14T18:38:24.587275+00:00",
+  "fetched": "2026-10-16T03:27:55.495615+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -2232,7 +2088,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/GamerHashCom",
   "twitter_followers": null,
-  "watchers": 23672
+  "watchers": 23671
  },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
@@ -2646,64 +2502,6 @@
   "twitter_followers": null,
   "watchers": 11511
  },
- "joe": {
-  "categories": [
-   "Decentralized Exchange (DEX)",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "Yield Farming",
-   "Automated Market Maker (AMM)",
-   "BNB Chain Ecosystem",
-   "Avalanche Ecosystem",
-   "Launchpad",
-   "Arbitrum Ecosystem",
-   "Mantle Ecosystem",
-   "DeFiance Capital Portfolio",
-   "Delphi Ventures Portfolio",
-   "Dex Aggregator"
-  ],
-  "cex": [
-   "BVOX",
-   "Binance",
-   "BingX",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bittime",
-   "Bitunix",
-   "BloFin",
-   "Crypto.com Exchange",
-   "Deepcoin"
-  ],
-  "cex_count": 30,
-  "chat": "https://joecontent.substack.com/",
-  "commits_4w": null,
-  "description": "Trader Joe is a leading decentralised exchange on Arbitrum, Avalanche and BNB Chain. \n\nOn the Trader Joe platform you can swap tokens, provide liquidity, yield farm and also shop for NFTs at the Joepegs Marketplace.\n\nThe Trader Joe DEX is powered by the Liquidity Book Automated Market Maker (AMM), the most efficient and versatile AMM in DeFi.\n\nJOE is the native governance token that also accrues a share of trading fees collected by Liquidity Pools.",
-  "dex": [
-   "LFJ"
-  ],
-  "discord": "https://discord.com/invite/lfj",
-  "explorer": "https://snowtrace.io/token/0x6e84a6216ea6dacc71ee8e6b0a5b7322eebc0fdd",
-  "fetched": "2026-10-13T00:48:02.280103+00:00",
-  "genesis": null,
-  "github": "https://github.com/traderjoe-xyz",
-  "homepage": "https://lfj.gg/avalanche",
-  "platforms": [
-   "arbitrum-one",
-   "avalanche",
-   "binance-smart-chain",
-   "mantle"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/LFJ_gg",
-  "twitter_followers": null,
-  "watchers": 62918
- },
  "kryll": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2896,59 +2694,6 @@
   "twitter_followers": null,
   "watchers": 10133
  },
- "lisk": {
-  "categories": [
-   "Smart Contract Platform",
-   "Ethereum Ecosystem",
-   "Layer 2 (L2)",
-   "Base Ecosystem",
-   "Optimism Superchain Ecosystem",
-   "Outlier Ventures Portfolio",
-   "Lisk Ecosystem",
-   "Base Native"
-  ],
-  "cex": [
-   "Binance",
-   "BingX",
-   "Bit2Me",
-   "Bithumb",
-   "Bitrue",
-   "Bitvavo",
-   "CoinUp.io",
-   "Coincheck",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "HTX"
-  ],
-  "cex_count": 25,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Base and Ethereum, with Base as its primary Layer 2 network. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
-  "dex": [
-   "Aerodrome Slipstream 2",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-10-13T00:40:41.220304+00:00",
-  "genesis": null,
-  "github": "https://github.com/LiskHQ/lisk-sdk",
-  "homepage": "https://lisk.com",
-  "platforms": [
-   "base",
-   "ethereum",
-   "lisk"
-  ],
-  "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/Lisk",
-  "twitter_followers": null,
-  "watchers": 30228
- },
  "livepeer": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3091,7 +2836,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-14T11:54:07.532214+00:00",
+  "fetched": "2026-10-16T03:26:42.352929+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3101,13 +2846,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 75.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38908
+  "watchers": 38913
  },
  "mamo": {
   "categories": [
@@ -3241,47 +2986,6 @@
   "twitter_followers": null,
   "watchers": 31921
  },
- "mass-vehicle-ledger": {
-  "categories": [
-   "Internet of Things (IOT)",
-   "BNB Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "DWF Labs Portfolio"
-  ],
-  "cex": [
-   "Bithumb",
-   "Gate",
-   "Upbit"
-  ],
-  "cex_count": 3,
-  "chat": "https://t.me/mvlchain_kr",
-  "commits_4w": null,
-  "description": "It is a blockchain-based ecosystem that connects all services, like the car dealer shops, mechanic shops and car rental companies, that touch your car to collect its lifetime data. \n\nParticipants from automobile-related companies, services or trade industry will be connected and they will insert core data related to driving, traffic accidents, repairs and other car-related transactions into the blockchain. \n\nParticipants who provide data related to automobile will receive MVL Point (MVP), a reward system used to encourage contribution to the ecosystem. ",
-  "dex": [
-   "Biswap",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
-  "fetched": "2026-10-13T00:47:58.596408+00:00",
-  "genesis": null,
-  "github": "https://github.com/mvlchain/PWSwitch",
-  "homepage": "https://mvlchain.io/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "the-open-network"
-  ],
-  "reddit": "https://www.reddit.com/r/MVL",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/mvlchain_en",
-  "telegram_users": null,
-  "twitter": "https://x.com/mvlchain",
-  "twitter_followers": null,
-  "watchers": 2976
- },
  "memecoin-2": {
   "categories": [
    "NFT",
@@ -3381,7 +3085,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-10-15T00:34:39.316496+00:00",
+  "fetched": "2026-10-16T03:23:09.355081+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://moolahbnb.com",
@@ -3692,7 +3396,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-14T18:41:15.277350+00:00",
+  "fetched": "2026-10-16T03:25:25.991489+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3707,7 +3411,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30281
+  "watchers": 30285
  },
  "openeden": {
   "categories": [
@@ -3903,10 +3607,9 @@
    "Bilaxy",
    "Gate",
    "KuCoin",
-   "MEXC",
-   "MachineX"
+   "MEXC"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": "https://www.instagram.com/over.metaverse/",
   "commits_4w": null,
   "description": "OVER: Decentralized Physical AI &amp; World's Largest 3D Map\n\nOVER is a leading Physical AI platform building the world's largest 3D map. Leveraging a Decentralized Physical Infrastructure Network (DePIN) framework, OVER incentivizes a global community of mappers with OVR Tokens to scan high-traffic locations using common smartphones and 360-degree cameras.\nWith over 150,000 locations mapped and 60 million+ images, OVER possesses the most extensive 3D Map dataset globally. This proprietary data powers diverse Physical AI applications: from training cutting-edge Vision Foundation Models to enabling precise Visual Positioning Systems and fostering AI-powered Extended Reality (XR) publishing and browsing.\n\nVision Foundation Models Training: OVER utilizes its vast 3D Map data to train Vision Foundation Models crucial for robotics machine perception, coherent 3D reconstruction, and generation from monocular views. OVER both directly trains these models and licenses its data to leading AI companies and research centers.\n\nVisual Positioning System (VPS): OVER offers an API-based, state-of-the-art Visual Positioning System (VPS) service across all its mapped locations. This technology allows devices and robots to determine their position and bearing in space with centimeter-level precision. This is critical for the future of robotics, augmented reality, and fleet management. Thanks to its patent-pending TEE-powered VPS, OVER ensures end-to-end privacy for re-localization tasks.\n\nXR P",
@@ -3920,7 +3623,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-14T18:39:28.135063+00:00",
+  "fetched": "2026-10-16T03:26:52.171126+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3937,7 +3640,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114924
+  "watchers": 114925
  },
  "paradex": {
   "categories": [
@@ -4307,7 +4010,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-10-14T20:45:39.691146+00:00",
+  "fetched": "2026-10-16T03:22:59.566776+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -4315,13 +4018,13 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/redotoken",
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12928
+  "watchers": 12927
  },
  "rivalz-network": {
   "categories": [
@@ -5106,7 +4809,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
-  "fetched": "2026-10-14T18:37:10.864448+00:00",
+  "fetched": "2026-10-16T03:23:02.787490+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.thestonks.exchange/",
@@ -5120,41 +4823,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Stonks_Exchange",
   "twitter_followers": null,
-  "watchers": 345
- },
- "tokenize-everything": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Tokenize Everything is the memecoin that took the most repeated phrase in crypto and made it literal. For years the sharpest voices in the space have said the future is to tokenize everything. So we did exactly that. Launched on Solana through pump dot fun, $EVERYTHING is equal parts celebration and satire of the massive real world asset narrative that Wall Street and institutions are now aggressively pursuing.\n\nStocks, bonds, real estate, commodities, identities, and literally everything else is heading onchain. $EVERYTHING exists as the cultural token and spiritual common denominator for this transformation. It revives the ancient human practice of barter where trust and community allowed direct trade of real goods before banks and governments complicated the world.\n\nOur community is the entire story. A vibrant, creative, and relentlessly positive group of meme makers, traders, and believers who create elite content daily and foster genuine culture. What started as a joke has evolved into one of the most organic and energetic movements on Solana. The vibes are immaculate, the humor is sharp, and the belief runs deep.\n\nWe are early to one of the largest financial shifts in history and we are doing it with laughter and heart. Tokenize responsibly. Join the everything gang.",
-  "dex": [
-   "Meteora",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/E6vtwCUtcNJdQEPGY8vWKahtu2sfwxQ4j68pUKm7pump",
-  "fetched": "2026-10-13T03:06:06.743625+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://everythingtoken.xyz/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/TokenizeEverythingTelegram",
-  "telegram_users": null,
-  "twitter": "https://x.com/everythingrwas",
-  "twitter_followers": null,
-  "watchers": 19
+  "watchers": 346
  },
  "tornado-cash": {
   "categories": [
