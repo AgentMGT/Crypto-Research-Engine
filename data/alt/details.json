@@ -349,6 +349,47 @@
   "twitter_followers": null,
   "watchers": 113478
  },
+ "anthropic-prestocks-2": {
+  "categories": [
+   "Tokenized Assets",
+   "Solana Ecosystem",
+   "Real World Assets (RWA)",
+   "Solana Token-2022",
+   "PreStocks Ecosystem",
+   "Tokenized Pre-IPO Stocks"
+  ],
+  "cex": [
+   "Hadron",
+   "Manifest"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Anthropic is an AI research company developing Claude, a language model built with a strong focus on safety and interpretability. Their approach emphasizes ethical guardrails and transparent behavior to reduce the risk of harmful outputs while enabling sophisticated natural language capabilities.\n\n",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2",
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
+  "fetched": "2026-10-17T17:12:38.610538+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://prestocks.com/anthropic",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/PreStocksFi",
+  "telegram_users": null,
+  "twitter": "https://x.com/PreStocks",
+  "twitter_followers": null,
+  "watchers": 343
+ },
  "anvil": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -471,52 +512,6 @@
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
   "watchers": 11078
- },
- "auki-labs": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Augmented Reality",
-   "Metaverse",
-   "DePIN",
-   "Base Ecosystem",
-   "AI Applications",
-   "Outlier Ventures Portfolio",
-   "Peaq Ecosystem",
-   "Robotics",
-   "Base Native"
-  ],
-  "cex": [
-   "MEXC",
-   "MachineX"
-  ],
-  "cex_count": 2,
-  "chat": "https://auki.medium.com/",
-  "commits_4w": null,
-  "description": "Auki is making the physical world accessible to AI by building the real world web: a way for robots and digital devices like smart glasses and phones to browse, navigate, and search physical locations. At its foundation is the posemesh protocol, a collaborative and decentralized machine perception network that allows robots and XR devices to have a shared understanding of physical space, and a token economy for exchanging spatial data and compute resources.\n\n70% of the world economy is still tied to physical locations and labor, so making the physical world accessible to AI represents a 3X increase in the TAM of AI in general. Auki's goal is to become the decentralized nervous system of AI in the physical world, providing collaborative spatial reasoning for the next 100bn devices on Earth and beyond.\n\nFrom autonomous drone delivery to copilots for physical labor to robotic companions for children and navigation aid for the blind, the Auki network is a fast-growing ecosystem of cutting-edge physical AI applications. \n\nRapidly rolling out into thousands of commercial and private locations world-wide, the Auki network is now home to a growing number of applications that are already collecting millions of dollars in yearly revenue. \n\nWith a growing roster of robot integrations like Unitree, EngineAI, Padbot, Slamtec and more, Auki has cemented itself as the web3 robotics project with the most real world traction. \n\nThis year, Auki demonstrated the world's first large-scale autono",
-  "dex": [
-   "Aerodrome (Base)",
-   "PancakeSwap V3 (Base)",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": "https://discord.gg/auki",
-  "explorer": "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
-  "fetched": "2026-10-14T11:51:31.443836+00:00",
-  "genesis": null,
-  "github": "https://github.com/aukilabs",
-  "homepage": "https://www.auki.com/",
-  "platforms": [
-   "base",
-   "peaq"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/AukiNetwork",
-  "telegram_users": null,
-  "twitter": "https://x.com/Auki",
-  "twitter_followers": null,
-  "watchers": 6576
  },
  "aurora-near": {
   "categories": [
@@ -1149,7 +1144,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-15T11:29:26.377413+00:00",
+  "fetched": "2026-10-17T17:13:45.040528+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1158,13 +1153,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/codecflow",
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1689
+  "watchers": 1698
  },
  "constitutiondao": {
   "categories": [
@@ -1767,6 +1762,65 @@
   "twitter_followers": null,
   "watchers": 1881
  },
+ "everipedia": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Big Data",
+   "Media",
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "AI Agents",
+   "GMCI DePIN Index",
+   "Galaxy Digital Portfolio",
+   "GMCI Index",
+   "AI Agent Launchpad",
+   "AI Framework",
+   "DeFAI"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Binance",
+   "Bithumb",
+   "Bitkub",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "Indodax"
+  ],
+  "cex_count": 20,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The IQ token is a cryptocurrency that powers the Agent Tokenization Platform (ATP). ATP was built for developers to launch the next generation of tokenized agents that are verifiably autonomous and sovereign. These agents are capable of owning and managing digital and physical assets, from cryptocurrencies to DeFi transactions to robots.",
+  "dex": [
+   "Curve (Ethereum)",
+   "Fraxswap (Ethereum)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/RkMDgWy5XQ",
+  "explorer": "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+  "fetched": "2026-10-17T17:13:57.794341+00:00",
+  "genesis": null,
+  "github": "https://github.com/EveripediaNetwork/Everipedia",
+  "homepage": "https://iqindustries.com",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "polygon-pos"
+  ],
+  "reddit": "https://www.reddit.com/r/Everipedia/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/everipedia",
+  "telegram_users": null,
+  "twitter": "https://x.com/IQofficial",
+  "twitter_followers": null,
+  "watchers": 14925
+ },
  "everything": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -2086,7 +2140,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-10-14T18:37:14.183890+00:00",
+  "fetched": "2026-10-17T17:12:35.442640+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2094,7 +2148,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 80.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2402,6 +2456,47 @@
   "twitter_followers": null,
   "watchers": 11513
  },
+ "jean-phil": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem",
+   "TikTok Meme"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Manifest"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Jean Phil (JEANPHIL) is a token on the Solana blockchain associated with an AI-generated social media character known as \"Jean Phil\" or \"JeanPhilanthrope.\" The character maintains active profiles on X (Twitter), TikTok, and Instagram, where short-form video content featuring the character has gained significant organic engagement. The JEANPHIL token launched on Pump.fun and currently trades on PumpSwap. Unlike many AI-character-themed tokens, the community around JEANPHIL produces a substantial amount of fan-made content, including original videos and edits featuring the character, rather than content being centrally produced by a single team. The person behind the Jean Phil character has engaged directly with token holders and community members, including supporting the creation of an official X Community for coordinated updates and moderation of the fanbase. The project is primarily community- and culture-driven, centered on the growth and engagement of the Jean Phil character across social platforms, rather than offering a specific technical utility or product roadmap.",
+  "dex": [
+   "Meteora",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
+  "fetched": "2026-10-17T17:12:32.253548+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://jeanphilmadame.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/JeanPhilMadame",
+  "twitter_followers": null,
+  "watchers": 141
+ },
  "kryll": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2519,7 +2614,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x8CD41041505885EF0aD3858181D66f17BE8aae7E",
-  "fetched": "2026-10-16T11:24:40.173734+00:00",
+  "fetched": "2026-10-17T17:15:11.496773+00:00",
   "genesis": null,
   "github": "https://github.com/LCX-AG",
   "homepage": "https://lcx.com/",
@@ -2527,7 +2622,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 88.89,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/JoinLCX",
   "telegram_users": null,
@@ -3580,7 +3675,7 @@
   ],
   "discord": "https://discord.gg/bSKU7TdtcY",
   "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-  "fetched": "2026-10-15T11:31:55.353572+00:00",
+  "fetched": "2026-10-17T17:13:51.435303+00:00",
   "genesis": null,
   "github": "https://github.com/regolith-labs/ore",
   "homepage": "https://ore.supply/",
@@ -3588,13 +3683,71 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/OREsupply",
   "twitter_followers": null,
-  "watchers": 5149
+  "watchers": 5155
+ },
+ "origintrail": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Polkadot Ecosystem",
+   "Metaverse",
+   "Ethereum Ecosystem",
+   "Interoperability",
+   "Real World Assets (RWA)",
+   "DePIN",
+   "Base Ecosystem",
+   "Decentralized Science (DeSci)",
+   "AI Agents",
+   "InfoFi",
+   "Base Native"
+  ],
+  "cex": [
+   "Bancor (V2)",
+   "Biconomy.com",
+   "Bithumb",
+   "Bitkub",
+   "Bitstamp by Robinhood",
+   "Bitvavo",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "Gate",
+   "GroveX",
+   "HTX",
+   "Hydration"
+  ],
+  "cex_count": 19,
+  "chat": null,
+  "commits_4w": null,
+  "description": "What is OriginTrail (TRAC)?\nOriginTrail is an ecosystem building a trusted knowledge infrastructure for artificial intelligence (AI). It addresses the challenge of misinformation in the AI era by ensuring the origin of information and enabling discoverability of the world's most important knowledge and real-world assets (RWAs).\nOriginTrail is creating a verifiable Internet for decentralized AI by empowering world-class brands and builders. It utilizes its unique Decentralized Knowledge Graph and  NeuroWeb blockchain to deliver AI-powered search and solutions for enterprises and individuals worldwide.\nOriginTrail has gained support and partnerships with world-class organizations such as British Standards Institution, SCAN, Polkadot, Parity, Walmart, World Federation of Hemophilia, Oracle, the EU Commission's Next Generation Internet, and Microsoft Entrepreneurship for Positive Impact. These partnerships contribute to advancing OriginTrail's trusted knowledge foundation and its applicability in trillion-dollar industries, while providing a verifiable Internet of knowledge important in particular to drive the economies of RWAs.\nThe best way to see the technology in action is by checking ChatDKG,  an experimental, question-answering bot on X (Twitter) based on trusted Knowledge Assets in OriginTrail Decentralized Knowledge Graph (DKG). The ChatDKG provides answers based on OriginTrail trusted AI.\nThe Metcalfe phase of OriginTrail\u2019s roadmap pursues an ambitious goal of creating th",
+  "dex": [
+   "Aerodrome (Base)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+  "fetched": "2026-10-17T17:15:04.986540+00:00",
+  "genesis": "2018-01-24",
+  "github": "https://github.com/OriginTrail/ot-node",
+  "homepage": "https://origintrail.io/",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/origintrail",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/origintrail",
+  "telegram_users": null,
+  "twitter": "https://x.com/origin_trail",
+  "twitter_followers": null,
+  "watchers": 45680
  },
  "ovr": {
   "categories": [
@@ -3743,7 +3896,7 @@
    "Bitvavo",
    "BloFin"
   ],
-  "cex_count": 37,
+  "cex_count": 38,
   "chat": "https://www.youtube.com/@PhalaNetwork",
   "commits_4w": null,
   "description": "What Is Phala Network (PHA)?\n\nPhala Network (https://phala.network/) is the Execution Layer for Web3 AI, enabling AI to interact with blockchains and unlocking Web3 for the first billion users.\n\nPhala\u2019s multi-proof system solves the AI execution problem, allowing you to build tamper-proof and unstoppable AI Agents that integrate with smart contracts through the AI-Agent Contract.\n\n1. Agentize Smart Contracts: Develop AI Agents for smart contracts using natural and programming languages.\n2. Connect to Multi-Agents: Make your agents accessible to other cross-chain AI Agents.\n3. Launch AI Agents and Earn: Own your agents and build a profitable token economy.\n\nPHALA as the AI Execution Layer:\n\nPhala leverages AI Agents to interface with blockchain technology, ensuring behavior aligns with intentions and preventing fraud. Using Phala's Blockchain-TEE hybrid system, AI Agents can act like smart contracts with decentralized hosting, governance by smart contracts, protected prompts, and low latency with no gas fees.\n\nPhala Network\u2019s AI Ecosystem:\n\nPhala leads Web3 and AI integration with:\n\n1. AI Agent Contract (https://docs.phala.network/ai-agent-contract/getting-started): For building decentralized AI applications.\n2. Agent Wars (https://agentwars.phala.network/home): A platform to create, interact with, and monetize AI agents.\n3. Redpill (https://red-pill.ai/join): An AI aggregator optimizing multiple AI models, increasing network usage and computation power.\n\nHow Many PHA Coins Ar",
@@ -3753,7 +3906,7 @@
   ],
   "discord": "https://discord.com/invite/phala-network",
   "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-10-16T11:24:36.963122+00:00",
+  "fetched": "2026-10-17T17:15:08.280592+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://phala.network/",
@@ -3762,13 +3915,13 @@
    "sora"
   ],
   "reddit": null,
-  "sentiment_up": 80.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
-  "watchers": 56606
+  "watchers": 56610
  },
  "propy": {
   "categories": [
@@ -4066,7 +4219,7 @@
   ],
   "discord": "https://discord.com/invite/rivalzai",
   "explorer": "https://basescan.org/token/0x67543CF0304C19CA62AC95ba82FD4F4B40788dc1",
-  "fetched": "2026-10-16T11:23:23.979244+00:00",
+  "fetched": "2026-10-17T17:13:48.252598+00:00",
   "genesis": null,
   "github": "https://github.com/Rivalz-ai",
   "homepage": "https://rivalz.ai/",
@@ -4077,7 +4230,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/RivalzAI_Ann",
   "telegram_users": null,
@@ -4237,6 +4390,53 @@
   "twitter_followers": null,
   "watchers": 77671
  },
+ "safe": {
+  "categories": [
+   "Infrastructure",
+   "Wallets",
+   "Gnosis Chain Ecosystem",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "Bybit",
+   "Coinbase Exchange",
+   "Coinone"
+  ],
+  "cex_count": 27,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Safe is the ownership layer of web3 securing &gt;$100B+. It includes Safe{Core} a full stack of account abstraction infrastructure and the industry-standard multi-sig, Safe{Wallet}. The project is focused on making every Ethereum account, a smart account and enabling new use cases like AI, Staking, Gaming, SocialFi, DeFi, and Payments to flourish with  gasless transaction, easy face-ID like logins, onramps, recovery and more. Safe currently has a large ecosystem of 200+ projects including Gnosis Pay and Worldcoin, deployed in over 15 networks, building on the Safe smart account standard. Safe{Wallet} is also used widely by individuals like Vitalik Buterin, Punk6529 as well as web2 giants like Shopify and Reddit for self-custody of assets and high value NFTs.\n\nAs of April 2023, over 8M Safe accounts have been created, making &gt;40 million transactions. The open-source contracts are battle-tested and have been formally verified and audited multiple times. There have been no critical security incidents since Safe was deployed in 2018 and Safe remains the benchmark of security in the industry.\n",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x5afe3855358e112b5647b952709e6165e1c1eeee",
+  "fetched": "2026-10-17T17:15:01.482601+00:00",
+  "genesis": null,
+  "github": "https://github.com/safe-global",
+  "homepage": "https://safe.global/",
+  "platforms": [
+   "ethereum",
+   "xdai"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/safe",
+  "twitter_followers": null,
+  "watchers": 5069
+ },
  "silencio": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4263,7 +4463,7 @@
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-10-14T20:47:05.422513+00:00",
+  "fetched": "2026-10-17T17:13:54.615096+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://silencio.network/",
@@ -4278,7 +4478,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/silencioNetwork",
   "twitter_followers": null,
-  "watchers": 4345
+  "watchers": 4351
  },
  "sofi-technologies-ondo-tokenized-stock": {
   "categories": [
@@ -4571,6 +4771,82 @@
   "twitter": "https://x.com/streamoorspad",
   "twitter_followers": null,
   "watchers": 21
+ },
+ "sushi": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Yield Farming",
+   "Automated Market Maker (AMM)",
+   "BNB Chain Ecosystem",
+   "Yearn Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Near Protocol Ecosystem",
+   "Fantom Ecosystem",
+   "Harmony Ecosystem",
+   "Arbitrum Ecosystem",
+   "Celo Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Alameda Research Portfolio",
+   "Pantera Capital Portfolio",
+   "Energi Ecosystem",
+   "Sora Ecosystem",
+   "Blockchain Capital Portfolio",
+   "Katana Ecosystem",
+   "Governance",
+   "Base Native",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Azbit",
+   "BTSE",
+   "BYDFi",
+   "Biconomy.com",
+   "BigONE",
+   "Bilaxy",
+   "Binance",
+   "Binance US",
+   "BingX",
+   "Bit2Me",
+   "BitDelta",
+   "BitKan"
+  ],
+  "cex_count": 66,
+  "chat": "https://www.youtube.com/channel/UC7Mm_8m8C2sxbgxbQIDJJdQ",
+  "commits_4w": null,
+  "description": "SushiSwap is a decentralized, multi-chain DEX that allows users to swap a wide range of assets across 40+ blockchain networks. It is powered by the industry's most advanced swap and aggregation stack, providing access to superior liquidity and competitive pricing. SushiSwap also offers smart liquidity solutions for liquidity providers including Smart Pools and no-IL AMM.\n\nSushi Labs, the development arm of Sushi DAO, continues to innovate by building a multi-DEX ecosystem with projects like Susa, Saru, and Wara with various blockchain networks.\n\nFor more information, visit https://sushi.com/",
+  "dex": [
+   "ApeSwap",
+   "PancakeSwap (v2)",
+   "PancakeSwap V1 (BSC)",
+   "PancakeSwap V3 (BSC)",
+   "Shibaswap (Ethereum)",
+   "SushiSwap V3 (Base)"
+  ],
+  "discord": "https://discord.gg/MsVBwEc",
+  "explorer": "https://etherscan.io/token/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+  "fetched": "2026-10-17T17:12:41.791020+00:00",
+  "genesis": null,
+  "github": "https://github.com/sushiswap/sushiswap",
+  "homepage": "https://sushi.com/",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/sushiswap",
+  "twitter_followers": null,
+  "watchers": 128961
  },
  "synapse-2": {
   "categories": [
@@ -5303,7 +5579,7 @@
   ],
   "discord": "https://discord.gg/officialxyo",
   "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
-  "fetched": "2026-10-16T11:23:33.619228+00:00",
+  "fetched": "2026-10-17T17:15:14.676328+00:00",
   "genesis": null,
   "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
   "homepage": "https://xyo.network/",
@@ -5339,7 +5615,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-10-15T18:19:22.533544+00:00",
+  "fetched": "2026-10-17T17:11:29.060866+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
