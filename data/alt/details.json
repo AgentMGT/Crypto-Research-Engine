@@ -54,6 +54,62 @@
   "twitter_followers": null,
   "watchers": 9345
  },
+ "aethir": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Impossible Finance Launchpad",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Animoca Brands Portfolio",
+   "Binance Alpha Spotlight"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "BYDFi",
+   "Biconomy.com",
+   "BigONE",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix"
+  ],
+  "cex_count": 48,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Aethir is the only Enterprise-grade AI-focused GPU-as-a-service provider in the market. It\u2019s a decentralized cloud computing infrastructure allows GPU providers (containers) to meet Enterprise clients who need powerful H100\u2019s chips for professional AI/ML tasks. \n\nAethir also support cloud gaming clients with their virtual computing phones and GPU's with contracts with the world\u2019s largest telecommunication company. Everything within Aethir ecosystem will be decentralized and community-owned.",
+  "dex": [
+   "Meteora DAMM V2",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Arbitrum)"
+  ],
+  "discord": "https://discord.com/invite/aethircloud",
+  "explorer": "https://etherscan.io/token/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+  "fetched": "2026-10-17T00:35:11.607616+00:00",
+  "genesis": null,
+  "github": "https://github.com/AethirCloud",
+  "homepage": "https://www.aethir.com/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/aethir_cloud",
+  "telegram_users": null,
+  "twitter": "https://x.com/AethirCloud",
+  "twitter_followers": null,
+  "watchers": 42505
+ },
  "agoras-currency-of-tau": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -131,7 +187,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-10-15T18:19:16.036211+00:00",
+  "fetched": "2026-10-17T00:30:54.530042+00:00",
   "genesis": null,
   "github": "https://github.com/aixbt",
   "homepage": "https://aixbt.tech",
@@ -147,7 +203,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/aixbt_agent",
   "twitter_followers": null,
-  "watchers": 38567
+  "watchers": 38568
  },
  "allinu": {
   "categories": [
@@ -225,7 +281,7 @@
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-10-15T18:21:51.550415+00:00",
+  "fetched": "2026-10-17T00:33:51.470416+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -240,7 +296,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113477
+  "watchers": 113478
  },
  "anvil": {
   "categories": [
@@ -290,16 +346,16 @@
    "BVOX",
    "Bilaxy",
    "Binance",
-   "Binance US",
    "BingX",
    "Bit2Me",
    "BitDelta",
    "BitKan",
    "Bitget",
    "Bithumb",
-   "Bitkub"
+   "Bitkub",
+   "Bitlo"
   ],
-  "cex_count": 53,
+  "cex_count": 52,
   "chat": "https://medium.com/api3",
   "commits_4w": null,
   "description": "Api3 delivers first-party oracles that pay you \u2014 connecting real-world data directly to smart contracts while reclaiming lost value through Oracle Extractable Value (OEV). Explore the Api3 Market and start earning.",
@@ -310,7 +366,7 @@
   ],
   "discord": "https://discord.com/invite/qnRrcfnm5W",
   "explorer": "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-  "fetched": "2026-10-16T00:26:47.477157+00:00",
+  "fetched": "2026-10-17T00:31:31.382080+00:00",
   "genesis": null,
   "github": "https://github.com/api3dao/airnode",
   "homepage": "https://api3.org/",
@@ -324,7 +380,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/API3DAO",
   "twitter_followers": null,
-  "watchers": 45647
+  "watchers": 45646
  },
  "arcblock": {
   "categories": [
@@ -766,7 +822,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0x07EBB29a38Fbcb41563817e5E19f2ceC619C90D2",
-  "fetched": "2026-10-14T20:45:42.885295+00:00",
+  "fetched": "2026-10-17T00:31:21.291735+00:00",
   "genesis": null,
   "github": "https://github.com/UVLabs-AI",
   "homepage": "https://mosh.trade/",
@@ -774,13 +830,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/moshtrade",
   "telegram_users": null,
   "twitter": "https://x.com/BundleCatAI",
   "twitter_followers": null,
-  "watchers": 372
+  "watchers": 378
  },
  "chutes": {
   "categories": [
@@ -1498,7 +1554,7 @@
   ],
   "discord": "https://discord.gg/dusk-official",
   "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-10-15T18:20:32.172136+00:00",
+  "fetched": "2026-10-17T00:32:38.092517+00:00",
   "genesis": null,
   "github": "https://github.com/dusk-network/dusk-blockchain",
   "homepage": "https://dusk.network/",
@@ -1507,13 +1563,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 100.0,
+  "sentiment_up": 75.0,
   "stars": null,
   "telegram": "https://t.me/DuskNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/DuskFoundation",
   "twitter_followers": null,
-  "watchers": 32038
+  "watchers": 32043
  },
  "edu-coin": {
   "categories": [
@@ -1722,7 +1778,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-10-16T00:26:44.267618+00:00",
+  "fetched": "2026-10-17T00:31:28.029977+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -1732,13 +1788,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/every_thing",
   "twitter_followers": null,
-  "watchers": 262
+  "watchers": 263
  },
  "fluence-2": {
   "categories": [
@@ -1899,7 +1955,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-14T11:50:18.116472+00:00",
+  "fetched": "2026-10-17T00:31:17.975167+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -1984,7 +2040,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-16T00:29:20.089793+00:00",
+  "fetched": "2026-10-17T00:35:14.856584+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -1998,7 +2054,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 42
+  "watchers": 43
  },
  "georgeplaysclashroyale": {
   "categories": [
@@ -2230,63 +2286,6 @@
   "twitter_followers": null,
   "watchers": 9
  },
- "ishares-silver-trust-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "HyperEVM Ecosystem",
-   "Tokenized Exchange-Traded Funds (ETFs)",
-   "Ondo Tokenized Assets",
-   "Tokenized Exchange-Traded Product (ETPs)",
-   "Tokenized Commodity Exchange-Traded Products (ETPs)"
-  ],
-  "cex": [
-   "BingX",
-   "Gate",
-   "Hibt",
-   "LBank",
-   "MEXC",
-   "Ondo Stocks",
-   "Ourbit",
-   "Toobit",
-   "XT.COM"
-  ],
-  "cex_count": 9,
-  "chat": null,
-  "commits_4w": null,
-  "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [
-   "Meteora",
-   "Orca",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-10-13T20:20:21.143234+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/assets/slvon",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "hyperevm",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 1114
- },
  "ix-swap": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2316,7 +2315,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-15T18:23:04.424970+00:00",
+  "fetched": "2026-10-17T00:33:54.756842+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2332,7 +2331,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/IxsFinance",
   "twitter_followers": null,
-  "watchers": 11511
+  "watchers": 11513
  },
  "kryll": {
   "categories": [
@@ -2485,15 +2484,15 @@
    "Bitget",
    "Bitvavo",
    "Bybit",
-   "Crypto.com Exchange",
    "Gate",
    "HTX",
    "Kraken",
    "KuCoin",
    "LATOKEN",
-   "MEXC"
+   "MEXC",
+   "Mudrex"
   ],
-  "cex_count": 14,
+  "cex_count": 13,
   "chat": null,
   "commits_4w": null,
   "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
@@ -2505,7 +2504,7 @@
   ],
   "discord": "https://lmwr.co/discord",
   "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-16T00:28:00.665626+00:00",
+  "fetched": "2026-10-17T00:32:41.415930+00:00",
   "genesis": null,
   "github": "https://github.com/LimeWireOfficial",
   "homepage": "https://limewire.com/u/home",
@@ -2515,13 +2514,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/limewire",
   "telegram_users": null,
   "twitter": "https://x.com/limewire",
   "twitter_followers": null,
-  "watchers": 15720
+  "watchers": 15718
  },
  "lingo": {
   "categories": [
@@ -3052,7 +3051,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-15T18:20:29.072689+00:00",
+  "fetched": "2026-10-17T00:33:58.042842+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3066,7 +3065,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7944
+  "watchers": 7945
  },
  "nearkat-2": {
   "categories": [
@@ -3375,7 +3374,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd",
-  "fetched": "2026-10-16T00:27:54.026664+00:00",
+  "fetched": "2026-10-17T00:32:34.884102+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://openvpp.energy/",
@@ -3602,6 +3601,55 @@
   "twitter_followers": null,
   "watchers": 56606
  },
+ "propy": {
+  "categories": [
+   "Tokenized Real Estate",
+   "Tokenized Assets",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "Made in USA",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitrue",
+   "Bitunix",
+   "CoinUp.io",
+   "Coinbase Exchange",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Propy is a decentralized real-estate market place backed by superior blockchain infrastructure to facilitate real-time unified transaction in order to reduce fraud and redundancy. Propy is the world\u2019s first international real-estate marketplace.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
+  "fetched": "2026-10-17T00:35:08.327491+00:00",
+  "genesis": "2017-07-18",
+  "github": "https://github.com/Propy/ethereum",
+  "homepage": "https://propy.com",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/propy",
+  "telegram_users": null,
+  "twitter": "https://x.com/PropyInc",
+  "twitter_followers": null,
+  "watchers": 23073
+ },
  "purple-pepe": {
   "categories": [
    "Solana Ecosystem",
@@ -3641,6 +3689,43 @@
   "twitter_followers": null,
   "watchers": 4593
  },
+ "pwease": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "XT.COM"
+  ],
+  "cex_count": 1,
+  "chat": "https://youtube.com/@pweasememes",
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora",
+   "Raydium",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump",
+  "fetched": "2026-10-17T00:31:24.652018+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pweasetoken.com",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/pweaseman",
+  "telegram_users": null,
+  "twitter": "https://x.com/pweaseman",
+  "twitter_followers": null,
+  "watchers": 815
+ },
  "renzo": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -3676,7 +3761,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-15T00:35:49.013966+00:00",
+  "fetched": "2026-10-17T00:32:44.696264+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -3686,13 +3771,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/RenzoAI",
+  "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12542
+  "watchers": 12541
  },
  "reserve-rights-token": {
   "categories": [
@@ -4606,7 +4691,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-10-16T00:28:07.143301+00:00",
+  "fetched": "2026-10-17T00:33:48.150794+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -4885,6 +4970,73 @@
   "twitter_followers": null,
   "watchers": 155
  },
+ "win-jie": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Chinese Meme",
+   "Flap Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
+  "fetched": "2026-10-17T00:30:51.246147+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/WinDao1",
+  "telegram_users": null,
+  "twitter": "https://x.com/WinDAO_winjie",
+  "twitter_followers": null,
+  "watchers": 10
+ },
+ "wingbits": {
+  "categories": [
+   "Solana Ecosystem",
+   "DePIN"
+  ],
+  "cex": [
+   "Kraken"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The native token of Wingbits, the world's first rewards-based decentralized flight tracking network. WINGS powers a global DePIN ecosystem where contributors earn rewards for collecting ADS-B aviation data, creating the world's largest virtual map of the sky while transforming how flight data is gathered, verified, and shared.",
+  "dex": [
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
+  "fetched": "2026-10-17T00:34:04.707133+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://wingbits.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/WingbitsMENACommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/wingbits",
+  "twitter_followers": null,
+  "watchers": 478
+ },
  "wormhole": {
   "categories": [
    "Solana Ecosystem",
@@ -4926,7 +5078,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-10-16T00:29:16.861344+00:00",
+  "fetched": "2026-10-17T00:34:01.406298+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -4937,13 +5089,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 71.43,
   "stars": null,
   "telegram": "https://t.me/wormholecrypto",
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43511
+  "watchers": 43513
  },
  "xyo-network": {
   "categories": [
