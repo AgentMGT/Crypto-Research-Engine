@@ -129,7 +129,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-10-16T03:24:12.757391+00:00",
+  "fetched": "2026-10-17T10:43:01.981373+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -143,7 +143,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 9691
+  "watchers": 9689
  },
  "aixbt": {
   "categories": [
@@ -204,6 +204,57 @@
   "twitter": "https://x.com/aixbt_agent",
   "twitter_followers": null,
   "watchers": 38568
+ },
+ "aleo": {
+  "categories": [
+   "Infrastructure",
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Layer 1 (L1)",
+   "Zero Knowledge (ZK)",
+   "Andreessen Horowitz (a16z) Portfolio",
+   "Privacy Blockchain",
+   "Binance Alpha Spotlight",
+   "Made in USA"
+  ],
+  "cex": [
+   "BitKan",
+   "CEX.IO",
+   "CoinW",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "Hibt",
+   "Hotcoin",
+   "KCEX",
+   "Kraken",
+   "MEXC",
+   "Ourbit"
+  ],
+  "cex_count": 13,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Aleo was born from a desire to achieve the impossible - to build a user experience on the web that is both truly personal and truly private.\n\nAleo is the first platform to offer fully private applications.\n\nAleo achieves this by leveraging decentralized systems and zero-knowledge cryptography to protect user data on the web. At its core, Aleo offers users and application developers unbounded compute with absolute privacy.\n\nBy architecting Aleo as a blockchain that is private-by-default, open-source, and built for the web, we believe Aleo is uniquely positioned to address the shortcomings of blockchain adoption. With Aleo, users have access to a world of truly personalized web services without giving up control of their private data. \n\nAleo will reshape the role decentralized systems play in our society and introduce new experiences never before seen on the web.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": "https://discord.com/invite/aleo",
+  "explorer": "https://aleoscan.io/",
+  "fetched": "2026-10-17T10:45:27.638110+00:00",
+  "genesis": null,
+  "github": "https://github.com/AleoNet",
+  "homepage": "https://www.aleo.org/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 83.33,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AleoHQ",
+  "twitter_followers": null,
+  "watchers": 9339
  },
  "allinu": {
   "categories": [
@@ -393,10 +444,9 @@
   "cex": [
    "Bitkub",
    "Coinbase Exchange",
-   "Gate",
-   "LATOKEN"
+   "Gate"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "The ArcBlock project was created to create the first Blockchain ecosystem in the world. Develop and develop decentralized applications (DApp) according to objectives. ArcBlock, one of the ICO projects emerging in early 2018. Just launched on 3/1/2018, ArcBlock has quickly attracted the attention of technology as well as investors. ArcBlock brings great technological advancements that will open the third generation of blockchain applications.\n\nArcblock work by bridging the gap between different blockchains and their respective ecosystems has not been easy. There are some solutions which attempt to solve this problem, but it is evident there is plenty of room for competition in this regard. Building an open chain access layer capable of spanning multiple new and existing blockchains is a very interesting business model.\n\nBuilding a new ecosystem meant to connect various chains will not be easy. As of right now, the team has completed its token sale, and the first public release candidate for the Open Chain Access Protocol will be released in Q3. Early 2019 will herald the introduction of more technical features and an Ethereum Blocklet prototype.",
@@ -406,7 +456,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-16T03:24:19.320346+00:00",
+  "fetched": "2026-10-17T10:46:43.804173+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -414,13 +464,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/arcblock/",
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/ArcBlock",
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11079
+  "watchers": 11078
  },
  "auki-labs": {
   "categories": [
@@ -699,7 +749,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
-  "fetched": "2026-10-16T03:24:16.072266+00:00",
+  "fetched": "2026-10-17T10:46:37.290702+00:00",
   "genesis": "2018-01-15",
   "github": "https://github.com/njmurarka/bluzelle",
   "homepage": "https://bluzelle.com/",
@@ -716,47 +766,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BluzelleHQ",
   "twitter_followers": null,
-  "watchers": 23883
- },
- "bobo-coin-2": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem",
-   "4chan-Themed"
-  ],
-  "cex": [
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Ourbit",
-   "XT.COM"
-  ],
-  "cex_count": 5,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Bobo Coin is a meme Solana token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-14T01:17:04.304425+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://bobothebear.io",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/bobocouncil",
-  "twitter_followers": null,
-  "watchers": 421
+  "watchers": 23882
  },
  "brickken": {
   "categories": [
@@ -781,7 +791,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-16T03:26:48.886741+00:00",
+  "fetched": "2026-10-17T10:44:21.156700+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -796,7 +806,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114152
+  "watchers": 114150
  },
  "bundle-cat": {
   "categories": [
@@ -856,7 +866,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-10-16T03:25:35.743610+00:00",
+  "fetched": "2026-10-17T10:45:24.419072+00:00",
   "genesis": null,
   "github": "https://github.com/rayonlabs/chutes",
   "homepage": "https://chutes.ai/",
@@ -870,7 +880,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
-  "watchers": 2095
+  "watchers": 2099
  },
  "circle-rstock-2": {
   "categories": [
@@ -937,7 +947,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-10-16T03:23:06.001260+00:00",
+  "fetched": "2026-10-17T10:41:48.968331+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -945,13 +955,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 54
+  "watchers": 62
  },
  "claus-2": {
   "categories": [
@@ -1101,7 +1111,7 @@
   "dex": [],
   "discord": "https://discord.com/invite/7sAEVGza8w",
   "explorer": null,
-  "fetched": "2026-10-16T03:26:39.095156+00:00",
+  "fetched": "2026-10-17T10:43:08.377243+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clore.ai",
@@ -1686,10 +1696,10 @@
    "Biconomy.com",
    "BigONE",
    "Binance",
-   "Binance US",
    "BingX",
    "Bit2Me",
-   "BitKan"
+   "BitKan",
+   "Bitazza"
   ],
   "cex_count": 66,
   "chat": "https://www.youtube.com/@EigenLayer",
@@ -1703,7 +1713,7 @@
   ],
   "discord": "https://discord.gg/eigenlayer",
   "explorer": "https://etherscan.io/token/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
-  "fetched": "2026-10-16T03:26:45.627980+00:00",
+  "fetched": "2026-10-17T10:43:11.502702+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.eigencloud.xyz/",
@@ -1712,13 +1722,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/eigenlayer",
   "twitter_followers": null,
-  "watchers": 29633
+  "watchers": 29655
  },
  "ekubo-protocol": {
   "categories": [
@@ -1919,7 +1929,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-16T03:25:32.523864+00:00",
+  "fetched": "2026-10-17T10:44:17.962400+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1930,13 +1940,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7596
+  "watchers": 7607
  },
  "froggie": {
   "categories": [
@@ -1999,7 +2009,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-16T03:27:55.495615+00:00",
+  "fetched": "2026-10-17T10:46:40.598156+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -2009,13 +2019,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/GamerHashOfficial",
   "telegram_users": null,
   "twitter": "https://x.com/GamerHashCom",
   "twitter_followers": null,
-  "watchers": 23671
+  "watchers": 23668
  },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
@@ -2114,7 +2124,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xe9Bc5C6A86caA44fD7b469bf3cc7c563E4F77777",
-  "fetched": "2026-10-16T00:25:28.234897+00:00",
+  "fetched": "2026-10-17T10:41:42.600705+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.maxbnb.meme",
@@ -2128,7 +2138,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/GiggleMascotBNB",
   "twitter_followers": null,
-  "watchers": 207
+  "watchers": 209
  },
  "giveback": {
   "categories": [
@@ -2285,6 +2295,65 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 9
+ },
+ "ishares-silver-trust-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Ondo Tokenized Assets",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "Tokenized Commodity Exchange-Traded Products (ETPs)"
+  ],
+  "cex": [
+   "BingX",
+   "Gate",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Manifest",
+   "Matcha (Ethereum)",
+   "Ondo Stocks",
+   "Ourbit",
+   "Toobit",
+   "XT.COM"
+  ],
+  "cex_count": 11,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "Meteora",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
+  "fetched": "2026-10-17T10:45:34.057893+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/slvon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 1119
  },
  "ix-swap": {
   "categories": [
@@ -2564,6 +2633,59 @@
   "twitter_followers": null,
   "watchers": 10133
  },
+ "lisk": {
+  "categories": [
+   "Smart Contract Platform",
+   "Ethereum Ecosystem",
+   "Layer 2 (L2)",
+   "Base Ecosystem",
+   "Optimism Superchain Ecosystem",
+   "Outlier Ventures Portfolio",
+   "Lisk Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "Bithumb",
+   "Bitrue",
+   "Bitvavo",
+   "CoinUp.io",
+   "Coincheck",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "HTX"
+  ],
+  "cex_count": 24,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Base and Ethereum, with Base as its primary Layer 2 network. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
+  "dex": [
+   "Aerodrome Slipstream 2",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+  "fetched": "2026-10-17T10:43:05.203505+00:00",
+  "genesis": null,
+  "github": "https://github.com/LiskHQ/lisk-sdk",
+  "homepage": "https://lisk.com",
+  "platforms": [
+   "base",
+   "ethereum",
+   "lisk"
+  ],
+  "reddit": "https://www.reddit.com/r/Lisk",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Lisk",
+  "twitter_followers": null,
+  "watchers": 30228
+ },
  "livepeer": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2663,7 +2785,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-16T03:26:42.352929+00:00",
+  "fetched": "2026-10-17T10:44:14.771439+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2673,13 +2795,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38913
+  "watchers": 38912
  },
  "mamo": {
   "categories": [
@@ -2913,7 +3035,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-10-16T03:23:09.355081+00:00",
+  "fetched": "2026-10-17T10:41:52.167435+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://moolahbnb.com",
@@ -2927,7 +3049,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Moolah_bsc",
   "twitter_followers": null,
-  "watchers": 246
+  "watchers": 247
  },
  "morpheusai": {
   "categories": [
@@ -3194,6 +3316,53 @@
   "twitter_followers": null,
   "watchers": 2902
  },
+ "notcoin": {
+  "categories": [
+   "Gaming (GameFi)",
+   "Binance Launchpool",
+   "Meme",
+   "Play To Earn",
+   "TON Ecosystem",
+   "TON Meme",
+   "Tap to Earn"
+  ],
+  "cex": [
+   "Aivora Exchange",
+   "Azbit",
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitget",
+   "Bitlo",
+   "Bitrue"
+  ],
+  "cex_count": 51,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Notcoin ($NOT) is as a community-driven token aimed at onboarding users into the Web3 ecosystem through a tap-to-earn game.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://tonscan.org/address/EQAvlWFDxGF2lXm67y4yzC17wYKD9A0guwPkMs1gOsM__NOT",
+  "fetched": "2026-10-17T10:42:55.557301+00:00",
+  "genesis": null,
+  "github": "https://github.com/OpenBuilders",
+  "homepage": "https://t.me/notcoin_bot",
+  "platforms": [
+   "the-open-network"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/notcoin",
+  "telegram_users": null,
+  "twitter": "https://x.com/thenotcoin",
+  "twitter_followers": null,
+  "watchers": 117618
+ },
  "nym": {
   "categories": [
    "Smart Contract Platform",
@@ -3459,7 +3628,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-16T03:26:52.171126+00:00",
+  "fetched": "2026-10-17T10:45:30.844309+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3476,7 +3645,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114925
+  "watchers": 114926
  },
  "peaq-2": {
   "categories": [
@@ -3857,7 +4026,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-10-16T03:22:59.566776+00:00",
+  "fetched": "2026-10-17T10:41:45.772437+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -3865,13 +4034,13 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/redotoken",
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12927
+  "watchers": 12930
  },
  "rivalz-network": {
   "categories": [
@@ -4532,7 +4701,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
-  "fetched": "2026-10-16T00:29:13.602527+00:00",
+  "fetched": "2026-10-17T10:42:58.779459+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/tslaon",
@@ -4543,13 +4712,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 373
+  "watchers": 374
  },
  "the-bitcoin-bull": {
   "categories": [
