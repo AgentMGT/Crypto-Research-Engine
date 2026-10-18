@@ -129,7 +129,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-10-17T10:43:01.981373+00:00",
+  "fetched": "2026-10-18T11:06:42.334476+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -143,7 +143,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 9689
+  "watchers": 9690
  },
  "aixbt": {
   "categories": [
@@ -240,7 +240,7 @@
   ],
   "discord": "https://discord.com/invite/aleo",
   "explorer": "https://aleoscan.io/",
-  "fetched": "2026-10-17T10:45:27.638110+00:00",
+  "fetched": "2026-10-18T11:07:58.573768+00:00",
   "genesis": null,
   "github": "https://github.com/AleoNet",
   "homepage": "https://www.aleo.org/",
@@ -248,13 +248,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 83.33,
+  "sentiment_up": 81.82,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AleoHQ",
   "twitter_followers": null,
-  "watchers": 9339
+  "watchers": 9346
  },
  "allinu": {
   "categories": [
@@ -883,7 +883,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-17T10:44:21.156700+00:00",
+  "fetched": "2026-10-18T11:07:55.367301+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -892,13 +892,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114150
+  "watchers": 114151
  },
  "bundle-cat": {
   "categories": [
@@ -1095,12 +1095,11 @@
   "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
   "dex": [
    "Meteora",
-   "Orca",
    "PumpSwap"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-10-17T10:41:48.968331+00:00",
+  "fetched": "2026-10-18T11:04:09.875548+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -1114,7 +1113,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 62
+  "watchers": 67
  },
  "claus-2": {
   "categories": [
@@ -1211,7 +1210,7 @@
   "dex": [],
   "discord": "https://discord.com/invite/7sAEVGza8w",
   "explorer": null,
-  "fetched": "2026-10-17T10:43:08.377243+00:00",
+  "fetched": "2026-10-18T11:06:39.143114+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clore.ai",
@@ -1223,7 +1222,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/clore_ai",
   "twitter_followers": null,
-  "watchers": 23162
+  "watchers": 23159
  },
  "codec-flow": {
   "categories": [
@@ -1681,6 +1680,40 @@
   "twitter_followers": null,
   "watchers": 32043
  },
+ "edge": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Business Services",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Robotics"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://www.linkedin.com/company/edgenetwork/",
+  "commits_4w": null,
+  "description": "Edge is the infrastructure of Web3. A peer-to-peer network and blockchain providing high performance decentralised web services, powered by the spare capacity all around us.\n\nEdge is a distributed computing paradigm that brings data storage and computation as close to the point of need as possible, pushing applications, data, and computing power away from centralized data centers. It is designed to reduce the volumes of data that must be moved, the consequent traffic, and the distance the data must travel, providing lower latency and reduced transmission costs.\n\nThe $EDGE token can be bridged in and out of the Edge Network on a 1:1 basis with $XE, the coin internal to the network that is used for the transfer of value, device staking and community governance.\n\nThe Edge Network is maintained by Edge Network Technologies, a not for profit company registered in England.",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/edgenetwork",
+  "explorer": "https://explorer.edge.network/",
+  "fetched": "2026-10-18T11:05:29.334674+00:00",
+  "genesis": "2018-02-16",
+  "github": "https://github.com/edge",
+  "homepage": "https://edge.network",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/edgenetwork",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/edgenetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/edgenetwork",
+  "twitter_followers": null,
+  "watchers": 3626
+ },
  "edu-coin": {
   "categories": [
    "Education",
@@ -2088,7 +2121,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-17T10:44:17.962400+00:00",
+  "fetched": "2026-10-18T11:05:26.096462+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2099,13 +2132,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7607
+  "watchers": 7610
  },
  "froggie": {
   "categories": [
@@ -2381,6 +2414,108 @@
   "twitter_followers": null,
   "watchers": 11202
  },
+ "iexec-rlc": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Oracle",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "AI Agents",
+   "Energi Ecosystem",
+   "Sora Ecosystem",
+   "GMCI DePIN Index",
+   "GMCI Index",
+   "Privacy Infrastructure",
+   "Privacy"
+  ],
+  "cex": [
+   "BTCC",
+   "Binance",
+   "Binance US",
+   "Bitget",
+   "Bithumb",
+   "Bitlo",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "BtcTurk | Kripto"
+  ],
+  "cex_count": 36,
+  "chat": "https://medium.com/iex-ec",
+  "commits_4w": null,
+  "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
+  "fetched": "2026-10-18T11:09:08.603551+00:00",
+  "genesis": "2017-04-19",
+  "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
+  "homepage": "http://iex.ec/",
+  "platforms": [
+   "arbitrum-one",
+   "energi",
+   "ethereum",
+   "sora"
+  ],
+  "reddit": "https://www.reddit.com/r/iexec",
+  "sentiment_up": 80.0,
+  "stars": null,
+  "telegram": "https://t.me/iexec_rlc_official",
+  "telegram_users": null,
+  "twitter": "https://x.com/iEx_ec",
+  "twitter_followers": null,
+  "watchers": 35768
+ },
+ "intel-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "INTCon is the Ondo Tokenized version of Intel, giving tokenholders economic exposure similar to holding INTC and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xFdA09936DbD717368De0835bA441d9E62069d36f",
+  "fetched": "2026-10-18T11:07:52.147935+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/intcon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 275
+ },
  "ishares-msci-south-korea-etf-bstocks-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -2508,7 +2643,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-17T00:33:54.756842+00:00",
+  "fetched": "2026-10-18T11:06:32.627163+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2990,7 +3125,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-17T10:44:14.771439+00:00",
+  "fetched": "2026-10-18T11:07:48.904203+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3000,13 +3135,46 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38912
+  "watchers": 38914
+ },
+ "make-no-mistakes-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
+  "fetched": "2026-10-18T11:05:19.618012+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://mistakes.fun/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/nomistakesfun",
+  "twitter_followers": null,
+  "watchers": 16
  },
  "mansory-token": {
   "categories": [
@@ -3589,9 +3757,10 @@
    "RWA Protocol"
   ],
   "cex": [
-   "MEXC"
+   "MEXC",
+   "Matcha (Base)"
   ],
-  "cex_count": 1,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "Rails for the decentralized global electric grid. The Internet of Energy | $OVPP",
@@ -3600,7 +3769,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd",
-  "fetched": "2026-10-17T00:32:34.884102+00:00",
+  "fetched": "2026-10-18T11:08:02.049254+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://openvpp.energy/",
@@ -3608,13 +3777,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/OpenVPP",
   "telegram_users": null,
   "twitter": "https://x.com/openvpp",
   "twitter_followers": null,
-  "watchers": 976
+  "watchers": 977
  },
  "ore": {
   "categories": [
@@ -3743,7 +3912,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-17T10:45:30.844309+00:00",
+  "fetched": "2026-10-18T11:05:22.870494+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3806,7 +3975,7 @@
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/system_token_detail?unique_id=PEAQ",
-  "fetched": "2026-10-15T18:21:48.332204+00:00",
+  "fetched": "2026-10-18T11:06:35.871224+00:00",
   "genesis": null,
   "github": "https://github.com/peaqnetwork",
   "homepage": "https://www.peaq.xyz/",
@@ -3817,13 +3986,13 @@
    "peaq"
   ],
   "reddit": null,
-  "sentiment_up": 85.71,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/peaqcommunity",
   "telegram_users": null,
   "twitter": "https://x.com/peaq",
   "twitter_followers": null,
-  "watchers": 25413
+  "watchers": 25431
  },
  "pha": {
   "categories": [
@@ -3933,6 +4102,43 @@
   "twitter": "https://x.com/PropyInc",
   "twitter_followers": null,
   "watchers": 23073
+ },
+ "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "LBank"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
+  "fetched": "2026-10-18T11:07:45.644102+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.binance.com/bstocks-landing",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 16
  },
  "purple-pepe": {
   "categories": [
@@ -4141,7 +4347,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-10-17T10:41:45.772437+00:00",
+  "fetched": "2026-10-18T11:04:13.090848+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -4155,7 +4361,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12930
+  "watchers": 12929
  },
  "rivalz-network": {
   "categories": [
@@ -5291,7 +5497,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/463SK47VkB7uE7XenTHKiVcMtxRsfNE2X4Q9wByaURVA",
-  "fetched": "2026-10-15T18:19:19.201684+00:00",
+  "fetched": "2026-10-18T11:04:16.340127+00:00",
   "genesis": null,
   "github": null,
   "homepage": "http://tsukionsol.xyz",
@@ -5305,7 +5511,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 727
+  "watchers": 728
  },
  "umia": {
   "categories": [
@@ -5343,6 +5549,46 @@
   "twitter": "https://x.com/umia_finance",
   "twitter_followers": null,
   "watchers": 211
+ },
+ "uranium": {
+  "categories": [
+   "Tokenized Assets",
+   "Real World Assets (RWA)",
+   "Tokenized Commodities",
+   "Etherlink Ecosystem",
+   "Tokenized Uranium",
+   "Metals.io Ecosystem"
+  ],
+  "cex": [
+   "Bitrue",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "LBank",
+   "MEXC"
+  ],
+  "cex_count": 6,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
+  "fetched": "2026-10-18T11:09:05.383906+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://uranium.io/en",
+  "platforms": [
+   "etherlink"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/Uranium_Community",
+  "telegram_users": null,
+  "twitter": "https://x.com/uranium_io",
+  "twitter_followers": null,
+  "watchers": 454
  },
  "utya": {
   "categories": [
