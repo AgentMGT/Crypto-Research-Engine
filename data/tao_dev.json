@@ -219,10 +219,10 @@
 },
 "dendritelabs/ingot": {
 "capped": false,
-"commits_30d": 6,
-"last_commit": "2026-10-17T07:10:58Z",
+"commits_30d": 8,
+"last_commit": "2026-10-19T09:34:43Z",
 "repo": "DendriteLabs/ingot",
-"t": 1792344077.6836202
+"t": 1792404162.2297115
 },
 "deprecated/deprecated": {
 "missing": true,
@@ -541,11 +541,11 @@
 "t": 1792368815.785743
 },
 "reaxlabs/reax-subnet": {
-"capped": false,
-"commits_30d": 97,
-"last_commit": "2026-10-17T22:16:17Z",
+"capped": true,
+"commits_30d": 100,
+"last_commit": "2026-10-18T19:19:55Z",
 "repo": "reaxlabs/reax-subnet",
-"t": 1792344077.6836202
+"t": 1792404162.2297115
 },
 "redteamsubnet/redteam": {
 "capped": false,
