@@ -306,47 +306,6 @@
   "twitter_followers": null,
   "watchers": 25056
  },
- "allinu": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Dog-Themed",
-   "Solana Meme",
-   "Stonk Ecosystem"
-  ],
-  "cex": [
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Poloniex"
-  ],
-  "cex_count": 4,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Meteora",
-   "Meteora DAMM V2",
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
-  "fetched": "2026-10-16T18:05:19.914990+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.stonkfun.xyz/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 156
- },
  "altura": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -604,7 +563,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/account/Am8iBffqgaedfdK5XhtorbcRrKzwH9nyL3ySikQfpump",
-  "fetched": "2026-10-18T17:24:06.524750+00:00",
+  "fetched": "2026-10-19T19:59:39.141366+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -618,7 +577,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/i",
   "twitter_followers": null,
-  "watchers": 29
+  "watchers": 32
  },
  "aurora-near": {
   "categories": [
@@ -894,7 +853,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-18T04:45:11.676186+00:00",
+  "fetched": "2026-10-19T19:59:42.375691+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -1032,7 +991,7 @@
   ],
   "discord": "https://discord.com/invite/carv",
   "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
-  "fetched": "2026-10-18T04:47:49.726539+00:00",
+  "fetched": "2026-10-19T20:04:38.293113+00:00",
   "genesis": null,
   "github": "https://github.com/carv-protocol",
   "homepage": "https://carv.io",
@@ -1049,7 +1008,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/carv_official",
   "twitter_followers": null,
-  "watchers": 7483
+  "watchers": 7479
  },
  "chutes": {
   "categories": [
@@ -1354,7 +1313,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-17T17:13:45.040528+00:00",
+  "fetched": "2026-10-19T20:01:12.168792+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1363,13 +1322,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/codecflow",
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1698
+  "watchers": 1703
  },
  "concierge-io": {
   "categories": [
@@ -1686,6 +1645,58 @@
   "twitter": "https://x.com/edgenetwork",
   "twitter_followers": null,
   "watchers": 3626
+ },
+ "edu-coin": {
+  "categories": [
+   "Education",
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance Launchpad",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "BTCC",
+   "Binance",
+   "BitDelta",
+   "Bithumb",
+   "Bitlo",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "CoinTR",
+   "CoinW",
+   "Coinone"
+  ],
+  "cex_count": 29,
+  "chat": "https://opencampus-xyz.medium.com/",
+  "commits_4w": null,
+  "description": "Open Campus is a community-led protocol building the financial and credentialing rails for global education. We enable educators, learners, and institutions to issue verifiable credentials, access on-chain education finance (EduFi), and build consumer-facing education applications on a shared, open infrastructure.\n\nCore contributors to the Open Campus DAO include Animoca Brands, TinyTap, NewCampus, RiseIn, and HackQuest. Together, they are working with Open Campus to enhance the education system for teachers, learners, and institutions by using innovative blockchain protocols and funding initiatives.",
+  "dex": [
+   "Camelot V3",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
+  "fetched": "2026-10-19T20:03:25.289068+00:00",
+  "genesis": null,
+  "github": "https://github.com/opencampus-xyz/",
+  "homepage": "https://www.opencampus.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/opencampus_xyz",
+  "twitter_followers": null,
+  "watchers": 38067
  },
  "egl1": {
   "categories": [
@@ -2162,7 +2173,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-10-17T17:12:35.442640+00:00",
+  "fetched": "2026-10-19T19:59:48.832429+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2214,6 +2225,41 @@
   "twitter": "https://x.com/GiggleMascotBNB",
   "twitter_followers": null,
   "watchers": 209
+ },
+ "giveback": {
+  "categories": [
+   "Charity",
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://www.youtube.com/@gbackcoin",
+  "commits_4w": null,
+  "description": "Give Back Coin $GBACK transforms how the world funds relief and humanitarian aid. By combining blockchain transparency, community power, and sustainable funding through creator rewards.\nGiveBack Coin is a purpose-driven cryptocurrency designed to combine blockchain technology with real-world generosity. The project\u2019s mission is to turn everyday crypto activity  trading, holding, and community growth into meaningful social impact.\n\nUnlike traditional cryptocurrencies focused purely on profit, GiveBack Coin dedicates up to 50% of its profits to charitable donations and community aid projects, such as feeding the homeless, supporting humanitarian efforts, and funding local outreach programs.\n\nBuilt on the Solana blockchain, GiveBack Coin offers fast, low-cost, and transparent transactions, ensuring that every contribution and donation is traceable and accountable. The community also plays a central role holders can help vote on which causes and charities receive support",
+  "dex": [
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": "https://discord.com/invite/gbackcoin",
+  "explorer": "https://solscan.io/token/Fh7mLxtPAysdvHcMcJ37A3vc6WvBVh7JVDwxmwk6pump",
+  "fetched": "2026-10-19T19:59:52.064017+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://gbackcoin.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/gbackcoin",
+  "twitter_followers": null,
+  "watchers": 185
  },
  "iexec-rlc": {
   "categories": [
@@ -2559,9 +2605,10 @@
   ],
   "cex": [
    "Coinbase Exchange",
-   "Kraken"
+   "Kraken",
+   "Matcha (Ethereum)"
   ],
-  "cex_count": 2,
+  "cex_count": 3,
   "chat": "https://www.instagram.com/lcx.exchange/",
   "commits_4w": null,
   "description": "LCX.com is a platform that innovates capital markets by providing solutions for compliant digital\nassets and security tokens. It is a secure and compliant platform for buying, selling, transferring,\nand storing digital currency.",
@@ -2570,7 +2617,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x8CD41041505885EF0aD3858181D66f17BE8aae7E",
-  "fetched": "2026-10-18T17:27:51.893039+00:00",
+  "fetched": "2026-10-19T20:03:31.781320+00:00",
   "genesis": null,
   "github": "https://github.com/LCX-AG",
   "homepage": "https://lcx.com/",
@@ -2584,7 +2631,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/lcx",
   "twitter_followers": null,
-  "watchers": 50243
+  "watchers": 50240
  },
  "limewire-token": {
   "categories": [
@@ -2603,16 +2650,16 @@
    "Bitget",
    "Bitvavo",
    "Bybit",
+   "Crypto.com Exchange",
    "Gate",
    "HTX",
    "Kraken",
    "KuCoin",
    "LATOKEN",
    "MEXC",
-   "Mudrex",
-   "Niza.io"
+   "Mudrex"
   ],
-  "cex_count": 12,
+  "cex_count": 13,
   "chat": null,
   "commits_4w": null,
   "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
@@ -2624,7 +2671,7 @@
   ],
   "discord": "https://lmwr.co/discord",
   "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-18T17:26:26.057978+00:00",
+  "fetched": "2026-10-19T20:00:58.703849+00:00",
   "genesis": null,
   "github": "https://github.com/LimeWireOfficial",
   "homepage": "https://limewire.com/u/home",
@@ -2640,7 +2687,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/limewire",
   "twitter_followers": null,
-  "watchers": 15719
+  "watchers": 15718
  },
  "lisk": {
   "categories": [
@@ -3721,7 +3768,7 @@
   ],
   "discord": "https://discord.com/invite/phala-network",
   "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-10-18T17:27:48.712789+00:00",
+  "fetched": "2026-10-19T20:02:18.737730+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://phala.network/",
@@ -3730,13 +3777,13 @@
    "sora"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 87.5,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
-  "watchers": 56614
+  "watchers": 56638
  },
  "propy": {
   "categories": [
@@ -3770,7 +3817,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-10-17T00:35:08.327491+00:00",
+  "fetched": "2026-10-19T20:02:21.955596+00:00",
   "genesis": "2017-07-18",
   "github": "https://github.com/Propy/ethereum",
   "homepage": "https://propy.com",
@@ -3785,7 +3832,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PropyInc",
   "twitter_followers": null,
-  "watchers": 23073
+  "watchers": 23077
  },
  "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
   "categories": [
@@ -3823,6 +3870,44 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 16
+ },
+ "prxvt-by-virtuals": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "Virtuals Protocol Ecosystem",
+   "x402 Ecosystem",
+   "Privacy Infrastructure",
+   "Base Native",
+   "Privacy"
+  ],
+  "cex": [
+   "Matcha (Base)"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "px402 is a zero-knowledge payment protocol that enables AI agents to make anonymous, untraceable payments on-chain. In a world where every blockchain transaction is public by default, AI agents conducting autonomous transactions create massive privacy leaks\u2014revealing their strategies, counterparties, and financial behavior to competitors and surveillance systems.\n\npx402 solves this by combining zero-knowledge cryptography with ERC-4337 account abstraction, allowing agents to spend funds privately without linking transactions to their identity or previous activity.",
+  "dex": [
+   "Uniswap V2 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x4b5D32A07b8d3eC5D6928cAa30196f8dd6a7C5A9",
+  "fetched": "2026-10-19T20:00:55.407371+00:00",
+  "genesis": null,
+  "github": "https://github.com/prxvt/sdk",
+  "homepage": "http://prxvt.com/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/PRXVTCommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/PRXVTai",
+  "twitter_followers": null,
+  "watchers": 656
  },
  "purple-pepe": {
   "categories": [
@@ -4071,7 +4156,7 @@
   ],
   "discord": "https://discord.com/invite/rivalzai",
   "explorer": "https://basescan.org/token/0x67543CF0304C19CA62AC95ba82FD4F4B40788dc1",
-  "fetched": "2026-10-18T17:27:39.143705+00:00",
+  "fetched": "2026-10-19T20:02:15.496155+00:00",
   "genesis": null,
   "github": "https://github.com/Rivalz-ai",
   "homepage": "https://rivalz.ai/",
@@ -4088,7 +4173,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rivalz_AI",
   "twitter_followers": null,
-  "watchers": 1551
+  "watchers": 1549
  },
  "rize": {
   "categories": [
@@ -4311,7 +4396,7 @@
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-10-17T17:13:54.615096+00:00",
+  "fetched": "2026-10-19T20:01:08.726984+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://silencio.network/",
@@ -4326,7 +4411,45 @@
   "telegram_users": null,
   "twitter": "https://x.com/silencioNetwork",
   "twitter_followers": null,
-  "watchers": 4351
+  "watchers": 4355
+ },
+ "sogni-ai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "DePIN",
+   "Base Ecosystem",
+   "Etherlink Ecosystem",
+   "AI Applications",
+   "Base Native"
+  ],
+  "cex": [
+   "Oku Trade (Etherlink)"
+  ],
+  "cex_count": 1,
+  "chat": "https://www.youtube.com/@SogniAI",
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Aerodrome (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
+  "fetched": "2026-10-19T20:03:34.991310+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.sogni.ai/",
+  "platforms": [
+   "base",
+   "etherlink"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/sogniai",
+  "telegram_users": null,
+  "twitter": "https://x.com/Sogni_Protocol",
+  "twitter_followers": null,
+  "watchers": 11934
  },
  "spacex-ondo-tokenized-stock": {
   "categories": [
@@ -4426,9 +4549,10 @@
   ],
   "cex": [
    "Binance",
-   "LBank"
+   "LBank",
+   "Native Core"
   ],
-  "cex_count": 2,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -4441,7 +4565,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
-  "fetched": "2026-10-18T04:47:37.067193+00:00",
+  "fetched": "2026-10-19T20:01:05.437104+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -4455,7 +4579,38 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 48
+  "watchers": 49
+ },
+ "startupsi": {
+  "categories": [
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Launch a coin on pump.fun and its creator fees pay for an AI agent that builds a startup, the one you describe or one it picks, ships it on its own site and keeps improving it. Every step happens in public.\n\nLaunching, the agents, the money, safety and the technology underneath. For the full story start with how it works; for the numbers, see fees.\n\nAnyone with a Solana wallet. Every launch is checked against a name blocklist and for impersonation of real people, brands or projects, and launches are rate-limited so the directory stays readable.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/account/EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
+  "fetched": "2026-10-19T20:03:28.545593+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://startupsi.org/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/startupSI_sol",
+  "twitter_followers": null,
+  "watchers": 78
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -4494,6 +4649,62 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 43
+ },
+ "subsquid": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Big Data",
+   "Analytics",
+   "BNB Chain Ecosystem",
+   "Arbitrum Ecosystem",
+   "Base Ecosystem",
+   "CoinList Launchpad",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bybit",
+   "CoinUp.io",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "Gate",
+   "HTX",
+   "KCEX",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 16,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Subsquid Network is an innovative decentralized data lake and query engine designed to offer developers performant and permissionless access to data, aiming to build a neutral and open internet rooted in Web3 principles. Secured by ZK proofs, the Subsquid network boasts a modular architecture that enables exceptional scalability and developer convenience optimized for blockchain indexing, dApp development, and analytics.\n\nSubsquid is a response to unscalable and rigid monolithic indexing frameworks that had previously gained popularity and market traction among Web3 developers. Today, these frameworks are struggling to adapt in a rapidly evolving blockchain environment. Additionally, the network serves as a highly efficient and decentralized alternative to centralized infrastructure firms, including large RPC and API providers.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 3",
+   "PancakeSwap V3 (Arbitrum)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
+  "fetched": "2026-10-19T20:04:41.527813+00:00",
+  "genesis": null,
+  "github": "https://github.com/subsquid",
+  "homepage": "https://sqd.dev",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/subsquid",
+  "telegram_users": null,
+  "twitter": "https://x.com/hellosqd",
+  "twitter_followers": null,
+  "watchers": 5081
  },
  "sushi": {
   "categories": [
@@ -4680,38 +4891,6 @@
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
   "watchers": 28856
- },
- "tdccp": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Raydium (CLMM)"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/Hg8bKz4mvs8KNj9zew1cEF9tDw1x2GViB4RFZjVEmfrD",
-  "fetched": "2026-10-16T18:05:23.208845+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://tdccpmeme.pw/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/TDCCP_official",
-  "telegram_users": null,
-  "twitter": "https://x.com/TDCCPMEME",
-  "twitter_followers": null,
-  "watchers": 506
  },
  "tesla-ondo-tokenized-stock": {
   "categories": [
@@ -4956,43 +5135,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 729
- },
- "umia": {
-  "categories": [
-   "Smart Contract Platform",
-   "Launchpad",
-   "Zero Knowledge (ZK)",
-   "Base Ecosystem",
-   "Governance"
-  ],
-  "cex": [
-   "Matcha (Base)"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Umia is the onchain venture protocol. Founders apply to launch their token through Umia, raise funds in an open auction, and keep building while their tokenholders govern the project's treasury through decision markets.\n\nEvery project on Umia gets its own legal entity, holding the project's intellectual property, its team and its treasury. The funds it raises sit in an onchain treasury contract that the founding team cannot spend on its own. The team draws a monthly allowance, set at formation with recipient addresses and purpose limits, which pays out automatically for development and go-to-market; raising it is itself a decision the market has to approve.\n\nFundraising runs through a Tailored Auction, Umia's configuration of Uniswap's Continuous Clearing Auction (CCA): an onchain auction that discovers the token's price over a set window, with refundable bids. Parts of the sale can be reserved for a project's own community, with participants proving they qualify through zkTLS proofs generated in their browser by the Umia Extension, without revealing their identity, their accounts, or their data. Part of the proceeds automatically seeds a Uniswap v4 liquidity pool owned by the project's treasury.\n\nAnything beyond that allowance, a large one-off spend, a new commitment or a change in compensation, goes to a decision market, an open market that prices what each option would do for the project.\n\nUMIA is the token of the Umia protocol, an ERC-20 on Base. Holders direct the protoc",
-  "dex": [
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x56ab53b77F07DA3af732150E8aeC4783eB5BbA7D",
-  "fetched": "2026-10-16T18:09:09.302242+00:00",
-  "genesis": null,
-  "github": "https://github.com/umiafinance",
-  "homepage": "https://www.umia.finance",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/umia_finance",
-  "telegram_users": null,
-  "twitter": "https://x.com/umia_finance",
-  "twitter_followers": null,
-  "watchers": 211
  },
  "unit-00-rei": {
   "categories": [
@@ -5307,7 +5449,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-10-18T17:25:16.409269+00:00",
+  "fetched": "2026-10-19T19:59:45.611833+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
@@ -5321,7 +5463,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
-  "watchers": 656
+  "watchers": 657
  },
  "zentry": {
   "categories": [
@@ -5365,7 +5507,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-10-18T17:26:32.615578+00:00",
+  "fetched": "2026-10-19T20:01:02.191854+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
