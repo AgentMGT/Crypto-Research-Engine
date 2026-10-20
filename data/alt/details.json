@@ -54,62 +54,6 @@
   "twitter_followers": null,
   "watchers": 9344
  },
- "aethir": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Impossible Finance Launchpad",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Animoca Brands Portfolio",
-   "Binance Alpha Spotlight"
-  ],
-  "cex": [
-   "BTSE",
-   "BVOX",
-   "BYDFi",
-   "Biconomy.com",
-   "BigONE",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bitunix"
-  ],
-  "cex_count": 48,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Aethir is the only Enterprise-grade AI-focused GPU-as-a-service provider in the market. It\u2019s a decentralized cloud computing infrastructure allows GPU providers (containers) to meet Enterprise clients who need powerful H100\u2019s chips for professional AI/ML tasks. \n\nAethir also support cloud gaming clients with their virtual computing phones and GPU's with contracts with the world\u2019s largest telecommunication company. Everything within Aethir ecosystem will be decentralized and community-owned.",
-  "dex": [
-   "Meteora DAMM V2",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Arbitrum)"
-  ],
-  "discord": "https://discord.com/invite/aethircloud",
-  "explorer": "https://etherscan.io/token/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
-  "fetched": "2026-10-17T00:35:11.607616+00:00",
-  "genesis": null,
-  "github": "https://github.com/AethirCloud",
-  "homepage": "https://www.aethir.com/",
-  "platforms": [
-   "arbitrum-one",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/aethir_cloud",
-  "telegram_users": null,
-  "twitter": "https://x.com/AethirCloud",
-  "twitter_followers": null,
-  "watchers": 42505
- },
  "agoras-currency-of-tau": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -164,16 +108,16 @@
    "BYDFi",
    "Biconomy.com",
    "Binance",
-   "Binance US",
    "BingX",
    "Bit2Me",
    "BitKan",
    "Bitkub",
    "Bitlo",
    "Bitrue",
-   "Bittime"
+   "Bittime",
+   "Bitunix"
   ],
-  "cex_count": 45,
+  "cex_count": 42,
   "chat": null,
   "commits_4w": null,
   "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
@@ -187,7 +131,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-10-19T00:17:01.660838+00:00",
+  "fetched": "2026-10-20T01:08:13.995138+00:00",
   "genesis": null,
   "github": "https://github.com/aixbt",
   "homepage": "https://aixbt.tech",
@@ -203,7 +147,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/aixbt_agent",
   "twitter_followers": null,
-  "watchers": 38560
+  "watchers": 38552
  },
  "aleo": {
   "categories": [
@@ -306,57 +250,44 @@
   "twitter_followers": null,
   "watchers": 25056
  },
- "altura": {
+ "allinu": {
   "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "NFT Marketplace",
-   "Base Ecosystem",
-   "Gaming Platform",
-   "Made in USA",
-   "Gaming Marketplace",
-   "Base Native"
+   "Solana Ecosystem",
+   "Meme",
+   "Dog-Themed",
+   "Solana Meme",
+   "Stonk Ecosystem"
   ],
   "cex": [
-   "BingX",
-   "Gate",
-   "HTX",
-   "KuCoin",
-   "LATOKEN",
    "LBank",
-   "MEXC",
-   "Ourbit"
+   "Poloniex"
   ],
-  "cex_count": 8,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
-  "description": "What is Altura (ALU)?\n\nAltura is revolutionizing the gaming industry by making it easy to build, scale, and monetize Web3 and AI-powered games. By combining blockchain technology with cutting-edge artificial intelligence, Altura enables developers to create immersive gaming experiences with intelligent non-player characters (NPCs) and dynamic in-game assets.\n\nWhy use Altura?\n\nSimplify Web3 and AI Integration: Implementing blockchain and AI technologies can be complex and time-consuming. Altura's developer-friendly APIs and SDKs simplify this process, allowing you to deploy your Web3 stack and integrate AI features efficiently.\n\nSave Time and Resources: Altura's solutions help reduce development costs and streamline your process, so you can focus on building and enhancing your game.\n\nConnect with a Vibrant Community: Promote your game to a large audience of gamers, developers, and Web3 enthusiasts through Altura's marketplace and community tools. List and sell your NFTs where thousands of players buy, sell, and trade daily.\n\nBuild with Confidence: Altura's built-in authentication tools and support for multiple blockchains and NFT standards help you build a secure and trustworthy NFT economy for your game.",
+  "description": "",
   "dex": [
-   "BabySwap",
-   "Biswap",
-   "PancakeSwap (v2)",
-   "Uniswap V4 (Base)"
+   "Meteora",
+   "Meteora DAMM V2",
+   "Raydium"
   ],
-  "discord": "https://discord.gg/GgQWeK8jmS",
-  "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-10-17T00:33:51.470416+00:00",
+  "discord": null,
+  "explorer": "https://solscan.io/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
+  "fetched": "2026-10-20T01:08:20.602903+00:00",
   "genesis": null,
-  "github": "https://github.com/alturanft",
-  "homepage": "https://www.altura.com/",
+  "github": null,
+  "homepage": "https://www.stonkfun.xyz/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
   "platforms": [
-   "base",
-   "binance-smart-chain"
+   "solana"
   ],
-  "reddit": "https://www.reddit.com/r/AlturaNFT/",
+  "reddit": null,
   "sentiment_up": null,
   "stars": null,
-  "telegram": "https://t.me/AlturaGaming",
+  "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/altura",
+  "twitter": null,
   "twitter_followers": null,
-  "watchers": 113478
+  "watchers": 159
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -472,7 +403,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-17T10:46:43.804173+00:00",
+  "fetched": "2026-10-20T01:11:17.115581+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -486,7 +417,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11078
+  "watchers": 11080
  },
  "audius": {
   "categories": [
@@ -612,7 +543,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-19T00:17:14.446021+00:00",
+  "fetched": "2026-10-20T01:09:24.338747+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -628,7 +559,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23706
+  "watchers": 23710
  },
  "benqi": {
   "categories": [
@@ -665,7 +596,7 @@
   ],
   "discord": null,
   "explorer": "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
-  "fetched": "2026-10-19T00:18:20.938107+00:00",
+  "fetched": "2026-10-20T01:09:30.927387+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.benqi.fi/",
@@ -679,7 +610,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BenqiFinance",
   "twitter_followers": null,
-  "watchers": 30422
+  "watchers": 30424
  },
  "bio-protocol": {
   "categories": [
@@ -1188,7 +1119,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
-  "fetched": "2026-10-19T00:20:40.420592+00:00",
+  "fetched": "2026-10-20T01:10:44.028826+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.clawpump.tech",
@@ -1202,7 +1133,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/clawpumptech",
   "twitter_followers": null,
-  "watchers": 264
+  "watchers": 263
  },
  "clearpool": {
   "categories": [
@@ -1387,8 +1318,10 @@
    "Solana Meme",
    "Pump.fun Ecosystem"
   ],
-  "cex": [],
-  "cex_count": 0,
+  "cex": [
+   "Manifest"
+  ],
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -1398,7 +1331,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-10-19T00:16:58.374927+00:00",
+  "fetched": "2026-10-20T01:08:10.555668+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1412,7 +1345,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 12
+  "watchers": 36
  },
  "dawg-3": {
   "categories": [
@@ -1503,7 +1436,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-10-18T00:09:19.818659+00:00",
+  "fetched": "2026-10-20T01:09:37.363048+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -1511,13 +1444,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
-  "watchers": 448
+  "watchers": 446
  },
  "dowge": {
   "categories": [
@@ -1723,7 +1656,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
-  "fetched": "2026-10-19T00:17:08.016778+00:00",
+  "fetched": "2026-10-20T01:08:17.278262+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://eagles.land",
@@ -2067,6 +2000,53 @@
   "twitter": "https://x.com/froggie_bsc0",
   "twitter_followers": null,
   "watchers": 171
+ },
+ "funfair": {
+  "categories": [
+   "Gambling (GambleFi)",
+   "Ethereum Ecosystem",
+   "Pantera Capital Portfolio",
+   "Energi Ecosystem"
+  ],
+  "cex": [
+   "BTSE",
+   "BitBNS",
+   "Bitrue",
+   "Gate",
+   "HTX",
+   "Indodax",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Ourbit"
+  ],
+  "cex_count": 10,
+  "chat": "https://medium.com/@FUNtoken",
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (Ethereum)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/e7vfgKbEKU",
+  "explorer": "https://etherscan.io/token/0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
+  "fetched": "2026-10-20T01:11:20.306759+00:00",
+  "genesis": "2017-06-23",
+  "github": "https://github.com/funtoken/funtoken.github.io",
+  "homepage": "https://funtoken.io/",
+  "platforms": [
+   "energi",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/FUN_Token",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/officialFUNToken",
+  "telegram_users": null,
+  "twitter": "https://x.com/FUNtoken_io",
+  "twitter_followers": null,
+  "watchers": 22493
  },
  "gamercoin": {
   "categories": [
@@ -2532,7 +2512,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
-  "fetched": "2026-10-18T04:47:43.356962+00:00",
+  "fetched": "2026-10-20T01:10:47.248724+00:00",
   "genesis": null,
   "github": "https://github.com/librecapital",
   "homepage": "https://www.kaio.xyz/",
@@ -2540,13 +2520,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/KAIO_RWA",
   "telegram_users": null,
   "twitter": "https://x.com/KAIO_xyz",
   "twitter_followers": null,
-  "watchers": 641
+  "watchers": 646
  },
  "kryll": {
   "categories": [
@@ -2955,7 +2935,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
-  "fetched": "2026-10-19T00:17:11.219925+00:00",
+  "fetched": "2026-10-20T01:09:34.115268+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.mansory.com/",
@@ -4009,7 +3989,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 38,
+  "cex_count": 39,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -4020,7 +4000,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-19T00:19:33.949264+00:00",
+  "fetched": "2026-10-20T01:10:40.696688+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4030,13 +4010,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12538
+  "watchers": 12537
  },
  "reserve-rights-token": {
   "categories": [
@@ -4064,7 +4044,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 58,
+  "cex_count": 57,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4078,7 +4058,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-19T00:20:50.060827+00:00",
+  "fetched": "2026-10-20T01:10:50.572964+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4089,13 +4069,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90692
+  "watchers": 90690
  },
  "resistance-dog": {
   "categories": [
@@ -4200,7 +4180,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-19T00:18:17.719539+00:00",
+  "fetched": "2026-10-20T01:09:27.600683+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -4211,7 +4191,7 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/Rizenet_OfficialCommunity",
   "telegram_users": null,
@@ -4256,11 +4236,12 @@
   "dex": [
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Arbitrum)",
    "Uniswap V4 (Ethereum)"
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-19T00:20:43.618891+00:00",
+  "fetched": "2026-10-20T01:10:53.778363+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -5233,7 +5214,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-19T00:15:55.116266+00:00",
+  "fetched": "2026-10-20T01:08:06.330461+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5241,13 +5222,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+o9WcbT5JyIFkZTM0",
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 159
+  "watchers": 161
  },
  "win-jie": {
   "categories": [
@@ -5281,40 +5262,6 @@
   "twitter": "https://x.com/WinDAO_winjie",
   "twitter_followers": null,
   "watchers": 14
- },
- "wingbits": {
-  "categories": [
-   "Solana Ecosystem",
-   "DePIN"
-  ],
-  "cex": [
-   "Kraken"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The native token of Wingbits, the world's first rewards-based decentralized flight tracking network. WINGS powers a global DePIN ecosystem where contributors earn rewards for collecting ADS-B aviation data, creating the world's largest virtual map of the sky while transforming how flight data is gathered, verified, and shared.",
-  "dex": [
-   "Orca",
-   "Raydium (CLMM)"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
-  "fetched": "2026-10-17T00:34:04.707133+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://wingbits.com/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/WingbitsMENACommunity",
-  "telegram_users": null,
-  "twitter": "https://x.com/wingbits",
-  "twitter_followers": null,
-  "watchers": 478
  },
  "wormhole": {
   "categories": [
