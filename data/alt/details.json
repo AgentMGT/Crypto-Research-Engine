@@ -36,7 +36,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-10-20T14:03:26.018782+00:00",
+  "fetched": "2026-10-20T14:15:03.515471+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -681,21 +681,21 @@
    "Bitlo",
    "Bitrue"
   ],
-  "cex_count": 49,
+  "cex_count": 48,
   "chat": null,
   "commits_4w": null,
   "description": "BIO is a curation and liquidity protocol for Decentralized Science (DeSci). Our mission is to accelerate biotechnology by giving global communities of patients, scientists and biotech professionals the ability to collectively fund, build and own tokenized biotech projects and intellectual property (IP). \n\nThe team behind BIO helped create Molecule, a tokenization platform for early-stage biomedicine, and VitaDAO, the largest decentralized community for longevity science. Building on these successes, BIO is designed to catalyze an onchain scientific economy through decentralized funding, incentives and liquidity.\n\nThe BIO token gives holders access to BIO's network of scientific communities and IP, enabling broad exposure to the DeSci economy.",
   "dex": [
    "Aerodrome SlipStream",
    "Aerodrome Slipstream 2",
+   "Aerodrome Slipstream 3",
    "Meteora DAMM V2",
    "PancakeSwap V3 (BSC)",
-   "PancakeSwap V3 (Base)",
-   "Raydium"
+   "PancakeSwap V3 (Base)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-10-18T00:10:29.409453+00:00",
+  "fetched": "2026-10-20T14:17:29.979723+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -706,13 +706,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17115
+  "watchers": 17117
  },
  "blue-chip-4": {
   "categories": [
@@ -986,40 +986,6 @@
   "twitter_followers": null,
   "watchers": 7479
  },
- "chutes": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets"
-  ],
-  "cex": [
-   "Kraken",
-   "MEXC",
-   "Subnet Tokens"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-10-20T07:50:29.220108+00:00",
-  "genesis": null,
-  "github": "https://github.com/rayonlabs/chutes",
-  "homepage": "https://chutes.ai/",
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/chutes_ai",
-  "twitter_followers": null,
-  "watchers": 2099
- },
  "circle-internet-group-robinhood-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -1085,7 +1051,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
-  "fetched": "2026-10-20T14:05:43.431945+00:00",
+  "fetched": "2026-10-20T14:17:26.774389+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://realityfinance.xyz/",
@@ -1128,7 +1094,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-10-20T14:03:15.882776+00:00",
+  "fetched": "2026-10-20T14:13:40.102241+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -1437,7 +1403,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-10-20T14:04:36.440562+00:00",
+  "fetched": "2026-10-20T14:16:20.325257+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1677,7 +1643,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-10-20T11:34:46.802401+00:00",
+  "fetched": "2026-10-20T14:13:43.457684+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dji6930.com/",
@@ -1955,7 +1921,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-10-20T11:35:59.642644+00:00",
+  "fetched": "2026-10-20T14:14:56.530865+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -2096,7 +2062,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-20T14:05:53.580575+00:00",
+  "fetched": "2026-10-20T14:17:36.321356+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2132,7 +2098,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-20T11:35:53.266112+00:00",
+  "fetched": "2026-10-20T14:13:46.700411+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -2223,7 +2189,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-20T14:04:33.038684+00:00",
+  "fetched": "2026-10-20T14:15:10.703264+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -2618,7 +2584,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-20T14:04:39.850938+00:00",
+  "fetched": "2026-10-20T14:16:17.143617+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2792,7 +2758,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-10-20T07:49:19.302549+00:00",
+  "fetched": "2026-10-20T14:17:33.157356+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2941,7 +2907,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-10-20T14:05:50.220198+00:00",
+  "fetched": "2026-10-20T14:18:39.596498+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -3266,7 +3232,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-20T11:36:06.120844+00:00",
+  "fetched": "2026-10-20T14:15:13.880803+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3282,39 +3248,6 @@
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
   "watchers": 31927
- },
- "minotaur-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets",
-   "Robotics"
-  ],
-  "cex": [
-   "Subnet Tokens"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "THOR is building open robotics infrastructure through Bittensor Subnet 112 (SN112), starting with a marketplace for commissioning robotics training data. Its initial focus is expert video annotation: buyers define the task and acceptance criteria, qualified contributors produce the annotations, and THOR coordinates verification and delivery. The initial private pilot is designed for professional annotation firms, with permissionless annotation planned after beta. Its longer-term direction connects data, models and hardware to support robotics research and deployment.",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://taostats.io/subnets/112/chart",
-  "fetched": "2026-10-20T11:38:28.663957+00:00",
-  "genesis": null,
-  "github": "https://github.com/subnet112/minotaur_subnet",
-  "homepage": "https://thormachines.ai/",
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/THORMachines",
-  "twitter_followers": null,
-  "watchers": 76
  },
  "minter": {
   "categories": [
@@ -3465,7 +3398,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-20T11:36:09.343640+00:00",
+  "fetched": "2026-10-20T14:13:53.213942+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3479,7 +3412,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7942
+  "watchers": 7940
  },
  "ninja-squad": {
   "categories": [
@@ -3521,38 +3454,6 @@
   "twitter": "https://x.com/ninjasquadnft",
   "twitter_followers": null,
   "watchers": 2901
- },
- "nkyc-token": {
-  "categories": [
-   "Exchange-based Tokens",
-   "BNB Chain Ecosystem",
-   "Centralized Exchange (CEX) Token"
-  ],
-  "cex": [
-   "Nonkyc.io"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Pay trade fees with NonKYC Token (NKYC) on Nonkyc.io Exchange and get a 25% discount. \n\nFounded in 2023, NonKYC.io strives to provide its users with the best trading experience and give small and medium market cap assets a reliable trading hub. Our goal is to maintain a fast and user friendly system while also concentrating on security to keep users, data, and assets safe. Security of our users' data &amp; assets is always our top priority and we are focused on building an easy to use digital asset trading platform for everyone to enjoy.\n\nThe NonKYC platform system is NOT from some predesigned script package or preexisting codebase. It has been created from the ground up by professional developers who are well experienced in Cryptocurrency. NonKYC has been designed to scale horizontally as we grow to become a top tier exchange.\n\n",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-10-20T07:50:25.999102+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://nonkyc.io",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/nonkyc",
-  "telegram_users": null,
-  "twitter": "https://x.com/nonkyc_exchange",
-  "twitter_followers": null,
-  "watchers": 684
  },
  "nvidia-ondo-tokenized-stock": {
   "categories": [
@@ -4650,7 +4551,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-  "fetched": "2026-10-20T14:05:46.793721+00:00",
+  "fetched": "2026-10-20T14:16:23.585681+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sanctum.so/",
@@ -5381,7 +5282,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
-  "fetched": "2026-10-20T14:04:29.673370+00:00",
+  "fetched": "2026-10-20T14:15:07.141682+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -5532,7 +5433,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-10-20T07:48:02.849140+00:00",
+  "fetched": "2026-10-20T14:13:49.901154+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
@@ -5546,7 +5447,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TonUtyacoin",
   "twitter_followers": null,
-  "watchers": 1839
+  "watchers": 1841
  },
  "what-the-hook": {
   "categories": [
@@ -5597,7 +5498,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
-  "fetched": "2026-10-20T11:34:43.649957+00:00",
+  "fetched": "2026-10-20T14:12:36.870149+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
@@ -5654,7 +5555,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-10-20T07:50:32.509305+00:00",
+  "fetched": "2026-10-20T14:14:59.726276+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5671,7 +5572,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43519
+  "watchers": 43518
  },
  "xyo-network": {
   "categories": [
