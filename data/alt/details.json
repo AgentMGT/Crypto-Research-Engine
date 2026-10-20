@@ -13,6 +13,7 @@
   "cex": [
    "Biconomy.com",
    "Binance",
+   "Binance US",
    "Bitrue",
    "Bittime",
    "Bitvavo",
@@ -21,10 +22,9 @@
    "Kraken",
    "KuCoin",
    "MEXC",
-   "Mudrex",
-   "TokoCrypto"
+   "Mudrex"
   ],
-  "cex_count": 15,
+  "cex_count": 16,
   "chat": null,
   "commits_4w": null,
   "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
@@ -36,7 +36,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-10-19T00:19:24.214868+00:00",
+  "fetched": "2026-10-20T14:03:26.018782+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -52,7 +52,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/heyAura",
   "twitter_followers": null,
-  "watchers": 9344
+  "watchers": 9346
  },
  "agoras-currency-of-tau": {
   "categories": [
@@ -184,7 +184,7 @@
   ],
   "discord": "https://discord.com/invite/aleo",
   "explorer": "https://aleoscan.io/",
-  "fetched": "2026-10-18T11:07:58.573768+00:00",
+  "fetched": "2026-10-20T14:06:07.770316+00:00",
   "genesis": null,
   "github": "https://github.com/AleoNet",
   "homepage": "https://www.aleo.org/",
@@ -192,13 +192,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 81.82,
+  "sentiment_up": 83.33,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AleoHQ",
   "twitter_followers": null,
-  "watchers": 9346
+  "watchers": 9351
  },
  "aleph": {
   "categories": [
@@ -868,7 +868,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-19T13:11:02.267730+00:00",
+  "fetched": "2026-10-20T14:06:11.177831+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -883,7 +883,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114147
+  "watchers": 114146
  },
  "bundle-cat": {
   "categories": [
@@ -1063,6 +1063,45 @@
   "twitter_followers": null,
   "watchers": 135
  },
+ "circle-rstock-2": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Morph L2 Ecosystem",
+   "Remora Markets Tokenized rStocks",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Circle Internet Group is a fintech and digital dollar infrastructure company best known for issuing and operating the USDC stablecoin and EURC. Through Circle Mint, APIs, wallet infrastructure, and settlement tools, the company serves exchanges, financial institutions, enterprises, and developers that need regulated digital-dollar payments, treasury operations, cross-border settlement, and on-chain application access. Its economics are tied to stablecoin circulation, reserve income, transaction activity, and adoption of new infrastructure products. In 2025, Circle launched Circle Payments Network and advanced Arc, a Layer-1 blockchain initiative focused on stablecoin payments and settlement.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+  "fetched": "2026-10-20T14:05:43.431945+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://realityfinance.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "morph-l2"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RealityFi_xyz",
+  "twitter_followers": null,
+  "watchers": 9
+ },
  "claudia-2": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1073,23 +1112,23 @@
    "TikTok Meme"
   ],
   "cex": [
-   "Hadron",
    "LBank",
    "MEXC",
    "Manifest"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
   "dex": [
    "Meteora",
+   "Meteora DAMM V2",
    "Orca",
    "PumpSwap"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-10-19T13:08:33.018397+00:00",
+  "fetched": "2026-10-20T14:03:15.882776+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -1097,13 +1136,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 72
+  "watchers": 75
  },
  "claus-2": {
   "categories": [
@@ -1251,7 +1290,7 @@
   "dex": [],
   "discord": "https://discord.com/invite/7sAEVGza8w",
   "explorer": null,
-  "fetched": "2026-10-19T13:09:55.723837+00:00",
+  "fetched": "2026-10-20T14:05:56.968402+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clore.ai",
@@ -1263,7 +1302,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/clore_ai",
   "twitter_followers": null,
-  "watchers": 23163
+  "watchers": 23159
  },
  "codec-flow": {
   "categories": [
@@ -1355,6 +1394,66 @@
   "twitter": "https://x.com/AVAFoundation",
   "twitter_followers": null,
   "watchers": 27623
+ },
+ "cookie": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Marketing",
+   "Analytics",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Animoca Brands Portfolio",
+   "Base Ecosystem",
+   "AI Agents",
+   "Binance Alpha Spotlight",
+   "InfoFi",
+   "Governance",
+   "Base Native"
+  ],
+  "cex": [
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "BloFin"
+  ],
+  "cex_count": 32,
+  "chat": "https://docs.cookie.community/cookie-dao",
+  "commits_4w": null,
+  "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 3",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/XKhHrHtSHK",
+  "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
+  "fetched": "2026-10-20T14:04:36.440562+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.cookie.fun/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/cookie_dao",
+  "telegram_users": null,
+  "twitter": "https://x.com/cookiedotfun",
+  "twitter_followers": null,
+  "watchers": 33328
  },
  "dacity-coin-2": {
   "categories": [
@@ -1997,7 +2096,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-19T13:11:11.981123+00:00",
+  "fetched": "2026-10-20T14:05:53.580575+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2008,13 +2107,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 80.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7612
+  "watchers": 7614
  },
  "froggie": {
   "categories": [
@@ -2124,7 +2223,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-18T17:25:19.593270+00:00",
+  "fetched": "2026-10-20T14:04:33.038684+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -2289,6 +2388,45 @@
   "twitter": "https://x.com/gbackcoin",
   "twitter_followers": null,
   "watchers": 185
+ },
+ "gstock": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [
+   "Gate",
+   "LBank",
+   "MEXC",
+   "Matcha (BSC)"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
+  "fetched": "2026-10-20T14:03:19.290652+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://slinkcoinrbh.lol/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 83
  },
  "iexec-rlc": {
   "categories": [
@@ -2480,7 +2618,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-19T13:09:52.466513+00:00",
+  "fetched": "2026-10-20T14:04:39.850938+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2496,7 +2634,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/IxsFinance",
   "twitter_followers": null,
-  "watchers": 11511
+  "watchers": 11512
  },
  "jean-phil": {
   "categories": [
@@ -2522,7 +2660,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
-  "fetched": "2026-10-19T13:08:36.258700+00:00",
+  "fetched": "2026-10-20T14:03:22.657059+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://jeanphilmadame.com/",
@@ -2530,13 +2668,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/JeanPhilMadame",
   "twitter_followers": null,
-  "watchers": 144
+  "watchers": 146
  },
  "kaio": {
   "categories": [
@@ -2793,7 +2931,7 @@
    "Gate",
    "HTX"
   ],
-  "cex_count": 24,
+  "cex_count": 23,
   "chat": null,
   "commits_4w": null,
   "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Base and Ethereum, with Base as its primary Layer 2 network. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
@@ -2803,7 +2941,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-10-19T10:08:08.695388+00:00",
+  "fetched": "2026-10-20T14:05:50.220198+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2813,13 +2951,13 @@
    "lisk"
   ],
   "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": 80.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30238
+  "watchers": 30240
  },
  "livepeer": {
   "categories": [
@@ -2937,6 +3075,7 @@
   "cex": [
    "BVOX",
    "Binance",
+   "Binance US",
    "BitKan",
    "Bithumb",
    "Bitkub",
@@ -2945,10 +3084,9 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
-   "BtcTurk | Kripto",
-   "Bybit"
+   "BtcTurk | Kripto"
   ],
-  "cex_count": 40,
+  "cex_count": 41,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -2962,7 +3100,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-19T13:10:59.016019+00:00",
+  "fetched": "2026-10-20T14:06:00.445928+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2972,13 +3110,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38917
+  "watchers": 38914
  },
  "make-no-mistakes-2": {
   "categories": [
@@ -3526,6 +3664,55 @@
   "twitter_followers": null,
   "watchers": 30301
  },
+ "openeden": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "RWA Protocol"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Coinone"
+  ],
+  "cex_count": 21,
+  "chat": null,
+  "commits_4w": null,
+  "description": "OpenEden offers 24/7, on-chain access to tokenized US Treasury securities for Web3 CFOs, DAO treasury managers, and buy-side institutional investors seeking low-risk, highly liquid crypto cash management solutions.\n\nWe are the first tokenized real-world asset (RWA) issuer to receive a Moody's \"A-bf\" bond fund rating. Since launching in early 2023, OpenEden has already become the largest issuer of tokenied US Treasuries in Asia and Europe.\n\nAs part of our end-to-end tokenization stack, OpenEden is directly involved through its licensed investment management entity which manages its BVI-registered professional fund, which issues the $TBILL tokens and custodises the underlying assets with licensed third party custodians.  ",
+  "dex": [
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x235B6fe22B4642aDa16D311855c49Ce7DE260841",
+  "fetched": "2026-10-20T14:06:03.971081+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://openeden.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/openeden",
+  "telegram_users": null,
+  "twitter": "https://x.com/OpenEden_X",
+  "twitter_followers": null,
+  "watchers": 2236
+ },
  "openvpp-2": {
   "categories": [
    "Energy",
@@ -3749,7 +3936,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-19T13:11:05.506460+00:00",
+  "fetched": "2026-10-20T14:07:14.747274+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -4444,6 +4631,8 @@
   "cex": [
    "Bitrue",
    "Bybit",
+   "Coinone",
+   "Crypto.com Exchange",
    "DigiFinex",
    "Gate",
    "Kraken",
@@ -4451,7 +4640,7 @@
    "Mudrex",
    "Ourbit"
   ],
-  "cex_count": 8,
+  "cex_count": 10,
   "chat": "https://www.twitch.tv/sanctumso",
   "commits_4w": null,
   "description": "",
@@ -4461,7 +4650,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-  "fetched": "2026-10-18T04:47:40.217359+00:00",
+  "fetched": "2026-10-20T14:05:46.793721+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sanctum.so/",
@@ -4475,7 +4664,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/sanctumso",
   "twitter_followers": null,
-  "watchers": 5629
+  "watchers": 5631
  },
  "silencio": {
   "categories": [
@@ -5192,7 +5381,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
-  "fetched": "2026-10-19T00:19:30.718482+00:00",
+  "fetched": "2026-10-20T14:04:29.673370+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
