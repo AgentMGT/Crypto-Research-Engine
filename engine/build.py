@@ -1,5 +1,6 @@
 """Build the static site. Run: python -m engine.build [crypto|tao|all]"""
 
+import hashlib
 import json
 import os
 import shutil
@@ -148,6 +149,13 @@ def env():
     )
     e.filters.update(money=money, num=num, signed=signed, cls=cls, spark=spark, chart=chart)
     # Repo the "Scan now" button triggers; Actions sets GITHUB_REPOSITORY.
+    # Asset version: a hash of the scripts and styles, appended as ?v= so browsers fetch new
+    # code as soon as it changes instead of running a cached copy.
+    h = hashlib.sha1()
+    for f in sorted((ROOT / "static").glob("*")):
+        if f.suffix in (".js", ".css"):
+            h.update(f.read_bytes())
+    e.globals["v"] = h.hexdigest()[:10]
     e.globals["repo"] = os.environ.get("GITHUB_REPOSITORY") or "AgentMGT/Crypto-Research-Engine"
     e.tests["contains"] = lambda seq, x: x in (seq or [])
     return e

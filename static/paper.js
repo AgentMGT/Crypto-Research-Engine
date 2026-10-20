@@ -254,7 +254,10 @@
     var held = Object.keys(acct.positions).map(Number);
     function opt(r) { return '<option value="' + r.netuid + '">SN' + r.netuid + " " + esc(r.name) + " — " + esc(r.setup || r.status) + "</option>"; }
     var groups = [
-      ["Your positions", rows.filter(function (r) { return held.indexOf(r.netuid) >= 0; })],
+      // Every holding stays sellable, even one the latest plan no longer lists.
+      ["Your positions", held.map(function (k) {
+        return snap.plan[k] || { netuid: k, name: (snap.subnets[k] || acct.positions[k]).name || "Subnet " + k, status: "Not in plan" };
+      })],
       ["Plan entry candidates", rows.filter(function (r) { return r.status === "Entry" && held.indexOf(r.netuid) < 0; })],
       ["All other subnets", rows.filter(function (r) { return r.status !== "Entry" && held.indexOf(r.netuid) < 0; }).sort(function (a, b) { return a.netuid - b.netuid; })]
     ];
@@ -283,6 +286,12 @@
     }
     $("pp-preview").innerHTML = prev;
     var cs = checks(id, side, amt);
+    // Say why the button is greyed out instead of leaving it silently disabled.
+    if (!(amt > 0) && !cs.length) {
+      cs = [{ level: "block", text: side === "sell"
+        ? (pos ? "Enter how much alpha to sell, or tap ⅓, ½ or All above." : "You don't hold this subnet. Pick one under \"Your positions\" in the list.")
+        : "Enter how much TAO to spend, or tap a size above." }];
+    }
     $("pp-checks").innerHTML = cs.map(function (c) { return '<div class="pp-chk ' + c.level + '">' + (c.level === "ok" ? "✓ " : c.level === "warn" ? "! " : "✕ ") + esc(c.text) + "</div>"; }).join("");
     var blocked = !(amt > 0) || cs.some(function (c) { return c.level === "block"; });
     var warn = cs.some(function (c) { return c.level === "warn"; });

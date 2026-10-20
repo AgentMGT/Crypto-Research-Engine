@@ -103,7 +103,7 @@
 </section>
 {% endblock %}
 
-{% block scripts %}<script src="paper.js"></script><script src="paper-crypto.js"></script><script src="trades.js"></script><script src="bot.js"></script><script src="journal.js"></script><script src="review.js"></script>
+{% block scripts %}<script src="paper.js?v={{ v }}"></script><script src="paper-crypto.js?v={{ v }}"></script><script src="trades.js?v={{ v }}"></script><script src="bot.js?v={{ v }}"></script><script src="journal.js?v={{ v }}"></script><script src="review.js?v={{ v }}"></script>
 <script>
 (function () {
   var tabs = document.querySelectorAll(".pp-tabs [data-tab]");

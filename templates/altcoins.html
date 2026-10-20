@@ -296,4 +296,4 @@
 
 {% block sources %}Sources: CoinGecko (markets, categories, project details, community links), DefiLlama (protocol TVL), GeckoTerminal and DEX Screener (DEX pools, links to DEXTools){% if alt and alt.cmc %}, CoinMarketCap (new listings){% endif %}, CoinGape, Changelly and Google News (headlines){% if alt and alt.ai_on %}, Claude with web search (due diligence){% endif %}.{% endblock %}
 
-{% block scripts %}<script src="altcoins.js"></script>{% endblock %}
+{% block scripts %}<script src="altcoins.js?v={{ v }}"></script>{% endblock %}
