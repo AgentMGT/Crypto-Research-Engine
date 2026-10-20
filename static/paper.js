@@ -120,12 +120,22 @@
   }
 
   // ------------------------------------------------------------ orders
+  var armed = null;
   function place() {
     var id = +$("pp-sn").value, amt = parseFloat($("pp-amt").value);
     var cs = checks(id, side, amt);
     if (!(amt > 0) || cs.some(function (c) { return c.level === "block"; })) return;
     var off = cs.filter(function (c) { return c.level === "warn"; }).map(function (c) { return c.text; });
-    if (off.length && !confirm("This order breaks the plan:\n\n• " + off.join("\n• ") + "\n\nPlace it anyway? It will be marked off plan.")) return;
+    // Off-plan orders need a second tap. No browser pop-up: in-app browsers (phone apps)
+    // silently answer "cancel" to confirm(), which made off-plan sells impossible there.
+    var key = side + "|" + id + "|" + amt;
+    if (off.length && armed !== key) {
+      armed = key;
+      $("pp-submit").textContent = "Tap again to " + side + " off plan";
+      $("pp-submit").classList.add("warn");
+      return;
+    }
+    armed = null;
     var s = snap.subnets[id], row = snap.plan[id] || {}, t;
     if (side === "buy") {
       var q = quoteBuy(id, amt);
@@ -276,6 +286,7 @@
     $("pp-checks").innerHTML = cs.map(function (c) { return '<div class="pp-chk ' + c.level + '">' + (c.level === "ok" ? "✓ " : c.level === "warn" ? "! " : "✕ ") + esc(c.text) + "</div>"; }).join("");
     var blocked = !(amt > 0) || cs.some(function (c) { return c.level === "block"; });
     var warn = cs.some(function (c) { return c.level === "warn"; });
+    armed = null;
     $("pp-submit").disabled = blocked;
     $("pp-submit").textContent = blocked ? "Place order" : (side === "buy" ? "Buy" : "Sell") + (warn ? " (off plan)" : "");
     $("pp-submit").classList.toggle("warn", !blocked && warn);
@@ -324,7 +335,9 @@
     }).catch(function (e) { alert("Couldn't import: " + e.message); });
     this.value = "";
   });
-  document.querySelector(".pp-side").addEventListener("click", function (e) {
+  // Scoped to this account's ticket: the crypto ticket earlier on the page uses .pp-side too,
+  // and an unscoped lookup wired the Buy/Sell toggle to it, so Sell never switched on.
+  document.querySelector("#pp-main .pp-side").addEventListener("click", function (e) {
     var b = e.target.closest("button[data-side]");
     if (!b) return;
     side = b.dataset.side;
@@ -346,7 +359,7 @@
     var tr = e.target.closest("tr[data-id]");
     if (!tr) return;
     $("pp-sn").value = tr.dataset.id;
-    document.querySelector('.pp-side button[data-side="sell"]').click();
+    document.querySelector('#pp-main .pp-side button[data-side="sell"]').click();
     $("pp-ticket").scrollIntoView({ behavior: "smooth", block: "start" });
   });
 

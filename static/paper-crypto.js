@@ -5,7 +5,7 @@
   var CG = "https://api.coingecko.com/api/v3";
   var $ = function (id) { return document.getElementById(id); };
   if (!$("pc-main")) return;
-  var acct = null, prices = {}, coin = null, dir = "long", snapCoins = [], items = [], active = -1, searchTimer = null, token = 0;
+  var acct = null, prices = {}, coin = null, dir = "long", snapCoins = [], snapPrice = {}, items = [], active = -1, searchTimer = null, token = 0;
 
   // ------------------------------------------------------------ helpers
   function esc(s) {
@@ -101,7 +101,14 @@
     var l = acct.lots.filter(function (x) { return x.lid === lid; })[0];
     if (!l) return;
     var p = levelPrice != null ? levelPrice : (prices[l.id] || {}).usd;
-    if (p == null) { alert("No live price for " + l.symbol + " yet."); return; }
+    if (p == null && snapPrice[l.id]) {
+      // CoinGecko is refusing this browser (rate limit or blocker): close at the last refresh's price.
+      p = snapPrice[l.id]; reason += " (last refresh price)";
+    }
+    if (p == null) {
+      setStatus("Couldn't close " + esc(l.symbol) + ": no price yet, because CoinGecko isn't answering this browser. Wait a minute and try again.");
+      return false;
+    }
     var q = l.qty * frac, part = l.cost * frac, s = slip(l.id, q * p);
     var fill = l.dir === "long" ? p * (1 - s) : p * (1 + s);
     var gross = l.dir === "long" ? q * fill : part + q * (l.entry - fill);
@@ -174,6 +181,7 @@
   // ------------------------------------------------------------ search
   fetch("crypto-latest.json").then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
     snapCoins = ((d || {}).coins || []).map(function (c) { return { id: c.id, name: c.name, symbol: c.symbol.toUpperCase(), rank: c.rank, thumb: c.image }; });
+    ((d || {}).coins || []).forEach(function (c) { if (c.price) snapPrice[c.id] = c.price; });
   }).catch(function () {});
 
   function suggest(arr) {
