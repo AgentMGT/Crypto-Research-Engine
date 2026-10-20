@@ -446,7 +446,7 @@
    "Bitunix",
    "Bitvavo"
   ],
-  "cex_count": 39,
+  "cex_count": 40,
   "chat": "https://www.instagram.com/audiusmusic/",
   "commits_4w": null,
   "description": "AUDIO is the native platform token of the Audius streaming protocol. AUDIO is staked for security, feature access and governance and earned by artists, fans and node operators who drive Audius.",
@@ -458,7 +458,7 @@
   ],
   "discord": "http://discord.gg/audius",
   "explorer": "https://etherscan.io/token/0x18aaa7115705e8be94bffebde57af9bfc265b998",
-  "fetched": "2026-10-18T04:48:52.933777+00:00",
+  "fetched": "2026-10-20T14:26:08.499386+00:00",
   "genesis": null,
   "github": "https://github.com/AudiusProject",
   "homepage": "https://audius.co/",
@@ -468,7 +468,7 @@
    "solana"
   ],
   "reddit": "https://www.reddit.com/r/audius/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1221,7 +1221,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
-  "fetched": "2026-10-19T00:19:37.157876+00:00",
+  "fetched": "2026-10-20T14:25:38.479816+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clearpool.finance/",
@@ -4049,7 +4049,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
-  "fetched": "2026-10-18T11:07:45.644102+00:00",
+  "fetched": "2026-10-20T14:26:05.182281+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -5122,8 +5122,8 @@
    "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
-  "explorer": "https://etherscan.io/token/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
-  "fetched": "2026-10-19T00:21:56.456533+00:00",
+  "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+  "fetched": "2026-10-20T14:26:01.891178+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/tslaon",
@@ -5140,7 +5140,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 375
+  "watchers": 376
  },
  "the-innovation-game": {
   "categories": [
@@ -5398,7 +5398,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-19T13:11:08.734806+00:00",
+  "fetched": "2026-10-20T14:26:11.696860+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5412,7 +5412,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/uranium_io",
   "twitter_followers": null,
-  "watchers": 454
+  "watchers": 456
  },
  "utya": {
   "categories": [
