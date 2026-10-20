@@ -1556,12 +1556,11 @@
   ],
   "cex": [
    "BingX",
-   "DigiFinex",
    "Gate",
    "KuCoin",
    "MEXC"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": "https://www.linkedin.com/company/dimitra-technology/",
   "commits_4w": null,
   "description": "The Dimitra (DMTR) is a blockchain platform that is democratizing the Agricultural Technology space for smallholder farmers globally. Dimitra provides access to the blockchain, machine learning, Internet of Things sensors, and Satellite Technology through a mobile platform that helps farmers globally increase their yield, reduce costs and mitigate risks. Current farming practices are not sustainable; creating an evolution of practices will contribute to solving some of today's largest issues for farmers. Issues like poverty, hunger, global warming, carbon emissions, freshwater, and soil preservation are all impacted by the adoption of Dimitra. Dimitra\u2019s platform provides utility by combining the crypto investment cycle with agricultural development practices within nations globally.",
@@ -1571,7 +1570,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
-  "fetched": "2026-10-18T00:10:32.597132+00:00",
+  "fetched": "2026-10-20T18:32:09.266909+00:00",
   "genesis": null,
   "github": "https://github.com/DimitraAgTech",
   "homepage": "https://dimitra.io",
@@ -1579,7 +1578,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/dimitraofficialgroup",
   "telegram_users": null,
@@ -1732,7 +1731,7 @@
   ],
   "discord": "https://discord.com/invite/edgenetwork",
   "explorer": "https://explorer.edge.network/",
-  "fetched": "2026-10-18T11:05:29.334674+00:00",
+  "fetched": "2026-10-20T18:31:59.294488+00:00",
   "genesis": "2018-02-16",
   "github": "https://github.com/edge",
   "homepage": "https://edge.network",
@@ -1740,13 +1739,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/edgenetwork",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/edgenetwork",
   "telegram_users": null,
   "twitter": "https://x.com/edgenetwork",
   "twitter_followers": null,
-  "watchers": 3626
+  "watchers": 3633
  },
  "edu-coin": {
   "categories": [
@@ -1840,65 +1839,6 @@
   "twitter": "https://x.com/egll_american",
   "twitter_followers": null,
   "watchers": 599
- },
- "everipedia": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Big Data",
-   "Media",
-   "BNB Chain Ecosystem",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "AI Agents",
-   "GMCI DePIN Index",
-   "Galaxy Digital Portfolio",
-   "GMCI Index",
-   "AI Agent Launchpad",
-   "AI Framework",
-   "DeFAI"
-  ],
-  "cex": [
-   "BTCC",
-   "Biconomy.com",
-   "Binance",
-   "Bithumb",
-   "Bitkub",
-   "Bittime",
-   "Bitunix",
-   "Bitvavo",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "Indodax"
-  ],
-  "cex_count": 20,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The IQ token is a cryptocurrency that powers the Agent Tokenization Platform (ATP). ATP was built for developers to launch the next generation of tokenized agents that are verifiably autonomous and sovereign. These agents are capable of owning and managing digital and physical assets, from cryptocurrencies to DeFi transactions to robots.",
-  "dex": [
-   "Curve (Ethereum)",
-   "Fraxswap (Ethereum)",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/RkMDgWy5XQ",
-  "explorer": "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
-  "fetched": "2026-10-17T17:13:57.794341+00:00",
-  "genesis": null,
-  "github": "https://github.com/EveripediaNetwork/Everipedia",
-  "homepage": "https://iqindustries.com",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "polygon-pos"
-  ],
-  "reddit": "https://www.reddit.com/r/Everipedia/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/everipedia",
-  "telegram_users": null,
-  "twitter": "https://x.com/IQofficial",
-  "twitter_followers": null,
-  "watchers": 14925
  },
  "everything": {
   "categories": [
@@ -3182,7 +3122,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
-  "fetched": "2026-10-18T17:26:29.242964+00:00",
+  "fetched": "2026-10-20T18:32:02.764007+00:00",
   "genesis": null,
   "github": "https://github.com/moonwell-fi/mamo-contracts",
   "homepage": "https://mamo.bot",
@@ -3196,7 +3136,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/mamo",
   "twitter_followers": null,
-  "watchers": 3771
+  "watchers": 3770
  },
  "mansory-token": {
   "categories": [
@@ -3691,101 +3631,6 @@
   "twitter": "https://x.com/openvpp",
   "twitter_followers": null,
   "watchers": 977
- },
- "ore": {
-  "categories": [
-   "Decentralized Finance (DeFi)",
-   "Solana Ecosystem",
-   "Mobile Mining"
-  ],
-  "cex": [
-   "LBank"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "ORE is future-proof electronic cash. ORE exists to advance the original vision for crypto, identified by Satoshi Nakamoto: creating digital money that cannot be debased or controlled by centralized authorities. \n\nBitcoin solved the double-spend problem. Solana solved scalability at the Layer 1 level. Modern wallets improved self-custody user experience. ORE solved the Proof-of-Work value leak.\n\nBuilt on Solana, ORE inherits the network's scalability, composability, and future upgrades, including privacy enhancements, without requiring the tradeoffs traditionally associated with securing blockchain consensus. For these reasons, we describe ORE (after Bitcoin: \"Peer-to-peer electronic cash\") as:\n- ORE, the asset, is a future-proof electronic cash system.\n- ORE, the protocol, is a future-proof electronic cash system on Solana.\n\nORE is named after Nicholas Oresme, the 14th-century philosopher and economist who argued that money should belong to the people who use it rather than rulers who debase it. That philosophy serves as the foundation for the protocol: in many ways, ORE is the continuation of a centuries-old idea \u2014 that monetary systems are strongest when they are governed by rules rather than rulers.",
-  "dex": [
-   "Meteora",
-   "Meteora DAMM V2",
-   "Orca",
-   "Raydium"
-  ],
-  "discord": "https://discord.gg/bSKU7TdtcY",
-  "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-  "fetched": "2026-10-17T17:13:51.435303+00:00",
-  "genesis": null,
-  "github": "https://github.com/regolith-labs/ore",
-  "homepage": "https://ore.supply/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/OREsupply",
-  "twitter_followers": null,
-  "watchers": 5155
- },
- "origintrail": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Polkadot Ecosystem",
-   "Metaverse",
-   "Ethereum Ecosystem",
-   "Interoperability",
-   "Real World Assets (RWA)",
-   "DePIN",
-   "Base Ecosystem",
-   "Decentralized Science (DeSci)",
-   "AI Agents",
-   "InfoFi",
-   "Base Native"
-  ],
-  "cex": [
-   "Bancor (V2)",
-   "Biconomy.com",
-   "Bithumb",
-   "Bitkub",
-   "Bitstamp by Robinhood",
-   "Bitvavo",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "Gate",
-   "GroveX",
-   "HTX",
-   "Hydration"
-  ],
-  "cex_count": 19,
-  "chat": null,
-  "commits_4w": null,
-  "description": "What is OriginTrail (TRAC)?\nOriginTrail is an ecosystem building a trusted knowledge infrastructure for artificial intelligence (AI). It addresses the challenge of misinformation in the AI era by ensuring the origin of information and enabling discoverability of the world's most important knowledge and real-world assets (RWAs).\nOriginTrail is creating a verifiable Internet for decentralized AI by empowering world-class brands and builders. It utilizes its unique Decentralized Knowledge Graph and  NeuroWeb blockchain to deliver AI-powered search and solutions for enterprises and individuals worldwide.\nOriginTrail has gained support and partnerships with world-class organizations such as British Standards Institution, SCAN, Polkadot, Parity, Walmart, World Federation of Hemophilia, Oracle, the EU Commission's Next Generation Internet, and Microsoft Entrepreneurship for Positive Impact. These partnerships contribute to advancing OriginTrail's trusted knowledge foundation and its applicability in trillion-dollar industries, while providing a verifiable Internet of knowledge important in particular to drive the economies of RWAs.\nThe best way to see the technology in action is by checking ChatDKG,  an experimental, question-answering bot on X (Twitter) based on trusted Knowledge Assets in OriginTrail Decentralized Knowledge Graph (DKG). The ChatDKG provides answers based on OriginTrail trusted AI.\nThe Metcalfe phase of OriginTrail\u2019s roadmap pursues an ambitious goal of creating th",
-  "dex": [
-   "Aerodrome (Base)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
-  "fetched": "2026-10-17T17:15:04.986540+00:00",
-  "genesis": "2018-01-24",
-  "github": "https://github.com/OriginTrail/ot-node",
-  "homepage": "https://origintrail.io/",
-  "platforms": [
-   "base",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/origintrail",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/origintrail",
-  "telegram_users": null,
-  "twitter": "https://x.com/origin_trail",
-  "twitter_followers": null,
-  "watchers": 45680
  },
  "osmosis": {
   "categories": [
@@ -4514,53 +4359,6 @@
   "twitter_followers": null,
   "watchers": 25864
  },
- "safe": {
-  "categories": [
-   "Infrastructure",
-   "Wallets",
-   "Gnosis Chain Ecosystem",
-   "Ethereum Ecosystem"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "BitKan",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bittime",
-   "Bitunix",
-   "Bitvavo",
-   "Bybit",
-   "Coinbase Exchange",
-   "Coinone"
-  ],
-  "cex_count": 27,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Safe is the ownership layer of web3 securing &gt;$100B+. It includes Safe{Core} a full stack of account abstraction infrastructure and the industry-standard multi-sig, Safe{Wallet}. The project is focused on making every Ethereum account, a smart account and enabling new use cases like AI, Staking, Gaming, SocialFi, DeFi, and Payments to flourish with  gasless transaction, easy face-ID like logins, onramps, recovery and more. Safe currently has a large ecosystem of 200+ projects including Gnosis Pay and Worldcoin, deployed in over 15 networks, building on the Safe smart account standard. Safe{Wallet} is also used widely by individuals like Vitalik Buterin, Punk6529 as well as web2 giants like Shopify and Reddit for self-custody of assets and high value NFTs.\n\nAs of April 2023, over 8M Safe accounts have been created, making &gt;40 million transactions. The open-source contracts are battle-tested and have been formally verified and audited multiple times. There have been no critical security incidents since Safe was deployed in 2018 and Safe remains the benchmark of security in the industry.\n",
-  "dex": [
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x5afe3855358e112b5647b952709e6165e1c1eeee",
-  "fetched": "2026-10-17T17:15:01.482601+00:00",
-  "genesis": null,
-  "github": "https://github.com/safe-global",
-  "homepage": "https://safe.global/",
-  "platforms": [
-   "ethereum",
-   "xdai"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/safe",
-  "twitter_followers": null,
-  "watchers": 5069
- },
  "sanctum-2": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4983,82 +4781,6 @@
   "twitter_followers": null,
   "watchers": 5081
  },
- "sushi": {
-  "categories": [
-   "Decentralized Exchange (DEX)",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "Yield Farming",
-   "Automated Market Maker (AMM)",
-   "BNB Chain Ecosystem",
-   "Yearn Ecosystem",
-   "Solana Ecosystem",
-   "Avalanche Ecosystem",
-   "Polygon Ecosystem",
-   "Near Protocol Ecosystem",
-   "Fantom Ecosystem",
-   "Harmony Ecosystem",
-   "Arbitrum Ecosystem",
-   "Celo Ecosystem",
-   "Ethereum Ecosystem",
-   "Base Ecosystem",
-   "Alameda Research Portfolio",
-   "Pantera Capital Portfolio",
-   "Energi Ecosystem",
-   "Sora Ecosystem",
-   "Blockchain Capital Portfolio",
-   "Katana Ecosystem",
-   "Governance",
-   "Base Native",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "Azbit",
-   "BTSE",
-   "BYDFi",
-   "Biconomy.com",
-   "BigONE",
-   "Bilaxy",
-   "Binance",
-   "Binance US",
-   "BingX",
-   "Bit2Me",
-   "BitDelta",
-   "BitKan"
-  ],
-  "cex_count": 66,
-  "chat": "https://www.youtube.com/channel/UC7Mm_8m8C2sxbgxbQIDJJdQ",
-  "commits_4w": null,
-  "description": "SushiSwap is a decentralized, multi-chain DEX that allows users to swap a wide range of assets across 40+ blockchain networks. It is powered by the industry's most advanced swap and aggregation stack, providing access to superior liquidity and competitive pricing. SushiSwap also offers smart liquidity solutions for liquidity providers including Smart Pools and no-IL AMM.\n\nSushi Labs, the development arm of Sushi DAO, continues to innovate by building a multi-DEX ecosystem with projects like Susa, Saru, and Wara with various blockchain networks.\n\nFor more information, visit https://sushi.com/",
-  "dex": [
-   "ApeSwap",
-   "PancakeSwap (v2)",
-   "PancakeSwap V1 (BSC)",
-   "PancakeSwap V3 (BSC)",
-   "Shibaswap (Ethereum)",
-   "SushiSwap V3 (Base)"
-  ],
-  "discord": "https://discord.gg/MsVBwEc",
-  "explorer": "https://etherscan.io/token/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
-  "fetched": "2026-10-17T17:12:41.791020+00:00",
-  "genesis": null,
-  "github": "https://github.com/sushiswap/sushiswap",
-  "homepage": "https://sushi.com/",
-  "platforms": [
-   "arbitrum-one",
-   "avalanche",
-   "base",
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/sushiswap",
-  "twitter_followers": null,
-  "watchers": 128961
- },
  "swftcoin": {
   "categories": [
    "NFT",
@@ -5438,7 +5160,7 @@
   ],
   "discord": "https://discord.com/invite/reilabs",
   "explorer": "https://basescan.org/token/0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
-  "fetched": "2026-10-19T10:06:59.066390+00:00",
+  "fetched": "2026-10-20T18:32:06.017853+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://reilabs.org/",
@@ -5452,7 +5174,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/rei_labs",
   "twitter_followers": null,
-  "watchers": 5195
+  "watchers": 5194
  },
  "uranium": {
   "categories": [
