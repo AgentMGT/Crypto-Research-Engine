@@ -184,7 +184,7 @@
   ],
   "discord": "https://discord.com/invite/aleo",
   "explorer": "https://aleoscan.io/",
-  "fetched": "2026-10-20T14:06:07.770316+00:00",
+  "fetched": "2026-10-21T18:41:50.494063+00:00",
   "genesis": null,
   "github": "https://github.com/AleoNet",
   "homepage": "https://www.aleo.org/",
@@ -192,13 +192,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 83.33,
+  "sentiment_up": 90.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AleoHQ",
   "twitter_followers": null,
-  "watchers": 9351
+  "watchers": 9356
  },
  "aleph": {
   "categories": [
@@ -273,7 +273,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
-  "fetched": "2026-10-20T01:08:20.602903+00:00",
+  "fetched": "2026-10-21T18:39:03.589811+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.stonkfun.xyz/token/4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
@@ -287,7 +287,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 159
+  "watchers": 158
  },
  "anime": {
   "categories": [
@@ -1137,7 +1137,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
-  "fetched": "2026-10-20T14:17:26.774389+00:00",
+  "fetched": "2026-10-21T18:40:26.383153+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://realityfinance.xyz/",
@@ -1152,7 +1152,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/RealityFi_xyz",
   "twitter_followers": null,
-  "watchers": 9
+  "watchers": 10
  },
  "claudia-2": {
   "categories": [
@@ -1516,13 +1516,13 @@
    "BitKan",
    "Bitget",
    "Bithumb",
-   "Bitkub",
    "Bitrue",
    "Bittime",
    "Bitunix",
-   "BloFin"
+   "BloFin",
+   "Bybit"
   ],
-  "cex_count": 32,
+  "cex_count": 31,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1535,7 +1535,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-10-20T14:16:20.325257+00:00",
+  "fetched": "2026-10-21T18:40:33.618978+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1545,13 +1545,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/cookie_dao",
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33328
+  "watchers": 33323
  },
  "dacity-coin-2": {
   "categories": [
@@ -1912,7 +1912,7 @@
   ],
   "discord": "https://discord.com/invite/edgenetwork",
   "explorer": "https://explorer.edge.network/",
-  "fetched": "2026-10-20T18:31:59.294488+00:00",
+  "fetched": "2026-10-21T18:40:19.350784+00:00",
   "genesis": "2018-02-16",
   "github": "https://github.com/edge",
   "homepage": "https://edge.network",
@@ -1920,7 +1920,7 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/edgenetwork",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/edgenetwork",
   "telegram_users": null,
@@ -2005,7 +2005,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
-  "fetched": "2026-10-20T01:08:17.278262+00:00",
+  "fetched": "2026-10-21T18:39:00.291644+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://eagles.land",
@@ -2019,7 +2019,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/egll_american",
   "twitter_followers": null,
-  "watchers": 599
+  "watchers": 600
  },
  "everything": {
   "categories": [
@@ -2042,7 +2042,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-10-20T14:14:56.530865+00:00",
+  "fetched": "2026-10-21T18:39:11.147029+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -2058,7 +2058,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/every_thing",
   "twitter_followers": null,
-  "watchers": 262
+  "watchers": 264
  },
  "fluence-2": {
   "categories": [
@@ -2165,12 +2165,13 @@
    "Bybit",
    "Coinbase Exchange",
    "Gate",
+   "KCEX",
    "KuCoin",
    "MEXC",
    "Mudrex",
    "Upbit"
   ],
-  "cex_count": 11,
+  "cex_count": 12,
   "chat": null,
   "commits_4w": null,
   "description": "Forta (FORT) is the leading decentralized security solution for Web3, backed by major players like Coinbase and a16z, providing AI-powered real-time threat prevention for DeFi.\n\nForta Firewall, its flagship product, is the first AI-powered on-chain security and compliance solution that proactively blocks harmful activity while allowing legitimate transactions to proceed uninterrupted. This \u201csecurity by default\u201d approach protects user funds without compromising usability.\n\nUnlike traditional security solutions that react after an attack, Forta Firewall stops malicious transactions before execution at the RPC level.",
@@ -2183,7 +2184,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-20T14:17:36.321356+00:00",
+  "fetched": "2026-10-21T18:41:43.795397+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2194,13 +2195,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 80.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7614
+  "watchers": 7615
  },
  "froggie": {
   "categories": [
@@ -2219,7 +2220,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-20T14:13:46.700411+00:00",
+  "fetched": "2026-10-21T18:38:56.484992+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -2440,43 +2441,6 @@
   "twitter": "https://x.com/GeorgePlayClash",
   "twitter_followers": null,
   "watchers": 1286
- },
- "giggle-mascot": {
-  "categories": [
-   "Charity",
-   "BNB Chain Ecosystem",
-   "Meme",
-   "Mascot-Themed"
-  ],
-  "cex": [
-   "KCEX"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "MAX is the community-driven meme token inspired by Max, the mascot of Giggle Academy. Built on BNB Chain, MAX combines meme culture with a real charitable purpose: supporting free education.\n\nThe token uses a 3% buy and 3% sell tax, with tax revenue automatically routed through Flap Protocol to Giggle Academy. This creates an ongoing donation mechanism tied directly to trading activity rather than relying solely on one-time contributions.\n\nSince launch, the MAX community has already generated hundreds of BNB in donations for Giggle Academy, helping support its mission of making high-quality education freely accessible worldwide.\n\nAt its core, MAX is about bringing together the BNB Chain community, meme culture, and transparent on-chain giving \u2014 proving that a memecoin can be fun while also creating measurable real-world impact.\n",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xe9Bc5C6A86caA44fD7b469bf3cc7c563E4F77777",
-  "fetched": "2026-10-18T17:24:09.738861+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.maxbnb.meme",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/GiggleMascotBNB",
-  "telegram_users": null,
-  "twitter": "https://x.com/GiggleMascotBNB",
-  "twitter_followers": null,
-  "watchers": 209
  },
  "giveback": {
   "categories": [
@@ -2784,7 +2748,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-20T14:16:17.143617+00:00",
+  "fetched": "2026-10-21T18:40:29.783352+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2794,13 +2758,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/ixsfinance",
   "telegram_users": null,
   "twitter": "https://x.com/IxsFinance",
   "twitter_followers": null,
-  "watchers": 11512
+  "watchers": 11511
  },
  "jean-phil": {
   "categories": [
@@ -2958,7 +2922,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-10-20T14:17:33.157356+00:00",
+  "fetched": "2026-10-21T18:41:47.204734+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -3241,7 +3205,6 @@
   "cex": [
    "BVOX",
    "Binance",
-   "Binance US",
    "BitKan",
    "Bithumb",
    "Bitkub",
@@ -3250,9 +3213,10 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
-   "BtcTurk | Kripto"
+   "BtcTurk | Kripto",
+   "Bybit"
   ],
-  "cex_count": 41,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -3266,7 +3230,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-20T14:06:00.445928+00:00",
+  "fetched": "2026-10-21T18:42:53.874465+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3282,7 +3246,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38914
+  "watchers": 38917
  },
  "make-no-mistakes-2": {
   "categories": [
@@ -3416,6 +3380,7 @@
    "Bitvavo",
    "Coinbase Exchange",
    "Gate",
+   "HTX",
    "Kraken",
    "KuCoin",
    "LBank",
@@ -3423,7 +3388,7 @@
    "Matcha (Ethereum)",
    "WEEX"
   ],
-  "cex_count": 10,
+  "cex_count": 11,
   "chat": "https://blog.marlin.org/",
   "commits_4w": null,
   "description": "High-performance network infrastructure for modern decentralized networks\n\n",
@@ -3432,7 +3397,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-20T14:15:13.880803+00:00",
+  "fetched": "2026-10-21T18:39:07.397304+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3441,7 +3406,7 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
@@ -3482,48 +3447,6 @@
   "twitter_followers": null,
   "watchers": 76
  },
- "morpheusai": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "Base Ecosystem",
-   "AI Agents",
-   "Base Native",
-   "Venice Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Morpheus is designed to incentivize the first peer-to-peer network of personal general purpose AIs that can execute Smart Contracts on behalf of a user, known as Smart Agents. Providing users open-source Smart Agents to connect to their wallets, Dapps, &amp; smart contracts promises to open the world of Web3 to everyone.\n\nThe user\u2019s Web3 wallet for key management &amp; to sign recommended transactions when interacting with the Smart Agent. A Large Language Model trained on Web3 data including Blockchains, Wallets, Dapps, DAOs, &amp; Smart Contracts. The SmartContractRank algorithm to score &amp; recommend the best Smart Contracts to the user. Longterm memory of user data &amp; connected applications stored locally or via decentralized cloud to provide a broader context to Smart Agent actions.\n\nFinally, the average user can talk with their Smart Agent in normal language and have it understand the question and take an action based on their intent/approval. This moment is similar to how Google's search engine opened the early internet up to the general public through their easy to use web interface in the late 1990s.\n\nTo make Smart Agents accessible to everyone and increase decentralization of their infrastructure, we propose the development of the Morpheus network. The Morpheus network will include a fairly launched token (the \"MOR\" token) for incentivizing all four of the key contributors to the network. Namely, the community of builders creating interfaces, coders contributin",
-  "dex": [
-   "Aerodrome (Base)",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": "https://discord.gg/Dc26EFb6JK",
-  "explorer": "https://arbiscan.io/token/0x092baadb7def4c3981454dd9c0a0d7ff07bcfc86",
-  "fetched": "2026-10-18T17:26:35.804419+00:00",
-  "genesis": null,
-  "github": "https://github.com/MorpheusAIs",
-  "homepage": "https://mor.org/",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/MorpheusAI",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/MorpheusAI",
-  "telegram_users": null,
-  "twitter": "https://x.com/MorpheusAIs",
-  "twitter_followers": null,
-  "watchers": 2380
- },
  "natix-network": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3549,7 +3472,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-20T14:13:53.213942+00:00",
+  "fetched": "2026-10-21T18:41:40.542978+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3557,7 +3480,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
@@ -4143,7 +4066,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
-  "fetched": "2026-10-20T14:26:05.182281+00:00",
+  "fetched": "2026-10-21T18:41:37.170157+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -4196,45 +4119,6 @@
   "twitter": "https://x.com/PRXVTai",
   "twitter_followers": null,
   "watchers": 661
- },
- "purple-pepe": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Frog-Themed",
-   "Solana Meme",
-   "The Boy\u2019s Club",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "KCEX"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "$PURPE is a community-led token originally deployed on the Solana blockchain in July 2023 and is also available on BNB Smart Chain. It is recognized as the first Purple Pepe created on Solana. The project is managed by the WallStreetBets Facebook community, which consists of over 580,000 members, following a community takeover over a year ago. Since the CTO, the community has maintained development and expanded the ecosystem through the launch of web applications, games, and a community-built website.",
-  "dex": [
-   "Meteora",
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/HBoNJ5v8g71s2boRivrHnfSB5MVPLDHHyVjruPfhGkvL",
-  "fetched": "2026-10-18T17:24:13.045833+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://purpe.xyz",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/Purpe_SOL",
-  "telegram_users": null,
-  "twitter": "https://x.com/purplepepes0l",
-  "twitter_followers": null,
-  "watchers": 4593
  },
  "renzo": {
   "categories": [
@@ -4795,10 +4679,9 @@
   ],
   "cex": [
    "Binance",
-   "LBank",
-   "Native Core"
+   "LBank"
   ],
-  "cex_count": 3,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -4811,7 +4694,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
-  "fetched": "2026-10-19T20:01:05.437104+00:00",
+  "fetched": "2026-10-21T18:40:22.636461+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -4825,7 +4708,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 49
+  "watchers": 52
  },
  "startupsi": {
   "categories": [
@@ -5064,7 +4947,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
-  "fetched": "2026-10-20T14:26:01.891178+00:00",
+  "fetched": "2026-10-21T18:39:14.364025+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/tslaon",
@@ -5439,7 +5322,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
-  "fetched": "2026-10-20T14:12:36.870149+00:00",
+  "fetched": "2026-10-21T18:38:53.249926+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
@@ -5447,7 +5330,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/WinDao1",
   "telegram_users": null,
@@ -5552,7 +5435,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-10-20T14:14:59.726276+00:00",
+  "fetched": "2026-10-21T18:42:57.181230+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5563,13 +5446,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 83.33,
+  "sentiment_up": 80.0,
   "stars": null,
   "telegram": "https://t.me/wormholecrypto",
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43518
+  "watchers": 43536
  },
  "xyo-network": {
   "categories": [
