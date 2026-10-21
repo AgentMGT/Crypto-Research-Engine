@@ -73,7 +73,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-10-18T11:06:42.334476+00:00",
+  "fetched": "2026-10-21T00:41:39.421495+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -87,7 +87,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 9690
+  "watchers": 9691
  },
  "aixbt": {
   "categories": [
@@ -739,7 +739,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
-  "fetched": "2026-10-19T10:04:29.164614+00:00",
+  "fetched": "2026-10-21T00:40:32.744450+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basebluechip.com/",
@@ -747,7 +747,7 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -773,10 +773,9 @@
    "Gate",
    "GroveX",
    "Kraken",
-   "KuCoin",
-   "LATOKEN"
+   "KuCoin"
   ],
-  "cex_count": 7,
+  "cex_count": 6,
   "chat": null,
   "commits_4w": null,
   "description": "At Bluzelle, we see technology as a powerful tool to solve humanity's most pressing challenges. As creators of a robust decentralized blockchain ecosystem\u2014including the Bluzelle Chain, BLZ token, and NFT marketplace Capella\u2014we are uniquely positioned to revolutionize how science is conducted, funded, and shared. Our DeSci (Decentralized Science) platform is designed to empower all scientific fields, fostering innovation across disciplines. ",
@@ -786,7 +785,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
-  "fetched": "2026-10-19T13:13:31.303589+00:00",
+  "fetched": "2026-10-21T00:43:08.982525+00:00",
   "genesis": "2018-01-15",
   "github": "https://github.com/njmurarka/bluzelle",
   "homepage": "https://bluzelle.com/",
@@ -829,7 +828,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-19T19:59:42.375691+00:00",
+  "fetched": "2026-10-21T00:40:26.248302+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -1294,7 +1293,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-19T20:01:12.168792+00:00",
+  "fetched": "2026-10-21T00:41:49.223526+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1309,7 +1308,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1703
+  "watchers": 1705
  },
  "concierge-io": {
   "categories": [
@@ -2207,7 +2206,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-10-19T19:59:48.832429+00:00",
+  "fetched": "2026-10-21T00:41:36.167685+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2221,7 +2220,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/GeorgePlayClash",
   "twitter_followers": null,
-  "watchers": 1285
+  "watchers": 1286
  },
  "giggle-mascot": {
   "categories": [
@@ -2404,7 +2403,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 35,
+  "cex_count": 34,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2415,7 +2414,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-19T13:13:24.900989+00:00",
+  "fetched": "2026-10-21T00:43:05.700005+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2426,13 +2425,13 @@
    "sora"
   ],
   "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/iexec_rlc_official",
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35765
+  "watchers": 35767
  },
  "intel-ondo-tokenized-stock": {
   "categories": [
@@ -2449,16 +2448,17 @@
    "KCEX",
    "LBank",
    "MEXC",
+   "Native Core",
    "Ondo Stocks"
   ],
-  "cex_count": 4,
+  "cex_count": 5,
   "chat": null,
   "commits_4w": null,
   "description": "INTCon is the Ondo Tokenized version of Intel, giving tokenholders economic exposure similar to holding INTC and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xFdA09936DbD717368De0835bA441d9E62069d36f",
-  "fetched": "2026-10-18T11:07:52.147935+00:00",
+  "fetched": "2026-10-21T00:42:55.809330+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/intcon",
@@ -2475,7 +2475,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 275
+  "watchers": 277
  },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
@@ -2689,7 +2689,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-10-19T13:13:28.121289+00:00",
+  "fetched": "2026-10-21T00:44:12.292662+00:00",
   "genesis": null,
   "github": "https://github.com/Cryptense/KryllToken",
   "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
@@ -2781,7 +2781,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x8CD41041505885EF0aD3858181D66f17BE8aae7E",
-  "fetched": "2026-10-19T20:03:31.781320+00:00",
+  "fetched": "2026-10-21T00:42:59.034561+00:00",
   "genesis": null,
   "github": "https://github.com/LCX-AG",
   "homepage": "https://lcx.com/",
@@ -2795,7 +2795,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/lcx",
   "twitter_followers": null,
-  "watchers": 50240
+  "watchers": 50243
  },
  "limewire-token": {
   "categories": [
@@ -2835,7 +2835,7 @@
   ],
   "discord": "https://lmwr.co/discord",
   "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-19T20:00:58.703849+00:00",
+  "fetched": "2026-10-21T00:44:15.556128+00:00",
   "genesis": null,
   "github": "https://github.com/LimeWireOfficial",
   "homepage": "https://limewire.com/u/home",
@@ -3456,10 +3456,11 @@
    "LBank",
    "MEXC",
    "Manifest",
+   "Native Core",
    "Ondo Stocks",
    "Toobit"
   ],
-  "cex_count": 9,
+  "cex_count": 10,
   "chat": null,
   "commits_4w": null,
   "description": "NVDAon is the Ondo Tokenized version of NVIDIA, giving tokenholders economic exposure similar to holding NVDA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
@@ -3472,7 +3473,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0x2D1F7226Bd1F780AF6B9A49DCC0aE00E8Df4bDEE",
-  "fetched": "2026-10-19T10:08:15.072845+00:00",
+  "fetched": "2026-10-21T00:42:52.521204+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/nvdaon",
@@ -3483,7 +3484,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -3848,7 +3849,7 @@
   ],
   "discord": "https://discord.com/invite/phala-network",
   "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-10-19T20:02:18.737730+00:00",
+  "fetched": "2026-10-21T00:43:02.396861+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://phala.network/",
@@ -3857,13 +3858,13 @@
    "sora"
   ],
   "reddit": null,
-  "sentiment_up": 87.5,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
-  "watchers": 56638
+  "watchers": 56743
  },
  "propy": {
   "categories": [
@@ -4597,7 +4598,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-10-19T13:09:49.157009+00:00",
+  "fetched": "2026-10-21T00:41:42.704319+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -4605,13 +4606,13 @@
    "arbitrum-one"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 75
+  "watchers": 76
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
@@ -5006,7 +5007,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
-  "fetched": "2026-10-18T00:05:41.566605+00:00",
+  "fetched": "2026-10-21T00:40:29.478980+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.thestonks.exchange/",
@@ -5014,13 +5015,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/Stonks_Exchange",
   "telegram_users": null,
   "twitter": "https://x.com/Stonks_Exchange",
   "twitter_followers": null,
-  "watchers": 349
+  "watchers": 351
  },
  "tornado-cash": {
   "categories": [
@@ -5316,6 +5317,62 @@
   "twitter_followers": null,
   "watchers": 14
  },
+ "world-mobile-token": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Cardano Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "DWF Labs Portfolio",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitvavo",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "Hydrex Integral",
+   "Kraken",
+   "MEXC",
+   "Niza.io",
+   "WingRiders"
+  ],
+  "cex_count": 9,
+  "chat": "https://www.instagram.com/WorldMobileTeam/",
+  "commits_4w": null,
+  "description": "World Mobile Token (WMTX) is the utility token that powers the World Mobile network, a decentralized mobile network at the forefront of the DePIN space. World Mobile aims to connect the world by leveraging blockchain technology and a sharing economy. By becoming an AirNode operator or a token staker, anyone can earn rewards for providing telco services to customers or securing the network. The World Mobile network is disrupting the trillion-dollar telco industry and creating a more inclusive, sustainable, and privacy-respecting wireless service for everyone.",
+  "dex": [
+   "Aerodrome (Base)",
+   "CSWAP DEX",
+   "Minswap",
+   "PancakeSwap V3 (BSC)",
+   "Raydium (CLMM)",
+   "Sundaeswap"
+  ],
+  "discord": "https://discord.com/invite/Qg54MMMmjG",
+  "explorer": "https://basescan.org/token/0x3e31966d4f81C72D2a55310A6365A56A4393E98D",
+  "fetched": "2026-10-21T00:41:45.965599+00:00",
+  "genesis": null,
+  "github": "https://github.com/worldmobilegroup",
+  "homepage": "https://worldmobile.io",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain",
+   "cardano"
+  ],
+  "reddit": "https://www.reddit.com/r/WorldMobileToken/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/WorldMobileTeam",
+  "telegram_users": null,
+  "twitter": "https://x.com/wmchain",
+  "twitter_followers": null,
+  "watchers": 18158
+ },
  "wormhole": {
   "categories": [
    "Solana Ecosystem",
@@ -5449,7 +5506,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-10-19T19:59:45.611833+00:00",
+  "fetched": "2026-10-21T00:40:23.001970+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
