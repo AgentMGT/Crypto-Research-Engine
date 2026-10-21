@@ -289,6 +289,59 @@
   "twitter_followers": null,
   "watchers": 159
  },
+ "anime": {
+  "categories": [
+   "NFT",
+   "Meme",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Anime-Themed",
+   "Binance HODLer Airdrops",
+   "Airdropped Tokens by NFT Projects"
+  ],
+  "cex": [
+   "Azbit",
+   "BTSE",
+   "BVOX",
+   "BigONE",
+   "Binance",
+   "Binance US",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue"
+  ],
+  "cex_count": 41,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Backed by Azuki, the premier Web3 anime brand, ANIME empowers one billion global fans to shape and own the future of anime culture. Anime fans are some of the most passionate and creative communities in the world, yet they have long been passive consumers. Animecoin transforms the anime ecosystem into a community-driven creative economy. This marks a new phenomenon called Anime 2.0, where creators and fans collaborate to shape the industry\u2019s evolution.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Arbitrum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x4dc26fc5854e7648a064a4abd590bbe71724c277",
+  "fetched": "2026-10-21T03:17:44.164322+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.anime.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/animecoin",
+  "twitter_followers": null,
+  "watchers": 5349
+ },
  "anthropic-prestocks-2": {
   "categories": [
    "Tokenized Assets",
@@ -529,11 +582,11 @@
    "Gate",
    "HTX",
    "KuCoin",
-   "LATOKEN",
    "MEXC",
-   "Mudrex"
+   "Mudrex",
+   "Near Intents"
   ],
-  "cex_count": 16,
+  "cex_count": 15,
   "chat": null,
   "commits_4w": null,
   "description": "Aurora is an EVM built on the NEAR Protocol, delivering a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.",
@@ -543,7 +596,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-20T01:09:24.338747+00:00",
+  "fetched": "2026-10-21T03:17:50.451665+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -559,7 +612,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23710
+  "watchers": 23718
  },
  "basecat": {
   "categories": [
@@ -641,7 +694,7 @@
   ],
   "discord": null,
   "explorer": "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
-  "fetched": "2026-10-20T01:09:30.927387+00:00",
+  "fetched": "2026-10-21T03:17:56.901274+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.benqi.fi/",
@@ -649,13 +702,13 @@
    "avalanche"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/BenqiFinance",
   "telegram_users": null,
   "twitter": "https://x.com/BenqiFinance",
   "twitter_followers": null,
-  "watchers": 30424
+  "watchers": 30423
  },
  "bio-protocol": {
   "categories": [
@@ -1168,7 +1221,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
-  "fetched": "2026-10-20T01:10:44.028826+00:00",
+  "fetched": "2026-10-21T03:19:00.293229+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.clawpump.tech",
@@ -1182,7 +1235,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/clawpumptech",
   "twitter_followers": null,
-  "watchers": 263
+  "watchers": 264
  },
  "clearpool": {
   "categories": [
@@ -1360,6 +1413,52 @@
   "twitter_followers": null,
   "watchers": 27623
  },
+ "constitutiondao": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "PolitiFi"
+  ],
+  "cex": [
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitunix"
+  ],
+  "cex_count": 41,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
+  "fetched": "2026-10-21T03:16:40.863382+00:00",
+  "genesis": null,
+  "github": "https://github.com/ConstitutionDAO",
+  "homepage": "https://www.constitutiondao.com/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/constitutiondao",
+  "twitter_followers": null,
+  "watchers": 19300
+ },
  "cookie": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1428,7 +1527,7 @@
    "Pump.fun Ecosystem"
   ],
   "cex": [
-   "Manifest"
+   "Hadron"
   ],
   "cex_count": 1,
   "chat": null,
@@ -1440,7 +1539,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-10-20T01:08:10.555668+00:00",
+  "fetched": "2026-10-21T03:16:37.668498+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1454,7 +1553,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 36
+  "watchers": 54
  },
  "dawg-3": {
   "categories": [
@@ -1472,7 +1571,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
-  "fetched": "2026-10-18T17:24:03.023711+00:00",
+  "fetched": "2026-10-21T03:17:47.345160+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x7d0443cddfc8e11af105f4fe44dd28c630237777",
@@ -1480,13 +1579,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/dawgonbnb",
   "twitter_followers": null,
-  "watchers": 10
+  "watchers": 21
  },
  "degen-base": {
   "categories": [
@@ -1780,7 +1879,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
-  "fetched": "2026-10-19T20:03:25.289068+00:00",
+  "fetched": "2026-10-21T03:20:16.486359+00:00",
   "genesis": null,
   "github": "https://github.com/opencampus-xyz/",
   "homepage": "https://www.opencampus.xyz/",
@@ -1790,7 +1889,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2647,7 +2746,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
-  "fetched": "2026-10-20T01:10:47.248724+00:00",
+  "fetched": "2026-10-21T03:19:03.570476+00:00",
   "genesis": null,
   "github": "https://github.com/librecapital",
   "homepage": "https://www.kaio.xyz/",
@@ -2655,13 +2754,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/KAIO_RWA",
   "telegram_users": null,
   "twitter": "https://x.com/KAIO_xyz",
   "twitter_followers": null,
-  "watchers": 646
+  "watchers": 648
  },
  "kryll": {
   "categories": [
@@ -3530,7 +3629,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-19T13:12:21.643512+00:00",
+  "fetched": "2026-10-21T03:21:29.369175+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3632,6 +3731,43 @@
   "twitter": "https://x.com/openvpp",
   "twitter_followers": null,
   "watchers": 977
+ },
+ "ore": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Mobile Mining"
+  ],
+  "cex": [
+   "LBank"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "ORE is future-proof electronic cash. ORE exists to advance the original vision for crypto, identified by Satoshi Nakamoto: creating digital money that cannot be debased or controlled by centralized authorities. \n\nBitcoin solved the double-spend problem. Solana solved scalability at the Layer 1 level. Modern wallets improved self-custody user experience. ORE solved the Proof-of-Work value leak.\n\nBuilt on Solana, ORE inherits the network's scalability, composability, and future upgrades, including privacy enhancements, without requiring the tradeoffs traditionally associated with securing blockchain consensus. For these reasons, we describe ORE (after Bitcoin: \"Peer-to-peer electronic cash\") as:\n- ORE, the asset, is a future-proof electronic cash system.\n- ORE, the protocol, is a future-proof electronic cash system on Solana.\n\nORE is named after Nicholas Oresme, the 14th-century philosopher and economist who argued that money should belong to the people who use it rather than rulers who debase it. That philosophy serves as the foundation for the protocol: in many ways, ORE is the continuation of a centuries-old idea \u2014 that monetary systems are strongest when they are governed by rules rather than rulers.",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2",
+   "Orca",
+   "Raydium"
+  ],
+  "discord": "https://discord.gg/bSKU7TdtcY",
+  "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
+  "fetched": "2026-10-21T03:19:09.968361+00:00",
+  "genesis": null,
+  "github": "https://github.com/regolith-labs/ore",
+  "homepage": "https://ore.supply/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/OREsupply",
+  "twitter_followers": null,
+  "watchers": 5165
  },
  "osmosis": {
   "categories": [
@@ -3898,7 +4034,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-10-19T20:02:21.955596+00:00",
+  "fetched": "2026-10-21T03:20:19.721520+00:00",
   "genesis": "2017-07-18",
   "github": "https://github.com/Propy/ethereum",
   "homepage": "https://propy.com",
@@ -3913,7 +4049,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PropyInc",
   "twitter_followers": null,
-  "watchers": 23077
+  "watchers": 23079
  },
  "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
   "categories": [
@@ -4090,7 +4226,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 39,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -4101,7 +4237,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-20T01:10:40.696688+00:00",
+  "fetched": "2026-10-21T03:21:22.979971+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4111,13 +4247,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12537
+  "watchers": 12536
  },
  "reserve-rights-token": {
   "categories": [
@@ -4145,7 +4281,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 57,
+  "cex_count": 56,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4159,7 +4295,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-20T01:10:50.572964+00:00",
+  "fetched": "2026-10-21T03:19:06.786661+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4170,13 +4306,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90690
+  "watchers": 90691
  },
  "resistance-dog": {
   "categories": [
@@ -4281,7 +4417,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-20T01:09:27.600683+00:00",
+  "fetched": "2026-10-21T03:17:53.680083+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -4292,7 +4428,7 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/Rizenet_OfficialCommunity",
   "telegram_users": null,
@@ -4330,7 +4466,7 @@
    "Bithumb",
    "Bitkub"
   ],
-  "cex_count": 46,
+  "cex_count": 45,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4342,7 +4478,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-20T01:10:53.778363+00:00",
+  "fetched": "2026-10-21T03:19:13.192130+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -5268,7 +5404,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-20T01:08:06.330461+00:00",
+  "fetched": "2026-10-21T03:16:34.419979+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5276,13 +5412,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/+o9WcbT5JyIFkZTM0",
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 161
+  "watchers": 165
  },
  "win-jie": {
   "categories": [
@@ -5521,6 +5657,61 @@
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
   "watchers": 657
+ },
+ "zebec-network": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Real World Assets (RWA)",
+   "Payment Solutions",
+   "DePIN",
+   "Coinbase Ventures Portfolio",
+   "Alameda Research Portfolio",
+   "Circle Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "RWA Protocol",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitrue",
+   "BloFin",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "HTX",
+   "Hotcoin",
+   "Kraken"
+  ],
+  "cex_count": 18,
+  "chat": "https://medium.com/zebec-protocol",
+  "commits_4w": null,
+  "description": "Zebec's integrated products - real time payroll apps, on-chain payments infrastructure and networked DePIN - serve companies of all sizes, merchants and individuals and help transcend the boundaries of traditional banking and diminish the role of financial intermediaries. ",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": "https://discord.com/invite/fJM9cHuvvB",
+  "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+  "fetched": "2026-10-21T03:21:26.169109+00:00",
+  "genesis": null,
+  "github": "https://github.com/Zebec-protocol",
+  "homepage": "https://zebec.io/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/zebecprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/Zebec_HQ",
+  "twitter_followers": null,
+  "watchers": 21392
  },
  "zentry": {
   "categories": [
