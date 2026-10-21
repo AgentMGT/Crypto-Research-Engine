@@ -108,16 +108,16 @@
    "BYDFi",
    "Biconomy.com",
    "Binance",
+   "Binance US",
    "BingX",
    "Bit2Me",
    "BitKan",
    "Bitkub",
    "Bitlo",
    "Bitrue",
-   "Bittime",
-   "Bitunix"
+   "Bittime"
   ],
-  "cex_count": 42,
+  "cex_count": 44,
   "chat": null,
   "commits_4w": null,
   "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
@@ -131,7 +131,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-10-20T01:08:13.995138+00:00",
+  "fetched": "2026-10-21T11:46:42.387101+00:00",
   "genesis": null,
   "github": "https://github.com/aixbt",
   "homepage": "https://aixbt.tech",
@@ -141,13 +141,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/aixbtportal",
   "telegram_users": null,
   "twitter": "https://x.com/aixbt_agent",
   "twitter_followers": null,
-  "watchers": 38552
+  "watchers": 38556
  },
  "aleo": {
   "categories": [
@@ -397,16 +397,16 @@
    "BVOX",
    "Bilaxy",
    "Binance",
+   "Binance US",
    "BingX",
    "Bit2Me",
    "BitDelta",
    "BitKan",
    "Bitget",
    "Bithumb",
-   "Bitkub",
-   "Bitlo"
+   "Bitkub"
   ],
-  "cex_count": 50,
+  "cex_count": 52,
   "chat": "https://medium.com/api3",
   "commits_4w": null,
   "description": "Api3 delivers first-party oracles that pay you \u2014 connecting real-world data directly to smart contracts while reclaiming lost value through Oracle Extractable Value (OEV). Explore the Api3 Market and start earning.",
@@ -417,7 +417,7 @@
   ],
   "discord": "https://discord.com/invite/qnRrcfnm5W",
   "explorer": "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-  "fetched": "2026-10-20T11:36:02.921295+00:00",
+  "fetched": "2026-10-21T11:47:58.611366+00:00",
   "genesis": null,
   "github": "https://github.com/api3dao/airnode",
   "homepage": "https://api3.org/",
@@ -425,13 +425,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/API3/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/API3DAO",
   "telegram_users": null,
   "twitter": "https://x.com/API3DAO",
   "twitter_followers": null,
-  "watchers": 45644
+  "watchers": 45645
  },
  "arcblock": {
   "categories": [
@@ -444,9 +444,10 @@
   "cex": [
    "Bitkub",
    "Coinbase Exchange",
-   "Gate"
+   "Gate",
+   "LATOKEN"
   ],
-  "cex_count": 3,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "The ArcBlock project was created to create the first Blockchain ecosystem in the world. Develop and develop decentralized applications (DApp) according to objectives. ArcBlock, one of the ICO projects emerging in early 2018. Just launched on 3/1/2018, ArcBlock has quickly attracted the attention of technology as well as investors. ArcBlock brings great technological advancements that will open the third generation of blockchain applications.\n\nArcblock work by bridging the gap between different blockchains and their respective ecosystems has not been easy. There are some solutions which attempt to solve this problem, but it is evident there is plenty of room for competition in this regard. Building an open chain access layer capable of spanning multiple new and existing blockchains is a very interesting business model.\n\nBuilding a new ecosystem meant to connect various chains will not be easy. As of right now, the team has completed its token sale, and the first public release candidate for the Open Chain Access Protocol will be released in Q3. Early 2019 will herald the introduction of more technical features and an Ethereum Blocklet prototype.",
@@ -456,7 +457,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-20T01:11:17.115581+00:00",
+  "fetched": "2026-10-21T11:48:05.122344+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -470,7 +471,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11080
+  "watchers": 11084
  },
  "audius": {
   "categories": [
@@ -946,11 +947,10 @@
   ],
   "cex": [
    "LBank",
-   "Ramses V3 (Robinhood)",
    "Up V3",
    "Zia (Robinhood)"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "Bundlecat (BUN) is the first token launched on Mosh, a token launch protocol developed by UV Labs and deployed on Robinhood Chain. Mosh pairs new token launches with autonomous AI market-making agents. Under the Mosh model, token bundles are crowd-funded by participants and permanently locked in non-custodial smart contract vaults at the moment of launch. AI agents then use the locked tokens to provide liquidity and generate buy-side market activity, operating within contract-enforced rules that no individual, including the Mosh team, can override. Trading fees generated by agent activity are distributed to the participants who funded the bundle. Bundlecat serves as the mascot and flagship token demonstrating this launch mechanism.",
@@ -961,7 +961,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0x07EBB29a38Fbcb41563817e5E19f2ceC619C90D2",
-  "fetched": "2026-10-20T07:48:06.097420+00:00",
+  "fetched": "2026-10-21T11:46:45.618517+00:00",
   "genesis": null,
   "github": "https://github.com/UVLabs-AI",
   "homepage": "https://mosh.trade/",
@@ -969,13 +969,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/moshtrade",
   "telegram_users": null,
   "twitter": "https://x.com/BundleCatAI",
   "twitter_followers": null,
-  "watchers": 386
+  "watchers": 383
  },
  "carv": {
   "categories": [
@@ -1037,6 +1037,40 @@
   "twitter": "https://x.com/carv_official",
   "twitter_followers": null,
   "watchers": 7479
+ },
+ "chutes": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Bittensor Ecosystem",
+   "Bittensor Subnets"
+  ],
+  "cex": [
+   "Kraken",
+   "MEXC",
+   "Subnet Tokens"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://taostats.io/subnets/64/chart",
+  "fetched": "2026-10-21T11:49:21.691360+00:00",
+  "genesis": null,
+  "github": "https://github.com/rayonlabs/chutes",
+  "homepage": "https://chutes.ai/",
+  "platforms": [
+   "bittensor"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/chutes_ai",
+  "twitter_followers": null,
+  "watchers": 2099
  },
  "circle-internet-group-robinhood-tokenized-stock": {
   "categories": [
@@ -1587,6 +1621,55 @@
   "twitter_followers": null,
   "watchers": 21
  },
+ "deapcoin": {
+  "categories": [
+   "Entertainment",
+   "Gaming (GameFi)",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Play To Earn",
+   "Ethereum Ecosystem",
+   "Gaming Platform"
+  ],
+  "cex": [
+   "Gate",
+   "Kanga Global",
+   "MEXC",
+   "OKJ"
+  ],
+  "cex_count": 4,
+  "chat": "https://t.me/DEAP001",
+  "commits_4w": null,
+  "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
+  "dex": [
+   "ApeSwap",
+   "Mdex BSC",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
+  "fetched": "2026-10-21T11:48:15.169324+00:00",
+  "genesis": null,
+  "github": "https://github.com/Digita-Entertainment-Asset/DEP",
+  "homepage": "https://dea.sg/",
+  "platforms": [
+   "avalanche",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/DEAPcoin_group",
+  "telegram_users": null,
+  "twitter": "https://x.com/PlayMining_SG",
+  "twitter_followers": null,
+  "watchers": 10314
+ },
  "degen-base": {
   "categories": [
    "Smart Contract Platform",
@@ -1781,7 +1864,7 @@
    "BloFin",
    "CEX.IO"
   ],
-  "cex_count": 30,
+  "cex_count": 31,
   "chat": null,
   "commits_4w": null,
   "description": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ\u2014Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe.",
@@ -1794,7 +1877,7 @@
   ],
   "discord": "https://discord.gg/dusk-official",
   "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-10-20T11:37:22.235244+00:00",
+  "fetched": "2026-10-21T11:49:18.465943+00:00",
   "genesis": null,
   "github": "https://github.com/dusk-network/dusk-blockchain",
   "homepage": "https://dusk.network/",
@@ -1803,13 +1886,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 25.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/DuskNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/DuskFoundation",
   "twitter_followers": null,
-  "watchers": 32057
+  "watchers": 32059
  },
  "edge": {
   "categories": [
@@ -2254,10 +2337,9 @@
    "bStocks Ecosystem"
   ],
   "cex": [
-   "Binance",
-   "Native Core"
+   "Binance"
   ],
-  "cex_count": 2,
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -2269,7 +2351,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-20T11:37:15.864044+00:00",
+  "fetched": "2026-10-21T11:46:52.079367+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2284,6 +2366,44 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 43
+ },
+ "genesysgo-shadow": {
+  "categories": [
+   "Storage",
+   "Solana Ecosystem",
+   "DePIN",
+   "Made in USA"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Crypto.com Exchange"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "$SHDW is the utility token that powers the Shadow dePIN ecosystem providing decentralized storage, compute, and network orchestration to its users. Users utilize $SHDW to pay for decentralized data storage, compute, and other utilities. Compute, storage, and bandwidth are brought to the Shadow network by Shadow Operators who stake SHDW to secure their nodes and earn revenue based on their contributions to the network.\n\nPowering the Shadow ecosystem is DAGGER: a scalable and bandwidth-efficient L1/L2 hybrid powered by a custom consensus mechanism designed to orchestrate distributed systems, manage large amounts of data stored across decentralized networks, and more. \n\nDAGGER networks can be deployed as public permissionless Layer2 networks across any Layer1 protocol or be deployed as privately Layer1 protocols for private use. DAGGER's implicit voting design reduces communication overhead, resulting in faster data retrieval and cost reduction for users compared to other decentralized systems.\n\nExperience the future of decentralized data storage with Shadow Drive, the cornerstone product of the Shadow Ecosystem. Designed to seamlessly integrate with applications and systems on the Solana blockchain and beyond, Shadow Drive prioritizes data security and integrity through its hierarchical model. With robust auditing and repair procedures, it ensures system resilience, making it the ideal choice for Web3 builders creating hosting services, CDNs, social media apps, and more.\n\nJoin ",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium"
+  ],
+  "discord": "https://discord.com/invite/shdwdrive",
+  "explorer": "https://solscan.io/token/SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y",
+  "fetched": "2026-10-21T11:48:11.897780+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.shdwdrive.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/shdwdrive",
+  "telegram_users": null,
+  "twitter": "https://x.com/genesysgo",
+  "twitter_followers": null,
+  "watchers": 17305
  },
  "georgeplaysclashroyale": {
   "categories": [
@@ -3033,7 +3153,7 @@
    "Bitbaby",
    "Bitbank"
   ],
-  "cex_count": 59,
+  "cex_count": 60,
   "chat": null,
   "commits_4w": null,
   "description": "The Livepeer project aims to deliver a live video streaming network protocol that is fully decentralized, highly scalable, crypto token incentivized, and results in a solution which can serve as the live media layer in the decentralized development (web3) stack. In addition, Livepeer is meant to provide an economically efficient alternative to centralized broadcasting solutions for any existing broadcaster. In this document we describe the Livepeer Protocol - a delegated stake based protocol for incentivizing participants in a live video broadcast network in a game-theoretically secure way. We present solutions for the scalable verification of decentralized work, as well as the prevention of useless work in an attempt to game the token allocations in an inflationary system.\n\nThe Livepeer Token (LPT) is the protocol token of the Livepeer network. But it is not the medium of exchange token. Broadcasters use Ethereum's Ether (ETH) to broadcast video on the network. Nodes who contribute processing and bandwidth earn ETH in the form of fees from broadcasters. LPT is a staking token that participants who want to perform work on the network stake in order to coordinate how work gets distributed on the network, and to provide security that the work will get done honestly and correctly. LPT has the following purposes:\n\nIt serves as a bonding mechanism in a delegated proof of stake system, in which stake is delegated towards transcoders (or validators) who participate in the protocol t",
@@ -3043,7 +3163,7 @@
   ],
   "discord": "https://discord.gg/RR4kFAh",
   "explorer": "https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239",
-  "fetched": "2026-10-19T10:08:18.234568+00:00",
+  "fetched": "2026-10-21T11:48:01.894414+00:00",
   "genesis": "2018-10-01",
   "github": "https://github.com/livepeer/livepeerjs",
   "homepage": "https://livepeer.org/",
@@ -3053,13 +3173,13 @@
    "harmony-shard-0"
   ],
   "reddit": "https://www.reddit.com/r/livepeer",
-  "sentiment_up": 100.0,
+  "sentiment_up": 60.0,
   "stars": null,
   "telegram": "https://t.me/livepeerorg",
   "telegram_users": null,
   "twitter": "https://x.com/Livepeer",
   "twitter_followers": null,
-  "watchers": 38974
+  "watchers": 38973
  },
  "lofi-2": {
   "categories": [
@@ -3329,87 +3449,38 @@
   "twitter_followers": null,
   "watchers": 31927
  },
- "minter": {
+ "minotaur-2": {
   "categories": [
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem"
+   "Artificial Intelligence (AI)",
+   "Bittensor Ecosystem",
+   "Bittensor Subnets",
+   "Robotics"
   ],
-  "cex": [],
-  "cex_count": 0,
+  "cex": [
+   "Subnet Tokens"
+  ],
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
-  "description": "$MINTER is the community token associated with Minter, a project built around the idea of launching a coin and keeping its engine running. Inspired by the phrase \u201cLaunch a coin. Keep its engine,\u201d Minter celebrates the creativity, experimentation, and ongoing community participation that fuel crypto projects. The project\u2019s identity is centered on making coin creation part of a larger journey, where builders and supporters can keep developing ideas and bringing people together over time. Visit minter.live for project information and updates. $MINTER is a digital asset and its market value may fluctuate; this description is for informational purposes only and does not promise returns or financial results.",
-  "dex": [
-   "PumpSwap"
-  ],
+  "description": "THOR is building open robotics infrastructure through Bittensor Subnet 112 (SN112), starting with a marketplace for commissioning robotics training data. Its initial focus is expert video annotation: buyers define the task and acceptance criteria, qualified contributors produce the annotations, and THOR coordinates verification and delivery. The initial private pilot is designed for professional annotation firms, with permissionless annotation planned after beta. Its longer-term direction connects data, models and hardware to support robotics research and deployment.",
+  "dex": [],
   "discord": null,
-  "explorer": "https://solscan.io/token/3NxfWMHmfQg8NJFW5AG1ti2xACdczWz24e9SKyk1pump",
-  "fetched": "2026-10-18T04:49:05.465723+00:00",
+  "explorer": "https://taostats.io/subnets/112/chart",
+  "fetched": "2026-10-21T11:50:24.958573+00:00",
   "genesis": null,
-  "github": null,
-  "homepage": "https://minter.live",
+  "github": "https://github.com/subnet112/minotaur_subnet",
+  "homepage": "https://thormachines.ai/",
   "platforms": [
-   "solana"
+   "bittensor"
   ],
   "reddit": null,
-  "sentiment_up": 83.33,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/MinterXSOL",
+  "twitter": "https://x.com/THORMachines",
   "twitter_followers": null,
-  "watchers": 21
- },
- "momentum-3": {
-  "categories": [
-   "Decentralized Exchange (DEX)",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "BNB Chain Ecosystem",
-   "Sui Ecosystem",
-   "Coinbase Ventures Portfolio",
-   "OKX Ventures Portfolio",
-   "Binance HODLer Airdrops",
-   "Binance Wallet IDO",
-   "CeFi"
-  ],
-  "cex": [
-   "Aster",
-   "BTSE",
-   "Biconomy.com",
-   "Binance",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bithumb",
-   "Bitrue",
-   "Bitunix",
-   "Bybit",
-   "Coinstore"
-  ],
-  "cex_count": 26,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://suiscan.xyz/mainnet/coin/0x35169bc93e1fddfcf3a82a9eae726d349689ed59e4b065369af8789fe59f8608::mmt::MMT/txs",
-  "fetched": "2026-10-18T04:46:33.848734+00:00",
-  "genesis": null,
-  "github": "https://github.com/mmt-finance/clmm-sdk",
-  "homepage": "https://www.mmt.finance/",
-  "platforms": [
-   "binance-smart-chain",
-   "sui"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/mmtfinance",
-  "telegram_users": null,
-  "twitter": "https://x.com/MMTFinance",
-  "twitter_followers": null,
-  "watchers": 4037
+  "watchers": 76
  },
  "morpheusai": {
   "categories": [
@@ -4110,7 +4181,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x4b5D32A07b8d3eC5D6928cAa30196f8dd6a7C5A9",
-  "fetched": "2026-10-19T20:00:55.407371+00:00",
+  "fetched": "2026-10-21T11:46:48.838352+00:00",
   "genesis": null,
   "github": "https://github.com/prxvt/sdk",
   "homepage": "http://prxvt.com/",
@@ -4118,13 +4189,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/PRXVTCommunity",
   "telegram_users": null,
   "twitter": "https://x.com/PRXVTai",
   "twitter_followers": null,
-  "watchers": 656
+  "watchers": 661
  },
  "purple-pepe": {
   "categories": [
@@ -4164,43 +4235,6 @@
   "twitter": "https://x.com/purplepepes0l",
   "twitter_followers": null,
   "watchers": 4593
- },
- "pwease": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [
-   "XT.COM"
-  ],
-  "cex_count": 1,
-  "chat": "https://youtube.com/@pweasememes",
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Meteora",
-   "Raydium",
-   "Raydium (CLMM)"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump",
-  "fetched": "2026-10-18T04:45:18.001962+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://pweasetoken.com",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/pweaseman",
-  "telegram_users": null,
-  "twitter": "https://x.com/pweaseman",
-  "twitter_followers": null,
-  "watchers": 815
  },
  "renzo": {
   "categories": [
@@ -4824,43 +4858,58 @@
   "twitter_followers": null,
   "watchers": 78
  },
- "strategy-tokenized-bstocks": {
+ "stp-network": {
   "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "bStocks Ecosystem"
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Decentralized Finance (DeFi)",
+   "Derivatives",
+   "Synthetic Issuer",
+   "Base Ecosystem",
+   "AI Agents",
+   "Synthetic",
+   "AI Agent Launchpad",
+   "Base Native"
   ],
   "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
    "Binance",
-   "LBank"
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "BloFin",
+   "Coinbase Exchange"
   ],
-  "cex_count": 2,
+  "cex_count": 26,
   "chat": null,
   "commits_4w": null,
-  "description": "",
+  "description": "STP (Becoming AWE Network) is opening the portal to Autonomous Worlds where AI Agents collaborate, adapt and evolve. The Autonomous Worlds Engine (AWE) is a modular framework enabling the creation of self-sustaining worlds for scalable agent-agent and human-agent collaboration.\n\nAWE scales interactions between thousands of autonomous agents using parallel processing, dependency management and GPU-optimized workloads. World.Fun is an autonomous worlds launcher that supports 1,000 agent AI-driven Autonomous Worlds powered by AWE. Users can create and customize agents to be deployed into these autonomous worlds using STPT.\n\n",
   "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
+   "Aerodrome (Base)",
+   "Uniswap V2 (Ethereum)"
   ],
   "discord": null,
-  "explorer": "https://bscscan.com/token/0xE87afb3076AeB0f9B14E368DE8145ae6a2826A14",
-  "fetched": "2026-10-18T04:49:02.395513+00:00",
+  "explorer": "https://basescan.org/token/0x1B4617734C43F6159F3a70b7E06d883647512778",
+  "fetched": "2026-10-21T11:46:55.292016+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
+  "homepage": "https://www.awenetwork.ai/",
   "platforms": [
-   "binance-smart-chain"
+   "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
-  "telegram": null,
+  "telegram": "https://t.me/STPofficial",
   "telegram_users": null,
-  "twitter": "https://x.com/binance",
+  "twitter": "https://x.com/awenetwork_ai",
   "twitter_followers": null,
-  "watchers": 43
+  "watchers": 7960
  },
  "subsquid": {
   "categories": [
@@ -4917,53 +4966,6 @@
   "twitter": "https://x.com/hellosqd",
   "twitter_followers": null,
   "watchers": 5081
- },
- "swftcoin": {
-  "categories": [
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "Dex Aggregator"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "BitKan",
-   "Bitunix",
-   "Coinbase Exchange",
-   "DigiFinex",
-   "Gate",
-   "HTX",
-   "KuCoin",
-   "LATOKEN",
-   "OKX"
-  ],
-  "cex_count": 10,
-  "chat": "https://t.me/swftswap_CN",
-  "commits_4w": null,
-  "description": "English version\nIntroducing SWFTCoin (SWFTC)\n$SWFTC: Powering SWFT Blockchain and AI Services (SWFTGPT) \nSwftCoin ($SWFTC) is the native utility token driving SWFT Blockchain's AI-powered ecosystem, SWFTGPT, and the first ever AI token featured on Coinbase. SWFTGPT is also the first domain-specific LLM for crypto. \nSwftCoin key features include:\n50% Reduced Transaction Fees: Lower costs on all transactions.\nAI Service Payments: Use $SWFTC to access SWFTGPT. Tools include expert market analysis,  predictions, and intelligent trading solutions. \nMembership Benefits: Unlock premium features and AI agent services within SWFTGPT.\nAI-Powered Swaps: Enable precise, fast cross-chain transactions and analytics.\nSWFT Blockchain combines AI innovation with blockchain infrastructure, simplifying crypto trading while enhancing functionality through $SWFTC.\n\n\nChinese version\n$SWFTC\uff1a\u9a71\u52a8 SWFT Blockchain \u548c AI \u670d\u52a1\uff08SWFTGPT\uff09\nSwftCoin ($SWFTC) \u662f SWFT Blockchain \u7684\u539f\u751f\u5b9e\u7528\u4ee3\u5e01\uff0c\u4e3a\u5176 AI \u9a71\u52a8\u7684\u751f\u6001\u7cfb\u7edf SWFTGPT \u63d0\u4f9b\u652f\u6301\uff0c\u540c\u65f6\u4e5f\u662f Coinbase \u4e0a\u9996\u4e2a AI \u4ee3\u5e01\u3002SWFTGPT \u4e5f\u662f\u9996\u4e2a\u4e13\u6ce8\u4e8e\u52a0\u5bc6\u9886\u57df\u7684\u7279\u5b9a\u9886\u57df\u5927\u578b\u8bed\u8a00\u6a21\u578b (LLM)\u3002\nSwftCoin \u7684\u4e3b\u8981\u529f\u80fd\u5305\u62ec\uff1a\n1\u300150% \u4ea4\u6613\u8d39\u51cf\u514d\uff1a\u964d\u4f4e\u6240\u6709\u4ea4\u6613\u6210\u672c\u3002\n2\u3001AI \u670d\u52a1\u652f\u4ed8\uff1a\u4f7f\u7528 $SWFTC \u8bbf\u95ee SWFTGPT \u5de5\u5177\uff0c\u5305\u62ec\u4e13\u5bb6\u5e02\u573a\u5206\u6790\u3001\u9884\u6d4b\u4ee5\u53ca\u667a\u80fd\u4ea4\u6613\u89e3\u51b3\u65b9\u6848\u3002\n3\u3001\u4f1a\u5458\u6743\u76ca\uff1a\u89e3\u9501 SWFTGPT \u7684\u9ad8\u7ea7\u529f\u80fd\u548c AI \u4ee3\u7406\u670d\u52a1\u3002\n4\u3001AI \u9a71\u52a8\u7684\u95ea\u5151\uff1a\u5b9e\u73b0\u7cbe\u51c6\u5feb\u901f\u7684\u8de8\u94fe\u4ea4\u6613\u548c\u6570\u636e\u5206\u6790\u3002\nSWFT Blockchain \u5c06 AI \u521b\u65b0\u4e0e\u533a\u5757\u94fe\u57fa\u7840\u8bbe\u65bd\u7ed3\u5408\uff0c\u901a\u8fc7 $SWFTC \u7b80\u5316\u52a0\u5bc6\u4ea4\u6613\uff0c\u5e76\u63d0\u5347\u5176\u529f\u80fd\u6027\u3002\n",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V4 (BSC)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "http://discord.gg/AHtTqrPKtC",
-  "explorer": "https://etherscan.io/token/0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e",
-  "fetched": "2026-10-18T04:48:59.251736+00:00",
-  "genesis": "2017-10-05",
-  "github": "https://github.com/SwftCoins/SwftCoin",
-  "homepage": "https://www.swftblockchain.ai",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/SwftCoin",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/swfcoin",
-  "telegram_users": null,
-  "twitter": "https://x.com/SwftCoin",
-  "twitter_followers": null,
-  "watchers": 10319
  },
  "synapse-2": {
   "categories": [
@@ -5184,7 +5186,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-10-20T11:38:25.496502+00:00",
+  "fetched": "2026-10-21T11:48:08.438865+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -5193,13 +5195,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/TornadoCashOfficialDAO",
   "telegram_users": null,
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
-  "watchers": 19329
+  "watchers": 19330
  },
  "tsmc-bstocks-tokenized-stock": {
   "categories": [
