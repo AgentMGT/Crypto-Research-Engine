@@ -480,40 +480,6 @@
   "twitter_followers": null,
   "watchers": 74963
  },
- "aura-final-boss": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Meteora",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/account/Am8iBffqgaedfdK5XhtorbcRrKzwH9nyL3ySikQfpump",
-  "fetched": "2026-10-19T19:59:39.141366+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": null,
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/kimchionsoll",
-  "telegram_users": null,
-  "twitter": "https://x.com/i",
-  "twitter_followers": null,
-  "watchers": 32
- },
  "aurora-near": {
   "categories": [
    "Near Protocol Ecosystem",
@@ -927,67 +893,6 @@
   "twitter": "https://x.com/BundleCatAI",
   "twitter_followers": null,
   "watchers": 383
- },
- "carv": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "Gaming (GameFi)",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Impossible Finance Launchpad",
-   "Ethereum Ecosystem",
-   "Animoca Brands Portfolio",
-   "Base Ecosystem",
-   "Binance Alpha Spotlight",
-   "Base Native"
-  ],
-  "cex": [
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "Bybit",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin"
-  ],
-  "cex_count": 20,
-  "chat": "https://medium.com/@Carv",
-  "commits_4w": null,
-  "description": "CARV is where Sovereign AI Beings live, learn, and evolve.\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\n\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV\u2019s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\n\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": "https://discord.com/invite/carv",
-  "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
-  "fetched": "2026-10-19T20:04:38.293113+00:00",
-  "genesis": null,
-  "github": "https://github.com/carv-protocol",
-  "homepage": "https://carv.io",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/carv_official",
-  "twitter_followers": null,
-  "watchers": 7479
  },
  "chex-token": {
   "categories": [
@@ -1497,6 +1402,39 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 70
+ },
+ "dacity-coin-3": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "Matcha (Ethereum)"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Dacity Coin captures the spirit of a tropical city where sunny beaches, vibrant streets, and shared adventures bring people together. Inspired by palm-lined coastlines, sunset skies, and the excitement of a beachside volleyball match, Dacity celebrates a community that knows how to enjoy the moment. Every rally, new friendship, and flying Dacity flag adds to the story. Blending meme culture with a laid-back coastal attitude, Dacity Coin invites everyone to bring their energy, find their crew, and help shape a city full of personality. The sun is shining, the court is ready, and there is always room for one more.",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x54ce4b27caabba24926865f035d432dbde2901f7",
+  "fetched": "2026-10-22T23:47:53.289790+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://thedacityeth.site",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/TheDacityETH",
+  "telegram_users": null,
+  "twitter": "https://x.com/TheDacityETH",
+  "twitter_followers": null,
+  "watchers": 1111
  },
  "degen-base": {
   "categories": [
@@ -2065,7 +2003,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-21T18:38:56.484992+00:00",
+  "fetched": "2026-10-22T23:47:56.501279+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -2287,41 +2225,6 @@
   "twitter_followers": null,
   "watchers": 1283
  },
- "giveback": {
-  "categories": [
-   "Charity",
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": "https://www.youtube.com/@gbackcoin",
-  "commits_4w": null,
-  "description": "Give Back Coin $GBACK transforms how the world funds relief and humanitarian aid. By combining blockchain transparency, community power, and sustainable funding through creator rewards.\nGiveBack Coin is a purpose-driven cryptocurrency designed to combine blockchain technology with real-world generosity. The project\u2019s mission is to turn everyday crypto activity  trading, holding, and community growth into meaningful social impact.\n\nUnlike traditional cryptocurrencies focused purely on profit, GiveBack Coin dedicates up to 50% of its profits to charitable donations and community aid projects, such as feeding the homeless, supporting humanitarian efforts, and funding local outreach programs.\n\nBuilt on the Solana blockchain, GiveBack Coin offers fast, low-cost, and transparent transactions, ensuring that every contribution and donation is traceable and accountable. The community also plays a central role holders can help vote on which causes and charities receive support",
-  "dex": [
-   "PumpSwap",
-   "Raydium (CLMM)"
-  ],
-  "discord": "https://discord.com/invite/gbackcoin",
-  "explorer": "https://solscan.io/token/Fh7mLxtPAysdvHcMcJ37A3vc6WvBVh7JVDwxmwk6pump",
-  "fetched": "2026-10-19T19:59:52.064017+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://gbackcoin.com/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/gbackcoin",
-  "twitter_followers": null,
-  "watchers": 185
- },
  "gstock": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -2374,16 +2277,17 @@
    "KCEX",
    "LBank",
    "MEXC",
+   "Manifest",
    "Ondo Stocks"
   ],
-  "cex_count": 4,
+  "cex_count": 5,
   "chat": null,
   "commits_4w": null,
   "description": "HIMSon is the Ondo Tokenized version of Hims &amp; Hers Health, giving tokenholders economic exposure similar to holding HIMS and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xCa468554e5C0423Ee858fe3942c9568C51FcAa79",
-  "fetched": "2026-10-20T14:53:32.361590+00:00",
+  "fetched": "2026-10-22T23:49:07.014926+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/himson",
@@ -2399,7 +2303,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 127
+  "watchers": 128
  },
  "iexec-rlc": {
   "categories": [
@@ -2638,7 +2542,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-21T18:40:29.783352+00:00",
+  "fetched": "2026-10-22T23:48:03.658097+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2654,7 +2558,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/IxsFinance",
   "twitter_followers": null,
-  "watchers": 11511
+  "watchers": 11509
  },
  "jean-phil": {
   "categories": [
@@ -3095,6 +2999,7 @@
   "cex": [
    "BVOX",
    "Binance",
+   "Binance US",
    "BitKan",
    "Bithumb",
    "Bitkub",
@@ -3103,10 +3008,9 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
-   "BtcTurk | Kripto",
-   "Bybit"
+   "BtcTurk | Kripto"
   ],
-  "cex_count": 40,
+  "cex_count": 41,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -3120,7 +3024,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-21T18:42:53.874465+00:00",
+  "fetched": "2026-10-22T23:49:19.854732+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3130,13 +3034,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38917
+  "watchers": 38912
  },
  "magic-internet-money-runes": {
   "categories": [
@@ -3282,10 +3186,9 @@
    "KuCoin",
    "LBank",
    "MEXC",
-   "Matcha (Ethereum)",
    "WEEX"
   ],
-  "cex_count": 11,
+  "cex_count": 10,
   "chat": "https://blog.marlin.org/",
   "commits_4w": null,
   "description": "High-performance network infrastructure for modern decentralized networks\n\n",
@@ -3294,7 +3197,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-21T18:39:07.397304+00:00",
+  "fetched": "2026-10-22T23:47:59.752405+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3303,13 +3206,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31927
+  "watchers": 31929
  },
  "matrixdock-gold": {
   "categories": [
@@ -3394,7 +3297,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-21T18:41:40.542978+00:00",
+  "fetched": "2026-10-22T23:49:10.218435+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3402,13 +3305,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7940
+  "watchers": 7939
  },
  "nkyc-token": {
   "categories": [
@@ -3462,11 +3365,10 @@
    "LBank",
    "MEXC",
    "Manifest",
-   "Native Core",
    "Ondo Stocks",
    "Toobit"
   ],
-  "cex_count": 10,
+  "cex_count": 9,
   "chat": null,
   "commits_4w": null,
   "description": "NVDAon is the Ondo Tokenized version of NVIDIA, giving tokenholders economic exposure similar to holding NVDA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
@@ -3474,12 +3376,11 @@
    "PancakeSwap V3 (BSC)",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (BSC)",
    "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0x2D1F7226Bd1F780AF6B9A49DCC0aE00E8Df4bDEE",
-  "fetched": "2026-10-21T00:42:52.521204+00:00",
+  "fetched": "2026-10-22T23:49:16.602281+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/nvdaon",
@@ -3496,7 +3397,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 676
+  "watchers": 674
  },
  "nym": {
   "categories": [
@@ -3553,6 +3454,38 @@
   "twitter_followers": null,
   "watchers": 30303
  },
+ "onlyagent": {
+  "categories": [
+   "Solana Ecosystem",
+   "Launchpad",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "OnlyAgent ($OA) is a platform for token-gated AI agents with built-in monetization. Each agent on OnlyAgent can issue its own token, and users pay in that agent's token for metered access, so usage is measured and billed per interaction instead of through flat subscriptions. This gives creators a direct way to earn from the agents they build and lets holders access the agents they value. The $OA token powers the OnlyAgent ecosystem, connecting agent creators, users, and token holders in an open, usage-based economy for AI agents.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump",
+  "fetched": "2026-10-22T23:49:13.367115+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://onlyagent.space",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 72.73,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/OnlyAgentLaunch",
+  "twitter_followers": null,
+  "watchers": 181
+ },
  "openeden": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -3585,7 +3518,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x235B6fe22B4642aDa16D311855c49Ce7DE260841",
-  "fetched": "2026-10-20T14:06:03.971081+00:00",
+  "fetched": "2026-10-22T23:50:23.201875+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://openeden.com/",
@@ -3600,7 +3533,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OpenEden_X",
   "twitter_followers": null,
-  "watchers": 2236
+  "watchers": 2235
  },
  "ore": {
   "categories": [
@@ -4085,49 +4018,6 @@
   "twitter_followers": null,
   "watchers": 12927
  },
- "rivalz-network": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Oracle",
-   "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Base Ecosystem",
-   "AI Agents"
-  ],
-  "cex": [
-   "Gate",
-   "KuCoin"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Rivalz Network is building infrastructure designed to connect AI services and agents to various real-world resources. This infrastructure addresses a key challenge in the rapidly growing AI sector: limited access to digital assets, human interactions, and decentralized physical networks. By simplifying these connections, Rivalz Network aims to enhance the capabilities of AI agents in the broader AI economy.\n\nCore components of the Rivalz infrastructure:\n\nROME \u2013 Swarm Protocol\nROME is a tokenized swarm protocol focused on orchestrating AI agents backed by real-world resources, enabling large-scale coordination and deployment.\n\nOCY DePIN \u2013 Data Module\nOCY DePIN is an AI-native data layer built on a decentralized, peer-to-peer node network. It provides secure data processing, storage, and retrieval for AI-driven applications.\n\nADCS \u2013 Connectivity Module\nADCS functions as an AI oracle, allowing decentralized applications to request AI, data, and agentic responses in a verifiable manner.\n\nNOSTRINGS \u2013 Identity Module\nNOSTRINGS is designed to handle identity and resource mapping. It enables users to create AI agents and define the digital or physical resources\u2014such as assets, personal data, or human labor\u2014those agents can access.\n\nVORD \u2013 Application Module\nVORD serves as an AI and Web3 platform for building and publishing AI applications. It supports both no-code and developer-focused workflows, offering fast publishing, monetization opportunities, and integration of custom SDKs.",
-  "dex": [
-   "Uniswap V3 (Base)"
-  ],
-  "discord": "https://discord.com/invite/rivalzai",
-  "explorer": "https://basescan.org/token/0x67543CF0304C19CA62AC95ba82FD4F4B40788dc1",
-  "fetched": "2026-10-19T20:02:15.496155+00:00",
-  "genesis": null,
-  "github": "https://github.com/Rivalz-ai",
-  "homepage": "https://rivalz.ai/",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/RivalzAI_Ann",
-  "telegram_users": null,
-  "twitter": "https://x.com/Rivalz_AI",
-  "twitter_followers": null,
-  "watchers": 1549
- },
  "rize": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -4399,43 +4289,45 @@
   "twitter_followers": null,
   "watchers": 83
  },
- "sogni-ai": {
+ "soil": {
   "categories": [
-   "Artificial Intelligence (AI)",
-   "DePIN",
-   "Base Ecosystem",
-   "Etherlink Ecosystem",
-   "AI Applications",
-   "Base Native"
+   "Decentralized Finance (DeFi)",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Poolz Finance Launchpad",
+   "RWA Protocol"
   ],
   "cex": [
-   "Oku Trade (Etherlink)"
+   "Gate",
+   "MEXC"
   ],
-  "cex_count": 1,
-  "chat": "https://www.youtube.com/@SogniAI",
+  "cex_count": 2,
+  "chat": "https://www.youtube.com/@SOILprotocol",
   "commits_4w": null,
-  "description": "",
+  "description": "Soil is a fully regulated DeFi protocol ensuring secure returns on stablecoins backed by Real World Assets.\n\nIt is a blockchain-based lending protocol that bridges the gap between traditional finance and the crypto world, reshaping corporate debt and fixed-income investments. It is a debt marketplace where established companies can obtain financing, and crypto investors can lend their stablecoins to earn yield derived from Real World Assets that exist off-chain.",
   "dex": [
-   "Aerodrome (Base)"
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Polygon)"
   ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-10-19T20:03:34.991310+00:00",
+  "discord": "https://discord.gg/soilfarm",
+  "explorer": "https://polygonscan.com/token/0x43c73b90e0c2a355784dcf0da12f477729b31e77",
+  "fetched": "2026-10-22T23:50:29.747803+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://www.sogni.ai/",
+  "homepage": "https://soil.co/",
   "platforms": [
-   "base",
-   "etherlink"
+   "ethereum",
+   "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
-  "telegram": "https://t.me/sogniai",
+  "telegram": "https://t.me/soilfarm",
   "telegram_users": null,
-  "twitter": "https://x.com/Sogni_Protocol",
+  "twitter": "https://x.com/soil_farm",
   "twitter_followers": null,
-  "watchers": 11934
+  "watchers": 109546
  },
  "spacex-backpack-securities": {
   "categories": [
@@ -4655,37 +4547,6 @@
   "twitter_followers": null,
   "watchers": 10161
  },
- "startupsi": {
-  "categories": [
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Launch a coin on pump.fun and its creator fees pay for an AI agent that builds a startup, the one you describe or one it picks, ships it on its own site and keeps improving it. Every step happens in public.\n\nLaunching, the agents, the money, safety and the technology underneath. For the full story start with how it works; for the numbers, see fees.\n\nAnyone with a Solana wallet. Every launch is checked against a name blocklist and for impersonation of real people, brands or projects, and launches are rate-limited so the directory stays readable.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/account/EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
-  "fetched": "2026-10-19T20:03:28.545593+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://startupsi.org/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 50.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/startupSI_sol",
-  "twitter_followers": null,
-  "watchers": 78
- },
  "strategy-pp-variable-xstock": {
   "categories": [
    "Tokenized Assets",
@@ -4726,62 +4587,6 @@
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
   "watchers": 520
- },
- "subsquid": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Big Data",
-   "Analytics",
-   "BNB Chain Ecosystem",
-   "Arbitrum Ecosystem",
-   "Base Ecosystem",
-   "CoinList Launchpad",
-   "Base Native"
-  ],
-  "cex": [
-   "Bitkub",
-   "Bitrue",
-   "Bitunix",
-   "Bybit",
-   "CoinUp.io",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "Gate",
-   "HTX",
-   "KCEX",
-   "KuCoin",
-   "MEXC"
-  ],
-  "cex_count": 16,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Subsquid Network is an innovative decentralized data lake and query engine designed to offer developers performant and permissionless access to data, aiming to build a neutral and open internet rooted in Web3 principles. Secured by ZK proofs, the Subsquid network boasts a modular architecture that enables exceptional scalability and developer convenience optimized for blockchain indexing, dApp development, and analytics.\n\nSubsquid is a response to unscalable and rigid monolithic indexing frameworks that had previously gained popularity and market traction among Web3 developers. Today, these frameworks are struggling to adapt in a rapidly evolving blockchain environment. Additionally, the network serves as a highly efficient and decentralized alternative to centralized infrastructure firms, including large RPC and API providers.",
-  "dex": [
-   "Aerodrome (Base)",
-   "Aerodrome SlipStream",
-   "Aerodrome Slipstream 3",
-   "PancakeSwap V3 (Arbitrum)",
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://arbiscan.io/token/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
-  "fetched": "2026-10-19T20:04:41.527813+00:00",
-  "genesis": null,
-  "github": "https://github.com/subsquid",
-  "homepage": "https://sqd.dev",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/subsquid",
-  "telegram_users": null,
-  "twitter": "https://x.com/hellosqd",
-  "twitter_followers": null,
-  "watchers": 5081
  },
  "super-inu-2": {
   "categories": [
@@ -5374,7 +5179,7 @@
    "Bithumb",
    "Bitkub"
   ],
-  "cex_count": 61,
+  "cex_count": 62,
   "chat": null,
   "commits_4w": null,
   "description": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. ",
@@ -5388,7 +5193,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-10-21T18:42:57.181230+00:00",
+  "fetched": "2026-10-22T23:50:26.388024+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5399,7 +5204,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 80.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/wormholecrypto",
   "telegram_users": null,
