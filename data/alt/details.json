@@ -73,7 +73,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-10-21T00:41:39.421495+00:00",
+  "fetched": "2026-10-22T00:46:35.691344+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -367,7 +367,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-  "fetched": "2026-10-19T00:19:27.474067+00:00",
+  "fetched": "2026-10-22T00:45:19.305789+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://prestocks.com/anthropic",
@@ -793,7 +793,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
-  "fetched": "2026-10-21T00:40:32.744450+00:00",
+  "fetched": "2026-10-22T00:44:02.958396+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basebluechip.com/",
@@ -801,13 +801,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/o1bluechip",
   "twitter_followers": null,
-  "watchers": 345
+  "watchers": 344
  },
  "bluzelle": {
   "categories": [
@@ -827,9 +827,10 @@
    "Gate",
    "GroveX",
    "Kraken",
-   "KuCoin"
+   "KuCoin",
+   "LATOKEN"
   ],
-  "cex_count": 6,
+  "cex_count": 7,
   "chat": null,
   "commits_4w": null,
   "description": "At Bluzelle, we see technology as a powerful tool to solve humanity's most pressing challenges. As creators of a robust decentralized blockchain ecosystem\u2014including the Bluzelle Chain, BLZ token, and NFT marketplace Capella\u2014we are uniquely positioned to revolutionize how science is conducted, funded, and shared. Our DeSci (Decentralized Science) platform is designed to empower all scientific fields, fostering innovation across disciplines. ",
@@ -839,7 +840,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
-  "fetched": "2026-10-21T00:43:08.982525+00:00",
+  "fetched": "2026-10-22T00:47:48.783022+00:00",
   "genesis": "2018-01-15",
   "github": "https://github.com/njmurarka/bluzelle",
   "homepage": "https://bluzelle.com/",
@@ -856,7 +857,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BluzelleHQ",
   "twitter_followers": null,
-  "watchers": 23878
+  "watchers": 23879
  },
  "bobo-coin-2": {
   "categories": [
@@ -882,7 +883,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-21T00:40:26.248302+00:00",
+  "fetched": "2026-10-22T00:43:39.308503+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -1037,6 +1038,58 @@
   "twitter": "https://x.com/carv_official",
   "twitter_followers": null,
   "watchers": 7479
+ },
+ "chex-token": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "RWA Protocol",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitunix",
+   "Gate",
+   "Kraken",
+   "MEXC"
+  ],
+  "cex_count": 4,
+  "chat": "https://www.linkedin.com/company/chintai-eos/",
+  "commits_4w": null,
+  "description": "Chintai: The Licensed Tokenization Platform for Financial Institutions\nChintai is a fully licensed and regulated tokenization platform tailored specifically for financial institutions. Harnessing the power of the $CHEX token, Chintai provides an end-to-end, compliant white-label solution for seamlessly tokenizing a diverse range of real-world assets (RWAs) on its custom-built, permissioned Layer 1 blockchain. The $CHEX Token: The Backbone of Chintai's Ecosystem\n$CHEX is the native utility token of the Chintai network, driving liquidity incentives and resource management. Fully distributed and inherently deflationary, $CHEX features flywheel tokenomics, becoming increasingly scarce as the demand for Chintai's platform grows. The key attributes here are: fully distributed, flywheel tokenomics, scarcity &amp; real utility. The token is multi-chain, available on Ethereum, Solana, EOS, Binance Smart Chain, and, of course, the Chintai Network.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Orca",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
+  "fetched": "2026-10-22T00:47:39.001271+00:00",
+  "genesis": null,
+  "github": "https://github.com/chintai-platform/chexchexchex",
+  "homepage": "https://chintai.io/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": "https://www.reddit.com/r/chintai/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/chex_token",
+  "telegram_users": null,
+  "twitter": "https://x.com/ChintaiNexus",
+  "twitter_followers": null,
+  "watchers": 19124
  },
  "chutes": {
   "categories": [
@@ -1380,7 +1433,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-21T00:41:49.223526+00:00",
+  "fetched": "2026-10-22T00:46:29.162770+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1389,13 +1442,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/codecflow",
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1705
+  "watchers": 1706
  },
  "concierge-io": {
   "categories": [
@@ -1694,9 +1747,9 @@
    "CoinUp.io",
    "CoinW",
    "Coinbase Exchange",
-   "Deepcoin"
+   "Crypto.com Exchange"
   ],
-  "cex_count": 31,
+  "cex_count": 32,
   "chat": null,
   "commits_4w": null,
   "description": "DEGEN is more than a token. It's the economy behind a culture.\n\nBorn from a community and shaped by the people who participate in it, DEGEN has evolved into an ecosystem of products, communities, and onchain experiences. From opinion markets and digital identity to NFTs and future applications, the DEGEN token connects every part of the ecosystem through a shared economy.\n\nAs the ecosystem grows, every new product strengthens the network, giving the token utility beyond any single application",
@@ -1710,7 +1763,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-  "fetched": "2026-10-20T11:35:56.456073+00:00",
+  "fetched": "2026-10-22T00:45:12.833875+00:00",
   "genesis": null,
   "github": "https://github.com/jacek0x",
   "homepage": "https://www.degen.tips/",
@@ -1721,13 +1774,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/degentokenbase",
   "telegram_users": null,
   "twitter": "https://x.com/degentokenbase",
   "twitter_followers": null,
-  "watchers": 37921
+  "watchers": 37918
  },
  "dimitra": {
   "categories": [
@@ -1737,11 +1790,12 @@
   ],
   "cex": [
    "BingX",
+   "DigiFinex",
    "Gate",
    "KuCoin",
    "MEXC"
   ],
-  "cex_count": 4,
+  "cex_count": 5,
   "chat": "https://www.linkedin.com/company/dimitra-technology/",
   "commits_4w": null,
   "description": "The Dimitra (DMTR) is a blockchain platform that is democratizing the Agricultural Technology space for smallholder farmers globally. Dimitra provides access to the blockchain, machine learning, Internet of Things sensors, and Satellite Technology through a mobile platform that helps farmers globally increase their yield, reduce costs and mitigate risks. Current farming practices are not sustainable; creating an evolution of practices will contribute to solving some of today's largest issues for farmers. Issues like poverty, hunger, global warming, carbon emissions, freshwater, and soil preservation are all impacted by the adoption of Dimitra. Dimitra\u2019s platform provides utility by combining the crypto investment cycle with agricultural development practices within nations globally.",
@@ -1751,7 +1805,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
-  "fetched": "2026-10-20T18:32:09.266909+00:00",
+  "fetched": "2026-10-22T00:46:25.942457+00:00",
   "genesis": null,
   "github": "https://github.com/DimitraAgTech",
   "homepage": "https://dimitra.io",
@@ -1765,7 +1819,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/dimitratech",
   "twitter_followers": null,
-  "watchers": 13510
+  "watchers": 13513
  },
  "dot": {
   "categories": [
@@ -2086,7 +2140,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-10-20T07:49:16.047851+00:00",
+  "fetched": "2026-10-22T00:46:32.452194+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -2100,7 +2154,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8577
+  "watchers": 8578
  },
  "flying-tulip": {
   "categories": [
@@ -2790,7 +2844,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
-  "fetched": "2026-10-20T14:03:22.657059+00:00",
+  "fetched": "2026-10-22T00:44:06.219433+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://jeanphilmadame.com/",
@@ -2804,7 +2858,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/JeanPhilMadame",
   "twitter_followers": null,
-  "watchers": 146
+  "watchers": 153
  },
  "kaio": {
   "categories": [
@@ -2964,7 +3018,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x8CD41041505885EF0aD3858181D66f17BE8aae7E",
-  "fetched": "2026-10-21T00:42:59.034561+00:00",
+  "fetched": "2026-10-22T00:48:58.660752+00:00",
   "genesis": null,
   "github": "https://github.com/LCX-AG",
   "homepage": "https://lcx.com/",
@@ -2972,13 +3026,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/JoinLCX",
   "telegram_users": null,
   "twitter": "https://x.com/lcx",
   "twitter_followers": null,
-  "watchers": 50243
+  "watchers": 50240
  },
  "limewire-token": {
   "categories": [
@@ -2993,6 +3047,7 @@
    "Base Native"
   ],
   "cex": [
+   "Binance US",
    "Bit2Me",
    "Bitget",
    "Bitvavo",
@@ -3003,10 +3058,9 @@
    "Kraken",
    "KuCoin",
    "LATOKEN",
-   "MEXC",
-   "Mudrex"
+   "MEXC"
   ],
-  "cex_count": 13,
+  "cex_count": 14,
   "chat": null,
   "commits_4w": null,
   "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
@@ -3018,7 +3072,7 @@
   ],
   "discord": "https://lmwr.co/discord",
   "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-21T00:44:15.556128+00:00",
+  "fetched": "2026-10-22T00:45:16.056236+00:00",
   "genesis": null,
   "github": "https://github.com/LimeWireOfficial",
   "homepage": "https://limewire.com/u/home",
@@ -3414,6 +3468,64 @@
   "twitter_followers": null,
   "watchers": 31927
  },
+ "matrixdock-gold": {
+  "categories": [
+   "Tokenized Assets",
+   "Tokenized Gold",
+   "Solana Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Sui Ecosystem",
+   "Real World Assets (RWA)",
+   "Tron Ecosystem",
+   "Tokenized Commodities",
+   "Stellar Ecosystem",
+   "Hyperliquid Ecosystem",
+   "HyperEVM Ecosystem",
+   "Plume Network Ecosystem",
+   "HashKey Chain Ecosystem",
+   "Matrixdock Ecosystem",
+   "Arc Ecosystem"
+  ],
+  "cex": [
+   "Aquarius",
+   "Bluefin",
+   "KuCoin",
+   "Momentum",
+   "Rooster Protocol V2"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Arc)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Arc)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+  "fetched": "2026-10-22T00:49:02.029455+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.matrixdock.com/xaum",
+  "platforms": [
+   "arc",
+   "binance-smart-chain",
+   "ethereum",
+   "hashkey-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/matrixdock",
+  "twitter_followers": null,
+  "watchers": 912
+ },
  "minotaur-2": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3446,6 +3558,38 @@
   "twitter": "https://x.com/THORMachines",
   "twitter_followers": null,
   "watchers": 76
+ },
+ "moolah": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "$Moolah is a meme token inspired by the mascot of ListaDAO, a decentralized finance (DeFi) protocol. Launched on the Flap.sh platform, $Moolah has garnered attention due to its official authorization from ListaDAO and its strategic positioning within the DeFi and meme coin ecosystems.                                      $Moolah\u2019s official authorization by ListaDAO sets it apart from many other meme coins, which often lack formal endorsements. According to posts on X, ListaDAO has actively promoted $Moolah, with mentions of its mascot status and interactions with the token\u2019s official account (@Moolah_bsc\n). This backing suggests a strategic alignment with ListaDAO\u2019s broader goals, potentially positioning $Moolah as a \u201cblue-chip\u201d meme coin within the ecosystem. Additionally, Flap.sh and even Binance Chain have shown support through social media engagement, hinting at broader institutional interest.\n\n",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
+  "fetched": "2026-10-22T00:44:09.593303+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://moolahbnb.com",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/moolah_cto",
+  "telegram_users": null,
+  "twitter": "https://x.com/Moolah_bsc",
+  "twitter_followers": null,
+  "watchers": 254
  },
  "natix-network": {
   "categories": [
@@ -3487,47 +3631,6 @@
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
   "watchers": 7940
- },
- "ninja-squad": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem"
-  ],
-  "cex": [
-   "BingX",
-   "MEXC",
-   "Paribu"
-  ],
-  "cex_count": 3,
-  "chat": "https://ninjasquad.medium.com/",
-  "commits_4w": null,
-  "description": "Ninja Squad Token ($NST) is the native token of the Ninja Traders ecosystem, which provides access to Ninja Traders products developed for both beginner and advanced traders. With a rich history of delivering products and insightful content since our inception in 2017, the Ninja ecosystem continues to evolve and expand, embracing innovation and introducing new features. The key to gaining access to these products is as simple as holding $NST or owning a Ninja Squad NFT. By doing so, traders gain exclusive access to products designed to elevate their trading experience to a new level.\n\nIn brief, $NST holders have access to the following products;\n- Ninja Terminal grants access to a live cryptocurrency news feed where traders can connect with their API key to open and manage positions in real-time, ensuring users are not losing any precious second while trading live feed.\n- Ninja Tools enables users to monitor on-chain and futures data, long/short ratios, heat maps, wallet analyses, economic calendar, and more on a single screen. Additionally, the ability to set personalized alerts ensures that users stay ahead of the market.\n- Ninja Capital grants exclusive access to allocations from upcoming investor rounds of top projects. It's your chance to invest before anyone else with specially reserved spots for Ninja.\n- Mentorship grants access to intimate discussions with our professional analysis team. Engage in conversations, gain valuable insights, and refine your trading strategi",
-  "dex": [
-   "Meteora",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V4 (Arbitrum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-10-19T00:17:04.862631+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://ninjatraders.io/",
-  "platforms": [
-   "arbitrum-one",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/ninjatraderstr",
-  "telegram_users": null,
-  "twitter": "https://x.com/ninjasquadnft",
-  "twitter_followers": null,
-  "watchers": 2901
  },
  "nvidia-ondo-tokenized-stock": {
   "categories": [
@@ -3838,9 +3941,10 @@
    "Bilaxy",
    "Gate",
    "KuCoin",
-   "MEXC"
+   "MEXC",
+   "MachineX"
   ],
-  "cex_count": 4,
+  "cex_count": 5,
   "chat": "https://www.instagram.com/over.metaverse/",
   "commits_4w": null,
   "description": "OVER: Decentralized Physical AI &amp; World's Largest 3D Map\n\nOVER is a leading Physical AI platform building the world's largest 3D map. Leveraging a Decentralized Physical Infrastructure Network (DePIN) framework, OVER incentivizes a global community of mappers with OVR Tokens to scan high-traffic locations using common smartphones and 360-degree cameras.\nWith over 150,000 locations mapped and 60 million+ images, OVER possesses the most extensive 3D Map dataset globally. This proprietary data powers diverse Physical AI applications: from training cutting-edge Vision Foundation Models to enabling precise Visual Positioning Systems and fostering AI-powered Extended Reality (XR) publishing and browsing.\n\nVision Foundation Models Training: OVER utilizes its vast 3D Map data to train Vision Foundation Models crucial for robotics machine perception, coherent 3D reconstruction, and generation from monocular views. OVER both directly trains these models and licenses its data to leading AI companies and research centers.\n\nVisual Positioning System (VPS): OVER offers an API-based, state-of-the-art Visual Positioning System (VPS) service across all its mapped locations. This technology allows devices and robots to determine their position and bearing in space with centimeter-level precision. This is critical for the future of robotics, augmented reality, and fleet management. Thanks to its patent-pending TEE-powered VPS, OVER ensures end-to-end privacy for re-localization tasks.\n\nXR P",
@@ -3854,7 +3958,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-20T14:07:14.747274+00:00",
+  "fetched": "2026-10-22T00:47:52.049411+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3969,7 +4073,7 @@
    "Bitvavo",
    "BloFin"
   ],
-  "cex_count": 38,
+  "cex_count": 37,
   "chat": "https://www.youtube.com/@PhalaNetwork",
   "commits_4w": null,
   "description": "What Is Phala Network (PHA)?\n\nPhala Network (https://phala.network/) is the Execution Layer for Web3 AI, enabling AI to interact with blockchains and unlocking Web3 for the first billion users.\n\nPhala\u2019s multi-proof system solves the AI execution problem, allowing you to build tamper-proof and unstoppable AI Agents that integrate with smart contracts through the AI-Agent Contract.\n\n1. Agentize Smart Contracts: Develop AI Agents for smart contracts using natural and programming languages.\n2. Connect to Multi-Agents: Make your agents accessible to other cross-chain AI Agents.\n3. Launch AI Agents and Earn: Own your agents and build a profitable token economy.\n\nPHALA as the AI Execution Layer:\n\nPhala leverages AI Agents to interface with blockchain technology, ensuring behavior aligns with intentions and preventing fraud. Using Phala's Blockchain-TEE hybrid system, AI Agents can act like smart contracts with decentralized hosting, governance by smart contracts, protected prompts, and low latency with no gas fees.\n\nPhala Network\u2019s AI Ecosystem:\n\nPhala leads Web3 and AI integration with:\n\n1. AI Agent Contract (https://docs.phala.network/ai-agent-contract/getting-started): For building decentralized AI applications.\n2. Agent Wars (https://agentwars.phala.network/home): A platform to create, interact with, and monetize AI agents.\n3. Redpill (https://red-pill.ai/join): An AI aggregator optimizing multiple AI models, increasing network usage and computation power.\n\nHow Many PHA Coins Ar",
@@ -3979,7 +4083,7 @@
   ],
   "discord": "https://discord.com/invite/phala-network",
   "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-10-21T00:43:02.396861+00:00",
+  "fetched": "2026-10-22T00:45:22.643756+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://phala.network/",
@@ -3994,7 +4098,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
-  "watchers": 56743
+  "watchers": 56763
  },
  "propy": {
   "categories": [
@@ -4580,56 +4684,6 @@
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
   "watchers": 11934
- },
- "spacex-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Ondo Tokenized Assets"
-  ],
-  "cex": [
-   "CoinW",
-   "Gate",
-   "LBank",
-   "MEXC",
-   "Manifest",
-   "Ondo Stocks"
-  ],
-  "cex_count": 6,
-  "chat": null,
-  "commits_4w": null,
-  "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SPCX and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (BSC)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xc9eef266834730340A55B6CC24621B31BAF55581",
-  "fetched": "2026-10-19T00:20:46.864505+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 246
  },
  "spacex-reality-protocol": {
   "categories": [
@@ -5222,7 +5276,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-20T14:26:11.696860+00:00",
+  "fetched": "2026-10-22T00:47:45.529913+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5236,7 +5290,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/uranium_io",
   "twitter_followers": null,
-  "watchers": 456
+  "watchers": 457
  },
  "utya": {
   "categories": [
@@ -5479,7 +5533,7 @@
    "HTX",
    "Kraken"
   ],
-  "cex_count": 16,
+  "cex_count": 17,
   "chat": "https://www.youtube.com/channel/UCyZDqb9pgntVHJVt1pxXtsw",
   "commits_4w": null,
   "description": "XYO is the cryptographic proof layer for the real world, collecting, validating, and delivering physical-world data to AI, robotics, Web3, and enterprise systems. XYO, the original Decentralized Physical Infrastructure Network (DePIN), has been operating since 2018 and now has more than 10 million nodes worldwide. \n\nAt the core of XYO is XYO Layer One, a scalable data blockchain built to support high-volume data industries such as AI, robotics, location intelligence, and real-world asset (RWA) systems. Designed for high throughput and low transaction costs, it gives these data-intensive applications the capacity to process and validate information across massive datasets. XYO Layer One anchors XYO's Proof of Location and Proof of Origin technologies, establishing a verified origin, precise timing, and trusted source behind every piece of data. This verified data directly feeds the XYO AI SDK, a product built by XYO to provide accessibility for developers to build AI-powered applications, autonomous agents, robotics integrations and more using real-world data.\n\nXYO employs a unique dual-token model:\n\nXYO Token: An externally traded token supporting the DePIN ecosystem, rewards, staking, and governance, enhancing overall ecosystem value and scarcity.\n\n\nXL1 Token: Internal to the XYO Layer One blockchain, facilitating transactions, gas fees, and other blockchain-specific use cases.\n\nThe dual-token economics are strategically designed to increase scarcity and promote sustainable ",
@@ -5491,7 +5545,7 @@
   ],
   "discord": "https://discord.gg/officialxyo",
   "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
-  "fetched": "2026-10-20T11:37:19.050339+00:00",
+  "fetched": "2026-10-22T00:48:55.403346+00:00",
   "genesis": null,
   "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
   "homepage": "https://xyo.network/",
@@ -5505,7 +5559,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/officialxyo",
   "twitter_followers": null,
-  "watchers": 38899
+  "watchers": 38904
  },
  "yee-token": {
   "categories": [
@@ -5619,7 +5673,6 @@
   "cex": [
    "Biconomy.com",
    "BitKan",
-   "Bitazza",
    "Bitget",
    "Bitkub",
    "Bybit",
@@ -5628,9 +5681,10 @@
    "HTX",
    "Hibt",
    "LATOKEN",
-   "Mudrex"
+   "Mudrex",
+   "OKX"
   ],
-  "cex_count": 15,
+  "cex_count": 14,
   "chat": "https://medium.com/zentry",
   "commits_4w": null,
   "description": "Zentry is building the Human-Agentic Operating System\u2014a next-gen AI + crypto infrastructure where human life fuels AI, and AI in turn amplifies human potential. Through its tri-layer stack (zApp, zAI, zData), Zentry transforms everyday activity into structured data, trains intelligent agents, and powers a new user-owned economy. It's not just tech\u2014it\u2019s a platform for civilization-scale co-evolution between people and machines.",
@@ -5640,7 +5694,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-10-19T20:01:02.191854+00:00",
+  "fetched": "2026-10-22T00:47:42.274426+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
@@ -5657,6 +5711,6 @@
   "telegram_users": null,
   "twitter": "https://x.com/zentry",
   "twitter_followers": null,
-  "watchers": 4423
+  "watchers": 4420
  }
 }
