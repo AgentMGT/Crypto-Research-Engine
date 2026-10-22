@@ -1797,7 +1797,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-10-20T14:13:43.457684+00:00",
+  "fetched": "2026-10-22T01:57:31.922197+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dji6930.com/",
@@ -1805,13 +1805,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/DOWGEPortal",
   "telegram_users": null,
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
-  "watchers": 3491
+  "watchers": 3489
  },
  "dusk-network": {
   "categories": [
@@ -1994,6 +1994,65 @@
   "twitter": "https://x.com/egll_american",
   "twitter_followers": null,
   "watchers": 600
+ },
+ "everipedia": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Big Data",
+   "Media",
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "AI Agents",
+   "GMCI DePIN Index",
+   "Galaxy Digital Portfolio",
+   "GMCI Index",
+   "AI Agent Launchpad",
+   "AI Framework",
+   "DeFAI"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Binance",
+   "Bithumb",
+   "Bitkub",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "Indodax"
+  ],
+  "cex_count": 20,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The IQ token is a cryptocurrency that powers the Agent Tokenization Platform (ATP). ATP was built for developers to launch the next generation of tokenized agents that are verifiably autonomous and sovereign. These agents are capable of owning and managing digital and physical assets, from cryptocurrencies to DeFi transactions to robots.",
+  "dex": [
+   "Curve (Ethereum)",
+   "Fraxswap (Ethereum)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/RkMDgWy5XQ",
+  "explorer": "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+  "fetched": "2026-10-22T01:58:38.523212+00:00",
+  "genesis": null,
+  "github": "https://github.com/EveripediaNetwork/Everipedia",
+  "homepage": "https://iqindustries.com",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "polygon-pos"
+  ],
+  "reddit": "https://www.reddit.com/r/Everipedia/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/everipedia",
+  "telegram_users": null,
+  "twitter": "https://x.com/IQofficial",
+  "twitter_followers": null,
+  "watchers": 14928
  },
  "everything": {
   "categories": [
@@ -2240,7 +2299,7 @@
   ],
   "discord": "https://discord.com/invite/e7vfgKbEKU",
   "explorer": "https://etherscan.io/token/0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
-  "fetched": "2026-10-20T01:11:20.306759+00:00",
+  "fetched": "2026-10-22T01:58:45.100889+00:00",
   "genesis": "2017-06-23",
   "github": "https://github.com/funtoken/funtoken.github.io",
   "homepage": "https://funtoken.io/",
@@ -2459,10 +2518,9 @@
   "cex": [
    "Gate",
    "LBank",
-   "MEXC",
-   "Matcha (BSC)"
+   "MEXC"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -2474,7 +2532,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
-  "fetched": "2026-10-20T14:03:19.290652+00:00",
+  "fetched": "2026-10-22T01:57:25.467103+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://slinkcoinrbh.lol/",
@@ -2488,7 +2546,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 83
+  "watchers": 88
  },
  "hims-hers-health-ondo-tokenized-stock": {
   "categories": [
@@ -2560,7 +2618,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 34,
+  "cex_count": 35,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2571,7 +2629,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-21T00:43:05.700005+00:00",
+  "fetched": "2026-10-22T01:58:41.826789+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2582,13 +2640,13 @@
    "sora"
   ],
   "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 0.0,
+  "sentiment_up": 60.0,
   "stars": null,
   "telegram": "https://t.me/iexec_rlc_official",
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35767
+  "watchers": 35764
  },
  "intel-ondo-tokenized-stock": {
   "categories": [
@@ -3318,7 +3376,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
-  "fetched": "2026-10-22T01:48:11.559875+00:00",
+  "fetched": "2026-10-22T01:57:35.161157+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.mansory.com/",
@@ -5325,7 +5383,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-10-21T00:40:23.001970+00:00",
+  "fetched": "2026-10-22T01:57:28.729560+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
@@ -5339,7 +5397,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
-  "watchers": 657
+  "watchers": 656
  },
  "zebec-network": {
   "categories": [
