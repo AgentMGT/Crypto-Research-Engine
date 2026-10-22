@@ -367,7 +367,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-  "fetched": "2026-10-22T00:45:19.305789+00:00",
+  "fetched": "2026-10-22T01:51:53.561462+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://prestocks.com/anthropic",
@@ -457,7 +457,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-21T11:48:05.122344+00:00",
+  "fetched": "2026-10-22T01:51:50.333298+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -685,7 +685,7 @@
    "DigiFinex",
    "Gate"
   ],
-  "cex_count": 21,
+  "cex_count": 20,
   "chat": null,
   "commits_4w": null,
   "description": "BENQI is a decentralized non-custodial liquidity market protocol, built on Avalanche. The protocol enables users to effortlessly lend, borrow, and earn interest with their digital assets. Depositors providing liquidity to the protocol may earn passive income, while borrowers are able to borrow in an over-collateralized manner.",
@@ -695,7 +695,7 @@
   ],
   "discord": null,
   "explorer": "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
-  "fetched": "2026-10-21T03:17:56.901274+00:00",
+  "fetched": "2026-10-22T01:49:27.705991+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.benqi.fi/",
@@ -709,7 +709,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BenqiFinance",
   "twitter_followers": null,
-  "watchers": 30423
+  "watchers": 30422
  },
  "bio-protocol": {
   "categories": [
@@ -793,7 +793,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
-  "fetched": "2026-10-22T00:44:02.958396+00:00",
+  "fetched": "2026-10-22T01:48:08.327413+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basebluechip.com/",
@@ -883,7 +883,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-22T00:43:39.308503+00:00",
+  "fetched": "2026-10-22T01:48:05.076368+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -1308,7 +1308,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
-  "fetched": "2026-10-21T03:19:00.293229+00:00",
+  "fetched": "2026-10-22T01:48:14.764600+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.clawpump.tech",
@@ -1614,9 +1614,10 @@
    "Pump.fun Ecosystem"
   ],
   "cex": [
-   "Hadron"
+   "Hadron",
+   "Manifest"
   ],
-  "cex_count": 1,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -1626,7 +1627,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-10-21T03:16:37.668498+00:00",
+  "fetched": "2026-10-22T01:47:01.822350+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1640,88 +1641,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 54
- },
- "dawg-3": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme",
-   "Dog-Themed"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "DAWG is the alpha meme coin on Binance Smart Chain. This aint no ordinary dog with hats and cute vibes. This DAWG does not take orders from anyone. It exists to rule all the little pups and bring absolute dominance to the meta. One DAWG to rule them all.\n\nFair launched on flap.sh with a maximum supply of exactly 1 billion tokens, DAWG was built purely by the community for the community from the very first block. The project centers around a simple but powerful question that has become its rallying cry: Do you got that DAWG in you?\n\nThis mindset has sparked a rapidly growing culture of holders who are dead set on reviving the entire BSC ecosystem. The community strongly believes DAWG is the next big runner on the chain and that even CZ himself will eventually bullpost it. With sharp branding, contagious memes, and an unbreakable spirit, DAWG is more than a token. It is a movement built on strength, independence, and that undeniable inner dog energy. The pack grows larger and more united every single day.",
-  "dex": [
-   "PancakeSwap (v2)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x7D0443CdDFc8E11AF105F4fE44Dd28c630237777",
-  "fetched": "2026-10-21T03:17:47.345160+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://flap.sh/bnb/0x7d0443cddfc8e11af105f4fe44dd28c630237777",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/dawgonbnb",
-  "twitter_followers": null,
-  "watchers": 21
- },
- "deapcoin": {
-  "categories": [
-   "Entertainment",
-   "Gaming (GameFi)",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Avalanche Ecosystem",
-   "Play To Earn",
-   "Ethereum Ecosystem",
-   "Gaming Platform"
-  ],
-  "cex": [
-   "Gate",
-   "Kanga Global",
-   "MEXC",
-   "OKJ"
-  ],
-  "cex_count": 4,
-  "chat": "https://t.me/DEAP001",
-  "commits_4w": null,
-  "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
-  "dex": [
-   "ApeSwap",
-   "Mdex BSC",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-10-21T11:48:15.169324+00:00",
-  "genesis": null,
-  "github": "https://github.com/Digita-Entertainment-Asset/DEP",
-  "homepage": "https://dea.sg/",
-  "platforms": [
-   "avalanche",
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/DEAPcoin_group",
-  "telegram_users": null,
-  "twitter": "https://x.com/PlayMining_SG",
-  "twitter_followers": null,
-  "watchers": 10314
+  "watchers": 70
  },
  "degen-base": {
   "categories": [
@@ -1931,7 +1851,7 @@
   ],
   "discord": "https://discord.gg/dusk-official",
   "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-10-21T11:49:18.465943+00:00",
+  "fetched": "2026-10-22T01:50:43.868279+00:00",
   "genesis": null,
   "github": "https://github.com/dusk-network/dusk-blockchain",
   "homepage": "https://dusk.network/",
@@ -1940,13 +1860,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/DuskNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/DuskFoundation",
   "twitter_followers": null,
-  "watchers": 32059
+  "watchers": 32061
  },
  "edge": {
   "categories": [
@@ -2096,7 +2016,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-10-21T18:39:11.147029+00:00",
+  "fetched": "2026-10-22T01:51:47.132487+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -2238,7 +2158,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-21T18:41:43.795397+00:00",
+  "fetched": "2026-10-22T01:49:21.240463+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2255,7 +2175,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7615
+  "watchers": 7618
  },
  "froggie": {
   "categories": [
@@ -3072,7 +2992,7 @@
   ],
   "discord": "https://lmwr.co/discord",
   "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-22T00:45:16.056236+00:00",
+  "fetched": "2026-10-22T01:50:34.262015+00:00",
   "genesis": null,
   "github": "https://github.com/LimeWireOfficial",
   "homepage": "https://limewire.com/u/home",
@@ -3398,7 +3318,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
-  "fetched": "2026-10-20T01:09:34.115268+00:00",
+  "fetched": "2026-10-22T01:48:11.559875+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.mansory.com/",
@@ -3467,129 +3387,6 @@
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
   "watchers": 31927
- },
- "matrixdock-gold": {
-  "categories": [
-   "Tokenized Assets",
-   "Tokenized Gold",
-   "Solana Ecosystem",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "Sui Ecosystem",
-   "Real World Assets (RWA)",
-   "Tron Ecosystem",
-   "Tokenized Commodities",
-   "Stellar Ecosystem",
-   "Hyperliquid Ecosystem",
-   "HyperEVM Ecosystem",
-   "Plume Network Ecosystem",
-   "HashKey Chain Ecosystem",
-   "Matrixdock Ecosystem",
-   "Arc Ecosystem"
-  ],
-  "cex": [
-   "Aquarius",
-   "Bluefin",
-   "KuCoin",
-   "Momentum",
-   "Rooster Protocol V2"
-  ],
-  "cex_count": 5,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Raydium (CLMM)",
-   "Uniswap V3 (Arc)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Arc)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
-  "fetched": "2026-10-22T00:49:02.029455+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.matrixdock.com/xaum",
-  "platforms": [
-   "arc",
-   "binance-smart-chain",
-   "ethereum",
-   "hashkey-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/matrixdock",
-  "twitter_followers": null,
-  "watchers": 912
- },
- "minotaur-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets",
-   "Robotics"
-  ],
-  "cex": [
-   "Subnet Tokens"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "THOR is building open robotics infrastructure through Bittensor Subnet 112 (SN112), starting with a marketplace for commissioning robotics training data. Its initial focus is expert video annotation: buyers define the task and acceptance criteria, qualified contributors produce the annotations, and THOR coordinates verification and delivery. The initial private pilot is designed for professional annotation firms, with permissionless annotation planned after beta. Its longer-term direction connects data, models and hardware to support robotics research and deployment.",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://taostats.io/subnets/112/chart",
-  "fetched": "2026-10-21T11:50:24.958573+00:00",
-  "genesis": null,
-  "github": "https://github.com/subnet112/minotaur_subnet",
-  "homepage": "https://thormachines.ai/",
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/THORMachines",
-  "twitter_followers": null,
-  "watchers": 76
- },
- "moolah": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "$Moolah is a meme token inspired by the mascot of ListaDAO, a decentralized finance (DeFi) protocol. Launched on the Flap.sh platform, $Moolah has garnered attention due to its official authorization from ListaDAO and its strategic positioning within the DeFi and meme coin ecosystems.                                      $Moolah\u2019s official authorization by ListaDAO sets it apart from many other meme coins, which often lack formal endorsements. According to posts on X, ListaDAO has actively promoted $Moolah, with mentions of its mascot status and interactions with the token\u2019s official account (@Moolah_bsc\n). This backing suggests a strategic alignment with ListaDAO\u2019s broader goals, potentially positioning $Moolah as a \u201cblue-chip\u201d meme coin within the ecosystem. Additionally, Flap.sh and even Binance Chain have shown support through social media engagement, hinting at broader institutional interest.\n\n",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-10-22T00:44:09.593303+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://moolahbnb.com",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/moolah_cto",
-  "telegram_users": null,
-  "twitter": "https://x.com/Moolah_bsc",
-  "twitter_followers": null,
-  "watchers": 254
  },
  "natix-network": {
   "categories": [
@@ -4083,7 +3880,7 @@
   ],
   "discord": "https://discord.com/invite/phala-network",
   "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-10-22T00:45:22.643756+00:00",
+  "fetched": "2026-10-22T01:51:56.773423+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://phala.network/",
@@ -4098,7 +3895,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
-  "watchers": 56763
+  "watchers": 56761
  },
  "propy": {
   "categories": [
@@ -4222,7 +4019,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PRXVTai",
   "twitter_followers": null,
-  "watchers": 661
+  "watchers": 656
  },
  "renzo": {
   "categories": [
@@ -4248,7 +4045,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 40,
+  "cex_count": 37,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -4259,7 +4056,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-21T03:21:22.979971+00:00",
+  "fetched": "2026-10-22T01:50:31.000029+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4269,7 +4066,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -4439,7 +4236,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-21T03:17:53.680083+00:00",
+  "fetched": "2026-10-22T01:49:24.479834+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -4456,7 +4253,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/trize_io",
   "twitter_followers": null,
-  "watchers": 7329
+  "watchers": 7332
  },
  "rocket-pool": {
   "categories": [
@@ -4500,7 +4297,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-21T03:19:13.192130+00:00",
+  "fetched": "2026-10-22T01:48:17.968464+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4516,7 +4313,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25864
+  "watchers": 25863
  },
  "sanctum-2": {
   "categories": [
@@ -4795,59 +4592,6 @@
   "twitter_followers": null,
   "watchers": 78
  },
- "stp-network": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "Decentralized Finance (DeFi)",
-   "Derivatives",
-   "Synthetic Issuer",
-   "Base Ecosystem",
-   "AI Agents",
-   "Synthetic",
-   "AI Agent Launchpad",
-   "Base Native"
-  ],
-  "cex": [
-   "BTCC",
-   "BTSE",
-   "Biconomy.com",
-   "Binance",
-   "BitKan",
-   "Bitget",
-   "Bithumb",
-   "Bitrue",
-   "Bittime",
-   "Bitunix",
-   "BloFin",
-   "Coinbase Exchange"
-  ],
-  "cex_count": 26,
-  "chat": null,
-  "commits_4w": null,
-  "description": "STP (Becoming AWE Network) is opening the portal to Autonomous Worlds where AI Agents collaborate, adapt and evolve. The Autonomous Worlds Engine (AWE) is a modular framework enabling the creation of self-sustaining worlds for scalable agent-agent and human-agent collaboration.\n\nAWE scales interactions between thousands of autonomous agents using parallel processing, dependency management and GPU-optimized workloads. World.Fun is an autonomous worlds launcher that supports 1,000 agent AI-driven Autonomous Worlds powered by AWE. Users can create and customize agents to be deployed into these autonomous worlds using STPT.\n\n",
-  "dex": [
-   "Aerodrome (Base)",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x1B4617734C43F6159F3a70b7E06d883647512778",
-  "fetched": "2026-10-21T11:46:55.292016+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.awenetwork.ai/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/STPofficial",
-  "telegram_users": null,
-  "twitter": "https://x.com/awenetwork_ai",
-  "twitter_followers": null,
-  "watchers": 7960
- },
  "subsquid": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -5123,7 +4867,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-10-21T11:48:08.438865+00:00",
+  "fetched": "2026-10-22T01:50:40.655712+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -5276,7 +5020,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-22T00:47:45.529913+00:00",
+  "fetched": "2026-10-22T01:50:37.463288+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5343,7 +5087,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-21T03:16:34.419979+00:00",
+  "fetched": "2026-10-22T01:46:58.520921+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5357,7 +5101,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 165
+  "watchers": 162
  },
  "win-jie": {
   "categories": [
@@ -5376,7 +5120,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
-  "fetched": "2026-10-21T18:38:53.249926+00:00",
+  "fetched": "2026-10-22T01:46:55.339183+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
