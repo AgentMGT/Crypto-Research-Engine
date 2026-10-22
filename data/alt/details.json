@@ -36,7 +36,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-10-20T14:15:03.515471+00:00",
+  "fetched": "2026-10-22T18:38:24.856553+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -46,13 +46,13 @@
    "robinhood"
   ],
   "reddit": "https://www.reddit.com/r/AdEx",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/+Oki8IRbVXVlmNTQ0",
   "telegram_users": null,
   "twitter": "https://x.com/heyAura",
   "twitter_followers": null,
-  "watchers": 9346
+  "watchers": 9345
  },
  "agoras-currency-of-tau": {
   "categories": [
@@ -1074,49 +1074,6 @@
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
   "watchers": 2099
- },
- "circle-internet-group-robinhood-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "Robinhood Chain Stocks Ecosystem",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "Arcus",
-   "GIGA V3",
-   "Native Core",
-   "Ramses V3 (Robinhood)",
-   "Rialto",
-   "Up V3"
-  ],
-  "cex_count": 6,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Sushiswap V3 (Robinhood)",
-   "Uniswap V3 (Robinhood)",
-   "Uniswap V4 (Robinhood)"
-  ],
-  "discord": null,
-  "explorer": "https://robinhoodchain.blockscout.com/token/0xdF0992E440dD0be65BD8439b609d6D4366bf1CB5",
-  "fetched": "2026-10-19T13:13:34.505214+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://robinhood.com/us/en/",
-  "platforms": [
-   "robinhood"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/RobinhoodApp",
-  "twitter_followers": null,
-  "watchers": 135
  },
  "circle-rstock-2": {
   "categories": [
@@ -2314,7 +2271,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-10-21T00:41:36.167685+00:00",
+  "fetched": "2026-10-22T18:34:45.276226+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2328,7 +2285,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/GeorgePlayClash",
   "twitter_followers": null,
-  "watchers": 1286
+  "watchers": 1283
  },
  "giveback": {
   "categories": [
@@ -2502,6 +2459,52 @@
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
   "watchers": 35764
+ },
+ "infinity-ground": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Binance Alpha Spotlight",
+   "AI Framework"
+  ],
+  "cex": [
+   "Bitget",
+   "Bitunix",
+   "Gate",
+   "KCEX",
+   "Kraken",
+   "KuCoin",
+   "LBank",
+   "MEXC",
+   "Ourbit",
+   "Toobit",
+   "XT.COM"
+  ],
+  "cex_count": 11,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Infinity Ground aims to be the leading blockchain infrastructure for Vibe Coders, enabling anyone to build and own decentralized applications through natural language and agent collaboration. We envision a future where software is no longer written line-by-line, but co-created with AI agents in a fully decentralized, censorship-resistant environment. Through our Agentic IDE, AI App Store, and ING Network, we are building a new internet native to creativity, autonomy, and collective intelligence.\n\nInfinity Ground\u2019s current core product is the First Decentralized Agentic IDE\u2014a revolutionary development platform powered by AI agents. Users can describe what they want to build in natural language, and the system generates fully functional DApps without requiring any coding knowledge. The IDE supports instant deployment, a growing library of customizable templates, and smooth integration with our AI App Store for publishing and monetization. This is not just a builder\u2014it\u2019s the beginning of a new creative economy driven by agentic collaboration.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x9558a9254890B2A8B057a789F413631B9084f4a3",
+  "fetched": "2026-10-22T18:38:28.117298+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.infinityg.ai/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/InfinityGroundAnn",
+  "telegram_users": null,
+  "twitter": "https://x.com/infinityg_ai",
+  "twitter_followers": null,
+  "watchers": 948
  },
  "intel-ondo-tokenized-stock": {
   "categories": [
@@ -2958,7 +2961,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-10-20T14:18:39.596498+00:00",
+  "fetched": "2026-10-22T18:35:55.215150+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2968,13 +2971,13 @@
    "lisk"
   ],
   "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30240
+  "watchers": 30238
  },
  "livepeer": {
   "categories": [
@@ -3175,39 +3178,6 @@
   "twitter_followers": null,
   "watchers": 2689
  },
- "make-no-mistakes-2": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump",
-  "fetched": "2026-10-19T13:09:45.987980+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://mistakes.fun/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/nomistakesfun",
-  "twitter_followers": null,
-  "watchers": 16
- },
  "mamo": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3232,7 +3202,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
-  "fetched": "2026-10-20T18:32:02.764007+00:00",
+  "fetched": "2026-10-22T18:37:18.279223+00:00",
   "genesis": null,
   "github": "https://github.com/moonwell-fi/mamo-contracts",
   "homepage": "https://mamo.bot",
@@ -3246,7 +3216,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/mamo",
   "twitter_followers": null,
-  "watchers": 3770
+  "watchers": 3768
  },
  "mansory-token": {
   "categories": [
@@ -3440,6 +3410,38 @@
   "twitter_followers": null,
   "watchers": 7940
  },
+ "nkyc-token": {
+  "categories": [
+   "Exchange-based Tokens",
+   "BNB Chain Ecosystem",
+   "Centralized Exchange (CEX) Token"
+  ],
+  "cex": [
+   "Nonkyc.io"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Pay trade fees with NonKYC Token (NKYC) on Nonkyc.io Exchange and get a 25% discount. \n\nFounded in 2023, NonKYC.io strives to provide its users with the best trading experience and give small and medium market cap assets a reliable trading hub. Our goal is to maintain a fast and user friendly system while also concentrating on security to keep users, data, and assets safe. Security of our users' data &amp; assets is always our top priority and we are focused on building an easy to use digital asset trading platform for everyone to enjoy.\n\nThe NonKYC platform system is NOT from some predesigned script package or preexisting codebase. It has been created from the ground up by professional developers who are well experienced in Cryptocurrency. NonKYC has been designed to scale horizontally as we grow to become a top tier exchange.\n\n",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
+  "fetched": "2026-10-22T18:37:15.031512+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://nonkyc.io",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/nonkyc",
+  "telegram_users": null,
+  "twitter": "https://x.com/nonkyc_exchange",
+  "twitter_followers": null,
+  "watchers": 687
+ },
  "nvidia-ondo-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -3524,7 +3526,7 @@
    "Mudrex",
    "Osmosis"
   ],
-  "cex_count": 13,
+  "cex_count": 12,
   "chat": "https://medium.com/nymtech",
   "commits_4w": null,
   "description": "Existing internet protocols leak sensitive data that can be used without users knowledge \u2014 Nym is developing the infrastructure to prevent this data leakage by protecting every packet\u2019s metadata at the network and application layers.",
@@ -3534,7 +3536,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-21T03:21:29.369175+00:00",
+  "fetched": "2026-10-22T18:36:05.056746+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3549,7 +3551,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30301
+  "watchers": 30303
  },
  "openeden": {
   "categories": [
@@ -3600,43 +3602,6 @@
   "twitter_followers": null,
   "watchers": 2236
  },
- "openvpp-2": {
-  "categories": [
-   "Energy",
-   "Real World Assets (RWA)",
-   "DePIN",
-   "Base Ecosystem",
-   "RWA Protocol"
-  ],
-  "cex": [
-   "MEXC",
-   "Matcha (Base)"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Rails for the decentralized global electric grid. The Internet of Energy | $OVPP",
-  "dex": [
-   "Aerodrome (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd",
-  "fetched": "2026-10-19T13:12:18.447989+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://openvpp.energy/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/OpenVPP",
-  "telegram_users": null,
-  "twitter": "https://x.com/openvpp",
-  "twitter_followers": null,
-  "watchers": 977
- },
  "ore": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -3673,65 +3638,6 @@
   "twitter": "https://x.com/OREsupply",
   "twitter_followers": null,
   "watchers": 5165
- },
- "osmosis": {
-  "categories": [
-   "Decentralized Exchange (DEX)",
-   "Smart Contract Platform",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "Automated Market Maker (AMM)",
-   "Cosmos Ecosystem",
-   "Osmosis Ecosystem",
-   "Paradigm Portfolio",
-   "Proof of Stake (PoS)",
-   "Evmos Ecosystem",
-   "Secret Ecosystem",
-   "GMCI DeFi Index",
-   "GMCI Index",
-   "Made in USA"
-  ],
-  "cex": [
-   "Binance",
-   "Bithumb",
-   "Bitkub",
-   "Bitvavo",
-   "BloFin",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Digital X",
-   "Gate",
-   "HTX",
-   "Kraken"
-  ],
-  "cex_count": 25,
-  "chat": "https://medium.com/osmosis",
-  "commits_4w": null,
-  "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.",
-  "dex": [
-   "BeeZee DEX"
-  ],
-  "discord": null,
-  "explorer": "https://www.mintscan.io/osmosis",
-  "fetched": "2026-10-19T13:11:15.189835+00:00",
-  "genesis": null,
-  "github": "https://github.com/osmosis-labs/osmosis",
-  "homepage": "https://osmosis.zone/",
-  "platforms": [
-   "cosmos",
-   "evmos",
-   "osmosis",
-   "secret"
-  ],
-  "reddit": null,
-  "sentiment_up": 95.24,
-  "stars": null,
-  "telegram": "https://t.me/osmosis_chat",
-  "telegram_users": null,
-  "twitter": "https://x.com/osmosis ",
-  "twitter_followers": null,
-  "watchers": 78926
  },
  "ovr": {
   "categories": [
@@ -4437,7 +4343,7 @@
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-10-19T20:01:08.726984+00:00",
+  "fetched": "2026-10-22T18:36:08.399144+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://silencio.network/",
@@ -4446,13 +4352,13 @@
    "peaq"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/silencioofficialchat",
   "telegram_users": null,
   "twitter": "https://x.com/silencioNetwork",
   "twitter_followers": null,
-  "watchers": 4355
+  "watchers": 4359
  },
  "sofi-technologies-ondo-tokenized-stock": {
   "categories": [
@@ -4475,7 +4381,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9f2e3eb0160117c56b07652fe66a08a48b5bd7b5",
-  "fetched": "2026-10-20T14:53:29.147692+00:00",
+  "fetched": "2026-10-22T18:35:51.864333+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/sofion",
@@ -4531,6 +4437,48 @@
   "twitter_followers": null,
   "watchers": 11934
  },
+ "spacex-backpack-securities": {
+  "categories": [
+   "Tokenized Assets",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Backpack Securities Ecosystem"
+  ],
+  "cex": [
+   "Byreal",
+   "Manifest",
+   "ZeroFi"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Unlike perps or synthetic derivatives that merely track price movements, the $SPCX token represents absolute, uncompromising tangible ownership. At the core of this project is a strict, fully collateralized framework. Every single $SPCX token in circulation is directly backed by one authentic, real-world share of SpaceX stock. Mint and redeemable on Backpack Securities, only on Solana via Sunrise.",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Pancakeswap V3 (Solana)",
+   "Raydium",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+  "fetched": "2026-10-22T18:35:58.491186+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://backpack.exchange/stocks/SPCX",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 627
+ },
  "spacex-reality-protocol": {
   "categories": [
    "Tokenized Assets",
@@ -4567,6 +4515,54 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 76
+ },
+ "spacex-robinhood-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Robinhood Chain Stocks Ecosystem",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Alandale (CL)",
+   "Arcus",
+   "Bankr (Robinhood)",
+   "BrownFi V3 (Robinhood)",
+   "DLMM King V2.0 (Robinhood)",
+   "Ekubo V3 (Robinhood)",
+   "Long.xyz",
+   "Ramses V3 (Robinhood)",
+   "Rialto",
+   "Up V3",
+   "Zia (Robinhood)"
+  ],
+  "cex_count": 11,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Pons V2 Dex",
+   "Uniswap V3 (Robinhood)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://robinhoodchain.blockscout.com/token/0x4a0E65A3EcceC6dBe60AE065F2e7bb85Fae35eEa",
+  "fetched": "2026-10-22T18:36:01.792191+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://robinhood.com/us/en/",
+  "platforms": [
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RobinhoodApp",
+  "twitter_followers": null,
+  "watchers": 185
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
@@ -4690,6 +4686,47 @@
   "twitter_followers": null,
   "watchers": 78
  },
+ "strategy-pp-variable-xstock": {
+  "categories": [
+   "Tokenized Assets",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "BackedFi xStocks Ecosystem"
+  ],
+  "cex": [
+   "Byreal",
+   "Kraken"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 120+ US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.",
+  "dex": [
+   "Curve (Ethereum)",
+   "Raydium (CLMM)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
+  "fetched": "2026-10-22T18:37:21.566180+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://xstocks.fi/",
+  "platforms": [
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/xstocksfi",
+  "telegram_users": null,
+  "twitter": "https://x.com/xStocksFi",
+  "twitter_followers": null,
+  "watchers": 520
+ },
  "subsquid": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4745,6 +4782,49 @@
   "twitter": "https://x.com/hellosqd",
   "twitter_followers": null,
   "watchers": 5081
+ },
+ "super-inu-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Dog-Themed",
+   "Solana Meme",
+   "Stonk Ecosystem"
+  ],
+  "cex": [
+   "Gate",
+   "Hadron",
+   "KCEX",
+   "LBank",
+   "Manifest"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+  "fetched": "2026-10-22T18:34:42.041284+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.stonkfun.xyz/token/DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 538
  },
  "synapse-2": {
   "categories": [
@@ -4900,6 +4980,58 @@
   "twitter_followers": null,
   "watchers": 351
  },
+ "tokenised-gbp": {
+  "categories": [
+   "Stablecoins",
+   "GBP Stablecoin",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Gnosis Chain Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Fiat-backed Stablecoin"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Hydrex Integral",
+   "Kraken"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "tGBP is the first and only British Pound pegged stablecoin issued by a UK FCA-registered firm. tGBP maintains a 1:1 peg to the British Pound Sterling through a robust, transparent backing mechanism designed for stability, redeemability, and regulatory compliance. tGBP is fully collateralised by fiat and short term zero coupon bonds issued by HM Treasury. tGBP facilitates on-chain sterling payments, programmable transactions, and exposure to GBP-linked Real World Assets (RWAs) like tokenised bonds.",
+  "dex": [
+   "Aerodrome Slipstream 2",
+   "Aerodrome Slipstream 3",
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+  "fetched": "2026-10-22T18:37:11.689578+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.tokenisedgbp.com",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/tokenGBP",
+  "twitter_followers": null,
+  "watchers": 342
+ },
  "tornado-cash": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4977,41 +5109,6 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 42
- },
- "tsuki": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Cat-Themed"
-  ],
-  "cex": [
-   "KCEX"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Solana native cat coin $TSUKI [Japanese Meaning: Moon \u6708] guides the way to the moon. It mirrors the moon's ethereal beauty and embodies profound growth, rooted deeply in Japanese culture.",
-  "dex": [
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/463SK47VkB7uE7XenTHKiVcMtxRsfNE2X4Q9wByaURVA",
-  "fetched": "2026-10-19T13:09:42.715388+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "http://tsukionsol.xyz",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/tsukionsol",
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 729
  },
  "unit-00-rei": {
   "categories": [
@@ -5113,7 +5210,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-10-20T14:13:49.901154+00:00",
+  "fetched": "2026-10-22T18:34:48.550910+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
@@ -5127,7 +5224,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TonUtyacoin",
   "twitter_followers": null,
-  "watchers": 1841
+  "watchers": 1842
  },
  "what-the-hook": {
   "categories": [
