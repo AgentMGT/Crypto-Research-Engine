@@ -54,6 +54,62 @@
   "twitter_followers": null,
   "watchers": 9345
  },
+ "aethir": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Impossible Finance Launchpad",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Animoca Brands Portfolio",
+   "Binance Alpha Spotlight"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "BYDFi",
+   "Biconomy.com",
+   "BigONE",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix"
+  ],
+  "cex_count": 48,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Aethir is the only Enterprise-grade AI-focused GPU-as-a-service provider in the market. It\u2019s a decentralized cloud computing infrastructure allows GPU providers (containers) to meet Enterprise clients who need powerful H100\u2019s chips for professional AI/ML tasks. \n\nAethir also support cloud gaming clients with their virtual computing phones and GPU's with contracts with the world\u2019s largest telecommunication company. Everything within Aethir ecosystem will be decentralized and community-owned.",
+  "dex": [
+   "Meteora DAMM V2",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Arbitrum)"
+  ],
+  "discord": "https://discord.com/invite/aethircloud",
+  "explorer": "https://etherscan.io/token/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
+  "fetched": "2026-10-23T00:42:48.297852+00:00",
+  "genesis": null,
+  "github": "https://github.com/AethirCloud",
+  "homepage": "https://www.aethir.com/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/aethir_cloud",
+  "telegram_users": null,
+  "twitter": "https://x.com/AethirCloud",
+  "twitter_followers": null,
+  "watchers": 42525
+ },
  "agoras-currency-of-tau": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1329,13 +1385,13 @@
    "BitKan",
    "Bitget",
    "Bithumb",
+   "Bitkub",
    "Bitrue",
    "Bittime",
    "Bitunix",
-   "BloFin",
-   "Bybit"
+   "BloFin"
   ],
-  "cex_count": 31,
+  "cex_count": 33,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1348,7 +1404,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-10-21T18:40:33.618978+00:00",
+  "fetched": "2026-10-23T00:42:45.036578+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1358,13 +1414,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/cookie_dao",
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33323
+  "watchers": 33320
  },
  "dacity-coin-2": {
   "categories": [
@@ -3571,6 +3627,65 @@
   "twitter": "https://x.com/OREsupply",
   "twitter_followers": null,
   "watchers": 5165
+ },
+ "osmosis": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Smart Contract Platform",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Automated Market Maker (AMM)",
+   "Cosmos Ecosystem",
+   "Osmosis Ecosystem",
+   "Paradigm Portfolio",
+   "Proof of Stake (PoS)",
+   "Evmos Ecosystem",
+   "Secret Ecosystem",
+   "GMCI DeFi Index",
+   "GMCI Index",
+   "Made in USA"
+  ],
+  "cex": [
+   "Binance",
+   "Bithumb",
+   "Bitkub",
+   "Bitvavo",
+   "BloFin",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 25,
+  "chat": "https://medium.com/osmosis",
+  "commits_4w": null,
+  "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.",
+  "dex": [
+   "BeeZee DEX"
+  ],
+  "discord": null,
+  "explorer": "https://www.mintscan.io/osmosis",
+  "fetched": "2026-10-23T00:42:51.507809+00:00",
+  "genesis": null,
+  "github": "https://github.com/osmosis-labs/osmosis",
+  "homepage": "https://osmosis.zone/",
+  "platforms": [
+   "cosmos",
+   "evmos",
+   "osmosis",
+   "secret"
+  ],
+  "reddit": null,
+  "sentiment_up": 88.89,
+  "stars": null,
+  "telegram": "https://t.me/osmosis_chat",
+  "telegram_users": null,
+  "twitter": "https://x.com/osmosis ",
+  "twitter_followers": null,
+  "watchers": 78955
  },
  "ovr": {
   "categories": [
