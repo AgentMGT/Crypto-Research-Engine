@@ -364,6 +364,13 @@
 "repo": "It-s-AI/llm-detection",
 "t": 1792755325.0666587
 },
+"komms-protocol/komms-docs": {
+"capped": false,
+"commits_30d": 2,
+"last_commit": "2026-10-23T01:17:43Z",
+"repo": "Komms-protocol/komms-docs",
+"t": 1792779531.26035
+},
 "kubetee-ai/kubetee-subnet": {
 "capped": false,
 "commits_30d": 20,
