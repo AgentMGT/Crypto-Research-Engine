@@ -36,7 +36,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-10-22T18:38:24.856553+00:00",
+  "fetched": "2026-10-23T23:11:01.556266+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -46,7 +46,7 @@
    "robinhood"
   ],
   "reddit": "https://www.reddit.com/r/AdEx",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+Oki8IRbVXVlmNTQ0",
   "telegram_users": null,
@@ -373,7 +373,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-  "fetched": "2026-10-22T01:51:53.561462+00:00",
+  "fetched": "2026-10-23T23:09:42.188590+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://prestocks.com/anthropic",
@@ -387,7 +387,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PreStocks",
   "twitter_followers": null,
-  "watchers": 344
+  "watchers": 345
  },
  "api3": {
   "categories": [
@@ -876,7 +876,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0x07EBB29a38Fbcb41563817e5E19f2ceC619C90D2",
-  "fetched": "2026-10-21T11:46:45.618517+00:00",
+  "fetched": "2026-10-23T23:07:22.548724+00:00",
   "genesis": null,
   "github": "https://github.com/UVLabs-AI",
   "homepage": "https://mosh.trade/",
@@ -890,7 +890,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BundleCatAI",
   "twitter_followers": null,
-  "watchers": 383
+  "watchers": 386
  },
  "cea-industries-bstocks-tokenized-stock": {
   "categories": [
@@ -1004,7 +1004,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-10-21T11:49:21.691360+00:00",
+  "fetched": "2026-10-23T23:10:58.313806+00:00",
   "genesis": null,
   "github": "https://github.com/rayonlabs/chutes",
   "homepage": "https://chutes.ai/",
@@ -1018,7 +1018,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
-  "watchers": 2099
+  "watchers": 2102
  },
  "circle-rstock-2": {
   "categories": [
@@ -1431,7 +1431,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
-  "fetched": "2026-10-22T00:46:25.942457+00:00",
+  "fetched": "2026-10-23T23:11:08.379517+00:00",
   "genesis": null,
   "github": "https://github.com/DimitraAgTech",
   "homepage": "https://dimitra.io",
@@ -1439,13 +1439,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/dimitraofficialgroup",
   "telegram_users": null,
   "twitter": "https://x.com/dimitratech",
   "twitter_followers": null,
-  "watchers": 13513
+  "watchers": 13514
  },
  "dowge": {
   "categories": [
@@ -2040,12 +2040,11 @@
   "dex": [
    "PancakeSwap (v2)",
    "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)",
    "Uniswap V4 (BSC)"
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-22T11:53:47.828595+00:00",
+  "fetched": "2026-10-23T23:08:35.682672+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2209,7 +2208,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
-  "fetched": "2026-10-22T01:57:25.467103+00:00",
+  "fetched": "2026-10-23T23:07:15.631132+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://slinkcoinrbh.lol/",
@@ -2217,13 +2216,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 88
+  "watchers": 91
  },
  "hims-hers-health-ondo-tokenized-stock": {
   "categories": [
@@ -2307,7 +2306,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-22T01:58:41.826789+00:00",
+  "fetched": "2026-10-23T23:08:32.442835+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2318,13 +2317,13 @@
    "sora"
   ],
   "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 60.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/iexec_rlc_official",
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35764
+  "watchers": 35763
  },
  "infinity-ground": {
   "categories": [
@@ -2356,7 +2355,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x9558a9254890B2A8B057a789F413631B9084f4a3",
-  "fetched": "2026-10-22T18:38:28.117298+00:00",
+  "fetched": "2026-10-23T23:09:45.375412+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.infinityg.ai/",
@@ -2364,7 +2363,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/InfinityGroundAnn",
   "telegram_users": null,
@@ -2953,10 +2952,11 @@
    "Base Native"
   ],
   "cex": [
+   "Aero Slipstream (Base)",
    "Coinbase Exchange",
    "LBank"
   ],
-  "cex_count": 2,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "Mamo turns what used to be complex into easy, human-first routines.\n\nIt works quietly in the background, finding smart opportunities for your money while you focus on what matters in your life. Think of Mamo as your knowledgeable friend who understands how to help your money grow and explain everything in plain language.\n\nBehind the scenes, Mamo applies proven strategies and real-time data to optimize your portfolio, reinvest earnings when conditions are right, and adapt to market shifts \u2014 all with your approval and full transparency.\n\nNo noise. No confusion. Just calm, steady growth.",
@@ -2967,7 +2967,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
-  "fetched": "2026-10-22T18:37:18.279223+00:00",
+  "fetched": "2026-10-23T23:09:51.779055+00:00",
   "genesis": null,
   "github": "https://github.com/moonwell-fi/mamo-contracts",
   "homepage": "https://mamo.bot",
@@ -2975,7 +2975,7 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/MamoAIbot",
   "telegram_users": null,
@@ -3231,7 +3231,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-10-22T18:37:15.031512+00:00",
+  "fetched": "2026-10-23T23:09:48.577316+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3239,13 +3239,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/nonkyc",
   "telegram_users": null,
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
-  "watchers": 687
+  "watchers": 689
  },
  "notcoin": {
   "categories": [
@@ -3386,7 +3386,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-22T18:36:05.056746+00:00",
+  "fetched": "2026-10-23T23:07:25.788810+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3395,13 +3395,13 @@
    "osmosis"
   ],
   "reddit": "https://www.reddit.com/r/nym",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/nymchan",
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30303
+  "watchers": 30305
  },
  "onlyagent": {
   "categories": [
@@ -3816,6 +3816,43 @@
   "twitter_followers": null,
   "watchers": 656
  },
+ "pwease": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "XT.COM"
+  ],
+  "cex_count": 1,
+  "chat": "https://youtube.com/@pweasememes",
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora",
+   "Raydium",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump",
+  "fetched": "2026-10-23T23:07:18.858547+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pweasetoken.com",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/pweaseman",
+  "telegram_users": null,
+  "twitter": "https://x.com/pweaseman",
+  "twitter_followers": null,
+  "watchers": 814
+ },
  "renzo": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4178,7 +4215,7 @@
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-10-22T18:36:08.399144+00:00",
+  "fetched": "2026-10-23T23:08:38.927104+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://silencio.network/",
@@ -4193,7 +4230,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/silencioNetwork",
   "twitter_followers": null,
-  "watchers": 4359
+  "watchers": 4362
  },
  "sofi-technologies-ondo-tokenized-stock": {
   "categories": [
@@ -4385,7 +4422,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-10-21T00:41:42.704319+00:00",
+  "fetched": "2026-10-23T23:11:11.584824+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -4399,7 +4436,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 76
+  "watchers": 77
  },
  "spacex-robinhood-tokenized-stock": {
   "categories": [
@@ -4910,6 +4947,79 @@
   "twitter_followers": null,
   "watchers": 19330
  },
+ "tsmc-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+  "fetched": "2026-10-23T23:11:05.122157+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.binance.com/bstocks-landing",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 42
+ },
+ "umia": {
+  "categories": [
+   "Smart Contract Platform",
+   "Launchpad",
+   "Zero Knowledge (ZK)",
+   "Base Ecosystem",
+   "Governance"
+  ],
+  "cex": [
+   "Matcha (Base)"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Umia is the onchain venture protocol. Founders apply to launch their token through Umia, raise funds in an open auction, and keep building while their tokenholders govern the project's treasury through decision markets.\n\nEvery project on Umia gets its own legal entity, holding the project's intellectual property, its team and its treasury. The funds it raises sit in an onchain treasury contract that the founding team cannot spend on its own. The team draws a monthly allowance, set at formation with recipient addresses and purpose limits, which pays out automatically for development and go-to-market; raising it is itself a decision the market has to approve.\n\nFundraising runs through a Tailored Auction, Umia's configuration of Uniswap's Continuous Clearing Auction (CCA): an onchain auction that discovers the token's price over a set window, with refundable bids. Parts of the sale can be reserved for a project's own community, with participants proving they qualify through zkTLS proofs generated in their browser by the Umia Extension, without revealing their identity, their accounts, or their data. Part of the proceeds automatically seeds a Uniswap v4 liquidity pool owned by the project's treasury.\n\nAnything beyond that allowance, a large one-off spend, a new commitment or a change in compensation, goes to a decision market, an open market that prices what each option would do for the project.\n\nUMIA is the token of the Umia protocol, an ERC-20 on Base. Holders direct the protoc",
+  "dex": [
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x56ab53b77F07DA3af732150E8aeC4783eB5BbA7D",
+  "fetched": "2026-10-23T23:09:55.010271+00:00",
+  "genesis": null,
+  "github": "https://github.com/umiafinance",
+  "homepage": "https://www.umia.finance",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/umia_finance",
+  "telegram_users": null,
+  "twitter": "https://x.com/umia_finance",
+  "twitter_followers": null,
+  "watchers": 221
+ },
  "unit-00-rei": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4920,9 +5030,10 @@
    "Base Native"
   ],
   "cex": [
+   "Aero Slipstream (Base)",
    "KCEX"
   ],
-  "cex_count": 1,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "0xReisearch is a dynamic collective of AI and crypto enthusiasts committed to revolutionizing the intersection of artificial intelligence and blockchain. Our mission is to pioneer innovative methods for integrating neural architectures into blockchain ecosystems, with a primary focus on the Ethereum Virtual Machine (EVM). By addressing the challenges of merging AI's complexity with blockchain's deterministic nature, we aim to unlock new possibilities for scalable, efficient, and impactful applications. Through cutting-edge research and development, we are redefining how intelligence and decentralization converge, shaping the future of the AI x Blockchain landscape.",
@@ -4935,7 +5046,7 @@
   ],
   "discord": "https://discord.com/invite/reilabs",
   "explorer": "https://basescan.org/token/0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
-  "fetched": "2026-10-22T11:52:41.357330+00:00",
+  "fetched": "2026-10-23T23:08:29.101592+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://reilabs.org/",
@@ -4949,7 +5060,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/rei_labs",
   "twitter_followers": null,
-  "watchers": 5192
+  "watchers": 5193
  },
  "uranium": {
   "categories": [
