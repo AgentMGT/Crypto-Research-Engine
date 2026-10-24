@@ -311,15 +311,15 @@
    "BVOX",
    "BigONE",
    "Binance",
-   "Binance US",
    "BitKan",
    "Bitget",
    "Bithumb",
    "Bitkub",
    "Bitlo",
-   "Bitrue"
+   "Bitrue",
+   "Bitunix"
   ],
-  "cex_count": 41,
+  "cex_count": 39,
   "chat": null,
   "commits_4w": null,
   "description": "Backed by Azuki, the premier Web3 anime brand, ANIME empowers one billion global fans to shape and own the future of anime culture. Anime fans are some of the most passionate and creative communities in the world, yet they have long been passive consumers. Animecoin transforms the anime ecosystem into a community-driven creative economy. This marks a new phenomenon called Anime 2.0, where creators and fans collaborate to shape the industry\u2019s evolution.",
@@ -331,7 +331,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x4dc26fc5854e7648a064a4abd590bbe71724c277",
-  "fetched": "2026-10-21T03:17:44.164322+00:00",
+  "fetched": "2026-10-24T00:43:36.921546+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.anime.xyz/",
@@ -346,7 +346,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/animecoin",
   "twitter_followers": null,
-  "watchers": 5349
+  "watchers": 5352
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -689,6 +689,7 @@
    "Base Meme"
   ],
   "cex": [
+   "Aero Slipstream (Base)",
    "Coinbase Exchange",
    "Hibt",
    "LBank",
@@ -697,7 +698,7 @@
    "Ourbit",
    "o1 Launchpad"
   ],
-  "cex_count": 7,
+  "cex_count": 8,
   "chat": null,
   "commits_4w": null,
   "description": "Bluechip on Base paired with tokenized NVDA stock",
@@ -707,7 +708,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
-  "fetched": "2026-10-22T01:48:08.327413+00:00",
+  "fetched": "2026-10-24T00:42:30.374092+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basebluechip.com/",
@@ -742,9 +743,10 @@
    "GroveX",
    "Kraken",
    "KuCoin",
-   "LATOKEN"
+   "LATOKEN",
+   "Osmosis"
   ],
-  "cex_count": 7,
+  "cex_count": 8,
   "chat": null,
   "commits_4w": null,
   "description": "At Bluzelle, we see technology as a powerful tool to solve humanity's most pressing challenges. As creators of a robust decentralized blockchain ecosystem\u2014including the Bluzelle Chain, BLZ token, and NFT marketplace Capella\u2014we are uniquely positioned to revolutionize how science is conducted, funded, and shared. Our DeSci (Decentralized Science) platform is designed to empower all scientific fields, fostering innovation across disciplines. ",
@@ -754,7 +756,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
-  "fetched": "2026-10-22T00:47:48.783022+00:00",
+  "fetched": "2026-10-24T00:43:40.188886+00:00",
   "genesis": "2018-01-15",
   "github": "https://github.com/njmurarka/bluzelle",
   "homepage": "https://bluzelle.com/",
@@ -891,6 +893,67 @@
   "twitter": "https://x.com/BundleCatAI",
   "twitter_followers": null,
   "watchers": 386
+ },
+ "carv": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Gaming (GameFi)",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Impossible Finance Launchpad",
+   "Ethereum Ecosystem",
+   "Animoca Brands Portfolio",
+   "Base Ecosystem",
+   "Binance Alpha Spotlight",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 20,
+  "chat": "https://medium.com/@Carv",
+  "commits_4w": null,
+  "description": "CARV is where Sovereign AI Beings live, learn, and evolve.\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\n\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV\u2019s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\n\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/carv",
+  "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+  "fetched": "2026-10-24T00:45:14.604161+00:00",
+  "genesis": null,
+  "github": "https://github.com/carv-protocol",
+  "homepage": "https://carv.io",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/carv_official",
+  "twitter_followers": null,
+  "watchers": 7479
  },
  "cea-industries-bstocks-tokenized-stock": {
   "categories": [
@@ -1348,6 +1411,55 @@
   "twitter": "https://x.com/TheDacityETH",
   "twitter_followers": null,
   "watchers": 1111
+ },
+ "deapcoin": {
+  "categories": [
+   "Entertainment",
+   "Gaming (GameFi)",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Play To Earn",
+   "Ethereum Ecosystem",
+   "Gaming Platform"
+  ],
+  "cex": [
+   "Gate",
+   "Indodax",
+   "Kanga Global",
+   "MEXC",
+   "OKJ"
+  ],
+  "cex_count": 5,
+  "chat": "https://t.me/DEAP001",
+  "commits_4w": null,
+  "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
+  "dex": [
+   "ApeSwap",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
+  "fetched": "2026-10-24T00:46:24.298025+00:00",
+  "genesis": null,
+  "github": "https://github.com/Digita-Entertainment-Asset/DEP",
+  "homepage": "https://dea.sg/",
+  "platforms": [
+   "avalanche",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/DEAPcoin_group",
+  "telegram_users": null,
+  "twitter": "https://x.com/PlayMining_SG",
+  "twitter_followers": null,
+  "watchers": 10314
  },
  "degen-base": {
   "categories": [
@@ -1913,7 +2025,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-22T23:47:56.501279+00:00",
+  "fetched": "2026-10-24T00:42:27.136866+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -1927,7 +2039,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/froggie_bsc0",
   "twitter_followers": null,
-  "watchers": 171
+  "watchers": 173
  },
  "funfair": {
   "categories": [
@@ -2118,7 +2230,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-10-22T18:34:45.276226+00:00",
+  "fetched": "2026-10-24T00:42:33.627737+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2415,6 +2527,63 @@
   "twitter_followers": null,
   "watchers": 277
  },
+ "ishares-silver-trust-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Ondo Tokenized Assets",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "Tokenized Commodity Exchange-Traded Products (ETPs)"
+  ],
+  "cex": [
+   "BingX",
+   "Gate",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Manifest",
+   "Ondo Stocks",
+   "Ourbit",
+   "Toobit",
+   "XT.COM"
+  ],
+  "cex_count": 10,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
+  "fetched": "2026-10-24T00:45:11.330989+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/slvon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 1125
+ },
  "ix-swap": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2444,7 +2613,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-22T23:48:03.658097+00:00",
+  "fetched": "2026-10-24T00:43:49.907308+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2454,13 +2623,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/ixsfinance",
   "telegram_users": null,
   "twitter": "https://x.com/IxsFinance",
   "twitter_followers": null,
-  "watchers": 11509
+  "watchers": 11511
  },
  "jean-phil": {
   "categories": [
@@ -2870,7 +3039,7 @@
    "Bitvavo",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 41,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -2884,7 +3053,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-22T23:49:19.854732+00:00",
+  "fetched": "2026-10-24T00:44:59.845739+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2894,13 +3063,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38912
+  "watchers": 38911
  },
  "magic-internet-money-runes": {
   "categories": [
@@ -3058,7 +3227,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-22T23:47:59.752405+00:00",
+  "fetched": "2026-10-24T00:43:46.696418+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3073,7 +3242,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31929
+  "watchers": 31931
  },
  "matrixdock-gold": {
   "categories": [
@@ -3158,7 +3327,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-22T23:49:10.218435+00:00",
+  "fetched": "2026-10-24T00:44:53.164314+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3172,7 +3341,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7939
+  "watchers": 7940
  },
  "ninja-squad": {
   "categories": [
@@ -3552,7 +3721,7 @@
    "Kraken",
    "KuCoin"
   ],
-  "cex_count": 25,
+  "cex_count": 24,
   "chat": "https://medium.com/osmosis",
   "commits_4w": null,
   "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.",
@@ -3561,7 +3730,7 @@
   ],
   "discord": null,
   "explorer": "https://www.mintscan.io/osmosis",
-  "fetched": "2026-10-23T00:42:51.507809+00:00",
+  "fetched": "2026-10-24T00:46:27.535107+00:00",
   "genesis": null,
   "github": "https://github.com/osmosis-labs/osmosis",
   "homepage": "https://osmosis.zone/",
@@ -3572,13 +3741,13 @@
    "secret"
   ],
   "reddit": null,
-  "sentiment_up": 88.89,
+  "sentiment_up": 85.71,
   "stars": null,
   "telegram": "https://t.me/osmosis_chat",
   "telegram_users": null,
   "twitter": "https://x.com/osmosis ",
   "twitter_followers": null,
-  "watchers": 78955
+  "watchers": 78960
  },
  "ovr": {
   "categories": [
@@ -3631,6 +3800,69 @@
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
   "watchers": 114926
+ },
+ "peaq-2": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Layer 1 (L1)",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "Outlier Ventures Portfolio",
+   "Binance Alpha Spotlight",
+   "Peaq Ecosystem",
+   "Robotics",
+   "x402 Ecosystem",
+   "CoinList Launchpad"
+  ],
+  "cex": [
+   "Bit2Me",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitvavo",
+   "CoinW",
+   "Coinone",
+   "Crypto.com Exchange",
+   "Gate",
+   "KCEX",
+   "Kraken"
+  ],
+  "cex_count": 16,
+  "chat": "https://www.peaq.xyz/community/blog",
+  "commits_4w": null,
+  "description": "peaq is the economic system enabling robots and machines to do business on every chain. It provides a neutral, omnichain coordination layer that gives machines, including robots, vehicles, devices, sensors, and AI agents, everything they need to become autonomous economic actors. This includes verifiable identities, wallets, portable reputation, tokenization, and cross-chain settlement guarantees. \n\npeaq is structured in three layers. The Machine Layer (peaqOS) onboards any machine as a composable economic actor. The Trust Layer provides coordination, validation, and economically secured reputation scores backed by staked capital. The Service Layer connects machines to external service markets through a permissionless adapter framework for discovery, scoring, and orchestration. \n\npeaq is chain-neutral by design, operating as the shared trust and coordination layer for machines across existing blockchains. A machine onboarded through peaq exists across all supported chains simultaneously, and any application on any chain can discover, verify, and transact with it. peaq enables Robot Money, any medium of exchange, measure of value, or means of payment that robots and machines use across any chain.",
+  "dex": [
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://peaq.subscan.io/system_token_detail?unique_id=PEAQ",
+  "fetched": "2026-10-24T00:44:56.588884+00:00",
+  "genesis": null,
+  "github": "https://github.com/peaqnetwork",
+  "homepage": "https://www.peaq.xyz/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "peaq"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/peaqcommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/peaq",
+  "twitter_followers": null,
+  "watchers": 25454
  },
  "pha": {
   "categories": [
@@ -4294,7 +4526,7 @@
   ],
   "discord": "https://discord.gg/soilfarm",
   "explorer": "https://polygonscan.com/token/0x43c73b90e0c2a355784dcf0da12f477729b31e77",
-  "fetched": "2026-10-22T23:50:29.747803+00:00",
+  "fetched": "2026-10-24T00:46:21.052744+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://soil.co/",
@@ -4303,7 +4535,7 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/soilfarm",
   "telegram_users": null,
@@ -4814,45 +5046,6 @@
   "twitter_followers": null,
   "watchers": 376
  },
- "the-stonks-exchange": {
-  "categories": [
-   "Meme",
-   "Base Ecosystem",
-   "Base Meme"
-  ],
-  "cex": [
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Matcha (Base)"
-  ],
-  "cex_count": 4,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The first launchpad enabling launched paired with real coinbase tokenized stocks only, no other issuers.",
-  "dex": [
-   "Aerodrome (Base)",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
-  "fetched": "2026-10-21T00:40:29.478980+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.thestonks.exchange/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/Stonks_Exchange",
-  "telegram_users": null,
-  "twitter": "https://x.com/Stonks_Exchange",
-  "twitter_followers": null,
-  "watchers": 351
- },
  "tokenised-gbp": {
   "categories": [
    "Stablecoins",
@@ -5273,7 +5466,7 @@
   ],
   "discord": "https://discord.com/invite/Qg54MMMmjG",
   "explorer": "https://basescan.org/token/0x3e31966d4f81C72D2a55310A6365A56A4393E98D",
-  "fetched": "2026-10-21T00:41:45.965599+00:00",
+  "fetched": "2026-10-24T00:45:17.805327+00:00",
   "genesis": null,
   "github": "https://github.com/worldmobilegroup",
   "homepage": "https://worldmobile.io",
@@ -5290,7 +5483,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/wmchain",
   "twitter_followers": null,
-  "watchers": 18158
+  "watchers": 18157
  },
  "wormhole": {
   "categories": [
@@ -5333,7 +5526,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-10-22T23:50:26.388024+00:00",
+  "fetched": "2026-10-24T00:43:43.493235+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5350,7 +5543,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43536
+  "watchers": 43531
  },
  "xyo-network": {
   "categories": [
