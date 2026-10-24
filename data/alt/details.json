@@ -682,6 +682,37 @@
   "twitter_followers": null,
   "watchers": 30422
  },
+ "binance-super-cz-2": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Binance Super CZ (BSC) is a community-driven meme token built on BNB Chain, inspired by the superhero concept of CZ and the recognizable black-and-gold identity of the Binance ecosystem. The project aims to bring cryptocurrency enthusiasts together through humor, creativity, entertainment, and community participation. Binance Super CZ represents a digital superhero character that symbolizes unity, confidence, and the spirit of decentralized communities. Rather than focusing on complex financial products, BSC emphasizes accessibility, social engagement, and creating an enjoyable environment where crypto enthusiasts can connect, share ideas, and grow a global meme community.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xE55296ff1ccF6f6136CF00e552E46eF69e30a3e2#transactions",
+  "fetched": "2026-10-24T10:56:58.336655+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "http://www.supercz.lol",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/superczonx",
+  "twitter_followers": null,
+  "watchers": 16
+ },
  "blue-chip-4": {
   "categories": [
    "Meme",
@@ -1195,6 +1226,59 @@
   "twitter_followers": null,
   "watchers": 264
  },
+ "clearpool": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "DaoMaker Launchpad",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Sequoia Capital Portfolio",
+   "Binance Alpha Spotlight",
+   "Made in USA"
+  ],
+  "cex": [
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bittime",
+   "Bitvavo",
+   "Bybit",
+   "DigiFinex",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "LATOKEN",
+   "MEXC"
+  ],
+  "cex_count": 16,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Clearpool is a decentralized capital markets ecosystem, where institutional borrowers can access unsecured loans directly from the DeFi ecosystem. Clearpool introduces a dynamic interest model driven by market supply and demand forces.\n\nLiquidity providers on Clearpool can earn attractive yields, with pool interest rates enhanced by additional LP rewards paid in CPOOL - Clearpool's utility and governance token.\n\nClearpool LP tokens, called cpTokens, are the building blocks for a system of tokenized credit that will provide Clearpool LPs with risk management and hedging capabilities.\n\nAs more institutions begin to realize the benefits that decentralized finance can bring to their organizations, Clearpool will provide the new architecture to facilitate flows between the $120 trillion traditional capital markets, and the burgeoning DeFi ecosystem.\n\nThe CPOOL Token\n\n- CPOOL is the utility and governance token for the Clearpool protocol.\n- CPOOL holders will vote on the whitelisting of new borrowers, a process that will qualify participants to earn additional CPOOL through an incentive reward scheme.\n- Eventually, a full system of decentralized governance will be introduced, allowing CPOOL holders to propose, vote and implement future changes and upgrades to the protocol.\n- CPOOL staking will be a required action for borrowers, who must stake an amount of CPOOL to access the area of the protocol where they can make a proposal to be whitelisted.\nLiquidity providers earn additional ",
+  "dex": [
+   "Raydium (CLMM)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+  "fetched": "2026-10-24T10:58:11.321539+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://clearpool.finance/",
+  "platforms": [
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 66.67,
+  "stars": null,
+  "telegram": "https://t.me/clearpoolofficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/ClearpoolFin",
+  "twitter_followers": null,
+  "watchers": 39183
+ },
  "codec-flow": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1235,52 +1319,6 @@
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
   "watchers": 1706
- },
- "constitutiondao": {
-  "categories": [
-   "Meme",
-   "Ethereum Ecosystem",
-   "PolitiFi"
-  ],
-  "cex": [
-   "BTCC",
-   "BVOX",
-   "Biconomy.com",
-   "BigONE",
-   "Binance",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bitkub",
-   "Bitrue",
-   "Bittime",
-   "Bitunix"
-  ],
-  "cex_count": 41,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
-  "fetched": "2026-10-21T03:16:40.863382+00:00",
-  "genesis": null,
-  "github": "https://github.com/ConstitutionDAO",
-  "homepage": "https://www.constitutiondao.com/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/constitutiondao",
-  "twitter_followers": null,
-  "watchers": 19300
  },
  "cookie": {
   "categories": [
@@ -1396,7 +1434,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x54ce4b27caabba24926865f035d432dbde2901f7",
-  "fetched": "2026-10-22T23:47:53.289790+00:00",
+  "fetched": "2026-10-24T10:57:07.995606+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://thedacityeth.site",
@@ -1404,13 +1442,48 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 55.56,
   "stars": null,
   "telegram": "https://t.me/TheDacityETH",
   "telegram_users": null,
   "twitter": "https://x.com/TheDacityETH",
   "twitter_followers": null,
-  "watchers": 1111
+  "watchers": 1289
+ },
+ "darkwoods": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "AI Applications",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Ramses V3 (Robinhood)"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The private AI lab on Robinhood. Darkwoods pioneers the future of decentralised, censorship resistant, private AI. Powerful open weight models in a fully private environment with tailored agent tools.",
+  "dex": [
+   "Pons V2 Dex",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://robinhoodchain.blockscout.com/token/0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
+  "fetched": "2026-10-24T10:58:14.471639+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://darkwoods.ai",
+  "platforms": [
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/darkwoodslabs",
+  "twitter_followers": null,
+  "watchers": 87
  },
  "deapcoin": {
   "categories": [
@@ -1485,9 +1558,9 @@
    "CoinUp.io",
    "CoinW",
    "Coinbase Exchange",
-   "Crypto.com Exchange"
+   "Deepcoin"
   ],
-  "cex_count": 32,
+  "cex_count": 31,
   "chat": null,
   "commits_4w": null,
   "description": "DEGEN is more than a token. It's the economy behind a culture.\n\nBorn from a community and shaped by the people who participate in it, DEGEN has evolved into an ecosystem of products, communities, and onchain experiences. From opinion markets and digital identity to NFTs and future applications, the DEGEN token connects every part of the ecosystem through a shared economy.\n\nAs the ecosystem grows, every new product strengthens the network, giving the token utility beyond any single application",
@@ -1501,7 +1574,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-  "fetched": "2026-10-22T00:45:12.833875+00:00",
+  "fetched": "2026-10-24T10:57:01.559764+00:00",
   "genesis": null,
   "github": "https://github.com/jacek0x",
   "homepage": "https://www.degen.tips/",
@@ -1518,7 +1591,47 @@
   "telegram_users": null,
   "twitter": "https://x.com/degentokenbase",
   "twitter_followers": null,
-  "watchers": 37918
+  "watchers": 37912
+ },
+ "diem": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "Base Native",
+   "Venice Ecosystem"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Coinbase Exchange"
+  ],
+  "cex_count": 2,
+  "chat": "https://www.youtube.com/@askvenice",
+  "commits_4w": null,
+  "description": "DIEM transforms AI compute from a service you rent into an onchain asset you own: tokenized intelligence. Each Diem token represents $1 per day of Venice API capacity that never expires and never changes value. \nDIEM are ERC20 tokens on Base and can be transferred, traded, and staked. DIEM can only be minted by locking staked VVV (sVVV), making DIEM and VVV a foundational assets for onchain AI.\nTokenizing intelligence with DIEM creates new possibilities:\n\nDevelopers/agents: 1 DIEM = $1/day Venice API access, forever\nVVV holders: Monetize unused compute as DIEM \u2192 earn yield \u2192 buy back later to unlock VVV\nApps: Fixed AI costs, guaranteed capacity, no variable API bills\nOnchain economy: Agents own their intelligence, DeFi collateralizes compute\n\nMinting DIEM with VVV creates a brand-new onchain building block for AI \u2013 programmable, composable compute\n",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 3",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0xf4d97f2da56e8c3098f3a8d538db630a2606a024",
+  "fetched": "2026-10-24T10:59:20.911982+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://venice.ai",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AskVenice",
+  "twitter_followers": null,
+  "watchers": 1408
  },
  "dimitra": {
   "categories": [
@@ -1716,58 +1829,6 @@
   "twitter": "https://x.com/edgenetwork",
   "twitter_followers": null,
   "watchers": 3633
- },
- "edu-coin": {
-  "categories": [
-   "Education",
-   "BNB Chain Ecosystem",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "Binance Launchpad",
-   "YZi Labs (Prev. Binance Labs) Portfolio"
-  ],
-  "cex": [
-   "BTCC",
-   "Binance",
-   "BitDelta",
-   "Bithumb",
-   "Bitlo",
-   "Bittime",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "CoinTR",
-   "CoinW",
-   "Coinone"
-  ],
-  "cex_count": 29,
-  "chat": "https://opencampus-xyz.medium.com/",
-  "commits_4w": null,
-  "description": "Open Campus is a community-led protocol building the financial and credentialing rails for global education. We enable educators, learners, and institutions to issue verifiable credentials, access on-chain education finance (EduFi), and build consumer-facing education applications on a shared, open infrastructure.\n\nCore contributors to the Open Campus DAO include Animoca Brands, TinyTap, NewCampus, RiseIn, and HackQuest. Together, they are working with Open Campus to enhance the education system for teachers, learners, and institutions by using innovative blockchain protocols and funding initiatives.",
-  "dex": [
-   "Camelot V3",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xbdeae1ca48894a1759a8374d63925f21f2ee2639",
-  "fetched": "2026-10-21T03:20:16.486359+00:00",
-  "genesis": null,
-  "github": "https://github.com/opencampus-xyz/",
-  "homepage": "https://www.opencampus.xyz/",
-  "platforms": [
-   "arbitrum-one",
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/opencampus_xyz",
-  "twitter_followers": null,
-  "watchers": 38067
  },
  "egl1": {
   "categories": [
@@ -2482,50 +2543,6 @@
   "twitter": "https://x.com/infinityg_ai",
   "twitter_followers": null,
   "watchers": 948
- },
- "intel-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "HyperEVM Ecosystem",
-   "Ondo Tokenized Assets"
-  ],
-  "cex": [
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Native Core",
-   "Ondo Stocks"
-  ],
-  "cex_count": 5,
-  "chat": null,
-  "commits_4w": null,
-  "description": "INTCon is the Ondo Tokenized version of Intel, giving tokenholders economic exposure similar to holding INTC and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://etherscan.io/address/0xFdA09936DbD717368De0835bA441d9E62069d36f",
-  "fetched": "2026-10-21T00:42:55.809330+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/assets/intcon",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "hyperevm",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 277
  },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
@@ -3302,6 +3319,38 @@
   "twitter_followers": null,
   "watchers": 912
  },
+ "moolah": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "$Moolah is a meme token inspired by the mascot of ListaDAO, a decentralized finance (DeFi) protocol. Launched on the Flap.sh platform, $Moolah has garnered attention due to its official authorization from ListaDAO and its strategic positioning within the DeFi and meme coin ecosystems.                                      $Moolah\u2019s official authorization by ListaDAO sets it apart from many other meme coins, which often lack formal endorsements. According to posts on X, ListaDAO has actively promoted $Moolah, with mentions of its mascot status and interactions with the token\u2019s official account (@Moolah_bsc\n). This backing suggests a strategic alignment with ListaDAO\u2019s broader goals, potentially positioning $Moolah as a \u201cblue-chip\u201d meme coin within the ecosystem. Additionally, Flap.sh and even Binance Chain have shown support through social media engagement, hinting at broader institutional interest.\n\n",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
+  "fetched": "2026-10-24T10:57:04.753733+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://moolahbnb.com",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/moolah_cto",
+  "telegram_users": null,
+  "twitter": "https://x.com/Moolah_bsc",
+  "twitter_followers": null,
+  "watchers": 264
+ },
  "natix-network": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3653,42 +3702,74 @@
   "twitter_followers": null,
   "watchers": 2235
  },
- "ore": {
+ "orderly-network": {
   "categories": [
+   "Smart Contract Platform",
    "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Perpetuals",
    "Solana Ecosystem",
-   "Mobile Mining"
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Layer 2 (L2)",
+   "Base Ecosystem",
+   "DragonFly Capital Portfolio",
+   "Pantera Capital Portfolio",
+   "Sequoia Capital Portfolio",
+   "OKX Ventures Portfolio",
+   "Optimism Superchain Ecosystem",
+   "Binance Alpha Spotlight",
+   "Abstract Ecosystem",
+   "Base Native"
   ],
   "cex": [
-   "LBank"
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "BloFin",
+   "Bybit",
+   "CoinW",
+   "Coinone"
   ],
-  "cex_count": 1,
-  "chat": null,
+  "cex_count": 25,
+  "chat": "https://medium.com/@orderlynetwork",
   "commits_4w": null,
-  "description": "ORE is future-proof electronic cash. ORE exists to advance the original vision for crypto, identified by Satoshi Nakamoto: creating digital money that cannot be debased or controlled by centralized authorities. \n\nBitcoin solved the double-spend problem. Solana solved scalability at the Layer 1 level. Modern wallets improved self-custody user experience. ORE solved the Proof-of-Work value leak.\n\nBuilt on Solana, ORE inherits the network's scalability, composability, and future upgrades, including privacy enhancements, without requiring the tradeoffs traditionally associated with securing blockchain consensus. For these reasons, we describe ORE (after Bitcoin: \"Peer-to-peer electronic cash\") as:\n- ORE, the asset, is a future-proof electronic cash system.\n- ORE, the protocol, is a future-proof electronic cash system on Solana.\n\nORE is named after Nicholas Oresme, the 14th-century philosopher and economist who argued that money should belong to the people who use it rather than rulers who debase it. That philosophy serves as the foundation for the protocol: in many ways, ORE is the continuation of a centuries-old idea \u2014 that monetary systems are strongest when they are governed by rules rather than rulers.",
+  "description": "Orderly Network is a L2 built on OP stack delivering a permissionless liquidity layer for Web3 trading, with one shared orderbook across different blockchains \u2014 powered by Orderly Chain and LayerZero. Our mission is to empower trading on any chain, any asset, any interface. Orderly offers spot and perpetual futures orderbooks trading across Arbitrum, Optimism, Polygon, Base ,Mantle and Near, while expanding to other blockchains.",
   "dex": [
-   "Meteora",
-   "Meteora DAMM V2",
-   "Orca",
-   "Raydium"
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (Arbitrum)",
+   "PancakeSwap V3 (BSC)",
+   "PancakeSwap V3 (Ethereum)",
+   "Raydium (CLMM)"
   ],
-  "discord": "https://discord.gg/bSKU7TdtcY",
-  "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-  "fetched": "2026-10-21T03:19:09.968361+00:00",
+  "discord": "https://discord.com/invite/orderlynetwork",
+  "explorer": "https://etherscan.io/token/0xabd4c63d2616a5201454168269031355f4764337",
+  "fetched": "2026-10-24T10:59:30.453453+00:00",
   "genesis": null,
-  "github": "https://github.com/regolith-labs/ore",
-  "homepage": "https://ore.supply/",
+  "github": "https://github.com/OrderlyNetwork",
+  "homepage": "https://orderly.network/",
   "platforms": [
-   "solana"
+   "abstract",
+   "arbitrum-one",
+   "avalanche",
+   "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 60.0,
   "stars": null,
-  "telegram": null,
+  "telegram": "https://t.me/OrderlyNetworkAnnouncements",
   "telegram_users": null,
-  "twitter": "https://x.com/OREsupply",
+  "twitter": null,
   "twitter_followers": null,
-  "watchers": 5165
+  "watchers": 12162
  },
  "osmosis": {
   "categories": [
@@ -3800,6 +3881,53 @@
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
   "watchers": 114926
+ },
+ "peapods-finance": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Berachain Ecosystem",
+   "Mode Ecosystem",
+   "Sonic Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Shadow Exchange"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Real Yield. Credit. Leverage. Liquidity. Peapods Finance is a permissionless DeFi protocol that allows any ERC-20 asset to serve as the foundation for its own self-sustaining financial system. Each system centers around generating sustainable yield from market volatility, a concept innovated by Peapods and termed \u2018Volatility Farming\u2019. \n\nThe protocol enables the creation of vaults, referred to as \u2018Pods\u2019, which provide depositors of an asset (TKN) with a synthetic wrapped ERC-20 version of it (pTKN) that is tradable on DEXes. This allows for third-party arbitrage to occur that is taxed by the protocol and funds all yield streaming through the system.\n\nThe continuous yield flow delivered by Pods is further structured by integrated lending markets to accommodate different investor profiles. Every Pod natively allows for single-side leveraged LPing, credit, and leverage \u2013 on any token. For projects, this enables free or even yield-generating liquidity by just depositing their native token. No other capital is needed.\n\nPods unlock all this through various internal protocol mechanics, including Volatility Farming, Leveraged Volatility Farming (LVF), isolated lending markets, Metavaults, and governance. These primitives work in concert to create an integrated financial system for each Pod, 100% incentivized by sustainable volatility yield, without relying on inflationary emissions.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Camelot V3",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
+  "fetched": "2026-10-24T10:59:24.098365+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://peapods.finance",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "berachain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/PeapodsFinance",
+  "telegram_users": null,
+  "twitter": "https://x.com/PeapodsFinance",
+  "twitter_followers": null,
+  "watchers": 4248
  },
  "peaq-2": {
   "categories": [
@@ -3923,55 +4051,6 @@
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
   "watchers": 56784
- },
- "propy": {
-  "categories": [
-   "Tokenized Real Estate",
-   "Tokenized Assets",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Base Ecosystem",
-   "Made in USA",
-   "Base Native"
-  ],
-  "cex": [
-   "Bitrue",
-   "Bitunix",
-   "CoinUp.io",
-   "Coinbase Exchange",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin",
-   "MEXC"
-  ],
-  "cex_count": 9,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Propy is a decentralized real-estate market place backed by superior blockchain infrastructure to facilitate real-time unified transaction in order to reduce fraud and redundancy. Propy is the world\u2019s first international real-estate marketplace.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "Uniswap V3 (Base)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-10-21T03:20:19.721520+00:00",
-  "genesis": "2017-07-18",
-  "github": "https://github.com/Propy/ethereum",
-  "homepage": "https://propy.com",
-  "platforms": [
-   "base",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/propy",
-  "telegram_users": null,
-  "twitter": "https://x.com/PropyInc",
-  "twitter_followers": null,
-  "watchers": 23079
  },
  "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
   "categories": [
@@ -4888,6 +4967,62 @@
   "twitter_followers": null,
   "watchers": 50
  },
+ "subsquid": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Big Data",
+   "Analytics",
+   "BNB Chain Ecosystem",
+   "Arbitrum Ecosystem",
+   "Base Ecosystem",
+   "CoinList Launchpad",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bybit",
+   "CoinUp.io",
+   "Coinbase Exchange",
+   "Gate",
+   "HTX",
+   "KCEX",
+   "KuCoin",
+   "MEXC",
+   "Mudrex"
+  ],
+  "cex_count": 15,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Subsquid Network is an innovative decentralized data lake and query engine designed to offer developers performant and permissionless access to data, aiming to build a neutral and open internet rooted in Web3 principles. Secured by ZK proofs, the Subsquid network boasts a modular architecture that enables exceptional scalability and developer convenience optimized for blockchain indexing, dApp development, and analytics.\n\nSubsquid is a response to unscalable and rigid monolithic indexing frameworks that had previously gained popularity and market traction among Web3 developers. Today, these frameworks are struggling to adapt in a rapidly evolving blockchain environment. Additionally, the network serves as a highly efficient and decentralized alternative to centralized infrastructure firms, including large RPC and API providers.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 3",
+   "PancakeSwap V3 (Arbitrum)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
+  "fetched": "2026-10-24T10:58:17.662220+00:00",
+  "genesis": null,
+  "github": "https://github.com/subsquid",
+  "homepage": "https://sqd.dev",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/subsquid",
+  "telegram_users": null,
+  "twitter": "https://x.com/hellosqd",
+  "twitter_followers": null,
+  "watchers": 5085
+ },
  "super-inu-2": {
   "categories": [
    "Solana Ecosystem",
@@ -5673,7 +5808,7 @@
   ],
   "discord": "https://discord.com/invite/fJM9cHuvvB",
   "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-  "fetched": "2026-10-22T11:55:01.156192+00:00",
+  "fetched": "2026-10-24T10:59:27.294969+00:00",
   "genesis": null,
   "github": "https://github.com/Zebec-protocol",
   "homepage": "https://zebec.io/",
@@ -5681,13 +5816,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 83.33,
   "stars": null,
   "telegram": "https://t.me/zebecprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/Zebec_HQ",
   "twitter_followers": null,
-  "watchers": 21404
+  "watchers": 21414
  },
  "zentry": {
   "categories": [
