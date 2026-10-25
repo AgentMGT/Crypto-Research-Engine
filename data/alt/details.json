@@ -473,7 +473,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-23T18:24:25.761994+00:00",
+  "fetched": "2026-10-25T11:27:08.674311+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -481,13 +481,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/arcblock/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/ArcBlock",
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11079
+  "watchers": 11078
  },
  "audius": {
   "categories": [
@@ -546,6 +546,48 @@
   "twitter_followers": null,
   "watchers": 74962
  },
+ "aura-final-boss-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Celebrity-Themed",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "Hadron",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Manifest"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+  "fetched": "2026-10-25T11:24:39.593913+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pump.fun/coin/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 44
+ },
  "aurora-near": {
   "categories": [
    "Near Protocol Ecosystem",
@@ -579,7 +621,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-23T18:25:45.215541+00:00",
+  "fetched": "2026-10-25T11:28:21.687821+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -595,7 +637,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23717
+  "watchers": 23712
  },
  "basecat": {
   "categories": [
@@ -1039,58 +1081,6 @@
   "twitter_followers": null,
   "watchers": 60
  },
- "chex-token": {
-  "categories": [
-   "Decentralized Exchange (DEX)",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Base Ecosystem",
-   "RWA Protocol",
-   "Base Native"
-  ],
-  "cex": [
-   "Bitunix",
-   "Gate",
-   "Kraken",
-   "MEXC"
-  ],
-  "cex_count": 4,
-  "chat": "https://www.linkedin.com/company/chintai-eos/",
-  "commits_4w": null,
-  "description": "Chintai: The Licensed Tokenization Platform for Financial Institutions\nChintai is a fully licensed and regulated tokenization platform tailored specifically for financial institutions. Harnessing the power of the $CHEX token, Chintai provides an end-to-end, compliant white-label solution for seamlessly tokenizing a diverse range of real-world assets (RWAs) on its custom-built, permissioned Layer 1 blockchain. The $CHEX Token: The Backbone of Chintai's Ecosystem\n$CHEX is the native utility token of the Chintai network, driving liquidity incentives and resource management. Fully distributed and inherently deflationary, $CHEX features flywheel tokenomics, becoming increasingly scarce as the demand for Chintai's platform grows. The key attributes here are: fully distributed, flywheel tokenomics, scarcity &amp; real utility. The token is multi-chain, available on Ethereum, Solana, EOS, Binance Smart Chain, and, of course, the Chintai Network.",
-  "dex": [
-   "Aerodrome (Base)",
-   "Orca",
-   "Raydium (CLMM)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Base)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x9ce84f6a69986a83d92c324df10bc8e64771030f",
-  "fetched": "2026-10-22T00:47:39.001271+00:00",
-  "genesis": null,
-  "github": "https://github.com/chintai-platform/chexchexchex",
-  "homepage": "https://chintai.io/",
-  "platforms": [
-   "base",
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": "https://www.reddit.com/r/chintai/",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/chex_token",
-  "telegram_users": null,
-  "twitter": "https://x.com/ChintaiNexus",
-  "twitter_followers": null,
-  "watchers": 19124
- },
  "chutes": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1162,42 +1152,6 @@
   "twitter_followers": null,
   "watchers": 123
  },
- "clawpump-tech": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem",
-   "AI Agent Launchpad",
-   "Pump Fund Portfolio"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The official token from the clawpump.tech agentic gateway to Solana. Clawpump is a gasless. ClawPump enables AI agents to launch tokens on pump.fun without paying gas fees, solving the coldstart problems for agents entering Solana. The platform sponsors token creation, collects trading fees hourly, and distributes 65% of all revenue directly to agents.  Clawpump enables launches via SOL or USDC (x402 protocol), multiDEX arbitrage, and social skills for agents.",
-  "dex": [
-   "Meteora",
-   "Meteora DAMM V2",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
-  "fetched": "2026-10-22T01:48:14.764600+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.clawpump.tech",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/clawpumptech",
-  "twitter_followers": null,
-  "watchers": 264
- },
  "clearpool": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -1250,47 +1204,6 @@
   "twitter": "https://x.com/ClearpoolFin",
   "twitter_followers": null,
   "watchers": 39183
- },
- "codec-flow": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem",
-   "Peaq Ecosystem",
-   "Robotics",
-   "x402 Ecosystem"
-  ],
-  "cex": [
-   "MachineX",
-   "XT.COM"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "CodecFlow is the first Operator platform built on Vision-Language Actions (VLAs), enabling AI to see, reason, and act across screens or robotic systems. \nIt includes Fabric, a multi-cloud execution layer for GPU-intensive or compute-heavy workloads. Fabric optimizes workload placement by sampling live capacity and pricing across connected providers and selecting the lowest-cost node that meets specified requirements.\n\nCodecFlow also developed Operator Kit (optr), a lightweight toolkit for building agents that operate on desktops, browsers, simulations, and robots. Optr provides composable utilities for managing actions, state, episodes, and safety, with a modular design that keeps other components pluggable. \n\nTogether, these components form a framework that supports the development and deployment of agents across diverse digital and physical environments",
-  "dex": [
-   "Meteora",
-   "PumpSwap",
-   "Raydium"
-  ],
-  "discord": "https://discord.gg/4Vu2CPepng",
-  "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-22T00:46:29.162770+00:00",
-  "genesis": null,
-  "github": "https://github.com/codecflow",
-  "homepage": "https://codecflow.ai/",
-  "platforms": [
-   "peaq",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/codecflow",
-  "telegram_users": null,
-  "twitter": "https://x.com/Codecopenflow",
-  "twitter_followers": null,
-  "watchers": 1706
  },
  "cookie": {
   "categories": [
@@ -1441,7 +1354,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
-  "fetched": "2026-10-24T10:58:14.471639+00:00",
+  "fetched": "2026-10-25T11:28:28.045206+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://darkwoods.ai",
@@ -1455,7 +1368,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/darkwoodslabs",
   "twitter_followers": null,
-  "watchers": 87
+  "watchers": 93
  },
  "deapcoin": {
   "categories": [
@@ -1930,7 +1843,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-10-23T11:41:44.784015+00:00",
+  "fetched": "2026-10-25T11:25:58.698061+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -1944,7 +1857,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8576
+  "watchers": 8577
  },
  "forta": {
   "categories": [
@@ -2021,7 +1934,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-24T00:42:27.136866+00:00",
+  "fetched": "2026-10-25T11:24:36.416557+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -2035,54 +1948,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/froggie_bsc0",
   "twitter_followers": null,
-  "watchers": 173
- },
- "funfair": {
-  "categories": [
-   "Gambling (GambleFi)",
-   "Ethereum Ecosystem",
-   "Pantera Capital Portfolio",
-   "Energi Ecosystem"
-  ],
-  "cex": [
-   "BTSE",
-   "BitBNS",
-   "Bitrue",
-   "Gate",
-   "HTX",
-   "Indodax",
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Ourbit"
-  ],
-  "cex_count": 10,
-  "chat": "https://medium.com/@FUNtoken",
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap V3 (Ethereum)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/e7vfgKbEKU",
-  "explorer": "https://etherscan.io/token/0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
-  "fetched": "2026-10-22T01:58:45.100889+00:00",
-  "genesis": "2017-06-23",
-  "github": "https://github.com/funtoken/funtoken.github.io",
-  "homepage": "https://funtoken.io/",
-  "platforms": [
-   "energi",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/FUN_Token",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/officialFUNToken",
-  "telegram_users": null,
-  "twitter": "https://x.com/FUNtoken_io",
-  "twitter_followers": null,
-  "watchers": 22493
+  "watchers": 175
  },
  "gamercoin": {
   "categories": [
@@ -2152,7 +2018,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-23T23:08:35.682672+00:00",
+  "fetched": "2026-10-25T11:29:31.230700+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2166,7 +2032,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 43
+  "watchers": 44
  },
  "georgeplaysclashroyale": {
   "categories": [
@@ -2365,7 +2231,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 35,
+  "cex_count": 36,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2376,7 +2242,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-23T23:08:32.442835+00:00",
+  "fetched": "2026-10-25T11:27:15.333248+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2387,13 +2253,13 @@
    "sora"
   ],
   "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/iexec_rlc_official",
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35763
+  "watchers": 35768
  },
  "infinity-ground": {
   "categories": [
@@ -2527,7 +2393,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-  "fetched": "2026-10-24T00:43:49.907308+00:00",
+  "fetched": "2026-10-25T11:27:11.905164+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.ixs.finance/",
@@ -2624,6 +2490,49 @@
   "twitter_followers": null,
   "watchers": 648
  },
+ "keep-network": {
+  "categories": [
+   "Smart Contract Platform",
+   "Decentralized Finance (DeFi)",
+   "Harmony Ecosystem",
+   "Ethereum Ecosystem",
+   "Paradigm Portfolio",
+   "Multicoin Capital Portfolio",
+   "Andreessen Horowitz (a16z) Portfolio",
+   "Energi Ecosystem",
+   "Privacy Infrastructure",
+   "Privacy"
+  ],
+  "cex": [
+   "Kraken"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "A keep is an off-chain container for private data. Keeps help contracts harness the full power of the public blockchain \u2014 enabling deep interactivity with private data.\n\nKeep Network aims to provide an off-chain \u201ccontainers\u201d\u200a\u2014\u200acalled keeps\u200a\u2014\u200athat should keep private data safe from the public blockchain, thereby enabling smart contracts to maximize the full potential of blockchain tech without compromising on transparency or privacy. Keeps will be used to encrypt and store private data, and the keeps are to be protected by secure multi-party computation (sMPC) that allows generating, storing, encrypting and transmitting of data among different users.",
+  "dex": [
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discordapp.com/invite/wYezN7v",
+  "explorer": "https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
+  "fetched": "2026-10-25T11:27:05.239693+00:00",
+  "genesis": null,
+  "github": "https://github.com/keep-network/keep-core",
+  "homepage": "https://keep.network/",
+  "platforms": [
+   "energi",
+   "ethereum",
+   "harmony-shard-0"
+  ],
+  "reddit": "https://www.reddit.com/r/KeepNetwork",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/KeepNetworkOfficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/keep_project",
+  "twitter_followers": null,
+  "watchers": 18128
+ },
  "kryll": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2717,46 +2626,6 @@
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
   "watchers": 3598
- },
- "lcx": {
-  "categories": [
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "Centralized Exchange (CEX) Token",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Alleged SEC Securities",
-   "Dex Aggregator"
-  ],
-  "cex": [
-   "Coinbase Exchange",
-   "Kraken",
-   "Matcha (Ethereum)"
-  ],
-  "cex_count": 3,
-  "chat": "https://www.instagram.com/lcx.exchange/",
-  "commits_4w": null,
-  "description": "LCX.com is a platform that innovates capital markets by providing solutions for compliant digital\nassets and security tokens. It is a secure and compliant platform for buying, selling, transferring,\nand storing digital currency.",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x8CD41041505885EF0aD3858181D66f17BE8aae7E",
-  "fetched": "2026-10-22T00:48:58.660752+00:00",
-  "genesis": null,
-  "github": "https://github.com/LCX-AG",
-  "homepage": "https://lcx.com/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/JoinLCX",
-  "telegram_users": null,
-  "twitter": "https://x.com/lcx",
-  "twitter_followers": null,
-  "watchers": 50240
  },
  "limewire-token": {
   "categories": [
@@ -2886,7 +2755,6 @@
   "cex": [
    "BVOX",
    "Binance",
-   "Binance US",
    "BitKan",
    "Bithumb",
    "Bitkub",
@@ -2895,9 +2763,10 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
-   "BtcTurk | Kripto"
+   "BtcTurk | Kripto",
+   "Bybit"
   ],
-  "cex_count": 40,
+  "cex_count": 39,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -2911,7 +2780,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-24T00:44:59.845739+00:00",
+  "fetched": "2026-10-25T11:26:01.870531+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2921,13 +2790,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38911
+  "watchers": 38914
  },
  "magic-internet-money-runes": {
   "categories": [
@@ -3010,46 +2879,6 @@
   "twitter_followers": null,
   "watchers": 3769
  },
- "mansory-token": {
-  "categories": [
-   "Retail",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Real World Assets (RWA)",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [
-   "BingX",
-   "KCEX",
-   "MEXC"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The official token of the Mansory car manufacturer.\nMansory is a renowned luxury car modification company based in Brand, Germany, founded in 1989 by Kourosh Mansory. They specialize in creating high-end, customized vehicles that are often limited edition and one-of-a-kind. Mansory's services range from interior and exterior design to performance upgrades, resulting in truly unique driving experiences.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/1xdtu7y3LkkrVCAbm5KGKfYzq1qgKhxxk5AaJBqpump",
-  "fetched": "2026-10-22T01:57:35.161157+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.mansory.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/MansoryToken",
-  "telegram_users": null,
-  "twitter": "https://x.com/MANSORYofficial",
-  "twitter_followers": null,
-  "watchers": 420
- },
  "marlin": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3085,7 +2914,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-24T00:43:46.696418+00:00",
+  "fetched": "2026-10-25T11:25:49.120824+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3094,13 +2923,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31931
+  "watchers": 31932
  },
  "mass-vehicle-ledger": {
   "categories": [
@@ -3218,7 +3047,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-10-24T10:57:04.753733+00:00",
+  "fetched": "2026-10-25T11:24:42.762607+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://moolahbnb.com",
@@ -3232,7 +3061,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Moolah_bsc",
   "twitter_followers": null,
-  "watchers": 264
+  "watchers": 263
  },
  "natix-network": {
   "categories": [
@@ -3259,7 +3088,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-24T00:44:53.164314+00:00",
+  "fetched": "2026-10-25T11:25:52.284002+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3273,7 +3102,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7940
+  "watchers": 7943
  },
  "ninja-squad": {
   "categories": [
@@ -3477,7 +3306,7 @@
    "Mudrex",
    "Osmosis"
   ],
-  "cex_count": 12,
+  "cex_count": 13,
   "chat": "https://medium.com/nymtech",
   "commits_4w": null,
   "description": "Existing internet protocols leak sensitive data that can be used without users knowledge \u2014 Nym is developing the infrastructure to prevent this data leakage by protecting every packet\u2019s metadata at the network and application layers.",
@@ -3487,7 +3316,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-23T23:07:25.788810+00:00",
+  "fetched": "2026-10-25T11:25:55.508795+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3496,13 +3325,13 @@
    "osmosis"
   ],
   "reddit": "https://www.reddit.com/r/nym",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/nymchan",
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30305
+  "watchers": 30308
  },
  "onlyagent": {
   "categories": [
@@ -3793,7 +3622,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
-  "fetched": "2026-10-24T10:59:24.098365+00:00",
+  "fetched": "2026-10-25T11:29:34.414515+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://peapods.finance",
@@ -3810,7 +3639,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PeapodsFinance",
   "twitter_followers": null,
-  "watchers": 4248
+  "watchers": 4247
  },
  "peaq-2": {
   "categories": [
@@ -3874,6 +3703,38 @@
   "twitter": "https://x.com/peaq",
   "twitter_followers": null,
   "watchers": 25454
+ },
+ "pepina-2": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Frog-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Pepina is here to bring a new face to the frog meme universe. With her iconic dark hair, expressive eyes, cool blue tones, and unmistakable attitude, Pepina adds a feminine twist to the legendary Pepe-inspired meme culture. Born from internet humor and powered by community creativity, $PEPINA celebrates the fun, chaos, and unpredictable energy that make frog memes timeless. From the timeline to the blockchain, Pepina is ready to make her mark, one meme at a time. No complicated story, no promises of riches \u2014 just a character, a community, and a meme worth sharing. The frog universe just got a new queen. Meet Pepina.",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x8ce3cac9fe9436e6e4b6539e6853ac1b037dace4",
+  "fetched": "2026-10-25T11:24:33.248792+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.pepiaoneth.fun/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/PEPINA_ETH",
+  "twitter_followers": null,
+  "watchers": 21
  },
  "pha": {
   "categories": [
@@ -4137,7 +3998,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 57,
+  "cex_count": 59,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4151,7 +4012,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-22T11:52:38.155139+00:00",
+  "fetched": "2026-10-25T11:28:24.865410+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4162,13 +4023,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90695
+  "watchers": 90689
  },
  "resistance-dog": {
   "categories": [
@@ -4189,7 +4050,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-10-22T11:50:05.419728+00:00",
+  "fetched": "2026-10-25T11:25:45.954314+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -4203,7 +4064,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12927
+  "watchers": 12923
  },
  "rize": {
   "categories": [
@@ -5556,7 +5417,7 @@
   ],
   "discord": "https://discord.gg/officialxyo",
   "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
-  "fetched": "2026-10-22T00:48:55.403346+00:00",
+  "fetched": "2026-10-25T11:27:18.484339+00:00",
   "genesis": null,
   "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
   "homepage": "https://xyo.network/",
@@ -5570,7 +5431,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/officialxyo",
   "twitter_followers": null,
-  "watchers": 38904
+  "watchers": 38900
  },
  "yee-token": {
   "categories": [
