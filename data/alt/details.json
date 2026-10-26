@@ -104,62 +104,6 @@
   "twitter_followers": null,
   "watchers": 9345
  },
- "aethir": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Impossible Finance Launchpad",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Animoca Brands Portfolio",
-   "Binance Alpha Spotlight"
-  ],
-  "cex": [
-   "BTSE",
-   "BVOX",
-   "BYDFi",
-   "Biconomy.com",
-   "BigONE",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bitunix"
-  ],
-  "cex_count": 48,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Aethir is the only Enterprise-grade AI-focused GPU-as-a-service provider in the market. It\u2019s a decentralized cloud computing infrastructure allows GPU providers (containers) to meet Enterprise clients who need powerful H100\u2019s chips for professional AI/ML tasks. \n\nAethir also support cloud gaming clients with their virtual computing phones and GPU's with contracts with the world\u2019s largest telecommunication company. Everything within Aethir ecosystem will be decentralized and community-owned.",
-  "dex": [
-   "Meteora DAMM V2",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Arbitrum)"
-  ],
-  "discord": "https://discord.com/invite/aethircloud",
-  "explorer": "https://etherscan.io/token/0xbe0ed4138121ecfc5c0e56b40517da27e6c5226b",
-  "fetched": "2026-10-23T00:42:48.297852+00:00",
-  "genesis": null,
-  "github": "https://github.com/AethirCloud",
-  "homepage": "https://www.aethir.com/",
-  "platforms": [
-   "arbitrum-one",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/aethir_cloud",
-  "telegram_users": null,
-  "twitter": "https://x.com/AethirCloud",
-  "twitter_followers": null,
-  "watchers": 42525
- },
  "agoras-currency-of-tau": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -570,7 +514,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-  "fetched": "2026-10-25T11:24:39.593913+00:00",
+  "fetched": "2026-10-26T12:58:48.740508+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
@@ -578,13 +522,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 44
+  "watchers": 54
  },
  "aurora-near": {
   "categories": [
@@ -619,7 +563,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-25T11:28:21.687821+00:00",
+  "fetched": "2026-10-26T13:01:36.584686+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -629,13 +573,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23712
+  "watchers": 23711
  },
  "benqi": {
   "categories": [
@@ -718,6 +662,63 @@
   "twitter": "https://x.com/superczonx",
   "twitter_followers": null,
   "watchers": 16
+ },
+ "bio-protocol": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Binance Launchpool",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Decentralized Science (DeSci)",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "BTSE",
+   "BVOX",
+   "BigONE",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitbaby",
+   "Bitget",
+   "Bithumb",
+   "Bitlo"
+  ],
+  "cex_count": 49,
+  "chat": null,
+  "commits_4w": null,
+  "description": "BIO is a curation and liquidity protocol for Decentralized Science (DeSci). Our mission is to accelerate biotechnology by giving global communities of patients, scientists and biotech professionals the ability to collectively fund, build and own tokenized biotech projects and intellectual property (IP). \n\nThe team behind BIO helped create Molecule, a tokenization platform for early-stage biomedicine, and VitaDAO, the largest decentralized community for longevity science. Building on these successes, BIO is designed to catalyze an onchain scientific economy through decentralized funding, incentives and liquidity.\n\nThe BIO token gives holders access to BIO's network of scientific communities and IP, enabling broad exposure to the DeSci economy.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 2",
+   "Meteora DAMM V2",
+   "PancakeSwap V3 (BSC)",
+   "PancakeSwap V3 (Base)",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
+  "fetched": "2026-10-26T13:01:30.199134+00:00",
+  "genesis": null,
+  "github": "https://github.com/bio-xyz",
+  "homepage": "https://www.bio.xyz/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/bio_protocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/bioprotocol",
+  "twitter_followers": null,
+  "watchers": 17128
  },
  "blue-chip-4": {
   "categories": [
@@ -835,7 +836,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-23T18:21:49.770020+00:00",
+  "fetched": "2026-10-26T12:57:36.004276+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -1129,7 +1130,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8",
-  "fetched": "2026-10-25T00:28:40.992747+00:00",
+  "fetched": "2026-10-26T13:01:33.384820+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://claus.si/",
@@ -1137,7 +1138,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1263,7 +1264,7 @@
    "Bitunix",
    "BloFin"
   ],
-  "cex_count": 33,
+  "cex_count": 32,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1276,7 +1277,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-10-23T00:42:45.036578+00:00",
+  "fetched": "2026-10-26T13:00:23.743021+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1292,7 +1293,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33320
+  "watchers": 33318
  },
  "dacity-coin-2": {
   "categories": [
@@ -1807,45 +1808,6 @@
   "twitter_followers": null,
   "watchers": 14930
  },
- "everything": {
-  "categories": [
-   "Decentralized Finance (DeFi)",
-   "BNB Chain Ecosystem",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem"
-  ],
-  "cex": [
-   "Kraken",
-   "MEXC"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Everything unifies multiple decentralized finance protocols into one cohesive, interoperable ecosystem. At its core, the $EV token functions as the primary mechanism for governance, utility, and value accrual, aligning incentives across all products while enabling users to participate in decision-making, access platform features, and benefit from the ecosystem\u2019s overall growth and long-term sustainability.",
-  "dex": [
-   "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-10-23T11:39:22.181507+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://everything.inc/",
-  "platforms": [
-   "arbitrum-one",
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/every_thing",
-  "twitter_followers": null,
-  "watchers": 265
- },
  "fatcat-4": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -1996,7 +1958,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-25T11:24:36.416557+00:00",
+  "fetched": "2026-10-26T12:58:45.593775+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -2010,53 +1972,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/froggie_bsc0",
   "twitter_followers": null,
-  "watchers": 175
- },
- "gamercoin": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "AI Applications"
-  ],
-  "cex": [
-   "BitKan",
-   "Bithumb",
-   "Gate",
-   "KuCoin",
-   "MEXC"
-  ],
-  "cex_count": 5,
-  "chat": "https://www.facebook.com/GamerHashApp/",
-  "commits_4w": null,
-  "description": "GamerCoin is a token of GamerHash platform - it's the last puzzle of gaming ecosystem and fuel which makes 500.000 users life easier.\nGamers will have many ways to earn GHX trough mining or entertainment on the platform. Keeping tokens in the wallet will bring many benefits &amp; spending GHX in the Marketplace will open special offers.\nIt's a game changer for gaming generation!",
-  "dex": [
-   "PancakeSwap (v2)",
-   "Raydium",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": "https://discord.gg/T3ZpnwBvvC",
-  "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-23T11:40:35.101227+00:00",
-  "genesis": null,
-  "github": "https://github.com/GamerHash",
-  "homepage": "https://gamercoin.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/GamerHashOfficial",
-  "telegram_users": null,
-  "twitter": "https://x.com/GamerHashCom",
-  "twitter_followers": null,
-  "watchers": 23666
+  "watchers": 181
  },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
@@ -2080,7 +1996,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-25T11:29:31.230700+00:00",
+  "fetched": "2026-10-26T13:01:39.774536+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2132,57 +2048,37 @@
   "twitter_followers": null,
   "watchers": 1281
  },
- "grvt": {
+ "golden-butterfly-sacred-armor": {
   "categories": [
-   "Decentralized Finance (DeFi)",
    "BNB Chain Ecosystem",
-   "Derivatives",
-   "Perpetuals",
-   "Ethereum Ecosystem"
+   "Meme",
+   "Chinese Meme"
   ],
-  "cex": [
-   "BingX",
-   "Bitget",
-   "Bithumb",
-   "BloFin",
-   "BtcTurk | Kripto",
-   "Bybit",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "KCEX",
-   "KuCoin",
-   "LBank",
-   "MEXC"
-  ],
-  "cex_count": 16,
+  "cex": [],
+  "cex_count": 0,
   "chat": null,
   "commits_4w": null,
-  "description": "",
+  "description": "\u91d1\u8776\u5723\u7532\nDung Beetle International Alliance \u00b7 1,000 Iron Army Members Holding 100,000 Tokens + 150 Core Foundation Members Holding 300,000 Tokens\nNational Offline Promotion: Over 70 Offline Promotion Workshops Operating Simultaneously\nPangu has enabled countless people to witness that \"community is power\". Today, the Dung Beetle ecosystem features a more mature model, a clearer closed loop, and more determined executors!\n\n\ud83d\udfe9 Transaction Tax Mechanism (3% charged on both buying and selling sides)\n\u00b7 1% \u2192 Used for repurchase and burning of Dung Beetle tokens\n\u00b7 1% \u2192 Used to purchase Dung Beetle tokens to form LP, which flows back to the Dung Beetle liquidity pool\n\u00b7 1% \u2192 Dividends for token holders (distributed in Dung Beetle tokens to holders with no less than 20,000 tokens held)\n\n\u2705 Ecological Supporting Partners\n\u00b7 \ud83d\udd39 Butterfly Platform ecological support (traffic + technical empowerment)\n\u00b7 \ud83d\udd39 Professional market value management team &amp; market maker (stable market protection)\n\u00b7 \ud83d\udd39 Joint consolidation by the consensus iron army of Dung Beetle International Alliance (community consensus backing)\n\u00b7 \ud83d\udd39 Post-market boosting support of US$1.5 million from the Foundation of Dung Beetle International Alliance (capital backing)",
   "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V4 (BSC)",
-   "Uniswap V4 (Ethereum)"
+   "PancakeSwap (v2)"
   ],
   "discord": null,
-  "explorer": "https://etherscan.io/token/0xAD29F2723fcdBcF665F210F25E06f97477e417cF",
-  "fetched": "2026-10-23T11:41:38.385107+00:00",
+  "explorer": "https://bscscan.com/address/0x3e86832b28854b5c7a86e8666ac4ab92cda1843e",
+  "fetched": "2026-10-26T12:58:42.448761+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://grvt.io/",
+  "homepage": "https://x.com/skl_flap",
   "platforms": [
-   "binance-smart-chain",
-   "ethereum"
+   "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
-  "telegram": "https://t.me/grvt_io",
+  "telegram": "https://t.me/SKL_Flap",
   "telegram_users": null,
-  "twitter": "https://x.com/grvt_io",
+  "twitter": "https://x.com/skl_flap",
   "twitter_followers": null,
-  "watchers": 1769
+  "watchers": 43
  },
  "gstock": {
   "categories": [
@@ -2206,7 +2102,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
-  "fetched": "2026-10-23T23:07:15.631132+00:00",
+  "fetched": "2026-10-26T12:58:39.239771+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://slinkcoinrbh.lol/",
@@ -2251,7 +2147,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 36,
+  "cex_count": 35,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2262,7 +2158,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-25T11:27:15.333248+00:00",
+  "fetched": "2026-10-26T12:59:55.219304+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2279,7 +2175,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35768
+  "watchers": 35766
  },
  "infinity-ground": {
   "categories": [
@@ -2788,6 +2684,7 @@
   "cex": [
    "BVOX",
    "Binance",
+   "Binance US",
    "BitKan",
    "Bithumb",
    "Bitkub",
@@ -2796,10 +2693,9 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
-   "BtcTurk | Kripto",
-   "Bybit"
+   "BtcTurk | Kripto"
   ],
-  "cex_count": 39,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -2813,7 +2709,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-25T11:26:01.870531+00:00",
+  "fetched": "2026-10-26T12:58:51.978558+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2823,13 +2719,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38914
+  "watchers": 38916
  },
  "mamo": {
   "categories": [
@@ -3023,7 +2919,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-25T11:25:52.284002+00:00",
+  "fetched": "2026-10-26T13:00:15.519604+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3037,7 +2933,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7943
+  "watchers": 7947
  },
  "niannian-2": {
   "categories": [
@@ -3494,7 +3390,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-25T00:28:44.280909+00:00",
+  "fetched": "2026-10-26T12:59:58.386467+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3511,7 +3407,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114927
+  "watchers": 114926
  },
  "peapods-finance": {
   "categories": [
@@ -3785,7 +3681,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
-  "fetched": "2026-10-25T00:27:24.508451+00:00",
+  "fetched": "2026-10-26T13:00:19.278389+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -3799,7 +3695,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 16
+  "watchers": 19
  },
  "pwease": {
   "categories": [
@@ -3862,7 +3758,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 39,
+  "cex_count": 41,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -3873,7 +3769,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-25T00:27:37.629404+00:00",
+  "fetched": "2026-10-26T13:02:42.996480+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -3883,13 +3779,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12544
+  "watchers": 12551
  },
  "reserve-rights-token": {
   "categories": [
@@ -3917,7 +3813,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 59,
+  "cex_count": 57,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -3931,7 +3827,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-25T11:28:24.865410+00:00",
+  "fetched": "2026-10-26T13:02:49.328754+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4029,66 +3925,6 @@
   "twitter_followers": null,
   "watchers": 7332
  },
- "rocket-pool": {
-  "categories": [
-   "Infrastructure",
-   "Smart Contract Platform",
-   "Decentralized Finance (DeFi)",
-   "Polygon Ecosystem",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "Liquid Staking Governance Tokens",
-   "Coinbase Ventures Portfolio",
-   "Proof of Stake (PoS)",
-   "Index Coop Defi Index",
-   "Consensys Portfolio",
-   "Liquid Staking",
-   "Governance"
-  ],
-  "cex": [
-   "BTCC",
-   "BVOX",
-   "Balancer V2",
-   "Bancor (V2)",
-   "Biconomy.com",
-   "Bilaxy",
-   "Binance",
-   "BingX",
-   "Bit2Me",
-   "BitKan",
-   "Bithumb",
-   "Bitkub"
-  ],
-  "cex_count": 43,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
-  "dex": [
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Arbitrum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "https://discordapp.com/invite/tCRG54c",
-  "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-23T11:41:51.222016+00:00",
-  "genesis": null,
-  "github": "https://github.com/rocket-pool/rocketpool",
-  "homepage": "https://www.rocketpool.net",
-  "platforms": [
-   "arbitrum-one",
-   "ethereum",
-   "polygon-pos"
-  ],
-  "reddit": "https://www.reddit.com/r/rocketpool",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/Rocket_Pool",
-  "twitter_followers": null,
-  "watchers": 25865
- },
  "silencio": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4111,11 +3947,12 @@
   "commits_4w": null,
   "description": "Silencio powers voice AI, robotics, AR/VR, and spatial intelligence with ethically sourced, user-owned audio data at scale. With over 1.1 million users and &gt;41 billion datapoints contributed, we are building the foundational layer for machine hearing. The market for real-world audio intelligence is projected to exceed $100 billion by 2030, fueled by virtual assistants, healthcare, robotics, and support systems. As demand for field data surges, Silencio is positioned as the go-to audio layer, capable of capturing any language, in any corner of the world.\nWe transform everyday devices into a decentralized network of real-world audio sensors. Unlike traditional data models that extract information without consent, every datapoint is contributed voluntarily. Participation is always opt-in, anonymized, and rewarded, ensuring privacy and transparency.\n\nSilencio stands at the forefront of the Decentralized Physical Infrastructure Networks (DePIN) movement, setting new standards for community-driven data collection, transparency, and environmental impact.",
   "dex": [
-   "Aerodrome (Base)"
+   "Aerodrome (Base)",
+   "Uniswap V3 (Base)"
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-10-25T00:25:01.241213+00:00",
+  "fetched": "2026-10-26T13:02:52.503050+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://silencio.network/",
@@ -4130,7 +3967,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/silencioNetwork",
   "twitter_followers": null,
-  "watchers": 4371
+  "watchers": 4379
  },
  "soil": {
   "categories": [
@@ -4314,14 +4151,14 @@
    "Bybit",
    "CoinUp.io",
    "Coinbase Exchange",
+   "Crypto.com Exchange",
    "Gate",
    "HTX",
    "KCEX",
    "KuCoin",
-   "MEXC",
-   "Mudrex"
+   "MEXC"
   ],
-  "cex_count": 15,
+  "cex_count": 16,
   "chat": null,
   "commits_4w": null,
   "description": "Subsquid Network is an innovative decentralized data lake and query engine designed to offer developers performant and permissionless access to data, aiming to build a neutral and open internet rooted in Web3 principles. Secured by ZK proofs, the Subsquid network boasts a modular architecture that enables exceptional scalability and developer convenience optimized for blockchain indexing, dApp development, and analytics.\n\nSubsquid is a response to unscalable and rigid monolithic indexing frameworks that had previously gained popularity and market traction among Web3 developers. Today, these frameworks are struggling to adapt in a rapidly evolving blockchain environment. Additionally, the network serves as a highly efficient and decentralized alternative to centralized infrastructure firms, including large RPC and API providers.",
@@ -4334,7 +4171,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
-  "fetched": "2026-10-24T10:58:17.662220+00:00",
+  "fetched": "2026-10-26T13:02:46.157820+00:00",
   "genesis": null,
   "github": "https://github.com/subsquid",
   "homepage": "https://sqd.dev",
@@ -4350,7 +4187,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/hellosqd",
   "twitter_followers": null,
-  "watchers": 5085
+  "watchers": 5087
  },
  "super-inu-2": {
   "categories": [
@@ -4638,7 +4475,7 @@
   ],
   "discord": "https://discord.com/invite/reilabs",
   "explorer": "https://basescan.org/token/0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
-  "fetched": "2026-10-25T00:27:34.348998+00:00",
+  "fetched": "2026-10-26T13:00:27.025414+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://reilabs.org/",
@@ -4652,7 +4489,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/rei_labs",
   "twitter_followers": null,
-  "watchers": 5191
+  "watchers": 5188
  },
  "uranium": {
   "categories": [
