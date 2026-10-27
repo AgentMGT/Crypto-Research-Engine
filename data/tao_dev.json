@@ -86,6 +86,13 @@
 "repo": "BitMind-AI/bitmind-subnet",
 "t": 1793019307.7512348
 },
+"bitmind-ai/yugos": {
+"capped": false,
+"commits_30d": 47,
+"last_commit": "2026-10-26T21:36:02Z",
+"repo": "BitMind-AI/yugos",
+"t": 1793102803.1001134
+},
 "bitsec-ai/sandbox": {
 "capped": false,
 "commits_30d": 7,

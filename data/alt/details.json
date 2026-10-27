@@ -474,6 +474,52 @@
   "twitter_followers": null,
   "watchers": 23711
  },
+ "basecat": {
+  "categories": [
+   "Meme",
+   "Base Ecosystem",
+   "Cat-Themed",
+   "Base Meme"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "BingX",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Matcha (Base)",
+   "Ourbit",
+   "o1 Launchpad"
+  ],
+  "cex_count": 10,
+  "chat": null,
+  "commits_4w": null,
+  "description": "the cat on Base \ncommunity-run home for $BASECAT",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
+  "fetched": "2026-10-27T12:09:42.098111+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://basecatonbase.com",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/basecatonbase",
+  "telegram_users": null,
+  "twitter": "https://x.com/BasecatOnBase",
+  "twitter_followers": null,
+  "watchers": 979
+ },
  "benqi": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -524,37 +570,6 @@
   "twitter": "https://x.com/BenqiFinance",
   "twitter_followers": null,
   "watchers": 30422
- },
- "binance-super-cz-2": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Binance Super CZ (BSC) is a community-driven meme token built on BNB Chain, inspired by the superhero concept of CZ and the recognizable black-and-gold identity of the Binance ecosystem. The project aims to bring cryptocurrency enthusiasts together through humor, creativity, entertainment, and community participation. Binance Super CZ represents a digital superhero character that symbolizes unity, confidence, and the spirit of decentralized communities. Rather than focusing on complex financial products, BSC emphasizes accessibility, social engagement, and creating an enjoyable environment where crypto enthusiasts can connect, share ideas, and grow a global meme community.",
-  "dex": [
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xE55296ff1ccF6f6136CF00e552E46eF69e30a3e2#transactions",
-  "fetched": "2026-10-24T10:56:58.336655+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "http://www.supercz.lol",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/superczonx",
-  "twitter_followers": null,
-  "watchers": 16
  },
  "bio-protocol": {
   "categories": [
@@ -784,6 +799,53 @@
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
   "watchers": 114140
+ },
+ "broadcom-xstock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Mantle Ecosystem",
+   "TON Ecosystem",
+   "BackedFi xStocks Ecosystem"
+  ],
+  "cex": [
+   "Gate",
+   "Kraken"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "\"For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 57 US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.\"",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://www.arbiscan.io/token/0x38bac69cbbd28156796e4163b2b6dcb81e336565",
+  "fetched": "2026-10-27T12:11:01.996396+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://xstocks.com/",
+  "platforms": [
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum",
+   "mantle"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/xstocksfi",
+  "telegram_users": null,
+  "twitter": "https://x.com/xStocksFi",
+  "twitter_followers": null,
+  "watchers": 184
  },
  "bundle-cat": {
   "categories": [
@@ -1135,6 +1197,56 @@
   "twitter_followers": null,
   "watchers": 1714
  },
+ "concierge-io": {
+  "categories": [
+   "Tourism",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Energi Ecosystem",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "Gate",
+   "HTX",
+   "KCEX"
+  ],
+  "cex_count": 24,
+  "chat": "https://t.me/s/travala",
+  "commits_4w": null,
+  "description": "What is the project about? AVA plans to tokenise the concept of loyalty reward programs using blockchain technology. The AVA token functions as the key to accessing web3 loyalty programs and provides perks to end users, such as AVA payment discounts, AVA loyalty rewards, gated access benefits, and more. Launched in 2017, the AVA Foundation says their overarching mission is to create a decentralised and self-sufficient blockchain-based loyalty ecosystem with AVA at its core. What\u2019s next for your project? AVA is a web3 loyalty program token designed for projects across all industries. From discounts to loyalty rewards, AVA powers blockchain-based loyalty programs via a plug-and-play approach. What can your token be used for? Travel Bookings: AVA can be used to book more than 3 million travel products on Travala, including hotels, homes, flights, and activities in over 230 countries. Discounts &amp; Rewards: Travel bookings paid with AVA receive a discount of up to 3% on the total booking price, as well as a cashback of up to 2% in AVA. Loyalty Program: AVA unlocks further benefits via the Smart Loyalty Program, which provides users with discounts of up to 10% on travel bookings. Travel NFTs: AVA paired with Travel Tiger NFTs unlocks the Diamond membership, with exclusive benefits such as Travel Credits, Airport Lounges, VIP Concierge, and Travel Drops (unique travel experience giveaways). Open Passport: With AVA, users can access the Open Passport to collect digital NFT stamps ",
+  "dex": [
+   "Raydium",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
+  "fetched": "2026-10-27T12:13:21.538409+00:00",
+  "genesis": null,
+  "github": "https://github.com/AVA-Foundation",
+  "homepage": "https://www.travala.com",
+  "platforms": [
+   "energi",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": "https://www.reddit.com/r/Travala",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/avafoundation",
+  "telegram_users": null,
+  "twitter": "https://x.com/AVAFoundation",
+  "twitter_followers": null,
+  "watchers": 27658
+ },
  "cookie": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1231,39 +1343,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 99
- },
- "dacity-coin-3": {
-  "categories": [
-   "Meme",
-   "Ethereum Ecosystem"
-  ],
-  "cex": [
-   "Matcha (Ethereum)"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Dacity Coin captures the spirit of a tropical city where sunny beaches, vibrant streets, and shared adventures bring people together. Inspired by palm-lined coastlines, sunset skies, and the excitement of a beachside volleyball match, Dacity celebrates a community that knows how to enjoy the moment. Every rally, new friendship, and flying Dacity flag adds to the story. Blending meme culture with a laid-back coastal attitude, Dacity Coin invites everyone to bring their energy, find their crew, and help shape a city full of personality. The sun is shining, the court is ready, and there is always room for one more.",
-  "dex": [
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x54ce4b27caabba24926865f035d432dbde2901f7",
-  "fetched": "2026-10-24T10:57:07.995606+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://thedacityeth.site",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 55.56,
-  "stars": null,
-  "telegram": "https://t.me/TheDacityETH",
-  "telegram_users": null,
-  "twitter": "https://x.com/TheDacityETH",
-  "twitter_followers": null,
-  "watchers": 1289
  },
  "darkwoods": {
   "categories": [
@@ -1914,6 +1993,52 @@
   "twitter_followers": null,
   "watchers": 181
  },
+ "gamercoin": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "AI Applications"
+  ],
+  "cex": [
+   "BitKan",
+   "Bithumb",
+   "Gate",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": "https://www.facebook.com/GamerHashApp/",
+  "commits_4w": null,
+  "description": "GamerCoin is a token of GamerHash platform - it's the last puzzle of gaming ecosystem and fuel which makes 500.000 users life easier.\nGamers will have many ways to earn GHX trough mining or entertainment on the platform. Keeping tokens in the wallet will bring many benefits &amp; spending GHX in the Marketplace will open special offers.\nIt's a game changer for gaming generation!",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Raydium",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/T3ZpnwBvvC",
+  "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
+  "fetched": "2026-10-27T12:10:51.956429+00:00",
+  "genesis": null,
+  "github": "https://github.com/GamerHash",
+  "homepage": "https://gamercoin.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/GamerHashOfficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/GamerHashCom",
+  "twitter_followers": null,
+  "watchers": 23664
+ },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -1988,6 +2113,55 @@
   "twitter_followers": null,
   "watchers": 1281
  },
+ "gitcoin": {
+  "categories": [
+   "Near Protocol Ecosystem",
+   "Ethereum Ecosystem",
+   "Paradigm Portfolio",
+   "Governance"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Balancer V2",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "Bithumb",
+   "Bitlo",
+   "Bittime",
+   "CoinW",
+   "Coinbase Exchange",
+   "Crypto.com Exchange"
+  ],
+  "cex_count": 26,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Gitcoin is a platform to fund builders looking for meaningful, open source work.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/gitcoin",
+  "explorer": "https://etherscan.io/token/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+  "fetched": "2026-10-27T12:12:18.230393+00:00",
+  "genesis": null,
+  "github": "https://github.com/gitcoinco",
+  "homepage": "https://gitcoin.co/",
+  "platforms": [
+   "ethereum",
+   "near-protocol"
+  ],
+  "reddit": "https://www.reddit.com/r/gitcoincommunity",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/gitcoin",
+  "twitter_followers": null,
+  "watchers": 18089
+ },
  "golden-butterfly-sacred-armor": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -2057,6 +2231,49 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 91
+ },
+ "hegic": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Derivatives",
+   "Options",
+   "Fantom Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Energi Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discordapp.com/invite/znjdj8q",
+  "explorer": "https://etherscan.io/token/0x584bc13c7d411c00c01a62e8019472de68768430",
+  "fetched": "2026-10-27T12:12:05.362794+00:00",
+  "genesis": null,
+  "github": "https://github.com/hegic/contracts-v888",
+  "homepage": "https://www.hegic.co/",
+  "platforms": [
+   "arbitrum-one",
+   "energi",
+   "ethereum",
+   "fantom"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/HegicOptions",
+  "telegram_users": null,
+  "twitter": "https://x.com/HegicOptions",
+  "twitter_followers": null,
+  "watchers": 13241
  },
  "iexec-rlc": {
   "categories": [
@@ -2373,6 +2590,44 @@
   "twitter": "https://x.com/keep_project",
   "twitter_followers": null,
   "watchers": 18128
+ },
+ "knots": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Stonk Ecosystem"
+  ],
+  "cex": [
+   "LBank",
+   "MEXC",
+   "Poloniex"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "STONK backwards is KNOTS\n\nThey are in a constant symbiosis and feed on each other\n\nHolding $KNOTS earns you $STONK rewards from a 3% transfer tax\n\nEvery time $KNOTS moves, part of the transaction fee goes back to $KNOTS holders in $STONK.\n\nInstead of another Memecoin that needs a 14 page explanation for why it exists, the two memes are directly connected through the token mechanics.\n\nSometimes the best ideas are the ones you understand immediately.",
+  "dex": [
+   "Meteora",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS",
+  "fetched": "2026-10-27T12:09:32.185670+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.knotsstonk.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/knotsstonk",
+  "telegram_users": null,
+  "twitter": "https://x.com/KnotsOnStonk",
+  "twitter_followers": null,
+  "watchers": 467
  },
  "lava-network": {
   "categories": [
@@ -2932,6 +3187,47 @@
   "twitter_followers": null,
   "watchers": 10
  },
+ "ninja-squad": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "BingX",
+   "MEXC",
+   "Paribu"
+  ],
+  "cex_count": 3,
+  "chat": "https://ninjasquad.medium.com/",
+  "commits_4w": null,
+  "description": "Ninja Squad Token ($NST) is the native token of the Ninja Traders ecosystem, which provides access to Ninja Traders products developed for both beginner and advanced traders. With a rich history of delivering products and insightful content since our inception in 2017, the Ninja ecosystem continues to evolve and expand, embracing innovation and introducing new features. The key to gaining access to these products is as simple as holding $NST or owning a Ninja Squad NFT. By doing so, traders gain exclusive access to products designed to elevate their trading experience to a new level.\n\nIn brief, $NST holders have access to the following products;\n- Ninja Terminal grants access to a live cryptocurrency news feed where traders can connect with their API key to open and manage positions in real-time, ensuring users are not losing any precious second while trading live feed.\n- Ninja Tools enables users to monitor on-chain and futures data, long/short ratios, heat maps, wallet analyses, economic calendar, and more on a single screen. Additionally, the ability to set personalized alerts ensures that users stay ahead of the market.\n- Ninja Capital grants exclusive access to allocations from upcoming investor rounds of top projects. It's your chance to invest before anyone else with specially reserved spots for Ninja.\n- Mentorship grants access to intimate discussions with our professional analysis team. Engage in conversations, gain valuable insights, and refine your trading strategi",
+  "dex": [
+   "Meteora",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V4 (Arbitrum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
+  "fetched": "2026-10-27T12:09:38.795884+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://ninjatraders.io/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/ninjatraderstr",
+  "telegram_users": null,
+  "twitter": "https://x.com/ninjasquadnft",
+  "twitter_followers": null,
+  "watchers": 2901
+ },
  "nkyc-token": {
   "categories": [
    "Exchange-based Tokens",
@@ -3173,6 +3469,43 @@
   "twitter_followers": null,
   "watchers": 12265
  },
+ "ore": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Mobile Mining"
+  ],
+  "cex": [
+   "LBank"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "ORE is future-proof electronic cash. ORE exists to advance the original vision for crypto, identified by Satoshi Nakamoto: creating digital money that cannot be debased or controlled by centralized authorities. \n\nBitcoin solved the double-spend problem. Solana solved scalability at the Layer 1 level. Modern wallets improved self-custody user experience. ORE solved the Proof-of-Work value leak.\n\nBuilt on Solana, ORE inherits the network's scalability, composability, and future upgrades, including privacy enhancements, without requiring the tradeoffs traditionally associated with securing blockchain consensus. For these reasons, we describe ORE (after Bitcoin: \"Peer-to-peer electronic cash\") as:\n- ORE, the asset, is a future-proof electronic cash system.\n- ORE, the protocol, is a future-proof electronic cash system on Solana.\n\nORE is named after Nicholas Oresme, the 14th-century philosopher and economist who argued that money should belong to the people who use it rather than rulers who debase it. That philosophy serves as the foundation for the protocol: in many ways, ORE is the continuation of a centuries-old idea \u2014 that monetary systems are strongest when they are governed by rules rather than rulers.",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2",
+   "Orca",
+   "Raydium"
+  ],
+  "discord": "https://discord.gg/bSKU7TdtcY",
+  "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
+  "fetched": "2026-10-27T12:10:55.176898+00:00",
+  "genesis": null,
+  "github": "https://github.com/regolith-labs/ore",
+  "homepage": "https://ore.supply/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/OREsupply",
+  "twitter_followers": null,
+  "watchers": 5241
+ },
  "osmosis": {
   "categories": [
    "Decentralized Exchange (DEX)",
@@ -3199,21 +3532,19 @@
    "Coinbase Exchange",
    "Crypto.com Exchange",
    "DigiFinex",
+   "Digital X",
    "Gate",
    "HTX",
-   "Kraken",
-   "KuCoin"
+   "Kraken"
   ],
-  "cex_count": 24,
+  "cex_count": 25,
   "chat": "https://medium.com/osmosis",
   "commits_4w": null,
   "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.",
-  "dex": [
-   "BeeZee DEX"
-  ],
+  "dex": [],
   "discord": null,
   "explorer": "https://www.mintscan.io/osmosis",
-  "fetched": "2026-10-26T00:27:37.569554+00:00",
+  "fetched": "2026-10-27T12:12:14.993356+00:00",
   "genesis": null,
   "github": "https://github.com/osmosis-labs/osmosis",
   "homepage": "https://osmosis.zone/",
@@ -3224,13 +3555,13 @@
    "secret"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 90.91,
   "stars": null,
   "telegram": "https://t.me/osmosis_chat",
   "telegram_users": null,
   "twitter": "https://x.com/osmosis ",
   "twitter_followers": null,
-  "watchers": 78951
+  "watchers": 78969
  },
  "ovr": {
   "categories": [
@@ -3423,6 +3754,46 @@
   "twitter_followers": null,
   "watchers": 56806
  },
+ "pinlink": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "DePIN",
+   "RWA Protocol"
+  ],
+  "cex": [
+   "DigiFinex",
+   "Gate",
+   "KCEX",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "PinLink is the first RWA-Tokenized DePIN platform, empowering users with fractionalized ownership of DePIN assets. DePINs (Decentralized Physical Infrastructure Networks) hold the promise of completely revolutionizing how AI developers source their physical infrastructure. DePINs work by using token rewards to incentivize owners of physical infrastructure assets to connect their devices to decentralized networks where they can be rented by end users in need of those services. Whether its GPUs, TPUs, CPUs or cloud storage capacity, AI developers have multiple needs that can be met by DePINs, which offer the promise of a more cost-effective and decentralized solution.",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
+  "fetched": "2026-10-27T12:10:58.416723+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pinlink.ai/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/pinlinkai",
+  "twitter_followers": null,
+  "watchers": 16942
+ },
  "propy": {
   "categories": [
    "Tokenized Real Estate",
@@ -3508,6 +3879,45 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 19
+ },
+ "qanplatform": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Layer 1 (L1)",
+   "Ethereum Ecosystem",
+   "Cybersecurity",
+   "Quantum-Resistant"
+  ],
+  "cex": [
+   "Gate"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "What Is QANplatform (QANX)? \n\nQANplatform, the quantum-resistant hybrid blockchain platform enables developers and enterprises to rapidly build software applications like DApps or DeFi and run business processes on blockchain. A blockchain platform, like QANplatform is the basic infrastructure of all blockchain projects and applications. It is like the operating system on a computer. The whole ecosystem can only build and work on top of it. Connect it with real-world data, run automated smart contracts, build decentralized applications (DApps). According to HFS Research excerpt for IBM: Enterprise blockchain adoption is going through a \u201c90-9-1\u201d adoption challenge. 90% of companies are still trying to internalize the concept and its relevant impact. 9% of enterprises that identified relevant use cases are struggling to start with their PoCs and pilots. The 1% of enterprises that have successful pilots are challenged with scalability to a production-grade environment. To achieve blockchain mass adoption Qanplatform focused on these challenges. They built a lot of automation and integration to help freelance developers, blockchain development companies and enterprises start their blockchain PoCs (Proof-of-Concept) as fast as possible. It takes less than 5 minutes to deploy the QAN private blockchain to a preferred cloud platform and start building on it. \n\nWho Are the Founders of QANplatform ? \n\nJohann Polecsak, QAN's Chief Technology Officer is also an economist. He along with ",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/pEHCdjEJQc",
+  "explorer": "https://etherscan.io/token/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
+  "fetched": "2026-10-27T12:12:11.846341+00:00",
+  "genesis": null,
+  "github": "https://github.com/qanplatform/qanx-token",
+  "homepage": "https://www.qanplatform.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/QANplatform/",
+  "sentiment_up": 80.0,
+  "stars": null,
+  "telegram": "https://t.me/QANplatform",
+  "telegram_users": null,
+  "twitter": "https://x.com/QANplatform",
+  "twitter_followers": null,
+  "watchers": 20908
  },
  "renzo": {
   "categories": [
@@ -3640,7 +4050,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-10-25T11:25:45.954314+00:00",
+  "fetched": "2026-10-27T12:09:35.567772+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -3648,7 +4058,7 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/redotoken",
   "telegram_users": null,
@@ -3863,7 +4273,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-10-25T00:25:14.521587+00:00",
+  "fetched": "2026-10-27T12:12:08.623063+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -3877,7 +4287,56 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 78
+  "watchers": 79
+ },
+ "ssv-network": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Ethereum Ecosystem",
+   "Restaking",
+   "Coinbase Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "Liquid Staking"
+  ],
+  "cex": [
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bittime"
+  ],
+  "cex_count": 41,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network \u2013 a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. ",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/eDXSP9R",
+  "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
+  "fetched": "2026-10-27T12:10:48.737812+00:00",
+  "genesis": null,
+  "github": "https://github.com/ssvlabs",
+  "homepage": "https://ssv.network/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ssv_network",
+  "twitter_followers": null,
+  "watchers": 10163
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -4117,6 +4576,40 @@
   "twitter": "https://x.com/tigfoundation",
   "twitter_followers": null,
   "watchers": 3779
+ },
+ "tokenos-ai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Smart Contract Platform",
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "TokenOS is the world\u2019s most advanced AI-powered Web3 development platform, designed to turn natural language prompts into fully functional, production-ready blockchain applications. From simple tokens and memecoins to complex DeFi protocols, TokenOS automates the creation, deployment, and auditing of smart contracts and dApps with enterprise-grade reliability. By combining advanced language models with blockchain infrastructure, TokenOS removes the barriers of technical expertise, making Web3 development accessible to everyone. With instant deployment, built-in security best practices, and cross-chain support on the roadmap, TokenOS empowers entrepreneurs, developers, and creators to launch tokenized businesses and decentralized applications in seconds.\n",
+  "dex": [
+   "Meteora DAMM V2",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump",
+  "fetched": "2026-10-27T12:10:45.450677+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://tokenos.ai/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/TokenOS_AI",
+  "telegram_users": null,
+  "twitter": "https://x.com/TokenOS_AI",
+  "twitter_followers": null,
+  "watchers": 234
  },
  "tornado-cash": {
   "categories": [
@@ -4599,61 +5092,6 @@
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
   "watchers": 654
- },
- "zebec-network": {
-  "categories": [
-   "Decentralized Finance (DeFi)",
-   "Solana Ecosystem",
-   "Real World Assets (RWA)",
-   "Payment Solutions",
-   "DePIN",
-   "Coinbase Ventures Portfolio",
-   "Alameda Research Portfolio",
-   "Circle Ventures Portfolio",
-   "OKX Ventures Portfolio",
-   "RWA Protocol",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bitrue",
-   "BloFin",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "HTX",
-   "Hotcoin",
-   "Kraken"
-  ],
-  "cex_count": 18,
-  "chat": "https://medium.com/zebec-protocol",
-  "commits_4w": null,
-  "description": "Zebec's integrated products - real time payroll apps, on-chain payments infrastructure and networked DePIN - serve companies of all sizes, merchants and individuals and help transcend the boundaries of traditional banking and diminish the role of financial intermediaries. ",
-  "dex": [
-   "Meteora",
-   "Orca",
-   "Raydium (CLMM)"
-  ],
-  "discord": "https://discord.com/invite/fJM9cHuvvB",
-  "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-  "fetched": "2026-10-24T10:59:27.294969+00:00",
-  "genesis": null,
-  "github": "https://github.com/Zebec-protocol",
-  "homepage": "https://zebec.io/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 83.33,
-  "stars": null,
-  "telegram": "https://t.me/zebecprotocol",
-  "telegram_users": null,
-  "twitter": "https://x.com/Zebec_HQ",
-  "twitter_followers": null,
-  "watchers": 21414
  },
  "zentry": {
   "categories": [
