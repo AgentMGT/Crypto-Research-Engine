@@ -50,6 +50,61 @@
   "twitter_followers": null,
   "watchers": 7836
  },
+ "adex": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "AI Agents",
+   "AI Applications",
+   "DeFAI",
+   "x402 Ecosystem",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "Mudrex"
+  ],
+  "cex_count": 16,
+  "chat": null,
+  "commits_4w": null,
+  "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
+  "fetched": "2026-10-28T20:47:18.414140+00:00",
+  "genesis": "2017-07-01",
+  "github": "https://github.com/heyauradev",
+  "homepage": "https://www.heyaura.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "robinhood"
+  ],
+  "reddit": "https://www.reddit.com/r/AdEx",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/+Oki8IRbVXVlmNTQ0",
+  "telegram_users": null,
+  "twitter": "https://x.com/heyAura",
+  "twitter_followers": null,
+  "watchers": 9348
+ },
  "agoras-currency-of-tau": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -308,7 +363,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-27T19:34:43.597719+00:00",
+  "fetched": "2026-10-28T20:47:11.845795+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -316,13 +371,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/arcblock/",
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/ArcBlock",
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11082
+  "watchers": 11083
  },
  "audius": {
   "categories": [
@@ -891,7 +946,7 @@
   ],
   "discord": "https://discord.com/invite/carv",
   "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
-  "fetched": "2026-10-26T20:01:33.300182+00:00",
+  "fetched": "2026-10-28T20:46:01.642645+00:00",
   "genesis": null,
   "github": "https://github.com/carv-protocol",
   "homepage": "https://carv.io",
@@ -902,13 +957,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/carv_official",
   "twitter_followers": null,
-  "watchers": 7479
+  "watchers": 7481
  },
  "centrifuge-2": {
   "categories": [
@@ -982,7 +1037,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
-  "fetched": "2026-10-27T19:32:04.782471+00:00",
+  "fetched": "2026-10-28T20:45:55.057951+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://realityfinance.xyz/",
@@ -2016,6 +2071,44 @@
   "twitter_followers": null,
   "watchers": 1281
  },
+ "giggle-mascot": {
+  "categories": [
+   "Charity",
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Mascot-Themed"
+  ],
+  "cex": [
+   "KCEX",
+   "Matcha (BSC)"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "MAX is the community-driven meme token inspired by Max, the mascot of Giggle Academy. Built on BNB Chain, MAX combines meme culture with a real charitable purpose: supporting free education.\n\nThe token uses a 3% buy and 3% sell tax, with tax revenue automatically routed through Flap Protocol to Giggle Academy. This creates an ongoing donation mechanism tied directly to trading activity rather than relying solely on one-time contributions.\n\nSince launch, the MAX community has already generated hundreds of BNB in donations for Giggle Academy, helping support its mission of making high-quality education freely accessible worldwide.\n\nAt its core, MAX is about bringing together the BNB Chain community, meme culture, and transparent on-chain giving \u2014 proving that a memecoin can be fun while also creating measurable real-world impact.\n",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xe9Bc5C6A86caA44fD7b469bf3cc7c563E4F77777",
+  "fetched": "2026-10-28T20:45:48.593020+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.maxbnb.meme",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/GiggleMascotBNB",
+  "telegram_users": null,
+  "twitter": "https://x.com/GiggleMascotBNB",
+  "twitter_followers": null,
+  "watchers": 209
+ },
  "ginnancoin": {
   "categories": [
    "Meme",
@@ -2361,11 +2454,12 @@
    "KuCoin",
    "LBank",
    "MEXC",
+   "Matcha (BSC)",
    "Ourbit",
    "Toobit",
    "XT.COM"
   ],
-  "cex_count": 11,
+  "cex_count": 12,
   "chat": null,
   "commits_4w": null,
   "description": "Infinity Ground aims to be the leading blockchain infrastructure for Vibe Coders, enabling anyone to build and own decentralized applications through natural language and agent collaboration. We envision a future where software is no longer written line-by-line, but co-created with AI agents in a fully decentralized, censorship-resistant environment. Through our Agentic IDE, AI App Store, and ING Network, we are building a new internet native to creativity, autonomy, and collective intelligence.\n\nInfinity Ground\u2019s current core product is the First Decentralized Agentic IDE\u2014a revolutionary development platform powered by AI agents. Users can describe what they want to build in natural language, and the system generates fully functional DApps without requiring any coding knowledge. The IDE supports instant deployment, a growing library of customizable templates, and smooth integration with our AI App Store for publishing and monetization. This is not just a builder\u2014it\u2019s the beginning of a new creative economy driven by agentic collaboration.",
@@ -2375,7 +2469,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x9558a9254890B2A8B057a789F413631B9084f4a3",
-  "fetched": "2026-10-26T00:26:30.985192+00:00",
+  "fetched": "2026-10-28T20:45:51.799260+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.infinityg.ai/",
@@ -2383,13 +2477,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/InfinityGroundAnn",
   "telegram_users": null,
   "twitter": "https://x.com/infinityg_ai",
   "twitter_followers": null,
-  "watchers": 950
+  "watchers": 1210
  },
  "intel-ondo-tokenized-stock": {
   "categories": [
@@ -2512,7 +2606,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-10-27T19:34:30.512584+00:00",
+  "fetched": "2026-10-28T20:45:58.288161+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2523,13 +2617,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 1126
+  "watchers": 1127
  },
  "jean-phil": {
   "categories": [
@@ -2794,7 +2888,7 @@
   ],
   "discord": "https://discord.gg/RR4kFAh",
   "explorer": "https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239",
-  "fetched": "2026-10-26T00:25:17.352786+00:00",
+  "fetched": "2026-10-28T20:47:08.618711+00:00",
   "genesis": "2018-10-01",
   "github": "https://github.com/livepeer/livepeerjs",
   "homepage": "https://livepeer.org/",
@@ -2804,13 +2898,13 @@
    "harmony-shard-0"
   ],
   "reddit": "https://www.reddit.com/r/livepeer",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/livepeerorg",
   "telegram_users": null,
   "twitter": "https://x.com/Livepeer",
   "twitter_followers": null,
-  "watchers": 38971
+  "watchers": 38970
  },
  "magic": {
   "categories": [
@@ -4195,6 +4289,44 @@
   "twitter_followers": null,
   "watchers": 10163
  },
+ "strategy-tokenized-bstocks": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "LBank"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xE87afb3076AeB0f9B14E368DE8145ae6a2826A14",
+  "fetched": "2026-10-28T20:47:05.013453+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 53
+ },
  "subsquid": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4312,6 +4444,60 @@
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
   "watchers": 28875
+ },
+ "tesla-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Binance Alpha Spotlight",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "BingX",
+   "CoinW",
+   "Gate",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks",
+   "Toobit"
+  ],
+  "cex_count": 8,
+  "chat": null,
+  "commits_4w": null,
+  "description": "TSLAon is the Ondo Tokenized version of Tesla, giving tokenholders economic exposure similar to holding TSLA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+  "fetched": "2026-10-28T20:47:15.067279+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/tslaon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 380
  },
  "the-innovation-game": {
   "categories": [
