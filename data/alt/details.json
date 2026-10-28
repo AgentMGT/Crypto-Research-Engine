@@ -69,7 +69,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-10-26T20:02:36.899030+00:00",
+  "fetched": "2026-10-28T00:25:42.378009+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -180,7 +180,7 @@
   ],
   "discord": "https://discord.com/invite/aleo",
   "explorer": "https://aleoscan.io/",
-  "fetched": "2026-10-25T17:46:55.576188+00:00",
+  "fetched": "2026-10-28T00:27:15.151003+00:00",
   "genesis": null,
   "github": "https://github.com/AleoNet",
   "homepage": "https://www.aleo.org/",
@@ -188,13 +188,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 71.43,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AleoHQ",
   "twitter_followers": null,
-  "watchers": 9356
+  "watchers": 9360
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -219,7 +219,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-  "fetched": "2026-10-26T20:02:46.821519+00:00",
+  "fetched": "2026-10-28T00:25:45.577910+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://prestocks.com/anthropic",
@@ -233,7 +233,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PreStocks",
   "twitter_followers": null,
-  "watchers": 347
+  "watchers": 350
  },
  "api3": {
   "categories": [
@@ -456,7 +456,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-26T13:01:36.584686+00:00",
+  "fetched": "2026-10-28T00:24:39.073306+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -466,13 +466,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23711
+  "watchers": 23712
  },
  "basecat": {
   "categories": [
@@ -783,7 +783,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-25T00:27:31.116144+00:00",
+  "fetched": "2026-10-28T00:27:05.079778+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -792,7 +792,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1140,7 +1140,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8",
-  "fetched": "2026-10-26T13:01:33.384820+00:00",
+  "fetched": "2026-10-28T00:24:35.877147+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://claus.si/",
@@ -1148,13 +1148,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/contractclaus",
   "twitter_followers": null,
-  "watchers": 123
+  "watchers": 124
  },
  "clawpump-tech": {
   "categories": [
@@ -1269,7 +1269,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-26T20:00:09.154311+00:00",
+  "fetched": "2026-10-28T00:25:55.266356+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1278,13 +1278,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/codecflow",
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1714
+  "watchers": 1712
  },
  "concierge-io": {
   "categories": [
@@ -1335,6 +1335,52 @@
   "twitter": "https://x.com/AVAFoundation",
   "twitter_followers": null,
   "watchers": 27658
+ },
+ "constitutiondao": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "PolitiFi"
+  ],
+  "cex": [
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitunix"
+  ],
+  "cex_count": 41,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
+  "fetched": "2026-10-28T00:24:32.539117+00:00",
+  "genesis": null,
+  "github": "https://github.com/ConstitutionDAO",
+  "homepage": "https://www.constitutiondao.com/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/constitutiondao",
+  "twitter_followers": null,
+  "watchers": 19300
  },
  "cookie": {
   "categories": [
@@ -1498,7 +1544,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-10-26T00:25:13.912700+00:00",
+  "fetched": "2026-10-28T00:28:18.445401+00:00",
   "genesis": null,
   "github": "https://github.com/Digita-Entertainment-Asset/DEP",
   "homepage": "https://dea.sg/",
@@ -1515,7 +1561,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
-  "watchers": 10315
+  "watchers": 10317
  },
  "degen-base": {
   "categories": [
@@ -1624,12 +1670,11 @@
   ],
   "cex": [
    "BingX",
-   "DigiFinex",
    "Gate",
    "KuCoin",
    "MEXC"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": "https://www.linkedin.com/company/dimitra-technology/",
   "commits_4w": null,
   "description": "The Dimitra (DMTR) is a blockchain platform that is democratizing the Agricultural Technology space for smallholder farmers globally. Dimitra provides access to the blockchain, machine learning, Internet of Things sensors, and Satellite Technology through a mobile platform that helps farmers globally increase their yield, reduce costs and mitigate risks. Current farming practices are not sustainable; creating an evolution of practices will contribute to solving some of today's largest issues for farmers. Issues like poverty, hunger, global warming, carbon emissions, freshwater, and soil preservation are all impacted by the adoption of Dimitra. Dimitra\u2019s platform provides utility by combining the crypto investment cycle with agricultural development practices within nations globally.",
@@ -1639,7 +1684,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
-  "fetched": "2026-10-26T19:59:45.313260+00:00",
+  "fetched": "2026-10-28T00:25:52.054504+00:00",
   "genesis": null,
   "github": "https://github.com/DimitraAgTech",
   "homepage": "https://dimitra.io",
@@ -1653,7 +1698,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/dimitratech",
   "twitter_followers": null,
-  "watchers": 13514
+  "watchers": 13516
  },
  "doge-pepe-4": {
   "categories": [
@@ -1715,7 +1760,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-10-26T19:59:35.580391+00:00",
+  "fetched": "2026-10-28T00:23:25.927044+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dji6930.com/",
@@ -1723,13 +1768,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/DOWGEPortal",
   "telegram_users": null,
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
-  "watchers": 3496
+  "watchers": 3502
  },
  "dusk-network": {
   "categories": [
@@ -1756,7 +1801,7 @@
    "BloFin",
    "CEX.IO"
   ],
-  "cex_count": 30,
+  "cex_count": 32,
   "chat": null,
   "commits_4w": null,
   "description": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ\u2014Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe.",
@@ -1769,7 +1814,7 @@
   ],
   "discord": "https://discord.gg/dusk-official",
   "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-10-26T19:59:38.886130+00:00",
+  "fetched": "2026-10-28T00:25:48.837676+00:00",
   "genesis": null,
   "github": "https://github.com/dusk-network/dusk-blockchain",
   "homepage": "https://dusk.network/",
@@ -1778,7 +1823,7 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 60.0,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": "https://t.me/DuskNetwork",
   "telegram_users": null,
@@ -1940,7 +1985,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-26T20:01:26.759056+00:00",
+  "fetched": "2026-10-28T00:27:01.865701+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1957,7 +2002,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7670
+  "watchers": 7679
  },
  "froggie": {
   "categories": [
@@ -2454,6 +2499,49 @@
   "twitter": "https://x.com/infinityg_ai",
   "twitter_followers": null,
   "watchers": 950
+ },
+ "intel-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "INTCon is the Ondo Tokenized version of Intel, giving tokenholders economic exposure similar to holding INTC and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xFdA09936DbD717368De0835bA441d9E62069d36f",
+  "fetched": "2026-10-28T00:27:08.320710+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/intcon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 277
  },
  "ishares-msci-south-korea-etf-bstocks-tokenized-stock": {
   "categories": [
@@ -3267,7 +3355,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-26T13:00:15.519604+00:00",
+  "fetched": "2026-10-28T00:27:11.952542+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3275,13 +3363,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7947
+  "watchers": 7948
  },
  "niannian-2": {
   "categories": [
@@ -4021,7 +4109,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 57,
+  "cex_count": 58,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4035,7 +4123,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-26T13:02:49.328754+00:00",
+  "fetched": "2026-10-28T00:28:21.655248+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4052,7 +4140,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90689
+  "watchers": 90687
  },
  "resistance-dog": {
   "categories": [
@@ -4192,6 +4280,37 @@
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
   "watchers": 25867
+ },
+ "saucecoin": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
+  "fetched": "2026-10-28T00:24:29.291032+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 11
  },
  "silencio": {
   "categories": [
@@ -4869,7 +4988,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-26T20:01:23.441069+00:00",
+  "fetched": "2026-10-28T00:26:58.583308+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -4877,7 +4996,7 @@
    "etherlink"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/Uranium_Community",
   "telegram_users": null,
@@ -4901,7 +5020,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-26T19:58:25.917421+00:00",
+  "fetched": "2026-10-28T00:23:22.617389+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -4909,13 +5028,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/+o9WcbT5JyIFkZTM0",
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 164
+  "watchers": 166
  },
  "win-jie": {
   "categories": [
@@ -4934,7 +5053,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
-  "fetched": "2026-10-26T19:58:22.642533+00:00",
+  "fetched": "2026-10-28T00:23:19.411631+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",

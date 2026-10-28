@@ -88,10 +88,10 @@
 },
 "bitmind-ai/yugos": {
 "capped": false,
-"commits_30d": 47,
-"last_commit": "2026-10-26T21:36:02Z",
+"commits_30d": 60,
+"last_commit": "2026-10-28T00:06:18Z",
 "repo": "BitMind-AI/yugos",
-"t": 1793102803.1001134
+"t": 1793146834.1177459
 },
 "bitsec-ai/sandbox": {
 "capped": false,
