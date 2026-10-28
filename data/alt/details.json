@@ -407,7 +407,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-  "fetched": "2026-10-27T19:30:48.447852+00:00",
+  "fetched": "2026-10-28T19:36:19.709075+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
@@ -421,7 +421,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 59
+  "watchers": 60
  },
  "aurora-near": {
   "categories": [
@@ -558,7 +558,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-10-27T19:33:27.291897+00:00",
+  "fetched": "2026-10-28T19:39:58.543954+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -569,7 +569,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
@@ -682,9 +682,10 @@
    "LBank",
    "MEXC",
    "Ourbit",
+   "Poloniex",
    "XT.COM"
   ],
-  "cex_count": 5,
+  "cex_count": 6,
   "chat": null,
   "commits_4w": null,
   "description": "Bobo Coin is a meme Solana token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.",
@@ -693,7 +694,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-27T19:30:51.712529+00:00",
+  "fetched": "2026-10-28T19:36:13.251278+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -777,7 +778,7 @@
   ],
   "discord": null,
   "explorer": "https://www.arbiscan.io/token/0x38bac69cbbd28156796e4163b2b6dcb81e336565",
-  "fetched": "2026-10-27T12:11:01.996396+00:00",
+  "fetched": "2026-10-28T19:41:14.106823+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://xstocks.com/",
@@ -794,7 +795,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
-  "watchers": 184
+  "watchers": 186
  },
  "bubblemaps": {
   "categories": [
@@ -909,48 +910,6 @@
   "twitter_followers": null,
   "watchers": 7479
  },
- "cea-industries-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank",
-   "Topaz"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
-  "fetched": "2026-10-25T17:46:45.981548+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 61
- },
  "centrifuge-2": {
   "categories": [
    "Ethereum Ecosystem",
@@ -1039,47 +998,6 @@
   "twitter": "https://x.com/RealityFi_xyz",
   "twitter_followers": null,
   "watchers": 13
- },
- "claudia-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Entertainment",
-   "Solana Ecosystem",
-   "Meme",
-   "AI Agents",
-   "TikTok Meme"
-  ],
-  "cex": [
-   "LBank",
-   "MEXC"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
-  "dex": [
-   "Meteora",
-   "Meteora DAMM V2",
-   "Orca",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-10-25T17:42:03.960573+00:00",
-  "genesis": null,
-  "github": "https://github.com/claudia-onchain",
-  "homepage": "https://useclaudia.xyz/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 50.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/claudia_onchain",
-  "twitter_followers": null,
-  "watchers": 80
  },
  "claus-2": {
   "categories": [
@@ -1367,13 +1285,13 @@
    "BitKan",
    "Bitget",
    "Bithumb",
+   "Bitkub",
    "Bitrue",
    "Bittime",
    "Bitunix",
-   "BloFin",
-   "Bybit"
+   "BloFin"
   ],
-  "cex_count": 31,
+  "cex_count": 32,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1386,7 +1304,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-10-27T19:32:17.682221+00:00",
+  "fetched": "2026-10-28T19:38:45.586710+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1396,13 +1314,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/cookie_dao",
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33318
+  "watchers": 33320
  },
  "dacity-coin-2": {
   "categories": [
@@ -1601,46 +1519,6 @@
   "twitter_followers": null,
   "watchers": 24100
  },
- "diem": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Base Ecosystem",
-   "Base Native",
-   "Venice Ecosystem"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "Coinbase Exchange"
-  ],
-  "cex_count": 2,
-  "chat": "https://www.youtube.com/@askvenice",
-  "commits_4w": null,
-  "description": "DIEM transforms AI compute from a service you rent into an onchain asset you own: tokenized intelligence. Each Diem token represents $1 per day of Venice API capacity that never expires and never changes value. \nDIEM are ERC20 tokens on Base and can be transferred, traded, and staked. DIEM can only be minted by locking staked VVV (sVVV), making DIEM and VVV a foundational assets for onchain AI.\nTokenizing intelligence with DIEM creates new possibilities:\n\nDevelopers/agents: 1 DIEM = $1/day Venice API access, forever\nVVV holders: Monetize unused compute as DIEM \u2192 earn yield \u2192 buy back later to unlock VVV\nApps: Fixed AI costs, guaranteed capacity, no variable API bills\nOnchain economy: Agents own their intelligence, DeFi collateralizes compute\n\nMinting DIEM with VVV creates a brand-new onchain building block for AI \u2013 programmable, composable compute\n",
-  "dex": [
-   "Aerodrome (Base)",
-   "Aerodrome SlipStream",
-   "Aerodrome Slipstream 3",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/address/0xf4d97f2da56e8c3098f3a8d538db630a2606a024",
-  "fetched": "2026-10-25T17:46:58.784694+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://venice.ai",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/AskVenice",
-  "twitter_followers": null,
-  "watchers": 1409
- },
  "dimitra": {
   "categories": [
    "Ethereum Ecosystem",
@@ -1783,11 +1661,12 @@
    "Bitunix",
    "DigiFinex",
    "Gate",
+   "KuCoin",
    "LBank",
    "Ourbit",
    "XT.COM"
   ],
-  "cex_count": 8,
+  "cex_count": 9,
   "chat": null,
   "commits_4w": null,
   "description": "1st ever Superhero meme \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8 I am Eagle\u2019s Landing \ud83e\udd85\nAmerica 1st, bold eagle 1st, So be the EGL1.",
@@ -1796,7 +1675,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
-  "fetched": "2026-10-26T19:59:32.361784+00:00",
+  "fetched": "2026-10-28T19:36:16.467659+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://eagles.land",
@@ -1883,6 +1762,48 @@
   "twitter": "https://x.com/bnbFatCat",
   "twitter_followers": null,
   "watchers": 7
+ },
+ "fluence-2": {
+  "categories": [
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Multicoin Capital Portfolio",
+   "Alameda Research Portfolio",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BingX",
+   "Gate",
+   "Kanga Global",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The Fluence DePIN platform frees computation from centralized clouds by offering natively decentralized, low cost, and verifiable compute.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
+  "fetched": "2026-10-28T19:39:52.064206+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://fluence.network/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/fluence_project",
+  "twitter_followers": null,
+  "watchers": 8579
  },
  "forta": {
   "categories": [
@@ -2079,7 +2000,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-10-27T01:32:06.801942+00:00",
+  "fetched": "2026-10-28T19:37:26.191416+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2087,7 +2008,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2347,7 +2268,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xCa468554e5C0423Ee858fe3942c9568C51FcAa79",
-  "fetched": "2026-10-27T19:32:14.488058+00:00",
+  "fetched": "2026-10-28T19:38:39.154506+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/himson",
@@ -2394,7 +2315,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 36,
+  "cex_count": 35,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2405,7 +2326,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-27T19:34:40.433049+00:00",
+  "fetched": "2026-10-28T19:40:07.452415+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2422,7 +2343,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35769
+  "watchers": 35771
  },
  "infinity-ground": {
   "categories": [
@@ -2745,11 +2666,12 @@
    "Bybit",
    "Gate",
    "Kraken",
+   "KuCoin",
    "MEXC",
    "Osmosis",
    "Toobit"
   ],
-  "cex_count": 6,
+  "cex_count": 7,
   "chat": "https://www.lavanet.xyz/blog",
   "commits_4w": null,
   "description": "Lava's vision is to enable AI agents and anyone to use blockchain apps, 24/7, with no downtime.\n\nLava is a protocol which coordinates traffic from AI agents, apps and wallets on every blockchain. Specifically, the protocol focuses on RPC requests, which are used by everyone to make basic blockchain interactions such as sending any transaction or checking your wallet address. \n\nLava aggregates data providers and directs RPC traffic based on the speed and reliability of the provider. The protocol has chains and apps like NEAR, Starknet, Filecoin, and Axelar already paying LAVA stakers and providers $1m+ to offer ultra-reliable service. \n",
@@ -2760,7 +2682,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-10-27T01:34:29.672840+00:00",
+  "fetched": "2026-10-28T19:37:32.665970+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2776,7 +2698,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3594
+  "watchers": 3593
  },
  "limewire-token": {
   "categories": [
@@ -2933,7 +2855,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-27T19:30:58.192365+00:00",
+  "fetched": "2026-10-28T19:39:55.320666+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2943,13 +2865,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38916
+  "watchers": 38914
  },
  "mamo": {
   "categories": [
@@ -3312,7 +3234,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-10-27T12:09:38.795884+00:00",
+  "fetched": "2026-10-28T19:37:22.945868+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://ninjatraders.io/",
@@ -3448,74 +3370,54 @@
   "twitter_followers": null,
   "watchers": 15
  },
- "orderly-network": {
+ "openeden": {
   "categories": [
-   "Smart Contract Platform",
-   "Decentralized Finance (DeFi)",
    "BNB Chain Ecosystem",
-   "Perpetuals",
-   "Solana Ecosystem",
-   "Avalanche Ecosystem",
-   "Polygon Ecosystem",
-   "Arbitrum Ecosystem",
    "Ethereum Ecosystem",
-   "Optimism Ecosystem",
-   "Layer 2 (L2)",
-   "Base Ecosystem",
-   "DragonFly Capital Portfolio",
-   "Pantera Capital Portfolio",
-   "Sequoia Capital Portfolio",
-   "OKX Ventures Portfolio",
-   "Optimism Superchain Ecosystem",
-   "Binance Alpha Spotlight",
-   "Abstract Ecosystem",
-   "Base Native"
+   "Real World Assets (RWA)",
+   "RWA Protocol"
   ],
   "cex": [
-   "BTCC",
-   "BTSE",
    "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
    "Bitget",
    "Bithumb",
    "Bitkub",
    "Bitrue",
    "Bitunix",
+   "Bitvavo",
    "BloFin",
-   "Bybit",
-   "CoinW",
    "Coinone"
   ],
-  "cex_count": 25,
-  "chat": "https://medium.com/@orderlynetwork",
+  "cex_count": 21,
+  "chat": null,
   "commits_4w": null,
-  "description": "Orderly Network is a L2 built on OP stack delivering a permissionless liquidity layer for Web3 trading, with one shared orderbook across different blockchains \u2014 powered by Orderly Chain and LayerZero. Our mission is to empower trading on any chain, any asset, any interface. Orderly offers spot and perpetual futures orderbooks trading across Arbitrum, Optimism, Polygon, Base ,Mantle and Near, while expanding to other blockchains.",
+  "description": "OpenEden offers 24/7, on-chain access to tokenized US Treasury securities for Web3 CFOs, DAO treasury managers, and buy-side institutional investors seeking low-risk, highly liquid crypto cash management solutions.\n\nWe are the first tokenized real-world asset (RWA) issuer to receive a Moody's \"A-bf\" bond fund rating. Since launching in early 2023, OpenEden has already become the largest issuer of tokenied US Treasuries in Asia and Europe.\n\nAs part of our end-to-end tokenization stack, OpenEden is directly involved through its licensed investment management entity which manages its BVI-registered professional fund, which issues the $TBILL tokens and custodises the underlying assets with licensed third party custodians.  ",
   "dex": [
-   "Aerodrome SlipStream",
-   "PancakeSwap V3 (Arbitrum)",
-   "PancakeSwap V3 (BSC)",
-   "PancakeSwap V3 (Ethereum)",
-   "Raydium (CLMM)"
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (Ethereum)"
   ],
-  "discord": "https://discord.com/invite/orderlynetwork",
-  "explorer": "https://etherscan.io/token/0xabd4c63d2616a5201454168269031355f4764337",
-  "fetched": "2026-10-25T17:45:42.726052+00:00",
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x235B6fe22B4642aDa16D311855c49Ce7DE260841",
+  "fetched": "2026-10-28T19:41:17.326630+00:00",
   "genesis": null,
-  "github": "https://github.com/OrderlyNetwork",
-  "homepage": "https://orderly.network/",
+  "github": null,
+  "homepage": "https://openeden.com/",
   "platforms": [
-   "abstract",
-   "arbitrum-one",
-   "avalanche",
-   "base"
+   "binance-smart-chain",
+   "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 9.09,
+  "sentiment_up": null,
   "stars": null,
-  "telegram": "https://t.me/OrderlyNetworkAnnouncements",
+  "telegram": "https://t.me/openeden",
   "telegram_users": null,
-  "twitter": null,
+  "twitter": "https://x.com/OpenEden_X",
   "twitter_followers": null,
-  "watchers": 12265
+  "watchers": 2242
  },
  "ore": {
   "categories": [
@@ -3644,7 +3546,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-27T19:31:01.447524+00:00",
+  "fetched": "2026-10-28T19:40:10.787384+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3655,13 +3557,13 @@
    "polygon-pos"
   ],
   "reddit": "https://www.reddit.comhttps://www.reddit.com/r/OVR_AR_Platform/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/OVRtheReality",
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114926
+  "watchers": 114924
  },
  "pinlink": {
   "categories": [
@@ -3803,7 +3705,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 40,
+  "cex_count": 41,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -3814,7 +3716,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-27T19:32:11.255557+00:00",
+  "fetched": "2026-10-28T19:38:48.814585+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -3824,13 +3726,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 75.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12565
+  "watchers": 12570
  },
  "reserve-rights-token": {
   "categories": [
@@ -3951,7 +3853,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-26T19:59:42.096974+00:00",
+  "fetched": "2026-10-28T19:37:29.430663+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -3968,7 +3870,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/trize_io",
   "twitter_followers": null,
-  "watchers": 7331
+  "watchers": 7329
  },
  "rocket-pool": {
   "categories": [
@@ -4000,7 +3902,7 @@
    "Bithumb",
    "Bitkub"
   ],
-  "cex_count": 45,
+  "cex_count": 46,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4012,7 +3914,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-27T19:34:33.741453+00:00",
+  "fetched": "2026-10-28T19:40:02.952624+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4028,7 +3930,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25867
+  "watchers": 25868
  },
  "saucecoin": {
   "categories": [
@@ -4163,16 +4065,18 @@
    "Tokenized Stocks",
    "Ethereum Ecosystem",
    "Real World Assets (RWA)",
-   "Ondo Tokenized Assets"
+   "Ondo Tokenized Assets",
+   "Robinhood Ecosystem"
   ],
   "cex": [
    "CoinW",
    "Gate",
    "LBank",
    "MEXC",
+   "Manifest",
    "Ondo Stocks"
   ],
-  "cex_count": 5,
+  "cex_count": 6,
   "chat": null,
   "commits_4w": null,
   "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SPCX and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
@@ -4181,17 +4085,19 @@
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (BSC)",
    "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xc9eef266834730340A55B6CC24621B31BAF55581",
-  "fetched": "2026-10-27T01:36:58.819241+00:00",
+  "fetched": "2026-10-28T19:38:35.909723+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/",
   "platforms": [
    "binance-smart-chain",
    "ethereum",
+   "robinhood",
    "solana"
   ],
   "reddit": null,
@@ -4288,44 +4194,6 @@
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
   "watchers": 10163
- },
- "strategy-tokenized-bstocks": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xE87afb3076AeB0f9B14E368DE8145ae6a2826A14",
-  "fetched": "2026-10-25T17:46:52.377196+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 52
  },
  "subsquid": {
   "categories": [
@@ -5005,7 +4873,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-10-27T19:33:20.886933+00:00",
+  "fetched": "2026-10-28T19:38:42.365660+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
