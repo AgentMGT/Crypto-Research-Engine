@@ -457,12 +457,11 @@
   "description": "",
   "dex": [
    "Meteora",
-   "Orca",
    "PumpSwap"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-  "fetched": "2026-10-28T19:36:19.709075+00:00",
+  "fetched": "2026-10-29T19:41:42.605754+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
@@ -470,13 +469,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 60
+  "watchers": 62
  },
  "aurora-near": {
   "categories": [
@@ -559,7 +558,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
-  "fetched": "2026-10-27T12:09:42.098111+00:00",
+  "fetched": "2026-10-29T19:41:49.065059+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basecatonbase.com",
@@ -573,7 +572,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BasecatOnBase",
   "twitter_followers": null,
-  "watchers": 979
+  "watchers": 989
  },
  "bio-protocol": {
   "categories": [
@@ -599,7 +598,7 @@
    "Bithumb",
    "Bitlo"
   ],
-  "cex_count": 49,
+  "cex_count": 50,
   "chat": null,
   "commits_4w": null,
   "description": "BIO is a curation and liquidity protocol for Decentralized Science (DeSci). Our mission is to accelerate biotechnology by giving global communities of patients, scientists and biotech professionals the ability to collectively fund, build and own tokenized biotech projects and intellectual property (IP). \n\nThe team behind BIO helped create Molecule, a tokenization platform for early-stage biomedicine, and VitaDAO, the largest decentralized community for longevity science. Building on these successes, BIO is designed to catalyze an onchain scientific economy through decentralized funding, incentives and liquidity.\n\nThe BIO token gives holders access to BIO's network of scientific communities and IP, enabling broad exposure to the DeSci economy.",
@@ -613,7 +612,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-10-28T19:39:58.543954+00:00",
+  "fetched": "2026-10-29T19:45:28.495919+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -624,13 +623,55 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17128
+  "watchers": 17127
+ },
+ "blue-chip-4": {
+  "categories": [
+   "Meme",
+   "Base Ecosystem",
+   "Base Meme"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Coinbase Exchange",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Matcha (Base)",
+   "Ourbit",
+   "o1 Launchpad"
+  ],
+  "cex_count": 8,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Bluechip on Base paired with tokenized NVDA stock",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
+  "fetched": "2026-10-29T19:41:45.832500+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://basebluechip.com/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/o1bluechip",
+  "twitter_followers": null,
+  "watchers": 346
  },
  "bobo-coin-2": {
   "categories": [
@@ -657,7 +698,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-28T19:36:13.251278+00:00",
+  "fetched": "2026-10-29T19:40:39.345183+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -671,7 +712,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/bobocouncil",
   "twitter_followers": null,
-  "watchers": 423
+  "watchers": 422
  },
  "brickken": {
   "categories": [
@@ -696,7 +737,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-28T00:27:05.079778+00:00",
+  "fetched": "2026-10-29T19:45:34.973516+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -705,13 +746,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114140
+  "watchers": 114141
  },
  "broadcom-xstock": {
   "categories": [
@@ -907,7 +948,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
-  "fetched": "2026-10-27T19:34:37.047559+00:00",
+  "fetched": "2026-10-29T19:45:31.748738+00:00",
   "genesis": null,
   "github": "https://github.com/centrifuge/",
   "homepage": "https://centrifuge.io/",
@@ -915,13 +956,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/centrifuge_chat",
   "telegram_users": null,
   "twitter": "https://x.com/centrifuge",
   "twitter_followers": null,
-  "watchers": 7514
+  "watchers": 7530
  },
  "circle-rstock-2": {
   "categories": [
@@ -1267,7 +1308,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-10-28T19:38:45.586710+00:00",
+  "fetched": "2026-10-29T19:43:15.337995+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1283,7 +1324,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33320
+  "watchers": 33318
  },
  "dacity-coin-2": {
   "categories": [
@@ -1430,11 +1471,12 @@
   ],
   "cex": [
    "BingX",
+   "DigiFinex",
    "Gate",
    "KuCoin",
    "MEXC"
   ],
-  "cex_count": 4,
+  "cex_count": 5,
   "chat": "https://www.linkedin.com/company/dimitra-technology/",
   "commits_4w": null,
   "description": "The Dimitra (DMTR) is a blockchain platform that is democratizing the Agricultural Technology space for smallholder farmers globally. Dimitra provides access to the blockchain, machine learning, Internet of Things sensors, and Satellite Technology through a mobile platform that helps farmers globally increase their yield, reduce costs and mitigate risks. Current farming practices are not sustainable; creating an evolution of practices will contribute to solving some of today's largest issues for farmers. Issues like poverty, hunger, global warming, carbon emissions, freshwater, and soil preservation are all impacted by the adoption of Dimitra. Dimitra\u2019s platform provides utility by combining the crypto investment cycle with agricultural development practices within nations globally.",
@@ -1444,7 +1486,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
-  "fetched": "2026-10-28T00:25:52.054504+00:00",
+  "fetched": "2026-10-29T19:43:02.215790+00:00",
   "genesis": null,
   "github": "https://github.com/DimitraAgTech",
   "homepage": "https://dimitra.io",
@@ -1458,7 +1500,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/dimitratech",
   "twitter_followers": null,
-  "watchers": 13516
+  "watchers": 13514
  },
  "dowge": {
   "categories": [
@@ -1886,7 +1928,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-27T12:10:51.956429+00:00",
+  "fetched": "2026-10-29T19:43:08.777908+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -1903,44 +1945,6 @@
   "twitter": "https://x.com/GamerHashCom",
   "twitter_followers": null,
   "watchers": 23664
- },
- "gamestop-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-26T13:01:39.774536+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 44
  },
  "georgeplaysclashroyale": {
   "categories": [
@@ -2256,19 +2260,21 @@
    "Ondo Tokenized Assets"
   ],
   "cex": [
+   "CommunityV3",
    "KCEX",
    "LBank",
    "MEXC",
+   "Manifest",
    "Ondo Stocks"
   ],
-  "cex_count": 4,
+  "cex_count": 6,
   "chat": null,
   "commits_4w": null,
   "description": "HIMSon is the Ondo Tokenized version of Hims &amp; Hers Health, giving tokenholders economic exposure similar to holding HIMS and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xCa468554e5C0423Ee858fe3942c9568C51FcAa79",
-  "fetched": "2026-10-28T19:38:39.154506+00:00",
+  "fetched": "2026-10-29T19:43:05.543687+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/himson",
@@ -2315,7 +2321,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 35,
+  "cex_count": 34,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2326,7 +2332,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-28T19:40:07.452415+00:00",
+  "fetched": "2026-10-29T19:45:38.234133+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2337,13 +2343,13 @@
    "sora"
   ],
   "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/iexec_rlc_official",
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35771
+  "watchers": 35773
  },
  "infinity-ground": {
   "categories": [
@@ -2683,7 +2689,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-10-28T19:37:32.665970+00:00",
+  "fetched": "2026-10-29T19:42:58.854557+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2699,7 +2705,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3593
+  "watchers": 3595
  },
  "limewire-token": {
   "categories": [
@@ -2912,7 +2918,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-28T19:39:55.320666+00:00",
+  "fetched": "2026-10-29T19:45:25.273998+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2928,7 +2934,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38914
+  "watchers": 38915
  },
  "mamo": {
   "categories": [
@@ -3454,7 +3460,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/BwB3tNH92jKw6naNGDYDbDwRo8bvYxZVvZjRZRcoWR2h",
-  "fetched": "2026-10-28T12:51:59.360676+00:00",
+  "fetched": "2026-10-29T19:43:12.016211+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.obligate.com/otfy",
@@ -3863,7 +3869,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-28T19:38:48.814585+00:00",
+  "fetched": "2026-10-29T19:46:41.502570+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -3873,13 +3879,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12570
+  "watchers": 12576
  },
  "reserve-rights-token": {
   "categories": [
@@ -3987,9 +3993,10 @@
   ],
   "cex": [
    "Aero Slipstream (Base)",
+   "Kraken",
    "MEXC"
   ],
-  "cex_count": 2,
+  "cex_count": 3,
   "chat": "https://www.youtube.com/@TRIZE_DIGITAL_ASSETS",
   "commits_4w": null,
   "description": "T-RIZE is an institutional-grade tokenization platform designed for the compliant tokenization and distribution of real-world assets (RWAs). It allows asset owners to tokenize projects and enables investors to access fractional ownership with onchain lifecycle management. The platform integrates with regulated distributors for compliant primary and secondary market access. It is further enhanced by a privacy-preserving decentralized machine learning infrastructure that accelerates due diligence, risk assessment, and valuation of tokenized assets.",
@@ -4000,7 +4007,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-28T19:37:29.430663+00:00",
+  "fetched": "2026-10-29T19:41:55.533333+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -4011,7 +4018,7 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/Rizenet_OfficialCommunity",
   "telegram_users": null,
@@ -4418,61 +4425,37 @@
   "twitter_followers": null,
   "watchers": 53
  },
- "subsquid": {
+ "super-intelligent-beauty": {
   "categories": [
-   "Artificial Intelligence (AI)",
-   "Big Data",
-   "Analytics",
-   "BNB Chain Ecosystem",
-   "Arbitrum Ecosystem",
-   "Base Ecosystem",
-   "CoinList Launchpad",
-   "Base Native"
+   "Meme",
+   "Ethereum Ecosystem",
+   "AI Meme"
   ],
-  "cex": [
-   "Bitkub",
-   "Bitrue",
-   "Bitunix",
-   "Bybit",
-   "CoinUp.io",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "Gate",
-   "HTX",
-   "KCEX",
-   "KuCoin",
-   "MEXC"
-  ],
-  "cex_count": 16,
+  "cex": [],
+  "cex_count": 0,
   "chat": null,
   "commits_4w": null,
-  "description": "Subsquid Network is an innovative decentralized data lake and query engine designed to offer developers performant and permissionless access to data, aiming to build a neutral and open internet rooted in Web3 principles. Secured by ZK proofs, the Subsquid network boasts a modular architecture that enables exceptional scalability and developer convenience optimized for blockchain indexing, dApp development, and analytics.\n\nSubsquid is a response to unscalable and rigid monolithic indexing frameworks that had previously gained popularity and market traction among Web3 developers. Today, these frameworks are struggling to adapt in a rapidly evolving blockchain environment. Additionally, the network serves as a highly efficient and decentralized alternative to centralized infrastructure firms, including large RPC and API providers.",
+  "description": "Super Intelligent Beauty brings futuristic anime aesthetics, extraordinary intelligence, and mysterious elegance together in one captivating meme token on Ethereum. Blending next-level beauty with powerful AI-inspired vibes, SIB creates a universe where genius meets glamour and internet culture meets crypto chaos. With stunning energy, a touch of mystery, and unstoppable meme power, Super Intelligent Beauty is ready to capture attention and turn heads across the blockchain. Beauty is intelligent, intelligence is beautiful, and the future is full of memes!",
   "dex": [
-   "Aerodrome (Base)",
-   "Aerodrome SlipStream",
-   "Aerodrome Slipstream 3",
-   "PancakeSwap V3 (Arbitrum)",
-   "PancakeSwap V3 (BSC)"
+   "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
-  "explorer": "https://arbiscan.io/token/0x1337420dED5ADb9980CFc35f8f2B054ea86f8aB1",
-  "fetched": "2026-10-26T13:02:46.157820+00:00",
+  "explorer": "https://etherscan.io/token/0xd7c80dCCE5B45b04d744DdBb0070374830dCab45",
+  "fetched": "2026-10-29T19:41:52.306500+00:00",
   "genesis": null,
-  "github": "https://github.com/subsquid",
-  "homepage": "https://sqd.dev",
+  "github": null,
+  "homepage": "https://www.sibeauty.fun",
   "platforms": [
-   "arbitrum-one",
-   "base",
-   "binance-smart-chain"
+   "ethereum"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
-  "telegram": "https://t.me/subsquid",
+  "telegram": "https://t.me/sibeautyeth",
   "telegram_users": null,
-  "twitter": "https://x.com/hellosqd",
+  "twitter": "https://x.com/sibeautyeth",
   "twitter_followers": null,
-  "watchers": 5087
+  "watchers": 11
  },
  "synapse-2": {
   "categories": [
@@ -4865,48 +4848,6 @@
   "twitter_followers": null,
   "watchers": 234
  },
- "unit-00-rei": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Base Ecosystem",
-   "AI Applications",
-   "AI Agent Launchpad",
-   "AI Framework",
-   "Base Native"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "KCEX"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "0xReisearch is a dynamic collective of AI and crypto enthusiasts committed to revolutionizing the intersection of artificial intelligence and blockchain. Our mission is to pioneer innovative methods for integrating neural architectures into blockchain ecosystems, with a primary focus on the Ethereum Virtual Machine (EVM). By addressing the challenges of merging AI's complexity with blockchain's deterministic nature, we aim to unlock new possibilities for scalable, efficient, and impactful applications. Through cutting-edge research and development, we are redefining how intelligence and decentralization converge, shaping the future of the AI x Blockchain landscape.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "Aerodrome Slipstream 2",
-   "Aerodrome Slipstream 3",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": "https://discord.com/invite/reilabs",
-  "explorer": "https://basescan.org/token/0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
-  "fetched": "2026-10-26T13:00:27.025414+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://reilabs.org/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/reiportal",
-  "telegram_users": null,
-  "twitter": "https://x.com/rei_labs",
-  "twitter_followers": null,
-  "watchers": 5188
- },
  "uranium": {
   "categories": [
    "Tokenized Assets",
@@ -5174,7 +5115,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-10-27T19:33:24.068334+00:00",
+  "fetched": "2026-10-29T19:44:21.915991+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5185,13 +5126,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 16.67,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/wormholecrypto",
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43527
+  "watchers": 43535
  },
  "xyo-network": {
   "categories": [
@@ -5328,12 +5269,12 @@
    "Gate",
    "HTX",
    "Hibt",
-   "LATOKEN",
    "Mudrex",
    "OKX",
-   "Ourbit"
+   "Ourbit",
+   "Toobit"
   ],
-  "cex_count": 13,
+  "cex_count": 12,
   "chat": "https://medium.com/zentry",
   "commits_4w": null,
   "description": "Zentry is building the Human-Agentic Operating System\u2014a next-gen AI + crypto infrastructure where human life fuels AI, and AI in turn amplifies human potential. Through its tri-layer stack (zApp, zAI, zData), Zentry transforms everyday activity into structured data, trains intelligent agents, and powers a new user-owned economy. It's not just tech\u2014it\u2019s a platform for civilization-scale co-evolution between people and machines.",
@@ -5343,7 +5284,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-10-28T19:38:42.365660+00:00",
+  "fetched": "2026-10-29T19:44:18.602765+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
@@ -5360,6 +5301,6 @@
   "telegram_users": null,
   "twitter": "https://x.com/zentry",
   "twitter_followers": null,
-  "watchers": 4416
+  "watchers": 4415
  }
 }
