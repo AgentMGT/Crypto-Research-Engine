@@ -235,7 +235,7 @@
   ],
   "discord": "https://discord.com/invite/aleo",
   "explorer": "https://aleoscan.io/",
-  "fetched": "2026-10-28T00:27:15.151003+00:00",
+  "fetched": "2026-10-29T01:55:07.551662+00:00",
   "genesis": null,
   "github": "https://github.com/AleoNet",
   "homepage": "https://www.aleo.org/",
@@ -243,13 +243,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 71.43,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AleoHQ",
   "twitter_followers": null,
-  "watchers": 9360
+  "watchers": 9362
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -511,7 +511,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-28T00:24:39.073306+00:00",
+  "fetched": "2026-10-29T01:53:49.441438+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -521,13 +521,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23712
+  "watchers": 23716
  },
  "basecat": {
   "categories": [
@@ -631,98 +631,6 @@
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
   "watchers": 17128
- },
- "blue-chip-4": {
-  "categories": [
-   "Meme",
-   "Base Ecosystem",
-   "Base Meme"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "Coinbase Exchange",
-   "Hibt",
-   "LBank",
-   "MEXC",
-   "Matcha (Base)",
-   "Ourbit",
-   "o1 Launchpad"
-  ],
-  "cex_count": 8,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Bluechip on Base paired with tokenized NVDA stock",
-  "dex": [
-   "Aerodrome Slipstream 3",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
-  "fetched": "2026-10-26T00:22:40.813536+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://basebluechip.com/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/o1bluechip",
-  "twitter_followers": null,
-  "watchers": 345
- },
- "bluzelle": {
-  "categories": [
-   "Smart Contract Platform",
-   "BNB Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Decentralized Science (DeSci)",
-   "Osmosis Ecosystem",
-   "Energi Ecosystem",
-   "GMCI DePIN Index",
-   "GMCI Index"
-  ],
-  "cex": [
-   "BingX",
-   "Coinbase Exchange",
-   "Gate",
-   "GroveX",
-   "Kraken",
-   "KuCoin",
-   "LATOKEN"
-  ],
-  "cex_count": 7,
-  "chat": null,
-  "commits_4w": null,
-  "description": "At Bluzelle, we see technology as a powerful tool to solve humanity's most pressing challenges. As creators of a robust decentralized blockchain ecosystem\u2014including the Bluzelle Chain, BLZ token, and NFT marketplace Capella\u2014we are uniquely positioned to revolutionize how science is conducted, funded, and shared. Our DeSci (Decentralized Science) platform is designed to empower all scientific fields, fostering innovation across disciplines. ",
-  "dex": [
-   "ApeSwap",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
-  "fetched": "2026-10-26T00:24:00.498616+00:00",
-  "genesis": "2018-01-15",
-  "github": "https://github.com/njmurarka/bluzelle",
-  "homepage": "https://bluzelle.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "energi",
-   "ethereum",
-   "osmosis"
-  ],
-  "reddit": "https://www.reddit.com/r/Bluzelle/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/bluzelle",
-  "telegram_users": null,
-  "twitter": "https://x.com/BluzelleHQ",
-  "twitter_followers": null,
-  "watchers": 23879
  },
  "bobo-coin-2": {
   "categories": [
@@ -1075,7 +983,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8",
-  "fetched": "2026-10-28T00:24:35.877147+00:00",
+  "fetched": "2026-10-29T01:54:59.237810+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://claus.si/",
@@ -1083,7 +991,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1204,7 +1112,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-28T00:25:55.266356+00:00",
+  "fetched": "2026-10-29T01:52:36.489817+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1219,7 +1127,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1712
+  "watchers": 1714
  },
  "concierge-io": {
   "categories": [
@@ -1385,10 +1293,9 @@
    "Pump.fun Ecosystem"
   ],
   "cex": [
-   "Hadron",
-   "Manifest"
+   "Hadron"
   ],
-  "cex_count": 2,
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -1398,7 +1305,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-10-28T01:22:31.442318+00:00",
+  "fetched": "2026-10-29T01:51:26.758098+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1406,13 +1313,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 110
+  "watchers": 115
  },
  "deapcoin": {
   "categories": [
@@ -1444,7 +1351,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-10-28T00:28:18.445401+00:00",
+  "fetched": "2026-10-29T01:56:24.037997+00:00",
   "genesis": null,
   "github": "https://github.com/Digita-Entertainment-Asset/DEP",
   "homepage": "https://dea.sg/",
@@ -1462,65 +1369,6 @@
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
   "watchers": 10317
- },
- "degen-base": {
-  "categories": [
-   "Smart Contract Platform",
-   "Meme",
-   "Base Ecosystem",
-   "Base Meme",
-   "Farcaster Ecosystem",
-   "Binance Alpha Spotlight",
-   "Base Native",
-   "Robinhood Ecosystem",
-   "Robinhood Chain Meme"
-  ],
-  "cex": [
-   "BTSE",
-   "BVOX",
-   "Bit2Me",
-   "Bitkub",
-   "Bitrue",
-   "Bittime",
-   "Bitvavo",
-   "Bybit",
-   "CoinUp.io",
-   "CoinW",
-   "Coinbase Exchange",
-   "Deepcoin"
-  ],
-  "cex_count": 31,
-  "chat": null,
-  "commits_4w": null,
-  "description": "DEGEN is more than a token. It's the economy behind a culture.\n\nBorn from a community and shaped by the people who participate in it, DEGEN has evolved into an ecosystem of products, communities, and onchain experiences. From opinion markets and digital identity to NFTs and future applications, the DEGEN token connects every part of the ecosystem through a shared economy.\n\nAs the ecosystem grows, every new product strengthens the network, giving the token utility beyond any single application",
-  "dex": [
-   "Aerodrome (Base)",
-   "Aerodrome SlipStream",
-   "Meteora",
-   "PancakeSwap V3 (Base)",
-   "Uniswap V2 (Base)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-  "fetched": "2026-10-26T00:22:47.297666+00:00",
-  "genesis": null,
-  "github": "https://github.com/jacek0x",
-  "homepage": "https://www.degen.tips/",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "ethereum",
-   "robinhood"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/degentokenbase",
-  "telegram_users": null,
-  "twitter": "https://x.com/degentokenbase",
-  "twitter_followers": null,
-  "watchers": 37913
  },
  "delysium": {
   "categories": [
@@ -1634,7 +1482,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-10-28T00:23:25.927044+00:00",
+  "fetched": "2026-10-29T01:51:20.361320+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dji6930.com/",
@@ -1642,13 +1490,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 40.0,
   "stars": null,
   "telegram": "https://t.me/DOWGEPortal",
   "telegram_users": null,
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
-  "watchers": 3502
+  "watchers": 3503
  },
  "dusk-network": {
   "categories": [
@@ -1675,7 +1523,7 @@
    "BloFin",
    "CEX.IO"
   ],
-  "cex_count": 32,
+  "cex_count": 31,
   "chat": null,
   "commits_4w": null,
   "description": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ\u2014Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe.",
@@ -1688,7 +1536,7 @@
   ],
   "discord": "https://discord.gg/dusk-official",
   "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-10-28T00:25:48.837676+00:00",
+  "fetched": "2026-10-29T01:55:14.067824+00:00",
   "genesis": null,
   "github": "https://github.com/dusk-network/dusk-blockchain",
   "homepage": "https://dusk.network/",
@@ -1697,13 +1545,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 33.33,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/DuskNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/DuskFoundation",
   "twitter_followers": null,
-  "watchers": 32067
+  "watchers": 32071
  },
  "egl1": {
   "categories": [
@@ -1745,6 +1593,65 @@
   "twitter": "https://x.com/egll_american",
   "twitter_followers": null,
   "watchers": 599
+ },
+ "everipedia": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Big Data",
+   "Media",
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "AI Agents",
+   "GMCI DePIN Index",
+   "Galaxy Digital Portfolio",
+   "GMCI Index",
+   "AI Agent Launchpad",
+   "AI Framework",
+   "DeFAI"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Binance",
+   "Bithumb",
+   "Bitkub",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "Indodax"
+  ],
+  "cex_count": 21,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The IQ token is a cryptocurrency that powers the Agent Tokenization Platform (ATP). ATP was built for developers to launch the next generation of tokenized agents that are verifiably autonomous and sovereign. These agents are capable of owning and managing digital and physical assets, from cryptocurrencies to DeFi transactions to robots.",
+  "dex": [
+   "Curve (Ethereum)",
+   "Fraxswap (Ethereum)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/RkMDgWy5XQ",
+  "explorer": "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+  "fetched": "2026-10-29T01:53:52.710120+00:00",
+  "genesis": null,
+  "github": "https://github.com/EveripediaNetwork/Everipedia",
+  "homepage": "https://iqindustries.com",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "polygon-pos"
+  ],
+  "reddit": "https://www.reddit.com/r/Everipedia/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/everipedia",
+  "telegram_users": null,
+  "twitter": "https://x.com/IQofficial",
+  "twitter_followers": null,
+  "watchers": 14931
  },
  "everything": {
   "categories": [
@@ -1899,7 +1806,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-28T00:27:01.865701+00:00",
+  "fetched": "2026-10-29T01:53:46.216277+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1916,7 +1823,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7679
+  "watchers": 7681
  },
  "froggie": {
   "categories": [
@@ -3202,7 +3109,7 @@
    "BloFin",
    "CEX.IO"
   ],
-  "cex_count": 28,
+  "cex_count": 27,
   "chat": null,
   "commits_4w": null,
   "description": "MyShell (http://myshell.ai/) is an AI consumer layer for everyone to build, share, and own AI agents. The team bridges AI and Blockchain through Agentic Frameworks, open-source models, and AI creator community. MyShell also provides users with AI-powered entertainment and utility while offering them shared ownership.\nTo learn more about MyShell, check the whitepaper (https://docs.myshell.ai/).\nMyShell leads in open-source AI with flagship models like MeloTTS (20M downloads in 2024) and OpenVoice (30K GitHub stars, top 0.03%). Both trended #1 on GitHub at launch.\nThe platform offers three modes for AI agent creation, catering to creators of different skill levels. ShellAgent is the most powerful and modular Agentic Framework.\nMyShell commercializes high-quality AI agents as investable assets for sustainable returns, benefiting both creators and investors.\nCurrently, 200K+ AI Agents are deployed on MyShell, with 170K active AI creators and 5M+ users.",
@@ -3211,7 +3118,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
-  "fetched": "2026-10-28T01:22:41.303777+00:00",
+  "fetched": "2026-10-29T01:53:55.945406+00:00",
   "genesis": null,
   "github": "https://github.com/myshell-ai",
   "homepage": "https://myshell.ai/",
@@ -3220,13 +3127,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/myshell_ai",
   "twitter_followers": null,
-  "watchers": 3907
+  "watchers": 3909
  },
  "natix-network": {
   "categories": [
@@ -3534,7 +3441,7 @@
   ],
   "discord": "https://discord.gg/bSKU7TdtcY",
   "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-  "fetched": "2026-10-27T12:10:55.176898+00:00",
+  "fetched": "2026-10-29T01:53:42.975287+00:00",
   "genesis": null,
   "github": "https://github.com/regolith-labs/ore",
   "homepage": "https://ore.supply/",
@@ -3548,7 +3455,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OREsupply",
   "twitter_followers": null,
-  "watchers": 5241
+  "watchers": 5251
  },
  "osmosis": {
   "categories": [
@@ -3854,7 +3761,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 58,
+  "cex_count": 57,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -3868,7 +3775,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-28T00:28:21.655248+00:00",
+  "fetched": "2026-10-29T01:55:04.439594+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -3879,13 +3786,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90687
+  "watchers": 90689
  },
  "resistance-dog": {
   "categories": [
@@ -4084,7 +3991,7 @@
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-10-28T01:22:34.899140+00:00",
+  "fetched": "2026-10-29T01:55:10.820924+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://silencio.network/",
@@ -4099,7 +4006,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/silencioNetwork",
   "twitter_followers": null,
-  "watchers": 4385
+  "watchers": 4390
  },
  "solidus-aitech": {
   "categories": [
@@ -4672,7 +4579,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
-  "fetched": "2026-10-27T01:32:03.573694+00:00",
+  "fetched": "2026-10-29T01:52:33.257813+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://triplet.site/",
@@ -4686,7 +4593,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TripleTonpump",
   "twitter_followers": null,
-  "watchers": 503
+  "watchers": 502
  },
  "umia": {
   "categories": [
@@ -4789,7 +4696,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-28T00:26:58.583308+00:00",
+  "fetched": "2026-10-29T01:52:39.694072+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -4803,7 +4710,59 @@
   "telegram_users": null,
   "twitter": "https://x.com/uranium_io",
   "twitter_followers": null,
-  "watchers": 457
+  "watchers": 456
+ },
+ "wayfinder": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "AI Agents",
+   "Binance Alpha Spotlight",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "BloFin"
+  ],
+  "cex_count": 27,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x28d38dF637dB75533bD3F71426F3410a82041544",
+  "fetched": "2026-10-29T01:56:20.770645+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.wayfinder.ai/",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AIWayfinder",
+  "twitter_followers": null,
+  "watchers": 3977
  },
  "what-the-hook": {
   "categories": [
@@ -4821,7 +4780,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-28T00:23:22.617389+00:00",
+  "fetched": "2026-10-29T01:51:23.558858+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -4829,13 +4788,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+o9WcbT5JyIFkZTM0",
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 166
+  "watchers": 171
  },
  "win-jie": {
   "categories": [
@@ -4854,7 +4813,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
-  "fetched": "2026-10-28T00:23:19.411631+00:00",
+  "fetched": "2026-10-29T01:52:30.015034+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
@@ -5016,6 +4975,61 @@
   "twitter": "https://x.com/officialxyo",
   "twitter_followers": null,
   "watchers": 38902
+ },
+ "zebec-network": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "Real World Assets (RWA)",
+   "Payment Solutions",
+   "DePIN",
+   "Coinbase Ventures Portfolio",
+   "Alameda Research Portfolio",
+   "Circle Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "RWA Protocol",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitrue",
+   "BloFin",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "HTX",
+   "Hotcoin",
+   "Kraken"
+  ],
+  "cex_count": 18,
+  "chat": "https://medium.com/zebec-protocol",
+  "commits_4w": null,
+  "description": "Zebec's integrated products - real time payroll apps, on-chain payments infrastructure and networked DePIN - serve companies of all sizes, merchants and individuals and help transcend the boundaries of traditional banking and diminish the role of financial intermediaries. ",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": "https://discord.com/invite/fJM9cHuvvB",
+  "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
+  "fetched": "2026-10-29T01:55:17.487610+00:00",
+  "genesis": null,
+  "github": "https://github.com/Zebec-protocol",
+  "homepage": "https://zebec.io/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 75.0,
+  "stars": null,
+  "telegram": "https://t.me/zebecprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/Zebec_HQ",
+  "twitter_followers": null,
+  "watchers": 21442
  },
  "zentry": {
   "categories": [
