@@ -1404,7 +1404,7 @@
   ],
   "discord": "https://discord.com/invite/thedelysium",
   "explorer": "https://etherscan.io/token/0x7da2641000cbb407c329310c461b2cb9c70c3046",
-  "fetched": "2026-10-28T01:22:38.077053+00:00",
+  "fetched": "2026-10-29T13:03:55.496237+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.delysium.com",
@@ -1414,7 +1414,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2080,7 +2080,7 @@
   ],
   "discord": "https://discord.com/invite/gitcoin",
   "explorer": "https://etherscan.io/token/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
-  "fetched": "2026-10-27T12:12:18.230393+00:00",
+  "fetched": "2026-10-29T13:00:15.095144+00:00",
   "genesis": null,
   "github": "https://github.com/gitcoinco",
   "homepage": "https://gitcoin.co/",
@@ -2095,7 +2095,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/gitcoin",
   "twitter_followers": null,
-  "watchers": 18089
+  "watchers": 18087
  },
  "giveback": {
   "categories": [
@@ -2186,7 +2186,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
-  "fetched": "2026-10-26T12:58:39.239771+00:00",
+  "fetched": "2026-10-29T12:58:57.140223+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://slinkcoinrbh.lol/",
@@ -2194,7 +2194,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2623,20 +2623,20 @@
   "cex": [
    "LBank",
    "MEXC",
-   "Manifest",
    "Poloniex"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "STONK backwards is KNOTS\n\nThey are in a constant symbiosis and feed on each other\n\nHolding $KNOTS earns you $STONK rewards from a 3% transfer tax\n\nEvery time $KNOTS moves, part of the transaction fee goes back to $KNOTS holders in $STONK.\n\nInstead of another Memecoin that needs a 14 page explanation for why it exists, the two memes are directly connected through the token mechanics.\n\nSometimes the best ideas are the ones you understand immediately.",
   "dex": [
    "Meteora",
+   "Orca",
    "Raydium"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS",
-  "fetched": "2026-10-28T12:50:36.890970+00:00",
+  "fetched": "2026-10-29T12:58:53.929876+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.knotsstonk.com/",
@@ -2644,13 +2644,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/knotsstonk",
   "telegram_users": null,
   "twitter": "https://x.com/KnotsOnStonk",
   "twitter_followers": null,
-  "watchers": 471
+  "watchers": 473
  },
  "lava-network": {
   "categories": [
@@ -2724,10 +2724,10 @@
    "HTX",
    "Kraken",
    "KuCoin",
-   "LATOKEN",
-   "MEXC"
+   "MEXC",
+   "Mudrex"
   ],
-  "cex_count": 14,
+  "cex_count": 13,
   "chat": null,
   "commits_4w": null,
   "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
@@ -2739,7 +2739,7 @@
   ],
   "discord": "https://lmwr.co/discord",
   "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-28T12:54:29.704624+00:00",
+  "fetched": "2026-10-29T13:02:45.492692+00:00",
   "genesis": null,
   "github": "https://github.com/LimeWireOfficial",
   "homepage": "https://limewire.com/u/home",
@@ -2749,13 +2749,69 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/limewire",
   "telegram_users": null,
   "twitter": "https://x.com/limewire",
   "twitter_followers": null,
   "watchers": 15719
+ },
+ "lisk": {
+  "categories": [
+   "Smart Contract Platform",
+   "Ethereum Ecosystem",
+   "Layer 2 (L2)",
+   "Base Ecosystem",
+   "Hyperliquid Ecosystem",
+   "Optimism Superchain Ecosystem",
+   "Outlier Ventures Portfolio",
+   "Lisk Ecosystem",
+   "HyperEVM Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "Bithumb",
+   "Bitrue",
+   "Bitvavo",
+   "CoinUp.io",
+   "Coincheck",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate"
+  ],
+  "cex_count": 23,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Ethereum. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
+  "dex": [
+   "Uniswap V4 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+  "fetched": "2026-10-29T13:01:25.529878+00:00",
+  "genesis": null,
+  "github": "https://github.com/LiskHQ/lisk-sdk",
+  "homepage": "https://lisk.com",
+  "platforms": [
+   "base",
+   "ethereum",
+   "hyperevm",
+   "hyperliquid"
+  ],
+  "reddit": "https://www.reddit.com/r/Lisk",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Lisk",
+  "twitter_followers": null,
+  "watchers": 30239
  },
  "livepeer": {
   "categories": [
@@ -2950,7 +3006,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-28T12:51:56.175565+00:00",
+  "fetched": "2026-10-29T13:03:58.810521+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -2959,13 +3015,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31931
+  "watchers": 31928
  },
  "mass-vehicle-ledger": {
   "categories": [
@@ -3064,7 +3120,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-10-28T01:21:28.221323+00:00",
+  "fetched": "2026-10-29T13:00:07.467845+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://moolahbnb.com",
@@ -3072,13 +3128,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/moolah_cto",
   "telegram_users": null,
   "twitter": "https://x.com/Moolah_bsc",
   "twitter_followers": null,
-  "watchers": 267
+  "watchers": 268
  },
  "myshell": {
   "categories": [
@@ -3135,6 +3191,49 @@
   "twitter_followers": null,
   "watchers": 3909
  },
+ "mysterium": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Telegram Apps",
+   "DePIN",
+   "Cybersecurity",
+   "Privacy Infrastructure",
+   "Privacy"
+  ],
+  "cex": [
+   "MEXC"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Launched on 02/03/2022 by a team based in the United States, Mystery is a community token that rewards its holders with massive draws while making its token deflationary by burning tokens used to purchase tickets to the draw.",
+  "dex": [
+   "Quickswap",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Polygon)"
+  ],
+  "discord": "https://discordapp.com/invite/n3vtSwc",
+  "explorer": "https://etherscan.io/token/0x4cf89ca06ad997bc732dc876ed2a7f26a9e7f361",
+  "fetched": "2026-10-29T13:01:28.797987+00:00",
+  "genesis": "2017-06-13",
+  "github": "https://github.com/MysteriumNetwork/node",
+  "homepage": "https://mysterium.network/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "polygon-pos"
+  ],
+  "reddit": "https://www.reddit.com/r/MysteriumNetwork/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/mysterium_network",
+  "telegram_users": null,
+  "twitter": "https://x.com/MysteriumNet",
+  "twitter_followers": null,
+  "watchers": 4790
+ },
  "natix-network": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3160,7 +3259,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-28T00:27:11.952542+00:00",
+  "fetched": "2026-10-29T13:01:22.048894+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3168,13 +3267,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7948
+  "watchers": 7951
  },
  "niannian-2": {
   "categories": [
@@ -3269,7 +3368,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-10-28T12:53:10.100807+00:00",
+  "fetched": "2026-10-29T13:02:38.880026+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3565,6 +3664,53 @@
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
   "watchers": 114924
+ },
+ "peapods-finance": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Berachain Ecosystem",
+   "Mode Ecosystem",
+   "Sonic Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Shadow Exchange"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Real Yield. Credit. Leverage. Liquidity. Peapods Finance is a permissionless DeFi protocol that allows any ERC-20 asset to serve as the foundation for its own self-sustaining financial system. Each system centers around generating sustainable yield from market volatility, a concept innovated by Peapods and termed \u2018Volatility Farming\u2019. \n\nThe protocol enables the creation of vaults, referred to as \u2018Pods\u2019, which provide depositors of an asset (TKN) with a synthetic wrapped ERC-20 version of it (pTKN) that is tradable on DEXes. This allows for third-party arbitrage to occur that is taxed by the protocol and funds all yield streaming through the system.\n\nThe continuous yield flow delivered by Pods is further structured by integrated lending markets to accommodate different investor profiles. Every Pod natively allows for single-side leveraged LPing, credit, and leverage \u2013 on any token. For projects, this enables free or even yield-generating liquidity by just depositing their native token. No other capital is needed.\n\nPods unlock all this through various internal protocol mechanics, including Volatility Farming, Leveraged Volatility Farming (LVF), isolated lending markets, Metavaults, and governance. These primitives work in concert to create an integrated financial system for each Pod, 100% incentivized by sustainable volatility yield, without relying on inflationary emissions.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
+  "fetched": "2026-10-29T13:02:52.113705+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://peapods.finance",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "berachain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/PeapodsFinance",
+  "telegram_users": null,
+  "twitter": "https://x.com/PeapodsFinance",
+  "twitter_followers": null,
+  "watchers": 4247
  },
  "pinlink": {
   "categories": [
@@ -3948,7 +4094,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-10-28T00:24:29.291032+00:00",
+  "fetched": "2026-10-29T12:59:00.426646+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -3956,7 +4102,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -4008,6 +4154,44 @@
   "twitter_followers": null,
   "watchers": 4390
  },
+ "sogni-ai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "DePIN",
+   "Base Ecosystem",
+   "Etherlink Ecosystem",
+   "AI Applications",
+   "Base Native"
+  ],
+  "cex": [
+   "Oku Trade (Etherlink)"
+  ],
+  "cex_count": 1,
+  "chat": "https://www.youtube.com/@SogniAI",
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Aerodrome (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
+  "fetched": "2026-10-29T13:00:11.300774+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.sogni.ai/",
+  "platforms": [
+   "base",
+   "etherlink"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/sogniai",
+  "telegram_users": null,
+  "twitter": "https://x.com/Sogni_Protocol",
+  "twitter_followers": null,
+  "watchers": 11936
+ },
  "solidus-aitech": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4040,7 +4224,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-10-28T12:54:26.486514+00:00",
+  "fetched": "2026-10-29T13:02:42.227390+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4170,7 +4354,7 @@
    "Bitrue",
    "Bittime"
   ],
-  "cex_count": 41,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network \u2013 a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. ",
@@ -4180,7 +4364,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-10-28T12:51:52.993465+00:00",
+  "fetched": "2026-10-29T13:00:18.788256+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -4188,13 +4372,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
-  "watchers": 10163
+  "watchers": 10162
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -4319,9 +4503,9 @@
    "DigiFinex",
    "Gate",
    "GroveX",
-   "HTX"
+   "Hyperliquid"
   ],
-  "cex_count": 27,
+  "cex_count": 25,
   "chat": null,
   "commits_4w": null,
   "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
@@ -4333,7 +4517,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-10-28T12:53:06.782035+00:00",
+  "fetched": "2026-10-29T13:01:35.319735+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -4344,13 +4528,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
-  "watchers": 28875
+  "watchers": 28874
  },
  "tesla-ondo-tokenized-stock": {
   "categories": [
@@ -4445,6 +4629,58 @@
   "twitter": "https://x.com/tigfoundation",
   "twitter_followers": null,
   "watchers": 3781
+ },
+ "tokenised-gbp": {
+  "categories": [
+   "Stablecoins",
+   "GBP Stablecoin",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Gnosis Chain Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Fiat-backed Stablecoin"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Hydrex Integral",
+   "Kraken"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "tGBP is the first and only British Pound pegged stablecoin issued by a UK FCA-registered firm. tGBP maintains a 1:1 peg to the British Pound Sterling through a robust, transparent backing mechanism designed for stability, redeemability, and regulatory compliance. tGBP is fully collateralised by fiat and short term zero coupon bonds issued by HM Treasury. tGBP facilitates on-chain sterling payments, programmable transactions, and exposure to GBP-linked Real World Assets (RWAs) like tokenised bonds.",
+  "dex": [
+   "Aerodrome Slipstream 2",
+   "Aerodrome Slipstream 3",
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+  "fetched": "2026-10-29T13:02:48.797590+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.tokenisedgbp.com",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/tokenGBP",
+  "twitter_followers": null,
+  "watchers": 344
  },
  "tokenos-ai": {
   "categories": [
@@ -4609,12 +4845,11 @@
   "commits_4w": null,
   "description": "Umia is the onchain venture protocol. Founders apply to launch their token through Umia, raise funds in an open auction, and keep building while their tokenholders govern the project's treasury through decision markets.\n\nEvery project on Umia gets its own legal entity, holding the project's intellectual property, its team and its treasury. The funds it raises sit in an onchain treasury contract that the founding team cannot spend on its own. The team draws a monthly allowance, set at formation with recipient addresses and purpose limits, which pays out automatically for development and go-to-market; raising it is itself a decision the market has to approve.\n\nFundraising runs through a Tailored Auction, Umia's configuration of Uniswap's Continuous Clearing Auction (CCA): an onchain auction that discovers the token's price over a set window, with refundable bids. Parts of the sale can be reserved for a project's own community, with participants proving they qualify through zkTLS proofs generated in their browser by the Umia Extension, without revealing their identity, their accounts, or their data. Part of the proceeds automatically seeds a Uniswap v4 liquidity pool owned by the project's treasury.\n\nAnything beyond that allowance, a large one-off spend, a new commitment or a change in compensation, goes to a decision market, an open market that prices what each option would do for the project.\n\nUMIA is the token of the Umia protocol, an ERC-20 on Base. Holders direct the protoc",
   "dex": [
-   "Uniswap V3 (Base)",
    "Uniswap V4 (Base)"
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x56ab53b77F07DA3af732150E8aeC4783eB5BbA7D",
-  "fetched": "2026-10-28T12:53:20.021510+00:00",
+  "fetched": "2026-10-29T13:01:32.013406+00:00",
   "genesis": null,
   "github": "https://github.com/umiafinance",
   "homepage": "https://www.umia.finance",
@@ -4622,13 +4857,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/umia_finance",
   "telegram_users": null,
   "twitter": "https://x.com/umia_finance",
   "twitter_followers": null,
-  "watchers": 228
+  "watchers": 234
  },
  "unit-00-rei": {
   "categories": [
@@ -4711,6 +4946,41 @@
   "twitter": "https://x.com/uranium_io",
   "twitter_followers": null,
   "watchers": 456
+ },
+ "utya": {
+  "categories": [
+   "Meme",
+   "TON Ecosystem",
+   "TON Meme",
+   "Sticker-Themed Coins"
+  ],
+  "cex": [
+   "DeDust",
+   "LBank",
+   "STON.fi"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "UTYA Token$UTYA is more than just a memecoin \u2013 it\u2019s a community-driven movement dedicated to spreading joy and positivity through the iconic Telegram Duck Emoji. $UTYA is seen by millions of people every year on Telegram, and so we thought it deserved a community to call its own on TON.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
+  "fetched": "2026-10-29T12:59:03.605287+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://tonutya.com/",
+  "platforms": [
+   "the-open-network"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/UtyaDuck",
+  "telegram_users": null,
+  "twitter": "https://x.com/TonUtyacoin",
+  "twitter_followers": null,
+  "watchers": 1855
  },
  "wayfinder": {
   "categories": [
