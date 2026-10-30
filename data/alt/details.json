@@ -73,7 +73,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-10-28T00:25:42.378009+00:00",
+  "fetched": "2026-10-30T13:06:59.636939+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -249,6 +249,60 @@
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
   "watchers": 113460
+ },
+ "amp-token": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Near Protocol Ecosystem",
+   "Ethereum Ecosystem",
+   "Payment Solutions",
+   "Alleged SEC Securities",
+   "Pantera Capital Portfolio",
+   "Energi Ecosystem",
+   "Made in USA"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "Bithumb",
+   "Bitlo",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "BtcTurk | Kripto"
+  ],
+  "cex_count": 36,
+  "chat": null,
+  "commits_4w": null,
+  "description": "What is Amp?\n\nAmp is described as the new digital collateral token offering instant, verifiable assurances for any kind of value transfer. Using Amp, networks like Flexa can quickly and irreversibly secure transactions for a wide variety of asset-related use cases.\n\nHow does Amp work?\n\nAmp claims to offer a straightforward but versatile interface for verifiable collateralization through a system of collateral partitions and collateral managers. Where collateral partitions can be designated to collateralize any account, application, or even transaction, and carry balances which are directly verifiable on the Ethereum blockchain, collateral managers are smart contracts that can lock, release, and redirect collateral in these partitions as needed in order to support value transfer activities. Amp supports a wide variety of use cases for collateralization, and also introduces the concept of predefined partition strategies, which can enable special capabilities such as collateral models through which tokens can be staked without ever leaving their original address.",
+  "dex": [
+   "Sushiswap",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/T4EY6yx",
+  "explorer": "https://etherscan.io/token/0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+  "fetched": "2026-10-30T13:03:26.564503+00:00",
+  "genesis": null,
+  "github": "https://github.com/amptoken",
+  "homepage": "https://www.amp.xyz",
+  "platforms": [
+   "energi",
+   "ethereum",
+   "near-protocol"
+  ],
+  "reddit": "https://www.reddit.com/r/amptoken/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/ampchat",
+  "telegram_users": null,
+  "twitter": "https://x.com/ampdotxyz",
+  "twitter_followers": null,
+  "watchers": 75918
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -826,7 +880,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/FQgtfugBdpFN7PZ6NdPrZpVLDBrPGxXesi4gVu3vErhY",
-  "fetched": "2026-10-28T12:51:49.744863+00:00",
+  "fetched": "2026-10-30T13:04:39.733311+00:00",
   "genesis": null,
   "github": "https://github.com/bubblemaps",
   "homepage": "https://bubblemaps.io",
@@ -835,13 +889,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/bubblemaps",
   "telegram_users": null,
   "twitter": "https://x.com/bubblemaps",
   "twitter_followers": null,
-  "watchers": 4171
+  "watchers": 4173
  },
  "carv": {
   "categories": [
@@ -1126,10 +1180,10 @@
    "BloFin",
    "Bybit",
    "Gate",
-   "HTX",
-   "KCEX"
+   "Giottus",
+   "HTX"
   ],
-  "cex_count": 24,
+  "cex_count": 26,
   "chat": "https://t.me/s/travala",
   "commits_4w": null,
   "description": "What is the project about? AVA plans to tokenise the concept of loyalty reward programs using blockchain technology. The AVA token functions as the key to accessing web3 loyalty programs and provides perks to end users, such as AVA payment discounts, AVA loyalty rewards, gated access benefits, and more. Launched in 2017, the AVA Foundation says their overarching mission is to create a decentralised and self-sufficient blockchain-based loyalty ecosystem with AVA at its core. What\u2019s next for your project? AVA is a web3 loyalty program token designed for projects across all industries. From discounts to loyalty rewards, AVA powers blockchain-based loyalty programs via a plug-and-play approach. What can your token be used for? Travel Bookings: AVA can be used to book more than 3 million travel products on Travala, including hotels, homes, flights, and activities in over 230 countries. Discounts &amp; Rewards: Travel bookings paid with AVA receive a discount of up to 3% on the total booking price, as well as a cashback of up to 2% in AVA. Loyalty Program: AVA unlocks further benefits via the Smart Loyalty Program, which provides users with discounts of up to 10% on travel bookings. Travel NFTs: AVA paired with Travel Tiger NFTs unlocks the Diamond membership, with exclusive benefits such as Travel Credits, Airport Lounges, VIP Concierge, and Travel Drops (unique travel experience giveaways). Open Passport: With AVA, users can access the Open Passport to collect digital NFT stamps ",
@@ -1139,7 +1193,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
-  "fetched": "2026-10-27T12:13:21.538409+00:00",
+  "fetched": "2026-10-30T13:05:43.034580+00:00",
   "genesis": null,
   "github": "https://github.com/AVA-Foundation",
   "homepage": "https://www.travala.com",
@@ -1149,13 +1203,13 @@
    "solana"
   ],
   "reddit": "https://www.reddit.com/r/Travala",
-  "sentiment_up": null,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/avafoundation",
   "telegram_users": null,
   "twitter": "https://x.com/AVAFoundation",
   "twitter_followers": null,
-  "watchers": 27658
+  "watchers": 27664
  },
  "constitutiondao": {
   "categories": [
@@ -1860,7 +1914,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-29T01:53:46.216277+00:00",
+  "fetched": "2026-10-30T13:05:46.313014+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1877,7 +1931,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7681
+  "watchers": 7683
  },
  "froggie": {
   "categories": [
@@ -1958,6 +2012,44 @@
   "twitter_followers": null,
   "watchers": 23664
  },
+ "gamestop-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "Metric (BSC)"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
+  "fetched": "2026-10-30T13:07:06.256405+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 43
+ },
  "georgeplaysclashroyale": {
   "categories": [
    "Solana Ecosystem",
@@ -1978,7 +2070,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-10-28T19:37:26.191416+00:00",
+  "fetched": "2026-10-30T13:02:13.415226+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2218,49 +2310,6 @@
   "twitter_followers": null,
   "watchers": 91
  },
- "hegic": {
-  "categories": [
-   "Decentralized Exchange (DEX)",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "Derivatives",
-   "Options",
-   "Fantom Ecosystem",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "Energi Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://discordapp.com/invite/znjdj8q",
-  "explorer": "https://etherscan.io/token/0x584bc13c7d411c00c01a62e8019472de68768430",
-  "fetched": "2026-10-27T12:12:05.362794+00:00",
-  "genesis": null,
-  "github": "https://github.com/hegic/contracts-v888",
-  "homepage": "https://www.hegic.co/",
-  "platforms": [
-   "arbitrum-one",
-   "energi",
-   "ethereum",
-   "fantom"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/HegicOptions",
-  "telegram_users": null,
-  "twitter": "https://x.com/HegicOptions",
-  "twitter_followers": null,
-  "watchers": 13241
- },
  "hims-hers-health-ondo-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -2303,6 +2352,47 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 129
+ },
+ "hopr": {
+  "categories": [
+   "Gnosis Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Governance",
+   "Privacy Infrastructure",
+   "Privacy"
+  ],
+  "cex": [
+   "Coinbase Exchange"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "HOPR provides essential and compliant network-level metadata privacy for everyone. HOPR is an open incentivized mixnet which enables privacy-preserving point-to-point data exchange.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/dEAWC4G",
+  "explorer": "https://etherscan.io/token/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da",
+  "fetched": "2026-10-30T13:04:33.171524+00:00",
+  "genesis": null,
+  "github": "https://github.com/hoprnet/hoprnet",
+  "homepage": "https://hoprnet.org/",
+  "platforms": [
+   "ethereum",
+   "xdai"
+  ],
+  "reddit": "https://www.reddit.com/r/HOPR/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/hoprnet",
+  "telegram_users": null,
+  "twitter": "https://x.com/hoprnet",
+  "twitter_followers": null,
+  "watchers": 11206
  },
  "iexec-rlc": {
   "categories": [
@@ -3071,7 +3161,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
-  "fetched": "2026-10-29T01:53:55.945406+00:00",
+  "fetched": "2026-10-30T13:05:56.323783+00:00",
   "genesis": null,
   "github": "https://github.com/myshell-ai",
   "homepage": "https://myshell.ai/",
@@ -3086,7 +3176,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/myshell_ai",
   "twitter_followers": null,
-  "watchers": 3909
+  "watchers": 3910
  },
  "mysterium": {
   "categories": [
@@ -3113,7 +3203,7 @@
   ],
   "discord": "https://discordapp.com/invite/n3vtSwc",
   "explorer": "https://etherscan.io/token/0x4cf89ca06ad997bc732dc876ed2a7f26a9e7f361",
-  "fetched": "2026-10-29T13:01:28.797987+00:00",
+  "fetched": "2026-10-30T13:05:49.570348+00:00",
   "genesis": "2017-06-13",
   "github": "https://github.com/MysteriumNetwork/node",
   "homepage": "https://mysterium.network/",
@@ -3123,7 +3213,7 @@
    "polygon-pos"
   ],
   "reddit": "https://www.reddit.com/r/MysteriumNetwork/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/mysterium_network",
   "telegram_users": null,
@@ -3416,62 +3506,56 @@
   "twitter_followers": null,
   "watchers": 5251
  },
- "osmosis": {
+ "osaka-protocol": {
   "categories": [
-   "Decentralized Exchange (DEX)",
-   "Smart Contract Platform",
-   "Exchange-based Tokens",
-   "Decentralized Finance (DeFi)",
-   "Automated Market Maker (AMM)",
-   "Cosmos Ecosystem",
-   "Osmosis Ecosystem",
-   "Paradigm Portfolio",
-   "Proof of Stake (PoS)",
-   "Evmos Ecosystem",
-   "Secret Ecosystem",
-   "GMCI DeFi Index",
-   "GMCI Index",
-   "Made in USA"
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Meme",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Base Ecosystem",
+   "Dog-Themed",
+   "Base Native"
   ],
   "cex": [
-   "Binance",
-   "Bithumb",
-   "Bitkub",
-   "Bitvavo",
-   "BloFin",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Digital X",
-   "Gate",
-   "HTX",
-   "Kraken"
+   "Ourbit",
+   "XT.COM"
   ],
-  "cex_count": 25,
-  "chat": "https://medium.com/osmosis",
+  "cex_count": 2,
+  "chat": "https://medium.com/@mephis3",
   "commits_4w": null,
-  "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.",
-  "dex": [],
+  "description": "Osaka protocol is a decentralized project that started with an airdrop for 30% of total supply to all people that sold SHIB before it went to moon. The purpose of Osaka Phase 1 is to establish a distributed community that works together to propagate the ecosystem.",
+  "dex": [
+   "LFJ",
+   "PancakeSwap (v2)",
+   "Uniswap V2 (Base)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Arbitrum)"
+  ],
   "discord": null,
-  "explorer": "https://www.mintscan.io/osmosis",
-  "fetched": "2026-10-27T12:12:14.993356+00:00",
+  "explorer": "https://etherscan.io/token/0xa21af1050f7b26e0cff45ee51548254c41ed6b5c",
+  "fetched": "2026-10-30T13:03:16.829510+00:00",
   "genesis": null,
-  "github": "https://github.com/osmosis-labs/osmosis",
-  "homepage": "https://osmosis.zone/",
+  "github": "https://github.com/osakaprotocol",
+  "homepage": "https://osaka.win",
   "platforms": [
-   "cosmos",
-   "evmos",
-   "osmosis",
-   "secret"
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 90.91,
+  "sentiment_up": null,
   "stars": null,
-  "telegram": "https://t.me/osmosis_chat",
+  "telegram": "https://t.me/Osakaprotocol",
   "telegram_users": null,
-  "twitter": "https://x.com/osmosis ",
+  "twitter": "https://x.com/osakaprotocol",
   "twitter_followers": null,
-  "watchers": 78969
+  "watchers": 29715
  },
  "ovr": {
   "categories": [
@@ -3545,15 +3629,15 @@
   "description": "Real Yield. Credit. Leverage. Liquidity. Peapods Finance is a permissionless DeFi protocol that allows any ERC-20 asset to serve as the foundation for its own self-sustaining financial system. Each system centers around generating sustainable yield from market volatility, a concept innovated by Peapods and termed \u2018Volatility Farming\u2019. \n\nThe protocol enables the creation of vaults, referred to as \u2018Pods\u2019, which provide depositors of an asset (TKN) with a synthetic wrapped ERC-20 version of it (pTKN) that is tradable on DEXes. This allows for third-party arbitrage to occur that is taxed by the protocol and funds all yield streaming through the system.\n\nThe continuous yield flow delivered by Pods is further structured by integrated lending markets to accommodate different investor profiles. Every Pod natively allows for single-side leveraged LPing, credit, and leverage \u2013 on any token. For projects, this enables free or even yield-generating liquidity by just depositing their native token. No other capital is needed.\n\nPods unlock all this through various internal protocol mechanics, including Volatility Farming, Leveraged Volatility Farming (LVF), isolated lending markets, Metavaults, and governance. These primitives work in concert to create an integrated financial system for each Pod, 100% incentivized by sustainable volatility yield, without relying on inflationary emissions.",
   "dex": [
    "Aerodrome SlipStream",
+   "Camelot V3",
    "PancakeSwap V3 (Base)",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)",
-   "Uniswap V3 (Ethereum)"
+   "Uniswap V3 (Base)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
-  "fetched": "2026-10-29T13:02:52.113705+00:00",
+  "fetched": "2026-10-30T13:07:02.980390+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://peapods.finance",
@@ -3571,6 +3655,42 @@
   "twitter": "https://x.com/PeapodsFinance",
   "twitter_followers": null,
   "watchers": 4247
+ },
+ "pepecat-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Cat-Themed",
+   "Pump.fun Ecosystem",
+   "The Boy\u2019s Club"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The memecoin that purrs in harmony for cat enthusiasts and admirers of the iconic Pepe! When the power of memes merges with a love for cats, it creates a unique memecoin that brings joy and laughter. This playful currency captures the spirit of fun and community, offering a delightful blend of feline charm and meme culture. It's more than just a coin\u2014it's a celebration of cats, humor, and connection!",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/CRAMvzDsSpXYsFpcoDr6vFLJMBeftez1E7277xwPpump",
+  "fetched": "2026-10-30T13:02:07.011838+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pepecat.vip/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/PepeCat_Token_Solana",
+  "telegram_users": null,
+  "twitter": "https://x.com/pepecattoken",
+  "twitter_followers": null,
+  "watchers": 365
  },
  "pinlink": {
   "categories": [
@@ -3611,6 +3731,55 @@
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
   "watchers": 16941
+ },
+ "propy": {
+  "categories": [
+   "Tokenized Real Estate",
+   "Tokenized Assets",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "Made in USA",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitrue",
+   "Bitunix",
+   "CoinUp.io",
+   "Coinbase Exchange",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Propy is a decentralized real-estate market place backed by superior blockchain infrastructure to facilitate real-time unified transaction in order to reduce fraud and redundancy. Propy is the world\u2019s first international real-estate marketplace.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
+  "fetched": "2026-10-30T13:05:52.841177+00:00",
+  "genesis": "2017-07-18",
+  "github": "https://github.com/Propy/ethereum",
+  "homepage": "https://propy.com",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/propy",
+  "telegram_users": null,
+  "twitter": "https://x.com/PropyInc",
+  "twitter_followers": null,
+  "watchers": 23080
  },
  "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
   "categories": [
@@ -3724,45 +3893,6 @@
   "twitter_followers": null,
   "watchers": 1353
  },
- "qanplatform": {
-  "categories": [
-   "Smart Contract Platform",
-   "BNB Chain Ecosystem",
-   "Layer 1 (L1)",
-   "Ethereum Ecosystem",
-   "Cybersecurity",
-   "Quantum-Resistant"
-  ],
-  "cex": [
-   "Gate"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "What Is QANplatform (QANX)? \n\nQANplatform, the quantum-resistant hybrid blockchain platform enables developers and enterprises to rapidly build software applications like DApps or DeFi and run business processes on blockchain. A blockchain platform, like QANplatform is the basic infrastructure of all blockchain projects and applications. It is like the operating system on a computer. The whole ecosystem can only build and work on top of it. Connect it with real-world data, run automated smart contracts, build decentralized applications (DApps). According to HFS Research excerpt for IBM: Enterprise blockchain adoption is going through a \u201c90-9-1\u201d adoption challenge. 90% of companies are still trying to internalize the concept and its relevant impact. 9% of enterprises that identified relevant use cases are struggling to start with their PoCs and pilots. The 1% of enterprises that have successful pilots are challenged with scalability to a production-grade environment. To achieve blockchain mass adoption Qanplatform focused on these challenges. They built a lot of automation and integration to help freelance developers, blockchain development companies and enterprises start their blockchain PoCs (Proof-of-Concept) as fast as possible. It takes less than 5 minutes to deploy the QAN private blockchain to a preferred cloud platform and start building on it. \n\nWho Are the Founders of QANplatform ? \n\nJohann Polecsak, QAN's Chief Technology Officer is also an economist. He along with ",
-  "dex": [
-   "PancakeSwap (v2)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/pEHCdjEJQc",
-  "explorer": "https://etherscan.io/token/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
-  "fetched": "2026-10-27T12:12:11.846341+00:00",
-  "genesis": null,
-  "github": "https://github.com/qanplatform/qanx-token",
-  "homepage": "https://www.qanplatform.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/QANplatform/",
-  "sentiment_up": 80.0,
-  "stars": null,
-  "telegram": "https://t.me/QANplatform",
-  "telegram_users": null,
-  "twitter": "https://x.com/QANplatform",
-  "twitter_followers": null,
-  "watchers": 20908
- },
  "renzo": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -3874,41 +4004,6 @@
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
   "watchers": 90686
- },
- "resistance-dog": {
-  "categories": [
-   "Meme",
-   "Dog-Themed",
-   "TON Ecosystem",
-   "TON Meme"
-  ],
-  "cex": [
-   "DeDust",
-   "MEXC",
-   "STON.fi"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Resistance Dog ($REDO), is a symbolic representation of the fight against censorship and freedom through digital resistance. The token pays homage to the creation of Pavel Durov, founder of TON - The Open Network and Telegram.\n\n$REDO intends to create, and has begun creating a robust decentralized community that is at the forefront of the battle for digital resistance, with TON - The Open Network, Telegram and the millions of individuals fighting for the same cause.",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-10-27T12:09:35.567772+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://redoton.com",
-  "platforms": [
-   "the-open-network"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/redotoken",
-  "telegram_users": null,
-  "twitter": "https://x.com/redotoken",
-  "twitter_followers": null,
-  "watchers": 12923
  },
  "rize": {
   "categories": [
@@ -4030,7 +4125,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-10-29T12:59:00.426646+00:00",
+  "fetched": "2026-10-30T13:03:20.094169+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4111,7 +4206,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-10-29T13:00:11.300774+00:00",
+  "fetched": "2026-10-30T13:03:23.336029+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4126,7 +4221,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11936
+  "watchers": 11937
  },
  "solidus-aitech": {
   "categories": [
@@ -4160,7 +4255,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-10-29T13:02:42.227390+00:00",
+  "fetched": "2026-10-30T13:04:29.836659+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4176,7 +4271,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151663
+  "watchers": 151664
  },
  "spacex-ondo-tokenized-stock": {
   "categories": [
@@ -4231,43 +4326,6 @@
   "twitter_followers": null,
   "watchers": 249
  },
- "spacex-reality-protocol": {
-  "categories": [
-   "Tokenized Assets",
-   "Arbitrum Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "Reality Ecosystem"
-  ],
-  "cex": [
-   "Bitget"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V4 (Arbitrum)"
-  ],
-  "discord": null,
-  "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-10-27T12:12:08.623063+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
-  "platforms": [
-   "arbitrum-one"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 79
- },
  "ssv-network": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4301,7 +4359,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-10-29T13:00:18.788256+00:00",
+  "fetched": "2026-10-30T13:04:36.450487+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -4315,7 +4373,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
-  "watchers": 10162
+  "watchers": 10163
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -4386,6 +4444,37 @@
   "twitter": "https://x.com/sibeautyeth",
   "twitter_followers": null,
   "watchers": 11
+ },
+ "super-pepe": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Super Pepe (SP) is an Ethereum-based meme token featuring Pepe the Frog in a bold, superhero-inspired identity. Returning to the meme scene, Super Pepe represents the spirit of a comeback, ready to face the haters with humor, confidence, and a little chaos. The project blends frog memes, comic-book hero energy, and internet culture into a playful community experience. SP serves as the project's community token and digital symbol, bringing supporters together through memes, social media interactions, and community-driven activities across the Ethereum ecosystem. With its heroic frog persona and lighthearted attitude, Super Pepe celebrates the fun, creativity, and unpredictable spirit of meme culture.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x8bb6aa42be6551d9843ce3f4ec5297b6c0d9179c",
+  "fetched": "2026-10-30T13:02:10.158686+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.superpepe.xyz",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 54.55,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/SuperPepeHero",
+  "twitter_followers": null,
+  "watchers": 232
  },
  "synapse-2": {
   "categories": [
@@ -4594,40 +4683,6 @@
   "twitter": "https://x.com/tokenGBP",
   "twitter_followers": null,
   "watchers": 344
- },
- "tokenos-ai": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Smart Contract Platform",
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "TokenOS is the world\u2019s most advanced AI-powered Web3 development platform, designed to turn natural language prompts into fully functional, production-ready blockchain applications. From simple tokens and memecoins to complex DeFi protocols, TokenOS automates the creation, deployment, and auditing of smart contracts and dApps with enterprise-grade reliability. By combining advanced language models with blockchain infrastructure, TokenOS removes the barriers of technical expertise, making Web3 development accessible to everyone. With instant deployment, built-in security best practices, and cross-chain support on the roadmap, TokenOS empowers entrepreneurs, developers, and creators to launch tokenized businesses and decentralized applications in seconds.\n",
-  "dex": [
-   "Meteora DAMM V2",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump",
-  "fetched": "2026-10-27T12:10:45.450677+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://tokenos.ai/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/TokenOS_AI",
-  "telegram_users": null,
-  "twitter": "https://x.com/TokenOS_AI",
-  "twitter_followers": null,
-  "watchers": 234
  },
  "tornado-cash": {
   "categories": [
@@ -4993,6 +5048,59 @@
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
   "watchers": 43535
+ },
+ "xyo-network": {
+  "categories": [
+   "Internet of Things (IOT)",
+   "Oracle",
+   "NFT",
+   "Metaverse",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Alleged SEC Securities",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BitKan",
+   "Bithumb",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "Gate",
+   "GroveX",
+   "HTX",
+   "Kraken"
+  ],
+  "cex_count": 16,
+  "chat": "https://www.youtube.com/channel/UCyZDqb9pgntVHJVt1pxXtsw",
+  "commits_4w": null,
+  "description": "XYO is the cryptographic proof layer for the real world, collecting, validating, and delivering physical-world data to AI, robotics, Web3, and enterprise systems. XYO, the original Decentralized Physical Infrastructure Network (DePIN), has been operating since 2018 and now has more than 10 million nodes worldwide. \n\nAt the core of XYO is XYO Layer One, a scalable data blockchain built to support high-volume data industries such as AI, robotics, location intelligence, and real-world asset (RWA) systems. Designed for high throughput and low transaction costs, it gives these data-intensive applications the capacity to process and validate information across massive datasets. XYO Layer One anchors XYO's Proof of Location and Proof of Origin technologies, establishing a verified origin, precise timing, and trusted source behind every piece of data. This verified data directly feeds the XYO AI SDK, a product built by XYO to provide accessibility for developers to build AI-powered applications, autonomous agents, robotics integrations and more using real-world data.\n\nXYO employs a unique dual-token model:\n\nXYO Token: An externally traded token supporting the DePIN ecosystem, rewards, staking, and governance, enhancing overall ecosystem value and scarcity.\n\n\nXL1 Token: Internal to the XYO Layer One blockchain, facilitating transactions, gas fees, and other blockchain-specific use cases.\n\nThe dual-token economics are strategically designed to increase scarcity and promote sustainable ",
+  "dex": [
+   "Curve (Ethereum)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/officialxyo",
+  "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
+  "fetched": "2026-10-30T13:07:09.538472+00:00",
+  "genesis": null,
+  "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
+  "homepage": "https://xyo.network/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/XYONetwork/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/official_xyo",
+  "telegram_users": null,
+  "twitter": "https://x.com/officialxyo",
+  "twitter_followers": null,
+  "watchers": 38900
  },
  "zebec-network": {
   "categories": [
