@@ -1,4 +1,53 @@
 {
+ "across-protocol": {
+  "categories": [
+   "Polygon Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Bridge Governance Tokens",
+   "Cross-chain Communication",
+   "Intent",
+   "Boba Network Ecosystem",
+   "Blockchain Capital Portfolio",
+   "Made in USA"
+  ],
+  "cex": [
+   "Balancer V2",
+   "BingX",
+   "Bithumb",
+   "Bitvavo",
+   "CoinUp.io",
+   "Gate"
+  ],
+  "cex_count": 6,
+  "chat": "https://medium.com/across-protocol",
+  "commits_4w": null,
+  "description": "Across is an optimistic cross-chain bridge secured by UMA\u2019s optimistic oracle. It is optimized for capital efficiency with a single liquidity pool, a competitive relayer landscape, and a no-slippage fee model. ",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.across.to/",
+  "explorer": "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
+  "fetched": "2026-10-30T19:27:18.164748+00:00",
+  "genesis": null,
+  "github": "https://github.com/across-protocol",
+  "homepage": "https://across.to/",
+  "platforms": [
+   "arbitrum-one",
+   "boba",
+   "ethereum",
+   "optimistic-ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AcrossProtocol",
+  "twitter_followers": null,
+  "watchers": 7831
+ },
  "adex": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -327,7 +376,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-  "fetched": "2026-10-28T00:25:45.577910+00:00",
+  "fetched": "2026-10-30T19:27:21.355655+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://prestocks.com/anthropic",
@@ -341,7 +390,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PreStocks",
   "twitter_followers": null,
-  "watchers": 350
+  "watchers": 356
  },
  "api3": {
   "categories": [
@@ -1337,7 +1386,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-10-29T01:51:26.758098+00:00",
+  "fetched": "2026-10-30T19:23:19.526043+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1345,13 +1394,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 115
+  "watchers": 124
  },
  "deapcoin": {
   "categories": [
@@ -1421,11 +1470,11 @@
    "Bitvavo",
    "DigiFinex",
    "Gate",
-   "HashKey Global",
    "Indodax",
-   "KuCoin"
+   "KuCoin",
+   "MEXC"
   ],
-  "cex_count": 15,
+  "cex_count": 14,
   "chat": "https://delysium.medium.com/",
   "commits_4w": null,
   "description": "Delysium is building AI-powered virtual society with $AGI. Delysium has been constructing a virtual world where 1 billion individuals and 100 billion AI Virtual Beings coexist on blockchain.",
@@ -1436,7 +1485,7 @@
   ],
   "discord": "https://discord.com/invite/thedelysium",
   "explorer": "https://etherscan.io/token/0x7da2641000cbb407c329310c461b2cb9c70c3046",
-  "fetched": "2026-10-29T13:03:55.496237+00:00",
+  "fetched": "2026-10-30T19:26:14.916959+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.delysium.com",
@@ -1446,13 +1495,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/The_Delysium",
   "twitter_followers": null,
-  "watchers": 24100
+  "watchers": 24099
  },
  "dimitra": {
   "categories": [
@@ -1643,7 +1692,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
-  "fetched": "2026-10-28T19:36:16.467659+00:00",
+  "fetched": "2026-10-30T19:23:13.101892+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://eagles.land",
@@ -1657,7 +1706,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/egll_american",
   "twitter_followers": null,
-  "watchers": 599
+  "watchers": 602
  },
  "everipedia": {
   "categories": [
@@ -2720,6 +2769,50 @@
   "twitter_followers": null,
   "watchers": 473
  },
+ "kryll": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Decentralized Finance (DeFi)",
+   "Analytics",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Base Ecosystem"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Gate",
+   "KuCoin"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "At its core, Kryll features innovative technology that unifies data access and thought flow, skillfully combining Web3 data with AI capabilities. This enables Kryll\u00b3 to offer comprehensive coverage of crypto markets and projects, along with advanced analysis and decision-making tools, simplifying the complex ecosystem.\n\nThe KRL token is essential to the Kryll\u00b3 ecosystem, unlocking exclusive features, serving as a payment method, and enabling participation in governance decisions.\n\nKey tools include SmartFolio, an AI-powered portfolio manager that tracks and analyzes digital assets across multiple blockchains, providing real-time insights for optimized investments.\n\nX-Ray is a market analysis tool using AI to evaluate tokens, offering details on smart contracts, on-chain data, social activity, and financial indicators.\n\nGem Detector identifies emerging high-potential tokens through multi-chain surveillance and deep learning algorithms. Harpoon monitors top traders' strategies and transactions, offering insights into smart money movements.\n\nNews Hub centralizes dozens of information sources into a unified, queryable platform for news and updates, enhancing decision-making processes.\n\nKryll\u00b3 also offers its partners a revolutionary tool: Agent K. K is a conversational agent integrated into Web3 platforms and media sites, enabling natural language interaction with content. It makes complex concepts accessible to a wider audience, which is particularly beneficial for beginners.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Optimism)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
+  "fetched": "2026-10-30T19:25:38.894075+00:00",
+  "genesis": null,
+  "github": "https://github.com/Cryptense/KryllToken",
+  "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "optimistic-ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/Kryll_io",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/kryll_io",
+  "telegram_users": null,
+  "twitter": "https://x.com/kryll_io",
+  "twitter_followers": null,
+  "watchers": 5369
+ },
  "lava-network": {
   "categories": [
    "Infrastructure",
@@ -3074,7 +3167,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-10-29T13:03:58.810521+00:00",
+  "fetched": "2026-10-30T19:25:45.275220+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3083,13 +3176,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31928
+  "watchers": 31929
  },
  "moolah": {
   "categories": [
@@ -3319,7 +3412,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-10-29T13:02:38.880026+00:00",
+  "fetched": "2026-10-30T19:25:42.071182+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3333,7 +3426,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
-  "watchers": 688
+  "watchers": 690
  },
  "nym": {
   "categories": [
@@ -3490,7 +3583,7 @@
   ],
   "discord": "https://discord.gg/bSKU7TdtcY",
   "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-  "fetched": "2026-10-29T01:53:42.975287+00:00",
+  "fetched": "2026-10-30T19:24:32.481928+00:00",
   "genesis": null,
   "github": "https://github.com/regolith-labs/ore",
   "homepage": "https://ore.supply/",
@@ -3498,13 +3591,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/OREsupply",
   "twitter_followers": null,
-  "watchers": 5251
+  "watchers": 5258
  },
  "osaka-protocol": {
   "categories": [
@@ -3557,6 +3650,63 @@
   "twitter_followers": null,
   "watchers": 29715
  },
+ "osmosis": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Smart Contract Platform",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Automated Market Maker (AMM)",
+   "Cosmos Ecosystem",
+   "Osmosis Ecosystem",
+   "Paradigm Portfolio",
+   "Proof of Stake (PoS)",
+   "Evmos Ecosystem",
+   "Secret Ecosystem",
+   "GMCI DeFi Index",
+   "GMCI Index",
+   "Made in USA"
+  ],
+  "cex": [
+   "Binance",
+   "Bithumb",
+   "Bitkub",
+   "Bitvavo",
+   "BloFin",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 24,
+  "chat": "https://medium.com/osmosis",
+  "commits_4w": null,
+  "description": "Osmosis (OSMO) is the premier DEX and cross-chain DeFi hub within the Cosmos ecosystem, a network of over 50 sovereign, interoperable blockchains seamlessly connected through the Inter-Blockchain Communication Protocol (IBC). Pioneering in its approach, Osmosis offers a dynamic trading and liquidity provision experience, integrating non-IBC assets from other ecosystems, including Ethereum, Solana, Avalanche, and Polkadot. Initially adopting Balancer-style pools, Osmosis now also features a concentrated liquidity model that is orders of magnitude more capital efficient, meaning that significantly less liquidity is required to handle the same amount of trading volume with minimal slippage.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://www.mintscan.io/osmosis",
+  "fetched": "2026-10-30T19:27:27.854121+00:00",
+  "genesis": null,
+  "github": "https://github.com/osmosis-labs/osmosis",
+  "homepage": "https://osmosis.zone/",
+  "platforms": [
+   "cosmos",
+   "evmos",
+   "osmosis",
+   "secret"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/osmosis_chat",
+  "telegram_users": null,
+  "twitter": "https://x.com/osmosis ",
+  "twitter_followers": null,
+  "watchers": 78984
+ },
  "ovr": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3590,7 +3740,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-28T19:40:10.787384+00:00",
+  "fetched": "2026-10-30T19:24:22.824894+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3607,7 +3757,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114924
+  "watchers": 114921
  },
  "peapods-finance": {
   "categories": [
@@ -3716,7 +3866,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
-  "fetched": "2026-10-28T12:53:16.485873+00:00",
+  "fetched": "2026-10-30T19:24:29.270423+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pinlink.ai/",
@@ -3730,7 +3880,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
-  "watchers": 16941
+  "watchers": 16940
  },
  "propy": {
   "categories": [
@@ -3945,6 +4095,48 @@
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
   "watchers": 12576
+ },
+ "reppo": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Base Ecosystem",
+   "AI Agents",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Baseline (Base)",
+   "Hydrex Integral",
+   "Kraken",
+   "Ourbit"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "AI TRAINING DATA \ud83e\udd1d PREDICTION MARKETS\n\nOn REPPO.AI, user A publishes AI collabs - Vibe coded apps, GenAI videos/images, interaction with robots etc. &amp; user B predicts quality by voting in weekly epochs. Both split emissions 50-50 while high quality AI training data is created.",
+  "dex": [
+   "Aerodrome Slipstream 2",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xff8104251e7761163fac3211ef5583fb3f8583d6",
+  "fetched": "2026-10-30T19:25:35.714501+00:00",
+  "genesis": null,
+  "github": "https://github.com/Reppo-Labs",
+  "homepage": "https://reppo.xyz/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Reppo",
+  "twitter_followers": null,
+  "watchers": 1252
  },
  "reserve-rights-token": {
   "categories": [
@@ -4168,7 +4360,7 @@
   ],
   "discord": null,
   "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-10-29T01:55:10.820924+00:00",
+  "fetched": "2026-10-30T19:26:11.714728+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://silencio.network/",
@@ -4183,7 +4375,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/silencioNetwork",
   "twitter_followers": null,
-  "watchers": 4390
+  "watchers": 4393
  },
  "sogni-ai": {
   "categories": [
@@ -4505,9 +4697,9 @@
    "DigiFinex",
    "Gate",
    "GroveX",
-   "Hyperliquid"
+   "HTX"
   ],
-  "cex_count": 25,
+  "cex_count": 26,
   "chat": null,
   "commits_4w": null,
   "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
@@ -4519,7 +4711,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-10-29T13:01:35.319735+00:00",
+  "fetched": "2026-10-30T19:25:48.458121+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -4536,7 +4728,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
-  "watchers": 28874
+  "watchers": 28875
  },
  "tesla-ondo-tokenized-stock": {
   "categories": [
@@ -4684,6 +4876,40 @@
   "twitter_followers": null,
   "watchers": 344
  },
+ "tokenos-ai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Smart Contract Platform",
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "TokenOS is the world\u2019s most advanced AI-powered Web3 development platform, designed to turn natural language prompts into fully functional, production-ready blockchain applications. From simple tokens and memecoins to complex DeFi protocols, TokenOS automates the creation, deployment, and auditing of smart contracts and dApps with enterprise-grade reliability. By combining advanced language models with blockchain infrastructure, TokenOS removes the barriers of technical expertise, making Web3 development accessible to everyone. With instant deployment, built-in security best practices, and cross-chain support on the roadmap, TokenOS empowers entrepreneurs, developers, and creators to launch tokenized businesses and decentralized applications in seconds.\n",
+  "dex": [
+   "Meteora DAMM V2",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump",
+  "fetched": "2026-10-30T19:24:26.031249+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://tokenos.ai/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/TokenOS_AI",
+  "telegram_users": null,
+  "twitter": "https://x.com/TokenOS_AI",
+  "twitter_followers": null,
+  "watchers": 233
+ },
  "tornado-cash": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4725,6 +4951,42 @@
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
   "watchers": 19337
+ },
+ "tsmc-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+  "fetched": "2026-10-30T19:27:24.602487+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.binance.com/bstocks-landing",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 46
  },
  "tung-tung-tung-sahur-2": {
   "categories": [
@@ -4856,7 +5118,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-10-29T12:59:03.605287+00:00",
+  "fetched": "2026-10-30T19:23:16.322671+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
