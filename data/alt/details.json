@@ -482,7 +482,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-10-28T20:47:11.845795+00:00",
+  "fetched": "2026-10-31T18:34:42.295010+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -490,13 +490,62 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/arcblock/",
-  "sentiment_up": 66.67,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/ArcBlock",
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11083
+  "watchers": 11108
+ },
+ "auction": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Launchpad",
+   "Ethereum Ecosystem",
+   "DWF Labs Portfolio",
+   "Coinbase Ventures Portfolio",
+   "Pantera Capital Portfolio",
+   "Blockchain Capital Portfolio"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "BVOX",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bitvavo",
+   "BloFin",
+   "Coinbase Exchange"
+  ],
+  "cex_count": 32,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096",
+  "fetched": "2026-10-31T18:34:48.622657+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://bounce.finance/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/bounce_finance",
+  "telegram_users": null,
+  "twitter": "https://x.com/bounce_finance",
+  "twitter_followers": null,
+  "watchers": 15783
  },
  "aura-final-boss-2": {
   "categories": [
@@ -719,7 +768,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
-  "fetched": "2026-10-29T19:41:45.832500+00:00",
+  "fetched": "2026-10-31T18:34:39.175876+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basebluechip.com/",
@@ -733,7 +782,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/o1bluechip",
   "twitter_followers": null,
-  "watchers": 346
+  "watchers": 347
  },
  "bluzelle": {
   "categories": [
@@ -1268,7 +1317,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-10-30T02:04:06.552131+00:00",
+  "fetched": "2026-10-31T18:34:45.452956+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1283,7 +1332,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1714
+  "watchers": 1725
  },
  "concierge-io": {
   "categories": [
