@@ -346,16 +346,16 @@
    "BVOX",
    "Bilaxy",
    "Binance",
-   "Binance US",
    "BingX",
    "Bit2Me",
    "BitDelta",
    "BitKan",
    "Bitget",
    "Bithumb",
-   "Bitkub"
+   "Bitkub",
+   "Bitlo"
   ],
-  "cex_count": 51,
+  "cex_count": 49,
   "chat": "https://medium.com/api3",
   "commits_4w": null,
   "description": "Api3 delivers first-party oracles that pay you \u2014 connecting real-world data directly to smart contracts while reclaiming lost value through Oracle Extractable Value (OEV). Explore the Api3 Market and start earning.",
@@ -366,7 +366,7 @@
   ],
   "discord": "https://discord.com/invite/qnRrcfnm5W",
   "explorer": "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-  "fetched": "2026-10-28T12:54:23.303081+00:00",
+  "fetched": "2026-10-31T12:26:47.657179+00:00",
   "genesis": null,
   "github": "https://github.com/api3dao/airnode",
   "homepage": "https://api3.org/",
@@ -374,13 +374,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/API3/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/API3DAO",
   "telegram_users": null,
   "twitter": "https://x.com/API3DAO",
   "twitter_followers": null,
-  "watchers": 45647
+  "watchers": 45643
  },
  "arcblock": {
   "categories": [
@@ -495,7 +495,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-30T02:01:33.699948+00:00",
+  "fetched": "2026-10-31T12:25:31.633072+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -505,7 +505,7 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
@@ -769,7 +769,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-29T19:45:34.973516+00:00",
+  "fetched": "2026-10-31T12:25:25.226556+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -778,13 +778,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114141
+  "watchers": 114143
  },
  "broadcom-xstock": {
   "categories": [
@@ -995,6 +995,48 @@
   "twitter": "https://x.com/centrifuge",
   "twitter_followers": null,
   "watchers": 7530
+ },
+ "chainflip": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Ethereum Ecosystem",
+   "Bridge Governance Tokens",
+   "Coinbase Ventures Portfolio",
+   "Pantera Capital Portfolio",
+   "Delphi Ventures Portfolio",
+   "Blockchain Capital Portfolio",
+   "CoinList Launchpad"
+  ],
+  "cex": [
+   "Chainflip",
+   "Crypto.com Exchange",
+   "Gate",
+   "KuCoin"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Chainflip is a decentralised, trustless protocol that allows users to easily exchange cryptocurrency assets across a range of networks and blockchains without losing custody of their assets in the process. The Chainflip protocol allows users to swap assets between major blockchains without any wrapped tokens, traditional bridging, and at extremely competitive pricing using a novel and unique \u2018Just-inTime\u2019 based Automated Market Maker, dubbed the JIT AMM. It is totally generalised, decentralised, and can be integrated with any chain using any transaction type. The protocol is secured by a set of 150 validators staking Chainflip\u2019s native FLIP token. FLIP is primarily a utility token. Validators require FLIP in order to stake, and in turn are rewarded in FLIP. Value is returned indirectly to Validators through protocol fees. Additionally, every swap conducted on the platform results in the automatic buying and burning of FLIP tokens through the liquidity pool system, which puts deflationary pressure on the network as trading volume increases.",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/chainflip-community",
+  "explorer": "https://etherscan.io/token/0x826180541412d574cf1336d22c0c0a287822678a",
+  "fetched": "2026-10-31T12:26:44.478308+00:00",
+  "genesis": null,
+  "github": "https://github.com/chainflip-io/",
+  "homepage": "https://chainflip.io/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/chainflip_io_chat",
+  "telegram_users": null,
+  "twitter": "https://x.com/chainflip",
+  "twitter_followers": null,
+  "watchers": 20807
  },
  "circle-rstock-2": {
   "categories": [
@@ -1442,7 +1484,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
-  "fetched": "2026-10-29T19:43:02.215790+00:00",
+  "fetched": "2026-10-31T12:24:12.443453+00:00",
   "genesis": null,
   "github": "https://github.com/DimitraAgTech",
   "homepage": "https://dimitra.io",
@@ -1739,7 +1781,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x6D145722564AAa0DBA3E104DD1D680b227927777",
-  "fetched": "2026-10-30T02:00:26.757252+00:00",
+  "fetched": "2026-10-31T12:22:53.251997+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x6d145722564aaa0dba3e104dd1d680b227927777",
@@ -1753,7 +1795,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/bnbFatCat",
   "twitter_followers": null,
-  "watchers": 10
+  "watchers": 11
  },
  "fluence-2": {
   "categories": [
@@ -1839,6 +1881,38 @@
   "twitter": "https://x.com/flyingtulip_",
   "twitter_followers": null,
   "watchers": 1415
+ },
+ "fomo-life": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Chinese Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "WHAT IS FOMO LIFE?\nA decentralized on-chain ecosystem built around participation, staking, rewards, deflationary mechanics and community consensus.\n\nTHE CORE ENGINE\nFOMO VAULT\nEvery participation has a destination. The supplied allocation architecture separates prize, reward, burn, staker and Genesis NFT flows.\nGENESIS NFT\nA limited-edition privilege certificate within the FOMO Life ecosystem. Total supply fixed at 300, never increased.",
+  "dex": [
+   "PancakeSwap (v2)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x7af3eeb03894c5150abac3e8b2ab6fb427a17777#transactions",
+  "fetched": "2026-10-31T12:22:59.618904+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": null,
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/FomoLife_Official",
+  "telegram_users": null,
+  "twitter": "https://x.com/fomolife_2026",
+  "twitter_followers": null,
+  "watchers": 15
  },
  "forta": {
   "categories": [
@@ -2120,7 +2194,7 @@
   ],
   "discord": "https://discord.com/invite/gitcoin",
   "explorer": "https://etherscan.io/token/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
-  "fetched": "2026-10-29T13:00:15.095144+00:00",
+  "fetched": "2026-10-31T12:23:09.184460+00:00",
   "genesis": null,
   "github": "https://github.com/gitcoinco",
   "homepage": "https://gitcoin.co/",
@@ -2135,7 +2209,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/gitcoin",
   "twitter_followers": null,
-  "watchers": 18087
+  "watchers": 18091
  },
  "golden-butterfly-sacred-armor": {
   "categories": [
@@ -2592,10 +2666,9 @@
   ],
   "cex": [
    "LBank",
-   "MEXC",
    "Poloniex"
   ],
-  "cex_count": 3,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "STONK backwards is KNOTS\n\nThey are in a constant symbiosis and feed on each other\n\nHolding $KNOTS earns you $STONK rewards from a 3% transfer tax\n\nEvery time $KNOTS moves, part of the transaction fee goes back to $KNOTS holders in $STONK.\n\nInstead of another Memecoin that needs a 14 page explanation for why it exists, the two memes are directly connected through the token mechanics.\n\nSometimes the best ideas are the ones you understand immediately.",
@@ -2606,7 +2679,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS",
-  "fetched": "2026-10-29T12:58:53.929876+00:00",
+  "fetched": "2026-10-31T12:23:02.794493+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.knotsstonk.com/",
@@ -2620,7 +2693,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/KnotsOnStonk",
   "twitter_followers": null,
-  "watchers": 473
+  "watchers": 478
  },
  "kryll": {
   "categories": [
@@ -2969,7 +3042,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
-  "fetched": "2026-10-30T02:02:59.781666+00:00",
+  "fetched": "2026-10-31T12:24:15.663872+00:00",
   "genesis": null,
   "github": "https://github.com/moonwell-fi/mamo-contracts",
   "homepage": "https://mamo.bot",
@@ -2977,13 +3050,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/MamoAIbot",
   "telegram_users": null,
   "twitter": "https://x.com/mamo",
   "twitter_followers": null,
-  "watchers": 3773
+  "watchers": 3775
  },
  "marlin": {
   "categories": [
@@ -3374,7 +3447,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-30T02:04:13.204466+00:00",
+  "fetched": "2026-10-31T12:24:18.840688+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3389,7 +3462,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30308
+  "watchers": 30307
  },
  "obligate-trade-finance-yield": {
   "categories": [
@@ -3939,7 +4012,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 41,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -3950,7 +4023,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-29T19:46:41.502570+00:00",
+  "fetched": "2026-10-31T12:26:41.309051+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4050,7 +4123,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-30T02:01:36.959210+00:00",
+  "fetched": "2026-10-31T12:25:34.919583+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4067,7 +4140,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90686
+  "watchers": 90696
  },
  "rize": {
   "categories": [
@@ -4437,6 +4510,59 @@
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
   "watchers": 10163
+ },
+ "stp-network": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Decentralized Finance (DeFi)",
+   "Derivatives",
+   "Synthetic Issuer",
+   "Base Ecosystem",
+   "AI Agents",
+   "Synthetic",
+   "AI Agent Launchpad",
+   "Base Native"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "BloFin",
+   "Coinbase Exchange"
+  ],
+  "cex_count": 27,
+  "chat": null,
+  "commits_4w": null,
+  "description": "STP (Becoming AWE Network) is opening the portal to Autonomous Worlds where AI Agents collaborate, adapt and evolve. The Autonomous Worlds Engine (AWE) is a modular framework enabling the creation of self-sustaining worlds for scalable agent-agent and human-agent collaboration.\n\nAWE scales interactions between thousands of autonomous agents using parallel processing, dependency management and GPU-optimized workloads. World.Fun is an autonomous worlds launcher that supports 1,000 agent AI-driven Autonomous Worlds powered by AWE. Users can create and customize agents to be deployed into these autonomous worlds using STPT.\n\n",
+  "dex": [
+   "Aerodrome (Base)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x1B4617734C43F6159F3a70b7E06d883647512778",
+  "fetched": "2026-10-31T12:26:38.145579+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.awenetwork.ai/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/STPofficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/awenetwork_ai",
+  "twitter_followers": null,
+  "watchers": 7963
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -4838,7 +4964,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-10-30T02:02:53.248048+00:00",
+  "fetched": "2026-10-31T12:25:28.440168+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -4853,7 +4979,40 @@
   "telegram_users": null,
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
-  "watchers": 19337
+  "watchers": 19338
+ },
+ "true": {
+  "categories": [
+   "Prediction Markets",
+   "Base Ecosystem"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "True is a decentralized prediction market platform that allows users to trade on the outcomes of real-world events using cryptocurrency. Built on the Base blockchain, it leverages smart contracts to ensure transparency and security. Users can buy and sell shares in different outcomes, with market prices reflecting the probability of an event occurring.\n\nTrue covers a wide range of topics, including politics, sports, technology, and finance. It operates in a non-custodial manner, meaning users retain control of their funds, and settlements are handled through oracles that verify event outcomes. Unlike traditional betting platforms, True is more of an information market where traders profit from correctly predicting real-world events rather than simply gambling.",
+  "dex": [
+   "Uniswap V2 (Base)"
+  ],
+  "discord": "https://discord.gg/trueo",
+  "explorer": "https://basescan.org/token/0x21CFCFc3d8F98fC728f48341D10Ad8283F6EB7AB",
+  "fetched": "2026-10-31T12:23:05.974440+00:00",
+  "genesis": null,
+  "github": "https://github.com/trueo-protocol/trueo-contracts",
+  "homepage": "https://trueo.com/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Trueo_",
+  "twitter_followers": null,
+  "watchers": 827
  },
  "tsmc-bstocks-tokenized-stock": {
   "categories": [
@@ -4986,7 +5145,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-30T02:04:16.505958+00:00",
+  "fetched": "2026-10-31T12:24:22.018875+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5061,7 +5220,7 @@
    "Bitvavo",
    "BloFin"
   ],
-  "cex_count": 27,
+  "cex_count": 29,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -5072,7 +5231,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x28d38dF637dB75533bD3F71426F3410a82041544",
-  "fetched": "2026-10-29T01:56:20.770645+00:00",
+  "fetched": "2026-10-31T12:26:50.833074+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.wayfinder.ai/",
@@ -5081,7 +5240,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -5105,7 +5264,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-30T02:00:23.156906+00:00",
+  "fetched": "2026-10-31T12:21:50.028669+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5113,7 +5272,7 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+o9WcbT5JyIFkZTM0",
   "telegram_users": null,
@@ -5138,7 +5297,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
-  "fetched": "2026-10-30T02:00:30.375865+00:00",
+  "fetched": "2026-10-31T12:22:56.427010+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
@@ -5152,7 +5311,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/WinDAO_winjie",
   "twitter_followers": null,
-  "watchers": 15
+  "watchers": 16
  },
  "wormhole": {
   "categories": [
