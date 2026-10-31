@@ -62,7 +62,6 @@
   "cex": [
    "Biconomy.com",
    "Binance",
-   "Binance US",
    "Bitrue",
    "Bittime",
    "Bitvavo",
@@ -71,9 +70,10 @@
    "Kraken",
    "KuCoin",
    "MEXC",
-   "Mudrex"
+   "Mudrex",
+   "Toobit"
   ],
-  "cex_count": 16,
+  "cex_count": 14,
   "chat": null,
   "commits_4w": null,
   "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
@@ -85,7 +85,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-10-28T20:47:18.414140+00:00",
+  "fetched": "2026-10-31T01:41:25.184396+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -137,66 +137,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 9691
- },
- "aixbt": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Solana Ecosystem",
-   "Meme",
-   "Ethereum Ecosystem",
-   "Base Ecosystem",
-   "AI Meme",
-   "AI Agents",
-   "Virtuals Protocol Ecosystem",
-   "Binance Alpha Spotlight",
-   "DeFAI",
-   "Base Native"
-  ],
-  "cex": [
-   "BVOX",
-   "BYDFi",
-   "Biconomy.com",
-   "Binance",
-   "Binance US",
-   "BingX",
-   "Bit2Me",
-   "BitKan",
-   "Bitkub",
-   "Bitlo",
-   "Bitrue",
-   "Bittime"
-  ],
-  "cex_count": 43,
-  "chat": null,
-  "commits_4w": null,
-  "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
-  "dex": [
-   "Aerodrome (Base)",
-   "Aerodrome SlipStream",
-   "PancakeSwap V3 (Base)",
-   "Raydium",
-   "Uniswap V2 (Base)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-10-27T19:30:45.214654+00:00",
-  "genesis": null,
-  "github": "https://github.com/aixbt",
-  "homepage": "https://aixbt.tech",
-  "platforms": [
-   "base",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/aixbtportal",
-  "telegram_users": null,
-  "twitter": "https://x.com/aixbt_agent",
-  "twitter_followers": null,
-  "watchers": 38545
  },
  "aleo": {
   "categories": [
@@ -506,7 +446,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-  "fetched": "2026-10-29T19:41:42.605754+00:00",
+  "fetched": "2026-10-31T01:40:14.985872+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
@@ -514,13 +454,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 62
+  "watchers": 65
  },
  "aurora-near": {
   "categories": [
@@ -779,10 +719,9 @@
    "LBank",
    "MEXC",
    "Ourbit",
-   "Poloniex",
    "XT.COM"
   ],
-  "cex_count": 6,
+  "cex_count": 5,
   "chat": null,
   "commits_4w": null,
   "description": "Bobo Coin is a meme Solana token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.",
@@ -791,7 +730,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-29T19:40:39.345183+00:00",
+  "fetched": "2026-10-31T01:40:07.302918+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -805,7 +744,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/bobocouncil",
   "twitter_followers": null,
-  "watchers": 422
+  "watchers": 424
  },
  "brickken": {
   "categories": [
@@ -875,7 +814,7 @@
   ],
   "discord": null,
   "explorer": "https://www.arbiscan.io/token/0x38bac69cbbd28156796e4163b2b6dcb81e336565",
-  "fetched": "2026-10-28T19:41:14.106823+00:00",
+  "fetched": "2026-10-31T01:44:01.800830+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://xstocks.com/",
@@ -1133,42 +1072,6 @@
   "twitter_followers": null,
   "watchers": 124
  },
- "clawpump-tech": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem",
-   "AI Agent Launchpad",
-   "Pump Fund Portfolio"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The official token from the clawpump.tech agentic gateway to Solana. Clawpump is a gasless. ClawPump enables AI agents to launch tokens on pump.fun without paying gas fees, solving the coldstart problems for agents entering Solana. The platform sponsors token creation, collects trading fees hourly, and distributes 65% of all revenue directly to agents.  Clawpump enables launches via SOL or USDC (x402 protocol), multiDEX arbitrage, and social skills for agents.",
-  "dex": [
-   "Meteora",
-   "Meteora DAMM V2",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/739dnZEG4yaBWFsY8L8ZwrfhGG6dhtCSercW8Umspump",
-  "fetched": "2026-10-28T01:23:47.860236+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.clawpump.tech",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/clawpumptech",
-  "twitter_followers": null,
-  "watchers": 262
- },
  "codec-flow": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1260,52 +1163,6 @@
   "twitter_followers": null,
   "watchers": 27664
  },
- "constitutiondao": {
-  "categories": [
-   "Meme",
-   "Ethereum Ecosystem",
-   "PolitiFi"
-  ],
-  "cex": [
-   "BTCC",
-   "BVOX",
-   "Biconomy.com",
-   "BigONE",
-   "Binance",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bitkub",
-   "Bitrue",
-   "Bittime",
-   "Bitunix"
-  ],
-  "cex_count": 41,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x7a58c0be72be218b41c608b7fe7c5bb630736c71",
-  "fetched": "2026-10-28T00:24:32.539117+00:00",
-  "genesis": null,
-  "github": "https://github.com/ConstitutionDAO",
-  "homepage": "https://www.constitutiondao.com/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/constitutiondao",
-  "twitter_followers": null,
-  "watchers": 19300
- },
  "cookie": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1335,7 +1192,7 @@
    "Bitunix",
    "BloFin"
   ],
-  "cex_count": 32,
+  "cex_count": 33,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1348,7 +1205,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-10-29T19:43:15.337995+00:00",
+  "fetched": "2026-10-31T01:42:41.698615+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1364,7 +1221,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33318
+  "watchers": 33316
  },
  "dacity-coin-2": {
   "categories": [
@@ -1450,6 +1307,65 @@
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
   "watchers": 10317
+ },
+ "degen-base": {
+  "categories": [
+   "Smart Contract Platform",
+   "Meme",
+   "Base Ecosystem",
+   "Base Meme",
+   "Farcaster Ecosystem",
+   "Binance Alpha Spotlight",
+   "Base Native",
+   "Robinhood Ecosystem",
+   "Robinhood Chain Meme"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "Bit2Me",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "Bybit",
+   "CoinUp.io",
+   "CoinW",
+   "Coinbase Exchange",
+   "Deepcoin"
+  ],
+  "cex_count": 31,
+  "chat": null,
+  "commits_4w": null,
+  "description": "DEGEN is more than a token. It's the economy behind a culture.\n\nBorn from a community and shaped by the people who participate in it, DEGEN has evolved into an ecosystem of products, communities, and onchain experiences. From opinion markets and digital identity to NFTs and future applications, the DEGEN token connects every part of the ecosystem through a shared economy.\n\nAs the ecosystem grows, every new product strengthens the network, giving the token utility beyond any single application",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Meteora",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V2 (Base)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+  "fetched": "2026-10-31T01:40:18.280147+00:00",
+  "genesis": null,
+  "github": "https://github.com/jacek0x",
+  "homepage": "https://www.degen.tips/",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/degentokenbase",
+  "telegram_users": null,
+  "twitter": "https://x.com/degentokenbase",
+  "twitter_followers": null,
+  "watchers": 37910
  },
  "delysium": {
   "categories": [
@@ -1982,39 +1898,6 @@
   "twitter_followers": null,
   "watchers": 7683
  },
- "froggie": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [
-   "Bitget"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Froggie ($FROGGIE) is a community-driven meme coin launched on the Binance Smart Chain (BSC), inspired by the viral \"Neural Frog\" (\u795e\u7ecf\u86d9) meme that originated within WeChat's massive ecosystem of over 1.3 billion users. The meme evolved from WeChat's unofficial \"Crazy Frog\" mascot, which has been a cultural staple since 2016, representing internet humor, creativity, and spontaneous community energy in Chinese digital culture.The project's name, \"Froggie,\" was officially decided through a public community vote initiated by WeChat's official X (formerly Twitter) account in mid-2025, where it secured 44.5% of the votes against alternatives like \"Nervous Frog.\" This grassroots naming process underscores its emphasis on decentralized participation and viral appeal, drawing parallels to iconic meme coins like Dogecoin and Pepe while targeting an untapped Asian market fueled by WeChat's sticker polls and humor-driven campaigns.Key aspects of the project include:Blockchain and Tokenomics: Built on BSC as a BEP-20 token (contract address: 0xa45f5eb48cecd034751651aeeda6271bd5df8888), with transparent, audited smart contracts to ensure trust and no hidden taxes.\nCommunity Focus: 100% driven by holders, with no confirmed founder involvement; growth relies on meme proliferation, social media buzz (especially on X), and global engagement rather than centralized marketing.\nMarket Traction: Launched in July 2025, it quickly hit a $12 million market cap with a 54% price surge in 24 hours, later",
-  "dex": [
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-10-27T19:29:41.970634+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://froggiebsc.xyz/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/Froggie_bsc1",
-  "telegram_users": null,
-  "twitter": "https://x.com/froggie_bsc0",
-  "twitter_followers": null,
-  "watchers": 182
- },
  "gamercoin": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2254,41 +2137,6 @@
   "twitter_followers": null,
   "watchers": 18087
  },
- "giveback": {
-  "categories": [
-   "Charity",
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": "https://www.youtube.com/@gbackcoin",
-  "commits_4w": null,
-  "description": "Give Back Coin $GBACK transforms how the world funds relief and humanitarian aid. By combining blockchain transparency, community power, and sustainable funding through creator rewards.\nGiveBack Coin is a purpose-driven cryptocurrency designed to combine blockchain technology with real-world generosity. The project\u2019s mission is to turn everyday crypto activity  trading, holding, and community growth into meaningful social impact.\n\nUnlike traditional cryptocurrencies focused purely on profit, GiveBack Coin dedicates up to 50% of its profits to charitable donations and community aid projects, such as feeding the homeless, supporting humanitarian efforts, and funding local outreach programs.\n\nBuilt on the Solana blockchain, GiveBack Coin offers fast, low-cost, and transparent transactions, ensuring that every contribution and donation is traceable and accountable. The community also plays a central role holders can help vote on which causes and charities receive support",
-  "dex": [
-   "PumpSwap",
-   "Raydium (CLMM)"
-  ],
-  "discord": "https://discord.com/invite/gbackcoin",
-  "explorer": "https://solscan.io/token/Fh7mLxtPAysdvHcMcJ37A3vc6WvBVh7JVDwxmwk6pump",
-  "fetched": "2026-10-27T19:30:54.902397+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://gbackcoin.com/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/gbackcoin",
-  "twitter_followers": null,
-  "watchers": 187
- },
  "golden-butterfly-sacred-armor": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -2320,6 +2168,57 @@
   "twitter": "https://x.com/skl_flap",
   "twitter_followers": null,
   "watchers": 43
+ },
+ "golem": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Energi Ecosystem",
+   "GMCI DePIN Index",
+   "GMCI Index"
+  ],
+  "cex": [
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime"
+  ],
+  "cex_count": 40,
+  "chat": "https://www.youtube.com/c/golemnetwork",
+  "commits_4w": null,
+  "description": "What Is Golem Network?\n\nGolem Network is an open-source, decentralized computing platform that is building an ecosystem to provide computing power to the AI industry. A peer-to-peer marketplace for distributed computing resources. Users engage directly on the Golem platform, exchanging GLM tokens for the utilization of their idle computing resources.\n\nGolem allows to break down tasks into smaller subtasks and distribute them across multiple providers, enabling parallel processing. This approach boosts efficiency and speeds up the completion of complex computations.\n\nWhat is GLM?\n\nGLM or Golem Network Token is needed to pay for computations on the network and is the currency that drives the marketplace. As a Requestor, you set a bid for an amount of GLM you are willing to pay to have your task completed. As a Provider, you earn GLM by computing tasks for Requestors.\n\nHow can I get involved?\n\nIf you want to stay up to date with the latest developments and updates, join the Golem Network Discord community here: https://chat.golem.network/\n\nOn Discord you can also find support to become a Provider or a Requestor in the Golem platform.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/golem",
+  "explorer": "https://etherscan.io/token/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+  "fetched": "2026-10-31T01:44:05.106934+00:00",
+  "genesis": null,
+  "github": "https://github.com/golemfactory/golem",
+  "homepage": "https://golem.network/",
+  "platforms": [
+   "energi",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/GolemProject",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/golemnetworkproject",
+  "telegram_users": null,
+  "twitter": "https://x.com/golemproject",
+  "twitter_followers": null,
+  "watchers": 28868
  },
  "gstock": {
   "categories": [
@@ -2374,17 +2273,16 @@
    "KCEX",
    "LBank",
    "MEXC",
-   "Manifest",
    "Ondo Stocks"
   ],
-  "cex_count": 6,
+  "cex_count": 5,
   "chat": null,
   "commits_4w": null,
   "description": "HIMSon is the Ondo Tokenized version of Hims &amp; Hers Health, giving tokenholders economic exposure similar to holding HIMS and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xCa468554e5C0423Ee858fe3942c9568C51FcAa79",
-  "fetched": "2026-10-29T19:43:05.543687+00:00",
+  "fetched": "2026-10-31T01:42:35.122012+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/himson",
@@ -2483,7 +2381,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-29T19:45:38.234133+00:00",
+  "fetched": "2026-10-31T01:43:54.988763+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2494,13 +2392,13 @@
    "sora"
   ],
   "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/iexec_rlc_official",
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35773
+  "watchers": 35776
  },
  "infinity-ground": {
   "categories": [
@@ -2549,48 +2447,45 @@
   "twitter_followers": null,
   "watchers": 1210
  },
- "intel-ondo-tokenized-stock": {
+ "ishares-msci-south-korea-etf-bstocks-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
    "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
    "Real World Assets (RWA)",
-   "HyperEVM Ecosystem",
-   "Ondo Tokenized Assets"
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "bStocks Ecosystem"
   ],
   "cex": [
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Ondo Stocks"
+   "Binance",
+   "LBank"
   ],
-  "cex_count": 4,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
-  "description": "INTCon is the Ondo Tokenized version of Intel, giving tokenholders economic exposure similar to holding INTC and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [],
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
   "discord": null,
-  "explorer": "https://etherscan.io/address/0xFdA09936DbD717368De0835bA441d9E62069d36f",
-  "fetched": "2026-10-28T00:27:08.320710+00:00",
+  "explorer": "https://bscscan.com/token/0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
+  "fetched": "2026-10-31T01:41:31.767731+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://app.ondo.finance/assets/intcon",
+  "homepage": null,
   "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "hyperevm",
-   "solana"
+   "binance-smart-chain"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
+  "twitter": null,
   "twitter_followers": null,
-  "watchers": 277
+  "watchers": 13
  },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
@@ -2687,48 +2582,6 @@
   "twitter": "https://x.com/JeanPhilMadame",
   "twitter_followers": null,
   "watchers": 162
- },
- "kaio": {
-  "categories": [
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)"
-  ],
-  "cex": [
-   "Bitget",
-   "Coinbase Exchange",
-   "DigiFinex",
-   "Gate",
-   "KCEX",
-   "KuCoin",
-   "MEXC",
-   "OrangeX",
-   "Ourbit",
-   "Toobit"
-  ],
-  "cex_count": 10,
-  "chat": null,
-  "commits_4w": null,
-  "description": "KAIO provides institutional-grade real-world asset (RWA) tokenization infrastructure that seamlessly connects traditional investment funds with digital capital markets. Through its purpose-built protocol, KAIO enables leading global asset managers to issue and distribute regulated tokenized funds across multiple high-performance blockchain networks \u2014 including Ethereum, Sei, Hedera, Solana, Aptos, and others \u2014 significantly expanding global access to institutional-quality real-world asset strategies for qualified investors. \n\nBy tokenizing feeder structures and shares in flagship funds, KAIO brings onchain access to proven strategies such as the BlackRock ICS US Dollar Liquidity Fund (one of the world\u2019s largest institutional money market funds), the Brevan Howard Master Fund, Hamilton Lane\u2019s Senior Credit Opportunities Fund (SCOPE) via the HL SCOPE Access Fund, and Laser Digital\u2019s Laser Carry Fund (LCF), among others. These tokenized vehicles deliver secure, compliant exposure to money market, macro, private credit, and alternative strategies while unlocking new levels of programmability, composability, and 24/7 liquidity in DeFi environments. ",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
-  "fetched": "2026-10-28T01:22:44.608271+00:00",
-  "genesis": null,
-  "github": "https://github.com/librecapital",
-  "homepage": "https://www.kaio.xyz/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/KAIO_RWA",
-  "telegram_users": null,
-  "twitter": "https://x.com/KAIO_xyz",
-  "twitter_followers": null,
-  "watchers": 649
  },
  "knots": {
   "categories": [
@@ -2844,7 +2697,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-10-29T19:42:58.854557+00:00",
+  "fetched": "2026-10-31T01:43:58.271646+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -3002,7 +2855,7 @@
    "Bitbaby",
    "Bitbank"
   ],
-  "cex_count": 59,
+  "cex_count": 58,
   "chat": null,
   "commits_4w": null,
   "description": "The Livepeer project aims to deliver a live video streaming network protocol that is fully decentralized, highly scalable, crypto token incentivized, and results in a solution which can serve as the live media layer in the decentralized development (web3) stack. In addition, Livepeer is meant to provide an economically efficient alternative to centralized broadcasting solutions for any existing broadcaster. In this document we describe the Livepeer Protocol - a delegated stake based protocol for incentivizing participants in a live video broadcast network in a game-theoretically secure way. We present solutions for the scalable verification of decentralized work, as well as the prevention of useless work in an attempt to game the token allocations in an inflationary system.\n\nThe Livepeer Token (LPT) is the protocol token of the Livepeer network. But it is not the medium of exchange token. Broadcasters use Ethereum's Ether (ETH) to broadcast video on the network. Nodes who contribute processing and bandwidth earn ETH in the form of fees from broadcasters. LPT is a staking token that participants who want to perform work on the network stake in order to coordinate how work gets distributed on the network, and to provide security that the work will get done honestly and correctly. LPT has the following purposes:\n\nIt serves as a bonding mechanism in a delegated proof of stake system, in which stake is delegated towards transcoders (or validators) who participate in the protocol t",
@@ -3012,7 +2865,7 @@
   ],
   "discord": "https://discord.gg/RR4kFAh",
   "explorer": "https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239",
-  "fetched": "2026-10-28T20:47:08.618711+00:00",
+  "fetched": "2026-10-31T01:44:08.386746+00:00",
   "genesis": "2018-10-01",
   "github": "https://github.com/livepeer/livepeerjs",
   "homepage": "https://livepeer.org/",
@@ -3028,7 +2881,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Livepeer",
   "twitter_followers": null,
-  "watchers": 38970
+  "watchers": 38977
  },
  "magic": {
   "categories": [
@@ -3073,7 +2926,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-29T19:45:25.273998+00:00",
+  "fetched": "2026-10-31T01:42:44.997160+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3089,7 +2942,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38915
+  "watchers": 38914
  },
  "mamo": {
   "categories": [
@@ -3339,7 +3192,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-10-29T13:01:22.048894+00:00",
+  "fetched": "2026-10-31T01:42:38.381522+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3353,7 +3206,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7951
+  "watchers": 7953
  },
  "ninja-squad": {
   "categories": [
@@ -3427,6 +3280,62 @@
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
   "watchers": 690
+ },
+ "nvidia-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Binance Alpha Spotlight",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "BingX",
+   "CoinW",
+   "Gate",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Manifest",
+   "Ondo Stocks",
+   "Toobit"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "NVDAon is the Ondo Tokenized version of NVIDIA, giving tokenholders economic exposure similar to holding NVDA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0x2D1F7226Bd1F780AF6B9A49DCC0aE00E8Df4bDEE",
+  "fetched": "2026-10-31T01:42:48.281533+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/nvdaon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 681
  },
  "nym": {
   "categories": [
@@ -3931,43 +3840,6 @@
   "twitter_followers": null,
   "watchers": 23080
  },
- "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
-  "fetched": "2026-10-27T19:32:07.993957+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.binance.com/bstocks-landing",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 19
- },
  "pumpcade": {
   "categories": [
    "Solana Ecosystem",
@@ -4218,12 +4090,11 @@
   "description": "T-RIZE is an institutional-grade tokenization platform designed for the compliant tokenization and distribution of real-world assets (RWAs). It allows asset owners to tokenize projects and enables investors to access fractional ownership with onchain lifecycle management. The platform integrates with regulated distributors for compliant primary and secondary market access. It is further enhanced by a privacy-preserving decentralized machine learning infrastructure that accelerates due diligence, risk assessment, and valuation of tokenized assets.",
   "dex": [
    "Aerodrome SlipStream",
-   "Aerodrome Slipstream 3",
    "Pancakeswap Infinity CLMM (BSC)"
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-10-29T19:41:55.533333+00:00",
+  "fetched": "2026-10-31T01:40:21.669503+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -4240,7 +4111,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/trize_io",
   "twitter_followers": null,
-  "watchers": 7329
+  "watchers": 7330
  },
  "rocket-pool": {
   "categories": [
@@ -4268,11 +4139,11 @@
    "Binance",
    "BingX",
    "Bit2Me",
-   "BitKan",
    "Bithumb",
-   "Bitkub"
+   "Bitkub",
+   "Bitlo"
   ],
-  "cex_count": 46,
+  "cex_count": 45,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4284,7 +4155,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-28T19:40:02.952624+00:00",
+  "fetched": "2026-10-31T01:41:28.476944+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4294,13 +4165,13 @@
    "polygon-pos"
   ],
   "reddit": "https://www.reddit.com/r/rocketpool",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25868
+  "watchers": 25870
  },
  "saucecoin": {
   "categories": [
@@ -4636,6 +4507,38 @@
   "twitter": "https://x.com/sibeautyeth",
   "twitter_followers": null,
   "watchers": 11
+ },
+ "super-inu-3": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Super Inu ($SI) is an Ethereum-based, dog-themed meme cryptocurrency that combines the iconic Shiba Inu meme culture with a superhero-inspired identity.\n\nThe name represents two simple ideas: \"Super\" symbolizes the superhero concept, while \"Inu\" represents the dog. Together, they create Super Inu, a recognizable meme identity built around a heroic Shiba Inu character.\n\nThe ticker $SI captures the project's identity in just two letters, making it simple, memorable, and easy to recognize.\n\nSuper Inu focuses on meme culture, creative storytelling, community engagement, and building a recognizable identity within the Ethereum ecosystem. The project embraces the entertainment-driven nature of meme cryptocurrencies, bringing together superhero aesthetics and the enduring popularity of dog-themed crypto communities.\n\n**Super Inu ($SI) \u2014 The claim. The dog.**",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x6d34013052c8fe696805dde682ae8086be5655cc",
+  "fetched": "2026-10-31T01:40:11.350535+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.superinuerc20.vip/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/SuperInuETHPortal",
+  "telegram_users": null,
+  "twitter": "https://x.com/SuperInuETH",
+  "twitter_followers": null,
+  "watchers": 1079
  },
  "super-pepe": {
   "categories": [
@@ -5043,7 +4946,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x56ab53b77F07DA3af732150E8aeC4783eB5BbA7D",
-  "fetched": "2026-10-29T13:01:32.013406+00:00",
+  "fetched": "2026-10-31T01:43:51.663454+00:00",
   "genesis": null,
   "github": "https://github.com/umiafinance",
   "homepage": "https://www.umia.finance",
@@ -5057,7 +4960,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/umia_finance",
   "twitter_followers": null,
-  "watchers": 234
+  "watchers": 235
  },
  "uranium": {
   "categories": [
