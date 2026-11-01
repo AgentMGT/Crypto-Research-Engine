@@ -300,7 +300,7 @@
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-10-30T02:03:03.120966+00:00",
+  "fetched": "2026-11-01T13:22:02.942414+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -309,7 +309,7 @@
    "binance-smart-chain"
   ],
   "reddit": "https://www.reddit.com/r/AlturaNFT/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/AlturaGaming",
   "telegram_users": null,
@@ -622,7 +622,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-10-31T12:25:31.633072+00:00",
+  "fetched": "2026-11-01T13:20:50.047194+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -632,13 +632,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23718
+  "watchers": 23716
  },
  "basecat": {
   "categories": [
@@ -896,7 +896,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-10-31T12:25:25.226556+00:00",
+  "fetched": "2026-11-01T13:23:16.076767+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -911,7 +911,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114143
+  "watchers": 114144
  },
  "broadcom-xstock": {
   "categories": [
@@ -1103,43 +1103,6 @@
   "twitter": "https://x.com/chainflip",
   "twitter_followers": null,
   "watchers": 20807
- },
- "claus-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Ethereum Ecosystem",
-   "AI Framework"
-  ],
-  "cex": [
-   "KCEX",
-   "MEXC",
-   "Matcha (Ethereum)",
-   "WEEX"
-  ],
-  "cex_count": 4,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Claus (CLAUS) is an Ethereum token with a Uniswap v4 pool whose trading mechanics can change after launch. Replaceable hook code currently supports fee-funded token buybacks and burns, liquidity funding, and a weather-dependent allocation between burns and liquidity. The Claus agent conducts conversations, research and idea gathering on X. The project publishes its current mechanisms, onchain sources and a chronological Journal at claus.si. The official token address remains the same when hook implementations change.",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x1b54E762aa34CF6E28E9C082F2848e28E45DA6b8",
-  "fetched": "2026-10-29T01:54:59.237810+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://claus.si/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/contractclaus",
-  "twitter_followers": null,
-  "watchers": 124
  },
  "clearpool": {
   "categories": [
@@ -1353,7 +1316,7 @@
    "Pump.fun Ecosystem"
   ],
   "cex": [
-   "Hadron"
+   "Manifest"
   ],
   "cex_count": 1,
   "chat": null,
@@ -1365,7 +1328,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-10-30T19:23:19.526043+00:00",
+  "fetched": "2026-11-01T13:20:40.546197+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1379,56 +1342,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 124
- },
- "deapcoin": {
-  "categories": [
-   "Entertainment",
-   "Gaming (GameFi)",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Avalanche Ecosystem",
-   "Play To Earn",
-   "Ethereum Ecosystem",
-   "Gaming Platform"
-  ],
-  "cex": [
-   "Gate",
-   "Indodax",
-   "Kanga Global",
-   "MEXC",
-   "OKJ"
-  ],
-  "cex_count": 5,
-  "chat": "https://t.me/DEAP001",
-  "commits_4w": null,
-  "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
-  "dex": [
-   "ApeSwap",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-10-29T01:56:24.037997+00:00",
-  "genesis": null,
-  "github": "https://github.com/Digita-Entertainment-Asset/DEP",
-  "homepage": "https://dea.sg/",
-  "platforms": [
-   "avalanche",
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/DEAPcoin_group",
-  "telegram_users": null,
-  "twitter": "https://x.com/PlayMining_SG",
-  "twitter_followers": null,
-  "watchers": 10317
+  "watchers": 125
  },
  "degen-base": {
   "categories": [
@@ -1541,6 +1455,39 @@
   "twitter_followers": null,
   "watchers": 24099
  },
+ "dessa": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Zero books. All yap.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+  "fetched": "2026-11-01T13:20:43.699803+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.dessatalks.space/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/DessaOnSOL",
+  "twitter_followers": null,
+  "watchers": 105
+ },
  "dimitra": {
   "categories": [
    "Ethereum Ecosystem",
@@ -1650,61 +1597,6 @@
   "twitter_followers": null,
   "watchers": 3504
  },
- "dusk-network": {
-  "categories": [
-   "Smart Contract Platform",
-   "BNB Chain Ecosystem",
-   "Layer 1 (L1)",
-   "Ethereum Ecosystem",
-   "Zero Knowledge (ZK)",
-   "Real World Assets (RWA)",
-   "YZi Labs (Prev. Binance Labs) Portfolio",
-   "Privacy Blockchain"
-  ],
-  "cex": [
-   "BTCC",
-   "Bancor (V2)",
-   "Biconomy.com",
-   "Binance",
-   "Binance US",
-   "BitKan",
-   "Bitrue",
-   "Bittime",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "CEX.IO"
-  ],
-  "cex_count": 31,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ\u2014Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe.",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V1 (BSC)",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "https://discord.gg/dusk-official",
-  "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-10-29T01:55:14.067824+00:00",
-  "genesis": null,
-  "github": "https://github.com/dusk-network/dusk-blockchain",
-  "homepage": "https://dusk.network/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/DuskNetwork",
-  "telegram_users": null,
-  "twitter": "https://x.com/DuskFoundation",
-  "twitter_followers": null,
-  "watchers": 32071
- },
  "egl1": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -1745,65 +1637,6 @@
   "twitter": "https://x.com/egll_american",
   "twitter_followers": null,
   "watchers": 602
- },
- "everipedia": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Big Data",
-   "Media",
-   "BNB Chain Ecosystem",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "AI Agents",
-   "GMCI DePIN Index",
-   "Galaxy Digital Portfolio",
-   "GMCI Index",
-   "AI Agent Launchpad",
-   "AI Framework",
-   "DeFAI"
-  ],
-  "cex": [
-   "BTCC",
-   "Biconomy.com",
-   "Binance",
-   "Bithumb",
-   "Bitkub",
-   "Bittime",
-   "Bitunix",
-   "Bitvavo",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "Indodax"
-  ],
-  "cex_count": 21,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The IQ token is a cryptocurrency that powers the Agent Tokenization Platform (ATP). ATP was built for developers to launch the next generation of tokenized agents that are verifiably autonomous and sovereign. These agents are capable of owning and managing digital and physical assets, from cryptocurrencies to DeFi transactions to robots.",
-  "dex": [
-   "Curve (Ethereum)",
-   "Fraxswap (Ethereum)",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/RkMDgWy5XQ",
-  "explorer": "https://etherscan.io/token/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
-  "fetched": "2026-10-29T01:53:52.710120+00:00",
-  "genesis": null,
-  "github": "https://github.com/EveripediaNetwork/Everipedia",
-  "homepage": "https://iqindustries.com",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "polygon-pos"
-  ],
-  "reddit": "https://www.reddit.com/r/Everipedia/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/everipedia",
-  "telegram_users": null,
-  "twitter": "https://x.com/IQofficial",
-  "twitter_followers": null,
-  "watchers": 14931
  },
  "everything": {
   "categories": [
@@ -2204,7 +2037,7 @@
   ],
   "discord": "https://discord.com/invite/gitcoin",
   "explorer": "https://etherscan.io/token/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
-  "fetched": "2026-10-31T12:23:09.184460+00:00",
+  "fetched": "2026-11-01T13:21:56.434121+00:00",
   "genesis": null,
   "github": "https://github.com/gitcoinco",
   "homepage": "https://gitcoin.co/",
@@ -2219,7 +2052,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/gitcoin",
   "twitter_followers": null,
-  "watchers": 18091
+  "watchers": 18093
  },
  "golem": {
   "categories": [
@@ -2271,44 +2104,6 @@
   "twitter": "https://x.com/golemproject",
   "twitter_followers": null,
   "watchers": 28868
- },
- "gstock": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [
-   "Gate",
-   "LBank",
-   "MEXC"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
-  "fetched": "2026-10-29T12:58:57.140223+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://slinkcoinrbh.lol/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 91
  },
  "hims-hers-health-ondo-tokenized-stock": {
   "categories": [
@@ -2422,7 +2217,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 34,
+  "cex_count": 33,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2433,7 +2228,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-10-31T01:43:54.988763+00:00",
+  "fetched": "2026-11-01T13:24:25.817559+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2444,13 +2239,13 @@
    "sora"
   ],
   "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/iexec_rlc_official",
   "telegram_users": null,
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
-  "watchers": 35776
+  "watchers": 35774
  },
  "infinite-money-glitch-3": {
   "categories": [
@@ -2786,7 +2581,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-10-31T01:43:58.271646+00:00",
+  "fetched": "2026-11-01T13:24:32.273748+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2802,119 +2597,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3595
- },
- "limewire-token": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Music",
-   "SocialFi",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Base Ecosystem",
-   "Base Native"
-  ],
-  "cex": [
-   "Binance US",
-   "Bit2Me",
-   "Bitget",
-   "Bitvavo",
-   "Bybit",
-   "Crypto.com Exchange",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin",
-   "MEXC",
-   "Mudrex"
-  ],
-  "cex_count": 13,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Base)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://lmwr.co/discord",
-  "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-10-29T13:02:45.492692+00:00",
-  "genesis": null,
-  "github": "https://github.com/LimeWireOfficial",
-  "homepage": "https://limewire.com/u/home",
-  "platforms": [
-   "base",
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/limewire",
-  "telegram_users": null,
-  "twitter": "https://x.com/limewire",
-  "twitter_followers": null,
-  "watchers": 15719
- },
- "lisk": {
-  "categories": [
-   "Smart Contract Platform",
-   "Ethereum Ecosystem",
-   "Layer 2 (L2)",
-   "Base Ecosystem",
-   "Hyperliquid Ecosystem",
-   "Optimism Superchain Ecosystem",
-   "Outlier Ventures Portfolio",
-   "Lisk Ecosystem",
-   "HyperEVM Ecosystem",
-   "Base Native"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "Binance",
-   "BingX",
-   "Bit2Me",
-   "Bithumb",
-   "Bitrue",
-   "Bitvavo",
-   "CoinUp.io",
-   "Coincheck",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate"
-  ],
-  "cex_count": 23,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Ethereum. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
-  "dex": [
-   "Uniswap V4 (Base)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-10-29T13:01:25.529878+00:00",
-  "genesis": null,
-  "github": "https://github.com/LiskHQ/lisk-sdk",
-  "homepage": "https://lisk.com",
-  "platforms": [
-   "base",
-   "ethereum",
-   "hyperevm",
-   "hyperliquid"
-  ],
-  "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/Lisk",
-  "twitter_followers": null,
-  "watchers": 30239
+  "watchers": 3596
  },
  "livepeer": {
   "categories": [
@@ -3001,7 +2684,7 @@
    "BtcTurk | Kripto",
    "Bybit"
   ],
-  "cex_count": 39,
+  "cex_count": 38,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -3015,7 +2698,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-10-31T01:42:44.997160+00:00",
+  "fetched": "2026-11-01T13:22:12.830962+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3031,7 +2714,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38914
+  "watchers": 38911
  },
  "mamo": {
   "categories": [
@@ -3058,7 +2741,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
-  "fetched": "2026-10-31T12:24:15.663872+00:00",
+  "fetched": "2026-11-01T13:21:59.598875+00:00",
   "genesis": null,
   "github": "https://github.com/moonwell-fi/mamo-contracts",
   "homepage": "https://mamo.bot",
@@ -3072,7 +2755,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/mamo",
   "twitter_followers": null,
-  "watchers": 3775
+  "watchers": 3773
  },
  "marlin": {
   "categories": [
@@ -3173,38 +2856,6 @@
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
   "watchers": 342
- },
- "moolah": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "$Moolah is a meme token inspired by the mascot of ListaDAO, a decentralized finance (DeFi) protocol. Launched on the Flap.sh platform, $Moolah has garnered attention due to its official authorization from ListaDAO and its strategic positioning within the DeFi and meme coin ecosystems.                                      $Moolah\u2019s official authorization by ListaDAO sets it apart from many other meme coins, which often lack formal endorsements. According to posts on X, ListaDAO has actively promoted $Moolah, with mentions of its mascot status and interactions with the token\u2019s official account (@Moolah_bsc\n). This backing suggests a strategic alignment with ListaDAO\u2019s broader goals, potentially positioning $Moolah as a \u201cblue-chip\u201d meme coin within the ecosystem. Additionally, Flap.sh and even Binance Chain have shown support through social media engagement, hinting at broader institutional interest.\n\n",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-10-29T13:00:07.467845+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://moolahbnb.com",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/moolah_cto",
-  "telegram_users": null,
-  "twitter": "https://x.com/Moolah_bsc",
-  "twitter_followers": null,
-  "watchers": 268
  },
  "myshell": {
   "categories": [
@@ -4109,7 +3760,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-10-31T12:26:41.309051+00:00",
+  "fetched": "2026-11-01T13:24:29.020744+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4119,13 +3770,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12576
+  "watchers": 12578
  },
  "reppo": {
   "categories": [
@@ -4209,7 +3860,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-10-31T12:25:34.919583+00:00",
+  "fetched": "2026-11-01T13:23:22.575193+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4226,7 +3877,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90696
+  "watchers": 90703
  },
  "rize": {
   "categories": [
@@ -4334,7 +3985,7 @@
    "Bitkub",
    "Bitlo"
   ],
-  "cex_count": 45,
+  "cex_count": 44,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4346,7 +3997,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-10-31T01:41:28.476944+00:00",
+  "fetched": "2026-11-01T13:22:09.599951+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4356,13 +4007,13 @@
    "polygon-pos"
   ],
   "reddit": "https://www.reddit.com/r/rocketpool",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25870
+  "watchers": 25866
  },
  "saucecoin": {
   "categories": [
@@ -4850,7 +4501,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6d34013052c8fe696805dde682ae8086be5655cc",
-  "fetched": "2026-10-31T01:40:11.350535+00:00",
+  "fetched": "2026-11-01T13:19:37.310966+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.superinuerc20.vip/",
@@ -4858,13 +4509,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 80.0,
   "stars": null,
   "telegram": "https://t.me/SuperInuETHPortal",
   "telegram_users": null,
   "twitter": "https://x.com/SuperInuETH",
   "twitter_followers": null,
-  "watchers": 1079
+  "watchers": 1276
  },
  "super-pepe": {
   "categories": [
@@ -5028,58 +4679,6 @@
   "twitter_followers": null,
   "watchers": 168
  },
- "tokenised-gbp": {
-  "categories": [
-   "Stablecoins",
-   "GBP Stablecoin",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Avalanche Ecosystem",
-   "Polygon Ecosystem",
-   "Gnosis Chain Ecosystem",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "Base Ecosystem",
-   "Fiat-backed Stablecoin"
-  ],
-  "cex": [
-   "Coinbase Exchange",
-   "Hydrex Integral",
-   "Kraken"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "tGBP is the first and only British Pound pegged stablecoin issued by a UK FCA-registered firm. tGBP maintains a 1:1 peg to the British Pound Sterling through a robust, transparent backing mechanism designed for stability, redeemability, and regulatory compliance. tGBP is fully collateralised by fiat and short term zero coupon bonds issued by HM Treasury. tGBP facilitates on-chain sterling payments, programmable transactions, and exposure to GBP-linked Real World Assets (RWAs) like tokenised bonds.",
-  "dex": [
-   "Aerodrome Slipstream 2",
-   "Aerodrome Slipstream 3",
-   "Orca",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
-  "fetched": "2026-10-29T13:02:48.797590+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.tokenisedgbp.com",
-  "platforms": [
-   "arbitrum-one",
-   "avalanche",
-   "base",
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/tokenGBP",
-  "twitter_followers": null,
-  "watchers": 344
- },
  "tokenos-ai": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -5139,7 +4738,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-10-31T12:25:28.440168+00:00",
+  "fetched": "2026-11-01T13:20:46.857296+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -5148,7 +4747,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/TornadoCashOfficialDAO",
   "telegram_users": null,
@@ -5173,7 +4772,7 @@
   ],
   "discord": "https://discord.gg/trueo",
   "explorer": "https://basescan.org/token/0x21CFCFc3d8F98fC728f48341D10Ad8283F6EB7AB",
-  "fetched": "2026-10-31T12:23:05.974440+00:00",
+  "fetched": "2026-11-01T13:20:53.210476+00:00",
   "genesis": null,
   "github": "https://github.com/trueo-protocol/trueo-contracts",
   "homepage": "https://trueo.com/",
@@ -5181,13 +4780,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 60.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Trueo_",
   "twitter_followers": null,
-  "watchers": 827
+  "watchers": 861
  },
  "tsmc-bstocks-tokenized-stock": {
   "categories": [
@@ -5224,43 +4823,6 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 46
- },
- "tung-tung-tung-sahur-2": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem",
-   "TikTok Meme"
-  ],
-  "cex": [
-   "KCEX"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Tung Tung Tung Sahur ($TripleT) is a community-driven memecoin on Solana, launched fairly via pump.fun with no pre-mints. It draws from a viral TikTok \"brainrot\" meme featuring an AI-generated wooden creature that mimics \"tung tung tung\" drum sounds to wake people for Sahur during Ramadan in Indonesia and Malaysia. Blending cultural tradition with absurd horror-comedy, it became a sensation with tens of millions of views, UGC, and crossovers into NBA, Roblox, Fortnite, and potential films. As the longest-lasting brainrot character, $TripleT celebrates meme culture's virality, fostering a loyal holder base for fun, hype, and potential growth in the AI-meme space.",
-  "dex": [
-   "Meteora",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
-  "fetched": "2026-10-29T01:52:33.257813+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://triplet.site/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/TripleTonpump",
-  "twitter_followers": null,
-  "watchers": 502
  },
  "umia": {
   "categories": [
@@ -5320,7 +4882,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-10-31T12:24:22.018875+00:00",
+  "fetched": "2026-11-01T13:22:06.424055+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5439,7 +5001,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-10-31T12:21:50.028669+00:00",
+  "fetched": "2026-11-01T13:19:34.231832+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5472,7 +5034,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
-  "fetched": "2026-10-31T12:22:56.427010+00:00",
+  "fetched": "2026-11-01T13:19:31.079656+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x3f15b50f4631ca33ebf06bef7b6f9ad2448d7777",
@@ -5675,7 +5237,7 @@
   ],
   "discord": "https://discord.com/invite/fJM9cHuvvB",
   "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-  "fetched": "2026-10-29T01:55:17.487610+00:00",
+  "fetched": "2026-11-01T13:23:19.249766+00:00",
   "genesis": null,
   "github": "https://github.com/Zebec-protocol",
   "homepage": "https://zebec.io/",
@@ -5683,13 +5245,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 75.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/zebecprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/Zebec_HQ",
   "twitter_followers": null,
-  "watchers": 21442
+  "watchers": 21450
  },
  "zentry": {
   "categories": [
