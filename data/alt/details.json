@@ -140,6 +140,7 @@
   "cex": [
    "Biconomy.com",
    "Binance",
+   "Binance US",
    "Bitrue",
    "Bittime",
    "Bitvavo",
@@ -148,10 +149,9 @@
    "Kraken",
    "KuCoin",
    "MEXC",
-   "Mudrex",
-   "Toobit"
+   "Mudrex"
   ],
-  "cex_count": 14,
+  "cex_count": 16,
   "chat": null,
   "commits_4w": null,
   "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
@@ -163,7 +163,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-10-31T01:41:25.184396+00:00",
+  "fetched": "2026-11-01T19:03:05.360329+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -548,6 +548,37 @@
   "twitter_followers": null,
   "watchers": 15783
  },
+ "audacity-2": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Quit your job. Sell your house. Move to AudaCity. A is for AudaCity \u2014 the place where ordinary rules no longer apply and everyday life is replaced by something far more electric. Here, audacity isn\u2019t just a word; it\u2019s the operating system. People don\u2019t wait for permission, promotions, or perfect timing. They act. They build. They bet on themselves with the kind of fearless energy that most spend their whole lives suppressing. DacityCoin fuels the ecosystem, giving holders real skin in the game and a stake in the culture that rewards courage over caution. AudaCity is more than a slogan or a destination \u2014 it\u2019s a mindset made tangible. A community of people who looked at the safe path, the predictable career, the conventional life, and decided it wasn\u2019t enough. They packed up, cashed out, and chose something sharper. Whether you\u2019re drawn by the promise of freedom, the thrill of starting over, or the simple refusal to settle, AudaCity stands as the answer. Stop negotiating with a life that drains you. Step into the one that demands everything and gives back more.  The rest is up to you.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x14d145a695a2e98234e83d8c780f6a5852c3c95b",
+  "fetched": "2026-11-01T18:59:12.198053+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://audacityoneth.fun",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/audacityoneth",
+  "twitter_followers": null,
+  "watchers": 9
+ },
  "aura-final-boss-2": {
   "categories": [
    "Solana Ecosystem",
@@ -557,13 +588,11 @@
    "Pump.fun Ecosystem"
   ],
   "cex": [
-   "Hadron",
    "KCEX",
    "LBank",
-   "MEXC",
-   "Manifest"
+   "MEXC"
   ],
-  "cex_count": 5,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -573,7 +602,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-  "fetched": "2026-10-31T01:40:14.985872+00:00",
+  "fetched": "2026-11-01T18:58:08.961082+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
@@ -581,13 +610,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 65
+  "watchers": 66
  },
  "aurora-near": {
   "categories": [
@@ -710,7 +739,7 @@
    "Bithumb",
    "Bitlo"
   ],
-  "cex_count": 49,
+  "cex_count": 50,
   "chat": null,
   "commits_4w": null,
   "description": "BIO is a curation and liquidity protocol for Decentralized Science (DeSci). Our mission is to accelerate biotechnology by giving global communities of patients, scientists and biotech professionals the ability to collectively fund, build and own tokenized biotech projects and intellectual property (IP). \n\nThe team behind BIO helped create Molecule, a tokenization platform for early-stage biomedicine, and VitaDAO, the largest decentralized community for longevity science. Building on these successes, BIO is designed to catalyze an onchain scientific economy through decentralized funding, incentives and liquidity.\n\nThe BIO token gives holders access to BIO's network of scientific communities and IP, enabling broad exposure to the DeSci economy.",
@@ -724,7 +753,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-10-31T17:11:34.596239+00:00",
+  "fetched": "2026-11-01T19:00:29.260386+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -735,13 +764,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17126
+  "watchers": 17131
  },
  "blue-chip-4": {
   "categories": [
@@ -857,7 +886,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-10-31T01:40:07.302918+00:00",
+  "fetched": "2026-11-01T18:58:02.496952+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -865,7 +894,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1140,7 +1169,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
-  "fetched": "2026-10-31T17:11:44.162352+00:00",
+  "fetched": "2026-11-01T19:01:52.297985+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clearpool.finance/",
@@ -1155,7 +1184,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ClearpoolFin",
   "twitter_followers": null,
-  "watchers": 39179
+  "watchers": 39184
  },
  "codec-flow": {
   "categories": [
@@ -1344,6 +1373,56 @@
   "twitter_followers": null,
   "watchers": 125
  },
+ "deapcoin": {
+  "categories": [
+   "Entertainment",
+   "Gaming (GameFi)",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Play To Earn",
+   "Ethereum Ecosystem",
+   "Gaming Platform"
+  ],
+  "cex": [
+   "Gate",
+   "Indodax",
+   "Kanga Global",
+   "MEXC",
+   "OKJ"
+  ],
+  "cex_count": 5,
+  "chat": "https://t.me/DEAP001",
+  "commits_4w": null,
+  "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
+  "dex": [
+   "ApeSwap",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
+  "fetched": "2026-11-01T19:01:42.577570+00:00",
+  "genesis": null,
+  "github": "https://github.com/Digita-Entertainment-Asset/DEP",
+  "homepage": "https://dea.sg/",
+  "platforms": [
+   "avalanche",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/DEAPcoin_group",
+  "telegram_users": null,
+  "twitter": "https://x.com/PlayMining_SG",
+  "twitter_followers": null,
+  "watchers": 10319
+ },
  "degen-base": {
   "categories": [
    "Smart Contract Platform",
@@ -1414,7 +1493,6 @@
   ],
   "cex": [
    "Biconomy.com",
-   "BingX",
    "Bithumb",
    "Bitrue",
    "Bittime",
@@ -1424,9 +1502,10 @@
    "Gate",
    "Indodax",
    "KuCoin",
-   "MEXC"
+   "MEXC",
+   "Ourbit"
   ],
-  "cex_count": 14,
+  "cex_count": 13,
   "chat": "https://delysium.medium.com/",
   "commits_4w": null,
   "description": "Delysium is building AI-powered virtual society with $AGI. Delysium has been constructing a virtual world where 1 billion individuals and 100 billion AI Virtual Beings coexist on blockchain.",
@@ -1437,7 +1516,7 @@
   ],
   "discord": "https://discord.com/invite/thedelysium",
   "explorer": "https://etherscan.io/token/0x7da2641000cbb407c329310c461b2cb9c70c3046",
-  "fetched": "2026-10-30T19:26:14.916959+00:00",
+  "fetched": "2026-11-01T19:00:36.068403+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.delysium.com",
@@ -1453,7 +1532,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/The_Delysium",
   "twitter_followers": null,
-  "watchers": 24099
+  "watchers": 24101
  },
  "dessa": {
   "categories": [
@@ -1694,7 +1773,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x6D145722564AAa0DBA3E104DD1D680b227927777",
-  "fetched": "2026-10-31T12:22:53.251997+00:00",
+  "fetched": "2026-11-01T18:58:05.716548+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x6d145722564aaa0dba3e104dd1d680b227927777",
@@ -1866,7 +1945,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-10-31T17:10:25.030377+00:00",
+  "fetched": "2026-11-01T19:00:32.621722+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1877,13 +1956,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7686
+  "watchers": 7691
  },
  "gamercoin": {
   "categories": [
@@ -1913,7 +1992,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-10-29T19:43:08.777908+00:00",
+  "fetched": "2026-11-01T19:00:25.668864+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -1929,7 +2008,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/GamerHashCom",
   "twitter_followers": null,
-  "watchers": 23664
+  "watchers": 23661
  },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
@@ -1953,7 +2032,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-10-31T17:11:40.985006+00:00",
+  "fetched": "2026-11-01T19:01:39.307163+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -3420,7 +3499,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-10-30T19:24:22.824894+00:00",
+  "fetched": "2026-11-01T18:59:18.629176+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3437,7 +3516,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114921
+  "watchers": 114922
  },
  "peapods-finance": {
   "categories": [
@@ -3451,9 +3530,10 @@
    "Base Native"
   ],
   "cex": [
+   "Kodiak V3",
    "Shadow Exchange"
   ],
-  "cex_count": 1,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "Real Yield. Credit. Leverage. Liquidity. Peapods Finance is a permissionless DeFi protocol that allows any ERC-20 asset to serve as the foundation for its own self-sustaining financial system. Each system centers around generating sustainable yield from market volatility, a concept innovated by Peapods and termed \u2018Volatility Farming\u2019. \n\nThe protocol enables the creation of vaults, referred to as \u2018Pods\u2019, which provide depositors of an asset (TKN) with a synthetic wrapped ERC-20 version of it (pTKN) that is tradable on DEXes. This allows for third-party arbitrage to occur that is taxed by the protocol and funds all yield streaming through the system.\n\nThe continuous yield flow delivered by Pods is further structured by integrated lending markets to accommodate different investor profiles. Every Pod natively allows for single-side leveraged LPing, credit, and leverage \u2013 on any token. For projects, this enables free or even yield-generating liquidity by just depositing their native token. No other capital is needed.\n\nPods unlock all this through various internal protocol mechanics, including Volatility Farming, Leveraged Volatility Farming (LVF), isolated lending markets, Metavaults, and governance. These primitives work in concert to create an integrated financial system for each Pod, 100% incentivized by sustainable volatility yield, without relying on inflationary emissions.",
@@ -3467,7 +3547,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
-  "fetched": "2026-10-30T13:07:02.980390+00:00",
+  "fetched": "2026-11-01T19:02:58.783235+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://peapods.finance",
@@ -3478,13 +3558,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/PeapodsFinance",
   "telegram_users": null,
   "twitter": "https://x.com/PeapodsFinance",
   "twitter_followers": null,
-  "watchers": 4247
+  "watchers": 4246
  },
  "pepecat-2": {
   "categories": [
@@ -3647,6 +3727,39 @@
   "twitter": "https://x.com/pumpcade",
   "twitter_followers": null,
   "watchers": 824
+ },
+ "pumpstop": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Cat-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Pumpstop , $XCAT is a community movement and memecoin on Solana born out of pure exhaustion with unfair token launches. \n\nFor too long, the meme trenches have been treated like a personal ATM by insiders, snipers, and wallet bundlers. XCAT flipped the script with a completely transparent fair launch on Xtrends, featuring built in staking, token locking, and sniper protection from block one. \n\nInspired by the classic retail rebellion spirit, our iconic tabby cat mascot represents everyday traders taking back control of the charts. Pumpstop is more than just a cat coin; it is a rallying cry for fair play, organic culture, and holding the line together.",
+  "dex": [
+   "Meteora DAMM V2"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/1226TMaWZiZYWdP7CBZBqfJGXoWXaKXJJiKf45e5xfun",
+  "fetched": "2026-11-01T18:59:15.414349+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pumpstopcat.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/XCAT_ON_Xtrends",
+  "telegram_users": null,
+  "twitter": "https://x.com/XCAT_on_Xtrends",
+  "twitter_followers": null,
+  "watchers": 8
  },
  "puss": {
   "categories": [
@@ -3939,7 +4052,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-10-31T17:12:53.725344+00:00",
+  "fetched": "2026-11-01T19:01:45.820187+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -3953,7 +4066,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 101
+  "watchers": 102
  },
  "rocket-pool": {
   "categories": [
@@ -4112,7 +4225,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-10-31T17:09:15.485522+00:00",
+  "fetched": "2026-11-01T18:59:21.863106+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4127,7 +4240,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11937
+  "watchers": 11935
  },
  "solidus-aitech": {
   "categories": [
@@ -4161,7 +4274,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-10-31T17:12:50.528999+00:00",
+  "fetched": "2026-11-01T19:02:55.578161+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4177,7 +4290,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151661
+  "watchers": 151658
  },
  "spacex-ondo-tokenized-stock": {
   "categories": [
@@ -5050,6 +5163,40 @@
   "twitter_followers": null,
   "watchers": 16
  },
+ "wingbits": {
+  "categories": [
+   "Solana Ecosystem",
+   "DePIN"
+  ],
+  "cex": [
+   "Kraken"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The native token of Wingbits, the world's first rewards-based decentralized flight tracking network. WINGS powers a global DePIN ecosystem where contributors earn rewards for collecting ADS-B aviation data, creating the world's largest virtual map of the sky while transforming how flight data is gathered, verified, and shared.",
+  "dex": [
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
+  "fetched": "2026-11-01T19:03:02.037128+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://wingbits.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/WingbitsMENACommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/wingbits",
+  "twitter_followers": null,
+  "watchers": 489
+ },
  "wormhole": {
   "categories": [
    "Solana Ecosystem",
@@ -5140,13 +5287,14 @@
   "commits_4w": null,
   "description": "XYO is the cryptographic proof layer for the real world, collecting, validating, and delivering physical-world data to AI, robotics, Web3, and enterprise systems. XYO, the original Decentralized Physical Infrastructure Network (DePIN), has been operating since 2018 and now has more than 10 million nodes worldwide. \n\nAt the core of XYO is XYO Layer One, a scalable data blockchain built to support high-volume data industries such as AI, robotics, location intelligence, and real-world asset (RWA) systems. Designed for high throughput and low transaction costs, it gives these data-intensive applications the capacity to process and validate information across massive datasets. XYO Layer One anchors XYO's Proof of Location and Proof of Origin technologies, establishing a verified origin, precise timing, and trusted source behind every piece of data. This verified data directly feeds the XYO AI SDK, a product built by XYO to provide accessibility for developers to build AI-powered applications, autonomous agents, robotics integrations and more using real-world data.\n\nXYO employs a unique dual-token model:\n\nXYO Token: An externally traded token supporting the DePIN ecosystem, rewards, staking, and governance, enhancing overall ecosystem value and scarcity.\n\n\nXL1 Token: Internal to the XYO Layer One blockchain, facilitating transactions, gas fees, and other blockchain-specific use cases.\n\nThe dual-token economics are strategically designed to increase scarcity and promote sustainable ",
   "dex": [
+   "Curve (Ethereum)",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (Ethereum)",
    "Uniswap V4 (Ethereum)"
   ],
   "discord": "https://discord.gg/officialxyo",
   "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
-  "fetched": "2026-10-31T17:12:47.350093+00:00",
+  "fetched": "2026-11-01T19:01:49.061177+00:00",
   "genesis": null,
   "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
   "homepage": "https://xyo.network/",
@@ -5154,13 +5302,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/XYONetwork/",
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/official_xyo",
   "telegram_users": null,
   "twitter": "https://x.com/officialxyo",
   "twitter_followers": null,
-  "watchers": 38898
+  "watchers": 38894
  },
  "yee-token": {
   "categories": [
