@@ -265,7 +265,7 @@
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-01T13:22:02.942414+00:00",
+  "fetched": "2026-11-02T18:58:05.544587+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -280,7 +280,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113460
+  "watchers": 113457
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -562,7 +562,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-01T13:20:50.047194+00:00",
+  "fetched": "2026-11-02T18:57:59.068354+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -578,7 +578,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23716
+  "watchers": 23714
  },
  "basecat": {
   "categories": [
@@ -903,6 +903,50 @@
   "twitter": "https://x.com/bubblemaps",
   "twitter_followers": null,
   "watchers": 4171
+ },
+ "cea-industries-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "LBank",
+   "Matcha (BSC)",
+   "Metric (BSC)",
+   "Topaz"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+  "fetched": "2026-11-02T19:00:36.820867+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 70
  },
  "centrifuge-2": {
   "categories": [
@@ -1456,6 +1500,42 @@
   "twitter_followers": null,
   "watchers": 13514
  },
+ "dogwifjob": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Dog-Themed",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "Manifest"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
+  "fetched": "2026-11-02T18:56:49.381398+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://dogwifjob.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/dogwifjob",
+  "telegram_users": null,
+  "twitter": "https://x.com/dogwifjob_sol",
+  "twitter_followers": null,
+  "watchers": 20
+ },
  "dowge": {
   "categories": [
    "Solana Ecosystem",
@@ -1689,7 +1769,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-10-31T17:10:21.884619+00:00",
+  "fetched": "2026-11-02T18:58:11.987063+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -1697,13 +1777,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8576
+  "watchers": 8579
  },
  "fomo-life": {
   "categories": [
@@ -1899,7 +1979,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-11-01T01:11:30.174373+00:00",
+  "fetched": "2026-11-02T18:56:46.210362+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -1907,13 +1987,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/GeorgePlayClash",
   "twitter_followers": null,
-  "watchers": 1281
+  "watchers": 1282
  },
  "gitcoin": {
   "categories": [
@@ -1963,6 +2043,44 @@
   "twitter": "https://x.com/gitcoin",
   "twitter_followers": null,
   "watchers": 18100
+ },
+ "goldfish-gold": {
+  "categories": [
+   "Tokenized Assets",
+   "Tokenized Gold",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Tokenized Commodities",
+   "GoldFish Ecosystem"
+  ],
+  "cex": [
+   "MEXC",
+   "XT.COM"
+  ],
+  "cex_count": 2,
+  "chat": "https://www.youtube.com/@goldfishggbr",
+  "commits_4w": null,
+  "description": "Goldfish (GGBR) is an on-chain, gold-backed token providing frictionless access to hard-asset security. Each token represents 1/1000th of a troy ounce of gold, held directly in an irrevocable Wyoming trust that holds 1,000,000 troy ounces of in-situ gold directly for the benefit of Goldfish token holders. Designed as a premier store of value, Goldfish offers a safe harbor against market volatility, fiat inflation, and macroeconomic uncertainty, particularly for crypto-native investors navigating Bitcoin bear cycles.",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/goldfish",
+  "explorer": "https://etherscan.io/address/0x7e2ac793f3E692f388e66c7DC28F739d13B0B71A",
+  "fetched": "2026-11-02T19:00:40.147743+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://goldfishgold.com/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/ggbrtoken",
+  "telegram_users": null,
+  "twitter": "https://x.com/goldfishggbr",
+  "twitter_followers": null,
+  "watchers": 220
  },
  "golem": {
   "categories": [
@@ -2257,12 +2375,13 @@
    "Hibt",
    "LBank",
    "MEXC",
+   "Manifest",
    "Ondo Stocks",
    "Ourbit",
    "Toobit",
    "XT.COM"
   ],
-  "cex_count": 9,
+  "cex_count": 10,
   "chat": null,
   "commits_4w": null,
   "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
@@ -2276,7 +2395,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-10-31T17:10:28.185053+00:00",
+  "fetched": "2026-11-02T18:58:15.266686+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2293,7 +2412,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 1131
+  "watchers": 1137
  },
  "kaio": {
   "categories": [
@@ -2316,12 +2435,10 @@
   "chat": null,
   "commits_4w": null,
   "description": "KAIO provides institutional-grade real-world asset (RWA) tokenization infrastructure that seamlessly connects traditional investment funds with digital capital markets. Through its purpose-built protocol, KAIO enables leading global asset managers to issue and distribute regulated tokenized funds across multiple high-performance blockchain networks \u2014 including Ethereum, Sei, Hedera, Solana, Aptos, and others \u2014 significantly expanding global access to institutional-quality real-world asset strategies for qualified investors. \n\nBy tokenizing feeder structures and shares in flagship funds, KAIO brings onchain access to proven strategies such as the BlackRock ICS US Dollar Liquidity Fund (one of the world\u2019s largest institutional money market funds), the Brevan Howard Master Fund, Hamilton Lane\u2019s Senior Credit Opportunities Fund (SCOPE) via the HL SCOPE Access Fund, and Laser Digital\u2019s Laser Carry Fund (LCF), among others. These tokenized vehicles deliver secure, compliant exposure to money market, macro, private credit, and alternative strategies while unlocking new levels of programmability, composability, and 24/7 liquidity in DeFi environments. ",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
+  "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
-  "fetched": "2026-10-31T17:12:56.894144+00:00",
+  "fetched": "2026-11-02T19:00:33.256914+00:00",
   "genesis": null,
   "github": "https://github.com/librecapital",
   "homepage": "https://www.kaio.xyz/",
@@ -2335,7 +2452,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/KAIO_xyz",
   "twitter_followers": null,
-  "watchers": 649
+  "watchers": 648
  },
  "knots": {
   "categories": [
@@ -2678,6 +2795,112 @@
   "twitter_followers": null,
   "watchers": 31929
  },
+ "matrixdock-gold": {
+  "categories": [
+   "Tokenized Assets",
+   "Tokenized Gold",
+   "Solana Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Sui Ecosystem",
+   "Real World Assets (RWA)",
+   "Tron Ecosystem",
+   "Tokenized Commodities",
+   "Stellar Ecosystem",
+   "Hyperliquid Ecosystem",
+   "HyperEVM Ecosystem",
+   "Plume Network Ecosystem",
+   "HashKey Chain Ecosystem",
+   "Matrixdock Ecosystem",
+   "Arc Ecosystem"
+  ],
+  "cex": [
+   "Aquarius",
+   "Bluefin",
+   "KuCoin",
+   "Momentum",
+   "Rooster Protocol",
+   "Rooster Protocol V2"
+  ],
+  "cex_count": 6,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Arc)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Arc)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+  "fetched": "2026-11-02T19:00:25.799180+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.matrixdock.com/xaum",
+  "platforms": [
+   "arc",
+   "binance-smart-chain",
+   "ethereum",
+   "hashkey-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/matrixdock",
+  "twitter_followers": null,
+  "watchers": 922
+ },
+ "micron-technology-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "CommunityV3",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Manifest",
+   "Ondo Stocks"
+  ],
+  "cex_count": 6,
+  "chat": null,
+  "commits_4w": null,
+  "description": "MUon is the Ondo Tokenized version of Micron Technology, giving tokenholders economic exposure similar to holding MU and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "Meteora"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0x050362Ab1072Cb2Ce74d74770E22A3203Ad04ee5",
+  "fetched": "2026-11-02T19:00:29.548477+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/muon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 465
+ },
  "microsoft-xstock": {
   "categories": [
    "Tokenized Assets",
@@ -2998,7 +3221,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-10-31T12:24:18.840688+00:00",
+  "fetched": "2026-11-02T18:58:08.756144+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3007,13 +3230,13 @@
    "osmosis"
   ],
   "reddit": "https://www.reddit.com/r/nym",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/nymchan",
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30307
+  "watchers": 30304
  },
  "ore": {
   "categories": [
@@ -3036,7 +3259,7 @@
   ],
   "discord": "https://discord.gg/bSKU7TdtcY",
   "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-  "fetched": "2026-10-30T19:24:32.481928+00:00",
+  "fetched": "2026-11-02T18:59:21.650879+00:00",
   "genesis": null,
   "github": "https://github.com/regolith-labs/ore",
   "homepage": "https://ore.supply/",
@@ -3050,7 +3273,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OREsupply",
   "twitter_followers": null,
-  "watchers": 5258
+  "watchers": 5267
  },
  "osmosis": {
   "categories": [
@@ -3220,11 +3443,10 @@
   "cex": [
    "DigiFinex",
    "Gate",
-   "KCEX",
    "KuCoin",
    "MEXC"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "PinLink is the first RWA-Tokenized DePIN platform, empowering users with fractionalized ownership of DePIN assets. DePINs (Decentralized Physical Infrastructure Networks) hold the promise of completely revolutionizing how AI developers source their physical infrastructure. DePINs work by using token rewards to incentivize owners of physical infrastructure assets to connect their devices to decentralized networks where they can be rented by end users in need of those services. Whether its GPUs, TPUs, CPUs or cloud storage capacity, AI developers have multiple needs that can be met by DePINs, which offer the promise of a more cost-effective and decentralized solution.",
@@ -3233,7 +3455,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
-  "fetched": "2026-11-01T01:12:36.672131+00:00",
+  "fetched": "2026-11-02T18:58:02.294144+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pinlink.ai/",
@@ -3241,13 +3463,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
-  "watchers": 16940
+  "watchers": 16936
  },
  "propy": {
   "categories": [
@@ -3281,7 +3503,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-10-31T17:11:37.847940+00:00",
+  "fetched": "2026-11-02T18:59:18.474246+00:00",
   "genesis": "2017-07-18",
   "github": "https://github.com/Propy/ethereum",
   "homepage": "https://propy.com",
@@ -3290,7 +3512,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/propy",
   "telegram_users": null,
@@ -3394,7 +3616,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 40,
+  "cex_count": 37,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -3405,7 +3627,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-11-01T13:24:29.020744+00:00",
+  "fetched": "2026-11-02T19:01:43.387628+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -3421,7 +3643,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12578
+  "watchers": 12581
  },
  "reppo": {
   "categories": [
@@ -3491,7 +3713,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 57,
+  "cex_count": 55,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -3505,7 +3727,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-01T13:23:22.575193+00:00",
+  "fetched": "2026-11-02T19:01:46.584855+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -3516,13 +3738,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90703
+  "watchers": 90702
  },
  "resistance-dog": {
   "categories": [
@@ -3706,11 +3928,12 @@
   "commits_4w": null,
   "description": "",
   "dex": [
-   "PancakeSwap (v2)"
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-10-31T17:07:59.285922+00:00",
+  "fetched": "2026-11-02T18:56:52.557189+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4690,7 +4913,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-11-01T13:19:34.231832+00:00",
+  "fetched": "2026-11-02T18:56:55.770576+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -4704,7 +4927,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 171
+  "watchers": 173
  },
  "win-jie": {
   "categories": [
