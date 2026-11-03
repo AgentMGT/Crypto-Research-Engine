@@ -266,19 +266,19 @@
 "repo": "everyframe-studios/everyframe-miner",
 "t": 1793714806.4288747
 },
-"fast-thinker/kenju": {
-"capped": false,
-"commits_30d": 2,
-"last_commit": "2026-10-17T17:24:11Z",
-"repo": "fast-thinker/kenju",
-"t": 1793129238.77517
-},
 "forgenet47/gpuforge": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-09-29T19:13:30Z",
 "repo": "forgenet47/gpuforge",
 "t": 1793714806.4288747
+},
+"fugal-ai/fugal-subnet": {
+"capped": true,
+"commits_30d": 100,
+"last_commit": "2026-11-03T17:22:34Z",
+"repo": "fugal-ai/fugal-subnet",
+"t": 1793737849.7221963
 },
 "genomesio/subnet-niome": {
 "capped": false,
@@ -476,6 +476,13 @@
 "repo": "numinouslabs/numinous",
 "t": 1793714806.4288747
 },
+"ooo-hq/zils": {
+"capped": true,
+"commits_30d": 100,
+"last_commit": "2026-11-03T20:28:22Z",
+"repo": "ooo-hq/zils",
+"t": 1793737849.7221963
+},
 "openroboto-ai/openroboto-subnet": {
 "capped": false,
 "commits_30d": 1,
@@ -576,13 +583,6 @@
 "last_commit": "2026-10-30T12:27:11Z",
 "repo": "score-technologies/turbovision",
 "t": 1793714806.4288747
-},
-"silx-labs/quasar-subnet": {
-"capped": false,
-"commits_30d": 0,
-"last_commit": "2026-06-26T09:18:31Z",
-"repo": "SILX-LABS/QUASAR-SUBNET",
-"t": 1793129238.77517
 },
 "subnet46/sn46-validator": {
 "capped": false,
