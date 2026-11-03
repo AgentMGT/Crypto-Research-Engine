@@ -259,13 +259,6 @@
 "repo": "entrius/gittensor",
 "t": 1793634155.3228438
 },
-"epagofoundation/epago": {
-"capped": false,
-"commits_30d": 0,
-"last_commit": "2026-09-21T13:19:02Z",
-"repo": "EpagoFoundation/epago",
-"t": 1793064572.8234816
-},
 "everyframe-studios/everyframe-miner": {
 "capped": true,
 "commits_30d": 100,
