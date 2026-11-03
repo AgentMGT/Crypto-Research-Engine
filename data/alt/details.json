@@ -870,6 +870,38 @@
   "twitter_followers": null,
   "watchers": 70
  },
+ "cel-ai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Bittensor Ecosystem",
+   "Bittensor Subnets"
+  ],
+  "cex": [
+   "Subnet Tokens"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://taostats.io/subnets/127/chart",
+  "fetched": "2026-11-03T21:22:51.640295+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": null,
+  "platforms": [
+   "bittensor"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 151
+ },
  "centrifuge-2": {
   "categories": [
    "Ethereum Ecosystem",
@@ -1396,6 +1428,48 @@
   "twitter_followers": null,
   "watchers": 111
  },
+ "direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Real World Assets (RWA)",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "KCEX",
+   "LBank",
+   "Metric (BSC)"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xe28cd11c99af2df76bb8ada4cd0ef3904378280f",
+  "fetched": "2026-11-03T21:24:07.925456+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 35
+ },
  "ditgold": {
   "categories": [
    "Meme",
@@ -1583,7 +1657,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
-  "fetched": "2026-11-02T01:34:33.855665+00:00",
+  "fetched": "2026-11-03T21:22:38.904449+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://eagles.land",
@@ -1656,7 +1730,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x6D145722564AAa0DBA3E104DD1D680b227927777",
-  "fetched": "2026-11-01T18:58:05.716548+00:00",
+  "fetched": "2026-11-03T21:22:42.098941+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x6d145722564aaa0dba3e104dd1d680b227927777",
@@ -2322,7 +2396,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
-  "fetched": "2026-11-02T19:00:33.256914+00:00",
+  "fetched": "2026-11-03T21:22:48.467491+00:00",
   "genesis": null,
   "github": "https://github.com/librecapital",
   "homepage": "https://www.kaio.xyz/",
@@ -2750,7 +2824,7 @@
   ],
   "discord": null,
   "explorer": "https://www.arbiscan.io/token/0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
-  "fetched": "2026-11-01T01:12:43.331105+00:00",
+  "fetched": "2026-11-03T21:22:45.288847+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://xstocks.com/",
@@ -3270,7 +3344,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://www.mintscan.io/osmosis",
-  "fetched": "2026-11-01T01:13:59.341353+00:00",
+  "fetched": "2026-11-03T21:25:14.310878+00:00",
   "genesis": null,
   "github": "https://github.com/osmosis-labs/osmosis",
   "homepage": "https://osmosis.zone/",
@@ -3281,13 +3355,13 @@
    "secret"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 81.82,
   "stars": null,
   "telegram": "https://t.me/osmosis_chat",
   "telegram_users": null,
   "twitter": "https://x.com/osmosis ",
   "twitter_followers": null,
-  "watchers": 78980
+  "watchers": 78984
  },
  "ovr": {
   "categories": [
@@ -3625,7 +3699,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 37,
+  "cex_count": 36,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -3636,7 +3710,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-11-02T19:01:43.387628+00:00",
+  "fetched": "2026-11-03T21:23:54.860613+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -3646,13 +3720,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12581
+  "watchers": 12579
  },
  "reppo": {
   "categories": [
@@ -3736,7 +3810,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-02T19:01:46.584855+00:00",
+  "fetched": "2026-11-03T21:24:01.566548+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -3753,7 +3827,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90702
+  "watchers": 90703
  },
  "resistance-dog": {
   "categories": [
@@ -3849,7 +3923,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-01T19:01:45.820187+00:00",
+  "fetched": "2026-11-03T21:24:04.781049+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -3863,7 +3937,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 102
+  "watchers": 109
  },
  "rocket-pool": {
   "categories": [
@@ -4431,10 +4505,10 @@
    "Crypto.com Exchange",
    "DigiFinex",
    "Gate",
-   "GroveX",
-   "Hyperliquid"
+   "HTX",
+   "KCEX"
   ],
-  "cex_count": 26,
+  "cex_count": 25,
   "chat": null,
   "commits_4w": null,
   "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
@@ -4446,7 +4520,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-11-02T01:34:43.605404+00:00",
+  "fetched": "2026-11-03T21:24:11.078441+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -4457,13 +4531,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
-  "watchers": 28871
+  "watchers": 28869
  },
  "the-bitcoin-bull": {
   "categories": [
@@ -4667,7 +4741,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x56ab53b77F07DA3af732150E8aeC4783eB5BbA7D",
-  "fetched": "2026-11-02T15:48:52.804495+00:00",
+  "fetched": "2026-11-03T21:23:58.039940+00:00",
   "genesis": null,
   "github": "https://github.com/umiafinance",
   "homepage": "https://www.umia.finance",
@@ -4675,13 +4749,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/umia_finance",
   "telegram_users": null,
   "twitter": "https://x.com/umia_finance",
   "twitter_followers": null,
-  "watchers": 239
+  "watchers": 240
  },
  "uranium": {
   "categories": [
