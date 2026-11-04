@@ -248,7 +248,7 @@
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-02T18:58:05.544587+00:00",
+  "fetched": "2026-11-04T17:56:13.488522+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -257,13 +257,13 @@
    "binance-smart-chain"
   ],
   "reddit": "https://www.reddit.com/r/AlturaNFT/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/AlturaGaming",
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113457
+  "watchers": 113453
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -1547,6 +1547,65 @@
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
   "watchers": 10319
+ },
+ "degen-base": {
+  "categories": [
+   "Smart Contract Platform",
+   "Meme",
+   "Base Ecosystem",
+   "Base Meme",
+   "Farcaster Ecosystem",
+   "Binance Alpha Spotlight",
+   "Base Native",
+   "Robinhood Ecosystem",
+   "Robinhood Chain Meme"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "Bit2Me",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "Bybit",
+   "CoinUp.io",
+   "CoinW",
+   "Coinbase Exchange",
+   "Crypto.com Exchange"
+  ],
+  "cex_count": 31,
+  "chat": null,
+  "commits_4w": null,
+  "description": "DEGEN is more than a token. It's the economy behind a culture.\n\nBorn from a community and shaped by the people who participate in it, DEGEN has evolved into an ecosystem of products, communities, and onchain experiences. From opinion markets and digital identity to NFTs and future applications, the DEGEN token connects every part of the ecosystem through a shared economy.\n\nAs the ecosystem grows, every new product strengthens the network, giving the token utility beyond any single application",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Meteora",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V2 (Base)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+  "fetched": "2026-11-04T17:56:10.225018+00:00",
+  "genesis": null,
+  "github": "https://github.com/jacek0x",
+  "homepage": "https://www.degen.tips/",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/degentokenbase",
+  "telegram_users": null,
+  "twitter": "https://x.com/degentokenbase",
+  "twitter_followers": null,
+  "watchers": 37911
  },
  "delysium": {
   "categories": [
@@ -3630,6 +3689,75 @@
   "twitter_followers": null,
   "watchers": 15
  },
+ "orderly-network": {
+  "categories": [
+   "Smart Contract Platform",
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Perpetuals",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Layer 2 (L2)",
+   "Base Ecosystem",
+   "DragonFly Capital Portfolio",
+   "Pantera Capital Portfolio",
+   "Sequoia Capital Portfolio",
+   "OKX Ventures Portfolio",
+   "Optimism Superchain Ecosystem",
+   "Binance Alpha Spotlight",
+   "Abstract Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "BloFin",
+   "Bybit",
+   "CoinW",
+   "Coinone"
+  ],
+  "cex_count": 24,
+  "chat": "https://medium.com/@orderlynetwork",
+  "commits_4w": null,
+  "description": "Orderly Network is a L2 built on OP stack delivering a permissionless liquidity layer for Web3 trading, with one shared orderbook across different blockchains \u2014 powered by Orderly Chain and LayerZero. Our mission is to empower trading on any chain, any asset, any interface. Orderly offers spot and perpetual futures orderbooks trading across Arbitrum, Optimism, Polygon, Base ,Mantle and Near, while expanding to other blockchains.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (Arbitrum)",
+   "PancakeSwap V3 (BSC)",
+   "PancakeSwap V3 (Ethereum)",
+   "Raydium (CLMM)"
+  ],
+  "discord": "https://discord.com/invite/orderlynetwork",
+  "explorer": "https://etherscan.io/token/0xabd4c63d2616a5201454168269031355f4764337",
+  "fetched": "2026-11-04T17:57:23.405869+00:00",
+  "genesis": null,
+  "github": "https://github.com/OrderlyNetwork",
+  "homepage": "https://orderly.network/",
+  "platforms": [
+   "abstract",
+   "arbitrum-one",
+   "avalanche",
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/OrderlyNetworkAnnouncements",
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 12279
+ },
  "ore": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4627,6 +4755,59 @@
   "twitter_followers": null,
   "watchers": 151654
  },
+ "spacex-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Ondo Tokenized Assets",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "CoinW",
+   "CommunityV3",
+   "Gate",
+   "LBank",
+   "MEXC",
+   "Manifest",
+   "Ondo Stocks"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SPCX and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xc9eef266834730340A55B6CC24621B31BAF55581",
+  "fetched": "2026-11-04T17:56:16.853388+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "robinhood",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 249
+ },
  "spacex-reality-protocol": {
   "categories": [
    "Tokenized Assets",
@@ -4712,6 +4893,53 @@
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
   "watchers": 10161
+ },
+ "strategy-inc-robinhood-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Robinhood Chain Stocks Ecosystem",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Aero Slipstream (Robinhood)",
+   "Alandale (CL)",
+   "Arcus",
+   "GIGA V3",
+   "Long.xyz",
+   "Metric (Robinhood)",
+   "Orvex V4",
+   "Ramses V3 (Robinhood)",
+   "Rialto",
+   "Up V3"
+  ],
+  "cex_count": 10,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Pons V2 Dex",
+   "Uniswap V3 (Robinhood)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://robinhoodchain.blockscout.com/token/0xec262a75e413fAfD0dF80480274532C79D42da09",
+  "fetched": "2026-11-04T17:57:20.179690+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://robinhood.com/us/en/",
+  "platforms": [
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RobinhoodApp",
+  "twitter_followers": null,
+  "watchers": 142
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -4876,6 +5104,57 @@
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
   "watchers": 28869
+ },
+ "tokenbot-2": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Launchpad",
+   "Base Ecosystem",
+   "AI Applications",
+   "Clanker Ecosystem",
+   "Binance Alpha Spotlight",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Biconomy.com",
+   "BingX",
+   "Bitget",
+   "Bitunix",
+   "CoinW",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "Hibt",
+   "KCEX"
+  ],
+  "cex_count": 17,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Clanker is an autonomous agent for deploying tokens. Currently, users may request clanker to deploy an ERC-20 token on Base by tagging it @clanker on Farcaster.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
+  "fetched": "2026-11-04T17:57:26.598520+00:00",
+  "genesis": null,
+  "github": "https://github.com/clanker-devco",
+  "homepage": "https://www.clanker.world/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 88.89,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 7438
  },
  "tokenised-gbp": {
   "categories": [
