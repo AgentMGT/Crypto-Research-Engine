@@ -683,7 +683,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xB200000000000000000000cFbdF64a8706a94a01",
-  "fetched": "2026-11-02T15:46:23.405030+00:00",
+  "fetched": "2026-11-04T02:21:15.342236+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basebluechip.com/",
@@ -691,13 +691,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/o1bluechip",
   "twitter_followers": null,
-  "watchers": 349
+  "watchers": 353
  },
  "bobo-coin-2": {
   "categories": [
@@ -825,6 +825,59 @@
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
   "watchers": 185
+ },
+ "bubblemaps": {
+  "categories": [
+   "Analytics",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Binance HODLer Airdrops",
+   "Binance Wallet IDO",
+   "InfoFi"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bybit",
+   "CEX.IO",
+   "Coinone",
+   "Crypto.com Exchange"
+  ],
+  "cex_count": 30,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient \u2014allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding massive amounts\n- Launchpads, KOLs, and VCs exploiting the lack of transparency for profit",
+  "dex": [
+   "Meteora",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap V3 (Solana)",
+   "Raydium (CLMM)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/FQgtfugBdpFN7PZ6NdPrZpVLDBrPGxXesi4gVu3vErhY",
+  "fetched": "2026-11-04T02:22:28.156427+00:00",
+  "genesis": null,
+  "github": "https://github.com/bubblemaps",
+  "homepage": "https://bubblemaps.io",
+  "platforms": [
+   "binance-smart-chain",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 60.0,
+  "stars": null,
+  "telegram": "https://t.me/bubblemaps",
+  "telegram_users": null,
+  "twitter": "https://x.com/bubblemaps",
+  "twitter_followers": null,
+  "watchers": 4200
  },
  "cea-industries-bstocks-tokenized-stock": {
   "categories": [
@@ -1772,7 +1825,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-11-02T18:58:11.987063+00:00",
+  "fetched": "2026-11-04T02:23:34.607671+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -1786,7 +1839,50 @@
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8579
+  "watchers": 8580
+ },
+ "flying-tulip": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Derivatives",
+   "Perpetuals",
+   "Avalanche Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Sonic Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Curve (Ethereum)",
+   "PancakeSwap (v2)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x5DD1A7A369e8273371d2DBf9d83356057088082c",
+  "fetched": "2026-11-04T02:22:24.953731+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://flyingtulip.com/",
+  "platforms": [
+   "avalanche",
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/flyingtulip_",
+  "twitter_followers": null,
+  "watchers": 1423
  },
  "forta": {
   "categories": [
@@ -1950,7 +2046,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-11-02T18:56:46.210362+00:00",
+  "fetched": "2026-11-04T02:22:21.755771+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -1964,7 +2060,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/GeorgePlayClash",
   "twitter_followers": null,
-  "watchers": 1282
+  "watchers": 1281
  },
  "gitcoin": {
   "categories": [
@@ -1987,7 +2083,7 @@
    "Coinbase Exchange",
    "Crypto.com Exchange"
   ],
-  "cex_count": 25,
+  "cex_count": 26,
   "chat": null,
   "commits_4w": null,
   "description": "Gitcoin is a platform to fund builders looking for meaningful, open source work.",
@@ -1998,7 +2094,7 @@
   ],
   "discord": "https://discord.com/invite/gitcoin",
   "explorer": "https://etherscan.io/token/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
-  "fetched": "2026-11-02T15:47:36.471765+00:00",
+  "fetched": "2026-11-04T02:23:44.304372+00:00",
   "genesis": null,
   "github": "https://github.com/gitcoinco",
   "homepage": "https://gitcoin.co/",
@@ -2013,7 +2109,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/gitcoin",
   "twitter_followers": null,
-  "watchers": 18100
+  "watchers": 18102
  },
  "goldfish-gold": {
   "categories": [
@@ -2052,6 +2148,57 @@
   "twitter": "https://x.com/goldfishggbr",
   "twitter_followers": null,
   "watchers": 220
+ },
+ "golem": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Energi Ecosystem",
+   "GMCI DePIN Index",
+   "GMCI Index"
+  ],
+  "cex": [
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime"
+  ],
+  "cex_count": 38,
+  "chat": "https://www.youtube.com/c/golemnetwork",
+  "commits_4w": null,
+  "description": "What Is Golem Network?\n\nGolem Network is an open-source, decentralized computing platform that is building an ecosystem to provide computing power to the AI industry. A peer-to-peer marketplace for distributed computing resources. Users engage directly on the Golem platform, exchanging GLM tokens for the utilization of their idle computing resources.\n\nGolem allows to break down tasks into smaller subtasks and distribute them across multiple providers, enabling parallel processing. This approach boosts efficiency and speeds up the completion of complex computations.\n\nWhat is GLM?\n\nGLM or Golem Network Token is needed to pay for computations on the network and is the currency that drives the marketplace. As a Requestor, you set a bid for an amount of GLM you are willing to pay to have your task completed. As a Provider, you earn GLM by computing tasks for Requestors.\n\nHow can I get involved?\n\nIf you want to stay up to date with the latest developments and updates, join the Golem Network Discord community here: https://chat.golem.network/\n\nOn Discord you can also find support to become a Provider or a Requestor in the Golem platform.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/golem",
+  "explorer": "https://etherscan.io/token/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+  "fetched": "2026-11-04T02:24:57.124462+00:00",
+  "genesis": null,
+  "github": "https://github.com/golemfactory/golem",
+  "homepage": "https://golem.network/",
+  "platforms": [
+   "energi",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/GolemProject",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/golemnetworkproject",
+  "telegram_users": null,
+  "twitter": "https://x.com/golemproject",
+  "twitter_followers": null,
+  "watchers": 28868
  },
  "gstock": {
   "categories": [
@@ -2192,41 +2339,6 @@
   "twitter_followers": null,
   "watchers": 35774
  },
- "infinite-money-glitch-3": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [
-   "KCEX"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Infinite Money Glitch ($GLITCH) is a community memecoin on Solana built around the countdown to GTA 6. The mascot is Glitch, a flamingo who found an ATM that won't stop paying out, and the community runs with that story in memes, short videos and Withdraw Wars, a free browser game on glitchonsol.com. The token is the community's shared meme and its badge. The project's purpose is entertainment and community, timed to the biggest game release in years. It doesn't promise returns or yield.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-  "fetched": "2026-11-01T01:12:33.461918+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://glitchonsol.com",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 66.67,
-  "stars": null,
-  "telegram": "https://t.me/imglitchonsol",
-  "telegram_users": null,
-  "twitter": "https://x.com/GlitchOnSolana_",
-  "twitter_followers": null,
-  "watchers": 129
- },
  "infinity-ground": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2293,27 +2405,26 @@
    "Hibt",
    "LBank",
    "MEXC",
-   "Manifest",
    "Ondo Stocks",
    "Ourbit",
    "Toobit",
    "XT.COM"
   ],
-  "cex_count": 10,
+  "cex_count": 9,
   "chat": null,
   "commits_4w": null,
   "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
   "dex": [
    "Meteora",
+   "Orca",
    "PancakeSwap V3 (BSC)",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
+   "Uniswap V3 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-11-02T18:58:15.266686+00:00",
+  "fetched": "2026-11-04T02:23:37.904636+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2330,7 +2441,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 1137
+  "watchers": 1135
  },
  "jean-phil": {
   "categories": [
@@ -2535,6 +2646,62 @@
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
   "watchers": 3596
+ },
+ "lisk": {
+  "categories": [
+   "Smart Contract Platform",
+   "Ethereum Ecosystem",
+   "Layer 2 (L2)",
+   "Base Ecosystem",
+   "Hyperliquid Ecosystem",
+   "Optimism Superchain Ecosystem",
+   "Outlier Ventures Portfolio",
+   "Lisk Ecosystem",
+   "HyperEVM Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "Bithumb",
+   "Bitrue",
+   "Bitvavo",
+   "CoinUp.io",
+   "Coincheck",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate"
+  ],
+  "cex_count": 24,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Ethereum. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
+  "dex": [
+   "Uniswap V4 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
+  "fetched": "2026-11-04T02:23:41.109783+00:00",
+  "genesis": null,
+  "github": "https://github.com/LiskHQ/lisk-sdk",
+  "homepage": "https://lisk.com",
+  "platforms": [
+   "base",
+   "ethereum",
+   "hyperevm",
+   "hyperliquid"
+  ],
+  "reddit": "https://www.reddit.com/r/Lisk",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Lisk",
+  "twitter_followers": null,
+  "watchers": 30369
  },
  "magic": {
   "categories": [
@@ -2972,38 +3139,6 @@
   "twitter_followers": null,
   "watchers": 7956
  },
- "nextplace": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets"
-  ],
-  "cex": [
-   "Subnet Tokens"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://taostats.io/subnets/48/chart",
-  "fetched": "2026-11-01T01:15:16.374975+00:00",
-  "genesis": null,
-  "github": "https://github.com/qbittensor-labs/quantum-compute",
-  "homepage": "https://www.openquantum.com/",
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/OpenQuantum_",
-  "twitter_followers": null,
-  "watchers": 334
- },
  "ninja-squad": {
   "categories": [
    "Solana Ecosystem",
@@ -3027,7 +3162,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-11-01T01:11:26.848995+00:00",
+  "fetched": "2026-11-04T02:22:18.568156+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://ninjatraders.io/",
@@ -3170,7 +3305,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-11-02T18:58:08.756144+00:00",
+  "fetched": "2026-11-04T02:23:31.386865+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3179,13 +3314,13 @@
    "osmosis"
   ],
   "reddit": "https://www.reddit.com/r/nym",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/nymchan",
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30304
+  "watchers": 30303
  },
  "obligate-trade-finance-yield": {
   "categories": [
@@ -3239,7 +3374,7 @@
   ],
   "discord": "https://discord.gg/bSKU7TdtcY",
   "explorer": "https://solscan.io/token/oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-  "fetched": "2026-11-02T18:59:21.650879+00:00",
+  "fetched": "2026-11-04T02:24:50.674093+00:00",
   "genesis": null,
   "github": "https://github.com/regolith-labs/ore",
   "homepage": "https://ore.supply/",
@@ -3463,6 +3598,66 @@
   "twitter_followers": null,
   "watchers": 4246
  },
+ "pha": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Smart Contract Platform",
+   "Oracle",
+   "Polkadot Ecosystem",
+   "Ethereum Ecosystem",
+   "Interoperability",
+   "Layer 2 (L2)",
+   "Zero Knowledge (ZK)",
+   "DePIN",
+   "DWF Labs Portfolio",
+   "Rollup",
+   "AI Agents",
+   "Sora Ecosystem",
+   "AI Framework",
+   "Made in USA"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Bilaxy",
+   "Binance",
+   "Bit2Me",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin"
+  ],
+  "cex_count": 37,
+  "chat": "https://www.youtube.com/@PhalaNetwork",
+  "commits_4w": null,
+  "description": "What Is Phala Network (PHA)?\n\nPhala Network (https://phala.network/) is the Execution Layer for Web3 AI, enabling AI to interact with blockchains and unlocking Web3 for the first billion users.\n\nPhala\u2019s multi-proof system solves the AI execution problem, allowing you to build tamper-proof and unstoppable AI Agents that integrate with smart contracts through the AI-Agent Contract.\n\n1. Agentize Smart Contracts: Develop AI Agents for smart contracts using natural and programming languages.\n2. Connect to Multi-Agents: Make your agents accessible to other cross-chain AI Agents.\n3. Launch AI Agents and Earn: Own your agents and build a profitable token economy.\n\nPHALA as the AI Execution Layer:\n\nPhala leverages AI Agents to interface with blockchain technology, ensuring behavior aligns with intentions and preventing fraud. Using Phala's Blockchain-TEE hybrid system, AI Agents can act like smart contracts with decentralized hosting, governance by smart contracts, protected prompts, and low latency with no gas fees.\n\nPhala Network\u2019s AI Ecosystem:\n\nPhala leads Web3 and AI integration with:\n\n1. AI Agent Contract (https://docs.phala.network/ai-agent-contract/getting-started): For building decentralized AI applications.\n2. Agent Wars (https://agentwars.phala.network/home): A platform to create, interact with, and monetize AI agents.\n3. Redpill (https://red-pill.ai/join): An AI aggregator optimizing multiple AI models, increasing network usage and computation power.\n\nHow Many PHA Coins Ar",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/phala-network",
+  "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+  "fetched": "2026-11-04T02:24:53.870346+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://phala.network/",
+  "platforms": [
+   "ethereum",
+   "sora"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/PhalaNetwork",
+  "twitter_followers": null,
+  "watchers": 56827
+ },
  "pinlink": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3568,7 +3763,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1226TMaWZiZYWdP7CBZBqfJGXoWXaKXJJiKf45e5xfun",
-  "fetched": "2026-11-01T18:59:15.414349+00:00",
+  "fetched": "2026-11-04T02:21:08.903305+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pumpstopcat.com/",
@@ -3576,52 +3771,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/XCAT_ON_Xtrends",
   "telegram_users": null,
   "twitter": "https://x.com/XCAT_on_Xtrends",
   "twitter_followers": null,
-  "watchers": 8
- },
- "qanplatform": {
-  "categories": [
-   "Smart Contract Platform",
-   "BNB Chain Ecosystem",
-   "Layer 1 (L1)",
-   "Ethereum Ecosystem",
-   "Cybersecurity",
-   "Quantum-Resistant"
-  ],
-  "cex": [
-   "Gate"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "What Is QANplatform (QANX)? \n\nQANplatform, the quantum-resistant hybrid blockchain platform enables developers and enterprises to rapidly build software applications like DApps or DeFi and run business processes on blockchain. A blockchain platform, like QANplatform is the basic infrastructure of all blockchain projects and applications. It is like the operating system on a computer. The whole ecosystem can only build and work on top of it. Connect it with real-world data, run automated smart contracts, build decentralized applications (DApps). According to HFS Research excerpt for IBM: Enterprise blockchain adoption is going through a \u201c90-9-1\u201d adoption challenge. 90% of companies are still trying to internalize the concept and its relevant impact. 9% of enterprises that identified relevant use cases are struggling to start with their PoCs and pilots. The 1% of enterprises that have successful pilots are challenged with scalability to a production-grade environment. To achieve blockchain mass adoption Qanplatform focused on these challenges. They built a lot of automation and integration to help freelance developers, blockchain development companies and enterprises start their blockchain PoCs (Proof-of-Concept) as fast as possible. It takes less than 5 minutes to deploy the QAN private blockchain to a preferred cloud platform and start building on it. \n\nWho Are the Founders of QANplatform ? \n\nJohann Polecsak, QAN's Chief Technology Officer is also an economist. He along with ",
-  "dex": [
-   "PancakeSwap (v2)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/pEHCdjEJQc",
-  "explorer": "https://etherscan.io/token/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
-  "fetched": "2026-11-01T01:15:09.907926+00:00",
-  "genesis": null,
-  "github": "https://github.com/qanplatform/qanx-token",
-  "homepage": "https://www.qanplatform.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/QANplatform/",
-  "sentiment_up": 66.67,
-  "stars": null,
-  "telegram": "https://t.me/QANplatform",
-  "telegram_users": null,
-  "twitter": "https://x.com/QANplatform",
-  "twitter_followers": null,
-  "watchers": 20909
+  "watchers": 15
  },
  "redstone-oracles": {
   "categories": [
@@ -3848,7 +4004,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-11-02T15:46:20.189497+00:00",
+  "fetched": "2026-11-04T02:21:12.112668+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -4194,58 +4350,6 @@
   "twitter_followers": null,
   "watchers": 151659
  },
- "spacex-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Ondo Tokenized Assets",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "CoinW",
-   "CommunityV3",
-   "Gate",
-   "LBank",
-   "MEXC",
-   "Ondo Stocks"
-  ],
-  "cex_count": 6,
-  "chat": null,
-  "commits_4w": null,
-  "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SPCX and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)",
-   "Uniswap V4 (Robinhood)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xc9eef266834730340A55B6CC24621B31BAF55581",
-  "fetched": "2026-11-01T01:14:02.902267+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "robinhood",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 250
- },
  "spacex-reality-protocol": {
   "categories": [
    "Tokenized Assets",
@@ -4282,49 +4386,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 81
- },
- "spy-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Real World Assets (RWA)",
-   "Tokenized Exchange-Traded Funds (ETFs)",
-   "Tokenized Exchange-Traded Product (ETPs)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank",
-   "Metric (BSC)"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
-  "fetched": "2026-11-01T01:15:06.366479+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 54
  },
  "ssv-network": {
   "categories": [
@@ -4539,42 +4600,58 @@
   "twitter_followers": null,
   "watchers": 28869
  },
- "the-bitcoin-bull": {
+ "tokenised-gbp": {
   "categories": [
+   "Stablecoins",
+   "GBP Stablecoin",
+   "BNB Chain Ecosystem",
    "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Gnosis Chain Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Fiat-backed Stablecoin"
   ],
   "cex": [
-   "KCEX"
+   "Aero Slipstream (Base)",
+   "Coinbase Exchange",
+   "Hydrex Integral",
+   "Kraken"
   ],
-  "cex_count": 1,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
-  "description": "Jason 'GoingParabolic' Williams (282K followers, self-described 'Core Lord') announced he bought 70% of a token's supply and asked his audience what he should do next: either a supply control thesis test in real time or a chaotic crowdsourced experiment on Crypto Twitter.\nJason is an accomplished executive, board member and investor with over 15 years demonstrated success leading companies through start-up, change, accelerated growth and successful exits. Recognized as a disruptive innovator and dynamic leader, Jason builds sound organizations from the ground level by substantiating unique value propositions and creating a competitive edge in large mature industries.\n\nAs a hands-on leader, Jason personally raised capital and carried organizations to exit; generating over a half billion dollars in value for shareholders. Jason leads and motivates companies with a customer-first mentality; where metrics and customers\u2019 success truly matter. Jason has in-depth knowledge of health care, pharmaceutical, medical device, energy and retail industries. He also has a number of patents pending and issued revolving around energy and robotics.",
+  "description": "tGBP is the first and only British Pound pegged stablecoin issued by a UK FCA-registered firm. tGBP maintains a 1:1 peg to the British Pound Sterling through a robust, transparent backing mechanism designed for stability, redeemability, and regulatory compliance. tGBP is fully collateralised by fiat and short term zero coupon bonds issued by HM Treasury. tGBP facilitates on-chain sterling payments, programmable transactions, and exposure to GBP-linked Real World Assets (RWAs) like tokenised bonds.",
   "dex": [
-   "Meteora",
-   "PumpSwap",
-   "Raydium (CLMM)"
+   "Aerodrome Slipstream 2",
+   "Aerodrome Slipstream 3",
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
   ],
   "discord": null,
-  "explorer": "https://solscan.io/token/42cXQvAAr7hcPBPWAS4ocVtDyeJ4Fa6gRR2uG4gppump",
-  "fetched": "2026-11-01T01:11:23.615166+00:00",
+  "explorer": "https://etherscan.io/token/0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+  "fetched": "2026-11-04T02:24:47.511747+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://bitcoinhard.money",
+  "homepage": "https://www.tokenisedgbp.com",
   "platforms": [
-   "solana"
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/goingparabolic",
+  "twitter": "https://x.com/tokenGBP",
   "twitter_followers": null,
-  "watchers": 168
+  "watchers": 345
  },
  "tokenos-ai": {
   "categories": [
