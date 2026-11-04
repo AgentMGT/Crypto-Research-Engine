@@ -13,13 +13,14 @@
    "Made in USA"
   ],
   "cex": [
+   "Balancer V2",
    "BingX",
    "Bithumb",
-   "Bitvavo",
    "CoinUp.io",
-   "Gate"
+   "Gate",
+   "HTX"
   ],
-  "cex_count": 5,
+  "cex_count": 6,
   "chat": "https://medium.com/across-protocol",
   "commits_4w": null,
   "description": "Across is an optimistic cross-chain bridge secured by UMA\u2019s optimistic oracle. It is optimized for capital efficiency with a single liquidity pool, a competitive relayer landscape, and a no-slippage fee model. ",
@@ -29,7 +30,7 @@
   ],
   "discord": "https://discord.across.to/",
   "explorer": "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
-  "fetched": "2026-11-03T03:37:55.517935+00:00",
+  "fetched": "2026-11-04T16:40:47.170223+00:00",
   "genesis": null,
   "github": "https://github.com/across-protocol",
   "homepage": "https://across.to/",
@@ -40,7 +41,7 @@
    "optimistic-ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -62,6 +63,7 @@
   "cex": [
    "Biconomy.com",
    "Binance",
+   "Binance US",
    "Bitrue",
    "Bittime",
    "Bitvavo",
@@ -70,8 +72,7 @@
    "Kraken",
    "KuCoin",
    "MEXC",
-   "Mudrex",
-   "TokoCrypto"
+   "Mudrex"
   ],
   "cex_count": 15,
   "chat": null,
@@ -85,7 +86,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-11-03T14:11:42.100207+00:00",
+  "fetched": "2026-11-04T16:39:17.501172+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -131,7 +132,7 @@
    "Bitrue",
    "Bittime"
   ],
-  "cex_count": 43,
+  "cex_count": 44,
   "chat": null,
   "commits_4w": null,
   "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
@@ -145,7 +146,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-11-03T14:09:16.425103+00:00",
+  "fetched": "2026-11-04T16:38:07.586238+00:00",
   "genesis": null,
   "github": "https://github.com/aixbt",
   "homepage": "https://aixbt.tech",
@@ -155,13 +156,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/aixbtportal",
   "telegram_users": null,
   "twitter": "https://x.com/aixbt_agent",
   "twitter_followers": null,
-  "watchers": 38532
+  "watchers": 38534
  },
  "aleo": {
   "categories": [
@@ -287,7 +288,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
-  "fetched": "2026-11-03T14:10:32.480071+00:00",
+  "fetched": "2026-11-04T16:41:13.769470+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://prestocks.com/anthropic",
@@ -295,13 +296,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/PreStocksFi",
   "telegram_users": null,
   "twitter": "https://x.com/PreStocks",
   "twitter_followers": null,
-  "watchers": 361
+  "watchers": 364
  },
  "api3": {
   "categories": [
@@ -393,6 +394,63 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 60
+ },
+ "apple-xstock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Mantle Ecosystem",
+   "TON Ecosystem",
+   "BackedFi xStocks Ecosystem"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BigONE",
+   "BingX",
+   "Bittime",
+   "BloFin",
+   "Bybit",
+   "Byreal",
+   "Gate",
+   "Hadron",
+   "Kraken",
+   "LBank",
+   "MEXC"
+  ],
+  "cex_count": 13,
+  "chat": null,
+  "commits_4w": null,
+  "description": "For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 57 US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.",
+  "dex": [
+   "Meteora",
+   "Pancakeswap V3 (Solana)",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://www.arbiscan.io/token/0x9d275685dc284c8eb1c79f6aba7a63dc75ec890a",
+  "fetched": "2026-11-04T16:40:34.160035+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://xstocks.com/",
+  "platforms": [
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum",
+   "mantle"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/xstocksfi",
+  "telegram_users": null,
+  "twitter": "https://x.com/xStocksFi",
+  "twitter_followers": null,
+  "watchers": 944
  },
  "arcblock": {
   "categories": [
@@ -912,6 +970,67 @@
   "twitter_followers": null,
   "watchers": 4200
  },
+ "carv": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Gaming (GameFi)",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Impossible Finance Launchpad",
+   "Ethereum Ecosystem",
+   "Animoca Brands Portfolio",
+   "Base Ecosystem",
+   "Binance Alpha Spotlight",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 21,
+  "chat": "https://medium.com/@Carv",
+  "commits_4w": null,
+  "description": "CARV is where Sovereign AI Beings live, learn, and evolve.\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\n\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV\u2019s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\n\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/carv",
+  "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+  "fetched": "2026-11-04T16:40:37.394291+00:00",
+  "genesis": null,
+  "github": "https://github.com/carv-protocol",
+  "homepage": "https://carv.io",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/carv_official",
+  "twitter_followers": null,
+  "watchers": 7478
+ },
  "cea-industries-bstocks-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -1363,7 +1482,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
-  "fetched": "2026-11-03T03:36:52.274338+00:00",
+  "fetched": "2026-11-04T16:41:16.939212+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://darkwoods.ai",
@@ -1377,7 +1496,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/darkwoodslabs",
   "twitter_followers": null,
-  "watchers": 142
+  "watchers": 146
  },
  "deapcoin": {
   "categories": [
@@ -1513,6 +1632,44 @@
   "twitter": "https://x.com/DessaOnSOL",
   "twitter_followers": null,
   "watchers": 111
+ },
+ "dimitra": {
+  "categories": [
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "DePIN"
+  ],
+  "cex": [
+   "BingX",
+   "DigiFinex",
+   "Gate",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": "https://www.linkedin.com/company/dimitra-technology/",
+  "commits_4w": null,
+  "description": "The Dimitra (DMTR) is a blockchain platform that is democratizing the Agricultural Technology space for smallholder farmers globally. Dimitra provides access to the blockchain, machine learning, Internet of Things sensors, and Satellite Technology through a mobile platform that helps farmers globally increase their yield, reduce costs and mitigate risks. Current farming practices are not sustainable; creating an evolution of practices will contribute to solving some of today's largest issues for farmers. Issues like poverty, hunger, global warming, carbon emissions, freshwater, and soil preservation are all impacted by the adoption of Dimitra. Dimitra\u2019s platform provides utility by combining the crypto investment cycle with agricultural development practices within nations globally.",
+  "dex": [
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x51cb253744189f11241becb29bedd3f1b5384fdb",
+  "fetched": "2026-11-04T16:39:20.709555+00:00",
+  "genesis": null,
+  "github": "https://github.com/DimitraAgTech",
+  "homepage": "https://dimitra.io",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/dimitraofficialgroup",
+  "telegram_users": null,
+  "twitter": "https://x.com/dimitratech",
+  "twitter_followers": null,
+  "watchers": 13511
  },
  "direxion-semiconductor-bear-3x-etf-bstocks-tokenized-stock": {
   "categories": [
@@ -2500,7 +2657,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
-  "fetched": "2026-11-03T14:09:22.843612+00:00",
+  "fetched": "2026-11-04T16:38:10.810717+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://jeanphilmadame.com/",
@@ -2615,7 +2772,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS",
-  "fetched": "2026-11-02T01:33:27.389784+00:00",
+  "fetched": "2026-11-04T16:38:14.067141+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.knotsstonk.com/",
@@ -2679,6 +2836,62 @@
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
   "watchers": 3596
+ },
+ "limewire-token": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Music",
+   "SocialFi",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Binance US",
+   "Bit2Me",
+   "Bitget",
+   "Bitvavo",
+   "Bybit",
+   "Crypto.com Exchange",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "Mudrex",
+   "Niza.io"
+  ],
+  "cex_count": 12,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://lmwr.co/discord",
+  "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
+  "fetched": "2026-11-04T16:40:43.935889+00:00",
+  "genesis": null,
+  "github": "https://github.com/LimeWireOfficial",
+  "homepage": "https://limewire.com/u/home",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/limewire",
+  "telegram_users": null,
+  "twitter": "https://x.com/limewire",
+  "twitter_followers": null,
+  "watchers": 15718
  },
  "lisk": {
   "categories": [
@@ -2822,7 +3035,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
-  "fetched": "2026-11-02T15:47:46.237949+00:00",
+  "fetched": "2026-11-04T16:39:24.041334+00:00",
   "genesis": null,
   "github": "https://github.com/moonwell-fi/mamo-contracts",
   "homepage": "https://mamo.bot",
@@ -2836,7 +3049,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/mamo",
   "twitter_followers": null,
-  "watchers": 3773
+  "watchers": 3775
  },
  "marlin": {
   "categories": [
@@ -3187,7 +3400,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-11-03T14:12:54.869764+00:00",
+  "fetched": "2026-11-04T16:39:30.524484+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3195,13 +3408,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7956
+  "watchers": 7962
  },
  "ninja-squad": {
   "categories": [
@@ -3595,7 +3808,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-03T14:10:29.274921+00:00",
+  "fetched": "2026-11-04T16:41:10.545236+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3612,7 +3825,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114921
+  "watchers": 114919
  },
  "peapods-finance": {
   "categories": [
@@ -5021,7 +5234,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
-  "fetched": "2026-11-01T19:03:02.037128+00:00",
+  "fetched": "2026-11-04T16:40:40.673206+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://wingbits.com/",
@@ -5035,7 +5248,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/wingbits",
   "twitter_followers": null,
-  "watchers": 489
+  "watchers": 493
  },
  "wormhole": {
   "categories": [
@@ -5051,6 +5264,7 @@
    "Base Native"
   ],
   "cex": [
+   "Aero Slipstream (Base)",
    "BTSE",
    "BVOX",
    "BYDFi",
@@ -5061,10 +5275,9 @@
    "Bit2Me",
    "BitKan",
    "Bitget",
-   "Bithumb",
-   "Bitlo"
+   "Bithumb"
   ],
-  "cex_count": 58,
+  "cex_count": 60,
   "chat": null,
   "commits_4w": null,
   "description": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. ",
@@ -5078,7 +5291,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-11-02T15:49:06.345292+00:00",
+  "fetched": "2026-11-04T16:39:27.319344+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5095,7 +5308,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43528
+  "watchers": 43530
  },
  "xyo-network": {
   "categories": [
