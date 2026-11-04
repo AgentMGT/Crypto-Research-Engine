@@ -448,7 +448,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x14d145a695a2e98234e83d8c780f6a5852c3c95b",
-  "fetched": "2026-11-03T03:33:00.605515+00:00",
+  "fetched": "2026-11-04T14:30:06.569029+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://audacityoneth.fun",
@@ -456,13 +456,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 76.92,
+  "sentiment_up": 71.43,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/audacityoneth",
   "twitter_followers": null,
-  "watchers": 287
+  "watchers": 455
  },
  "aura-final-boss-2": {
   "categories": [
@@ -553,6 +553,40 @@
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
   "watchers": 23711
+ },
+ "autonomi": {
+  "categories": [
+   "Storage",
+   "Arbitrum Ecosystem"
+  ],
+  "cex": [
+   "MEXC",
+   "Ourbit"
+  ],
+  "cex_count": 2,
+  "chat": "https://www.youtube.com/@withautonomi",
+  "commits_4w": null,
+  "description": "Autonomi is a decentralised network where data is stored securely across millions of everyday devices, with privacy the default, not the exception. \n\nThe Network is a fully decentralized ecosystem for data storage and retrieval. It does not require any single entity or service control as nodes are able to validate and engage (or ignore) one another without intervention.\nUnlike edge computing and others promoting private, decentralized hosting, The Autonomi Network is autonomous, permanent and has zero subscriptions or recurring fees. To use Autonomi a one-time upload fee is paid to The Network - the uploaded data is then quantum securely encrypted end to end.\n\nWith Autonomi, everyday internet users, content creators and app developers will have access to a truly decentralized infrastructure layer - they\u2019re going to be able to build, protect and deploy amazing things. With AI and Robotics changing our world fast, Autonomi will ensure each and everyone of us can be in control of our own knowledge, thoughts and actions.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": "https://discord.gg/autonomi",
+  "explorer": "https://arbiscan.io/token/0xa78d8321b20c4ef90ecd72f2588aa985a4bdb684",
+  "fetched": "2026-11-04T14:32:32.616450+00:00",
+  "genesis": null,
+  "github": "https://github.com/maidsafe/autonomi",
+  "homepage": "https://autonomi.com",
+  "platforms": [
+   "arbitrum-one"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/WithAutonomi",
+  "twitter_followers": null,
+  "watchers": 840
  },
  "basecat": {
   "categories": [
@@ -711,10 +745,9 @@
    "KCEX",
    "LBank",
    "MEXC",
-   "Ourbit",
    "XT.COM"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "Bobo Coin is a meme Solana token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.",
@@ -723,7 +756,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-11-03T03:32:57.471236+00:00",
+  "fetched": "2026-11-04T14:30:10.071466+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -737,7 +770,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/bobocouncil",
   "twitter_followers": null,
-  "watchers": 424
+  "watchers": 425
  },
  "brickken": {
   "categories": [
@@ -762,7 +795,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-11-02T15:50:13.460684+00:00",
+  "fetched": "2026-11-04T14:33:42.185915+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -771,13 +804,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114143
+  "watchers": 114146
  },
  "broadcom-xstock": {
   "categories": [
@@ -1031,7 +1064,7 @@
   ],
   "discord": "https://discord.gg/chainflip-community",
   "explorer": "https://etherscan.io/token/0x826180541412d574cf1336d22c0c0a287822678a",
-  "fetched": "2026-11-03T14:13:07.838158+00:00",
+  "fetched": "2026-11-04T14:35:02.275495+00:00",
   "genesis": null,
   "github": "https://github.com/chainflip-io/",
   "homepage": "https://chainflip.io/",
@@ -1045,7 +1078,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chainflip",
   "twitter_followers": null,
-  "watchers": 20812
+  "watchers": 20813
  },
  "choo-choo": {
   "categories": [
@@ -1294,7 +1327,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-11-02T15:45:13.382204+00:00",
+  "fetched": "2026-11-04T14:31:13.321480+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1302,13 +1335,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 129
+  "watchers": 131
  },
  "darkwoods": {
   "categories": [
@@ -1430,7 +1463,7 @@
   ],
   "discord": "https://discord.com/invite/thedelysium",
   "explorer": "https://etherscan.io/token/0x7da2641000cbb407c329310c461b2cb9c70c3046",
-  "fetched": "2026-11-03T03:35:33.009165+00:00",
+  "fetched": "2026-11-04T14:32:29.422593+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.delysium.com",
@@ -1440,7 +1473,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1614,7 +1647,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-11-03T03:31:54.188702+00:00",
+  "fetched": "2026-11-04T14:31:19.725345+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dji6930.com/",
@@ -1622,7 +1655,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/DOWGEPortal",
   "telegram_users": null,
@@ -1748,7 +1781,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-11-02T15:46:26.640617+00:00",
+  "fetched": "2026-11-04T14:32:26.202575+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -1758,7 +1791,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1923,7 +1956,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-11-03T03:35:29.763504+00:00",
+  "fetched": "2026-11-04T14:33:39.027823+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1940,7 +1973,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7702
+  "watchers": 7706
  },
  "gamercoin": {
   "categories": [
@@ -2839,7 +2872,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-11-03T03:35:23.282603+00:00",
+  "fetched": "2026-11-04T14:32:35.842842+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -2848,13 +2881,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/marlinprotocol",
   "twitter_followers": null,
-  "watchers": 31928
+  "watchers": 31930
  },
  "matrixdock-gold": {
   "categories": [
@@ -2880,10 +2913,9 @@
    "Bluefin",
    "KuCoin",
    "Momentum",
-   "Rooster Protocol",
-   "Rooster Protocol V2"
+   "Rooster Protocol"
   ],
-  "cex_count": 6,
+  "cex_count": 5,
   "chat": null,
   "commits_4w": null,
   "description": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users.",
@@ -2896,7 +2928,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
-  "fetched": "2026-11-02T19:00:25.799180+00:00",
+  "fetched": "2026-11-04T14:33:45.390832+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.matrixdock.com/xaum",
@@ -3042,6 +3074,38 @@
   "twitter": "https://x.com/MNToken",
   "twitter_followers": null,
   "watchers": 544
+ },
+ "moolah": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "$Moolah is a meme token inspired by the mascot of ListaDAO, a decentralized finance (DeFi) protocol. Launched on the Flap.sh platform, $Moolah has garnered attention due to its official authorization from ListaDAO and its strategic positioning within the DeFi and meme coin ecosystems.                                      $Moolah\u2019s official authorization by ListaDAO sets it apart from many other meme coins, which often lack formal endorsements. According to posts on X, ListaDAO has actively promoted $Moolah, with mentions of its mascot status and interactions with the token\u2019s official account (@Moolah_bsc\n). This backing suggests a strategic alignment with ListaDAO\u2019s broader goals, potentially positioning $Moolah as a \u201cblue-chip\u201d meme coin within the ecosystem. Additionally, Flap.sh and even Binance Chain have shown support through social media engagement, hinting at broader institutional interest.\n\n",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
+  "fetched": "2026-11-04T14:31:16.503492+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://moolahbnb.com",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/moolah_cto",
+  "telegram_users": null,
+  "twitter": "https://x.com/Moolah_bsc",
+  "twitter_followers": null,
+  "watchers": 273
  },
  "myshell": {
   "categories": [
@@ -3196,7 +3260,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-11-03T03:36:39.455625+00:00",
+  "fetched": "2026-11-04T14:34:54.994673+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3579,7 +3643,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x02f92800f57bcd74066f5709f1daa1a4302df875",
-  "fetched": "2026-11-03T14:13:01.412987+00:00",
+  "fetched": "2026-11-04T14:35:10.390281+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://peapods.finance",
@@ -3596,7 +3660,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PeapodsFinance",
   "twitter_followers": null,
-  "watchers": 4246
+  "watchers": 4245
  },
  "pha": {
   "categories": [
@@ -3729,7 +3793,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-11-02T18:59:18.474246+00:00",
+  "fetched": "2026-11-04T14:33:48.616705+00:00",
   "genesis": "2017-07-18",
   "github": "https://github.com/Propy/ethereum",
   "homepage": "https://propy.com",
@@ -3738,13 +3802,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/propy",
   "telegram_users": null,
   "twitter": "https://x.com/PropyInc",
   "twitter_followers": null,
-  "watchers": 23079
+  "watchers": 23075
  },
  "pumpstop": {
   "categories": [
@@ -4283,7 +4347,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-03T03:34:20.068250+00:00",
+  "fetched": "2026-11-04T14:31:22.974894+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4298,7 +4362,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11935
+  "watchers": 11936
  },
  "solidus-aitech": {
   "categories": [
@@ -4332,7 +4396,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-03T03:33:10.397083+00:00",
+  "fetched": "2026-11-04T14:35:06.058296+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4348,7 +4412,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151659
+  "watchers": 151654
  },
  "spacex-reality-protocol": {
   "categories": [
@@ -4671,7 +4735,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump",
-  "fetched": "2026-11-03T14:13:04.595478+00:00",
+  "fetched": "2026-11-04T14:33:51.804872+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tokenos.ai/",
@@ -5161,7 +5225,7 @@
   ],
   "discord": "https://discord.com/invite/fJM9cHuvvB",
   "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-  "fetched": "2026-11-01T13:23:19.249766+00:00",
+  "fetched": "2026-11-04T14:34:58.252646+00:00",
   "genesis": null,
   "github": "https://github.com/Zebec-protocol",
   "homepage": "https://zebec.io/",
@@ -5169,12 +5233,12 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 77.78,
   "stars": null,
   "telegram": "https://t.me/zebecprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/Zebec_HQ",
   "twitter_followers": null,
-  "watchers": 21450
+  "watchers": 21471
  }
 }
