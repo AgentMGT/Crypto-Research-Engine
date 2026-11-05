@@ -1168,8 +1168,10 @@
    "Solana Meme",
    "Pump.fun Ecosystem"
   ],
-  "cex": [],
-  "cex_count": 0,
+  "cex": [
+   "MEXC"
+  ],
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "The Most Measured Dog Alive.",
@@ -1180,7 +1182,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump",
-  "fetched": "2026-11-03T20:33:33.230072+00:00",
+  "fetched": "2026-11-05T02:27:18.306298+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://chootherescue.com",
@@ -1194,7 +1196,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ChooTheRescue",
   "twitter_followers": null,
-  "watchers": 6
+  "watchers": 25
  },
  "circle-rstock-2": {
   "categories": [
@@ -1483,14 +1485,13 @@
   "commits_4w": null,
   "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
   "dex": [
-   "ApeSwap",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (Ethereum)",
    "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-11-03T14:12:58.071764+00:00",
+  "fetched": "2026-11-05T02:29:44.296616+00:00",
   "genesis": null,
   "github": "https://github.com/Digita-Entertainment-Asset/DEP",
   "homepage": "https://dea.sg/",
@@ -1507,7 +1508,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
-  "watchers": 10319
+  "watchers": 10320
  },
  "degen-base": {
   "categories": [
@@ -1717,7 +1718,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xe28cd11c99af2df76bb8ada4cd0ef3904378280f",
-  "fetched": "2026-11-03T21:24:07.925456+00:00",
+  "fetched": "2026-11-05T02:30:57.321207+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2036,7 +2037,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-11-04T02:23:34.607671+00:00",
+  "fetched": "2026-11-05T02:28:28.047568+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -2050,7 +2051,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8580
+  "watchers": 8578
  },
  "flying-tulip": {
   "categories": [
@@ -2505,7 +2506,7 @@
    "BloFin",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 35,
+  "cex_count": 34,
   "chat": "https://medium.com/iex-ec",
   "commits_4w": null,
   "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
@@ -2516,7 +2517,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-11-03T03:36:45.865981+00:00",
+  "fetched": "2026-11-05T02:29:50.738008+00:00",
   "genesis": "2017-04-19",
   "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
   "homepage": "http://iex.ec/",
@@ -2570,53 +2571,6 @@
   "twitter_followers": null,
   "watchers": 140
  },
- "infinity-ground": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "BNB Chain Ecosystem",
-   "Binance Alpha Spotlight",
-   "AI Framework"
-  ],
-  "cex": [
-   "Bitget",
-   "Bitunix",
-   "Gate",
-   "KCEX",
-   "Kraken",
-   "KuCoin",
-   "LBank",
-   "MEXC",
-   "Matcha (BSC)",
-   "Metric (BSC)",
-   "Ourbit",
-   "Toobit"
-  ],
-  "cex_count": 13,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Infinity Ground aims to be the leading blockchain infrastructure for Vibe Coders, enabling anyone to build and own decentralized applications through natural language and agent collaboration. We envision a future where software is no longer written line-by-line, but co-created with AI agents in a fully decentralized, censorship-resistant environment. Through our Agentic IDE, AI App Store, and ING Network, we are building a new internet native to creativity, autonomy, and collective intelligence.\n\nInfinity Ground\u2019s current core product is the First Decentralized Agentic IDE\u2014a revolutionary development platform powered by AI agents. Users can describe what they want to build in natural language, and the system generates fully functional DApps without requiring any coding knowledge. The IDE supports instant deployment, a growing library of customizable templates, and smooth integration with our AI App Store for publishing and monetization. This is not just a builder\u2014it\u2019s the beginning of a new creative economy driven by agentic collaboration.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x9558a9254890B2A8B057a789F413631B9084f4a3",
-  "fetched": "2026-11-02T01:37:13.014283+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.infinityg.ai/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 30.0,
-  "stars": null,
-  "telegram": "https://t.me/InfinityGroundAnn",
-  "telegram_users": null,
-  "twitter": "https://x.com/infinityg_ai",
-  "twitter_followers": null,
-  "watchers": 1427
- },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -2636,12 +2590,13 @@
    "Hibt",
    "LBank",
    "MEXC",
+   "Manifest",
    "Ondo Stocks",
    "Ourbit",
    "Toobit",
    "XT.COM"
   ],
-  "cex_count": 9,
+  "cex_count": 10,
   "chat": null,
   "commits_4w": null,
   "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
@@ -2655,7 +2610,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-11-04T02:23:37.904636+00:00",
+  "fetched": "2026-11-05T02:28:31.276359+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2666,13 +2621,63 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 1135
+  "watchers": 1141
+ },
+ "janction": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Binance Alpha Spotlight"
+  ],
+  "cex": [
+   "Aster",
+   "BYDFi",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "DigiFinex",
+   "Hotcoin",
+   "KCEX",
+   "KuCoin",
+   "LBank",
+   "MEXC",
+   "Ourbit"
+  ],
+  "cex_count": 14,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Janction is a resource sharing platform on the open web, serving your AI products. Janction offers resource sharing services such as computing power, storage, and images. You can use Janction to rent and lease various service resources. We ensure a secure, fair, and convenient marketplace for resource sharing, encompassing both traditional and decentralized scenarios.",
+  "dex": [
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xC477B6dfd26EC2460b3b92de18837Fd476Ea7549",
+  "fetched": "2026-11-05T02:29:41.083391+00:00",
+  "genesis": null,
+  "github": "https://github.com/Janction-R-D",
+  "homepage": "https://www.janction.ai/home",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/jasmyofficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/JANCTION_Global",
+  "twitter_followers": null,
+  "watchers": 1877
  },
  "jean-phil": {
   "categories": [
@@ -2961,7 +2966,7 @@
    "DigiFinex",
    "Gate"
   ],
-  "cex_count": 24,
+  "cex_count": 25,
   "chat": null,
   "commits_4w": null,
   "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Ethereum. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
@@ -2971,7 +2976,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-11-04T02:23:41.109783+00:00",
+  "fetched": "2026-11-05T02:27:24.737234+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2982,13 +2987,13 @@
    "hyperliquid"
   ],
   "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": 100.0,
+  "sentiment_up": 40.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30369
+  "watchers": 30374
  },
  "magic": {
   "categories": [
@@ -3179,6 +3184,47 @@
   "twitter_followers": null,
   "watchers": 31930
  },
+ "mass-vehicle-ledger": {
+  "categories": [
+   "Internet of Things (IOT)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "DWF Labs Portfolio"
+  ],
+  "cex": [
+   "Bithumb",
+   "Gate",
+   "Upbit"
+  ],
+  "cex_count": 3,
+  "chat": "https://t.me/mvlchain_kr",
+  "commits_4w": null,
+  "description": "It is a blockchain-based ecosystem that connects all services, like the car dealer shops, mechanic shops and car rental companies, that touch your car to collect its lifetime data. \n\nParticipants from automobile-related companies, services or trade industry will be connected and they will insert core data related to driving, traffic accidents, repairs and other car-related transactions into the blockchain. \n\nParticipants who provide data related to automobile will receive MVL Point (MVP), a reward system used to encourage contribution to the ecosystem. ",
+  "dex": [
+   "Biswap",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
+  "fetched": "2026-11-05T02:28:34.531049+00:00",
+  "genesis": null,
+  "github": "https://github.com/mvlchain/PWSwitch",
+  "homepage": "https://mvlchain.io/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "the-open-network"
+  ],
+  "reddit": "https://www.reddit.com/r/MVL",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/mvlchain_en",
+  "telegram_users": null,
+  "twitter": "https://x.com/mvlchain",
+  "twitter_followers": null,
+  "watchers": 2975
+ },
  "matrixdock-gold": {
   "categories": [
    "Tokenized Assets",
@@ -3331,39 +3377,6 @@
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
   "watchers": 342
- },
- "minutes-network-token": {
-  "categories": [
-   "Ethereum Ecosystem",
-   "DePIN"
-  ],
-  "cex": [
-   "BingX"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/minutesnetwork",
-  "explorer": "https://etherscan.io/token/0x5C697fee285B513711A816018DBb34DC0cFC4875",
-  "fetched": "2026-11-02T01:38:25.963465+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.minutesnetworktoken.io/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/minutesnetworktoken",
-  "telegram_users": null,
-  "twitter": "https://x.com/MNToken",
-  "twitter_followers": null,
-  "watchers": 544
  },
  "moolah": {
   "categories": [
@@ -4054,7 +4067,7 @@
    "Bitvavo",
    "BloFin"
   ],
-  "cex_count": 37,
+  "cex_count": 38,
   "chat": "https://www.youtube.com/@PhalaNetwork",
   "commits_4w": null,
   "description": "What Is Phala Network (PHA)?\n\nPhala Network (https://phala.network/) is the Execution Layer for Web3 AI, enabling AI to interact with blockchains and unlocking Web3 for the first billion users.\n\nPhala\u2019s multi-proof system solves the AI execution problem, allowing you to build tamper-proof and unstoppable AI Agents that integrate with smart contracts through the AI-Agent Contract.\n\n1. Agentize Smart Contracts: Develop AI Agents for smart contracts using natural and programming languages.\n2. Connect to Multi-Agents: Make your agents accessible to other cross-chain AI Agents.\n3. Launch AI Agents and Earn: Own your agents and build a profitable token economy.\n\nPHALA as the AI Execution Layer:\n\nPhala leverages AI Agents to interface with blockchain technology, ensuring behavior aligns with intentions and preventing fraud. Using Phala's Blockchain-TEE hybrid system, AI Agents can act like smart contracts with decentralized hosting, governance by smart contracts, protected prompts, and low latency with no gas fees.\n\nPhala Network\u2019s AI Ecosystem:\n\nPhala leads Web3 and AI integration with:\n\n1. AI Agent Contract (https://docs.phala.network/ai-agent-contract/getting-started): For building decentralized AI applications.\n2. Agent Wars (https://agentwars.phala.network/home): A platform to create, interact with, and monetize AI agents.\n3. Redpill (https://red-pill.ai/join): An AI aggregator optimizing multiple AI models, increasing network usage and computation power.\n\nHow Many PHA Coins Ar",
@@ -4064,7 +4077,7 @@
   ],
   "discord": "https://discord.com/invite/phala-network",
   "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-11-04T02:24:53.870346+00:00",
+  "fetched": "2026-11-05T02:29:53.987996+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://phala.network/",
@@ -4079,7 +4092,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PhalaNetwork",
   "twitter_followers": null,
-  "watchers": 56827
+  "watchers": 56829
  },
  "pinlink": {
   "categories": [
@@ -4278,7 +4291,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 36,
+  "cex_count": 38,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -4289,7 +4302,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-11-03T21:23:54.860613+00:00",
+  "fetched": "2026-11-05T02:28:37.748777+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4305,7 +4318,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12579
+  "watchers": 12580
  },
  "reppo": {
   "categories": [
@@ -4502,7 +4515,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-03T21:24:04.781049+00:00",
+  "fetched": "2026-11-05T02:29:47.536214+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -4594,7 +4607,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-11-03T20:33:42.803999+00:00",
+  "fetched": "2026-11-05T02:27:21.493868+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4609,50 +4622,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 11
- },
- "silencio": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "DePIN",
-   "Base Ecosystem",
-   "Decentralized Science (DeSci)",
-   "Peaq Ecosystem",
-   "Robotics",
-   "Base Native"
-  ],
-  "cex": [
-   "Gate",
-   "KuCoin",
-   "MEXC",
-   "MachineX",
-   "Matcha (Base)"
-  ],
-  "cex_count": 5,
-  "chat": "https://medium.com/@silencionetwork",
-  "commits_4w": null,
-  "description": "# AI should understand everyone\n# \nVoice is becoming the default way people use AI. We\u2019ll talk to chatbot, LLMs, assistants, cars, devices and robots instead of typing to them. For that to work, AI has to understand how people actually speak.\n\nToday it doesn\u2019t. There are more than 7,000 languages in the world, yet today\u2019s models are trained on only about 3% of them. Roughly half of th World's population can't talk to AI in their native language today. All frontier AI labs have this challenge. The data needed to include them can\u2019t be scraped from the internet. It has to be recorded by real people, with their consent.\n\nSilencio is building that data layer.\n\nThe opportunity\nEvery AI model that speaks, and every robot or embodied AI system that listens and responds in the real world, needs speech data across languages, dialects, accents and environments. Demand is growing quickly. Supply barely exists.\n\nValidated by frontier AI labs\nSilencio has closed contracts with frontier AI labs and has already received repeat orders going into the millions. Our data meets the most demanding standards in the industry: verified consent on every file, strict speaker diversity, and transcription accuracy thresholds. Labs buy from our off-the-shelf library to start and then scale into new languages and custom collection.\n\nHow we capture it\nSilencio is a decentralized network of more than 2.5 million users in over 185 countries. Users record and transcribe speech in their own languages and dialec",
-  "dex": [
-   "Aerodrome (Base)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://peaq.subscan.io/token/0x5c3126bfb9a68a7021d461230127470b3824886b",
-  "fetched": "2026-11-02T01:37:16.245960+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://silencio.network/",
-  "platforms": [
-   "base",
-   "peaq"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/silencioofficialchat",
-  "telegram_users": null,
-  "twitter": "https://x.com/silencioNetwork",
-  "twitter_followers": null,
-  "watchers": 4402
  },
  "snowmoon": {
   "categories": [
@@ -4826,43 +4795,6 @@
   "twitter_followers": null,
   "watchers": 249
  },
- "spacex-reality-protocol": {
-  "categories": [
-   "Tokenized Assets",
-   "Arbitrum Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "Reality Ecosystem"
-  ],
-  "cex": [
-   "Bitget"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V4 (Arbitrum)"
-  ],
-  "discord": null,
-  "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-11-02T01:35:56.603882+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
-  "platforms": [
-   "arbitrum-one"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 81
- },
  "ssv-network": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4959,44 +4891,47 @@
   "twitter_followers": null,
   "watchers": 142
  },
- "strategy-tokenized-bstocks": {
+ "strategy-pp-variable-xstock": {
   "categories": [
    "Tokenized Assets",
-   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
    "Tokenized Stocks",
+   "Ethereum Ecosystem",
    "Real World Assets (RWA)",
-   "bStocks Ecosystem"
+   "BackedFi xStocks Ecosystem"
   ],
   "cex": [
-   "Binance",
-   "LBank",
-   "Metric (BSC)"
+   "Byreal",
+   "Kraken",
+   "LBank"
   ],
   "cex_count": 3,
   "chat": null,
   "commits_4w": null,
-  "description": "",
+  "description": "For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 120+ US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.",
   "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
+   "Curve (Ethereum)",
+   "Raydium (CLMM)",
+   "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
-  "explorer": "https://bscscan.com/token/0xE87afb3076AeB0f9B14E368DE8145ae6a2826A14",
-  "fetched": "2026-11-02T01:37:19.451909+00:00",
+  "explorer": "https://etherscan.io/token/0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
+  "fetched": "2026-11-05T02:31:00.717172+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
+  "homepage": "https://xstocks.fi/",
   "platforms": [
-   "binance-smart-chain"
+   "ethereum",
+   "solana"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
-  "telegram": null,
+  "telegram": "https://t.me/xstocksfi",
   "telegram_users": null,
-  "twitter": "https://x.com/binance",
+  "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
-  "watchers": 54
+  "watchers": 525
  },
  "super-inu-3": {
   "categories": [
