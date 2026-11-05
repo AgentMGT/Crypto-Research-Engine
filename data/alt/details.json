@@ -338,7 +338,7 @@
   ],
   "discord": "https://discord.com/invite/qnRrcfnm5W",
   "explorer": "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-  "fetched": "2026-11-03T14:11:38.945234+00:00",
+  "fetched": "2026-11-05T00:46:50.782840+00:00",
   "genesis": null,
   "github": "https://github.com/api3dao/airnode",
   "homepage": "https://api3.org/",
@@ -352,7 +352,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/API3DAO",
   "twitter_followers": null,
-  "watchers": 45645
+  "watchers": 45648
  },
  "apple-bstocks-tokenized-stock": {
   "categories": [
@@ -379,7 +379,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
-  "fetched": "2026-11-03T20:37:51.547130+00:00",
+  "fetched": "2026-11-05T00:49:21.187409+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -393,7 +393,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 60
+  "watchers": 64
  },
  "apple-xstock": {
   "categories": [
@@ -522,45 +522,6 @@
   "twitter_followers": null,
   "watchers": 455
  },
- "aura-final-boss-2": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Celebrity-Themed",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [
-   "KCEX",
-   "LBank",
-   "MEXC"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Meteora",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-  "fetched": "2026-11-01T18:58:08.961082+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://pump.fun/coin/CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 66
- },
  "aurora-near": {
   "categories": [
    "Near Protocol Ecosystem",
@@ -594,7 +555,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-03T20:36:48.326411+00:00",
+  "fetched": "2026-11-05T00:45:34.094478+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -604,13 +565,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23711
+  "watchers": 23714
  },
  "autonomi": {
   "categories": [
@@ -676,7 +637,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
-  "fetched": "2026-11-03T03:33:03.863146+00:00",
+  "fetched": "2026-11-05T00:44:24.130870+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basecatonbase.com",
@@ -684,13 +645,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/basecatonbase",
   "telegram_users": null,
   "twitter": "https://x.com/BasecatOnBase",
   "twitter_followers": null,
-  "watchers": 993
+  "watchers": 992
  },
  "bio-protocol": {
   "categories": [
@@ -730,7 +691,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-11-01T19:00:29.260386+00:00",
+  "fetched": "2026-11-05T00:48:07.607412+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -741,13 +702,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 40.0,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17131
+  "watchers": 17140
  },
  "blue-chip-4": {
   "categories": [
@@ -1131,7 +1092,7 @@
    "Bybit",
    "Byte Exchange"
   ],
-  "cex_count": 37,
+  "cex_count": 35,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -1141,7 +1102,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
-  "fetched": "2026-11-02T01:36:03.112177+00:00",
+  "fetched": "2026-11-05T00:45:40.772020+00:00",
   "genesis": null,
   "github": "https://github.com/centrifuge/",
   "homepage": "https://centrifuge.io/",
@@ -1149,13 +1110,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/centrifuge_chat",
   "telegram_users": null,
   "twitter": "https://x.com/centrifuge",
   "twitter_followers": null,
-  "watchers": 7545
+  "watchers": 7553
  },
  "chainflip": {
   "categories": [
@@ -1825,7 +1786,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-  "fetched": "2026-11-02T18:56:49.381398+00:00",
+  "fetched": "2026-11-05T00:45:30.785330+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://dogwifjob.com/",
@@ -1839,7 +1800,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/dogwifjob_sol",
   "twitter_followers": null,
-  "watchers": 20
+  "watchers": 21
  },
  "dowge": {
   "categories": [
@@ -2028,11 +1989,12 @@
   "commits_4w": null,
   "description": "FATCAT is a vibrant, community driven memecoin on Binance Smart Chain inspired by the undisputed internet royalty: delightfully chunky felines. \n\nLaunched fairly on flap.sh, the project celebrates good vibes, bold humor, and an active collective of crypto enthusiasts who believe memes should bring genuine value back to holders. \n\nPaired directly with SPYB, FATCAT stands out by rewarding its loyal supporters with regular ecosystem perks, including SPYB distributions straight to community wallets. \n\nBetween viral meme competitions, interactive social campaigns, and an expanding cat loving movement, FATCAT blends lighthearted internet culture with a transparent, decentralized ethos built to last.",
   "dex": [
-   "PancakeSwap (v2)"
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x6D145722564AAa0DBA3E104DD1D680b227927777",
-  "fetched": "2026-11-03T21:22:42.098941+00:00",
+  "fetched": "2026-11-05T00:44:20.799351+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x6d145722564aaa0dba3e104dd1d680b227927777",
@@ -2133,6 +2095,37 @@
   "twitter_followers": null,
   "watchers": 1423
  },
+ "foco-2": {
+  "categories": [
+   "Analytics",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "FOCO is an Ethereum-based meme token associated with an automated copy-trading tool. It enables users to select specific traders and automatically replicate their buy transactions on the Ethereum network using customizable parameters, including position size, take-profit targets, and stop-loss levels. Users retain control over sell execution rules while the system handles trade monitoring and order placement. Setup involves choosing traders to follow and defining personal rules, after which FOCO executes the strategy autonomously. The token supports this copy-trading functionality focused on Ethereum markets.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x611f87a907cde6e533e64e03c5ab6df88a6bb147",
+  "fetched": "2026-11-05T00:48:14.169265+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://focofamily.xyz",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 81.82,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/FocoOnEth",
+  "twitter_followers": null,
+  "watchers": 161
+ },
  "forta": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2190,52 +2183,6 @@
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
   "watchers": 7706
- },
- "gamercoin": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "AI Applications"
-  ],
-  "cex": [
-   "BitKan",
-   "Bithumb",
-   "Gate",
-   "KuCoin",
-   "MEXC"
-  ],
-  "cex_count": 5,
-  "chat": "https://www.facebook.com/GamerHashApp/",
-  "commits_4w": null,
-  "description": "GamerCoin is a token of GamerHash platform - it's the last puzzle of gaming ecosystem and fuel which makes 500.000 users life easier.\nGamers will have many ways to earn GHX trough mining or entertainment on the platform. Keeping tokens in the wallet will bring many benefits &amp; spending GHX in the Marketplace will open special offers.\nIt's a game changer for gaming generation!",
-  "dex": [
-   "PancakeSwap (v2)",
-   "Raydium",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": "https://discord.gg/T3ZpnwBvvC",
-  "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-11-01T19:00:25.668864+00:00",
-  "genesis": null,
-  "github": "https://github.com/GamerHash",
-  "homepage": "https://gamercoin.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/GamerHashOfficial",
-  "telegram_users": null,
-  "twitter": "https://x.com/GamerHashCom",
-  "twitter_followers": null,
-  "watchers": 23661
  },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
@@ -2588,6 +2535,41 @@
   "twitter_followers": null,
   "watchers": 35774
  },
+ "infinite-money-glitch-3": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "KCEX"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Infinite Money Glitch ($GLITCH) is a community memecoin on Solana built around the countdown to GTA 6. The mascot is Glitch, a flamingo who found an ATM that won't stop paying out, and the community runs with that story in memes, short videos and Withdraw Wars, a free browser game on glitchonsol.com. The token is the community's shared meme and its badge. The project's purpose is entertainment and community, timed to the biggest game release in years. It doesn't promise returns or yield.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+  "fetched": "2026-11-05T00:44:27.421991+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://glitchonsol.com",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 33.33,
+  "stars": null,
+  "telegram": "https://t.me/imglitchonsol",
+  "telegram_users": null,
+  "twitter": "https://x.com/GlitchOnSolana_",
+  "twitter_followers": null,
+  "watchers": 140
+ },
  "infinity-ground": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2878,7 +2860,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-03T20:36:45.080990+00:00",
+  "fetched": "2026-11-05T00:49:17.857265+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2888,7 +2870,7 @@
    "osmosis"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/+4FqlzOzdMTo1ZTdk",
   "telegram_users": null,
@@ -3051,7 +3033,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-11-03T20:36:38.670483+00:00",
+  "fetched": "2026-11-05T00:48:04.240205+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3061,13 +3043,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38909
+  "watchers": 38908
  },
  "mamo": {
   "categories": [
@@ -4393,7 +4375,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 55,
+  "cex_count": 58,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4407,7 +4389,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-03T21:24:01.566548+00:00",
+  "fetched": "2026-11-05T00:45:37.397746+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4418,13 +4400,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90703
+  "watchers": 90696
  },
  "resistance-dog": {
   "categories": [
@@ -4485,7 +4467,7 @@
   ],
   "discord": "https://discord.com/invite/t-rize",
   "explorer": "https://basescan.org/token/0x9818B6c09f5ECc843060927E8587c427C7C93583",
-  "fetched": "2026-11-03T20:34:09.342709+00:00",
+  "fetched": "2026-11-05T00:48:10.877080+00:00",
   "genesis": null,
   "github": "https://github.com/T-RIZE-Group",
   "homepage": "https://rizenet.io/",
@@ -4496,13 +4478,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/Rizenet_OfficialCommunity",
   "telegram_users": null,
   "twitter": "https://x.com/trize_io",
   "twitter_followers": null,
-  "watchers": 7329
+  "watchers": 7330
  },
  "rna-2": {
   "categories": [
@@ -4566,7 +4548,7 @@
    "Bitkub",
    "Bitlo"
   ],
-  "cex_count": 42,
+  "cex_count": 41,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4578,7 +4560,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-11-03T20:35:31.925373+00:00",
+  "fetched": "2026-11-05T00:48:00.914038+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4594,7 +4576,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25865
+  "watchers": 25866
  },
  "saucecoin": {
   "categories": [
@@ -5107,7 +5089,7 @@
    "Crypto.com Exchange",
    "DigiFinex",
    "Gate",
-   "HTX",
+   "Hyperliquid",
    "KCEX"
   ],
   "cex_count": 25,
@@ -5122,7 +5104,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-11-03T21:24:11.078441+00:00",
+  "fetched": "2026-11-05T00:46:47.487651+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -5133,7 +5115,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
@@ -5304,7 +5286,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-11-03T20:36:35.306739+00:00",
+  "fetched": "2026-11-05T00:46:54.087320+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -5326,10 +5308,8 @@
    "Prediction Markets",
    "Base Ecosystem"
   ],
-  "cex": [
-   "Aero Slipstream (Base)"
-  ],
-  "cex_count": 1,
+  "cex": [],
+  "cex_count": 0,
   "chat": null,
   "commits_4w": null,
   "description": "True is a decentralized prediction market platform that allows users to trade on the outcomes of real-world events using cryptocurrency. Built on the Base blockchain, it leverages smart contracts to ensure transparency and security. Users can buy and sell shares in different outcomes, with market prices reflecting the probability of an event occurring.\n\nTrue covers a wide range of topics, including politics, sports, technology, and finance. It operates in a non-custodial manner, meaning users retain control of their funds, and settlements are handled through oracles that verify event outcomes. Unlike traditional betting platforms, True is more of an information market where traders profit from correctly predicting real-world events rather than simply gambling.",
@@ -5338,7 +5318,7 @@
   ],
   "discord": "https://discord.gg/trueo",
   "explorer": "https://basescan.org/token/0x21CFCFc3d8F98fC728f48341D10Ad8283F6EB7AB",
-  "fetched": "2026-11-03T20:34:12.554068+00:00",
+  "fetched": "2026-11-05T00:46:44.176190+00:00",
   "genesis": null,
   "github": "https://github.com/trueo-protocol/trueo-contracts",
   "homepage": "https://trueo.com/",
@@ -5352,7 +5332,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Trueo_",
   "twitter_followers": null,
-  "watchers": 880
+  "watchers": 885
  },
  "tsmc-bstocks-tokenized-stock": {
   "categories": [
@@ -5450,7 +5430,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-11-03T20:35:28.735180+00:00",
+  "fetched": "2026-11-05T00:46:57.326762+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5464,7 +5444,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/uranium_io",
   "twitter_followers": null,
-  "watchers": 460
+  "watchers": 459
  },
  "what-the-hook": {
   "categories": [
@@ -5482,7 +5462,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-11-03T20:33:39.641185+00:00",
+  "fetched": "2026-11-05T00:44:17.405649+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5490,13 +5470,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/+o9WcbT5JyIFkZTM0",
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 175
+  "watchers": 179
  },
  "win-jie": {
   "categories": [
@@ -5624,59 +5604,6 @@
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
   "watchers": 43530
- },
- "xyo-network": {
-  "categories": [
-   "Internet of Things (IOT)",
-   "Oracle",
-   "NFT",
-   "Metaverse",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Alleged SEC Securities",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "BitKan",
-   "Bithumb",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "Gate",
-   "GroveX",
-   "HTX",
-   "Kraken"
-  ],
-  "cex_count": 16,
-  "chat": "https://www.youtube.com/channel/UCyZDqb9pgntVHJVt1pxXtsw",
-  "commits_4w": null,
-  "description": "XYO is the cryptographic proof layer for the real world, collecting, validating, and delivering physical-world data to AI, robotics, Web3, and enterprise systems. XYO, the original Decentralized Physical Infrastructure Network (DePIN), has been operating since 2018 and now has more than 10 million nodes worldwide. \n\nAt the core of XYO is XYO Layer One, a scalable data blockchain built to support high-volume data industries such as AI, robotics, location intelligence, and real-world asset (RWA) systems. Designed for high throughput and low transaction costs, it gives these data-intensive applications the capacity to process and validate information across massive datasets. XYO Layer One anchors XYO's Proof of Location and Proof of Origin technologies, establishing a verified origin, precise timing, and trusted source behind every piece of data. This verified data directly feeds the XYO AI SDK, a product built by XYO to provide accessibility for developers to build AI-powered applications, autonomous agents, robotics integrations and more using real-world data.\n\nXYO employs a unique dual-token model:\n\nXYO Token: An externally traded token supporting the DePIN ecosystem, rewards, staking, and governance, enhancing overall ecosystem value and scarcity.\n\n\nXL1 Token: Internal to the XYO Layer One blockchain, facilitating transactions, gas fees, and other blockchain-specific use cases.\n\nThe dual-token economics are strategically designed to increase scarcity and promote sustainable ",
-  "dex": [
-   "Curve (Ethereum)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "https://discord.gg/officialxyo",
-  "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
-  "fetched": "2026-11-01T19:01:49.061177+00:00",
-  "genesis": null,
-  "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
-  "homepage": "https://xyo.network/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/XYONetwork/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/official_xyo",
-  "telegram_users": null,
-  "twitter": "https://x.com/officialxyo",
-  "twitter_followers": null,
-  "watchers": 38894
  },
  "yee-token": {
   "categories": [
