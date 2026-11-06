@@ -1215,7 +1215,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-11-03T20:34:22.216605+00:00",
+  "fetched": "2026-11-06T20:30:19.485608+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1224,13 +1224,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/codecflow",
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1731
+  "watchers": 1734
  },
  "coge-coin-2": {
   "categories": [
@@ -3279,7 +3279,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
-  "fetched": "2026-11-04T18:04:28.109163+00:00",
+  "fetched": "2026-11-06T20:30:16.247748+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.manifesting.meme/",
@@ -3287,13 +3287,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/ManifestingBelievers",
   "telegram_users": null,
   "twitter": "https://x.com/ManifestingXs",
   "twitter_followers": null,
-  "watchers": 890
+  "watchers": 883
  },
  "marlin": {
   "categories": [
@@ -3329,7 +3329,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-11-05T14:40:34.857188+00:00",
+  "fetched": "2026-11-06T20:31:26.081383+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -3338,7 +3338,7 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/marlinprotocol/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/marlinprotocol",
   "telegram_users": null,
@@ -3491,6 +3491,57 @@
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
   "watchers": 342
+ },
+ "momentum-3": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Sui Ecosystem",
+   "Coinbase Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "Binance HODLer Airdrops",
+   "Binance Wallet IDO",
+   "CeFi"
+  ],
+  "cex": [
+   "Aster",
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bitunix",
+   "Bybit",
+   "Coinstore"
+  ],
+  "cex_count": 26,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://suiscan.xyz/mainnet/coin/0x35169bc93e1fddfcf3a82a9eae726d349689ed59e4b065369af8789fe59f8608::mmt::MMT/txs",
+  "fetched": "2026-11-06T20:31:35.786759+00:00",
+  "genesis": null,
+  "github": "https://github.com/mmt-finance/clmm-sdk",
+  "homepage": "https://www.mmt.finance/",
+  "platforms": [
+   "binance-smart-chain",
+   "sui"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/mmtfinance",
+  "telegram_users": null,
+  "twitter": "https://x.com/MMTFinance",
+  "twitter_followers": null,
+  "watchers": 4040
  },
  "moolah": {
   "categories": [
@@ -4999,6 +5050,58 @@
   "twitter_followers": null,
   "watchers": 10164
  },
+ "stp-network": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Decentralized Finance (DeFi)",
+   "Derivatives",
+   "Synthetic Issuer",
+   "Base Ecosystem",
+   "AI Agents",
+   "Synthetic",
+   "AI Agent Launchpad",
+   "Base Native"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "BloFin",
+   "Coinbase Exchange"
+  ],
+  "cex_count": 26,
+  "chat": null,
+  "commits_4w": null,
+  "description": "AWE Network is building the infrastructure and asset layer for the agentic economy. Open rails for identity and payments \u2014 and the products that put them to work.\n\nAWE is the governance token for the AWE ecosystem.\n\nAWE started as the Autonomous World Engine \u2014 a multi-agent framework where up to a thousand agents could run in parallel inside persistent worlds. World.fun stress-tested the engine with live worlds and real users and was the foundation for the Agentic World Economy.",
+  "dex": [
+   "Aerodrome (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x1B4617734C43F6159F3a70b7E06d883647512778",
+  "fetched": "2026-11-06T20:31:29.391086+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.awenetwork.ai/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/STPofficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/awenetwork_ai",
+  "twitter_followers": null,
+  "watchers": 7967
+ },
  "strategy-inc-robinhood-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -5130,6 +5233,46 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 587
+ },
+ "swarm-bzz": {
+  "categories": [
+   "Storage",
+   "Gnosis Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "CoinList Launchpad"
+  ],
+  "cex": [
+   "CoinW",
+   "Gate",
+   "MEXC"
+  ],
+  "cex_count": 3,
+  "chat": "https://www.youtube.com/@ethereumswarm4033",
+  "commits_4w": null,
+  "description": "Swarm is a system of peer-to-peer networked nodes that create a decentralised storage and communication service. The system is economically self-sustaining due to a built-in incentive system enforced through smart contracts on the Ethereum blockchain and powered by the BZZ token.",
+  "dex": [
+   "Sushiswap V3 (Gnosis)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/GU22h2utj6",
+  "explorer": "https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb",
+  "fetched": "2026-11-06T20:32:39.182684+00:00",
+  "genesis": null,
+  "github": "https://github.com/ethersphere",
+  "homepage": "https://ethswarm.org/",
+  "platforms": [
+   "ethereum",
+   "xdai"
+  ],
+  "reddit": "https://www.reddit.com/r/ethswarm/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ethswarm",
+  "twitter_followers": null,
+  "watchers": 4044
  },
  "synapse-2": {
   "categories": [
@@ -5576,6 +5719,58 @@
   "twitter_followers": null,
   "watchers": 23510
  },
+ "wayfinder": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "AI Agents",
+   "Binance Alpha Spotlight",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "BloFin"
+  ],
+  "cex_count": 28,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x28d38dF637dB75533bD3F71426F3410a82041544",
+  "fetched": "2026-11-06T20:30:22.784688+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.wayfinder.ai/",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 75.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AIWayfinder",
+  "twitter_followers": null,
+  "watchers": 3976
+ },
  "what-the-hook": {
   "categories": [
    "Meme",
@@ -5680,7 +5875,7 @@
   ],
   "discord": "https://discord.com/invite/Qg54MMMmjG",
   "explorer": "https://basescan.org/token/0x3e31966d4f81C72D2a55310A6365A56A4393E98D",
-  "fetched": "2026-11-05T14:41:20.794462+00:00",
+  "fetched": "2026-11-06T20:31:32.575646+00:00",
   "genesis": null,
   "github": "https://github.com/worldmobilegroup",
   "homepage": "https://worldmobile.io",
@@ -5691,7 +5886,7 @@
    "cardano"
   ],
   "reddit": "https://www.reddit.com/r/WorldMobileToken/",
-  "sentiment_up": 75.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/WorldMobileTeam",
   "telegram_users": null,
