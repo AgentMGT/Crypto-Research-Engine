@@ -62,7 +62,6 @@
   "cex": [
    "Biconomy.com",
    "Binance",
-   "Binance US",
    "Bitrue",
    "Bittime",
    "Bitvavo",
@@ -71,7 +70,8 @@
    "Kraken",
    "KuCoin",
    "MEXC",
-   "Mudrex"
+   "Mudrex",
+   "TokoCrypto"
   ],
   "cex_count": 15,
   "chat": null,
@@ -85,7 +85,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-11-04T18:05:38.037322+00:00",
+  "fetched": "2026-11-06T02:29:01.104078+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -101,7 +101,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/heyAura",
   "twitter_followers": null,
-  "watchers": 9348
+  "watchers": 9350
  },
  "aixbt": {
   "categories": [
@@ -554,7 +554,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-05T00:45:34.094478+00:00",
+  "fetched": "2026-11-06T02:30:22.806188+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -564,13 +564,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23714
+  "watchers": 23711
  },
  "autonomi": {
   "categories": [
@@ -636,7 +636,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
-  "fetched": "2026-11-05T00:44:24.130870+00:00",
+  "fetched": "2026-11-06T02:27:38.456058+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basecatonbase.com",
@@ -650,7 +650,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BasecatOnBase",
   "twitter_followers": null,
-  "watchers": 992
+  "watchers": 991
  },
  "bio-protocol": {
   "categories": [
@@ -1047,7 +1047,7 @@
    "Bybit",
    "Byte Exchange"
   ],
-  "cex_count": 35,
+  "cex_count": 36,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -1057,7 +1057,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
-  "fetched": "2026-11-05T00:45:40.772020+00:00",
+  "fetched": "2026-11-06T02:28:51.420433+00:00",
   "genesis": null,
   "github": "https://github.com/centrifuge/",
   "homepage": "https://centrifuge.io/",
@@ -1071,7 +1071,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/centrifuge",
   "twitter_followers": null,
-  "watchers": 7553
+  "watchers": 7552
  },
  "cere-network": {
   "categories": [
@@ -1272,7 +1272,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
-  "fetched": "2026-11-03T03:36:49.065852+00:00",
+  "fetched": "2026-11-06T02:31:32.516706+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://clearpool.finance/",
@@ -1287,7 +1287,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ClearpoolFin",
   "twitter_followers": null,
-  "watchers": 39182
+  "watchers": 39180
  },
  "codec-flow": {
   "categories": [
@@ -1602,7 +1602,7 @@
   ],
   "discord": "https://discord.com/invite/thedelysium",
   "explorer": "https://etherscan.io/token/0x7da2641000cbb407c329310c461b2cb9c70c3046",
-  "fetched": "2026-11-04T14:32:29.422593+00:00",
+  "fetched": "2026-11-06T02:30:16.362894+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.delysium.com",
@@ -1618,7 +1618,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/The_Delysium",
   "twitter_followers": null,
-  "watchers": 24094
+  "watchers": 24092
  },
  "dimitra": {
   "categories": [
@@ -1753,7 +1753,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump",
-  "fetched": "2026-11-05T00:45:30.785330+00:00",
+  "fetched": "2026-11-06T02:27:44.874087+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://dogwifjob.com/",
@@ -1761,13 +1761,47 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/dogwifjob",
   "telegram_users": null,
   "twitter": "https://x.com/dogwifjob_sol",
   "twitter_followers": null,
-  "watchers": 21
+  "watchers": 27
+ },
+ "dot": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem"
+  ],
+  "cex": [
+   "Matcha (Base)"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Dot is a privacy-centric AI ecosystem. It gives people access to powerful AI tools without the surveillance that comes with mainstream models. Every major AI assistant today logs your conversations, ties them to your identity, and uses them to train, profile, and target you. Dot is built on the opposite premise: we ask for nothing, so you can ask us anything. The ecosystem runs on open-weight models that can be self-hosted and inspected, meaning no third party sits between you and the AI. Products include dotchat (private conversational AI) and dotcode (a private coding assistant), with more tools planned under the same principle: your data stays yours.",
+  "dex": [
+   "Uniswap V2 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
+  "fetched": "2026-11-06T02:28:57.824587+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://usedot.xyz",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/usedotai",
+  "twitter_followers": null,
+  "watchers": 478
  },
  "dowge": {
   "categories": [
@@ -1806,6 +1840,61 @@
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
   "watchers": 3506
+ },
+ "dusk-network": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Layer 1 (L1)",
+   "Ethereum Ecosystem",
+   "Zero Knowledge (ZK)",
+   "Real World Assets (RWA)",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Privacy Blockchain"
+  ],
+  "cex": [
+   "BTCC",
+   "Bancor (V2)",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "BitKan",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "CEX.IO"
+  ],
+  "cex_count": 30,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ\u2014Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V1 (BSC)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/dusk-official",
+  "explorer": "https://apps.dusk.network/explorer/",
+  "fetched": "2026-11-06T02:31:26.058721+00:00",
+  "genesis": null,
+  "github": "https://github.com/dusk-network/dusk-blockchain",
+  "homepage": "https://dusk.network/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/DuskNetwork/",
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/DuskNetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/DuskFoundation",
+  "twitter_followers": null,
+  "watchers": 32077
  },
  "egl1": {
   "categories": [
@@ -2793,7 +2882,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-05T00:49:17.857265+00:00",
+  "fetched": "2026-11-06T02:30:19.563898+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2803,7 +2892,7 @@
    "osmosis"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+4FqlzOzdMTo1ZTdk",
   "telegram_users": null,
@@ -3039,6 +3128,7 @@
   "cex": [
    "BVOX",
    "Binance",
+   "Binance US",
    "BitKan",
    "Bithumb",
    "Bitkub",
@@ -3047,10 +3137,9 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
-   "BtcTurk | Kripto",
-   "Bybit"
+   "BtcTurk | Kripto"
   ],
-  "cex_count": 38,
+  "cex_count": 39,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -3064,7 +3153,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-11-05T00:48:04.240205+00:00",
+  "fetched": "2026-11-06T02:27:48.140862+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3074,13 +3163,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38908
+  "watchers": 38909
  },
  "mamo": {
   "categories": [
@@ -4227,6 +4316,45 @@
   "twitter_followers": null,
   "watchers": 15
  },
+ "purple-pepe": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Frog-Themed",
+   "Solana Meme",
+   "The Boy\u2019s Club",
+   "Made in USA"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "KCEX"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "$PURPE is a community-led token originally deployed on the Solana blockchain in July 2023 and is also available on BNB Smart Chain. It is recognized as the first Purple Pepe created on Solana. The project is managed by the WallStreetBets Facebook community, which consists of over 580,000 members, following a community takeover over a year ago. Since the CTO, the community has maintained development and expanded the ecosystem through the launch of web applications, games, and a community-built website.",
+  "dex": [
+   "Meteora",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/HBoNJ5v8g71s2boRivrHnfSB5MVPLDHHyVjruPfhGkvL",
+  "fetched": "2026-11-06T02:26:31.846317+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://purpe.xyz",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/Purpe_SOL",
+  "telegram_users": null,
+  "twitter": "https://x.com/purplepepes0l",
+  "twitter_followers": null,
+  "watchers": 4597
+ },
  "redstone-oracles": {
   "categories": [
    "Infrastructure",
@@ -4303,7 +4431,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 38,
+  "cex_count": 37,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -4314,7 +4442,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-11-05T02:28:37.748777+00:00",
+  "fetched": "2026-11-06T02:31:29.298565+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4324,13 +4452,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12580
+  "watchers": 12577
  },
  "reppo": {
   "categories": [
@@ -4392,15 +4520,15 @@
    "BVOX",
    "BYDFi",
    "Biconomy.com",
-   "Bilaxy",
    "Binance",
    "BingX",
    "Bit2Me",
    "BitDelta",
    "Bitget",
-   "Bithumb"
+   "Bithumb",
+   "Bitkub"
   ],
-  "cex_count": 58,
+  "cex_count": 56,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4414,7 +4542,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-05T00:45:37.397746+00:00",
+  "fetched": "2026-11-06T02:31:35.766207+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4573,7 +4701,7 @@
    "Bitkub",
    "Bitlo"
   ],
-  "cex_count": 41,
+  "cex_count": 42,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4585,7 +4713,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-11-05T00:48:00.914038+00:00",
+  "fetched": "2026-11-06T02:30:12.672525+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4601,7 +4729,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25866
+  "watchers": 25868
  },
  "saucecoin": {
   "categories": [
@@ -4619,7 +4747,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-11-05T02:27:21.493868+00:00",
+  "fetched": "2026-11-06T02:27:41.675369+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -5306,7 +5434,7 @@
   ],
   "discord": "https://discord.gg/trueo",
   "explorer": "https://basescan.org/token/0x21CFCFc3d8F98fC728f48341D10Ad8283F6EB7AB",
-  "fetched": "2026-11-05T00:46:44.176190+00:00",
+  "fetched": "2026-11-06T02:28:54.630574+00:00",
   "genesis": null,
   "github": "https://github.com/trueo-protocol/trueo-contracts",
   "homepage": "https://trueo.com/",
@@ -5314,13 +5442,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Trueo_",
   "twitter_followers": null,
-  "watchers": 885
+  "watchers": 888
  },
  "tsmc-bstocks-tokenized-stock": {
   "categories": [
@@ -5394,6 +5522,47 @@
   "twitter_followers": null,
   "watchers": 241
  },
+ "unit-00-rei": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "AI Applications",
+   "AI Agent Launchpad",
+   "AI Framework",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "KCEX"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "0xReisearch is a dynamic collective of AI and crypto enthusiasts committed to revolutionizing the intersection of artificial intelligence and blockchain. Our mission is to pioneer innovative methods for integrating neural architectures into blockchain ecosystems, with a primary focus on the Ethereum Virtual Machine (EVM). By addressing the challenges of merging AI's complexity with blockchain's deterministic nature, we aim to unlock new possibilities for scalable, efficient, and impactful applications. Through cutting-edge research and development, we are redefining how intelligence and decentralization converge, shaping the future of the AI x Blockchain landscape.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 2",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.com/invite/reilabs",
+  "explorer": "https://basescan.org/token/0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
+  "fetched": "2026-11-06T02:29:07.665567+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://reilabs.org/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/reiportal",
+  "telegram_users": null,
+  "twitter": "https://x.com/rei_labs",
+  "twitter_followers": null,
+  "watchers": 5182
+ },
  "uranium": {
   "categories": [
    "Tokenized Assets",
@@ -5418,7 +5587,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-11-05T00:46:57.326762+00:00",
+  "fetched": "2026-11-06T02:29:04.457048+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5450,7 +5619,7 @@
   ],
   "discord": null,
   "explorer": "https://robinhoodchain.blockscout.com/token/0xb8Fa8010833463Aac5595b55B9045479239EfF79",
-  "fetched": "2026-11-05T00:44:17.405649+00:00",
+  "fetched": "2026-11-06T02:27:35.147942+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.whatthehook.io/",
@@ -5458,13 +5627,13 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+o9WcbT5JyIFkZTM0",
   "telegram_users": null,
   "twitter": "https://x.com/whatthehookv4",
   "twitter_followers": null,
-  "watchers": 179
+  "watchers": 181
  },
  "wingbits": {
   "categories": [
