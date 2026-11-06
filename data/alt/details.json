@@ -762,7 +762,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-11-05T14:40:38.067229+00:00",
+  "fetched": "2026-11-06T16:14:28.857226+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -771,13 +771,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114149
+  "watchers": 114147
  },
  "bubblemaps": {
   "categories": [
@@ -1045,7 +1045,7 @@
   ],
   "discord": "https://discord.gg/chainflip-community",
   "explorer": "https://etherscan.io/token/0x826180541412d574cf1336d22c0c0a287822678a",
-  "fetched": "2026-11-05T14:40:44.579463+00:00",
+  "fetched": "2026-11-06T16:15:42.183644+00:00",
   "genesis": null,
   "github": "https://github.com/chainflip-io/",
   "homepage": "https://chainflip.io/",
@@ -1053,13 +1053,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/chainflip_io_chat",
   "telegram_users": null,
   "twitter": "https://x.com/chainflip",
   "twitter_followers": null,
-  "watchers": 20818
+  "watchers": 20825
  },
  "choo-choo": {
   "categories": [
@@ -1232,6 +1232,38 @@
   "twitter_followers": null,
   "watchers": 1731
  },
+ "coge-coin-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "COGECOIN ($COGE) is a community-driven meme token inspired by New York City\u2019s Commission on Government Efficiency and positioned as the next runner after DOGE. On May 28, 2026, Mayor Zohran Kwame Mamdani announced COGE as a push for city government that works smarter, faster, and more carefully with taxpayers\u2019 money for working people. $COGE takes that efficiency narrative on-chain: cut waste, move faster, and put everyday New Yorkers first. It is an unofficial meme tribute to the COGE story and the broader government-efficiency meta, not affiliated with the City of New York or any official commission. Built for holders who want the next DOGE-style run around real civic headlines and a simple, memorable ticker.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
+  "fetched": "2026-11-06T16:11:53.122577+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://cogecoin.world",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/COGECOINMeme",
+  "twitter_followers": null,
+  "watchers": 13
+ },
  "cookie": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1310,7 +1342,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-  "fetched": "2026-11-05T14:38:05.439149+00:00",
+  "fetched": "2026-11-06T16:11:56.304448+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fomo.family/tokens/solana/nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
@@ -1324,7 +1356,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 134
+  "watchers": 136
  },
  "darkwoods": {
   "categories": [
@@ -1553,6 +1585,39 @@
   "twitter": "https://x.com/denimbasecoin",
   "twitter_followers": null,
   "watchers": 138
+ },
+ "dessa": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Zero books. All yap.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
+  "fetched": "2026-11-06T16:12:03.020338+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.dessatalks.space/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/DessaOnSOL",
+  "twitter_followers": null,
+  "watchers": 211
  },
  "dimitra": {
   "categories": [
@@ -1888,12 +1953,11 @@
   "description": "Everything unifies multiple decentralized finance protocols into one cohesive, interoperable ecosystem. At its core, the $EV token functions as the primary mechanism for governance, utility, and value accrual, aligning incentives across all products while enabling users to participate in decision-making, access platform features, and benefit from the ecosystem\u2019s overall growth and long-term sustainability.",
   "dex": [
    "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
+   "Uniswap V3 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-11-05T14:39:21.708699+00:00",
+  "fetched": "2026-11-06T16:13:09.533319+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -1971,7 +2035,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-11-05T02:28:28.047568+00:00",
+  "fetched": "2026-11-06T16:14:22.480398+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -1985,7 +2049,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8578
+  "watchers": 8576
  },
  "flying-tulip": {
   "categories": [
@@ -2100,7 +2164,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-11-05T14:39:24.909411+00:00",
+  "fetched": "2026-11-06T16:15:45.511808+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2111,13 +2175,59 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
   "watchers": 7706
+ },
+ "gamercoin": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "AI Applications"
+  ],
+  "cex": [
+   "BitKan",
+   "Bithumb",
+   "Gate",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 5,
+  "chat": "https://www.facebook.com/GamerHashApp/",
+  "commits_4w": null,
+  "description": "GamerCoin is a token of GamerHash platform - it's the last puzzle of gaming ecosystem and fuel which makes 500.000 users life easier.\nGamers will have many ways to earn GHX trough mining or entertainment on the platform. Keeping tokens in the wallet will bring many benefits &amp; spending GHX in the Marketplace will open special offers.\nIt's a game changer for gaming generation!",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Raydium",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/T3ZpnwBvvC",
+  "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
+  "fetched": "2026-11-06T16:16:51.974981+00:00",
+  "genesis": null,
+  "github": "https://github.com/GamerHash",
+  "homepage": "https://gamercoin.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/GamerHashOfficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/GamerHashCom",
+  "twitter_followers": null,
+  "watchers": 23660
  },
  "georgeplaysclashroyale": {
   "categories": [
@@ -2390,6 +2500,47 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 133
+ },
+ "hunt-token": {
+  "categories": [
+   "Gaming (GameFi)",
+   "NFT",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Governance",
+   "Base Native"
+  ],
+  "cex": [
+   "Bithumb",
+   "Upbit"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Aerodrome (Base)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/ZFnssyzvde",
+  "explorer": "https://etherscan.io/token/0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5",
+  "fetched": "2026-11-06T16:16:48.772962+00:00",
+  "genesis": null,
+  "github": "https://github.com/Steemhunt",
+  "homepage": "https://hunt.town",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/steemhunt",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/steemhunt",
+  "twitter_followers": null,
+  "watchers": 1549
  },
  "iexec-rlc": {
   "categories": [
@@ -3213,12 +3364,11 @@
   "commits_4w": null,
   "description": "It is a blockchain-based ecosystem that connects all services, like the car dealer shops, mechanic shops and car rental companies, that touch your car to collect its lifetime data. \n\nParticipants from automobile-related companies, services or trade industry will be connected and they will insert core data related to driving, traffic accidents, repairs and other car-related transactions into the blockchain. \n\nParticipants who provide data related to automobile will receive MVL Point (MVP), a reward system used to encourage contribution to the ecosystem. ",
   "dex": [
-   "Biswap",
    "Uniswap V2 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
-  "fetched": "2026-11-05T02:28:34.531049+00:00",
+  "fetched": "2026-11-06T16:14:25.653584+00:00",
   "genesis": null,
   "github": "https://github.com/mvlchain/PWSwitch",
   "homepage": "https://mvlchain.io/",
@@ -3234,7 +3384,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/mvlchain",
   "twitter_followers": null,
-  "watchers": 2975
+  "watchers": 2974
  },
  "matrixdock-gold": {
   "categories": [
@@ -3553,7 +3703,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-11-05T14:41:07.909089+00:00",
+  "fetched": "2026-11-06T16:15:38.891801+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3561,7 +3711,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/nonkyc",
   "telegram_users": null,
@@ -3607,7 +3757,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-11-05T14:40:31.605005+00:00",
+  "fetched": "2026-11-06T16:13:15.955971+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3622,7 +3772,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30303
+  "watchers": 30304
  },
  "obligate-trade-finance-yield": {
   "categories": [
@@ -4100,7 +4250,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-11-04T14:33:48.616705+00:00",
+  "fetched": "2026-11-06T16:15:32.316775+00:00",
   "genesis": "2017-07-18",
   "github": "https://github.com/Propy/ethereum",
   "homepage": "https://propy.com",
@@ -4115,7 +4265,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PropyInc",
   "twitter_followers": null,
-  "watchers": 23075
+  "watchers": 23073
  },
  "pumpstop": {
   "categories": [
@@ -4188,6 +4338,38 @@
   "twitter": "https://x.com/purplepepes0l",
   "twitter_followers": null,
   "watchers": 4597
+ },
+ "reboot-2": {
+  "categories": [
+   "Meme",
+   "Base Ecosystem",
+   "Base Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Reboot (REBOOT) is a community memecoin on the Base network built around a single, widely shared joke from technology culture: \"have you tried turning it off and on again?\" The token's mascot is a retro green pixel-art frog robot on treads, and the project's content, website and social channels use that character to create humorous, internet-culture artwork. REBOOT is a standard ERC-20 token on Base with a fixed supply of 1,000,000,000 tokens and 18 decimals, traded on Uniswap v4 against ETH.",
+  "dex": [
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xe125872d91a5a67704fa782aa74014adff7cae7e",
+  "fetched": "2026-11-06T16:13:06.344102+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.rebootbase.lol",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/RebootBaseMeme",
+  "telegram_users": null,
+  "twitter": "https://x.com/RebootBaseMeme",
+  "twitter_followers": null,
+  "watchers": 29
  },
  "redstone-oracles": {
   "categories": [
@@ -4637,10 +4819,9 @@
    "Base Native"
   ],
   "cex": [
-   "Matcha (Base)",
    "Oku Trade (Etherlink)"
   ],
-  "cex_count": 2,
+  "cex_count": 1,
   "chat": "https://www.youtube.com/@SogniAI",
   "commits_4w": null,
   "description": "",
@@ -4649,7 +4830,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-05T14:39:28.116765+00:00",
+  "fetched": "2026-11-06T16:13:19.194839+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4664,7 +4845,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11936
+  "watchers": 11937
  },
  "solidus-aitech": {
   "categories": [
@@ -4698,7 +4879,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-05T14:41:11.099400+00:00",
+  "fetched": "2026-11-06T16:13:12.729511+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4708,13 +4889,13 @@
    "solana"
   ],
   "reddit": "https://www.reddit.com/r/AITECHtoken",
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/solidusaitech",
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151653
+  "watchers": 151649
  },
  "spacex-ondo-tokenized-stock": {
   "categories": [
@@ -5175,7 +5356,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-11-05T00:46:54.087320+00:00",
+  "fetched": "2026-11-06T16:15:35.644650+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -5190,7 +5371,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
-  "watchers": 19340
+  "watchers": 19338
  },
  "true": {
   "categories": [
@@ -5598,7 +5779,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-11-05T14:39:15.171918+00:00",
+  "fetched": "2026-11-06T16:11:59.474380+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
