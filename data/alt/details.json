@@ -179,66 +179,6 @@
   "twitter_followers": null,
   "watchers": 9350
  },
- "aixbt": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Solana Ecosystem",
-   "Meme",
-   "Ethereum Ecosystem",
-   "Base Ecosystem",
-   "AI Meme",
-   "AI Agents",
-   "Virtuals Protocol Ecosystem",
-   "Binance Alpha Spotlight",
-   "DeFAI",
-   "Base Native"
-  ],
-  "cex": [
-   "BVOX",
-   "BYDFi",
-   "Biconomy.com",
-   "Binance",
-   "Binance US",
-   "BingX",
-   "Bit2Me",
-   "BitKan",
-   "Bitkub",
-   "Bitlo",
-   "Bitrue",
-   "Bittime"
-  ],
-  "cex_count": 44,
-  "chat": null,
-  "commits_4w": null,
-  "description": "AIXBT is an AI agent and driven crypto market intelligence platform designed to provide token holders with a strategic edge in the rapidly evolving crypto space. Leveraging advanced narrative detection and alpha-focused analysis, AIXBT automates the process of tracking and interpreting market trends, helping users gain actionable insights. This project emphasizes integrating various data sources and platforms for comprehensive analysis and decision-making.",
-  "dex": [
-   "Aerodrome (Base)",
-   "Aerodrome SlipStream",
-   "PancakeSwap V3 (Base)",
-   "Raydium",
-   "Uniswap V2 (Base)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x4f9fd6be4a90f2620860d680c0d4d5fb53d1a825",
-  "fetched": "2026-11-04T16:38:07.586238+00:00",
-  "genesis": null,
-  "github": "https://github.com/aixbt",
-  "homepage": "https://aixbt.tech",
-  "platforms": [
-   "base",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/aixbtportal",
-  "telegram_users": null,
-  "twitter": "https://x.com/aixbt_agent",
-  "twitter_followers": null,
-  "watchers": 38534
- },
  "aleo": {
   "categories": [
    "Infrastructure",
@@ -289,56 +229,6 @@
   "twitter": "https://x.com/AleoHQ",
   "twitter_followers": null,
   "watchers": 9379
- },
- "altura": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "NFT Marketplace",
-   "Base Ecosystem",
-   "Gaming Platform",
-   "Made in USA",
-   "Gaming Marketplace",
-   "Base Native"
-  ],
-  "cex": [
-   "BingX",
-   "Gate",
-   "HTX",
-   "KuCoin",
-   "LBank",
-   "MEXC",
-   "Ourbit"
-  ],
-  "cex_count": 7,
-  "chat": null,
-  "commits_4w": null,
-  "description": "What is Altura (ALU)?\n\nAltura is revolutionizing the gaming industry by making it easy to build, scale, and monetize Web3 and AI-powered games. By combining blockchain technology with cutting-edge artificial intelligence, Altura enables developers to create immersive gaming experiences with intelligent non-player characters (NPCs) and dynamic in-game assets.\n\nWhy use Altura?\n\nSimplify Web3 and AI Integration: Implementing blockchain and AI technologies can be complex and time-consuming. Altura's developer-friendly APIs and SDKs simplify this process, allowing you to deploy your Web3 stack and integrate AI features efficiently.\n\nSave Time and Resources: Altura's solutions help reduce development costs and streamline your process, so you can focus on building and enhancing your game.\n\nConnect with a Vibrant Community: Promote your game to a large audience of gamers, developers, and Web3 enthusiasts through Altura's marketplace and community tools. List and sell your NFTs where thousands of players buy, sell, and trade daily.\n\nBuild with Confidence: Altura's built-in authentication tools and support for multiple blockchains and NFT standards help you build a secure and trustworthy NFT economy for your game.",
-  "dex": [
-   "BabySwap",
-   "Biswap",
-   "PancakeSwap (v2)"
-  ],
-  "discord": "https://discord.gg/GgQWeK8jmS",
-  "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-04T18:05:34.788746+00:00",
-  "genesis": null,
-  "github": "https://github.com/alturanft",
-  "homepage": "https://www.altura.com/",
-  "platforms": [
-   "base",
-   "binance-smart-chain"
-  ],
-  "reddit": "https://www.reddit.com/r/AlturaNFT/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/AlturaGaming",
-  "telegram_users": null,
-  "twitter": "https://x.com/altura",
-  "twitter_followers": null,
-  "watchers": 113453
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -402,10 +292,10 @@
    "Bitlo",
    "Bitrue"
   ],
-  "cex_count": 48,
+  "cex_count": 47,
   "chat": "https://medium.com/api3",
   "commits_4w": null,
-  "description": "Api3 delivers first-party oracles that pay you \u2014 connecting real-world data directly to smart contracts while reclaiming lost value through Oracle Extractable Value (OEV). Explore the Api3 Market and start earning.",
+  "description": "Api3 builds data infrastructure for DeFi and for AI. Its first-party oracles deliver price feeds signed by the API providers that produce the data, and its OEV mechanism recovers the value released when a price update moves a market and returns it to the protocols that use the feed.\n\nOn top of those feeds, Api3 curates lending markets on Morpho across several networks, earning a performance fee when borrowers use them. It also builds for AI, for example AirnodeHub, where agents find, call and pay for APIs whose responses are signed by the provider.\n\nThe API3 token has a fixed supply of 200,000,000. A 2026 primary proposal ended staking emissions, removed the ability to mint and transferred ownership of the token contract to the dead address, so no more API3 can be created. Governance runs on Snapshot under api3.eth with one token, one vote. Revenue from the business buys API3 on the market every month.",
   "dex": [
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (Ethereum)",
@@ -413,7 +303,7 @@
   ],
   "discord": "https://discord.com/invite/qnRrcfnm5W",
   "explorer": "https://etherscan.io/token/0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-  "fetched": "2026-11-05T00:46:50.782840+00:00",
+  "fetched": "2026-11-07T18:49:39.735313+00:00",
   "genesis": null,
   "github": "https://github.com/api3dao/airnode",
   "homepage": "https://api3.org/",
@@ -421,13 +311,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/API3/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/API3DAO",
   "telegram_users": null,
   "twitter": "https://x.com/API3DAO",
   "twitter_followers": null,
-  "watchers": 45648
+  "watchers": 45657
  },
  "apple-bstocks-tokenized-stock": {
   "categories": [
@@ -598,37 +488,6 @@
   "twitter_followers": null,
   "watchers": 5240
  },
- "audacity-2": {
-  "categories": [
-   "Meme",
-   "Ethereum Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Quit your job. Sell your house. Move to AudaCity. A is for AudaCity \u2014 the place where ordinary rules no longer apply and everyday life is replaced by something far more electric. Here, audacity isn\u2019t just a word; it\u2019s the operating system. People don\u2019t wait for permission, promotions, or perfect timing. They act. They build. They bet on themselves with the kind of fearless energy that most spend their whole lives suppressing. DacityCoin fuels the ecosystem, giving holders real skin in the game and a stake in the culture that rewards courage over caution. AudaCity is more than a slogan or a destination \u2014 it\u2019s a mindset made tangible. A community of people who looked at the safe path, the predictable career, the conventional life, and decided it wasn\u2019t enough. They packed up, cashed out, and chose something sharper. Whether you\u2019re drawn by the promise of freedom, the thrill of starting over, or the simple refusal to settle, AudaCity stands as the answer. Stop negotiating with a life that drains you. Step into the one that demands everything and gives back more.  The rest is up to you.",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x14d145a695a2e98234e83d8c780f6a5852c3c95b",
-  "fetched": "2026-11-04T14:30:06.569029+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://audacityoneth.fun",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 71.43,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/audacityoneth",
-  "twitter_followers": null,
-  "watchers": 455
- },
  "aurora-near": {
   "categories": [
    "Near Protocol Ecosystem",
@@ -679,40 +538,6 @@
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
   "watchers": 23713
- },
- "autonomi": {
-  "categories": [
-   "Storage",
-   "Arbitrum Ecosystem"
-  ],
-  "cex": [
-   "MEXC",
-   "Ourbit"
-  ],
-  "cex_count": 2,
-  "chat": "https://www.youtube.com/@withautonomi",
-  "commits_4w": null,
-  "description": "Autonomi is a decentralised network where data is stored securely across millions of everyday devices, with privacy the default, not the exception. \n\nThe Network is a fully decentralized ecosystem for data storage and retrieval. It does not require any single entity or service control as nodes are able to validate and engage (or ignore) one another without intervention.\nUnlike edge computing and others promoting private, decentralized hosting, The Autonomi Network is autonomous, permanent and has zero subscriptions or recurring fees. To use Autonomi a one-time upload fee is paid to The Network - the uploaded data is then quantum securely encrypted end to end.\n\nWith Autonomi, everyday internet users, content creators and app developers will have access to a truly decentralized infrastructure layer - they\u2019re going to be able to build, protect and deploy amazing things. With AI and Robotics changing our world fast, Autonomi will ensure each and everyone of us can be in control of our own knowledge, thoughts and actions.",
-  "dex": [
-   "Uniswap V3 (Arbitrum One)"
-  ],
-  "discord": "https://discord.gg/autonomi",
-  "explorer": "https://arbiscan.io/token/0xa78d8321b20c4ef90ecd72f2588aa985a4bdb684",
-  "fetched": "2026-11-04T14:32:32.616450+00:00",
-  "genesis": null,
-  "github": "https://github.com/maidsafe/autonomi",
-  "homepage": "https://autonomi.com",
-  "platforms": [
-   "arbitrum-one"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/WithAutonomi",
-  "twitter_followers": null,
-  "watchers": 840
  },
  "basecat": {
   "categories": [
@@ -916,7 +741,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-11-06T16:14:28.857226+00:00",
+  "fetched": "2026-11-07T18:52:06.019130+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -925,13 +750,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114147
+  "watchers": 114148
  },
  "bubblemaps": {
   "categories": [
@@ -986,66 +811,44 @@
   "twitter_followers": null,
   "watchers": 4223
  },
- "carv": {
+ "buttcoin-7": {
   "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "Gaming (GameFi)",
-   "NFT",
-   "BNB Chain Ecosystem",
    "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Impossible Finance Launchpad",
-   "Ethereum Ecosystem",
-   "Animoca Brands Portfolio",
-   "Base Ecosystem",
-   "Binance Alpha Spotlight",
-   "Base Native"
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
   ],
   "cex": [
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "Bybit",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin"
+   "KCEX",
+   "LBank"
   ],
-  "cex_count": 21,
-  "chat": "https://medium.com/@Carv",
+  "cex_count": 2,
+  "chat": null,
   "commits_4w": null,
-  "description": "CARV is where Sovereign AI Beings live, learn, and evolve.\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\n\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV\u2019s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\n\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3.",
+  "description": "Back in 2011, long before \u201ccrypto Twitter\u201d, NFTs, or VC-backed chains existed, users of the BitcoinTalk forum came up with a new currency - not to launch a network, but to make fun of btc.... and so: The first memecoin/memecurrency was born.\n\nOn May 23, 2011, a Something Awful poster cracked, \u201cHas anyone called them buttcoins yet?\u201d. It was sophomoric and perfect. Within weeks the gag metastasized into Buttcoin.org, a parody blog that described a \u201cpeer to peer butt\u201d economy while cataloging mining fiascos, exchange blowups, and MLM-adjacent \u201cinnovations\u201d.\n",
   "dex": [
-   "Aerodrome SlipStream",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)"
+   "Meteora",
+   "Orca",
+   "PumpSwap",
+   "Raydium (CLMM)"
   ],
-  "discord": "https://discord.com/invite/carv",
-  "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
-  "fetched": "2026-11-04T16:40:37.394291+00:00",
+  "discord": null,
+  "explorer": "https://solscan.io/token/Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+  "fetched": "2026-11-07T18:48:26.678056+00:00",
   "genesis": null,
-  "github": "https://github.com/carv-protocol",
-  "homepage": "https://carv.io",
+  "github": null,
+  "homepage": "https://www.buttcoinfoundation.org/",
   "platforms": [
-   "arbitrum-one",
-   "base",
-   "binance-smart-chain",
-   "ethereum"
+   "solana"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/carv_official",
+  "twitter": "https://x.com/ButtCoin",
   "twitter_followers": null,
-  "watchers": 7478
+  "watchers": 954
  },
  "centrifuge-2": {
   "categories": [
@@ -1163,11 +966,12 @@
   "commits_4w": null,
   "description": "Chainflip is a decentralised, trustless protocol that allows users to easily exchange cryptocurrency assets across a range of networks and blockchains without losing custody of their assets in the process. The Chainflip protocol allows users to swap assets between major blockchains without any wrapped tokens, traditional bridging, and at extremely competitive pricing using a novel and unique \u2018Just-inTime\u2019 based Automated Market Maker, dubbed the JIT AMM. It is totally generalised, decentralised, and can be integrated with any chain using any transaction type. The protocol is secured by a set of 150 validators staking Chainflip\u2019s native FLIP token. FLIP is primarily a utility token. Validators require FLIP in order to stake, and in turn are rewarded in FLIP. Value is returned indirectly to Validators through protocol fees. Additionally, every swap conducted on the platform results in the automatic buying and burning of FLIP tokens through the liquidity pool system, which puts deflationary pressure on the network as trading volume increases.",
   "dex": [
+   "Curve (Ethereum)",
    "Uniswap V3 (Ethereum)"
   ],
   "discord": "https://discord.gg/chainflip-community",
   "explorer": "https://etherscan.io/token/0x826180541412d574cf1336d22c0c0a287822678a",
-  "fetched": "2026-11-06T16:15:42.183644+00:00",
+  "fetched": "2026-11-07T18:52:09.260983+00:00",
   "genesis": null,
   "github": "https://github.com/chainflip-io/",
   "homepage": "https://chainflip.io/",
@@ -1175,13 +979,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/chainflip_io_chat",
   "telegram_users": null,
   "twitter": "https://x.com/chainflip",
   "twitter_followers": null,
-  "watchers": 20825
+  "watchers": 20828
  },
  "choo-choo": {
   "categories": [
@@ -1365,7 +1169,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-  "fetched": "2026-11-06T16:11:53.122577+00:00",
+  "fetched": "2026-11-07T18:48:23.440376+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cogecoin.world",
@@ -1373,13 +1177,63 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 63.16,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/COGECOINMeme",
   "twitter_followers": null,
-  "watchers": 13
+  "watchers": 129
+ },
+ "concierge-io": {
+  "categories": [
+   "Tourism",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Energi Ecosystem",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "Gate",
+   "HTX",
+   "KCEX"
+  ],
+  "cex_count": 25,
+  "chat": "https://t.me/s/travala",
+  "commits_4w": null,
+  "description": "What is the project about? AVA plans to tokenise the concept of loyalty reward programs using blockchain technology. The AVA token functions as the key to accessing web3 loyalty programs and provides perks to end users, such as AVA payment discounts, AVA loyalty rewards, gated access benefits, and more. Launched in 2017, the AVA Foundation says their overarching mission is to create a decentralised and self-sufficient blockchain-based loyalty ecosystem with AVA at its core. What\u2019s next for your project? AVA is a web3 loyalty program token designed for projects across all industries. From discounts to loyalty rewards, AVA powers blockchain-based loyalty programs via a plug-and-play approach. What can your token be used for? Travel Bookings: AVA can be used to book more than 3 million travel products on Travala, including hotels, homes, flights, and activities in over 230 countries. Discounts &amp; Rewards: Travel bookings paid with AVA receive a discount of up to 3% on the total booking price, as well as a cashback of up to 2% in AVA. Loyalty Program: AVA unlocks further benefits via the Smart Loyalty Program, which provides users with discounts of up to 10% on travel bookings. Travel NFTs: AVA paired with Travel Tiger NFTs unlocks the Diamond membership, with exclusive benefits such as Travel Credits, Airport Lounges, VIP Concierge, and Travel Drops (unique travel experience giveaways). Open Passport: With AVA, users can access the Open Passport to collect digital NFT stamps ",
+  "dex": [
+   "Raydium",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
+  "fetched": "2026-11-07T18:50:56.235194+00:00",
+  "genesis": null,
+  "github": "https://github.com/AVA-Foundation",
+  "homepage": "https://www.travala.com",
+  "platforms": [
+   "energi",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": "https://www.reddit.com/r/Travala",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/avafoundation",
+  "telegram_users": null,
+  "twitter": "https://x.com/AVAFoundation",
+  "twitter_followers": null,
+  "watchers": 27669
  },
  "cookie": {
   "categories": [
@@ -1423,7 +1277,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-11-06T14:16:57.557103+00:00",
+  "fetched": "2026-11-07T18:50:43.024484+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1439,7 +1293,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33309
+  "watchers": 33306
  },
  "dacity-coin-2": {
   "categories": [
@@ -1506,42 +1360,6 @@
   "twitter_followers": null,
   "watchers": 57
  },
- "darkwoods": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "AI Applications",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "Goo Exchange",
-   "Ramses V3 (Robinhood)"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The private AI lab on Robinhood. Darkwoods pioneers the future of decentralised, censorship resistant, private AI. Powerful open weight models in a fully private environment with tailored agent tools.",
-  "dex": [
-   "Pons V2 Dex",
-   "Uniswap V4 (Robinhood)"
-  ],
-  "discord": null,
-  "explorer": "https://robinhoodchain.blockscout.com/token/0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
-  "fetched": "2026-11-04T18:07:04.977010+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://darkwoods.ai",
-  "platforms": [
-   "robinhood"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/darkwoodslabs",
-  "twitter_followers": null,
-  "watchers": 146
- },
  "deapcoin": {
   "categories": [
    "Entertainment",
@@ -1590,65 +1408,6 @@
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
   "watchers": 10320
- },
- "degen-base": {
-  "categories": [
-   "Smart Contract Platform",
-   "Meme",
-   "Base Ecosystem",
-   "Base Meme",
-   "Farcaster Ecosystem",
-   "Binance Alpha Spotlight",
-   "Base Native",
-   "Robinhood Ecosystem",
-   "Robinhood Chain Meme"
-  ],
-  "cex": [
-   "BTSE",
-   "BVOX",
-   "Bit2Me",
-   "Bitkub",
-   "Bitrue",
-   "Bittime",
-   "Bitvavo",
-   "Bybit",
-   "CoinUp.io",
-   "CoinW",
-   "Coinbase Exchange",
-   "Crypto.com Exchange"
-  ],
-  "cex_count": 31,
-  "chat": null,
-  "commits_4w": null,
-  "description": "DEGEN is more than a token. It's the economy behind a culture.\n\nBorn from a community and shaped by the people who participate in it, DEGEN has evolved into an ecosystem of products, communities, and onchain experiences. From opinion markets and digital identity to NFTs and future applications, the DEGEN token connects every part of the ecosystem through a shared economy.\n\nAs the ecosystem grows, every new product strengthens the network, giving the token utility beyond any single application",
-  "dex": [
-   "Aerodrome (Base)",
-   "Aerodrome SlipStream",
-   "Meteora",
-   "PancakeSwap V3 (Base)",
-   "Uniswap V2 (Base)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/address/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-  "fetched": "2026-11-04T17:56:10.225018+00:00",
-  "genesis": null,
-  "github": "https://github.com/jacek0x",
-  "homepage": "https://www.degen.tips/",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "ethereum",
-   "robinhood"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/degentokenbase",
-  "telegram_users": null,
-  "twitter": "https://x.com/degentokenbase",
-  "twitter_followers": null,
-  "watchers": 37911
  },
  "delysium": {
   "categories": [
@@ -2027,11 +1786,12 @@
   "description": "Everything unifies multiple decentralized finance protocols into one cohesive, interoperable ecosystem. At its core, the $EV token functions as the primary mechanism for governance, utility, and value accrual, aligning incentives across all products while enabling users to participate in decision-making, access platform features, and benefit from the ecosystem\u2019s overall growth and long-term sustainability.",
   "dex": [
    "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)"
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-11-06T16:13:09.533319+00:00",
+  "fetched": "2026-11-07T18:49:36.494075+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -2109,7 +1869,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x236501327e701692a281934230af0b6be8df3353",
-  "fetched": "2026-11-06T16:14:22.480398+00:00",
+  "fetched": "2026-11-07T18:50:49.523449+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://fluence.network/",
@@ -2123,7 +1883,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/fluence_project",
   "twitter_followers": null,
-  "watchers": 8576
+  "watchers": 8575
  },
  "foco-2": {
   "categories": [
@@ -2195,7 +1955,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-11-06T16:15:45.511808+00:00",
+  "fetched": "2026-11-07T18:51:59.517838+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -2206,7 +1966,7 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2297,6 +2057,42 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 44
+ },
+ "georgeplaysclashroyale": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "LBank"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Watch George play the game Clash Royale",
+  "dex": [
+   "Meteora",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
+  "fetched": "2026-11-07T18:49:30.017383+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/GeorgePlayClash",
+  "twitter_followers": null,
+  "watchers": 1280
  },
  "gitcoin": {
   "categories": [
@@ -2695,7 +2491,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-11-06T14:17:00.880917+00:00",
+  "fetched": "2026-11-07T18:50:52.947436+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2881,44 +2677,6 @@
   "twitter_followers": null,
   "watchers": 1968
  },
- "knots": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Stonk Ecosystem"
-  ],
-  "cex": [
-   "LBank",
-   "Poloniex"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "STONK backwards is KNOTS\n\nThey are in a constant symbiosis and feed on each other\n\nHolding $KNOTS earns you $STONK rewards from a 3% transfer tax\n\nEvery time $KNOTS moves, part of the transaction fee goes back to $KNOTS holders in $STONK.\n\nInstead of another Memecoin that needs a 14 page explanation for why it exists, the two memes are directly connected through the token mechanics.\n\nSometimes the best ideas are the ones you understand immediately.",
-  "dex": [
-   "Meteora",
-   "Orca",
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS",
-  "fetched": "2026-11-04T18:04:21.660406+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.knotsstonk.com/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/knotsstonk",
-  "telegram_users": null,
-  "twitter": "https://x.com/KnotsOnStonk",
-  "twitter_followers": null,
-  "watchers": 480
- },
  "lava-network": {
   "categories": [
    "Infrastructure",
@@ -2967,62 +2725,6 @@
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
   "watchers": 3596
- },
- "limewire-token": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Music",
-   "SocialFi",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Base Ecosystem",
-   "Base Native"
-  ],
-  "cex": [
-   "Binance US",
-   "Bit2Me",
-   "Bitget",
-   "Bitvavo",
-   "Bybit",
-   "Crypto.com Exchange",
-   "Gate",
-   "Kraken",
-   "KuCoin",
-   "MEXC",
-   "Mudrex",
-   "Niza.io"
-  ],
-  "cex_count": 12,
-  "chat": null,
-  "commits_4w": null,
-  "description": "The iconic file-sharing platform from the 2000s made a major comeback in 2022, evolving into a cutting-edge ecosystem driven by AI and blockchain technology. The new LimeWire allows millions of users and businesses to securely create, upload, and share files of any size across all devices.\n\nThe LimeWire Token (LMWR) is the utility token at the heart of the LimeWire file-sharing and AI ecosystem. It serves as a payment and reward method on the LimeWire platform and powers the LimeWire Network, a leading decentralized storage network with enterprise-grade performance and full S3 compatibility.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Base)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://lmwr.co/discord",
-  "explorer": "https://etherscan.io/token/0x628a3b2e302c7e896acc432d2d0dd22b6cb9bc88",
-  "fetched": "2026-11-04T18:07:01.413892+00:00",
-  "genesis": null,
-  "github": "https://github.com/LimeWireOfficial",
-  "homepage": "https://limewire.com/u/home",
-  "platforms": [
-   "base",
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/limewire",
-  "telegram_users": null,
-  "twitter": "https://x.com/limewire",
-  "twitter_followers": null,
-  "watchers": 15718
  },
  "liquity-bold-2": {
   "categories": [
@@ -3455,64 +3157,6 @@
   "twitter_followers": null,
   "watchers": 2974
  },
- "matrixdock-gold": {
-  "categories": [
-   "Tokenized Assets",
-   "Tokenized Gold",
-   "Solana Ecosystem",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "Sui Ecosystem",
-   "Real World Assets (RWA)",
-   "Tron Ecosystem",
-   "Tokenized Commodities",
-   "Stellar Ecosystem",
-   "Hyperliquid Ecosystem",
-   "HyperEVM Ecosystem",
-   "Plume Network Ecosystem",
-   "HashKey Chain Ecosystem",
-   "Matrixdock Ecosystem",
-   "Arc Ecosystem"
-  ],
-  "cex": [
-   "Aquarius",
-   "Bluefin",
-   "KuCoin",
-   "Momentum",
-   "Rooster Protocol"
-  ],
-  "cex_count": 5,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Raydium (CLMM)",
-   "Uniswap V3 (Arc)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Arc)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
-  "fetched": "2026-11-04T14:33:45.390832+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.matrixdock.com/xaum",
-  "platforms": [
-   "arc",
-   "binance-smart-chain",
-   "ethereum",
-   "hashkey-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/matrixdock",
-  "twitter_followers": null,
-  "watchers": 922
- },
  "momentum-3": {
   "categories": [
    "Decentralized Exchange (DEX)",
@@ -3741,7 +3385,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-11-05T14:39:18.483975+00:00",
+  "fetched": "2026-11-07T18:49:33.263813+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://ninjatraders.io/",
@@ -3775,7 +3419,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-11-06T16:15:38.891801+00:00",
+  "fetched": "2026-11-07T18:52:15.661763+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3876,75 +3520,6 @@
   "twitter": "https://x.com/obligatecom",
   "twitter_followers": null,
   "watchers": 16
- },
- "orderly-network": {
-  "categories": [
-   "Smart Contract Platform",
-   "Decentralized Finance (DeFi)",
-   "BNB Chain Ecosystem",
-   "Perpetuals",
-   "Solana Ecosystem",
-   "Avalanche Ecosystem",
-   "Polygon Ecosystem",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "Optimism Ecosystem",
-   "Layer 2 (L2)",
-   "Base Ecosystem",
-   "DragonFly Capital Portfolio",
-   "Pantera Capital Portfolio",
-   "Sequoia Capital Portfolio",
-   "OKX Ventures Portfolio",
-   "Optimism Superchain Ecosystem",
-   "Binance Alpha Spotlight",
-   "Abstract Ecosystem",
-   "Base Native"
-  ],
-  "cex": [
-   "BTCC",
-   "BTSE",
-   "Biconomy.com",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bitunix",
-   "BloFin",
-   "Bybit",
-   "CoinW",
-   "Coinone"
-  ],
-  "cex_count": 25,
-  "chat": "https://medium.com/@orderlynetwork",
-  "commits_4w": null,
-  "description": "Orderly Network is a L2 built on OP stack delivering a permissionless liquidity layer for Web3 trading, with one shared orderbook across different blockchains \u2014 powered by Orderly Chain and LayerZero. Our mission is to empower trading on any chain, any asset, any interface. Orderly offers spot and perpetual futures orderbooks trading across Arbitrum, Optimism, Polygon, Base ,Mantle and Near, while expanding to other blockchains.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "PancakeSwap V3 (Arbitrum)",
-   "PancakeSwap V3 (BSC)",
-   "PancakeSwap V3 (Ethereum)",
-   "Raydium (CLMM)"
-  ],
-  "discord": "https://discord.com/invite/orderlynetwork",
-  "explorer": "https://etherscan.io/token/0xabd4c63d2616a5201454168269031355f4764337",
-  "fetched": "2026-11-04T18:08:11.608598+00:00",
-  "genesis": null,
-  "github": "https://github.com/OrderlyNetwork",
-  "homepage": "https://orderly.network/",
-  "platforms": [
-   "abstract",
-   "arbitrum-one",
-   "avalanche",
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/OrderlyNetworkAnnouncements",
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 12279
  },
  "ore": {
   "categories": [
@@ -4298,7 +3873,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xe125872d91a5a67704fa782aa74014adff7cae7e",
-  "fetched": "2026-11-06T16:13:06.344102+00:00",
+  "fetched": "2026-11-07T18:48:20.212028+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.rebootbase.lol",
@@ -4306,13 +3881,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 60.0,
   "stars": null,
   "telegram": "https://t.me/RebootBaseMeme",
   "telegram_users": null,
   "twitter": "https://x.com/RebootBaseMeme",
   "twitter_followers": null,
-  "watchers": 29
+  "watchers": 166
  },
  "redstone-oracles": {
   "categories": [
@@ -4338,7 +3913,7 @@
    "BtcTurk | Kripto",
    "Bybit"
   ],
-  "cex_count": 37,
+  "cex_count": 38,
   "chat": null,
   "commits_4w": null,
   "description": "RedStone Is The Fastest Growing oracle, specialising in yield-bearing collateral for lending markets and securing $10bn+ . Blue chip DeFi protocols are our clients including Spark, Morpho, Compound, Pendle, Venus, Lido, EtherFi, Ethena, Puffer, Balancer, Lombard, Enzyme, Frax, Agora, M^0 and 80+ other Clients. RedStone provides a wide variety of in-demand assets such as LSTs, LRTs, Bitcoin LSTs and many others.",
@@ -4349,7 +3924,7 @@
   ],
   "discord": "https://discord.gg/redstonedefi",
   "explorer": "https://etherscan.io/token/0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE",
-  "fetched": "2026-11-05T22:48:13.700721+00:00",
+  "fetched": "2026-11-07T18:53:18.932993+00:00",
   "genesis": null,
   "github": "https://github.com/redstone-finance",
   "homepage": "https://www.redstone.finance/",
@@ -4364,7 +3939,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/redstone_defi",
   "twitter_followers": null,
-  "watchers": 6983
+  "watchers": 6992
  },
  "renzo": {
   "categories": [
@@ -4572,7 +4147,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-06T14:18:10.701562+00:00",
+  "fetched": "2026-11-07T18:53:22.199623+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -4586,7 +4161,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 108
+  "watchers": 110
  },
  "rocket-pool": {
   "categories": [
@@ -4700,7 +4275,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-06T16:13:19.194839+00:00",
+  "fetched": "2026-11-07T18:50:46.287786+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4809,59 +4384,6 @@
   "twitter_followers": null,
   "watchers": 648
  },
- "spacex-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Ondo Tokenized Assets",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "CoinW",
-   "CommunityV3",
-   "Gate",
-   "LBank",
-   "MEXC",
-   "Manifest",
-   "Ondo Stocks"
-  ],
-  "cex_count": 7,
-  "chat": null,
-  "commits_4w": null,
-  "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SPCX and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)",
-   "Uniswap V4 (Robinhood)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xc9eef266834730340A55B6CC24621B31BAF55581",
-  "fetched": "2026-11-04T18:05:45.045474+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "robinhood",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 249
- },
  "ssv-network": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4962,53 +4484,6 @@
   "twitter": "https://x.com/awenetwork_ai",
   "twitter_followers": null,
   "watchers": 7967
- },
- "strategy-inc-robinhood-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "Robinhood Chain Stocks Ecosystem",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "Aero Slipstream (Robinhood)",
-   "Alandale (CL)",
-   "Arcus",
-   "GIGA V3",
-   "Long.xyz",
-   "Metric (Robinhood)",
-   "Orvex V4",
-   "Ramses V3 (Robinhood)",
-   "Rialto",
-   "Up V3"
-  ],
-  "cex_count": 10,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Pons V2 Dex",
-   "Uniswap V3 (Robinhood)",
-   "Uniswap V4 (Robinhood)"
-  ],
-  "discord": null,
-  "explorer": "https://robinhoodchain.blockscout.com/token/0xec262a75e413fAfD0dF80480274532C79D42da09",
-  "fetched": "2026-11-04T18:06:54.872212+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://robinhood.com/us/en/",
-  "platforms": [
-   "robinhood"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/RobinhoodApp",
-  "twitter_followers": null,
-  "watchers": 142
  },
  "strategy-pp-variable-xstock": {
   "categories": [
@@ -5236,91 +4711,6 @@
   "twitter_followers": null,
   "watchers": 28866
  },
- "tokenbot-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Launchpad",
-   "Base Ecosystem",
-   "AI Applications",
-   "Clanker Ecosystem",
-   "Binance Alpha Spotlight",
-   "Base Native"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "Biconomy.com",
-   "BingX",
-   "Bitget",
-   "Bitunix",
-   "CoinW",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "Hibt",
-   "KCEX"
-  ],
-  "cex_count": 17,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Clanker is an autonomous agent for deploying tokens. Currently, users may request clanker to deploy an ERC-20 token on Base by tagging it @clanker on Farcaster.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
-  "fetched": "2026-11-04T17:57:26.598520+00:00",
-  "genesis": null,
-  "github": "https://github.com/clanker-devco",
-  "homepage": "https://www.clanker.world/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 88.89,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 7438
- },
- "tokenos-ai": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Smart Contract Platform",
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "TokenOS is the world\u2019s most advanced AI-powered Web3 development platform, designed to turn natural language prompts into fully functional, production-ready blockchain applications. From simple tokens and memecoins to complex DeFi protocols, TokenOS automates the creation, deployment, and auditing of smart contracts and dApps with enterprise-grade reliability. By combining advanced language models with blockchain infrastructure, TokenOS removes the barriers of technical expertise, making Web3 development accessible to everyone. With instant deployment, built-in security best practices, and cross-chain support on the roadmap, TokenOS empowers entrepreneurs, developers, and creators to launch tokenized businesses and decentralized applications in seconds.\n",
-  "dex": [
-   "Meteora DAMM V2",
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump",
-  "fetched": "2026-11-04T14:33:51.804872+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://tokenos.ai/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/TokenOS_AI",
-  "telegram_users": null,
-  "twitter": "https://x.com/TokenOS_AI",
-  "twitter_followers": null,
-  "watchers": 234
- },
  "tornado-cash": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -5346,7 +4736,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-11-06T16:15:35.644650+00:00",
+  "fetched": "2026-11-07T18:52:02.772249+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -5768,7 +5158,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 60,
+  "cex_count": 62,
   "chat": null,
   "commits_4w": null,
   "description": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. ",
@@ -5782,7 +5172,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-11-04T18:06:48.461181+00:00",
+  "fetched": "2026-11-07T18:52:12.444173+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5793,13 +5183,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 75.0,
   "stars": null,
   "telegram": "https://t.me/wormholecrypto",
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43530
+  "watchers": 43527
  },
  "xyo-network": {
   "categories": [
@@ -5889,61 +5279,6 @@
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
   "watchers": 655
- },
- "zebec-network": {
-  "categories": [
-   "Decentralized Finance (DeFi)",
-   "Solana Ecosystem",
-   "Real World Assets (RWA)",
-   "Payment Solutions",
-   "DePIN",
-   "Coinbase Ventures Portfolio",
-   "Alameda Research Portfolio",
-   "Circle Ventures Portfolio",
-   "OKX Ventures Portfolio",
-   "RWA Protocol",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bitrue",
-   "BloFin",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "HTX",
-   "Hotcoin",
-   "Kraken"
-  ],
-  "cex_count": 18,
-  "chat": "https://medium.com/zebec-protocol",
-  "commits_4w": null,
-  "description": "Zebec's integrated products - real time payroll apps, on-chain payments infrastructure and networked DePIN - serve companies of all sizes, merchants and individuals and help transcend the boundaries of traditional banking and diminish the role of financial intermediaries. ",
-  "dex": [
-   "Meteora",
-   "Orca",
-   "Raydium (CLMM)"
-  ],
-  "discord": "https://discord.com/invite/fJM9cHuvvB",
-  "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-  "fetched": "2026-11-04T14:34:58.252646+00:00",
-  "genesis": null,
-  "github": "https://github.com/Zebec-protocol",
-  "homepage": "https://zebec.io/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 77.78,
-  "stars": null,
-  "telegram": "https://t.me/zebecprotocol",
-  "telegram_users": null,
-  "twitter": "https://x.com/Zebec_HQ",
-  "twitter_followers": null,
-  "watchers": 21471
  },
  "zentry": {
   "categories": [
