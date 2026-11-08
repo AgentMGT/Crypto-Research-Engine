@@ -147,9 +147,9 @@
    "KuCoin",
    "MEXC",
    "Mudrex",
-   "TokoCrypto"
+   "Toobit"
   ],
-  "cex_count": 15,
+  "cex_count": 14,
   "chat": null,
   "commits_4w": null,
   "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
@@ -161,7 +161,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-11-06T02:29:01.104078+00:00",
+  "fetched": "2026-11-08T13:23:49.826476+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -177,7 +177,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/heyAura",
   "twitter_followers": null,
-  "watchers": 9350
+  "watchers": 9349
  },
  "aleo": {
   "categories": [
@@ -514,13 +514,13 @@
    "Coinbase Exchange",
    "Crypto.com Exchange",
    "Gate",
-   "HTX",
    "KuCoin",
    "MEXC",
    "Mudrex",
-   "Near Intents"
+   "Near Intents",
+   "Rhea Finance"
   ],
-  "cex_count": 15,
+  "cex_count": 14,
   "chat": null,
   "commits_4w": null,
   "description": "Aurora is an EVM built on the NEAR Protocol, delivering a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.",
@@ -530,7 +530,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-07T13:00:30.516086+00:00",
+  "fetched": "2026-11-08T13:25:07.793820+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -540,13 +540,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23713
+  "watchers": 23717
  },
  "basecat": {
   "categories": [
@@ -711,7 +711,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-11-07T01:57:58.711125+00:00",
+  "fetched": "2026-11-08T13:21:23.465764+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -725,7 +725,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/bobocouncil",
   "twitter_followers": null,
-  "watchers": 425
+  "watchers": 429
  },
  "brickken": {
   "categories": [
@@ -893,7 +893,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
-  "fetched": "2026-11-07T13:02:52.957160+00:00",
+  "fetched": "2026-11-08T13:26:20.983816+00:00",
   "genesis": null,
   "github": "https://github.com/centrifuge/",
   "homepage": "https://centrifuge.io/",
@@ -907,7 +907,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/centrifuge",
   "twitter_followers": null,
-  "watchers": 7563
+  "watchers": 7565
  },
  "cere-network": {
   "categories": [
@@ -1067,6 +1067,45 @@
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
   "watchers": 2111
+ },
+ "circle-rstock-2": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Morph L2 Ecosystem",
+   "Remora Markets Tokenized rStocks",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Circle Internet Group is a fintech and digital dollar infrastructure company best known for issuing and operating the USDC stablecoin and EURC. Through Circle Mint, APIs, wallet infrastructure, and settlement tools, the company serves exchanges, financial institutions, enterprises, and developers that need regulated digital-dollar payments, treasury operations, cross-border settlement, and on-chain application access. Its economics are tied to stablecoin circulation, reserve income, transaction activity, and adoption of new infrastructure products. In 2025, Circle launched Circle Payments Network and advanced Arc, a Layer-1 blockchain initiative focused on stablecoin payments and settlement.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+  "fetched": "2026-11-08T13:23:43.324113+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://realityfinance.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "morph-l2"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RealityFi_xyz",
+  "twitter_followers": null,
+  "watchers": 17
  },
  "claudia-2": {
   "categories": [
@@ -1394,7 +1433,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x0dc4bc369ff564543738ebb04f2f1e6f4343f3b7",
-  "fetched": "2026-11-07T12:58:04.085620+00:00",
+  "fetched": "2026-11-08T13:21:20.082389+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dacitycoin.lol",
@@ -1402,62 +1441,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 81.82,
   "stars": null,
   "telegram": "https://t.me/DacityEthCoin",
   "telegram_users": null,
   "twitter": "https://x.com/DacityEthCoin",
   "twitter_followers": null,
-  "watchers": 57
- },
- "deapcoin": {
-  "categories": [
-   "Entertainment",
-   "Gaming (GameFi)",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Avalanche Ecosystem",
-   "Play To Earn",
-   "Ethereum Ecosystem",
-   "Gaming Platform"
-  ],
-  "cex": [
-   "Gate",
-   "Indodax",
-   "Kanga Global",
-   "MEXC",
-   "OKJ"
-  ],
-  "cex_count": 5,
-  "chat": "https://t.me/DEAP001",
-  "commits_4w": null,
-  "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
-  "dex": [
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-11-05T02:29:44.296616+00:00",
-  "genesis": null,
-  "github": "https://github.com/Digita-Entertainment-Asset/DEP",
-  "homepage": "https://dea.sg/",
-  "platforms": [
-   "avalanche",
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/DEAPcoin_group",
-  "telegram_users": null,
-  "twitter": "https://x.com/PlayMining_SG",
-  "twitter_followers": null,
-  "watchers": 10320
+  "watchers": 261
  },
  "delysium": {
   "categories": [
@@ -1789,7 +1779,7 @@
    "BloFin",
    "CEX.IO"
   ],
-  "cex_count": 30,
+  "cex_count": 28,
   "chat": null,
   "commits_4w": null,
   "description": "Dusk is a public, permissionless Layer 1 blockchain purpose-built for regulated financial markets. It enables the native issuance, trading, and settlement of real-world assets (RWAs) in full compliance with EU regulations such as MiFID II, MiCA, and the DLT Pilot Regime. Through strategic partnerships - including with NPEX, a Dutch MTF-regulated exchange, and Quantoz, a MiCA-compliant EMI issuing EURQ\u2014Dusk facilitates the creation of secondary markets for digital securities. With privacy-preserving smart contracts, zero-knowledge compliance infrastructure, and institutional custody solutions like Dusk Vault, Dusk provides the complete stack for compliant on-chain finance in Europe.",
@@ -1802,7 +1792,7 @@
   ],
   "discord": "https://discord.gg/dusk-official",
   "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-11-06T02:31:26.058721+00:00",
+  "fetched": "2026-11-08T13:24:59.586819+00:00",
   "genesis": null,
   "github": "https://github.com/dusk-network/dusk-blockchain",
   "homepage": "https://dusk.network/",
@@ -1811,13 +1801,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/DuskNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/DuskFoundation",
   "twitter_followers": null,
-  "watchers": 32077
+  "watchers": 32079
  },
  "everything": {
   "categories": [
@@ -2061,7 +2051,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-11-07T13:01:43.313746+00:00",
+  "fetched": "2026-11-08T13:26:17.748998+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2340,65 +2330,6 @@
   "twitter_followers": null,
   "watchers": 1549
  },
- "iexec-rlc": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Oracle",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "AI Agents",
-   "Energi Ecosystem",
-   "Sora Ecosystem",
-   "GMCI DePIN Index",
-   "GMCI Index",
-   "Privacy Infrastructure",
-   "Privacy"
-  ],
-  "cex": [
-   "BTCC",
-   "Binance",
-   "Binance US",
-   "Bitget",
-   "Bithumb",
-   "Bitlo",
-   "Bitrue",
-   "Bittime",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "BtcTurk | Kripto"
-  ],
-  "cex_count": 34,
-  "chat": "https://medium.com/iex-ec",
-  "commits_4w": null,
-  "description": "iExec tools make it easy to build privacy-first applications with programmable governance, data protection, and confidential processing integrated. This allows builders to give users full control of their data and its access, while enabling new models for sharing and monetization.\n\nWe\u2019re creating a world where every transaction, dataset, and application contributes to a safer, more private, and shared economy for users.",
-  "dex": [
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x607f4c5bb672230e8672085532f7e901544a7375",
-  "fetched": "2026-11-05T02:29:50.738008+00:00",
-  "genesis": "2017-04-19",
-  "github": "https://github.com/iExecBlockchainComputing/iexec-sdk",
-  "homepage": "http://iex.ec/",
-  "platforms": [
-   "arbitrum-one",
-   "energi",
-   "ethereum",
-   "sora"
-  ],
-  "reddit": "https://www.reddit.com/r/iexec",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/iexec_rlc_official",
-  "telegram_users": null,
-  "twitter": "https://x.com/iEx_ec",
-  "twitter_followers": null,
-  "watchers": 35774
- },
  "intel-tokenized-bstocks": {
   "categories": [
    "Tokenized Assets",
@@ -2494,56 +2425,6 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 1143
- },
- "janction": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Binance Alpha Spotlight"
-  ],
-  "cex": [
-   "Aster",
-   "BYDFi",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "DigiFinex",
-   "Hotcoin",
-   "KCEX",
-   "KuCoin",
-   "LBank",
-   "MEXC",
-   "Ourbit"
-  ],
-  "cex_count": 14,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Janction is a resource sharing platform on the open web, serving your AI products. Janction offers resource sharing services such as computing power, storage, and images. You can use Janction to rent and lease various service resources. We ensure a secure, fair, and convenient marketplace for resource sharing, encompassing both traditional and decentralized scenarios.",
-  "dex": [
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V4 (BSC)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xC477B6dfd26EC2460b3b92de18837Fd476Ea7549",
-  "fetched": "2026-11-05T02:29:41.083391+00:00",
-  "genesis": null,
-  "github": "https://github.com/Janction-R-D",
-  "homepage": "https://www.janction.ai/home",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 50.0,
-  "stars": null,
-  "telegram": "https://t.me/jasmyofficial",
-  "telegram_users": null,
-  "twitter": "https://x.com/JANCTION_Global",
-  "twitter_followers": null,
-  "watchers": 1877
  },
  "jean-phil": {
   "categories": [
@@ -2693,7 +2574,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-07T13:01:40.080986+00:00",
+  "fetched": "2026-11-08T13:22:33.451321+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2939,7 +2820,7 @@
    "Bitvavo",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 39,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -2953,7 +2834,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-11-07T12:59:20.114487+00:00",
+  "fetched": "2026-11-08T13:22:36.687225+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2963,7 +2844,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 75.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -3280,7 +3161,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-11-06T14:17:04.223396+00:00",
+  "fetched": "2026-11-08T13:25:04.532555+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3294,7 +3175,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7969
+  "watchers": 7972
  },
  "newton-protocol": {
   "categories": [
@@ -3605,7 +3486,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa21af1050f7b26e0cff45ee51548254c41ed6b5c",
-  "fetched": "2026-11-05T22:45:37.700462+00:00",
+  "fetched": "2026-11-08T13:22:30.224495+00:00",
   "genesis": null,
   "github": "https://github.com/osakaprotocol",
   "homepage": "https://osaka.win",
@@ -3657,7 +3538,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-07T02:01:37.336887+00:00",
+  "fetched": "2026-11-08T13:23:39.998725+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3674,7 +3555,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114916
+  "watchers": 114918
  },
  "peapods-finance": {
   "categories": [
@@ -3723,66 +3604,6 @@
   "twitter": "https://x.com/PeapodsFinance",
   "twitter_followers": null,
   "watchers": 4247
- },
- "pha": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "Smart Contract Platform",
-   "Oracle",
-   "Polkadot Ecosystem",
-   "Ethereum Ecosystem",
-   "Interoperability",
-   "Layer 2 (L2)",
-   "Zero Knowledge (ZK)",
-   "DePIN",
-   "DWF Labs Portfolio",
-   "Rollup",
-   "AI Agents",
-   "Sora Ecosystem",
-   "AI Framework",
-   "Made in USA"
-  ],
-  "cex": [
-   "BTCC",
-   "Biconomy.com",
-   "Bilaxy",
-   "Binance",
-   "Bit2Me",
-   "BitKan",
-   "Bitget",
-   "Bithumb",
-   "Bitrue",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin"
-  ],
-  "cex_count": 38,
-  "chat": "https://www.youtube.com/@PhalaNetwork",
-  "commits_4w": null,
-  "description": "What Is Phala Network (PHA)?\n\nPhala Network (https://phala.network/) is the Execution Layer for Web3 AI, enabling AI to interact with blockchains and unlocking Web3 for the first billion users.\n\nPhala\u2019s multi-proof system solves the AI execution problem, allowing you to build tamper-proof and unstoppable AI Agents that integrate with smart contracts through the AI-Agent Contract.\n\n1. Agentize Smart Contracts: Develop AI Agents for smart contracts using natural and programming languages.\n2. Connect to Multi-Agents: Make your agents accessible to other cross-chain AI Agents.\n3. Launch AI Agents and Earn: Own your agents and build a profitable token economy.\n\nPHALA as the AI Execution Layer:\n\nPhala leverages AI Agents to interface with blockchain technology, ensuring behavior aligns with intentions and preventing fraud. Using Phala's Blockchain-TEE hybrid system, AI Agents can act like smart contracts with decentralized hosting, governance by smart contracts, protected prompts, and low latency with no gas fees.\n\nPhala Network\u2019s AI Ecosystem:\n\nPhala leads Web3 and AI integration with:\n\n1. AI Agent Contract (https://docs.phala.network/ai-agent-contract/getting-started): For building decentralized AI applications.\n2. Agent Wars (https://agentwars.phala.network/home): A platform to create, interact with, and monetize AI agents.\n3. Redpill (https://red-pill.ai/join): An AI aggregator optimizing multiple AI models, increasing network usage and computation power.\n\nHow Many PHA Coins Ar",
-  "dex": [
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/phala-network",
-  "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-  "fetched": "2026-11-05T02:29:53.987996+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://phala.network/",
-  "platforms": [
-   "ethereum",
-   "sora"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/PhalaNetwork",
-  "twitter_followers": null,
-  "watchers": 56829
  },
  "propy": {
   "categories": [
@@ -3980,7 +3801,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 37,
+  "cex_count": 38,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -3991,7 +3812,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-11-07T13:00:27.251018+00:00",
+  "fetched": "2026-11-08T13:25:11.015679+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4001,13 +3822,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12579
+  "watchers": 12578
  },
  "reserve-rights-token": {
   "categories": [
@@ -4035,7 +3856,7 @@
    "Bithumb",
    "Bitkub"
   ],
-  "cex_count": 55,
+  "cex_count": 56,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4049,7 +3870,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-07T13:00:23.981098+00:00",
+  "fetched": "2026-11-08T13:23:46.570955+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4060,13 +3881,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90693
+  "watchers": 90697
  },
  "resistance-dog": {
   "categories": [
@@ -4208,7 +4029,7 @@
    "Bitkub",
    "Bitlo"
   ],
-  "cex_count": 42,
+  "cex_count": 41,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4219,7 +4040,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-11-07T13:01:36.891418+00:00",
+  "fetched": "2026-11-08T13:23:53.071568+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4229,13 +4050,13 @@
    "polygon-pos"
   ],
   "reddit": "https://www.reddit.com/r/rocketpool",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25872
+  "watchers": 25870
  },
  "saucecoin": {
   "categories": [
@@ -4253,7 +4074,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-11-07T12:59:13.714066+00:00",
+  "fetched": "2026-11-08T13:22:26.826831+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4383,7 +4204,7 @@
   ],
   "discord": null,
   "explorer": "https://orbmarkets.io/token/SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-  "fetched": "2026-11-07T13:01:46.497778+00:00",
+  "fetched": "2026-11-08T13:25:14.373715+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://backpack.exchange/stocks/SPCX",
@@ -4397,7 +4218,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 648
+  "watchers": 649
  },
  "ssv-network": {
   "categories": [
@@ -4623,6 +4444,39 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 586
+ },
+ "super-inu-3": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Super Inu ($SI) is an Ethereum-based, dog-themed meme cryptocurrency that combines the iconic Shiba Inu meme culture with a superhero-inspired identity.\n\nThe name represents two simple ideas: \"Super\" symbolizes the superhero concept, while \"Inu\" represents the dog. Together, they create Super Inu, a recognizable meme identity built around a heroic Shiba Inu character.\n\nThe ticker $SI captures the project's identity in just two letters, making it simple, memorable, and easy to recognize.\n\nSuper Inu focuses on meme culture, creative storytelling, community engagement, and building a recognizable identity within the Ethereum ecosystem. The project embraces the entertainment-driven nature of meme cryptocurrencies, bringing together superhero aesthetics and the enduring popularity of dog-themed crypto communities.\n\n**Super Inu ($SI) \u2014 The claim. The dog.**",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x6d34013052c8fe696805dde682ae8086be5655cc",
+  "fetched": "2026-11-08T13:21:16.798403+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.superinuerc20.vip/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/SuperInuETHPortal",
+  "telegram_users": null,
+  "twitter": "https://x.com/SuperInuETH",
+  "twitter_followers": null,
+  "watchers": 1495
  },
  "swarm-bzz": {
   "categories": [
@@ -4900,7 +4754,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-11-07T13:00:33.669300+00:00",
+  "fetched": "2026-11-08T13:24:56.331978+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
