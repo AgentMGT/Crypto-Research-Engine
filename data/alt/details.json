@@ -230,6 +230,56 @@
   "twitter_followers": null,
   "watchers": 9379
  },
+ "altura": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "NFT Marketplace",
+   "Base Ecosystem",
+   "Gaming Platform",
+   "Made in USA",
+   "Gaming Marketplace",
+   "Base Native"
+  ],
+  "cex": [
+   "BingX",
+   "Gate",
+   "HTX",
+   "KuCoin",
+   "LBank",
+   "MEXC",
+   "Ourbit"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "What is Altura (ALU)?\n\nAltura is revolutionizing the gaming industry by making it easy to build, scale, and monetize Web3 and AI-powered games. By combining blockchain technology with cutting-edge artificial intelligence, Altura enables developers to create immersive gaming experiences with intelligent non-player characters (NPCs) and dynamic in-game assets.\n\nWhy use Altura?\n\nSimplify Web3 and AI Integration: Implementing blockchain and AI technologies can be complex and time-consuming. Altura's developer-friendly APIs and SDKs simplify this process, allowing you to deploy your Web3 stack and integrate AI features efficiently.\n\nSave Time and Resources: Altura's solutions help reduce development costs and streamline your process, so you can focus on building and enhancing your game.\n\nConnect with a Vibrant Community: Promote your game to a large audience of gamers, developers, and Web3 enthusiasts through Altura's marketplace and community tools. List and sell your NFTs where thousands of players buy, sell, and trade daily.\n\nBuild with Confidence: Altura's built-in authentication tools and support for multiple blockchains and NFT standards help you build a secure and trustworthy NFT economy for your game.",
+  "dex": [
+   "BabySwap",
+   "Biswap",
+   "PancakeSwap (v2)"
+  ],
+  "discord": "https://discord.gg/GgQWeK8jmS",
+  "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
+  "fetched": "2026-11-08T01:30:49.465351+00:00",
+  "genesis": null,
+  "github": "https://github.com/alturanft",
+  "homepage": "https://www.altura.com/",
+  "platforms": [
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": "https://www.reddit.com/r/AlturaNFT/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/AlturaGaming",
+  "telegram_users": null,
+  "twitter": "https://x.com/altura",
+  "twitter_followers": null,
+  "watchers": 113447
+ },
  "anthropic-prestocks-2": {
   "categories": [
    "Tokenized Assets",
@@ -318,47 +368,6 @@
   "twitter": "https://x.com/API3DAO",
   "twitter_followers": null,
   "watchers": 45657
- },
- "apple-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank",
-   "Metric (BSC)"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x431a3bee82e2ca41e49895cbece5bb0f76a89b7a",
-  "fetched": "2026-11-05T00:49:21.187409+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 64
  },
  "apple-xstock": {
   "categories": [
@@ -623,7 +632,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-11-05T00:48:07.607412+00:00",
+  "fetched": "2026-11-08T01:29:39.612511+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -634,13 +643,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 40.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17140
+  "watchers": 17141
  },
  "bitmine-immersion-technologies-bstocks-tokenized-stock": {
   "categories": [
@@ -1058,6 +1067,47 @@
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
   "watchers": 2111
+ },
+ "claudia-2": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Entertainment",
+   "Solana Ecosystem",
+   "Meme",
+   "AI Agents",
+   "TikTok Meme"
+  ],
+  "cex": [
+   "LBank",
+   "MEXC",
+   "Manifest"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
+  "fetched": "2026-11-08T01:28:16.838486+00:00",
+  "genesis": null,
+  "github": "https://github.com/claudia-onchain",
+  "homepage": "https://useclaudia.xyz/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/claudia_onchain",
+  "twitter_followers": null,
+  "watchers": 104
  },
  "clearpool": {
   "categories": [
@@ -1885,37 +1935,6 @@
   "twitter_followers": null,
   "watchers": 8575
  },
- "foco-2": {
-  "categories": [
-   "Analytics",
-   "Ethereum Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "FOCO is an Ethereum-based meme token associated with an automated copy-trading tool. It enables users to select specific traders and automatically replicate their buy transactions on the Ethereum network using customizable parameters, including position size, take-profit targets, and stop-loss levels. Users retain control over sell execution rules while the system handles trade monitoring and order placement. Setup involves choosing traders to follow and defining personal rules, after which FOCO executes the strategy autonomously. The token supports this copy-trading functionality focused on Ethereum markets.",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x611f87a907cde6e533e64e03c5ab6df88a6bb147",
-  "fetched": "2026-11-05T00:48:14.169265+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://focofamily.xyz",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 81.82,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/FocoOnEth",
-  "twitter_followers": null,
-  "watchers": 161
- },
  "forta": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2002,7 +2021,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-11-06T16:16:51.974981+00:00",
+  "fetched": "2026-11-08T01:30:56.132878+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -2012,7 +2031,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/GamerHashOfficial",
   "telegram_users": null,
@@ -2149,12 +2168,13 @@
    "Meme"
   ],
   "cex": [
+   "LBank",
    "MEXC",
    "Matcha (BSC)",
    "Metric (BSC)",
    "Poloniex"
   ],
-  "cex_count": 4,
+  "cex_count": 5,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -2165,7 +2185,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x13920fe6467E9e3c852B8D365A036c995F0F7777",
-  "fetched": "2026-11-06T14:15:41.348516+00:00",
+  "fetched": "2026-11-08T01:28:23.311055+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x13920fe6467e9e3c852b8d365a036c995f0f7777?lang=en",
@@ -2179,7 +2199,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 36
+  "watchers": 44
  },
  "helium": {
   "categories": [
@@ -2378,41 +2398,6 @@
   "twitter": "https://x.com/iEx_ec",
   "twitter_followers": null,
   "watchers": 35774
- },
- "infinite-money-glitch-3": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [
-   "KCEX"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Infinite Money Glitch ($GLITCH) is a community memecoin on Solana built around the countdown to GTA 6. The mascot is Glitch, a flamingo who found an ATM that won't stop paying out, and the community runs with that story in memes, short videos and Withdraw Wars, a free browser game on glitchonsol.com. The token is the community's shared meme and its badge. The project's purpose is entertainment and community, timed to the biggest game release in years. It doesn't promise returns or yield.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-  "fetched": "2026-11-05T00:44:27.421991+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://glitchonsol.com",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 33.33,
-  "stars": null,
-  "telegram": "https://t.me/imglitchonsol",
-  "telegram_users": null,
-  "twitter": "https://x.com/GlitchOnSolana_",
-  "twitter_followers": null,
-  "watchers": 140
  },
  "intel-tokenized-bstocks": {
   "categories": [
@@ -2778,12 +2763,9 @@
   "categories": [
    "Smart Contract Platform",
    "Ethereum Ecosystem",
-   "Layer 2 (L2)",
    "Base Ecosystem",
    "Hyperliquid Ecosystem",
-   "Optimism Superchain Ecosystem",
    "Outlier Ventures Portfolio",
-   "Lisk Ecosystem",
    "HyperEVM Ecosystem",
    "Base Native"
   ],
@@ -2801,17 +2783,17 @@
    "DigiFinex",
    "Gate"
   ],
-  "cex_count": 25,
+  "cex_count": 23,
   "chat": null,
   "commits_4w": null,
-  "description": "Lisk is the modern money operations platform for businesses. Finance and operations teams use Lisk to run accounts, payments, and approvals in one workspace, moving money across fiat and stablecoin rails. Lisk is built for companies that operate across borders, entities, and currencies, replacing the patchwork of tools they use today with a single platform for everyday business finance. LSK is Lisk's loyalty token. It lives on Ethereum. Over time, businesses will earn rewards for running their money operations on Lisk and for referring other companies, with additional LSK utility rolling out in phases. Live since 2016, Lisk is one of the longest-running projects in the industry. Today that experience goes into a focused mission: making business finance work the way modern companies do.\n",
+  "description": "Lisk is building Modern Finance: one place for businesses to hold, move, invest, and control their money globally, across fiat and stablecoins. Finance and operations teams use Lisk to manage accounts, make payments and set approvals within a single workspace, so money stays visible and under control. Businesses can hold and move funds in fiat and stablecoins on the same platform, without stitching together separate tools for each. LSK is the loyalty token of Lisk, and businesses will be able to earn and spend LSK on the platform. The LSK token runs on Ethereum, which is its primary network.",
   "dex": [
    "Uniswap V4 (Base)",
    "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-11-05T02:27:24.737234+00:00",
+  "fetched": "2026-11-08T01:29:36.376048+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2822,13 +2804,13 @@
    "hyperliquid"
   ],
   "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": 40.0,
+  "sentiment_up": 80.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30374
+  "watchers": 30377
  },
  "livepeer": {
   "categories": [
@@ -3050,7 +3032,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
-  "fetched": "2026-11-06T20:30:16.247748+00:00",
+  "fetched": "2026-11-08T01:28:20.052239+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.manifesting.meme/",
@@ -3064,7 +3046,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ManifestingXs",
   "twitter_followers": null,
-  "watchers": 883
+  "watchers": 881
  },
  "marlin": {
   "categories": [
@@ -3156,6 +3138,39 @@
   "twitter": "https://x.com/mvlchain",
   "twitter_followers": null,
   "watchers": 2974
+ },
+ "minotaur-2": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Bittensor Ecosystem",
+   "Bittensor Subnets",
+   "Robotics"
+  ],
+  "cex": [
+   "Subnet Tokens"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "THOR is building open robotics infrastructure through Bittensor Subnet 112 (SN112), starting with a marketplace for commissioning robotics training data. Its initial focus is expert video annotation: buyers define the task and acceptance criteria, qualified contributors produce the annotations, and THOR coordinates verification and delivery. The initial private pilot is designed for professional annotation firms, with permissionless annotation planned after beta. Its longer-term direction connects data, models and hardware to support robotics research and deployment.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://taostats.io/subnets/112/chart",
+  "fetched": "2026-11-08T01:30:52.831726+00:00",
+  "genesis": null,
+  "github": "https://github.com/subnet112/minotaur_subnet",
+  "homepage": "https://thormachines.ai/",
+  "platforms": [
+   "bittensor"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/THORMachines",
+  "twitter_followers": null,
+  "watchers": 83
  },
  "momentum-3": {
   "categories": [
@@ -3473,7 +3488,7 @@
   ],
   "discord": "https://discord.gg/nym",
   "explorer": "https://etherscan.io/token/0x525a8f6f3ba4752868cde25164382bfbae3990e1",
-  "fetched": "2026-11-06T16:13:15.955971+00:00",
+  "fetched": "2026-11-08T01:29:33.135713+00:00",
   "genesis": null,
   "github": "https://github.com/nymtech/nym/",
   "homepage": "https://nym.com",
@@ -3482,13 +3497,13 @@
    "osmosis"
   ],
   "reddit": "https://www.reddit.com/r/nym",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/nymchan",
   "telegram_users": null,
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
-  "watchers": 30304
+  "watchers": 30305
  },
  "obligate-trade-finance-yield": {
   "categories": [
@@ -4324,7 +4339,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-06T16:13:12.729511+00:00",
+  "fetched": "2026-11-08T01:28:26.577633+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4334,7 +4349,7 @@
    "solana"
   ],
   "reddit": "https://www.reddit.com/r/AITECHtoken",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/solidusaitech",
   "telegram_users": null,
@@ -4512,7 +4527,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
-  "fetched": "2026-11-06T14:20:36.891538+00:00",
+  "fetched": "2026-11-08T01:32:02.965434+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://xstocks.fi/",
@@ -4527,7 +4542,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
-  "watchers": 530
+  "watchers": 528
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -4632,7 +4647,7 @@
   ],
   "discord": "https://discord.gg/GU22h2utj6",
   "explorer": "https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb",
-  "fetched": "2026-11-06T20:32:39.182684+00:00",
+  "fetched": "2026-11-08T01:30:46.111606+00:00",
   "genesis": null,
   "github": "https://github.com/ethersphere",
   "homepage": "https://ethswarm.org/",
@@ -4677,10 +4692,10 @@
    "Crypto.com Exchange",
    "DigiFinex",
    "Gate",
-   "HTX",
-   "Hyperliquid"
+   "GroveX",
+   "HTX"
   ],
-  "cex_count": 26,
+  "cex_count": 27,
   "chat": null,
   "commits_4w": null,
   "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
@@ -4692,7 +4707,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-11-06T14:20:33.659638+00:00",
+  "fetched": "2026-11-08T01:31:59.444316+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -4703,13 +4718,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
-  "watchers": 28866
+  "watchers": 28863
  },
  "tornado-cash": {
   "categories": [
@@ -4768,7 +4783,7 @@
   ],
   "discord": "https://discord.gg/trueo",
   "explorer": "https://basescan.org/token/0x21CFCFc3d8F98fC728f48341D10Ad8283F6EB7AB",
-  "fetched": "2026-11-06T02:28:54.630574+00:00",
+  "fetched": "2026-11-08T01:29:29.912925+00:00",
   "genesis": null,
   "github": "https://github.com/trueo-protocol/trueo-contracts",
   "homepage": "https://trueo.com/",
@@ -4776,13 +4791,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Trueo_",
   "twitter_followers": null,
-  "watchers": 888
+  "watchers": 894
  },
  "umia": {
   "categories": [
@@ -4928,7 +4943,7 @@
    "BloFin",
    "CEX.IO"
   ],
-  "cex_count": 30,
+  "cex_count": 29,
   "chat": "https://blog.usual.money/",
   "commits_4w": null,
   "description": "",
@@ -4938,7 +4953,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-11-06T14:19:23.791280+00:00",
+  "fetched": "2026-11-08T01:30:42.888327+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -4948,13 +4963,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 23510
+  "watchers": 23512
  },
  "wayfinder": {
   "categories": [
