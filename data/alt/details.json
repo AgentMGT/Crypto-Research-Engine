@@ -161,7 +161,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-11-08T13:23:49.826476+00:00",
+  "fetched": "2026-11-09T13:51:07.590879+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -177,7 +177,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/heyAura",
   "twitter_followers": null,
-  "watchers": 9349
+  "watchers": 9350
  },
  "aixbt": {
   "categories": [
@@ -771,7 +771,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3548da95a9effe481e8604664d75e95821e557f5",
-  "fetched": "2026-11-07T01:59:12.062232+00:00",
+  "fetched": "2026-11-09T13:51:10.857295+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -957,6 +957,41 @@
   "twitter": "https://x.com/ButtCoin",
   "twitter_followers": null,
   "watchers": 954
+ },
+ "cartoon-money": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "KCEX"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Cartoon Money (CBUCKS) is a community-driven entertainment token on the Solana blockchain, built around an interactive, cartoon-style trading game called Coinmoonkitcap. The project mixes the humour and culture of crypto with a playful, game-like experience. People can learn how crypto markets behave, have fun with friends, and take part in a growing online community. Our tagline, \"Cartoon Money, A Bigger Tomorrow,\" sums up the idea: a lighthearted, easy-to-use space where anyone, from total beginners to experienced traders, can enjoy crypto without the stress and complexity of traditional platforms.\n\nAt the centre of the project is the Coinmoonkitcap game. It is a parody market that shows about 500 simulated in-game coins, presented in a style that looks like the market tracking sites the crypto community already knows. These in-game coins are not real tokens. They have no value outside the game, cannot be withdrawn, and exist only for play and learning. They let users practise reading charts, following price swings, and managing a pretend portfolio in a safe, cartoon setting, with no real money at risk on those simulated assets. We want to be clear on this point: CBUCKS is the only real token in the Cartoon Money ecosystem. Any in-game coin that uses a familiar name or ticker is part of the parody and is not linked to, endorsed by, or connected with the real project of the same name.\n\nLooking ahead, we plan to keep improving the Coinmoonkitcap experience with new game modes",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
+  "fetched": "2026-11-09T13:48:29.078341+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://cartoon-money.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/cartoonmoney_ai",
+  "twitter_followers": null,
+  "watchers": 209
  },
  "centrifuge-2": {
   "categories": [
@@ -1145,7 +1180,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
-  "fetched": "2026-11-08T13:23:43.324113+00:00",
+  "fetched": "2026-11-09T13:51:14.103701+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://realityfinance.xyz/",
@@ -1160,7 +1195,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/RealityFi_xyz",
   "twitter_followers": null,
-  "watchers": 17
+  "watchers": 18
  },
  "claudia-2": {
   "categories": [
@@ -1314,7 +1349,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-11-06T20:30:19.485608+00:00",
+  "fetched": "2026-11-09T13:49:51.650499+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1329,7 +1364,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1734
+  "watchers": 1738
  },
  "coge-coin-2": {
   "categories": [
@@ -1442,7 +1477,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 34,
+  "cex_count": 33,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1455,7 +1490,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-11-07T18:50:43.024484+00:00",
+  "fetched": "2026-11-09T13:51:01.190018+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1471,7 +1506,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33306
+  "watchers": 33304
  },
  "coq-inu": {
   "categories": [
@@ -1582,58 +1617,6 @@
   "twitter_followers": null,
   "watchers": 261
  },
- "delysium": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "AI Agents",
-   "Alameda Research Portfolio"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "BingX",
-   "Bithumb",
-   "Bitrue",
-   "Bittime",
-   "Bitunix",
-   "Bitvavo",
-   "DigiFinex",
-   "Gate",
-   "Indodax",
-   "KuCoin",
-   "MEXC"
-  ],
-  "cex_count": 14,
-  "chat": "https://delysium.medium.com/",
-  "commits_4w": null,
-  "description": "Delysium is building AI-powered virtual society with $AGI. Delysium has been constructing a virtual world where 1 billion individuals and 100 billion AI Virtual Beings coexist on blockchain.",
-  "dex": [
-   "PancakeSwap (v2)",
-   "Raydium (CLMM)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/thedelysium",
-  "explorer": "https://etherscan.io/token/0x7da2641000cbb407c329310c461b2cb9c70c3046",
-  "fetched": "2026-11-06T02:30:16.362894+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.delysium.com",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/The_Delysium",
-  "twitter_followers": null,
-  "watchers": 24092
- },
  "denim": {
   "categories": [
    "Meme",
@@ -1698,6 +1681,47 @@
   "twitter": "https://x.com/DessaOnSOL",
   "twitter_followers": null,
   "watchers": 211
+ },
+ "diem": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "Base Native",
+   "Venice Ecosystem"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Aero Volatile (Base)",
+   "Coinbase Exchange"
+  ],
+  "cex_count": 3,
+  "chat": "https://www.youtube.com/@askvenice",
+  "commits_4w": null,
+  "description": "DIEM transforms AI compute from a service you rent into an onchain asset you own: tokenized intelligence. Each Diem token represents $1 per day of Venice API capacity that never expires and never changes value. \nDIEM are ERC20 tokens on Base and can be transferred, traded, and staked. DIEM can only be minted by locking staked VVV (sVVV), making DIEM and VVV a foundational assets for onchain AI.\nTokenizing intelligence with DIEM creates new possibilities:\n\nDevelopers/agents: 1 DIEM = $1/day Venice API access, forever\nVVV holders: Monetize unused compute as DIEM \u2192 earn yield \u2192 buy back later to unlock VVV\nApps: Fixed AI costs, guaranteed capacity, no variable API bills\nOnchain economy: Agents own their intelligence, DeFi collateralizes compute\n\nMinting DIEM with VVV creates a brand-new onchain building block for AI \u2013 programmable, composable compute\n",
+  "dex": [
+   "Aerodrome (Base)",
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 3",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0xf4d97f2da56e8c3098f3a8d538db630a2606a024",
+  "fetched": "2026-11-09T13:52:17.387613+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://venice.ai",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AskVenice",
+  "twitter_followers": null,
+  "watchers": 1424
  },
  "dimitra": {
   "categories": [
@@ -2956,7 +2980,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-11-08T01:29:36.376048+00:00",
+  "fetched": "2026-11-09T13:49:54.759157+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2967,13 +2991,13 @@
    "hyperliquid"
   ],
   "reddit": "https://www.reddit.com/r/Lisk",
-  "sentiment_up": 80.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30377
+  "watchers": 30375
  },
  "magic": {
   "categories": [
@@ -2993,7 +3017,6 @@
   "cex": [
    "BVOX",
    "Binance",
-   "Binance US",
    "BitKan",
    "Bithumb",
    "Bitkub",
@@ -3002,9 +3025,10 @@
    "Bittime",
    "Bitunix",
    "Bitvavo",
-   "BtcTurk | Kripto"
+   "BtcTurk | Kripto",
+   "Bybit"
   ],
-  "cex_count": 40,
+  "cex_count": 38,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -3018,7 +3042,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-11-08T13:22:36.687225+00:00",
+  "fetched": "2026-11-09T13:48:38.772859+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -3028,13 +3052,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38916
+  "watchers": 38915
  },
  "mamo": {
   "categories": [
@@ -3364,7 +3388,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-11-06T14:16:54.287506+00:00",
+  "fetched": "2026-11-09T13:47:25.811810+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://moolahbnb.com",
@@ -3662,7 +3686,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa21af1050f7b26e0cff45ee51548254c41ed6b5c",
-  "fetched": "2026-11-08T13:22:30.224495+00:00",
+  "fetched": "2026-11-09T13:48:32.277582+00:00",
   "genesis": null,
   "github": "https://github.com/osakaprotocol",
   "homepage": "https://osaka.win",
@@ -3679,7 +3703,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/osakaprotocol",
   "twitter_followers": null,
-  "watchers": 29712
+  "watchers": 29709
  },
  "ovr": {
   "categories": [
@@ -3714,7 +3738,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-08T13:23:39.998725+00:00",
+  "fetched": "2026-11-09T13:49:48.442936+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3731,7 +3755,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114918
+  "watchers": 114917
  },
  "pinlink": {
   "categories": [
@@ -3909,45 +3933,6 @@
   "twitter_followers": null,
   "watchers": 21
  },
- "purple-pepe": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Frog-Themed",
-   "Solana Meme",
-   "The Boy\u2019s Club",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "KCEX"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "$PURPE is a community-led token originally deployed on the Solana blockchain in July 2023 and is also available on BNB Smart Chain. It is recognized as the first Purple Pepe created on Solana. The project is managed by the WallStreetBets Facebook community, which consists of over 580,000 members, following a community takeover over a year ago. Since the CTO, the community has maintained development and expanded the ecosystem through the launch of web applications, games, and a community-built website.",
-  "dex": [
-   "Meteora",
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/HBoNJ5v8g71s2boRivrHnfSB5MVPLDHHyVjruPfhGkvL",
-  "fetched": "2026-11-06T02:26:31.846317+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://purpe.xyz",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/Purpe_SOL",
-  "telegram_users": null,
-  "twitter": "https://x.com/purplepepes0l",
-  "twitter_followers": null,
-  "watchers": 4597
- },
  "reboot-2": {
   "categories": [
    "Meme",
@@ -4056,7 +4041,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 38,
+  "cex_count": 39,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -4067,7 +4052,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-11-08T13:25:11.015679+00:00",
+  "fetched": "2026-11-09T13:49:45.241518+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -4077,13 +4062,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12578
+  "watchers": 12577
  },
  "reppo": {
   "categories": [
@@ -4167,7 +4152,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-08T13:23:46.570955+00:00",
+  "fetched": "2026-11-09T13:50:57.977023+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4178,13 +4163,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90697
+  "watchers": 90715
  },
  "resistance-dog": {
   "categories": [
@@ -4326,7 +4311,7 @@
    "Bitkub",
    "Bitlo"
   ],
-  "cex_count": 41,
+  "cex_count": 43,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4337,7 +4322,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-11-08T13:23:53.071568+00:00",
+  "fetched": "2026-11-09T13:49:42.034932+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4347,13 +4332,13 @@
    "polygon-pos"
   ],
   "reddit": "https://www.reddit.com/r/rocketpool",
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25870
+  "watchers": 25872
  },
  "saucecoin": {
   "categories": [
@@ -4371,7 +4356,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-11-08T13:22:26.826831+00:00",
+  "fetched": "2026-11-09T13:47:19.325085+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4803,7 +4788,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6d34013052c8fe696805dde682ae8086be5655cc",
-  "fetched": "2026-11-08T13:21:16.798403+00:00",
+  "fetched": "2026-11-09T13:47:22.656064+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.superinuerc20.vip/",
@@ -4817,7 +4802,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/SuperInuETH",
   "twitter_followers": null,
-  "watchers": 1495
+  "watchers": 1497
  },
  "swarm-bzz": {
   "categories": [
@@ -4920,6 +4905,40 @@
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
   "watchers": 28863
+ },
+ "tokenos-ai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Smart Contract Platform",
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "TokenOS is the world\u2019s most advanced AI-powered Web3 development platform, designed to turn natural language prompts into fully functional, production-ready blockchain applications. From simple tokens and memecoins to complex DeFi protocols, TokenOS automates the creation, deployment, and auditing of smart contracts and dApps with enterprise-grade reliability. By combining advanced language models with blockchain infrastructure, TokenOS removes the barriers of technical expertise, making Web3 development accessible to everyone. With instant deployment, built-in security best practices, and cross-chain support on the roadmap, TokenOS empowers entrepreneurs, developers, and creators to launch tokenized businesses and decentralized applications in seconds.\n",
+  "dex": [
+   "Meteora DAMM V2",
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/HmjCoarLh5duURfJ333DwfFiPyTCgFT35pRSAoP8pump",
+  "fetched": "2026-11-09T13:48:35.533431+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://tokenos.ai/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/TokenOS_AI",
+  "telegram_users": null,
+  "twitter": "https://x.com/TokenOS_AI",
+  "twitter_followers": null,
+  "watchers": 234
  },
  "tornado-cash": {
   "categories": [
@@ -5094,7 +5113,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://explorer.etherlink.com/token/0x79052Ab3C166D4899a1e0DD033aC3b379AF0B1fD",
-  "fetched": "2026-11-08T13:24:56.331978+00:00",
+  "fetched": "2026-11-09T13:51:04.382838+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://uranium.io/en",
@@ -5519,5 +5538,55 @@
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
   "watchers": 656
+ },
+ "yield-basis": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "CoinW"
+  ],
+  "cex_count": 29,
+  "chat": null,
+  "commits_4w": null,
+  "description": "YieldBasis enables users to provide BTC as liquidity in an AMM pool without impermanent loss (IL), while still earning trading fees.",
+  "dex": [
+   "Curve (Ethereum)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x01791F726B4103694969820be083196cC7c045fF",
+  "fetched": "2026-11-09T13:52:20.597714+00:00",
+  "genesis": null,
+  "github": "https://github.com/yield-basis",
+  "homepage": "https://yieldbasis.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/yieldbasis",
+  "telegram_users": null,
+  "twitter": "https://x.com/yieldbasis",
+  "twitter_followers": null,
+  "watchers": 2361
  }
 }
