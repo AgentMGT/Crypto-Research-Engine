@@ -731,7 +731,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-11-08T01:29:39.612511+00:00",
+  "fetched": "2026-11-09T01:48:43.971684+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -748,7 +748,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17141
+  "watchers": 17142
  },
  "bitmine-immersion-technologies-bstocks-tokenized-stock": {
   "categories": [
@@ -1173,10 +1173,9 @@
   ],
   "cex": [
    "LBank",
-   "MEXC",
-   "Manifest"
+   "MEXC"
   ],
-  "cex_count": 3,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
@@ -1187,7 +1186,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-11-08T01:28:16.838486+00:00",
+  "fetched": "2026-11-09T01:47:21.452666+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -1195,13 +1194,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 80.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 104
+  "watchers": 123
  },
  "clawpump-tech": {
   "categories": [
@@ -2221,7 +2220,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
-  "fetched": "2026-11-07T18:49:30.017383+00:00",
+  "fetched": "2026-11-09T01:47:27.853368+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pump.fun/coin/6nR8wBnfsmXfcdDr1hovJKjvFQxNSidN6XFyfAFZpump",
@@ -2229,7 +2228,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2690,7 +2689,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-11-07T18:50:52.947436+00:00",
+  "fetched": "2026-11-09T01:48:40.770065+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2707,7 +2706,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 1143
+  "watchers": 1145
  },
  "jean-phil": {
   "categories": [
@@ -3098,7 +3097,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump",
-  "fetched": "2026-11-08T01:28:20.052239+00:00",
+  "fetched": "2026-11-09T01:47:24.671295+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.manifesting.meme/",
@@ -3176,18 +3175,20 @@
   "cex": [
    "Bithumb",
    "Gate",
-   "Upbit"
+   "Upbit",
+   "Upbit Indonesia "
   ],
-  "cex_count": 3,
+  "cex_count": 4,
   "chat": "https://t.me/mvlchain_kr",
   "commits_4w": null,
   "description": "It is a blockchain-based ecosystem that connects all services, like the car dealer shops, mechanic shops and car rental companies, that touch your car to collect its lifetime data. \n\nParticipants from automobile-related companies, services or trade industry will be connected and they will insert core data related to driving, traffic accidents, repairs and other car-related transactions into the blockchain. \n\nParticipants who provide data related to automobile will receive MVL Point (MVP), a reward system used to encourage contribution to the ecosystem. ",
   "dex": [
+   "Biswap",
    "Uniswap V2 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
-  "fetched": "2026-11-06T16:14:25.653584+00:00",
+  "fetched": "2026-11-09T01:49:50.447748+00:00",
   "genesis": null,
   "github": "https://github.com/mvlchain/PWSwitch",
   "homepage": "https://mvlchain.io/",
@@ -3204,6 +3205,64 @@
   "twitter": "https://x.com/mvlchain",
   "twitter_followers": null,
   "watchers": 2974
+ },
+ "matrixdock-gold": {
+  "categories": [
+   "Tokenized Assets",
+   "Tokenized Gold",
+   "Solana Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Sui Ecosystem",
+   "Real World Assets (RWA)",
+   "Tron Ecosystem",
+   "Tokenized Commodities",
+   "Stellar Ecosystem",
+   "Hyperliquid Ecosystem",
+   "HyperEVM Ecosystem",
+   "Plume Network Ecosystem",
+   "HashKey Chain Ecosystem",
+   "Matrixdock Ecosystem",
+   "Arc Ecosystem"
+  ],
+  "cex": [
+   "Aquarius",
+   "Bluefin",
+   "KuCoin",
+   "Momentum",
+   "Rooster Protocol"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Raydium (CLMM)",
+   "Uniswap V3 (Arc)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Arc)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
+  "fetched": "2026-11-09T01:49:47.195822+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.matrixdock.com/xaum",
+  "platforms": [
+   "arc",
+   "binance-smart-chain",
+   "ethereum",
+   "hashkey-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/matrixdock",
+  "twitter_followers": null,
+  "watchers": 929
  },
  "minotaur-2": {
   "categories": [
@@ -3956,7 +4015,7 @@
   ],
   "discord": "https://discord.gg/redstonedefi",
   "explorer": "https://etherscan.io/token/0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE",
-  "fetched": "2026-11-07T18:53:18.932993+00:00",
+  "fetched": "2026-11-09T01:49:53.894872+00:00",
   "genesis": null,
   "github": "https://github.com/redstone-finance",
   "homepage": "https://www.redstone.finance/",
@@ -3965,13 +4024,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/redstonefinance",
   "telegram_users": null,
   "twitter": "https://x.com/redstone_defi",
   "twitter_followers": null,
-  "watchers": 6992
+  "watchers": 6996
  },
  "renzo": {
   "categories": [
@@ -4398,7 +4457,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-08T01:28:26.577633+00:00",
+  "fetched": "2026-11-09T01:47:31.103140+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4783,7 +4842,7 @@
   ],
   "discord": "https://discord.gg/GU22h2utj6",
   "explorer": "https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb",
-  "fetched": "2026-11-08T01:30:46.111606+00:00",
+  "fetched": "2026-11-09T01:49:57.088264+00:00",
   "genesis": null,
   "github": "https://github.com/ethersphere",
   "homepage": "https://ethswarm.org/",
@@ -4792,7 +4851,7 @@
    "xdai"
   ],
   "reddit": "https://www.reddit.com/r/ethswarm/",
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -4827,11 +4886,11 @@
    "BloFin",
    "Crypto.com Exchange",
    "DigiFinex",
+   "Digital X",
    "Gate",
-   "GroveX",
-   "HTX"
+   "GroveX"
   ],
-  "cex_count": 27,
+  "cex_count": 28,
   "chat": null,
   "commits_4w": null,
   "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
@@ -4843,7 +4902,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-11-08T01:31:59.444316+00:00",
+  "fetched": "2026-11-09T01:48:34.354181+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -4854,7 +4913,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
@@ -4934,6 +4993,42 @@
   "twitter": "https://x.com/Trueo_",
   "twitter_followers": null,
   "watchers": 894
+ },
+ "tsmc-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
+  "fetched": "2026-11-09T01:48:37.556827+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.binance.com/bstocks-landing",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 46
  },
  "unit-00-rei": {
   "categories": [
