@@ -16,10 +16,9 @@
    "Balancer V2",
    "BingX",
    "Bithumb",
-   "Gate",
-   "HTX"
+   "Gate"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": "https://medium.com/across-protocol",
   "commits_4w": null,
   "description": "Across is an optimistic cross-chain bridge secured by UMA\u2019s optimistic oracle. It is optimized for capital efficiency with a single liquidity pool, a competitive relayer landscape, and a no-slippage fee model. ",
@@ -28,7 +27,7 @@
   ],
   "discord": "https://discord.across.to/",
   "explorer": "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
-  "fetched": "2026-11-09T23:25:49.883687+00:00",
+  "fetched": "2026-11-11T00:48:11.341340+00:00",
   "genesis": null,
   "github": "https://github.com/across-protocol",
   "homepage": "https://across.to/",
@@ -39,13 +38,13 @@
    "optimistic-ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AcrossProtocol",
   "twitter_followers": null,
-  "watchers": 7829
+  "watchers": 7830
  },
  "adex": {
   "categories": [
@@ -380,7 +379,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-09T16:14:21.299630+00:00",
+  "fetched": "2026-11-11T00:45:45.316909+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -396,7 +395,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23722
+  "watchers": 23719
  },
  "basecat": {
   "categories": [
@@ -700,44 +699,52 @@
   "twitter_followers": null,
   "watchers": 114146
  },
- "buttcoin-7": {
+ "broadcom-xstock": {
   "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
    "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Mantle Ecosystem",
+   "TON Ecosystem",
+   "BackedFi xStocks Ecosystem"
   ],
   "cex": [
-   "KCEX",
-   "LBank"
+   "Gate",
+   "Kraken"
   ],
   "cex_count": 2,
   "chat": null,
   "commits_4w": null,
-  "description": "Back in 2011, long before \u201ccrypto Twitter\u201d, NFTs, or VC-backed chains existed, users of the BitcoinTalk forum came up with a new currency - not to launch a network, but to make fun of btc.... and so: The first memecoin/memecurrency was born.\n\nOn May 23, 2011, a Something Awful poster cracked, \u201cHas anyone called them buttcoins yet?\u201d. It was sophomoric and perfect. Within weeks the gag metastasized into Buttcoin.org, a parody blog that described a \u201cpeer to peer butt\u201d economy while cataloging mining fiascos, exchange blowups, and MLM-adjacent \u201cinnovations\u201d.\n",
+  "description": "\"For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 57 US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.\"",
   "dex": [
    "Meteora",
    "Orca",
-   "PumpSwap",
    "Raydium (CLMM)"
   ],
   "discord": null,
-  "explorer": "https://solscan.io/token/Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
-  "fetched": "2026-11-07T18:48:26.678056+00:00",
+  "explorer": "https://www.arbiscan.io/token/0x38bac69cbbd28156796e4163b2b6dcb81e336565",
+  "fetched": "2026-11-11T00:47:04.784006+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://www.buttcoinfoundation.org/",
+  "homepage": "https://xstocks.com/",
   "platforms": [
-   "solana"
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum",
+   "mantle"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
-  "telegram": null,
+  "telegram": "https://t.me/xstocksfi",
   "telegram_users": null,
-  "twitter": "https://x.com/ButtCoin",
+  "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
-  "watchers": 954
+  "watchers": 185
  },
  "cartoon-money": {
   "categories": [
@@ -1213,88 +1220,6 @@
   "twitter_followers": null,
   "watchers": 1742
  },
- "coge-coin-2": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "COGECOIN ($COGE) is a community-driven meme token inspired by New York City\u2019s Commission on Government Efficiency and positioned as the next runner after DOGE. On May 28, 2026, Mayor Zohran Kwame Mamdani announced COGE as a push for city government that works smarter, faster, and more carefully with taxpayers\u2019 money for working people. $COGE takes that efficiency narrative on-chain: cut waste, move faster, and put everyday New Yorkers first. It is an unofficial meme tribute to the COGE story and the broader government-efficiency meta, not affiliated with the City of New York or any official commission. Built for holders who want the next DOGE-style run around real civic headlines and a simple, memorable ticker.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump",
-  "fetched": "2026-11-07T18:48:23.440376+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://cogecoin.world",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 63.16,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/COGECOINMeme",
-  "twitter_followers": null,
-  "watchers": 129
- },
- "concierge-io": {
-  "categories": [
-   "Tourism",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "Energi Ecosystem",
-   "YZi Labs (Prev. Binance Labs) Portfolio"
-  ],
-  "cex": [
-   "Binance",
-   "BingX",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bitvavo",
-   "BloFin",
-   "Bybit",
-   "Gate",
-   "HTX",
-   "KCEX"
-  ],
-  "cex_count": 25,
-  "chat": "https://t.me/s/travala",
-  "commits_4w": null,
-  "description": "What is the project about? AVA plans to tokenise the concept of loyalty reward programs using blockchain technology. The AVA token functions as the key to accessing web3 loyalty programs and provides perks to end users, such as AVA payment discounts, AVA loyalty rewards, gated access benefits, and more. Launched in 2017, the AVA Foundation says their overarching mission is to create a decentralised and self-sufficient blockchain-based loyalty ecosystem with AVA at its core. What\u2019s next for your project? AVA is a web3 loyalty program token designed for projects across all industries. From discounts to loyalty rewards, AVA powers blockchain-based loyalty programs via a plug-and-play approach. What can your token be used for? Travel Bookings: AVA can be used to book more than 3 million travel products on Travala, including hotels, homes, flights, and activities in over 230 countries. Discounts &amp; Rewards: Travel bookings paid with AVA receive a discount of up to 3% on the total booking price, as well as a cashback of up to 2% in AVA. Loyalty Program: AVA unlocks further benefits via the Smart Loyalty Program, which provides users with discounts of up to 10% on travel bookings. Travel NFTs: AVA paired with Travel Tiger NFTs unlocks the Diamond membership, with exclusive benefits such as Travel Credits, Airport Lounges, VIP Concierge, and Travel Drops (unique travel experience giveaways). Open Passport: With AVA, users can access the Open Passport to collect digital NFT stamps ",
-  "dex": [
-   "Raydium",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xa6c0c097741d55ecd9a3a7def3a8253fd022ceb9",
-  "fetched": "2026-11-07T18:50:56.235194+00:00",
-  "genesis": null,
-  "github": "https://github.com/AVA-Foundation",
-  "homepage": "https://www.travala.com",
-  "platforms": [
-   "energi",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": "https://www.reddit.com/r/Travala",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/avafoundation",
-  "telegram_users": null,
-  "twitter": "https://x.com/AVAFoundation",
-  "twitter_followers": null,
-  "watchers": 27669
- },
  "cookie": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1494,7 +1419,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-11-09T16:14:24.571127+00:00",
+  "fetched": "2026-11-11T00:45:48.541982+00:00",
   "genesis": null,
   "github": "https://github.com/Digita-Entertainment-Asset/DEP",
   "homepage": "https://dea.sg/",
@@ -1905,7 +1830,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-11-07T18:49:36.494075+00:00",
+  "fetched": "2026-11-11T00:44:28.806358+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -2419,6 +2344,43 @@
   "twitter_followers": null,
   "watchers": 137
  },
+ "hodl-7": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "Manifest"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "HODL is a memecoin inspired by one of the most iconic moments in crypto history. The term \u201cHODL\u201d originated in 2013 from a famous post on the BitcoinTalk forum titled \u201cI AM HODLING\u201d by the user GameKyuubi. What started as a typo quickly became a cultural symbol representing conviction and long-term belief in crypto.\n\nMore than a decade later, HODL has evolved from an internet meme into a token that celebrates the spirit of holding through volatility and supporting decentralized communities. Built around one of the most recognized memes in the crypto ecosystem, HODL aims to represent the culture, resilience, and humor that have shaped the cryptocurrency space since its early days.",
+  "dex": [
+   "Meteora",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+  "fetched": "2026-11-11T00:44:22.336861+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://hodl2013.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/hodl_2013",
+  "telegram_users": null,
+  "twitter": "https://x.com/hodl2013",
+  "twitter_followers": null,
+  "watchers": 124
+ },
  "holoworld": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2794,6 +2756,52 @@
   "twitter_followers": null,
   "watchers": 1969
  },
+ "kryll": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Decentralized Finance (DeFi)",
+   "Analytics",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Base Ecosystem"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Gate",
+   "KuCoin",
+   "LATOKEN"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "At its core, Kryll features innovative technology that unifies data access and thought flow, skillfully combining Web3 data with AI capabilities. This enables Kryll\u00b3 to offer comprehensive coverage of crypto markets and projects, along with advanced analysis and decision-making tools, simplifying the complex ecosystem.\n\nThe KRL token is essential to the Kryll\u00b3 ecosystem, unlocking exclusive features, serving as a payment method, and enabling participation in governance decisions.\n\nKey tools include SmartFolio, an AI-powered portfolio manager that tracks and analyzes digital assets across multiple blockchains, providing real-time insights for optimized investments.\n\nX-Ray is a market analysis tool using AI to evaluate tokens, offering details on smart contracts, on-chain data, social activity, and financial indicators.\n\nGem Detector identifies emerging high-potential tokens through multi-chain surveillance and deep learning algorithms. Harpoon monitors top traders' strategies and transactions, offering insights into smart money movements.\n\nNews Hub centralizes dozens of information sources into a unified, queryable platform for news and updates, enhancing decision-making processes.\n\nKryll\u00b3 also offers its partners a revolutionary tool: Agent K. K is a conversational agent integrated into Web3 platforms and media sites, enabling natural language interaction with content. It makes complex concepts accessible to a wider audience, which is particularly beneficial for beginners.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Optimism)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
+  "fetched": "2026-11-11T00:46:58.235003+00:00",
+  "genesis": null,
+  "github": "https://github.com/Cryptense/KryllToken",
+  "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "optimistic-ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/Kryll_io",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/kryll_io",
+  "telegram_users": null,
+  "twitter": "https://x.com/kryll_io",
+  "twitter_followers": null,
+  "watchers": 5370
+ },
  "lava-network": {
   "categories": [
    "Infrastructure",
@@ -2825,7 +2833,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-09T16:13:14.660037+00:00",
+  "fetched": "2026-11-11T00:45:38.703559+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2841,7 +2849,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3599
+  "watchers": 3598
  },
  "lisk": {
   "categories": [
@@ -3096,10 +3104,9 @@
   "cex": [
    "Bithumb",
    "Gate",
-   "Upbit",
-   "Upbit Indonesia "
+   "Upbit"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": "https://t.me/mvlchain_kr",
   "commits_4w": null,
   "description": "It is a blockchain-based ecosystem that connects all services, like the car dealer shops, mechanic shops and car rental companies, that touch your car to collect its lifetime data. \n\nParticipants from automobile-related companies, services or trade industry will be connected and they will insert core data related to driving, traffic accidents, repairs and other car-related transactions into the blockchain. \n\nParticipants who provide data related to automobile will receive MVL Point (MVP), a reward system used to encourage contribution to the ecosystem. ",
@@ -3109,7 +3116,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
-  "fetched": "2026-11-09T01:49:50.447748+00:00",
+  "fetched": "2026-11-11T00:45:41.975820+00:00",
   "genesis": null,
   "github": "https://github.com/mvlchain/PWSwitch",
   "homepage": "https://mvlchain.io/",
@@ -3119,7 +3126,7 @@
    "the-open-network"
   ],
   "reddit": "https://www.reddit.com/r/MVL",
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/mvlchain_en",
   "telegram_users": null,
@@ -3212,7 +3219,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0x050362Ab1072Cb2Ce74d74770E22A3203Ad04ee5",
-  "fetched": "2026-11-09T16:14:27.789921+00:00",
+  "fetched": "2026-11-11T00:46:51.760138+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/muon",
@@ -3229,7 +3236,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 477
+  "watchers": 478
  },
  "minotaur-2": {
   "categories": [
@@ -3331,7 +3338,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-11-09T13:47:25.811810+00:00",
+  "fetched": "2026-11-11T00:43:19.045328+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://moolahbnb.com",
@@ -3500,7 +3507,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-11-09T23:24:36.771977+00:00",
+  "fetched": "2026-11-11T00:46:54.978297+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3514,7 +3521,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
-  "watchers": 693
+  "watchers": 696
  },
  "nym": {
   "categories": [
@@ -3942,37 +3949,44 @@
   "twitter_followers": null,
   "watchers": 21
  },
- "reboot-2": {
+ "purple-pepe": {
   "categories": [
+   "Solana Ecosystem",
    "Meme",
-   "Base Ecosystem",
-   "Base Meme"
+   "Frog-Themed",
+   "Solana Meme",
+   "The Boy\u2019s Club",
+   "Made in USA"
   ],
-  "cex": [],
-  "cex_count": 0,
+  "cex": [
+   "Biconomy.com",
+   "KCEX"
+  ],
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
-  "description": "Reboot (REBOOT) is a community memecoin on the Base network built around a single, widely shared joke from technology culture: \"have you tried turning it off and on again?\" The token's mascot is a retro green pixel-art frog robot on treads, and the project's content, website and social channels use that character to create humorous, internet-culture artwork. REBOOT is a standard ERC-20 token on Base with a fixed supply of 1,000,000,000 tokens and 18 decimals, traded on Uniswap v4 against ETH.",
+  "description": "$PURPE is a community-led token originally deployed on the Solana blockchain in July 2023 and is also available on BNB Smart Chain. It is recognized as the first Purple Pepe created on Solana. The project is managed by the WallStreetBets Facebook community, which consists of over 580,000 members, following a community takeover over a year ago. Since the CTO, the community has maintained development and expanded the ecosystem through the launch of web applications, games, and a community-built website.",
   "dex": [
-   "Uniswap V4 (Base)"
+   "Meteora",
+   "Raydium"
   ],
   "discord": null,
-  "explorer": "https://basescan.org/token/0xe125872d91a5a67704fa782aa74014adff7cae7e",
-  "fetched": "2026-11-07T18:48:20.212028+00:00",
+  "explorer": "https://solscan.io/token/HBoNJ5v8g71s2boRivrHnfSB5MVPLDHHyVjruPfhGkvL",
+  "fetched": "2026-11-11T00:44:25.552801+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://www.rebootbase.lol",
+  "homepage": "https://purpe.xyz",
   "platforms": [
-   "base"
+   "solana"
   ],
   "reddit": null,
-  "sentiment_up": 60.0,
+  "sentiment_up": null,
   "stars": null,
-  "telegram": "https://t.me/RebootBaseMeme",
+  "telegram": "https://t.me/Purpe_SOL",
   "telegram_users": null,
-  "twitter": "https://x.com/RebootBaseMeme",
+  "twitter": "https://x.com/purplepepes0l",
   "twitter_followers": null,
-  "watchers": 166
+  "watchers": 4598
  },
  "redstone-oracles": {
   "categories": [
@@ -4199,7 +4213,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-11-08T23:51:18.683608+00:00",
+  "fetched": "2026-11-11T00:43:15.761373+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -4207,13 +4221,13 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/redotoken",
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12911
+  "watchers": 12910
  },
  "rna-2": {
   "categories": [
@@ -4231,7 +4245,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-09T23:24:43.360015+00:00",
+  "fetched": "2026-11-11T00:47:01.536492+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -4359,7 +4373,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-09T23:23:20.514630+00:00",
+  "fetched": "2026-11-11T00:45:35.407576+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4501,7 +4515,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xc9eef266834730340A55B6CC24621B31BAF55581",
-  "fetched": "2026-11-09T23:25:59.579146+00:00",
+  "fetched": "2026-11-11T00:44:32.077479+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/",
@@ -4512,13 +4526,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 257
+  "watchers": 258
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
@@ -4749,12 +4763,11 @@
   "commits_4w": null,
   "description": "Super Inu ($SI) is an Ethereum-based, dog-themed meme cryptocurrency that combines the iconic Shiba Inu meme culture with a superhero-inspired identity.\n\nThe name represents two simple ideas: \"Super\" symbolizes the superhero concept, while \"Inu\" represents the dog. Together, they create Super Inu, a recognizable meme identity built around a heroic Shiba Inu character.\n\nThe ticker $SI captures the project's identity in just two letters, making it simple, memorable, and easy to recognize.\n\nSuper Inu focuses on meme culture, creative storytelling, community engagement, and building a recognizable identity within the Ethereum ecosystem. The project embraces the entertainment-driven nature of meme cryptocurrencies, bringing together superhero aesthetics and the enduring popularity of dog-themed crypto communities.\n\n**Super Inu ($SI) \u2014 The claim. The dog.**",
   "dex": [
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
+   "Uniswap V3 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6d34013052c8fe696805dde682ae8086be5655cc",
-  "fetched": "2026-11-09T13:47:22.656064+00:00",
+  "fetched": "2026-11-11T00:43:12.474579+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.superinuerc20.vip/",
@@ -4762,13 +4775,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 71.43,
   "stars": null,
   "telegram": "https://t.me/SuperInuETHPortal",
   "telegram_users": null,
   "twitter": "https://x.com/SuperInuETH",
   "twitter_followers": null,
-  "watchers": 1497
+  "watchers": 1677
  },
  "swarm-bzz": {
   "categories": [
@@ -5185,7 +5198,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-11-09T16:15:37.548172+00:00",
+  "fetched": "2026-11-11T00:48:14.599339+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -5201,7 +5214,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 23511
+  "watchers": 23510
  },
  "utya": {
   "categories": [
@@ -5320,7 +5333,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
-  "fetched": "2026-11-09T23:25:46.629646+00:00",
+  "fetched": "2026-11-11T00:47:08.032265+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://wingbits.com/",
@@ -5334,7 +5347,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/wingbits",
   "twitter_followers": null,
-  "watchers": 495
+  "watchers": 496
  },
  "world-mobile-token": {
   "categories": [
