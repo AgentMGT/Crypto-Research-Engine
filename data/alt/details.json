@@ -161,56 +161,6 @@
   "twitter_followers": null,
   "watchers": 38522
  },
- "altura": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "NFT Marketplace",
-   "Base Ecosystem",
-   "Gaming Platform",
-   "Made in USA",
-   "Gaming Marketplace",
-   "Base Native"
-  ],
-  "cex": [
-   "BingX",
-   "Gate",
-   "HTX",
-   "KuCoin",
-   "LBank",
-   "MEXC",
-   "Ourbit"
-  ],
-  "cex_count": 7,
-  "chat": null,
-  "commits_4w": null,
-  "description": "What is Altura (ALU)?\n\nAltura is revolutionizing the gaming industry by making it easy to build, scale, and monetize Web3 and AI-powered games. By combining blockchain technology with cutting-edge artificial intelligence, Altura enables developers to create immersive gaming experiences with intelligent non-player characters (NPCs) and dynamic in-game assets.\n\nWhy use Altura?\n\nSimplify Web3 and AI Integration: Implementing blockchain and AI technologies can be complex and time-consuming. Altura's developer-friendly APIs and SDKs simplify this process, allowing you to deploy your Web3 stack and integrate AI features efficiently.\n\nSave Time and Resources: Altura's solutions help reduce development costs and streamline your process, so you can focus on building and enhancing your game.\n\nConnect with a Vibrant Community: Promote your game to a large audience of gamers, developers, and Web3 enthusiasts through Altura's marketplace and community tools. List and sell your NFTs where thousands of players buy, sell, and trade daily.\n\nBuild with Confidence: Altura's built-in authentication tools and support for multiple blockchains and NFT standards help you build a secure and trustworthy NFT economy for your game.",
-  "dex": [
-   "BabySwap",
-   "Biswap",
-   "PancakeSwap (v2)"
-  ],
-  "discord": "https://discord.gg/GgQWeK8jmS",
-  "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-08T01:30:49.465351+00:00",
-  "genesis": null,
-  "github": "https://github.com/alturanft",
-  "homepage": "https://www.altura.com/",
-  "platforms": [
-   "base",
-   "binance-smart-chain"
-  ],
-  "reddit": "https://www.reddit.com/r/AlturaNFT/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/AlturaGaming",
-  "telegram_users": null,
-  "twitter": "https://x.com/altura",
-  "twitter_followers": null,
-  "watchers": 113447
- },
  "anthropic-prestocks-2": {
   "categories": [
    "Tokenized Assets",
@@ -866,7 +816,7 @@
    "Bybit",
    "Byte Exchange"
   ],
-  "cex_count": 35,
+  "cex_count": 37,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -876,7 +826,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
-  "fetched": "2026-11-08T13:26:20.983816+00:00",
+  "fetched": "2026-11-11T01:59:19.008015+00:00",
   "genesis": null,
   "github": "https://github.com/centrifuge/",
   "homepage": "https://centrifuge.io/",
@@ -890,7 +840,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/centrifuge",
   "twitter_followers": null,
-  "watchers": 7565
+  "watchers": 7571
  },
  "cere-network": {
   "categories": [
@@ -919,7 +869,7 @@
   ],
   "discord": "https://discord.gg/HtkRSgUCMB",
   "explorer": "https://etherscan.io/token/0x2da719db753dfa10a62e140f436e1d67f2ddb0d6",
-  "fetched": "2026-11-09T16:15:44.055253+00:00",
+  "fetched": "2026-11-11T01:58:05.851844+00:00",
   "genesis": null,
   "github": "https://github.com/Cerebellum-Network",
   "homepage": "https://cere.network/",
@@ -958,11 +908,12 @@
   "commits_4w": null,
   "description": "Chainflip is a decentralised, trustless protocol that allows users to easily exchange cryptocurrency assets across a range of networks and blockchains without losing custody of their assets in the process. The Chainflip protocol allows users to swap assets between major blockchains without any wrapped tokens, traditional bridging, and at extremely competitive pricing using a novel and unique \u2018Just-inTime\u2019 based Automated Market Maker, dubbed the JIT AMM. It is totally generalised, decentralised, and can be integrated with any chain using any transaction type. The protocol is secured by a set of 150 validators staking Chainflip\u2019s native FLIP token. FLIP is primarily a utility token. Validators require FLIP in order to stake, and in turn are rewarded in FLIP. Value is returned indirectly to Validators through protocol fees. Additionally, every swap conducted on the platform results in the automatic buying and burning of FLIP tokens through the liquidity pool system, which puts deflationary pressure on the network as trading volume increases.",
   "dex": [
+   "Curve (Ethereum)",
    "Uniswap V3 (Ethereum)"
   ],
   "discord": "https://discord.gg/chainflip-community",
   "explorer": "https://etherscan.io/token/0x826180541412d574cf1336d22c0c0a287822678a",
-  "fetched": "2026-11-09T16:13:08.013689+00:00",
+  "fetched": "2026-11-11T01:57:59.307177+00:00",
   "genesis": null,
   "github": "https://github.com/chainflip-io/",
   "homepage": "https://chainflip.io/",
@@ -976,7 +927,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chainflip",
   "twitter_followers": null,
-  "watchers": 20833
+  "watchers": 20832
  },
  "chutes": {
   "categories": [
@@ -996,7 +947,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-11-09T16:16:53.879176+00:00",
+  "fetched": "2026-11-11T01:58:15.746039+00:00",
   "genesis": null,
   "github": "https://github.com/rayonlabs/chutes",
   "homepage": "https://chutes.ai/",
@@ -1004,7 +955,7 @@
    "bittensor"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2202,11 +2153,10 @@
   "cex": [
    "LBank",
    "MEXC",
-   "Matcha (BSC)",
    "Metric (BSC)",
    "Poloniex"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -2217,7 +2167,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x13920fe6467E9e3c852B8D365A036c995F0F7777",
-  "fetched": "2026-11-08T01:28:23.311055+00:00",
+  "fetched": "2026-11-11T01:56:55.973318+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0x13920fe6467e9e3c852b8d365a036c995f0f7777?lang=en",
@@ -2225,13 +2175,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/greenmorningcto",
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 44
+  "watchers": 46
  },
  "gstock": {
   "categories": [
@@ -2433,6 +2383,47 @@
   "twitter_followers": null,
   "watchers": 2008
  },
+ "hunt-token": {
+  "categories": [
+   "Gaming (GameFi)",
+   "NFT",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Governance",
+   "Base Native"
+  ],
+  "cex": [
+   "Bithumb",
+   "Upbit"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Aerodrome (Base)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/ZFnssyzvde",
+  "explorer": "https://etherscan.io/token/0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5",
+  "fetched": "2026-11-11T01:58:09.068322+00:00",
+  "genesis": null,
+  "github": "https://github.com/Steemhunt",
+  "homepage": "https://hunt.town",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/steemhunt",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/steemhunt",
+  "twitter_followers": null,
+  "watchers": 1549
+ },
  "iexec-rlc": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2567,7 +2558,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xe614e2fc6c787035ff51f452e8e826bfd32d5283",
-  "fetched": "2026-11-09T23:25:53.109750+00:00",
+  "fetched": "2026-11-11T01:59:25.453258+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -2581,7 +2572,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 54
+  "watchers": 55
  },
  "ishares-msci-south-korea-etf-bstocks-tokenized-stock": {
   "categories": [
@@ -2651,16 +2642,16 @@
   "commits_4w": null,
   "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
   "dex": [
-   "Meteora",
    "Orca",
    "PancakeSwap V3 (BSC)",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (BSC)",
-   "Uniswap V3 (Ethereum)"
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-11-09T01:48:40.770065+00:00",
+  "fetched": "2026-11-11T01:58:02.634545+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2678,6 +2669,52 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 1145
+ },
+ "jpycoin": {
+  "categories": [
+   "Stablecoins",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Kaia Ecosystem",
+   "JPY Stablecoin",
+   "Fiat-backed Stablecoin"
+  ],
+  "cex": [
+   "Poloniex",
+   "Upbit"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "DragonSwap V3 (Kaia)",
+   "Uniswap V3 (Polygon)",
+   "Uniswap V4 (Avalanche)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Polygon)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29",
+  "fetched": "2026-11-11T01:59:22.244824+00:00",
+  "genesis": null,
+  "github": "https://github.com/jcam1/sdks",
+  "homepage": "https://jpyc.co.jp/",
+  "platforms": [
+   "avalanche",
+   "ethereum",
+   "klay-token",
+   "polygon-pos"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/jpyc_official",
+  "twitter_followers": null,
+  "watchers": 705
  },
  "kaio": {
   "categories": [
@@ -3796,7 +3833,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
-  "fetched": "2026-11-09T23:25:56.383734+00:00",
+  "fetched": "2026-11-11T01:59:28.628527+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pinlink.ai/",
@@ -4640,10 +4677,9 @@
    "Byreal",
    "Kraken",
    "LBank",
-   "Manifest",
    "Matcha (Ethereum)"
   ],
-  "cex_count": 5,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
   "description": "For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 120+ US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.",
@@ -4654,7 +4690,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1aad217b8f78dba5e6693460e8470f8b1a3977f3",
-  "fetched": "2026-11-08T01:32:02.965434+00:00",
+  "fetched": "2026-11-11T01:58:12.290924+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://xstocks.fi/",
@@ -4663,13 +4699,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/xstocksfi",
   "telegram_users": null,
   "twitter": "https://x.com/xStocksFi",
   "twitter_followers": null,
-  "watchers": 528
+  "watchers": 526
  },
  "strategy-tokenized-bstocks": {
   "categories": [
@@ -5013,37 +5049,6 @@
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
   "watchers": 19338
- },
- "true": {
-  "categories": [
-   "Prediction Markets",
-   "Base Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "True is a decentralized prediction market platform that allows users to trade on the outcomes of real-world events using cryptocurrency. Built on the Base blockchain, it leverages smart contracts to ensure transparency and security. Users can buy and sell shares in different outcomes, with market prices reflecting the probability of an event occurring.\n\nTrue covers a wide range of topics, including politics, sports, technology, and finance. It operates in a non-custodial manner, meaning users retain control of their funds, and settlements are handled through oracles that verify event outcomes. Unlike traditional betting platforms, True is more of an information market where traders profit from correctly predicting real-world events rather than simply gambling.",
-  "dex": [
-   "Uniswap V2 (Base)"
-  ],
-  "discord": "https://discord.gg/trueo",
-  "explorer": "https://basescan.org/token/0x21CFCFc3d8F98fC728f48341D10Ad8283F6EB7AB",
-  "fetched": "2026-11-08T01:29:29.912925+00:00",
-  "genesis": null,
-  "github": "https://github.com/trueo-protocol/trueo-contracts",
-  "homepage": "https://trueo.com/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/Trueo_",
-  "twitter_followers": null,
-  "watchers": 894
  },
  "tsmc-bstocks-tokenized-stock": {
   "categories": [
