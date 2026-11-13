@@ -8,6 +8,8 @@ STABLES = {
     "usdt", "usdc", "dai", "usde", "fdusd", "tusd", "usdd", "pyusd", "usds", "busd", "gusd", "frax", "lusd",
     "usd0", "usdb", "rlusd", "susde", "susds", "usdtb", "bfusd", "usd1", "eurc", "usdf", "usdg", "buidl",
 }
+# Gold-backed tokens track gold, not crypto: never momentum or reversion trades.
+GOLD = {"xaut", "paxg", "xaum", "kau", "pmgt", "dgx"}
 WRAPPED = {"wbtc", "weth", "steth", "wsteth", "weeth", "cbbtc", "reth", "wbeth", "lbtc", "meth", "ezeth", "rseth", "solvbtc", "jitosol", "msol", "bnsol", "wtrx", "clbtc", "tbtc", "wbnb"}
 
 
@@ -75,6 +77,13 @@ def crypto_signals(data, history):
             - (0.2 if r and r > 80 else 0)
         )
         tags = []
+        # Pegged: a stablecoin the list above doesn't know (price near $1 with a flat week), or a gold token.
+        # Tagged rather than dropped so the bot can see and exit any it already holds.
+        flat = spark and hi and lo and (hi - lo) / c["current_price"] < 0.03
+        gold = sym in GOLD or ("gold" in (c.get("name") or "").lower() and spark and hi and (hi - lo) / c["current_price"] < 0.08)
+        if gold or (flat and 0.97 <= c["current_price"] <= 1.03) \
+                or (flat and ("usd" in sym or "eur" in sym)):
+            tags.append("Pegged")
         if r is not None and r < 30:
             tags.append("Oversold")
         if r is not None and r > 75:
@@ -109,6 +118,7 @@ def crypto_signals(data, history):
                 "range7": rng,
                 "turnover": turnover,
                 "rs7": rs7,
+                "rs30": rs30,
                 "score": round(score * 100),
                 "tags": tags,
                 "spark": c4h,
@@ -117,10 +127,10 @@ def crypto_signals(data, history):
 
     ideas = []
     for c in sorted(coins, key=lambda x: -x["score"]):
-        if any(t in c["tags"] for t in ("Momentum leader", "Breaking 7d high", "Pullback in uptrend")) and "Overbought" not in c["tags"]:
+        if any(t in c["tags"] for t in ("Momentum leader", "Breaking 7d high", "Pullback in uptrend")) and "Overbought" not in c["tags"] and "Pegged" not in c["tags"]:
             ideas.append({**c, "kind": "long-bias"})
     for c in sorted(coins, key=lambda x: x["rsi"] or 50):
-        if "Oversold" in c["tags"] and c["rank"] and c["rank"] <= 150:
+        if "Oversold" in c["tags"] and c["rank"] and c["rank"] <= 150 and "Pegged" not in c["tags"]:
             ideas.append({**c, "kind": "mean-reversion"})
     for c in sorted(coins, key=lambda x: x["score"]):
         if "Heavy selling" in c["tags"]:

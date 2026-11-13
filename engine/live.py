@@ -199,6 +199,22 @@ def run_crypto(state, cfg, orders, t, crypto_sig):
     for o in [x for x in orders if x["account"] == "crypto"]:
         sym, cid = o["symbol"], o["id"]
         m = venue.market(sym) if venue else None
+        if o["side"] == "restop":
+            # The paper bot raised a trailing stop: move the exchange stop up to match.
+            p = acct["positions"].get(cid)
+            if not p or o["stop"] <= p["stop"]:
+                continue
+            if mode == "live" and c.get("place_exchange_stop"):
+                try:
+                    if p.get("stop_order"):
+                        venue.cancel(p["stop_order"], p["market"])
+                    p["stop_order"] = venue.stop(p["market"], p["amount"] * 0.999, o["stop"]).get("id")
+                except Exception as e:
+                    _log(state, t, "crypto", mode, "stop", sym, "failed", note="couldn't move the exchange stop (" + type(e).__name__ + ")")
+                    continue
+            p["stop"] = o["stop"]
+            _log(state, t, "crypto", mode, "stop", sym, "placed" if mode == "live" else "would place", note="trailing stop raised", stop=o["stop"])
+            continue
         if o["side"] == "sell":
             p = acct["positions"].get(cid)
             if not p:
@@ -225,16 +241,28 @@ def run_crypto(state, cfg, orders, t, crypto_sig):
             else:
                 p["amount"] -= amount
                 p["cost"] *= 1 - o["frac"]
+                # A partial sell cancelled the exchange stop: put one back on what's left, at the bot's new stop.
+                p["stop"] = o.get("stop") or p["stop"]
+                if mode == "live" and c.get("place_exchange_stop"):
+                    try:
+                        p["stop_order"] = venue.stop(p["market"], p["amount"] * 0.999, p["stop"]).get("id")
+                    except Exception as e:
+                        p["stop_order"] = None
+                        _log(state, t, "crypto", mode, "stop", sym, "failed", note="no exchange stop on the rest; the bot still sells at the stop on each refresh (" + type(e).__name__ + ")")
             _log(state, t, "crypto", mode, "sell", sym, status, reason=o["reason"], amount=amount, price=price, pnl=round(pnl, 2), order_id=oid)
             continue
 
         # Buys: every limit must pass.
         size = min(eq * o["size_pct"] / 100, c["max_order_usd"], c["budget_usd"] - deployed)
-        skip = None
+        skip, note = None, None
         if acct.get("halted"):
             skip = "paused: " + acct["halted"]["reason"]
         elif c.get("require_ai_approval") and not (o.get("ai") and o["ai"].get("verdict") == "take"):
-            skip = "no AI approval (the AI reviewer needs the ANTHROPIC_API_KEY secret)"
+            if o.get("ai") or mode == "live":
+                skip = "AI reviewer said skip" if o.get("ai") else "no AI approval (the AI reviewer needs the ANTHROPIC_API_KEY secret)"
+            else:
+                # Dry run with no AI review at all: record the order anyway so the dry run can be scored. Live would skip it.
+                note = "no AI review; logged so the dry run can be scored (live trading would skip it)"
         elif cid in acct["positions"]:
             skip = "already holds it"
         elif len(acct["positions"]) >= c["max_positions"]:
@@ -282,7 +310,7 @@ def run_crypto(state, cfg, orders, t, crypto_sig):
                                   "entry": price, "stop": stop_price, "stop_order": stop_id, "opened": t, "setup": o["setup"]}
         deployed += size
         _log(state, t, "crypto", mode, "buy", sym, status, setup=o["setup"], size=round(size, 2), price=price, amount=amount,
-             stop=stop_price, order_id=oid, stop_order=stop_id, ai=(o.get("ai") or {}).get("reason"))
+             stop=stop_price, order_id=oid, stop_order=stop_id, ai=(o.get("ai") or {}).get("reason"), note=note)
     acct["equity"] = round(_equity(acct, c["budget_usd"], marks)[0], 2)
     acct["loss_today"] = round(loss, 2)
     return mode, why
@@ -358,15 +386,18 @@ def run_tao(state, cfg, orders, t, tao_sig):
         tranche = c["budget_tao"] * c["position_max_pct"] / 100 / 3
         size = min(tranche, c["max_order_tao"], c["budget_tao"] - deployed)
         held_cost = (acct["positions"].get(k) or {}).get("cost", 0)
-        skip = None
+        skip, o["note"] = None, None
         if acct.get("halted"):
             skip = "paused: " + acct["halted"]["reason"]
-        elif c.get("require_ai_approval") and not (o.get("ai") and o["ai"].get("verdict") == "take"):
-            skip = "no AI approval (the AI reviewer needs the ANTHROPIC_API_KEY secret)"
+        elif c.get("require_ai_approval") and not (o.get("ai") and o["ai"].get("verdict") == "take") and (o.get("ai") or mode == "live"):
+            skip = "AI reviewer said skip" if o.get("ai") else "no AI approval (the AI reviewer needs the ANTHROPIC_API_KEY secret)"
         elif held_cost + size > c["budget_tao"] * c["position_max_pct"] / 100 * 1.001:
             skip = f"position would pass {c['position_max_pct']}% of the budget"
         elif size < c["min_order_tao"]:
             skip = f"order would be {size:.3f} τ, under the {c['min_order_tao']} τ minimum (budget used up)"
+        if not skip and c.get("require_ai_approval") and not o.get("ai"):
+            # Dry run with no AI review at all: record it anyway so the dry run can be scored. Live would skip it.
+            o["note"] = "no AI review; logged so the dry run can be scored (live trading would skip it)"
         if skip:
             _log(state, t, "tao", mode, "buy", name, "skipped", note=skip, size=round(max(size, 0), 4))
             continue
@@ -393,7 +424,7 @@ def run_tao(state, cfg, orders, t, tao_sig):
             p["cost"] += size
             p["entry"] = p["cost"] / p["amount"]
             _log(state, t, "tao", mode, "buy", name, status, setup=o.get("setup"), size=round(size, 4), price=price, order_id=oid,
-                 ai=(o.get("ai") or {}).get("reason"))
+                 ai=(o.get("ai") or {}).get("reason"), note=o.get("note"))
         else:
             p = acct["positions"][k]
             proceeds = amount * price
