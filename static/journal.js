@@ -6,7 +6,7 @@
   var TAGS = ["Followed plan", "Good entry", "Good exit", "FOMO", "Early exit", "Late exit", "Oversized", "No stop", "Revenge", "Moved stop"];
   var GOOD_TAGS = ["Followed plan", "Good entry", "Good exit"];
   var MOODS = ["Calm", "Confident", "Excited", "Anxious", "FOMO", "Bored", "Frustrated"];
-  var ACCT = { crypto: "Crypto practice", tao: "Bittensor practice", logged: "Logged", "bot-crypto": "Bot · crypto", "bot-tao": "Bot · Bittensor", "bot-alt": "Bot · altcoins" };
+  var ACCT = { crypto: "Crypto practice", tao: "Bittensor practice", logged: "Logged", "bot-crypto": "Bot · crypto", "bot-tao": "Bot · Bittensor", "bot-alt": "Bot · altcoins", prelist: "Pre-listing practice", "bot-prelist": "Bot · pre-listing" };
   var rows = [], editing = null, openKeys = {};
 
   // ------------------------------------------------------------ helpers
@@ -34,7 +34,7 @@
   // ------------------------------------------------------------ data
   function collect() {
     var out = [];
-    ["crypto", "tao", "logged", "bot-crypto", "bot-tao", "bot-alt"].forEach(function (k) {
+    ["crypto", "tao", "prelist", "logged", "bot-crypto", "bot-tao", "bot-alt", "bot-prelist"].forEach(function (k) {
       var d = Trades.load(k);
       if (!d) return;
       out = out.concat(d.trades, d.openTrades || []);

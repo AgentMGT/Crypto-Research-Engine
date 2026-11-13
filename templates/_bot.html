@@ -1,5 +1,5 @@
 {# Paper trading bot: shows bot.json written by engine/bot.py on each refresh. Driven by static/bot.js #}
-<p class="sub">A bot that trades three practice accounts on its own, with simulated money only. Each time the site refreshes, it follows fixed rules: trend and oversold setups for crypto, your trading plan for Bittensor subnets, and your altcoin plan for the ALTCOINS scanner's picks. When the AI reviewer is switched on, Claude checks every new entry and can skip it, giving a reason. Stops, targets and plan exits always go through. The bot never connects to an exchange or a wallet.</p>
+<p class="sub">A bot that trades four practice accounts on its own, with simulated money only. Each time the site refreshes, it follows fixed rules: trend and oversold setups for crypto, your trading plan for Bittensor subnets, your altcoin plan for the ALTCOINS scanner's picks, and the pre-listing system for coins on their own DEX pools. When the AI reviewer is switched on, Claude checks every new entry and can skip it, giving a reason. Stops, targets and plan exits always go through. The bot never connects to an exchange or a wallet.</p>
 
 <div class="pp-bar">
   <div class="pp-snap" id="bt-status">Loading the bot's accounts…</div>
@@ -26,6 +26,12 @@
       <div class="cards" id="bt-t-cards"></div>
       <div class="pp-panel"><h3>Open positions</h3><div id="bt-t-pos"></div></div>
       <div class="pp-panel bt-eqp"><h3>Account value</h3><div class="pp-equity" id="bt-t-eq"></div></div>
+    </section>
+    <section class="bt-acct" id="bt-p" hidden>
+      <h3 class="pp-h2">Pre-listing account <span class="faint">US dollars, buying native-market coins before a major listing · <a href="prelisting.html">rules and search</a></span></h3>
+      <div class="cards" id="bt-p-cards"></div>
+      <div class="pp-panel"><h3>Open positions</h3><div id="bt-p-pos"></div></div>
+      <div class="pp-panel bt-eqp"><h3>Account value</h3><div class="pp-equity" id="bt-p-eq"></div></div>
     </section>
     <section class="bt-acct" id="bt-a" hidden>
       <h3 class="pp-h2">Altcoin account <span class="faint">US dollars, following your altcoin plan</span></h3>
@@ -74,6 +80,7 @@
       <li><b>Exits:</b> no price stop, per the plan. It sells everything when the thesis breaks: scan score under {{ a.thesis_exit.score_below }}, DEX liquidity down {{ a.thesis_exit.pool_liq_drop_pct }}% since entry, or a "very thin trading" or "barely listed" flag. A meme coin is sold if its volume stays under {{ a.meme_volume_dry_pct }}% of the entry level for {{ a.meme_volume_dry_days }} days. A coin with no price for {{ a.no_price_ticks }} refreshes in a row is written down to half its last price and closed.</li>
       <li>Fills use a {{ a.fee_pct }}% fee plus slippage scaled to the coin's daily volume. It waits {{ a.cooldown_days }} days before buying a coin it sold again. Live trading never mirrors this account.</li>
     </ul></li>{% endif %}
+  {% if bot_cfg.prelist %}<li><b>Pre-listing account</b> starts with ${{ "{:,}".format(bot_cfg.prelist.start_usd) }} and follows the <a href="prelisting.html">pre-listing system</a>: it buys coins with a working DEX market and no major-exchange listing when all five entry rules pass, sells {{ (bot_cfg.prelist.exits.listing_sell_frac * 100)|int }}% when a major lists the coin and trails the rest, and exits early on a {{ bot_cfg.prelist.exits.stop_pct }}% drop, pulled liquidity, sustained selling or {{ bot_cfg.prelist.exits.max_hold_days }} days without a listing. Fills pay the pool's price impact. Live trading never mirrors it.</li>{% endif %}
   <li><b>AI reviewer:</b> runs when the site has an Anthropic API key (the ANTHROPIC_API_KEY repository secret). Claude sees each proposed entry with its numbers, the regime, the bot's holdings and recent headlines, and answers take or skip with a reason and a 1–5 confidence. Without the key, the bot trades on the rules alone.</li>
   <li>The rules live in <code>data/bot.json</code> in the repository. Change them there and push.</li>
 </ul>

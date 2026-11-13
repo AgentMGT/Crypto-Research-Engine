@@ -385,7 +385,7 @@ tr[data-chart] { cursor: pointer; }
 }
 /* ---- paper trading bot */
 .bt-accts { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
-.bt-accts #bt-a { grid-column: 1 / -1; }
+.bt-accts #bt-a, .bt-accts #bt-p { grid-column: 1 / -1; }
 .bt-acct .cards { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); margin-bottom: 10px; }
 .bt-acct .pp-panel + .pp-panel { margin-top: 10px; }
 .bt-note { margin: 0 0 10px; font-size: 13.5px; }

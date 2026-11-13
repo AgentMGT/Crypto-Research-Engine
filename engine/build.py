@@ -271,6 +271,7 @@ def build_research(e, ts):
     (OUT / "research.html").write_text(e.get_template("research.html").render(edition="research", updated=ts, errors=[]))
     (OUT / "paper.html").write_text(e.get_template("paper.html").render(edition="paper", updated=ts, errors=[], bot_cfg=bot.config()))
     (OUT / "wallets.html").write_text(e.get_template("wallets.html").render(edition="wallets", updated=ts, errors=[]))
+    (OUT / "prelisting.html").write_text(e.get_template("prelisting.html").render(edition="prelist", updated=ts, errors=[], bot_cfg=bot.config()))
 
 
 def main():
@@ -305,7 +306,7 @@ def main():
             traceback.print_exc()
 
     build_research(e, ts)
-    for name in ("altcoins.js", "style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js", "bot.js", "wallets.js"):
+    for name in ("altcoins.js", "style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js", "bot.js", "wallets.js", "prelisting.js"):
         src = ROOT / "static" / name
         if src.exists():
             shutil.copy(src, OUT / name)

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Pre-listing — research engine{% endblock %}
+
+{% block content %}
+{% set p = bot_cfg.prelist %}{% set e = p.entry %}{% set x = p.exits %}
+<h1>Pre-listing</h1>
+<p class="sub">Find coins that trade on their own DEX pools (their native markets) before a major exchange lists them, check them against the pre-listing rules, and practice trading them against the pool itself. Simulated money only: nothing here connects to a wallet or an exchange.</p>
+
+<h3 class="pp-h2">Search a coin <span class="faint">its native markets, where it's listed, and how it scores on the rules</span></h3>
+<div class="rs-search" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-owns="pl-suggest">
+  <input id="pl-q" type="search" placeholder="Search by name or ticker" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-controls="pl-suggest">
+  <ul id="pl-suggest" class="rs-suggest" role="listbox" hidden></ul>
+</div>
+<div id="pl-status" class="rs-status" aria-live="polite"></div>
+<div id="pl-out"></div>
+
+<h3 class="pp-h2">Today's candidates <span class="faint">coins with a working native market and no major listing, from the latest scan</span></h3>
+<div class="pp-panel" id="pl-cands"><p class="sub" style="margin:0">Loading the latest scan…</p></div>
+
+<h3 class="pp-h2">My pre-listing practice account <span class="faint">trades you place above, saved in this browser</span></h3>
+<div class="pp-panel" id="pl-acct"><p class="sub" style="margin:0">Loading…</p></div>
+
+<h3 class="pp-h2">The bot's pre-listing account <span class="faint">trades these rules on every refresh</span></h3>
+<div class="pp-panel" id="pl-bot"><p class="sub" style="margin:0">Loading…</p></div>
+
+<details class="plan-rules" open>
+<summary>The pre-listing system</summary>
+<p class="sub">The idea: a coin that a major exchange lists usually reprices fast, and the people who held it on its own DEX pools beforehand are the ones selling into that. The system buys coins that look ready for a listing and sells into the listing when it comes. Most candidates never get listed, so every rule below is about not losing much while waiting.</p>
+<h4>1. Where to look</h4>
+<ul>
+  <li>Coins with a working native market: a DEX pool holding ${{ "{:,}".format((e.pool_min_usd / 1000)|int) }}K to ${{ "{:,}".format((e.pool_max_usd / 1e6)|int) }}M, and at least ${{ "{:,}".format((e.total_liq_min_usd / 1000)|int) }}K across all its pools. Smaller is too hard to get out of; bigger usually means price discovery already happened.</li>
+  <li>Not listed on a major exchange (Binance, Coinbase, OKX, Bybit, Upbit, Kraken), and on at most {{ e.max_cex_count }} smaller ones.</li>
+</ul>
+<h4>2. Entry: all five must pass</h4>
+<ol>
+  <li><b>Native market size</b>, as above.</li>
+  <li><b>Not yet on a major</b>, as above.</li>
+  <li><b>Organic buying:</b> at least {{ (e.min_buy_share_6h * 100)|int }}% of the last 6 hours' trades are buys, activity is holding at or above its daily pace, and daily volume is under {{ e.max_churn }}× the pool's liquidity (more than that looks like wash trading or bots).</li>
+  <li><b>Listing signals:</b> at least {{ e.min_listing_signals }} of: already listed on a second-tier exchange (Gate, MEXC, KuCoin, Bitget and similar; those listings tend to come first), market cap of ${{ (e.signal_min_mcap_usd / 1e6)|int }}M+, {{ "{:,}".format(e.signal_watchers) }}+ CoinGecko watchlists, in the news, trending on CoinGecko, buying picking up, DEX liquidity up {{ e.signal_liq_growth_pct }}%+ in a day, {{ e.signal_commits_4w }}+ code commits in 4 weeks.</li>
+  <li><b>Fundamentals:</b> scan score {{ e.min_score }}+, none of the red flags (big unlocks ahead, down over 50% in 30 days, no community channels, under 90 days old, very thin trading), and no more than {{ e.max_fit_missing }} of your five altcoin requirements missing (low liquidity, real-world use, strong demand, exclusivity, room to grow).</li>
+</ol>
+<h4>3. Size</h4>
+<ul>
+  <li>{{ p.position_pct }}% of the account per coin, and never more than {{ p.max_pool_share_pct }}% of the pool's liquidity, so getting in and out moves the price by about {{ p.max_pool_share_pct * 2 }}% each way. At most {{ p.max_positions }} coins at once.</li>
+  <li>Fills pay a {{ p.fee_pct }}% fee plus the pool's price impact: buying x into a pool holding L moves the price by about x ÷ (L/2).</li>
+</ul>
+<h4>4. Exits</h4>
+<ul>
+  <li><b>The listing:</b> when a major exchange lists the coin, sell {{ (x.listing_sell_frac * 100)|int }}% straight away (sell the news), and trail the rest {{ x.listing_trail_pct }}% below its highest price after that.</li>
+  <li><b>Early run-up:</b> if it reaches {{ x.take_profit_x }}× before any listing, sell {{ (x.take_profit_frac * 100)|int }}%.</li>
+  <li><b>Stop:</b> sell everything if it falls {{ x.stop_pct }}% below entry before a listing.</li>
+  <li><b>Liquidity pulled:</b> sell everything if DEX liquidity drops {{ x.liq_drop_pct }}% from entry (the classic rug or exit).</li>
+  <li><b>Sell pressure:</b> sell everything if buys fall under {{ (x.sell_pressure_below * 100)|int }}% of trades for {{ x.sell_pressure_ticks }} refreshes in a row.</li>
+  <li><b>Time:</b> sell everything after {{ x.max_hold_days }} days without a major listing. The bet was a listing soon; a coin that doesn't get one is tying up money.</li>
+</ul>
+<h4>5. Doing it by hand</h4>
+<ul>
+  <li>Search a coin above. The checklist shows each rule with the numbers behind it; "can't tell" means the data isn't there, which the bot treats as a no.</li>
+  <li>Check what the data can't: the team, the token contract (renounced ownership, no mint or blacklist functions, liquidity locked), and whether listing talk is real or paid promotion.</li>
+  <li>Log every trade's reason in the Journal and compare your results with the bot's at each review.</li>
+</ul>
+<p class="faint">The rules live in <code>data/bot.json</code> under <code>prelist</code>; the page and the bot both follow whatever is there.</p>
+</details>
+
+<script id="pl-cfg" type="application/json">{{ {"prelist": bot_cfg.prelist, "fit": (bot_cfg.alt or {}).get("fit")}|tojson }}</script>
+{% endblock %}
+
+{% block scripts %}<script src="prelisting.js?v={{ v }}"></script>{% endblock %}
+
+{% block sources %}Sources: CoinGecko (search, listings, market data), GeckoTerminal (DEX pools, trades and prices), this engine's ALTCOINS scan (candidates and fundamentals) and the paper trading bot.{% endblock %}
