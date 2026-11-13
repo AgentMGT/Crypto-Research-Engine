@@ -662,13 +662,239 @@ def alt_open(acct, cfg, t, kind, x, v, size, why, ai, seen, regime):
     return p, f"Bought {p['symbol']} ({setup}{', second half' if kind == 'second' else ''}): {size:,.0f} USD"
 
 
+# ------------------------------------------------------------------ pre-listing account
+# Buys coins that trade on their own DEX pools ("native markets") before a major exchange lists them,
+# and sells into the listing. Rules live in data/bot.json under "prelist".
+
+MAJOR_KEYS = {"binance": "Binance", "coinbase": "Coinbase", "gdax": "Coinbase", "okx": "OKX", "okex": "OKX",
+              "bybit": "Bybit", "upbit": "Upbit", "kraken": "Kraken"}
+
+
+def majors_now(ids):
+    """{coin id: [major exchanges listing it]} from each coin's CoinGecko tickers; coins whose lookup fails are left out."""
+    out = {}
+    try:
+        from .fetch_crypto import CG, CG_HEADERS
+        from .http import get_json
+    except Exception:
+        return out
+    for cid in ids:
+        try:
+            got = get_json(f"{CG}/coins/{cid}/tickers", params={"page": 1}, headers=CG_HEADERS, retries=2)
+        except Exception as e:
+            print(f"  bot prelist tickers {cid}: {e}")
+            continue
+        names = set()
+        for tk in (got or {}).get("tickers") or []:
+            m = tk.get("market") or {}
+            key = f"{m.get('identifier') or ''} {m.get('name') or ''}".lower()
+            names |= {label for k, label in MAJOR_KEYS.items() if k in key}
+        out[cid] = sorted(names)
+    return out
+
+
+def prelist_signals(v, e):
+    """Signs a major-exchange listing could be coming. The rules want several, not one."""
+    d = v.get("detail") or {}
+    pool = v.get("pool") or {}
+    cex = " | ".join(d.get("cex") or []).lower()
+    out = []
+    tier2 = [x for x in e["tier2_exchanges"] if x in cex]
+    if tier2:
+        out.append("already on " + ", ".join(t.title() for t in tier2[:3]))
+    if (v.get("mcap") or 0) >= e["signal_min_mcap_usd"]:
+        out.append(f"market cap ${v['mcap'] / 1e6:,.0f}M")
+    if (d.get("watchers") or 0) >= e["signal_watchers"]:
+        out.append(f"{d['watchers']:,} watchlists")
+    if v.get("news_n") or v.get("news"):
+        out.append("in the news")
+    if v.get("trending"):
+        out.append("trending on CoinGecko")
+    if v.get("buying_up"):
+        out.append("buying picking up")
+    if (pool.get("liq_change_pct") or 0) >= e["signal_liq_growth_pct"]:
+        out.append(f"DEX liquidity up {pool['liq_change_pct']:.0f}% in a day")
+    if (d.get("commits_4w") or 0) >= e["signal_commits_4w"]:
+        out.append(f"{d['commits_4w']} commits in 4 weeks")
+    return out
+
+
+def prelist_check(v, cfg):
+    """(missing, signals) for a pre-listing entry. Nothing missing = buy."""
+    e = cfg["prelist"]["entry"]
+    d = v.get("detail") or {}
+    pool = v.get("pool") or {}
+    missing = []
+    # 1. A working native market: deep enough to get out, shallow enough that discovery hasn't happened.
+    if not (e["pool_min_usd"] <= (pool.get("liquidity") or 0) <= e["pool_max_usd"]) or (pool.get("total_liq") or 0) < e["total_liq_min_usd"]:
+        missing.append("native market size")
+    # 2. Not listed on a major yet, and not already on every smaller exchange.
+    if not d or v.get("on_major") or (d.get("cex_count") or 0) > e["max_cex_count"]:
+        missing.append("not yet on a major")
+    # 3. Organic demand in the pools: more buys than sells, activity holding up, not wash-traded churn.
+    bs, acc = pool.get("buy_share_6h"), pool.get("vol_accel")
+    churn = (pool.get("vol24") or 0) / pool["total_liq"] if pool.get("total_liq") else None
+    if bs is None or bs < e["min_buy_share_6h"] or acc is None or acc < e["min_vol_accel"] or churn is None or churn > e["max_churn"]:
+        missing.append("organic buying")
+    # 4. Listing signals: several, not one.
+    sig = prelist_signals(v, e)
+    if len(sig) < e["min_listing_signals"]:
+        missing.append(f"listing signals ({len(sig)} of {e['min_listing_signals']})")
+    # 5. Fundamentals: scan score, no red flags, and most of Marvin's five requirements.
+    if (v.get("score") or 0) < e["min_score"] or _alt_blocked(v, cfg["prelist"]):
+        missing.append("score / red flags")
+    elif cfg.get("alt", {}).get("fit"):
+        miss, _ = alt_fit(v, cfg["alt"])
+        if len(miss) > e["max_fit_missing"]:
+            missing.append(f"fundamentals ({len(miss)} of 5 requirements missing)")
+    return missing, sig
+
+
+def prelist_step(acct, alt, cfg, t, regime):
+    c = cfg["prelist"]
+    x = c["exits"]
+    fee = c["fee_pct"] / 100
+    seen = alt_prices({**(alt or {}), "utility": ((alt or {}).get("utility") or []) + ((alt or {}).get("prelisting") or [])},
+                      [p["id"] for p in acct["positions"]])
+    listed = majors_now([p["id"] for p in acct["positions"] if not p.get("listed")])
+    actions, proposals = [], []
+
+    def impact(size, v, pool_liq):
+        # Constant-product pool: trading x into a pool holding about L/2 on each side moves price by about x / (L/2).
+        liq = pool_liq or ((v.get("pool") or {}).get("liquidity"))
+        return min(0.3, size / (liq / 2)) if liq else _slip(size, v.get("volume"))
+
+    def sell(p, frac, price, reason, rule):
+        v = seen.get(p["id"]) or {}
+        qty, cost = p["qty"] * frac, p["cost"] * frac
+        fill = price * (1 - impact(qty * price, v, p.get("pool_liq")))
+        proceeds = qty * fill * (1 - fee)
+        pnl = proceeds - cost
+        acct["cash"] += proceeds
+        tr = {"type": "Close", "t": t, "pid": p["pid"], "id": p["id"], "symbol": p["symbol"], "setup": p["setup"], "dir": "long",
+              "price": fill, "size": proceeds, "pnl": pnl, "pnl_pct": pnl / cost * 100, "cost": cost, "opened": p["opened"],
+              "held": t - p["opened"], "reason": reason, "rule": rule, "stop_pct": x["stop_pct"], "size_pct": p["size_pct"],
+              "entry_reason": p["reason"], "multiple": price / p["entry"], "listed": p.get("listed"),
+              "mfe_pct": (p.get("hi", p["entry"]) / p["entry"] - 1) * 100, "mae_pct": (p.get("lo", p["entry"]) / p["entry"] - 1) * 100}
+        if frac < 0.999:
+            tr["partial"] = frac
+            p["qty"] -= qty
+            p["cost"] -= cost
+        else:
+            acct["positions"].remove(p)
+        acct["trades"].append(tr)
+        actions.append(f"Sold {'all' if frac >= 0.999 else f'{frac:.0%}'} of {p['symbol']} ({reason}): {pnl:+,.2f} USD")
+
+    for p in list(acct["positions"]):
+        v = seen.get(p["id"]) or {}
+        price = v.get("price")
+        if not price:
+            p["no_price"] = p.get("no_price", 0) + 1
+            if p["no_price"] >= c["no_price_ticks"]:
+                sell(p, 1.0, (p.get("mark") or p["entry"]) * 0.5, "No price", f"No price for {p['no_price']} refreshes in a row; written down to half the last price.")
+            continue
+        p["no_price"], p["mark"] = 0, price
+        p["hi"], p["lo"] = max(p.get("hi", p["entry"]), price), min(p.get("lo", p["entry"]), price)
+        pool = v.get("pool") or {}
+        if pool.get("liquidity"):
+            p["pool_liq"] = pool["liquidity"]
+        # The catalyst: a major exchange lists it. Sell into the news, trail the rest.
+        if not p.get("listed") and listed.get(p["id"]):
+            p["listed"] = {"t": t, "on": listed[p["id"]], "price": price}
+            p["stop"] = max(p.get("stop", 0), price * (1 - x["listing_trail_pct"] / 100))
+            sell(p, x["listing_sell_frac"], price, "Listed on a major", f"Listed on {', '.join(listed[p['id']])}: sold {x['listing_sell_frac']:.0%} into the news; the rest trails {x['listing_trail_pct']}% below its high.")
+            continue
+        if p.get("listed"):
+            p["stop"] = max(p["stop"], p["hi"] * (1 - x["listing_trail_pct"] / 100))
+            if price <= p["stop"]:
+                sell(p, 1.0, price, "Trailing stop", f"Fell {x['listing_trail_pct']}% from its high after the listing.")
+            continue
+        if price <= p["entry"] * (1 - x["stop_pct"] / 100):
+            sell(p, 1.0, price, "Stop-loss", f"Down {x['stop_pct']}% from entry before any listing.")
+            continue
+        if not p.get("tp_done") and price >= p["entry"] * x["take_profit_x"]:
+            p["tp_done"] = True
+            sell(p, x["take_profit_frac"], price, f"Take-profit {x['take_profit_x']:g}x", f"Reached {x['take_profit_x']:g}x before any listing; sold {x['take_profit_frac']:.0%}.")
+            continue
+        liq = pool.get("total_liq") or pool.get("liquidity")
+        if liq and p.get("entry_liq") and liq < p["entry_liq"] * (1 - x["liq_drop_pct"] / 100):
+            sell(p, 1.0, price, "Liquidity pulled", f"DEX liquidity down {(1 - liq / p['entry_liq']) * 100:.0f}% since entry.")
+            continue
+        bs = pool.get("buy_share_6h")
+        if bs is not None:
+            p["sell_ticks"] = p.get("sell_ticks", 0) + 1 if bs < x["sell_pressure_below"] else 0
+            if p["sell_ticks"] >= x["sell_pressure_ticks"]:
+                sell(p, 1.0, price, "Sell pressure", f"Sellers outnumbered buyers ({bs:.0%} buys) for {p['sell_ticks']} refreshes in a row.")
+                continue
+        bad = [f for f in v.get("flags") or [] if any(f.startswith(b) for b in x["red_flags"])]
+        if bad:
+            sell(p, 1.0, price, "Red flag", "; ".join(bad) + ".")
+            continue
+        if t - p["opened"] > x["max_hold_days"] * 86400000:
+            sell(p, 1.0, price, "Time stop", f"No major listing within {x['max_hold_days']} days; the thesis was a listing soon.")
+
+    if not alt or alt.get("stale"):
+        actions.append("Pre-listing: scan didn't refresh this run, no new buys.")
+        return actions, proposals, seen
+
+    eq = alt_equity(acct, seen)
+    held = {p["id"] for p in acct["positions"]} | {x2["id"] for x2 in acct["trades"] if x2["type"] == "Close" and t - x2["t"] < c["cooldown_days"] * 86400000}
+    room = min(c["max_positions"] - len(acct["positions"]), c["max_new_per_tick"])
+    near, n = [], 0
+    for v in alt.get("prelisting") or []:
+        if n >= room:
+            break
+        if v["id"] in held or not v.get("price"):
+            continue
+        missing, sig = prelist_check(v, cfg)
+        if missing:
+            if len(missing) == 1:
+                near.append(f"{v['symbol']} (missing {missing[0]})")
+            continue
+        pool = v.get("pool") or {}
+        size = min(eq * c["position_pct"] / 100, (pool.get("liquidity") or 0) * c["max_pool_share_pct"] / 100, acct["cash"])
+        if size < c["min_order_usd"]:
+            continue
+        n += 1
+        why = (f"Native market ${pool.get('liquidity', 0) / 1e3:,.0f}K on {pool.get('dex') or 'DEX'} ({pool.get('chain')}), "
+               f"{(pool.get('buy_share_6h') or 0):.0%} buys in 6h; not on a major exchange ({(v.get('detail') or {}).get('cex_count') or 0} smaller ones). "
+               f"Listing signals: {', '.join(sig)}. Scan score {v.get('score')}.")
+        proposals.append({"account": "prelist", "asset": v["symbol"], "setup": "Pre-listing", "size": round(size, 2), "unit": "USD", "rule_reason": why,
+                          "context": {k: v.get(k) for k in ("name", "price", "mcap", "volume", "ch7", "ch30", "score", "flags", "news")} |
+                                     {"pool": {k: pool.get(k) for k in ("liquidity", "total_liq", "buy_share_6h", "vol_accel", "liq_change_pct", "dex", "chain")},
+                                      "cex": (v.get("detail") or {}).get("cex"), "regime": regime},
+                          "_do": (v, size, why)})
+    if not proposals:
+        actions.append("Pre-listing: no coin met every rule this run." + (f" Closest: {'; '.join(near[:5])}." if near else ""))
+    return actions, proposals, seen
+
+
+def prelist_open(acct, cfg, t, v, size, why, ai, seen, regime):
+    c = cfg["prelist"]
+    pool = v.get("pool") or {}
+    imp = min(0.3, size / (pool["liquidity"] / 2)) if pool.get("liquidity") else _slip(size, v.get("volume"))
+    fill = v["price"] * (1 + imp)
+    qty = size * (1 - c["fee_pct"] / 100) / fill
+    eq = alt_equity(acct, seen)
+    acct["cash"] -= size
+    p = {"pid": acct["next_id"], "id": v["id"], "symbol": v["symbol"], "name": v.get("name"), "setup": "Pre-listing", "qty": qty, "entry": fill,
+         "cost": size, "opened": t, "size_pct": round(size / eq * 100, 2), "reason": why, "ai": ai, "mark": v["price"], "hi": fill, "lo": fill,
+         "entry_liq": pool.get("total_liq") or pool.get("liquidity"), "pool_liq": pool.get("liquidity"), "pool": {k: pool.get(k) for k in ("dex", "chain", "url", "pair")},
+         "entry_score": v.get("score"), "entry_regime": regime, "stop": fill * (1 - c["exits"]["stop_pct"] / 100)}
+    acct["next_id"] += 1
+    acct["positions"].append(p)
+    acct["trades"].append({"type": "Open", "t": t, "pid": p["pid"], "id": p["id"], "symbol": p["symbol"], "setup": "Pre-listing", "dir": "long",
+                           "price": fill, "size": size, "slip": imp * 100, "reason": why, "ai": ai, "regime": regime})
+    return f"Bought {p['symbol']} (Pre-listing): {size:,.0f} USD"
+
+
 # ------------------------------------------------------------------ AI review of entries
 
 SYSTEM = """You are the risk reviewer for a paper trading bot (simulated money only). \
 Each refresh, fixed rules propose new entries. For each proposal decide "take" or "skip". \
 Skip when the data shows a concrete problem the rule missed: the move looks exhausted or news-driven, \
 liquidity is thin for the size, it duplicates exposure the bot already has, the regime argues against it, \
-or the evidence is contradictory. Altcoin-account entries are deliberately small, high-risk bets on small caps sized so a total loss is acceptable: judge them on the scan's evidence (red flags, liquidity, a story that doesn't hold up), not on volatility or the chance of losing the stake. Otherwise take it; the rules are the strategy, you are the check, so do \
+or the evidence is contradictory. Altcoin-account entries are deliberately small, high-risk bets on small caps sized so a total loss is acceptable: judge them on the scan's evidence (red flags, liquidity, a story that doesn't hold up), not on volatility or the chance of losing the stake. Pre-listing entries bet that a coin trading on its own DEX pools gets listed on a major exchange: skip when the pool data looks like wash trading or a pump, or nothing suggests a listing is plausible. Otherwise take it; the rules are the strategy, you are the check, so do \
 not skip just because outcomes are uncertain. Ground every reason in the numbers given, in one or two sentences. \
 confidence is 1 (coin flip) to 5 (clear). Also write a two-sentence note on what the bot is doing this refresh."""
 
@@ -723,8 +949,9 @@ def ai_review(proposals, context):
 def run(crypto_sig, tao_sig, ts, alt=None):
     cfg = config()
     state = load_state(cfg)
-    if cfg.get("alt") and "alt" not in state:
-        state["alt"] = {"start": cfg["alt"]["start_usd"], "cash": cfg["alt"]["start_usd"], "positions": [], "trades": [], "equity": [], "next_id": 1,
+    for k in ("alt", "prelist"):
+        if cfg.get(k) and k not in state:
+            state[k] = {"start": cfg[k]["start_usd"], "cash": cfg[k]["start_usd"], "positions": [], "trades": [], "equity": [], "next_id": 1,
                         "created": now_ms()}
     t = now_ms()
     last = state.get("last_tick")
@@ -748,6 +975,11 @@ def run(crypto_sig, tao_sig, ts, alt=None):
         a, p, seen = alt_step(state["alt"], alt, cfg, t, regimes.get("crypto"))
         actions += a
         proposals += p
+    seen_pl = None
+    if cfg.get("prelist") and (alt or state["prelist"]["positions"]):
+        a, p, seen_pl = prelist_step(state["prelist"], alt, cfg, t, regimes.get("crypto"))
+        actions += a
+        proposals += p
 
     context = {
         "crypto_regime": (crypto_sig or {}).get("regime", {}).get("label") if crypto_sig else None,
@@ -756,6 +988,7 @@ def run(crypto_sig, tao_sig, ts, alt=None):
         "crypto_holdings": [p["symbol"] for p in state["crypto"]["positions"]],
         "tao_holdings": [f"SN{k}" for k in state["tao"]["positions"]],
         "alt_holdings": [p["symbol"] for p in (state.get("alt") or {}).get("positions", [])],
+        "prelist_holdings": [p["symbol"] for p in (state.get("prelist") or {}).get("positions", [])],
         "exits_this_refresh": actions,
         "headlines": [h.get("title") for h in ((crypto_sig or {}).get("news") or {}).get("crypto", [])[:15]],
     }
@@ -769,6 +1002,8 @@ def run(crypto_sig, tao_sig, ts, alt=None):
             continue
         if p["account"] == "crypto":
             actions.append(crypto_open(state["crypto"], cfg, t, *p["_do"], ai))
+        elif p["account"] == "prelist":
+            actions.append(prelist_open(state["prelist"], cfg, t, *p["_do"], ai, seen_pl, regimes.get("crypto")))
         elif p["account"] == "alt":
             actions.append(alt_open(state["alt"], cfg, t, *p["_do"], ai, seen, regimes.get("crypto"))[1])
         else:
@@ -786,9 +1021,11 @@ def run(crypto_sig, tao_sig, ts, alt=None):
             if int(k) in subs:
                 p["mark"] = subs[int(k)]["price_tao"]
                 p["name"] = subs[int(k)]["name"]
+    if seen_pl is not None:
+        state["prelist"]["equity"].append({"t": t, "v": round(alt_equity(state["prelist"], seen_pl), 2)})
     if seen is not None:
         state["alt"]["equity"].append({"t": t, "v": round(alt_equity(state["alt"], seen), 2)})
-    for k in ("crypto", "tao", "alt"):
+    for k in ("crypto", "tao", "alt", "prelist"):
         if k not in state:
             continue
         state[k]["trades"] = state[k]["trades"][-KEEP_TRADES:]

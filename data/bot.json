@@ -85,6 +85,50 @@
       "attention_watchers": 5000
     }
   },
+  "prelist": {
+    "_note": "Pre-listing account (added 12 Nov 2026): buys coins that trade on their own DEX pools before a major exchange lists them, and sells into the listing. Candidates come from the ALTCOINS scan's pre-listing list. First-guess thresholds, to check at the 3 Dec review.",
+    "label": "Pre-listing",
+    "start_usd": 10000,
+    "fee_pct": 0.4,
+    "max_positions": 8,
+    "max_new_per_tick": 2,
+    "position_pct": 5,
+    "max_pool_share_pct": 1,
+    "min_order_usd": 50,
+    "no_price_ticks": 6,
+    "cooldown_days": 7,
+    "block_flags": ["Very thin trading", "Big unlocks ahead", "Down ", "No community channels", "Only "],
+    "entry": {
+      "_note": "All five must pass. 1 native market size, 2 not yet on a major, 3 organic buying, 4 listing signals, 5 fundamentals.",
+      "pool_min_usd": 100000,
+      "pool_max_usd": 3000000,
+      "total_liq_min_usd": 150000,
+      "max_cex_count": 8,
+      "min_buy_share_6h": 0.52,
+      "min_vol_accel": 1.0,
+      "max_churn": 8,
+      "min_listing_signals": 3,
+      "tier2_exchanges": ["gate", "mexc", "kucoin", "bitget", "htx", "bingx", "lbank", "bitmart", "coinex", "crypto.com", "poloniex", "xt.com"],
+      "signal_min_mcap_usd": 10000000,
+      "signal_watchers": 5000,
+      "signal_liq_growth_pct": 10,
+      "signal_commits_4w": 10,
+      "min_score": 45,
+      "max_fit_missing": 2
+    },
+    "exits": {
+      "listing_sell_frac": 0.5,
+      "listing_trail_pct": 20,
+      "take_profit_x": 3,
+      "take_profit_frac": 0.33,
+      "stop_pct": 35,
+      "liq_drop_pct": 50,
+      "sell_pressure_below": 0.4,
+      "sell_pressure_ticks": 2,
+      "max_hold_days": 45,
+      "red_flags": ["Very thin trading", "Barely listed"]
+    }
+  },
   "tao": {
     "start_tao": 100,
     "fee_pct": 0.05,

@@ -23,7 +23,18 @@ window.Trades = (function () {
   }
 
   function load(which) {
-    if (which === "bot-crypto" || which === "bot-tao" || which === "bot-alt") return loadBot(which);
+    if (which === "bot-crypto" || which === "bot-tao" || which === "bot-alt" || which === "bot-prelist") return loadBot(which);
+    if (which === "prelist") {
+      // Manual pre-listing practice account (prelisting.js), same trade shape as the bot's.
+      var pa = read("paper-prelist-v1");
+      if (!pa) return null;
+      return { name: "prelist", unit: "$", start: pa.start,
+        trades: pa.trades.filter(function (t) { return t.type === "Close"; }).map(function (t) {
+          return { key: "pl-" + t.pid + "-" + t.t, acct: "prelist", unit: "$", asset: t.symbol, dir: "long", strategy: t.setup, opened: t.opened, closed: t.t,
+            pnl: t.pnl, pnlPct: t.pnl_pct, cost: t.cost, held: t.held, exit: t.reason, sizePct: null, r: null, note: t.entry_reason, offPlan: [] };
+        }).sort(function (x, y) { return x.closed - y.closed; }),
+        opens: pa.trades.filter(function (t) { return t.type === "Open"; }).map(function (o) { return { t: o.t, size: o.size, asset: o.symbol }; }) };
+    }
     if (which === "crypto") {
       var a = read("paper-crypto-v1");
       if (!a) return null;
@@ -73,12 +84,12 @@ window.Trades = (function () {
 
   function loadBot(which) {
     if (!bot) return null;
-    if (which === "bot-crypto" || which === "bot-alt") {
-      var a = which === "bot-alt" ? bot.alt : bot.crypto;
+    if (which === "bot-crypto" || which === "bot-alt" || which === "bot-prelist") {
+      var a = which === "bot-alt" ? bot.alt : which === "bot-prelist" ? bot.prelist : bot.crypto;
       if (!a) return null;
       var closes = a.trades.filter(function (t) { return t.type === "Close"; }).map(function (t) {
         return {
-          key: (which === "bot-alt" ? "ba-" : "bc-") + t.pid + "-" + t.t, acct: which, unit: "$", asset: t.symbol, dir: "long", strategy: t.setup,
+          key: ({ "bot-alt": "ba-", "bot-prelist": "bp-" }[which] || "bc-") + t.pid + "-" + t.t, acct: which, unit: "$", asset: t.symbol, dir: "long", strategy: t.setup,
           opened: t.opened, closed: t.t, pnl: t.pnl, pnlPct: t.pnl_pct, cost: t.cost, held: t.held, exit: t.reason,
           slPct: t.stop_pct, sizePct: t.size_pct, r: t.stop_pct ? t.pnl / (t.cost * t.stop_pct / 100) : null, note: t.entry_reason, offPlan: [], bot: true
         };

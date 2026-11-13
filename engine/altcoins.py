@@ -423,6 +423,22 @@ def buying_up(pool, cfg):
     return ok, why
 
 
+# Major exchanges: a listing on one of these is the catalyst the pre-listing system trades toward.
+MAJORS = {"binance": "Binance", "coinbase": "Coinbase", "okx": "OKX", "bybit": "Bybit", "upbit": "Upbit", "kraken": "Kraken"}
+
+
+def on_majors(detail):
+    """Major exchanges among a coin's centralized listings (CoinGecko tickers). None when not checked yet."""
+    if not detail:
+        return None
+    names = " | ".join(detail.get("cex") or []).lower()
+    return [label for key, label in MAJORS.items() if key in names]
+
+
+def in_native_range(pool, cfg):
+    return bool(pool) and cfg["prelist_pool_min_usd"] <= (pool.get("liquidity") or 0) <= cfg["prelist_pool_max_usd"]
+
+
 def in_pregrad_range(pool, cfg):
     return bool(pool) and cfg["pregrad_pool_min_usd"] <= pool["liquidity"] <= cfg["pregrad_pool_max_usd"] \
         and pool["total_liq"] < cfg["pregrad_graduated_usd"]
@@ -706,6 +722,8 @@ def build(crypto_sig, crypto_data):
         v["buying_up"], v["buying_why"] = buying_up(v["pool"], cfg)
         if in_pregrad_range(v["pool"], cfg):
             v["pre"] += 15 + (15 if v["buying_up"] else 0)
+        elif in_native_range(v["pool"], cfg):
+            v["pre"] += 10  # a working native market: worth a detail lookup to see if it's listed on a major yet
 
     # Detail lookups for the best of each kind, reusing anything fetched in the last day.
     cache = {k: x for k, x in _load(DETAILS, {}).items() if _age_hours(x.get("fetched")) < cfg["detail_cache_hours"] * 3}
@@ -778,6 +796,20 @@ def build(crypto_sig, crypto_data):
     close = sorted([v for v in in_range if v not in winners and len(v["pregrad_missing"]) == 1],
                    key=lambda v: -v["pregrad_score"])[: 5 - len(winners)]
 
+    # Pre-listing universe: coins with a working native (DEX) market that no major exchange lists yet.
+    # The bot and the Pre-listing tab apply the trading rules; this is only the list to apply them to.
+    prelisting = []
+    for v in views:
+        if not in_native_range(v["pool"], cfg) or not v.get("detail"):
+            continue
+        majors = on_majors(v["detail"])
+        if majors:
+            continue
+        v["on_major"] = majors
+        v["news_n"] = len(v["news"])
+        prelisting.append(v)
+    prelisting.sort(key=lambda v: (-(1 if v["buying_up"] else 0), -(v.get("score") or 0)))
+
     dex = []
     for p in ((crypto_sig or {}).get("venues") or {}).get("dex_new", []) + ((crypto_sig or {}).get("venues") or {}).get("dex_trending", []):
         if p.get("liquidity") and p["liquidity"] <= cfg["dex_max_liquidity_usd"] and "Sell pressure" not in p.get("tags", []):
@@ -796,7 +828,7 @@ def build(crypto_sig, crypto_data):
     slim = lambda v: {k: v.get(k) for k in ("id", "symbol", "name", "image", "rank", "price", "mcap", "fdv", "volume", "fdv_ratio",
                                            "float_pct", "turnover", "ch24", "ch7", "ch30", "rs7", "rs30", "from_ath", "cats", "tvl", "tvl_ch7", "tvl_ch30", "trending",
                                            "meme", "score", "passed", "passed_pct", "quiet_eco", "checks", "flags", "news", "ai",
-                                           "pool", "buying_up", "buying_why", "pregrad_score", "pregrad_missing")} | {
+                                           "pool", "buying_up", "buying_why", "pregrad_score", "pregrad_missing", "on_major", "news_n")} | {
         "detail": {k: (v.get("detail") or {}).get(k) for k in ("homepage", "twitter", "telegram", "discord", "chat", "reddit", "github",
                                                               "explorer", "categories", "watchers", "telegram_users", "commits_4w",
                                                               "cex", "cex_count", "dex", "platforms", "genesis")} if v.get("detail") else None,
@@ -804,7 +836,7 @@ def build(crypto_sig, crypto_data):
     return {
         "cfg": {k: cfg[k] for k in ("mcap_min_usd", "mcap_max_usd", "small_cap_usd", "low_liquidity_usd", "min_volume_usd", "plan",
                                     "pregrad_pool_min_usd", "pregrad_pool_max_usd", "pregrad_graduated_usd", "pregrad_buy_share",
-                                    "pregrad_accel", "pregrad_min_pass_pct")},
+                                    "pregrad_accel", "pregrad_min_pass_pct", "prelist_pool_min_usd", "prelist_pool_max_usd")},
         "utility": [slim(v) for v in ranked_util[: cfg["show_utility"]]],
         "meme": [slim(v) for v in ranked_meme[: cfg["show_meme"]]],
         "universe": [{k: v.get(k) for k in ("id", "symbol", "name", "price", "mcap", "volume", "fdv_ratio", "ch7", "ch30", "tvl", "meme", "score", "cats",
@@ -816,6 +848,7 @@ def build(crypto_sig, crypto_data):
         "pregrad": [slim(v) for v in winners],
         "pregrad_close": [slim(v) for v in close],
         "pregrad_in_range": len(in_range),
+        "prelisting": [slim(v) for v in prelisting[: cfg["prelist_show"]]],
         "cmc": cmc,
         "headline_count": len(seen),
         "ai_on": bool(os.environ.get("ANTHROPIC_API_KEY")) and bool(cfg.get("ai_due_diligence")),

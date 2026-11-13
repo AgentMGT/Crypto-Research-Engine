@@ -87,6 +87,27 @@
       }).join("") + "</tbody></table></div>" : '<p class="sub">No open positions.</p>';
     $("bt-t-eq").innerHTML = equitySvg(t.equity, t.start, "τ");
 
+    // Pre-listing account
+    var pl = d.prelist;
+    if (pl) {
+      $("bt-p").hidden = false;
+      var pOpen = pl.positions.reduce(function (s, p) { return s + p.qty * (p.mark || p.entry) - p.cost; }, 0);
+      var pEq = pl.equity.length ? pl.equity[pl.equity.length - 1].v : pl.start, psx = stats(pl.trades.filter(function (x) { return x.type === "Close"; }));
+      var caught = pl.trades.filter(function (x) { return x.reason === "Listed on a major"; }).length;
+      $("bt-p-cards").innerHTML = card("Account value", money(pEq, "$"), sgn((pEq / pl.start - 1) * 100, "%") + " since start") +
+        card("Open P&amp;L", sgn(pOpen, "$"), pl.positions.length + " coins") +
+        card("Realized P&amp;L", sgn(psx.total, "$"), psx.n ? psx.wins + " of " + psx.n + " won" : "no closed trades yet") +
+        card("Listings caught", String(caught), "sold into a major listing");
+      $("bt-p-pos").innerHTML = pl.positions.length ? '<div class="tablewrap"><table><thead><tr><th class="l">Coin</th><th>Entry</th><th>Now</th><th>P&amp;L</th><th>Cost</th><th class="l">Pool</th><th class="l">Status</th><th class="l">Opened</th></tr></thead><tbody>' +
+        pl.positions.map(function (p) {
+          var now = p.mark || p.entry, pool = p.pool || {};
+          return '<tr><td class="l"><b>' + esc(p.symbol) + "</b></td><td>$" + px(p.entry) + "</td><td>$" + px(now) + "</td><td>" + sgn((now / p.entry - 1) * 100, "%") + "</td><td>" + money(p.cost, "$") +
+            '</td><td class="l">' + esc((pool.dex || "") + (pool.chain ? " · " + pool.chain : "")) + '</td><td class="l">' + (p.listed ? "Listed on " + esc((p.listed.on || []).join(", ")) + ", trailing" : "Waiting for a listing") +
+            '</td><td class="l">' + stamp(p.opened).slice(0, 10) + "</td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="sub">No open positions yet. It buys when a coin passes all five pre-listing rules.</p>';
+      $("bt-p-eq").innerHTML = equitySvg(pl.equity, pl.start, "$");
+    }
+
     // Altcoin account
     var al = d.alt;
     if (al) {
@@ -112,6 +133,9 @@
     }).concat(t.trades.map(function (x) {
       return { t: x.t, acct: "Bittensor", act: x.side === "Buy" ? "Buy · tranche " + x.tranche : "Sell · " + x.reason, asset: "SN" + x.netuid + " " + x.name, setup: x.setup || "",
         size: money(x.tao, "τ"), pnl: x.side === "Sell" ? sgn(x.pnl, "τ") + " " + sgn(x.pnl_pct, "%") : "", why: x.side === "Buy" ? x.reason : x.rule, ai: x.ai, open: x.side === "Buy" };
+    })).concat(((d.prelist || {}).trades || []).map(function (x) {
+      return { t: x.t, acct: "Pre-listing", act: x.type === "Open" ? "Buy" : "Sell · " + x.reason, asset: x.symbol, setup: x.setup, size: money(x.size, "$"),
+        pnl: x.type === "Close" ? sgn(x.pnl, "$") + " " + sgn(x.pnl_pct, "%") : "", why: x.type === "Open" ? x.reason : x.rule, ai: x.ai, open: x.type === "Open" };
     })).concat(((d.alt || {}).trades || []).map(function (x) {
       return { t: x.t, acct: "Altcoins", act: x.type === "Open" ? "Buy" : "Sell · " + x.reason, asset: x.symbol, setup: x.setup, size: money(x.size, "$"),
         pnl: x.type === "Close" ? sgn(x.pnl, "$") + " " + sgn(x.pnl_pct, "%") : "", why: x.type === "Open" ? x.reason : x.rule, ai: x.ai, open: x.type === "Open" };
