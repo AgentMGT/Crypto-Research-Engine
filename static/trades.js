@@ -23,7 +23,7 @@ window.Trades = (function () {
   }
 
   function load(which) {
-    if (which === "bot-crypto" || which === "bot-tao") return loadBot(which);
+    if (which === "bot-crypto" || which === "bot-tao" || which === "bot-alt") return loadBot(which);
     if (which === "crypto") {
       var a = read("paper-crypto-v1");
       if (!a) return null;
@@ -73,11 +73,12 @@ window.Trades = (function () {
 
   function loadBot(which) {
     if (!bot) return null;
-    if (which === "bot-crypto") {
-      var a = bot.crypto;
+    if (which === "bot-crypto" || which === "bot-alt") {
+      var a = which === "bot-alt" ? bot.alt : bot.crypto;
+      if (!a) return null;
       var closes = a.trades.filter(function (t) { return t.type === "Close"; }).map(function (t) {
         return {
-          key: "bc-" + t.pid + "-" + t.t, acct: which, unit: "$", asset: t.symbol, dir: "long", strategy: t.setup,
+          key: (which === "bot-alt" ? "ba-" : "bc-") + t.pid + "-" + t.t, acct: which, unit: "$", asset: t.symbol, dir: "long", strategy: t.setup,
           opened: t.opened, closed: t.t, pnl: t.pnl, pnlPct: t.pnl_pct, cost: t.cost, held: t.held, exit: t.reason,
           slPct: t.stop_pct, sizePct: t.size_pct, r: t.stop_pct ? t.pnl / (t.cost * t.stop_pct / 100) : null, note: t.entry_reason, offPlan: [], bot: true
         };

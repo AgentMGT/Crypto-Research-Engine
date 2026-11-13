@@ -410,13 +410,210 @@ def tao_open(acct, tsig, cfg, t, ts, k, tranche, r, ai):
     return f"Bought SN{k} tranche {p['tranches']} ({r['setup']}): {tranche:.3f} τ"
 
 
+# ------------------------------------------------------------------ altcoin account
+
+def alt_prices(alt, held_ids):
+    """Price, volume and scan record for every coin the scan saw, plus a CoinGecko lookup for held
+    coins it didn't (a winner that grew past the scan's cap band, or one that collapsed below it)."""
+    seen = {}
+    for v in (alt or {}).get("universe") or []:
+        seen[v["id"]] = v
+    for key in ("pregrad", "utility", "meme"):
+        for v in (alt or {}).get(key) or []:
+            seen[v["id"]] = {**seen.get(v["id"], {}), **v, "checked": True}
+    missing = [i for i in held_ids if not (seen.get(i) or {}).get("price")]
+    if missing:
+        try:
+            from .fetch_crypto import CG, CG_HEADERS
+            from .http import get_json
+            got = get_json(f"{CG}/simple/price", params={"ids": ",".join(missing), "vs_currencies": "usd", "include_24hr_vol": "true"},
+                           headers=CG_HEADERS, retries=2)
+            for i, x in (got or {}).items():
+                if x.get("usd"):
+                    seen[i] = {**seen.get(i, {"id": i}), "price": x["usd"], "volume": x.get("usd_24h_vol")}
+        except Exception as e:
+            print(f"  bot alt prices: {e}")
+    return seen
+
+
+def alt_equity(acct, seen):
+    return acct["cash"] + sum(p["qty"] * ((seen.get(p["id"]) or {}).get("price") or p.get("mark") or p["entry"]) for p in acct["positions"])
+
+
+def _alt_blocked(v, a):
+    return [f for f in v.get("flags") or [] if any(f.startswith(b) for b in a["block_flags"])]
+
+
+def alt_step(acct, alt, cfg, t, regime):
+    a = cfg["alt"]
+    fee = a["fee_pct"] / 100
+    held_ids = [p["id"] for p in acct["positions"]]
+    seen = alt_prices(alt, held_ids)
+    fresh = bool(alt) and not alt.get("stale")
+    actions, proposals = [], []
+
+    def sell(p, frac, price, reason, rule):
+        v = seen.get(p["id"]) or {}
+        qty, cost = p["qty"] * frac, p["cost"] * frac
+        s = _slip(qty * price, v.get("volume"))
+        fill = price * (1 - s)
+        proceeds = qty * fill * (1 - fee)
+        pnl = proceeds - cost
+        acct["cash"] += proceeds
+        tr = {"type": "Close", "t": t, "pid": p["pid"], "id": p["id"], "symbol": p["symbol"], "setup": p["setup"], "dir": "long",
+              "price": fill, "size": proceeds, "pnl": pnl, "pnl_pct": pnl / cost * 100, "cost": cost, "opened": p["opened"],
+              "held": t - p["opened"], "reason": reason, "rule": rule, "size_pct": p["size_pct"], "entry_reason": p["reason"],
+              "multiple": price / p["entry"], "mfe_pct": (p.get("hi", p["entry"]) / p["entry"] - 1) * 100,
+              "mae_pct": (p.get("lo", p["entry"]) / p["entry"] - 1) * 100}
+        if frac < 0.999:
+            tr["partial"] = frac
+            p["qty"] -= qty
+            p["cost"] -= cost
+        else:
+            acct["positions"].remove(p)
+        acct["trades"].append(tr)
+        actions.append(f"Sold {'all' if frac >= 0.999 else f'{frac:.0%}'} of {p['symbol']} ({reason}): {pnl:+,.2f} USD")
+
+    # Exits: take-profit ladder, thesis breaks, meme volume drying up, no price at all.
+    for p in list(acct["positions"]):
+        v = seen.get(p["id"]) or {}
+        price = v.get("price")
+        if not price:
+            p["no_price"] = p.get("no_price", 0) + 1
+            if p["no_price"] >= a["no_price_ticks"]:
+                sell(p, 1.0, (p.get("mark") or p["entry"]) * 0.5, "No price",
+                     f"No price for {p['no_price']} refreshes in a row (possible delisting); written down to half the last price.")
+            continue
+        p["no_price"], p["mark"] = 0, price
+        p["hi"], p["lo"] = max(p.get("hi", p["entry"]), price), min(p.get("lo", p["entry"]), price)
+        mult = price / p["entry"]
+        # Take-profit ladder: at 2x sell half (the stake back), then a quarter of what's left at 5x and at 10x.
+        while p["tp_done"] < len(a["take_profits"]) and mult >= a["take_profits"][p["tp_done"]][0]:
+            x, frac = a["take_profits"][p["tp_done"]]
+            p["tp_done"] += 1
+            sell(p, frac, price, f"Take-profit {x:g}x", f"Price reached {x:g}x the average entry; sold {frac:.0%} of the position.")
+        if p not in acct["positions"]:
+            continue
+        te = a["thesis_exit"]
+        why = []
+        if v.get("checked") and v.get("score") is not None and v["score"] < te["score_below"]:
+            why.append(f"scan score fell to {v['score']} (entry {p['entry_score']}, exit below {te['score_below']})")
+        bad = [f for f in v.get("flags") or [] if any(f.startswith(b) for b in te["flags"])]
+        if bad:
+            why.append("; ".join(bad))
+        liq = ((v.get("pool") or {}).get("total_liq") or (v.get("pool") or {}).get("liquidity"))
+        if liq and p.get("entry_liq") and liq < p["entry_liq"] * (1 - te["pool_liq_drop_pct"] / 100):
+            why.append(f"DEX liquidity down {(1 - liq / p['entry_liq']) * 100:.0f}% since entry (liquidity pulled)")
+        if why:
+            sell(p, 1.0, price, "Thesis exit", "Thesis broke: " + "; ".join(why) + ".")
+            continue
+        if p["meme"] and p.get("entry_volume") and v.get("volume") is not None:
+            if v["volume"] < p["entry_volume"] * a["meme_volume_dry_pct"] / 100:
+                p.setdefault("dry_since", t)
+                if t - p["dry_since"] > a["meme_volume_dry_days"] * 86400000:
+                    sell(p, 1.0, price, "Volume dried up", f"Meme coin volume under {a['meme_volume_dry_pct']}% of its entry level for {a['meme_volume_dry_days']} days.")
+                    continue
+            else:
+                p.pop("dry_since", None)
+
+    if not fresh:
+        actions.append("Altcoin scan didn't refresh this run: no new altcoin buys.")
+        return actions, proposals, seen
+
+    # Entries: second halves first (same plan, a few days later, story intact), then new coins.
+    eq = alt_equity(acct, seen)
+    for p in acct["positions"]:
+        v = seen.get(p["id"]) or {}
+        if p["halves"] >= 2 or p["tp_done"] or t - p["last_buy"] < a["second_half_after_days"] * 86400000 or not v.get("checked"):
+            continue
+        if v.get("score") is None or v["score"] < p["entry_score"] - a["second_half_max_score_drop"] or _alt_blocked(v, a):
+            if t - p["last_buy"] > a["second_half_window_days"] * 86400000:
+                p["halves"] = 2  # window passed with the story weaker: skip the second half for good
+                actions.append(f"Skipped the second half of {p['symbol']}: the story weakened (score {v.get('score')} vs {p['entry_score']} at entry).")
+            continue
+        size = min(p["first_size"], acct["cash"])
+        if size <= 0:
+            continue
+        proposals.append({"account": "alt", "asset": p["symbol"], "setup": p["setup"] + " · second half", "size": round(size, 2), "unit": "USD",
+                          "rule_reason": f"Second half, {(t - p['last_buy']) / 86400000:.0f} days after the first; score {v['score']} (entry {p['entry_score']}).",
+                          "context": {k: v.get(k) for k in ("name", "price", "mcap", "volume", "ch7", "ch30", "score", "passed_pct", "flags", "meme")},
+                          "_do": ("second", p, v, size, f"Second half, score {v['score']} (entry {p['entry_score']}).")})
+
+    held = {p["id"] for p in acct["positions"]}
+    held |= {x["id"] for x in acct["trades"] if x["type"] == "Close" and t - x["t"] < a["cooldown_days"] * 86400000}
+    n_meme = sum(1 for p in acct["positions"] if p["meme"])
+    room = a["max_positions"] - len(acct["positions"])
+    cands = []
+    for key, label in (("pregrad", "Pre-graduation"), ("utility", "Utility"), ("meme", "Meme")):
+        for i, v in enumerate((alt.get(key) or [])[: a["top_n"]]):
+            if v["id"] in held or not v.get("price") or (v.get("volume") or 0) < a["min_volume_usd"]:
+                continue
+            if (v.get("score") or 0) < a["min_score"] or (v.get("passed_pct") or 0) < a["min_pass_pct"] or _alt_blocked(v, a):
+                continue
+            cands.append((key, label, v))
+            held.add(v["id"])
+    n_new = 0
+    for key, label, v in cands:
+        if n_new >= min(room, a["max_new_per_tick"]):
+            break
+        if v.get("meme") and n_meme >= a["max_meme_positions"]:
+            continue
+        size = eq * a["position_pct"]["meme" if v.get("meme") else "utility"] / 100 / 2  # first of two halves
+        if size > acct["cash"] or size <= 0:
+            continue
+        passed = [c["label"] for c in v.get("checks") or [] if c.get("ok")]
+        why = (f"{label}{' (meme)' if v.get('meme') and key != 'meme' else ''}: scan score {v['score']}, passes {v['passed_pct']}% of the checklist"
+               + (f" ({', '.join(passed[:4])})" if passed else "") + f"; mcap ${v.get('mcap', 0) / 1e6:,.1f}M, 24h volume ${v.get('volume', 0) / 1e6:,.2f}M.")
+        if key == "pregrad" and v.get("buying_why"):
+            why += " Buying picking up: " + "; ".join(v["buying_why"][:2]) + "."
+        n_new += 1
+        n_meme += 1 if v.get("meme") else 0
+        proposals.append({"account": "alt", "asset": v["symbol"], "setup": f"Altcoin: {label.lower()}", "size": round(size, 2), "unit": "USD", "rule_reason": why,
+                          "context": {k: v.get(k) for k in ("name", "price", "mcap", "fdv_ratio", "volume", "turnover", "ch7", "ch30", "score",
+                                                            "passed_pct", "flags", "meme", "buying_why")} | {"regime": regime},
+                          "_do": ("new", label, v, size, why)})
+    return actions, proposals, seen
+
+
+def alt_open(acct, cfg, t, kind, x, v, size, why, ai, seen, regime):
+    a = cfg["alt"]
+    fee = a["fee_pct"] / 100
+    sl = _slip(size, v.get("volume"))
+    fill = v["price"] * (1 + sl)
+    qty = size * (1 - fee) / fill
+    eq = alt_equity(acct, seen)
+    acct["cash"] -= size
+    if kind == "second":
+        p = x
+        p["entry"] = (p["entry"] * p["qty"] + fill * qty) / (p["qty"] + qty)  # average entry, for the take-profit multiples
+        p["qty"] += qty
+        p["cost"] += size
+        p["halves"], p["last_buy"] = 2, t
+        p["size_pct"] = round(p["size_pct"] + size / eq * 100, 2)
+        setup = p["setup"]
+    else:
+        label = x
+        pool = v.get("pool") or {}
+        setup = f"Altcoin: {label.lower()}"
+        p = {"pid": acct["next_id"], "id": v["id"], "symbol": v["symbol"], "name": v.get("name"), "setup": setup, "meme": bool(v.get("meme")),
+             "qty": qty, "entry": fill, "cost": size, "first_size": size, "opened": t, "last_buy": t, "halves": 1, "tp_done": 0,
+             "size_pct": round(size / eq * 100, 2), "entry_score": v.get("score"), "entry_volume": v.get("volume"),
+             "entry_liq": pool.get("total_liq") or pool.get("liquidity"), "entry_regime": regime, "mark": v["price"], "hi": fill, "lo": fill,
+             "reason": why, "ai": ai}
+        acct["next_id"] += 1
+        acct["positions"].append(p)
+    acct["trades"].append({"type": "Open", "t": t, "pid": p["pid"], "id": p["id"], "symbol": p["symbol"], "setup": setup, "dir": "long",
+                           "price": fill, "size": size, "slip": sl * 100, "reason": why, "ai": ai, "regime": regime})
+    return p, f"Bought {p['symbol']} ({setup}{', second half' if kind == 'second' else ''}): {size:,.0f} USD"
+
+
 # ------------------------------------------------------------------ AI review of entries
 
 SYSTEM = """You are the risk reviewer for a paper trading bot (simulated money only). \
 Each refresh, fixed rules propose new entries. For each proposal decide "take" or "skip". \
 Skip when the data shows a concrete problem the rule missed: the move looks exhausted or news-driven, \
 liquidity is thin for the size, it duplicates exposure the bot already has, the regime argues against it, \
-or the evidence is contradictory. Otherwise take it; the rules are the strategy, you are the check, so do \
+or the evidence is contradictory. Altcoin-account entries are deliberately small, high-risk bets on small caps sized so a total loss is acceptable: judge them on the scan's evidence (red flags, liquidity, a story that doesn't hold up), not on volatility or the chance of losing the stake. Otherwise take it; the rules are the strategy, you are the check, so do \
 not skip just because outcomes are uncertain. Ground every reason in the numbers given, in one or two sentences. \
 confidence is 1 (coin flip) to 5 (clear). Also write a two-sentence note on what the bot is doing this refresh."""
 
@@ -468,9 +665,12 @@ def ai_review(proposals, context):
 
 # ------------------------------------------------------------------ run
 
-def run(crypto_sig, tao_sig, ts):
+def run(crypto_sig, tao_sig, ts, alt=None):
     cfg = config()
     state = load_state(cfg)
+    if cfg.get("alt") and "alt" not in state:
+        state["alt"] = {"start": cfg["alt"]["start_usd"], "cash": cfg["alt"]["start_usd"], "positions": [], "trades": [], "equity": [], "next_id": 1,
+                        "created": now_ms()}
     t = now_ms()
     last = state.get("last_tick")
     gap = float(os.environ.get("BOT_MIN_HOURS", cfg["min_hours_between_ticks"]))
@@ -488,6 +688,11 @@ def run(crypto_sig, tao_sig, ts):
         a, p, regimes["tao"] = tao_step(state["tao"], tao_sig, cfg, t, ts)
         actions += a
         proposals += p
+    seen = None
+    if cfg.get("alt") and (alt or state["alt"]["positions"]):
+        a, p, seen = alt_step(state["alt"], alt, cfg, t, regimes.get("crypto"))
+        actions += a
+        proposals += p
 
     context = {
         "crypto_regime": (crypto_sig or {}).get("regime", {}).get("label") if crypto_sig else None,
@@ -495,6 +700,7 @@ def run(crypto_sig, tao_sig, ts):
         "tao_plan_regime": ((tao_sig or {}).get("plan") or {}).get("regime", {}).get("title") if tao_sig else None,
         "crypto_holdings": [p["symbol"] for p in state["crypto"]["positions"]],
         "tao_holdings": [f"SN{k}" for k in state["tao"]["positions"]],
+        "alt_holdings": [p["symbol"] for p in (state.get("alt") or {}).get("positions", [])],
         "exits_this_refresh": actions,
         "headlines": [h.get("title") for h in ((crypto_sig or {}).get("news") or {}).get("crypto", [])[:15]],
     }
@@ -508,6 +714,8 @@ def run(crypto_sig, tao_sig, ts):
             continue
         if p["account"] == "crypto":
             actions.append(crypto_open(state["crypto"], cfg, t, *p["_do"], ai))
+        elif p["account"] == "alt":
+            actions.append(alt_open(state["alt"], cfg, t, *p["_do"], ai, seen, regimes.get("crypto"))[1])
         else:
             actions.append(tao_open(state["tao"], tao_sig, cfg, t, ts, *p["_do"], ai))
 
@@ -523,7 +731,11 @@ def run(crypto_sig, tao_sig, ts):
             if int(k) in subs:
                 p["mark"] = subs[int(k)]["price_tao"]
                 p["name"] = subs[int(k)]["name"]
-    for k in ("crypto", "tao"):
+    if seen is not None:
+        state["alt"]["equity"].append({"t": t, "v": round(alt_equity(state["alt"], seen), 2)})
+    for k in ("crypto", "tao", "alt"):
+        if k not in state:
+            continue
         state[k]["trades"] = state[k]["trades"][-KEEP_TRADES:]
         state[k]["equity"] = state[k]["equity"][-KEEP_EQUITY:]
     state["ticks"] = (state["ticks"] + [{"t": t, "ts": ts, "regimes": regimes, "actions": actions, "skipped": skipped,

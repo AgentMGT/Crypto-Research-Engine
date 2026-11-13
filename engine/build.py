@@ -260,8 +260,10 @@ def build_altcoins(e, ts, crypto_sig):
             traceback.print_exc()
     if alt is None and (DATA / "alt-latest.json").exists():
         alt = json.loads((DATA / "alt-latest.json").read_text())
+        alt["stale"] = True  # last good scan: the page shows it, the bot doesn't buy on it
     (OUT / "altcoins.html").write_text(e.get_template("altcoins.html").render(
         edition="alt", updated=ts, alt=alt, errors=(alt or {}).get("errors") or []))
+    return alt
 
 
 def build_research(e, ts):
@@ -290,17 +292,18 @@ def main():
             built.append((name, None))
 
     sigs = dict(built)
+    # Before the bot, so its altcoin account trades on this run's scan.
+    alt = build_altcoins(e, ts, sigs.get("crypto"))
     if any(sigs.values()):
         try:
             print("== paper trading bot")
-            bstate = bot.run(sigs.get("crypto"), sigs.get("tao"), ts)
+            bstate = bot.run(sigs.get("crypto"), sigs.get("tao"), ts, alt)
             print("== live trading (mirrors the bot; dry run unless armed)")
             live.run(bstate, sigs.get("crypto"), sigs.get("tao"))
         except Exception:
             # The bot must never stop the site from deploying.
             traceback.print_exc()
 
-    build_altcoins(e, ts, sigs.get("crypto"))
     build_research(e, ts)
     for name in ("altcoins.js", "style.css", "app.js", "research.js", "paper.js", "paper-crypto.js", "review.js", "trades.js", "journal.js", "bot.js", "wallets.js"):
         src = ROOT / "static" / name
