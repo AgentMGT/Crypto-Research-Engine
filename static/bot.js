@@ -1,4 +1,4 @@
-// Paper trading bot tab: renders the bot's two accounts from bot.json (written by engine/bot.py).
+// Paper trading bot tab: renders the bot's accounts from bot.json (written by engine/bot.py).
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   if (!$("bt-main")) return;
@@ -87,6 +87,24 @@
       }).join("") + "</tbody></table></div>" : '<p class="sub">No open positions.</p>';
     $("bt-t-eq").innerHTML = equitySvg(t.equity, t.start, "τ");
 
+    // Altcoin account
+    var al = d.alt;
+    if (al) {
+      $("bt-a").hidden = false;
+      var aOpen = al.positions.reduce(function (s, p) { return s + p.qty * (p.mark || p.entry) - p.cost; }, 0);
+      var aEq = al.equity.length ? al.equity[al.equity.length - 1].v : al.start, as = stats(al.trades.filter(function (x) { return x.type === "Close"; }));
+      $("bt-a-cards").innerHTML = card("Account value", money(aEq, "$"), sgn((aEq / al.start - 1) * 100, "%") + " since start") +
+        card("Open P&amp;L", sgn(aOpen, "$"), al.positions.length + " coins") +
+        card("Realized P&amp;L", sgn(as.total, "$"), as.n ? as.wins + " of " + as.n + " won" : "no closed trades yet");
+      $("bt-a-pos").innerHTML = al.positions.length ? '<div class="tablewrap"><table><thead><tr><th class="l">Coin</th><th class="l">Setup</th><th>Halves</th><th>Entry</th><th>Now</th><th>Multiple</th><th>Cost</th><th class="l">Opened</th></tr></thead><tbody>' +
+        al.positions.map(function (p) {
+          var now = p.mark || p.entry;
+          return '<tr><td class="l"><b>' + esc(p.symbol) + "</b>" + (p.meme ? ' <span class="faint">meme</span>' : "") + '</td><td class="l">' + esc(p.setup) + "</td><td>" + p.halves + "/2</td><td>$" + px(p.entry) + "</td><td>$" + px(now) +
+            "</td><td>" + sgn((now / p.entry - 1) * 100, "%") + " · " + n(now / p.entry, 2) + "x</td><td>" + money(p.cost, "$") + '</td><td class="l">' + stamp(p.opened).slice(0, 10) + "</td></tr>";
+        }).join("") + "</tbody></table></div>" : '<p class="sub">No open positions yet. It buys when the altcoin scan turns up a coin that passes the plan\'s checks.</p>';
+      $("bt-a-eq").innerHTML = equitySvg(al.equity, al.start, "$");
+    }
+
     // Trade log, both accounts
     var log = c.trades.map(function (x) {
       return { t: x.t, acct: "Crypto", act: x.type === "Open" ? "Buy" : "Sell · " + x.reason, asset: x.symbol, setup: x.setup, size: money(x.size, "$"),
@@ -94,6 +112,9 @@
     }).concat(t.trades.map(function (x) {
       return { t: x.t, acct: "Bittensor", act: x.side === "Buy" ? "Buy · tranche " + x.tranche : "Sell · " + x.reason, asset: "SN" + x.netuid + " " + x.name, setup: x.setup || "",
         size: money(x.tao, "τ"), pnl: x.side === "Sell" ? sgn(x.pnl, "τ") + " " + sgn(x.pnl_pct, "%") : "", why: x.side === "Buy" ? x.reason : x.rule, ai: x.ai, open: x.side === "Buy" };
+    })).concat(((d.alt || {}).trades || []).map(function (x) {
+      return { t: x.t, acct: "Altcoins", act: x.type === "Open" ? "Buy" : "Sell · " + x.reason, asset: x.symbol, setup: x.setup, size: money(x.size, "$"),
+        pnl: x.type === "Close" ? sgn(x.pnl, "$") + " " + sgn(x.pnl_pct, "%") : "", why: x.type === "Open" ? x.reason : x.rule, ai: x.ai, open: x.type === "Open" };
     })).sort(function (a, b) { return b.t - a.t; });
     $("bt-trades").innerHTML = log.length ? '<div class="tablewrap"><table class="bt-log"><thead><tr><th class="l">When (UTC)</th><th class="l">Account</th><th class="l">Order</th><th class="l">Asset</th><th>Size</th><th>P&amp;L</th><th class="l">Why</th><th class="l">AI reviewer</th></tr></thead><tbody>' +
       log.slice(0, 300).map(function (r) {

@@ -804,7 +804,9 @@ def build(crypto_sig, crypto_data):
                                     "pregrad_accel", "pregrad_min_pass_pct")},
         "utility": [slim(v) for v in ranked_util[: cfg["show_utility"]]],
         "meme": [slim(v) for v in ranked_meme[: cfg["show_meme"]]],
-        "universe": [{k: v.get(k) for k in ("id", "symbol", "name", "mcap", "volume", "fdv_ratio", "ch7", "ch30", "tvl", "meme", "score", "cats")}
+        "universe": [{k: v.get(k) for k in ("id", "symbol", "name", "price", "mcap", "volume", "fdv_ratio", "ch7", "ch30", "tvl", "meme", "score", "cats",
+                                        "flags")} | {"checked": bool(v.get("detail")),
+                     "pool": {k: (v.get("pool") or {}).get(k) for k in ("liquidity", "total_liq")} if v.get("pool") else None}
                      for v in sorted(views, key=lambda v: -v["score"])],
         "dex": dex_rows[:20],
         "dexscreener": dexs,
