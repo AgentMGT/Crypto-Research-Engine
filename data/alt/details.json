@@ -1472,21 +1472,23 @@
    "Gate",
    "Indodax",
    "Kanga Global",
-   "MEXC"
+   "MEXC",
+   "OKJ"
   ],
-  "cex_count": 4,
+  "cex_count": 5,
   "chat": "https://t.me/DEAP001",
   "commits_4w": null,
   "description": "The entertaining platform \u201cPlayMining\u201d allows users to acquire the cryptocurrency through enjoying games and cartoons that are available for free on the platform; simultaneously, the roles and goods within will be sold as the cryptocurrency, and used for second transaction among users through Digital Art Auction, which adopts ERC721 private blockchain to manage securely users cryptocurrency. The ERC20-based token DEP will be used for transaction, within which the part of it will be return to the creators. The concept of distributing cryptocurrency to users can attract a large amount of users across the world to participate in, and thereby building the DEP ecosystem.",
   "dex": [
    "ApeSwap",
+   "KnightSwap",
    "Mdex BSC",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-11-12T03:05:27.498906+00:00",
+  "fetched": "2026-11-13T14:35:19.590895+00:00",
   "genesis": null,
   "github": "https://github.com/Digita-Entertainment-Asset/DEP",
   "homepage": "https://dea.sg/",
@@ -1503,7 +1505,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
-  "watchers": 10319
+  "watchers": 10318
  },
  "dessa": {
   "categories": [
@@ -2130,6 +2132,55 @@
   "twitter_followers": null,
   "watchers": 1280
  },
+ "gitcoin": {
+  "categories": [
+   "Near Protocol Ecosystem",
+   "Ethereum Ecosystem",
+   "Paradigm Portfolio",
+   "Governance"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Balancer V2",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "Bithumb",
+   "Bitlo",
+   "Bittime",
+   "CoinW",
+   "Coinbase Exchange",
+   "Crypto.com Exchange"
+  ],
+  "cex_count": 26,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Gitcoin is a platform to fund builders looking for meaningful, open source work.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/gitcoin",
+  "explorer": "https://etherscan.io/token/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
+  "fetched": "2026-11-13T14:36:29.450939+00:00",
+  "genesis": null,
+  "github": "https://github.com/gitcoinco",
+  "homepage": "https://gitcoin.co/",
+  "platforms": [
+   "ethereum",
+   "near-protocol"
+  ],
+  "reddit": "https://www.reddit.com/r/gitcoincommunity",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/gitcoin",
+  "twitter_followers": null,
+  "watchers": 18114
+ },
  "green-morning": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -2205,6 +2256,47 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 104
+ },
+ "hims-hers-health-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "CommunityV3",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "HIMSon is the Ondo Tokenized version of Hims &amp; Hers Health, giving tokenholders economic exposure similar to holding HIMS and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xCa468554e5C0423Ee858fe3942c9568C51FcAa79",
+  "fetched": "2026-11-13T14:35:15.375581+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/himson",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 141
  },
  "hodl-7": {
   "categories": [
@@ -2728,10 +2820,9 @@
   "cex": [
    "Coinbase Exchange",
    "Gate",
-   "KuCoin",
-   "LATOKEN"
+   "KuCoin"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "At its core, Kryll features innovative technology that unifies data access and thought flow, skillfully combining Web3 data with AI capabilities. This enables Kryll\u00b3 to offer comprehensive coverage of crypto markets and projects, along with advanced analysis and decision-making tools, simplifying the complex ecosystem.\n\nThe KRL token is essential to the Kryll\u00b3 ecosystem, unlocking exclusive features, serving as a payment method, and enabling participation in governance decisions.\n\nKey tools include SmartFolio, an AI-powered portfolio manager that tracks and analyzes digital assets across multiple blockchains, providing real-time insights for optimized investments.\n\nX-Ray is a market analysis tool using AI to evaluate tokens, offering details on smart contracts, on-chain data, social activity, and financial indicators.\n\nGem Detector identifies emerging high-potential tokens through multi-chain surveillance and deep learning algorithms. Harpoon monitors top traders' strategies and transactions, offering insights into smart money movements.\n\nNews Hub centralizes dozens of information sources into a unified, queryable platform for news and updates, enhancing decision-making processes.\n\nKryll\u00b3 also offers its partners a revolutionary tool: Agent K. K is a conversational agent integrated into Web3 platforms and media sites, enabling natural language interaction with content. It makes complex concepts accessible to a wider audience, which is particularly beneficial for beginners.",
@@ -2742,7 +2833,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-11-11T00:46:58.235003+00:00",
+  "fetched": "2026-11-13T14:35:22.965090+00:00",
   "genesis": null,
   "github": "https://github.com/Cryptense/KryllToken",
   "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
@@ -2759,7 +2850,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/kryll_io",
   "twitter_followers": null,
-  "watchers": 5370
+  "watchers": 5371
  },
  "laqira-protocol": {
   "categories": [
@@ -3309,7 +3400,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/112/chart",
-  "fetched": "2026-11-10T04:09:46.519241+00:00",
+  "fetched": "2026-11-13T14:36:35.919206+00:00",
   "genesis": null,
   "github": "https://github.com/subnet112/minotaur_subnet",
   "homepage": "https://thormachines.ai/",
@@ -3462,6 +3553,49 @@
   "twitter": "https://x.com/myshell_ai",
   "twitter_followers": null,
   "watchers": 3909
+ },
+ "mysterium": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Polygon Ecosystem",
+   "Ethereum Ecosystem",
+   "Telegram Apps",
+   "DePIN",
+   "Cybersecurity",
+   "Privacy Infrastructure",
+   "Privacy"
+  ],
+  "cex": [
+   "MEXC"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Launched on 02/03/2022 by a team based in the United States, Mystery is a community token that rewards its holders with massive draws while making its token deflationary by burning tokens used to purchase tickets to the draw.",
+  "dex": [
+   "Quickswap",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Polygon)"
+  ],
+  "discord": "https://discordapp.com/invite/n3vtSwc",
+  "explorer": "https://etherscan.io/token/0x4cf89ca06ad997bc732dc876ed2a7f26a9e7f361",
+  "fetched": "2026-11-13T14:34:08.870606+00:00",
+  "genesis": "2017-06-13",
+  "github": "https://github.com/MysteriumNetwork/node",
+  "homepage": "https://mysterium.network/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "polygon-pos"
+  ],
+  "reddit": "https://www.reddit.com/r/MysteriumNetwork/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/mysterium_network",
+  "telegram_users": null,
+  "twitter": "https://x.com/MysteriumNet",
+  "twitter_followers": null,
+  "watchers": 4803
  },
  "natix-network": {
   "categories": [
@@ -3815,6 +3949,37 @@
   "twitter_followers": null,
   "watchers": 30302
  },
+ "obligate-trade-finance-yield": {
+  "categories": [
+   "Solana Ecosystem",
+   "Real World Assets (RWA)"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://medium.com/@obligate",
+  "commits_4w": null,
+  "description": "oTFY is a yield-accruing RWA token providing exposure to a diversified, revolving portfolio of investment-grade digital bonds. The bonds finance asset-backed physical commodity transactions managed by a Singapore-based investment manager. They are issued by a Luxembourg securitization vehicle as Swiss-law ledger-based securities, with Obligate acting as product sponsor.\n\nNear-term priorities include additional on-chain money-market integrations \u2014 such as a dedicated Morpho lending market alongside the existing Kamino market \u2014 and inclusion in multi-issuer RWA vaults, giving holders more venues to use oTFY as collateral and to earn yield",
+  "dex": [
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/BwB3tNH92jKw6naNGDYDbDwRo8bvYxZVvZjRZRcoWR2h",
+  "fetched": "2026-11-13T14:36:32.692867+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.obligate.com/otfy",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/ObligateAG",
+  "telegram_users": null,
+  "twitter": "https://x.com/obligatecom",
+  "twitter_followers": null,
+  "watchers": 16
+ },
  "opengradient": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4071,55 +4236,6 @@
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
   "watchers": 16931
- },
- "propy": {
-  "categories": [
-   "Tokenized Real Estate",
-   "Tokenized Assets",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Base Ecosystem",
-   "Made in USA",
-   "Base Native"
-  ],
-  "cex": [
-   "Bitrue",
-   "Bitunix",
-   "CoinUp.io",
-   "Coinbase Exchange",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin",
-   "MEXC"
-  ],
-  "cex_count": 9,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Propy is a decentralized real-estate market place backed by superior blockchain infrastructure to facilitate real-time unified transaction in order to reduce fraud and redundancy. Propy is the world\u2019s first international real-estate marketplace.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "Uniswap V3 (Base)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-11-10T04:09:40.100052+00:00",
-  "genesis": "2017-07-18",
-  "github": "https://github.com/Propy/ethereum",
-  "homepage": "https://propy.com",
-  "platforms": [
-   "base",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/propy",
-  "telegram_users": null,
-  "twitter": "https://x.com/PropyInc",
-  "twitter_followers": null,
-  "watchers": 23072
  },
  "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
   "categories": [
@@ -4505,6 +4621,38 @@
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
+  "twitter_followers": null,
+  "watchers": 109
+ },
+ "rocco": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Rocco stands alert in full tactical gear, a loyal police dog ready for duty. His sturdy build and focused gaze show years of training, while the armored vest, sturdy harness, and specialized equipment fit him perfectly for high-stakes work. Each day he protects his handler and the community with unwavering bravery, sharp instincts, and precise skill. Whether tracking suspects, securing perimeters, or responding to threats, Rocco moves with disciplined confidence. His calm demeanor under pressure and deep bond with his partner make him an indispensable member of the unit, always prepared to serve with heart and excellence.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x10FdF1c42BCDB1De5DA1393176DbD0fA3892d2dd",
+  "fetched": "2026-11-13T14:34:05.638883+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.roccothedog.fun",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 33.33,
+  "stars": null,
+  "telegram": "https://t.me/k9roccodog",
+  "telegram_users": null,
+  "twitter": "https://x.com/k9roccodogx",
   "twitter_followers": null,
   "watchers": 109
  },
@@ -4940,6 +5088,45 @@
   "twitter_followers": null,
   "watchers": 10165
  },
+ "starpower": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "DePIN",
+   "Binance Alpha Spotlight",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "Aster",
+   "KCEX"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (BSC)"
+  ],
+  "discord": "https://discord.com/invite/starpowernetwork",
+  "explorer": "https://solscan.io/token/STARqri3xhy6Pyv1EpgdjkPDVcs9FncKcaEP6527krs",
+  "fetched": "2026-11-13T14:36:26.254631+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.starpower.world/",
+  "platforms": [
+   "binance-smart-chain",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/starpowerworld",
+  "twitter_followers": null,
+  "watchers": 330
+ },
  "stp-network": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -5061,7 +5248,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
-  "fetched": "2026-11-11T21:27:08.247663+00:00",
+  "fetched": "2026-11-13T14:34:02.356179+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.stonkfun.xyz/token/DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
@@ -5075,7 +5262,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 591
+  "watchers": 595
  },
  "super-inu-3": {
   "categories": [
@@ -5845,7 +6032,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-11-12T03:00:32.433238+00:00",
+  "fetched": "2026-11-13T14:33:58.912675+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
@@ -5860,6 +6047,56 @@
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
   "watchers": 657
+ },
+ "yield-basis": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "CoinW"
+  ],
+  "cex_count": 28,
+  "chat": null,
+  "commits_4w": null,
+  "description": "YieldBasis enables users to provide BTC as liquidity in an AMM pool without impermanent loss (IL), while still earning trading fees.",
+  "dex": [
+   "Curve (Ethereum)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x01791F726B4103694969820be083196cC7c045fF",
+  "fetched": "2026-11-13T14:35:12.109994+00:00",
+  "genesis": null,
+  "github": "https://github.com/yield-basis",
+  "homepage": "https://yieldbasis.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/yieldbasis",
+  "telegram_users": null,
+  "twitter": "https://x.com/yieldbasis",
+  "twitter_followers": null,
+  "watchers": 2366
  },
  "zentry": {
   "categories": [
