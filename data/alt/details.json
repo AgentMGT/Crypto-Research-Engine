@@ -709,6 +709,45 @@
   "twitter_followers": null,
   "watchers": 23876
  },
+ "bobo-coin-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem",
+   "4chan-Themed"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "XT.COM"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Bobo Coin is a meme Solana token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
+  "fetched": "2026-11-13T02:26:37.338190+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://bobothebear.io",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/bobocouncil",
+  "twitter_followers": null,
+  "watchers": 431
+ },
  "brickken": {
   "categories": [
    "Tokenized Assets",
@@ -1178,6 +1217,59 @@
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
   "watchers": 133
+ },
+ "clearpool": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Solana Ecosystem",
+   "DaoMaker Launchpad",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Sequoia Capital Portfolio",
+   "Binance Alpha Spotlight",
+   "Made in USA"
+  ],
+  "cex": [
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bittime",
+   "Bitvavo",
+   "Bybit",
+   "DigiFinex",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "Mudrex"
+  ],
+  "cex_count": 15,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Clearpool is a decentralized capital markets ecosystem, where institutional borrowers can access unsecured loans directly from the DeFi ecosystem. Clearpool introduces a dynamic interest model driven by market supply and demand forces.\n\nLiquidity providers on Clearpool can earn attractive yields, with pool interest rates enhanced by additional LP rewards paid in CPOOL - Clearpool's utility and governance token.\n\nClearpool LP tokens, called cpTokens, are the building blocks for a system of tokenized credit that will provide Clearpool LPs with risk management and hedging capabilities.\n\nAs more institutions begin to realize the benefits that decentralized finance can bring to their organizations, Clearpool will provide the new architecture to facilitate flows between the $120 trillion traditional capital markets, and the burgeoning DeFi ecosystem.\n\nThe CPOOL Token\n\n- CPOOL is the utility and governance token for the Clearpool protocol.\n- CPOOL holders will vote on the whitelisting of new borrowers, a process that will qualify participants to earn additional CPOOL through an incentive reward scheme.\n- Eventually, a full system of decentralized governance will be introduced, allowing CPOOL holders to propose, vote and implement future changes and upgrades to the protocol.\n- CPOOL staking will be a required action for borrowers, who must stake an amount of CPOOL to access the area of the protocol where they can make a proposal to be whitelisted.\nLiquidity providers earn additional ",
+  "dex": [
+   "Raydium (CLMM)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+  "fetched": "2026-11-13T02:27:40.639633+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://clearpool.finance/",
+  "platforms": [
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/clearpoolofficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/ClearpoolFin",
+  "twitter_followers": null,
+  "watchers": 39174
  },
  "codec-flow": {
   "categories": [
