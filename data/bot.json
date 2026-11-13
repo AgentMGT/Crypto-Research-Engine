@@ -1,5 +1,5 @@
 {
-  "_note": "Rules for the paper trading bot (engine/bot.py). It trades two simulated accounts on each refresh; nothing here touches a real exchange or wallet. Edit and push to change the rules.",
+  "_note": "Rules for the paper trading bot (engine/bot.py). It trades two simulated accounts on each refresh; nothing here touches a real exchange or wallet. Edit and push to change the rules. Changes of 12 Nov 2026 come from the three-week review (Trading Bot Review – 12 Nov 2026); next review early Dec.",
   "min_hours_between_ticks": 3,
   "crypto": {
     "start_usd": 10000,
@@ -9,6 +9,15 @@
     "cooldown_hours": 24,
     "min_volume_usd": 20000000,
     "max_rank": 200,
+    "exclude_tags": ["Pegged"],
+    "risk": {
+      "_note": "Guardrails across the account. Open risk = what all positions lose if every stop is hit from here.",
+      "max_open_risk_pct": 5,
+      "max_trend_positions": 4,
+      "breaker_losses_in_row": 4,
+      "breaker_pause_hours": 72,
+      "breaker_week_loss_pct": 5
+    },
     "setups": {
       "trend": {
         "label": "Trend: momentum leader",
@@ -16,10 +25,15 @@
         "stop_pct": 8,
         "target_pct": 20,
         "max_hold_days": 14,
-        "min_score": 25,
+        "min_score": 80,
         "tags_any": ["Momentum leader", "Breaking 7d high", "Pullback in uptrend"],
         "tags_none": ["Overbought", "Heavy selling"],
-        "regimes": ["Risk-on", "Neutral"]
+        "regimes": ["Risk-on"],
+        "regime_confirm_hours": 72,
+        "require": {"rs7_min": 0, "rs30_min": 0, "ch30_min": 0, "above_7d_avg": true},
+        "confirm": true,
+        "vol_size": {"swing_vs_stop": 0.5},
+        "runner": {"take_frac": 0.5, "trail_swing_mult": 2, "trail_min_pct": 6, "trail_max_pct": 20, "max_hold_days": 30}
       },
       "reversion": {
         "label": "Reversion: oversold large cap",
@@ -33,13 +47,15 @@
         "regimes": ["Risk-on", "Neutral", "Risk-off"]
       }
     },
-    "exit_tags": ["Heavy selling"]
+    "exit_tags": ["Heavy selling", "Pegged"]
   },
   "tao": {
     "start_tao": 100,
     "fee_pct": 0.05,
     "max_new_per_tick": 3,
     "cooldown_hours": 24,
-    "retrim_days": 7
+    "retrim_days": 7,
+    "profit_trim_pct": 50,
+    "breakeven_after_profit_trim": true
   }
 }

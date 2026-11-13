@@ -61,52 +61,131 @@ def _path_since(coin, hours):
     return (spark[-k:] if spark else []) + [coin["price"]]
 
 
-def crypto_step(acct, sig, cfg, t, hours):
+def daily_swing(coin):
+    """The coin's typical daily move in %, from the 7-day 4-hour closes (mean absolute daily change)."""
+    daily = (coin.get("spark") or [])[5::6]
+    moves = [abs(b / a - 1) * 100 for a, b in zip(daily, daily[1:]) if a]
+    return sum(moves) / len(moves) if moves else None
+
+
+def _avg(xs):
+    xs = [x for x in xs or [] if x]
+    return sum(xs) / len(xs) if xs else None
+
+
+def regime_confirmed(ticks, regime, allowed, hours, t):
+    """True when the current regime and every bot reading in the last `hours` are in `allowed`,
+    with at least two earlier readings in that window. Stops one brief Neutral spell inside a
+    downtrend from unlocking the trend setup."""
+    if regime not in allowed:
+        return False
+    recent = [x.get("regimes", {}).get("crypto") for x in ticks if t - x["t"] <= hours * 3600000]
+    recent = [r for r in recent if r]
+    return len(recent) >= 2 and all(r in allowed for r in recent)
+
+
+def trend_breaker(acct, rk, t):
+    """Reason the trend setup is paused, or None: a run of stops in a row, or a bad week."""
+    n, last = 0, None
+    for x in reversed(acct["trades"]):
+        if x["type"] != "Close" or not x["setup"].startswith("Trend"):
+            continue
+        if x["reason"] != "Stop-loss":
+            break
+        n += 1
+        last = last or x["t"]
+    if n >= rk["breaker_losses_in_row"] and t - last < rk["breaker_pause_hours"] * 3600000:
+        return f"{n} trend stop-losses in a row; trend entries pause for {rk['breaker_pause_hours']}h after the last one"
+    week = [e for e in acct["equity"] if t - e["t"] >= 7 * 86400000]
+    if week and acct["equity"]:
+        ch = (acct["equity"][-1]["v"] / week[-1]["v"] - 1) * 100
+        if ch <= -rk["breaker_week_loss_pct"]:
+            return f"Account is {ch:.1f}% over 7 days, past the -{rk['breaker_week_loss_pct']}% limit; trend entries pause."
+    return None
+
+
+def open_risk(acct, prices):
+    """USD lost if every open position hit its stop from here. Runners with a stop above entry count only the drop to the stop."""
+    return sum(max(0.0, p["qty"] * (prices.get(p["id"], p["entry"]) - p["stop"])) for p in acct["positions"])
+
+
+def crypto_step(acct, sig, cfg, t, hours, ticks):
     c = cfg["crypto"]
+    rk = c.get("risk") or {}
     fee = c["fee_pct"] / 100
     coins = {x["id"]: x for x in sig["coins"]}
     prices = {k: v["price"] for k, v in coins.items()}
     regime = (sig.get("regime") or {}).get("label", "Neutral")
     actions, proposals = [], []
+    acct.setdefault("watch", {})
 
-    def close(p, price, reason, rule):
+    def close(p, price, reason, rule, frac=1.0):
         coin = coins.get(p["id"]) or {}
-        gross = p["qty"] * price
-        s = _slip(gross, coin.get("volume"))
+        qty, cost = p["qty"] * frac, p["cost"] * frac
+        s = _slip(qty * price, coin.get("volume"))
         fill = price * (1 - s)
-        proceeds = p["qty"] * fill * (1 - fee)
-        pnl = proceeds - p["cost"]
+        proceeds = qty * fill * (1 - fee)
+        pnl = proceeds - cost
         acct["cash"] += proceeds
-        acct["positions"].remove(p)
+        hi, lo = p.get("hi", p["entry"]), p.get("lo", p["entry"])
         tr = {"type": "Close", "t": t, "pid": p["pid"], "id": p["id"], "symbol": p["symbol"], "setup": p["setup"], "dir": "long",
-              "price": fill, "size": proceeds, "pnl": pnl, "pnl_pct": pnl / p["cost"] * 100, "cost": p["cost"], "opened": p["opened"],
-              "held": t - p["opened"], "reason": reason, "rule": rule, "stop_pct": p["stop_pct"], "size_pct": p["size_pct"], "entry_reason": p["reason"]}
+              "price": fill, "size": proceeds, "pnl": pnl, "pnl_pct": pnl / cost * 100, "cost": cost, "opened": p["opened"],
+              "held": t - p["opened"], "reason": reason, "rule": rule, "stop_pct": p["stop_pct"], "size_pct": p["size_pct"], "entry_reason": p["reason"],
+              # Best and worst price reached while open, as % from entry: shows whether targets are too tight or stops too close.
+              "mfe_pct": (hi / p["entry"] - 1) * 100, "mae_pct": (lo / p["entry"] - 1) * 100}
+        if frac < 0.999:
+            tr["partial"] = frac
+            p["qty"] -= qty
+            p["cost"] -= cost
+        else:
+            acct["positions"].remove(p)
         acct["trades"].append(tr)
-        actions.append(f"Sold {p['symbol']} ({reason}): {pnl:+,.2f} USD")
-        ORDERS.append({"account": "crypto", "side": "sell", "id": p["id"], "symbol": p["symbol"], "frac": 1.0, "reason": reason, "price": price})
+        actions.append(f"Sold {'half of ' if frac < 0.999 else ''}{p['symbol']} ({reason}): {pnl:+,.2f} USD")
+        ORDERS.append({"account": "crypto", "side": "sell", "id": p["id"], "symbol": p["symbol"], "frac": frac, "reason": reason, "price": price,
+                       "stop": p["stop"] if frac < 0.999 else None})
 
     # Exits: stop and target along the price path since the last tick, then time and signal exits.
     for p in list(acct["positions"]):
         coin = coins.get(p["id"])
         if not coin:
             continue
-        hit = None
+        key = p.get("key") or next((k for k, s in c["setups"].items() if s["label"] == p["setup"]), "")
+        run = (c["setups"].get(key) or {}).get("runner")
+        if run and "trail_pct" not in p:  # positions opened before trailing existed
+            p["trail_pct"] = min(run["trail_max_pct"], max(run["trail_min_pct"], run["trail_swing_mult"] * (daily_swing(coin) or p["stop_pct"] / 2)))
+        stop_before, hit = p["stop"], None
         for px in _path_since(coin, hours):
+            p["hi"], p["lo"] = max(p.get("hi", p["entry"]), px), min(p.get("lo", p["entry"]), px)
             if px <= p["stop"]:
-                hit = (min(px, p["stop"]) if px < p["stop"] * 0.97 else p["stop"], "Stop-loss", f"Price fell to the {p['stop_pct']}% stop.")
+                fill = min(px, p["stop"]) if px < p["stop"] * 0.97 else p["stop"]
+                hit = (fill, "Trailing stop", "Price fell to the trailing stop after the first target.") if p.get("runner") else \
+                      (fill, "Stop-loss", f"Price fell to the {p['stop_pct']}% stop.")
                 break
-            if px >= p["target"]:
-                hit = (p["target"], "Take-profit", f"Price reached the {p['target_pct']}% target.")
-                break
+            if not p.get("runner") and px >= p["target"]:
+                if not run:
+                    hit = (p["target"], "Take-profit", f"Price reached the {p['target_pct']}% target.")
+                    break
+                # Bank part at the target, then let the rest run under a trailing stop that never drops below entry.
+                p["runner"] = True
+                p["stop"] = max(p["stop"], p["entry"])
+                close(p, p["target"], "Take-profit (half)", f"Price reached the {p['target_pct']}% target; the rest runs with a {p['trail_pct']:.0f}% trailing stop.", run["take_frac"])
+            if p.get("runner"):
+                p["stop"] = max(p["stop"], p["entry"], p["hi"] * (1 - p["trail_pct"] / 100))
         if hit:
             close(p, hit[0], hit[1], hit[2])
             continue
-        if t - p["opened"] > p["max_hold_days"] * 86400000:
-            close(p, coin["price"], "Time stop", f"Held longer than {p['max_hold_days']} days without hitting stop or target.")
+        if p not in acct["positions"]:
+            continue
+        hold = run["max_hold_days"] if p.get("runner") and run else p["max_hold_days"]
+        if t - p["opened"] > hold * 86400000:
+            close(p, coin["price"], "Time stop", f"Held longer than {hold} days without hitting stop or target.")
             continue
         bad = [x for x in c["exit_tags"] if x in (coin.get("tags") or [])]
         if bad:
             close(p, coin["price"], "Signal exit", f"Signal turned: {', '.join(bad)}.")
+            continue
+        if p.get("runner") and p["stop"] > stop_before * 1.001:
+            ORDERS.append({"account": "crypto", "side": "restop", "id": p["id"], "symbol": p["symbol"], "stop": p["stop"], "price": coin["price"]})
 
     # Entries: rank candidates by setup, propose up to max_new_per_tick.
     held = {p["id"] for p in acct["positions"]}
@@ -114,19 +193,48 @@ def crypto_step(acct, sig, cfg, t, hours):
     held |= {x["id"] for x in acct["trades"] if x["type"] == "Close" and t - x["t"] < c.get("cooldown_hours", 24) * 3600000}
     eq = crypto_equity(acct, prices)
     room = c["max_positions"] - len(acct["positions"])
-    cands = []
+    n_trend = sum(1 for p in acct["positions"] if p["setup"].startswith("Trend"))
+    breaker = trend_breaker(acct, rk, t) if rk else None
+    blocked = {}  # setup key -> why it can't enter this refresh, for the tick log
+    cands, watch = [], {}
     for coin in sig["coins"]:
         if coin["id"] in held or not coin.get("rank") or coin["rank"] > c["max_rank"] or (coin.get("volume") or 0) < c["min_volume_usd"]:
             continue
         tags = coin.get("tags") or []
+        if any(x in tags for x in c.get("exclude_tags", [])):
+            continue
         for key, s in c["setups"].items():
             if regime not in s["regimes"] or any(x in tags for x in s.get("tags_none", [])):
                 continue
             if key == "trend":
                 if coin["score"] < s["min_score"] or not any(x in tags for x in s["tags_any"]):
                     continue
-                why = f"Score {coin['score']}, tags {', '.join(tags)}; {coin['ch7']:+.1f}% 7d vs BTC {coin['rs7']:+.1f} pts."
+                rs = s.get("require") or {}
+                avg7 = _avg(coin.get("spark"))
+                # Strength against Bitcoin and an intact trend of its own, not a bounce inside a downtrend.
+                if ((coin.get("rs7") or 0) < rs.get("rs7_min", -1e9) or (coin.get("rs30") or 0) < rs.get("rs30_min", -1e9)
+                        or (coin.get("ch30") or 0) < rs.get("ch30_min", -1e9) or (rs.get("above_7d_avg") and avg7 and coin["price"] < avg7)):
+                    continue
+                if s.get("regime_confirm_hours") and not regime_confirmed(ticks, regime, s["regimes"], s["regime_confirm_hours"], t):
+                    blocked[key] = f"regime not {'/'.join(s['regimes'])} for {s['regime_confirm_hours']}h straight"
+                    continue
+                if breaker:
+                    blocked[key] = breaker
+                    continue
+                if n_trend >= rk.get("max_trend_positions", 99):
+                    blocked[key] = f"already {n_trend} trend positions"
+                    continue
+                why = f"Score {coin['score']}, tags {', '.join(tags)}; {coin['ch7']:+.1f}% 7d vs BTC {coin['rs7']:+.1f} pts, {coin['ch30']:+.1f}% 30d."
                 rank = -coin["score"]
+                # Confirmation: the first refresh that qualifies only puts the coin on watch. It is bought on a later
+                # refresh only if it still qualifies and has held at or above the price it was flagged at.
+                if s.get("confirm"):
+                    w = acct["watch"].get(coin["id"])
+                    if not w or coin["price"] < w["price"]:
+                        watch[coin["id"]] = {"t": t, "price": coin["price"], "symbol": coin["symbol"]}
+                        continue
+                    watch[coin["id"]] = w
+                    why += f" Held above its flag price ${w['price']:.4g} since the last refresh."
             else:
                 if coin["rank"] > s.get("max_rank", 999) or coin.get("rsi") is None or coin["rsi"] > s["max_rsi"]:
                     continue
@@ -134,14 +242,32 @@ def crypto_step(acct, sig, cfg, t, hours):
                 rank = 1000 + coin["rsi"]
             cands.append((rank, key, s, coin, why))
             break
+    # Watch entries last one refresh: a coin that stops qualifying drops off.
+    acct["watch"] = watch
     cands.sort(key=lambda x: x[0])
+    risk_now = open_risk(acct, prices)
     for _, key, s, coin, why in cands[: max(0, min(room, c["max_new_per_tick"]))]:
         size = eq * s["size_pct"] / 100
+        # Volatility sizing: with a fixed stop width, a coin whose normal daily swing is large next to the stop
+        # gets stopped by noise more often, so its bet is cut in proportion (never below 25%).
+        sw = daily_swing(coin)
+        if s.get("vol_size") and sw and sw > s["stop_pct"] * s["vol_size"]["swing_vs_stop"]:
+            size *= max(0.25, s["stop_pct"] * s["vol_size"]["swing_vs_stop"] / sw)
+            why += f" Size cut: daily swing {sw:.1f}% is large for a {s['stop_pct']}% stop."
+        risk = size * s["stop_pct"] / 100
+        if rk.get("max_open_risk_pct") and risk_now + risk > eq * rk["max_open_risk_pct"] / 100:
+            blocked[key] = f"open risk would pass {rk['max_open_risk_pct']}% of the account"
+            continue
         if size > acct["cash"] or size <= 0:
             continue
+        risk_now += risk
         proposals.append({"account": "crypto", "asset": coin["symbol"], "setup": s["label"], "size": round(size, 2), "unit": "USD", "rule_reason": why,
                           "context": {k: coin.get(k) for k in ("name", "rank", "price", "ch24", "ch7", "ch30", "rsi", "range7", "turnover", "score", "tags")},
                           "_do": (key, s, coin, why, size)})
+    for k, v in blocked.items():
+        actions.append(f"{c['setups'][k]['label']}: no entries ({v}).")
+    if watch:
+        actions.append("Watching for confirmation next refresh: " + ", ".join(w["symbol"] for w in watch.values()) + ".")
     return actions, proposals, regime
 
 
@@ -151,15 +277,22 @@ def crypto_open(acct, cfg, t, key, s, coin, why, size, ai):
     fill = coin["price"] * (1 + sl)
     qty = size * (1 - fee) / fill
     eq_before = acct["cash"]
+    eq = crypto_equity(acct, {coin["id"]: coin["price"]})
     acct["cash"] -= size
-    p = {"pid": acct["next_id"], "id": coin["id"], "symbol": coin["symbol"], "setup": s["label"], "qty": qty, "entry": fill, "cost": size,
+    size_pct = size / eq * 100 if eq else s["size_pct"]
+    run = s.get("runner")
+    sw = daily_swing(coin) or s["stop_pct"] / 2
+    p = {"pid": acct["next_id"], "id": coin["id"], "symbol": coin["symbol"], "setup": s["label"], "key": key, "qty": qty, "entry": fill, "cost": size,
          "opened": t, "stop": fill * (1 - s["stop_pct"] / 100), "target": fill * (1 + s["target_pct"] / 100), "stop_pct": s["stop_pct"],
-         "target_pct": s["target_pct"], "max_hold_days": s["max_hold_days"], "size_pct": s["size_pct"], "reason": why, "ai": ai}
+         "target_pct": s["target_pct"], "max_hold_days": s["max_hold_days"], "size_pct": round(size_pct, 2), "reason": why, "ai": ai,
+         "hi": fill, "lo": fill, "swing_pct": sw}
+    if run:
+        p["trail_pct"] = min(run["trail_max_pct"], max(run["trail_min_pct"], run["trail_swing_mult"] * sw))
     acct["next_id"] += 1
     acct["positions"].append(p)
     acct["trades"].append({"type": "Open", "t": t, "pid": p["pid"], "id": coin["id"], "symbol": coin["symbol"], "setup": s["label"], "dir": "long",
                            "price": fill, "size": size, "slip": sl * 100, "reason": why, "ai": ai, "cash_before": eq_before})
-    ORDERS.append({"account": "crypto", "side": "buy", "id": coin["id"], "symbol": coin["symbol"], "setup": s["label"], "size_pct": s["size_pct"],
+    ORDERS.append({"account": "crypto", "side": "buy", "id": coin["id"], "symbol": coin["symbol"], "setup": s["label"], "size_pct": round(size_pct, 2),
                    "stop_pct": s["stop_pct"], "target_pct": s["target_pct"], "price": coin["price"], "volume": coin.get("volume"), "ai": ai})
     return f"Bought {coin['symbol']} ({s['label']}): {size:,.0f} USD"
 
@@ -214,10 +347,16 @@ def tao_step(acct, tsig, cfg, t, ts):
         if not s:
             continue
         avg = p["cost"] / p["alpha"]
+        gain = (s["price_tao"] / avg - 1) * 100
         if r and r["status"] == "Exit / avoid":
             sell(k, 1.0, "Plan exit", r["short"])
         elif s["price_tao"] <= avg * (1 - stop / 100):
-            sell(k, 1.0, "Stop-loss", f"Price is {(s['price_tao'] / avg - 1) * 100:.0f}% from the average entry; the plan's stop is {stop}%.")
+            sell(k, 1.0, "Stop-loss", f"Price is {gain:.0f}% from the average entry; the plan's stop is {stop}%.")
+        elif p.get("profit_trimmed") and c.get("breakeven_after_profit_trim") and s["price_tao"] <= avg:
+            sell(k, 1.0, "Break-even stop", "Back to the average entry after the profit trim; the rest is sold so a winner can't turn into a loss.")
+        elif c.get("profit_trim_pct") and not p.get("profit_trimmed") and gain >= c["profit_trim_pct"]:
+            p["profit_trimmed"] = t
+            sell(k, 1 / 3, "Profit trim", f"Up {gain:.0f}% from the average entry, past the +{c['profit_trim_pct']}% profit trim; the stop on the rest moves to break-even.")
         elif r and r["status"] == "Trim" and (not p.get("trimmed") or t - p["trimmed"] > c["retrim_days"] * 86400000):
             sell(k, 1 / 3, "Plan trim", r["short"])
 
@@ -342,7 +481,7 @@ def run(crypto_sig, tao_sig, ts):
     ORDERS.clear()
     actions, proposals, regimes = [], [], {}
     if crypto_sig and crypto_sig.get("coins"):
-        a, p, regimes["crypto"] = crypto_step(state["crypto"], crypto_sig, cfg, t, hours)
+        a, p, regimes["crypto"] = crypto_step(state["crypto"], crypto_sig, cfg, t, hours, state.get("ticks") or [])
         actions += a
         proposals += p
     if tao_sig and tao_sig.get("subnets") and tao_sig.get("plan"):

@@ -23,7 +23,7 @@
   "leader_top_em_rank": 30,
   "trim_premium": 15,
   "trim_7d": 40,
-  "stop_loss_pct": 30,
+  "stop_loss_pct": 20,
   "basket_drawdown_halve_pct": 25,
   "funding_hot_8h": 0.05,
   "leader_min_premium": -3,
