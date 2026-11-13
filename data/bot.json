@@ -55,7 +55,7 @@
     "start_usd": 10000,
     "fee_pct": 0.5,
     "max_positions": 10,
-    "max_meme_positions": 3,
+    "max_meme_positions": 0,
     "max_new_per_tick": 2,
     "position_pct": {"utility": 10, "meme": 5},
     "top_n": 10,
@@ -71,7 +71,19 @@
     "meme_volume_dry_pct": 30,
     "meme_volume_dry_days": 7,
     "no_price_ticks": 6,
-    "cooldown_days": 7
+    "cooldown_days": 7,
+    "allow_meme": false,
+    "fit": {
+      "_note": "Marvin's five requirements (12 Nov 2026), on top of the rules above. A coin is bought only when the scan's data shows all five; unknown counts as a no. 1 low liquidity, 2 real-world use with a live product (rules out memes), 3 hair-on-fire demand, 4 high exclusivity, 5 room to grow incl. a major-exchange listing.",
+      "min_volume_usd": 150000,
+      "max_volume_usd": 5000000,
+      "demand_min_tvl_usd": 250000,
+      "demand_tvl_growth_30d_pct": 25,
+      "major_exchanges": ["binance", "coinbase", "okx", "bybit", "upbit", "kraken"],
+      "max_cex_count": 8,
+      "min_rs30": 0,
+      "attention_watchers": 5000
+    }
   },
   "tao": {
     "start_tao": 100,

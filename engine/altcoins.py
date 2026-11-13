@@ -136,7 +136,8 @@ def llama_protocols(errors):
     for p in got:
         gid = p.get("gecko_id")
         if gid:
-            out[gid] = {"tvl": p.get("tvl") or 0, "category": p.get("category"), "name": p.get("name"),
+            out[gid] = {"tvl": p.get("tvl") or 0, "tvl_ch7": p.get("change_7d"), "tvl_ch30": p.get("change_1m"),
+                        "category": p.get("category"), "name": p.get("name"),
                         "slug": p.get("slug"), "chains": (p.get("chains") or [])[:4]}
     return out
 
@@ -451,6 +452,8 @@ def market_view(c, llama, btc7, btc30, trending_ids):
         "from_ath": c.get("ath_change_percentage"),
         "cats": c.get("_cats") or [],
         "tvl": lp["tvl"] if lp else None, "llama": lp,
+        # Usage growth: how fast the money locked in the product is rising (DefiLlama, DeFi projects only).
+        "tvl_ch7": lp.get("tvl_ch7") if lp else None, "tvl_ch30": lp.get("tvl_ch30") if lp else None,
         "trending": c["id"] in trending_ids,
     }
 
@@ -791,7 +794,7 @@ def build(crypto_sig, crypto_data):
         p["dextools"] = dextools_url(p.get("network"), p.get("address"))
 
     slim = lambda v: {k: v.get(k) for k in ("id", "symbol", "name", "image", "rank", "price", "mcap", "fdv", "volume", "fdv_ratio",
-                                           "float_pct", "turnover", "ch24", "ch7", "ch30", "from_ath", "cats", "tvl", "trending",
+                                           "float_pct", "turnover", "ch24", "ch7", "ch30", "rs7", "rs30", "from_ath", "cats", "tvl", "tvl_ch7", "tvl_ch30", "trending",
                                            "meme", "score", "passed", "passed_pct", "quiet_eco", "checks", "flags", "news", "ai",
                                            "pool", "buying_up", "buying_why", "pregrad_score", "pregrad_missing")} | {
         "detail": {k: (v.get("detail") or {}).get(k) for k in ("homepage", "twitter", "telegram", "discord", "chat", "reddit", "github",

@@ -444,6 +444,46 @@ def _alt_blocked(v, a):
     return [f for f in v.get("flags") or [] if any(f.startswith(b) for b in a["block_flags"])]
 
 
+def alt_fit(v, a):
+    """Marvin's five requirements for an altcoin, checked against the scan's evidence.
+    Returns (missing, pluses): a coin is bought only when nothing is missing; pluses rank the ones that pass.
+    An unknown (no data) counts as missing: the account only buys what the data shows."""
+    f = a["fit"]
+    ok = {c.get("key"): c.get("ok") for c in v.get("checks") or []}
+    d = v.get("detail") or {}
+    missing, pluses = [], []
+    # 1. Low liquidity: little traded yet, but enough to get out.
+    if not (ok.get("liquidity") and f["min_volume_usd"] <= (v.get("volume") or 0) <= f["max_volume_usd"]):
+        missing.append("low liquidity")
+    # 2. Solves a real-world problem, with a product that is live (not a promise, not a meme).
+    if v.get("meme") or not (ok.get("use") and ok.get("live")):
+        missing.append("real-world use")
+    # 3. Hair-on-fire demand: usage growing fast (money locked up sharply), or a busy ecosystem the market hasn't priced.
+    demand = []
+    if (v.get("tvl") or 0) >= f["demand_min_tvl_usd"] and (v.get("tvl_ch30") or 0) >= f["demand_tvl_growth_30d_pct"]:
+        demand.append(f"usage up {v['tvl_ch30']:.0f}% in 30 days")
+    if ok.get("quiet_eco"):
+        demand.append("busy ecosystem, little trading")
+    if not demand:
+        missing.append("strong demand")
+    # 4. High exclusivity: scarce supply (most of it already circulating), no big unlocks hanging over it.
+    if not ok.get("exclusive"):
+        missing.append("exclusivity")
+    # 5. Room to grow, including a major-exchange listing: tradable today, not yet on the big exchanges, already outrunning BTC.
+    cex = [x.lower() for x in d.get("cex") or []]
+    on_major = [m for m in f["major_exchanges"] if any(m in x for x in cex)]
+    if not d or on_major or (d.get("cex_count") or 0) > f["max_cex_count"] or (v.get("rs30") is None) or v["rs30"] < f["min_rs30"]:
+        missing.append("growth / listing room" + (f" (already on {', '.join(on_major)})" if on_major else ""))
+    for key, label in (("small", "small cap"), ("platform", "powers a platform"), ("servers", "compute/servers"), ("staking", "staking"), ("partners", "partners")):
+        if ok.get(key):
+            pluses.append(label)
+    if v.get("buying_up"):
+        pluses.append("buying picking up")
+    if (d.get("watchers") or 0) >= f["attention_watchers"]:
+        pluses.append(f"{d['watchers']:,} watchlists")
+    return missing, demand + pluses
+
+
 def alt_step(acct, alt, cfg, t, regime):
     a = cfg["alt"]
     fee = a["fee_pct"] / 100
@@ -543,15 +583,26 @@ def alt_step(acct, alt, cfg, t, regime):
     held |= {x["id"] for x in acct["trades"] if x["type"] == "Close" and t - x["t"] < a["cooldown_days"] * 86400000}
     n_meme = sum(1 for p in acct["positions"] if p["meme"])
     room = a["max_positions"] - len(acct["positions"])
-    cands = []
-    for key, label in (("pregrad", "Pre-graduation"), ("utility", "Utility"), ("meme", "Meme")):
-        for i, v in enumerate((alt.get(key) or [])[: a["top_n"]]):
+    cands, near = [], []
+    lists = (("pregrad", "Pre-graduation"), ("utility", "Utility")) + ((("meme", "Meme"),) if a.get("allow_meme") else ())
+    for key, label in lists:
+        for v in (alt.get(key) or [])[: a["top_n"]]:
+            # The original rules first: top of its list, score, checklist, volume, no red flags.
             if v["id"] in held or not v.get("price") or (v.get("volume") or 0) < a["min_volume_usd"]:
                 continue
             if (v.get("score") or 0) < a["min_score"] or (v.get("passed_pct") or 0) < a["min_pass_pct"] or _alt_blocked(v, a):
                 continue
-            cands.append((key, label, v))
             held.add(v["id"])
+            if a.get("fit"):
+                miss, plus = alt_fit(v, a)
+                if miss:
+                    if len(miss) == 1:
+                        near.append(f"{v['symbol']} (missing {miss[0]})")
+                    continue
+                v = {**v, "_plus": plus}
+            cands.append((key, label, v))
+    # Best evidence first: most pluses, then the scan score.
+    cands.sort(key=lambda c: (-len(c[2].get("_plus") or []), -(c[2].get("score") or 0)))
     n_new = 0
     for key, label, v in cands:
         if n_new >= min(room, a["max_new_per_tick"]):
@@ -564,6 +615,8 @@ def alt_step(acct, alt, cfg, t, regime):
         passed = [c["label"] for c in v.get("checks") or [] if c.get("ok")]
         why = (f"{label}{' (meme)' if v.get('meme') and key != 'meme' else ''}: scan score {v['score']}, passes {v['passed_pct']}% of the checklist"
                + (f" ({', '.join(passed[:4])})" if passed else "") + f"; mcap ${v.get('mcap', 0) / 1e6:,.1f}M, 24h volume ${v.get('volume', 0) / 1e6:,.2f}M.")
+        if v.get("_plus"):
+            why += " Fits all five requirements; extra evidence: " + ", ".join(v["_plus"]) + "."
         if key == "pregrad" and v.get("buying_why"):
             why += " Buying picking up: " + "; ".join(v["buying_why"][:2]) + "."
         n_new += 1
@@ -572,6 +625,8 @@ def alt_step(acct, alt, cfg, t, regime):
                           "context": {k: v.get(k) for k in ("name", "price", "mcap", "fdv_ratio", "volume", "turnover", "ch7", "ch30", "score",
                                                             "passed_pct", "flags", "meme", "buying_why")} | {"regime": regime},
                           "_do": ("new", label, v, size, why)})
+    if not cands and a.get("fit"):
+        actions.append("Altcoins: no coin met all five requirements this run." + (f" Closest: {'; '.join(near[:5])}." if near else ""))
     return actions, proposals, seen
 
 
