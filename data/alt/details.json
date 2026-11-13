@@ -229,7 +229,7 @@
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-11T21:29:27.864976+00:00",
+  "fetched": "2026-11-13T00:57:40.372439+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -238,13 +238,13 @@
    "binance-smart-chain"
   ],
   "reddit": "https://www.reddit.com/r/AlturaNFT/",
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/AlturaGaming",
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113446
+  "watchers": 113443
  },
  "api3": {
   "categories": [
@@ -953,7 +953,7 @@
    "Bybit",
    "Byte Exchange"
   ],
-  "cex_count": 37,
+  "cex_count": 36,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -963,7 +963,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcccccccccc33d538dbc2ee4feab0a7a1ff4e8a94",
-  "fetched": "2026-11-11T01:59:19.008015+00:00",
+  "fetched": "2026-11-13T00:58:56.620377+00:00",
   "genesis": null,
   "github": "https://github.com/centrifuge/",
   "homepage": "https://centrifuge.io/",
@@ -977,7 +977,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/centrifuge",
   "twitter_followers": null,
-  "watchers": 7571
+  "watchers": 7580
  },
  "cere-network": {
   "categories": [
@@ -1203,7 +1203,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-11-10T14:54:29.687020+00:00",
+  "fetched": "2026-11-13T00:57:50.104774+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1218,7 +1218,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Codecopenflow",
   "twitter_followers": null,
-  "watchers": 1742
+  "watchers": 1739
  },
  "concierge-io": {
   "categories": [
@@ -1432,7 +1432,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-  "fetched": "2026-11-10T04:09:36.804592+00:00",
+  "fetched": "2026-11-13T00:54:00.775520+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dessatalks.space/",
@@ -1440,13 +1440,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/DessaOnSOL",
   "twitter_followers": null,
-  "watchers": 245
+  "watchers": 249
  },
  "dippy-speech": {
   "categories": [
@@ -1802,7 +1802,7 @@
   ],
   "discord": "https://discord.com/invite/flyingtulip",
   "explorer": "https://etherscan.io/token/0x5DD1A7A369e8273371d2DBf9d83356057088082c",
-  "fetched": "2026-11-11T21:28:21.365854+00:00",
+  "fetched": "2026-11-13T00:55:14.370680+00:00",
   "genesis": null,
   "github": "https://github.com/flyingtulipdotcom",
   "homepage": "https://flyingtulip.com/",
@@ -1813,13 +1813,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 25.0,
   "stars": null,
   "telegram": "https://t.me/flyingtulipgroup",
   "telegram_users": null,
   "twitter": "https://x.com/flyingtulip_",
   "twitter_followers": null,
-  "watchers": 1425
+  "watchers": 1424
  },
  "forta": {
   "categories": [
@@ -2315,7 +2315,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
-  "fetched": "2026-11-11T14:21:38.184249+00:00",
+  "fetched": "2026-11-13T00:56:24.154815+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -2329,7 +2329,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 18
+  "watchers": 20
  },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
@@ -2387,6 +2387,39 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 1145
+ },
+ "jager-hunter": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Binance Alpha Spotlight"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x74836cC0E821A6bE18e407E6388E430B689C66e9",
+  "fetched": "2026-11-13T00:54:04.583792+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://jager.meme/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/jager_BSC",
+  "telegram_users": null,
+  "twitter": "https://x.com/jager_BSC",
+  "twitter_followers": null,
+  "watchers": 1861
  },
  "jobcoin-2": {
   "categories": [
@@ -2741,6 +2774,62 @@
   "twitter_followers": null,
   "watchers": 30366
  },
+ "livepeer": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Harmony Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Coinbase Ventures Portfolio",
+   "Multicoin Capital Portfolio",
+   "Pantera Capital Portfolio",
+   "GMCI DePIN Index",
+   "GMCI Index",
+   "Coinbase 50 Index"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "BingX",
+   "Bit2Me",
+   "BitDelta",
+   "BitKan",
+   "Bitbaby",
+   "Bitbank"
+  ],
+  "cex_count": 59,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The Livepeer project aims to deliver a live video streaming network protocol that is fully decentralized, highly scalable, crypto token incentivized, and results in a solution which can serve as the live media layer in the decentralized development (web3) stack. In addition, Livepeer is meant to provide an economically efficient alternative to centralized broadcasting solutions for any existing broadcaster. In this document we describe the Livepeer Protocol - a delegated stake based protocol for incentivizing participants in a live video broadcast network in a game-theoretically secure way. We present solutions for the scalable verification of decentralized work, as well as the prevention of useless work in an attempt to game the token allocations in an inflationary system.\n\nThe Livepeer Token (LPT) is the protocol token of the Livepeer network. But it is not the medium of exchange token. Broadcasters use Ethereum's Ether (ETH) to broadcast video on the network. Nodes who contribute processing and bandwidth earn ETH in the form of fees from broadcasters. LPT is a staking token that participants who want to perform work on the network stake in order to coordinate how work gets distributed on the network, and to provide security that the work will get done honestly and correctly. LPT has the following purposes:\n\nIt serves as a bonding mechanism in a delegated proof of stake system, in which stake is delegated towards transcoders (or validators) who participate in the protocol t",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": "https://discord.gg/RR4kFAh",
+  "explorer": "https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239",
+  "fetched": "2026-11-13T00:55:20.906268+00:00",
+  "genesis": "2018-10-01",
+  "github": "https://github.com/livepeer/livepeerjs",
+  "homepage": "https://livepeer.org/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum",
+   "harmony-shard-0"
+  ],
+  "reddit": "https://www.reddit.com/r/livepeer",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/livepeerorg",
+  "telegram_users": null,
+  "twitter": "https://x.com/Livepeer",
+  "twitter_followers": null,
+  "watchers": 38970
+ },
  "loopin-network": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -3057,6 +3146,57 @@
   "twitter_followers": null,
   "watchers": 84
  },
+ "momentum-3": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Sui Ecosystem",
+   "Coinbase Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "Binance HODLer Airdrops",
+   "Binance Wallet IDO",
+   "CeFi"
+  ],
+  "cex": [
+   "Aster",
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bitunix",
+   "Bybit",
+   "Coinstore"
+  ],
+  "cex_count": 26,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://suiscan.xyz/mainnet/coin/0x35169bc93e1fddfcf3a82a9eae726d349689ed59e4b065369af8789fe59f8608::mmt::MMT/txs",
+  "fetched": "2026-11-13T00:57:43.582666+00:00",
+  "genesis": null,
+  "github": "https://github.com/mmt-finance/clmm-sdk",
+  "homepage": "https://www.mmt.finance/",
+  "platforms": [
+   "binance-smart-chain",
+   "sui"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/mmtfinance",
+  "telegram_users": null,
+  "twitter": "https://x.com/MMTFinance",
+  "twitter_followers": null,
+  "watchers": 4038
+ },
  "moolah": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -3184,6 +3324,55 @@
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
   "watchers": 7969
+ },
+ "newton-protocol": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance HODLer Airdrops",
+   "DeFAI"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo"
+  ],
+  "cex_count": 33,
+  "chat": "https://www.tiktok.com/@magic.newton",
+  "commits_4w": null,
+  "description": "The Newton Protocol is a decentralized infrastructure layer for verifiable onchain automation and secure agent authorization. It enables protocols, DAOs, and users to execute complex actions through verifiable agents, without relying on centralized bots or offchain coordination. Users can securely authorize agents to act on their behalf using programmable permissions, ensuring that actions occur only under conditions they approve. By combining trusted execution environments (TEEs), zero-knowledge proofs, and a modular agent architecture, Newton Protocol brings automation fully onchain, enhancing transparency, composability, and trust.",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+  "fetched": "2026-11-13T00:57:46.887112+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://newt.foundation/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/newtfoundation",
+  "twitter_followers": null,
+  "watchers": 2678
  },
  "ni-hao-cat": {
   "categories": [
@@ -3495,7 +3684,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa21af1050f7b26e0cff45ee51548254c41ed6b5c",
-  "fetched": "2026-11-10T14:53:19.930544+00:00",
+  "fetched": "2026-11-13T00:54:07.846476+00:00",
   "genesis": null,
   "github": "https://github.com/osakaprotocol",
   "homepage": "https://osaka.win",
@@ -3506,7 +3695,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/Osakaprotocol",
   "telegram_users": null,
@@ -3648,7 +3837,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
-  "fetched": "2026-11-11T01:59:28.628527+00:00",
+  "fetched": "2026-11-13T00:54:11.051803+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pinlink.ai/",
@@ -3656,13 +3845,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
-  "watchers": 16932
+  "watchers": 16931
  },
  "propy": {
   "categories": [
@@ -3843,13 +4032,13 @@
    "BitKan",
    "Bitget",
    "Bithumb",
-   "Bitkub",
    "Bitrue",
    "Bitunix",
    "Bitvavo",
    "BloFin",
    "BtcTurk | Kripto",
-   "Bybit"
+   "Bybit",
+   "CEX.IO"
   ],
   "cex_count": 37,
   "chat": null,
@@ -3862,7 +4051,7 @@
   ],
   "discord": "https://discord.gg/redstonedefi",
   "explorer": "https://etherscan.io/token/0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE",
-  "fetched": "2026-11-10T04:09:43.321396+00:00",
+  "fetched": "2026-11-13T00:56:33.877889+00:00",
   "genesis": null,
   "github": "https://github.com/redstone-finance",
   "homepage": "https://www.redstone.finance/",
@@ -3877,7 +4066,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/redstone_defi",
   "twitter_followers": null,
-  "watchers": 6997
+  "watchers": 7000
  },
  "renzo": {
   "categories": [
@@ -4000,7 +4189,7 @@
    "Bithumb",
    "Bitkub"
   ],
-  "cex_count": 55,
+  "cex_count": 54,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -4014,7 +4203,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-10T14:55:42.589714+00:00",
+  "fetched": "2026-11-13T00:57:37.136920+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -4025,13 +4214,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90717
+  "watchers": 90715
  },
  "resistance-dog": {
   "categories": [
@@ -4344,7 +4533,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xc9eef266834730340A55B6CC24621B31BAF55581",
-  "fetched": "2026-11-11T00:44:32.077479+00:00",
+  "fetched": "2026-11-13T00:56:30.658769+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/",
@@ -4361,7 +4550,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 258
+  "watchers": 257
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
@@ -4391,7 +4580,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
-  "fetched": "2026-11-11T14:21:44.648238+00:00",
+  "fetched": "2026-11-13T00:58:53.360484+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -4399,7 +4588,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -4430,7 +4619,7 @@
    "Bitrue",
    "Bittime"
   ],
-  "cex_count": 40,
+  "cex_count": 39,
   "chat": null,
   "commits_4w": null,
   "description": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network \u2013 a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. ",
@@ -4440,7 +4629,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-11-11T14:20:31.715073+00:00",
+  "fetched": "2026-11-13T00:55:17.595004+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -4448,13 +4637,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
-  "watchers": 10164
+  "watchers": 10165
  },
  "stp-network": {
   "categories": [
@@ -5031,6 +5220,78 @@
   "twitter": "https://x.com/wingbits",
   "twitter_followers": null,
   "watchers": 496
+ },
+ "woo-network": {
+  "categories": [
+   "Decentralized Exchange (DEX)",
+   "Exchange-based Tokens",
+   "Decentralized Finance (DeFi)",
+   "Automated Market Maker (AMM)",
+   "BNB Chain Ecosystem",
+   "Derivatives",
+   "Perpetuals",
+   "Centralized Exchange (CEX) Token",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Near Protocol Ecosystem",
+   "Fantom Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "ZkSync Ecosystem",
+   "Mantle Ecosystem",
+   "Linea Ecosystem",
+   "Base Ecosystem",
+   "DragonFly Capital Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "BTCC",
+   "BTSE",
+   "BVOX",
+   "Bancor (V2)",
+   "Biconomy.com",
+   "Binance",
+   "BitDelta",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitlo"
+  ],
+  "cex_count": 44,
+  "chat": null,
+  "commits_4w": null,
+  "description": "WOO is the native token of WOOFi, the onchain liquidity layer for RWAs and major crypto assets. WOOFi runs a PropAMM for swaps and earn vaults for yield, live on Base, BNB Chain, Robinhood Chain, Arbitrum, Avalanche, Optimism, and other major EVM chains. WOO returns value to holders through WARP, an AI-driven buyback protocol that uses WOOFi revenue to buy WOO.\n\nWOO also incubated Starchild, an agentic AI platform that is used for both crypto and general purpose applications. ",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Meteora",
+   "PancakeSwap (v2)",
+   "Quickswap",
+   "Sushiswap",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+  "fetched": "2026-11-13T00:56:27.402460+00:00",
+  "genesis": null,
+  "github": "https://github.com/woonetwork",
+  "homepage": "https://woofi.com",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/woo_english",
+  "telegram_users": null,
+  "twitter": "https://x.com/_WOOFi",
+  "twitter_followers": null,
+  "watchers": 62355
  },
  "world-mobile-token": {
   "categories": [
