@@ -645,7 +645,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x3548da95a9effe481e8604664d75e95821e557f5",
-  "fetched": "2026-11-11T21:29:34.408367+00:00",
+  "fetched": "2026-11-13T01:19:10.290172+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -659,7 +659,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 80
+  "watchers": 81
  },
  "bluzelle": {
   "categories": [
@@ -3374,6 +3374,38 @@
   "twitter_followers": null,
   "watchers": 2678
  },
+ "nextplace": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Bittensor Ecosystem",
+   "Bittensor Subnets"
+  ],
+  "cex": [
+   "Subnet Tokens"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://taostats.io/subnets/48/chart",
+  "fetched": "2026-11-13T01:19:13.668317+00:00",
+  "genesis": null,
+  "github": "https://github.com/qbittensor-labs/quantum-compute",
+  "homepage": "https://www.openquantum.com/",
+  "platforms": [
+   "bittensor"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/OpenQuantum_",
+  "twitter_followers": null,
+  "watchers": 337
+ },
  "ni-hao-cat": {
   "categories": [
    "Meme",
@@ -3405,6 +3437,46 @@
   "twitter": "https://x.com/MiHaoCat",
   "twitter_followers": null,
   "watchers": 183
+ },
+ "ni-hao-cat-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Cat-Themed",
+   "Pump.fun Ecosystem",
+   "Chinese Meme"
+  ],
+  "cex": [
+   "BingX"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "you met me at a very chinese time in my life",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2",
+   "Orca",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+  "fetched": "2026-11-13T01:18:03.762625+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://mihao.fun/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/iamnihaocat",
+  "twitter_followers": null,
+  "watchers": 76
  },
  "nihao-cat": {
   "categories": [
@@ -4551,6 +4623,42 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 257
+ },
+ "spacex-reality-protocol": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
+  "fetched": "2026-11-13T01:18:06.960526+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
+  "platforms": [
+   "arbitrum-one"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 89
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
