@@ -452,7 +452,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-12T03:01:51.875569+00:00",
+  "fetched": "2026-11-13T03:39:24.355132+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -462,13 +462,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23719
+  "watchers": 23722
  },
  "basecat": {
   "categories": [
@@ -500,7 +500,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
-  "fetched": "2026-11-11T14:17:52.806650+00:00",
+  "fetched": "2026-11-13T03:38:11.216563+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://basecatonbase.com",
@@ -508,13 +508,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/basecatonbase",
   "telegram_users": null,
   "twitter": "https://x.com/BasecatOnBase",
   "twitter_followers": null,
-  "watchers": 996
+  "watchers": 999
  },
  "benqi": {
   "categories": [
@@ -854,7 +854,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "fetched": "2026-11-11T21:27:14.684929+00:00",
+  "fetched": "2026-11-13T03:38:07.759293+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cartoon-money.com/",
@@ -862,13 +862,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 71.43,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/cartoonmoney_ai",
   "twitter_followers": null,
-  "watchers": 229
+  "watchers": 236
  },
  "carv": {
   "categories": [
@@ -1645,6 +1645,46 @@
   "twitter_followers": null,
   "watchers": 3503
  },
+ "dual": {
+  "categories": [
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Kraken"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Dual is the tokenization engine for real world assets.\n\nBuild programmable tokens for anything, from currencies and loyalty points to real estate, treasuries, and physical products. Production-ready enterprise-grade infrastructure that scales from simple assets to complex use cases.\n\nDUAL is the utility token that powers the ecosystem. Businesses, creatives, and developers fund their projects by depositing $DUAL or using USD, which is converted into $DUAL via the open market.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Robinhood)",
+   "Uniswap V4 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/dualorg",
+  "explorer": "https://etherscan.io/token/0x6aF487BEb661CCeCD1D045E9561A0dAC9AA5c7db",
+  "fetched": "2026-11-13T03:41:43.969370+00:00",
+  "genesis": null,
+  "github": "https://github.com/dualorg",
+  "homepage": "https://www.dual.org/",
+  "platforms": [
+   "base",
+   "ethereum",
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/dualcommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/dualorg",
+  "twitter_followers": null,
+  "watchers": 536
+ },
  "dusk-network": {
   "categories": [
    "Smart Contract Platform",
@@ -1818,7 +1858,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-11-12T03:01:45.407198+00:00",
+  "fetched": "2026-11-13T03:39:17.893388+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -1828,47 +1868,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/every_thing",
   "twitter_followers": null,
-  "watchers": 267
- },
- "fatcat-4": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme",
-   "Cat-Themed",
-   "Flap Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "FATCAT is a vibrant, community driven memecoin on Binance Smart Chain inspired by the undisputed internet royalty: delightfully chunky felines. \n\nLaunched fairly on flap.sh, the project celebrates good vibes, bold humor, and an active collective of crypto enthusiasts who believe memes should bring genuine value back to holders. \n\nPaired directly with SPYB, FATCAT stands out by rewarding its loyal supporters with regular ecosystem perks, including SPYB distributions straight to community wallets. \n\nBetween viral meme competitions, interactive social campaigns, and an expanding cat loving movement, FATCAT blends lighthearted internet culture with a transparent, decentralized ethos built to last.",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x6D145722564AAa0DBA3E104DD1D680b227927777",
-  "fetched": "2026-11-10T02:46:31.052652+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://flap.sh/bnb/0x6d145722564aaa0dba3e104dd1d680b227927777",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/bnbFatCat",
-  "twitter_followers": null,
-  "watchers": 12
+  "watchers": 268
  },
  "flying-tulip": {
   "categories": [
@@ -2032,7 +2038,7 @@
   ],
   "discord": "https://discord.gg/T3ZpnwBvvC",
   "explorer": "https://etherscan.io/token/0x728f30fa2f100742c7949d1961804fa8e0b1387d",
-  "fetched": "2026-11-12T03:02:58.394800+00:00",
+  "fetched": "2026-11-13T03:40:27.676241+00:00",
   "genesis": null,
   "github": "https://github.com/GamerHash",
   "homepage": "https://gamercoin.com/",
@@ -2184,7 +2190,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xcafdbce93477261db8250e42bdae6e66733f9e20",
-  "fetched": "2026-11-12T03:01:38.982005+00:00",
+  "fetched": "2026-11-13T03:39:14.462589+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://slinkcoinrbh.lol/",
@@ -2199,48 +2205,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 104
- },
- "hims-hers-health-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Ondo Tokenized Assets"
-  ],
-  "cex": [
-   "CommunityV3",
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Ondo Stocks"
-  ],
-  "cex_count": 5,
-  "chat": null,
-  "commits_4w": null,
-  "description": "HIMSon is the Ondo Tokenized version of Hims &amp; Hers Health, giving tokenholders economic exposure similar to holding HIMS and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://etherscan.io/address/0xCa468554e5C0423Ee858fe3942c9568C51FcAa79",
-  "fetched": "2026-11-10T03:08:12.857085+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/assets/himson",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 137
  },
  "hodl-7": {
   "categories": [
@@ -2864,7 +2828,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-12T03:01:48.646518+00:00",
+  "fetched": "2026-11-13T03:40:30.878949+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2874,13 +2838,13 @@
    "osmosis"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/+4FqlzOzdMTo1ZTdk",
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3598
+  "watchers": 3597
  },
  "lisk": {
   "categories": [
@@ -3781,7 +3745,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-11-12T03:04:21.048859+00:00",
+  "fetched": "2026-11-13T03:41:47.164105+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3789,13 +3753,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/nonkyc",
   "telegram_users": null,
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
-  "watchers": 696
+  "watchers": 697
  },
  "nym": {
   "categories": [
@@ -3850,38 +3814,6 @@
   "twitter": "https://x.com/nym",
   "twitter_followers": null,
   "watchers": 30302
- },
- "omega-labs": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets"
-  ],
-  "cex": [
-   "Subnet Tokens"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "OMEGA Focus is a 1-click miner that anyone can install and start earning TAO for doing productive work, powered by Subnet 24",
-  "dex": [],
-  "discord": "https://discord.com/invite/ccrvTpetKY",
-  "explorer": "https://taostats.io/subnets/24/chart",
-  "fetched": "2026-11-10T02:50:22.761882+00:00",
-  "genesis": null,
-  "github": "https://github.com/omegalabsinc/omegalabs-bittensor-subnet",
-  "homepage": "https://focus.inc/",
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/omegalabsai",
-  "twitter_followers": null,
-  "watchers": 331
  },
  "opengradient": {
   "categories": [
@@ -4022,7 +3954,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-12T03:02:55.174800+00:00",
+  "fetched": "2026-11-13T03:41:40.715776+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -4560,7 +4492,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-12T03:05:24.290748+00:00",
+  "fetched": "2026-11-13T03:40:37.390784+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -4574,7 +4506,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 110
+  "watchers": 109
  },
  "rocket-pool": {
   "categories": [
@@ -4760,7 +4692,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-12T03:03:01.617445+00:00",
+  "fetched": "2026-11-13T03:40:34.155497+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -5255,67 +5187,46 @@
   "twitter_followers": null,
   "watchers": 4044
  },
- "synapse-2": {
+ "tesla-bstocks-tokenized-stock": {
   "categories": [
+   "Tokenized Assets",
    "BNB Chain Ecosystem",
-   "Avalanche Ecosystem",
-   "Polygon Ecosystem",
-   "Fantom Ecosystem",
-   "Arbitrum Ecosystem",
-   "Olympus Pro Ecosystem",
-   "Ethereum Ecosystem",
-   "Optimism Ecosystem",
-   "Bridge Governance Tokens",
-   "Base Ecosystem",
-   "Alameda Research Portfolio",
-   "Intent",
-   "Hyperliquid Ecosystem",
-   "HyperEVM Ecosystem"
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
   ],
   "cex": [
-   "BTCC",
    "Binance",
    "BingX",
-   "Bitrue",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Digital X",
-   "Gate",
-   "GroveX"
+   "LBank",
+   "Metric (BSC)"
   ],
-  "cex_count": 28,
+  "cex_count": 4,
   "chat": null,
   "commits_4w": null,
-  "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
+  "description": "",
   "dex": [
-   "Fraxswap (Ethereum)",
-   "LFJ",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V4 (Ethereum)"
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (BSC)"
   ],
   "discord": null,
-  "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-11-10T02:49:09.738970+00:00",
+  "explorer": "https://bscscan.com/token/0x5b1910eaad6450e50f816082aa078c41f10c292f#transactions",
+  "fetched": "2026-11-13T03:41:50.386225+00:00",
   "genesis": null,
-  "github": "https://github.com/synapsecns",
-  "homepage": "https://synapseprotocol.com",
+  "github": null,
+  "homepage": "https://www.binance.com/bstocks-landing",
   "platforms": [
-   "arbitrum-one",
-   "avalanche",
-   "base",
    "binance-smart-chain"
   ],
   "reddit": null,
   "sentiment_up": 0.0,
   "stars": null,
-  "telegram": "https://t.me/synapseprotocol",
+  "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/SynapseProtocol",
+  "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 28861
+  "watchers": 132
  },
  "tokenbot-2": {
   "categories": [
@@ -5554,7 +5465,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-11-12T03:05:30.710420+00:00",
+  "fetched": "2026-11-13T03:39:21.148586+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -5564,13 +5475,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 23509
+  "watchers": 23511
  },
  "utya": {
   "categories": [
