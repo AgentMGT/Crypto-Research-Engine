@@ -283,11 +283,12 @@
   "dex": [
    "BabySwap",
    "Biswap",
-   "PancakeSwap (v2)"
+   "PancakeSwap (v2)",
+   "Uniswap V4 (Base)"
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-13T00:57:40.372439+00:00",
+  "fetched": "2026-11-14T13:31:53.631231+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -296,13 +297,13 @@
    "binance-smart-chain"
   ],
   "reddit": "https://www.reddit.com/r/AlturaNFT/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/AlturaGaming",
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113443
+  "watchers": 113437
  },
  "api3": {
   "categories": [
@@ -510,7 +511,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-13T03:39:24.355132+00:00",
+  "fetched": "2026-11-14T13:33:10.013813+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -526,7 +527,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23722
+  "watchers": 23717
  },
  "ava-ai": {
   "categories": [
@@ -910,7 +911,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "fetched": "2026-11-13T03:38:07.759293+00:00",
+  "fetched": "2026-11-14T13:31:47.280923+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cartoon-money.com/",
@@ -918,13 +919,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/cartoonmoney_ai",
   "twitter_followers": null,
-  "watchers": 236
+  "watchers": 245
  },
  "catwifmask": {
   "categories": [
@@ -1056,6 +1057,40 @@
   "twitter": "https://x.com/chainflip",
   "twitter_followers": null,
   "watchers": 20832
+ },
+ "chutes": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Bittensor Ecosystem",
+   "Bittensor Subnets"
+  ],
+  "cex": [
+   "Kraken",
+   "MEXC",
+   "Subnet Tokens"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://taostats.io/subnets/64/chart",
+  "fetched": "2026-11-14T13:35:35.767231+00:00",
+  "genesis": null,
+  "github": "https://github.com/rayonlabs/chutes",
+  "homepage": "https://chutes.ai/",
+  "platforms": [
+   "bittensor"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/chutes_ai",
+  "twitter_followers": null,
+  "watchers": 2119
  },
  "circle-rstock-2": {
   "categories": [
@@ -1458,6 +1493,41 @@
   "twitter_followers": null,
   "watchers": 186
  },
+ "doge-pepe": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed",
+   "Frog-Themed",
+   "The Boy\u2019s Club"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Doge Pepe ($DOPE) is an Ethereum-based memecoin inspired by a viral AI coding accident that resulted in the creation of a unique 3D hybrid character combining Doge and Pepe, two of the internet's most recognizable meme icons.\n\nThe story began when a creator experimenting with 3D meme design accidentally ran a script through the wrong API, consuming over 400 million tokens and generating approximately $1,900 in API charges. The unexpected result was a humorous Doge\u2013Pepe hybrid character, nicknamed \"DOPE.\"\n\nDoge Pepe transforms this accidental creation into a community-driven meme identity, celebrating internet humor, AI mishaps, creativity, and meme culture.\n\nBuilt on Ethereum, $DOPE represents the character and its origin story rather than claiming to be an AI tool or technology platform.\n\n**Project slogan:** Wrong API. Right face.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x73df7018cbcb919ccde48c3f12f4326688ac4446",
+  "fetched": "2026-11-14T13:30:40.844941+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.dogepepeeth.lol/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 60.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/DogePepeETH",
+  "twitter_followers": null,
+  "watchers": 382
+ },
  "dot": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1608,7 +1678,7 @@
   ],
   "discord": "https://discord.gg/dusk-official",
   "explorer": "https://apps.dusk.network/explorer/",
-  "fetched": "2026-11-12T03:04:17.821368+00:00",
+  "fetched": "2026-11-14T13:34:29.272212+00:00",
   "genesis": null,
   "github": "https://github.com/dusk-network/dusk-blockchain",
   "homepage": "https://dusk.network/",
@@ -1617,13 +1687,13 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/DuskNetwork/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/DuskNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/DuskFoundation",
   "twitter_followers": null,
-  "watchers": 32081
+  "watchers": 32078
  },
  "egl1": {
   "categories": [
@@ -2240,6 +2310,63 @@
   "twitter_followers": null,
   "watchers": 21
  },
+ "ishares-silver-trust-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Ondo Tokenized Assets",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "Tokenized Commodity Exchange-Traded Products (ETPs)"
+  ],
+  "cex": [
+   "BingX",
+   "Gate",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks",
+   "Ourbit",
+   "Toobit",
+   "XT.COM"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
+  "fetched": "2026-11-14T13:32:03.548443+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/slvon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 1145
+ },
  "jagent": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2583,7 +2710,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-13T03:40:30.878949+00:00",
+  "fetched": "2026-11-14T13:33:06.767699+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2605,6 +2732,7 @@
   "categories": [
    "Smart Contract Platform",
    "Ethereum Ecosystem",
+   "Payment Solutions",
    "Base Ecosystem",
    "Hyperliquid Ecosystem",
    "Outlier Ventures Portfolio",
@@ -2635,7 +2763,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-11-12T15:12:06.258776+00:00",
+  "fetched": "2026-11-14T13:31:56.876737+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2646,13 +2774,13 @@
    "hyperliquid"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30366
+  "watchers": 30368
  },
  "livepeer": {
   "categories": [
@@ -3146,7 +3274,7 @@
    "BloFin",
    "CEX.IO"
   ],
-  "cex_count": 27,
+  "cex_count": 28,
   "chat": null,
   "commits_4w": null,
   "description": "MyShell (http://myshell.ai/) is an AI consumer layer for everyone to build, share, and own AI agents. The team bridges AI and Blockchain through Agentic Frameworks, open-source models, and AI creator community. MyShell also provides users with AI-powered entertainment and utility while offering them shared ownership.\nTo learn more about MyShell, check the whitepaper (https://docs.myshell.ai/).\nMyShell leads in open-source AI with flagship models like MeloTTS (20M downloads in 2024) and OpenVoice (30K GitHub stars, top 0.03%). Both trended #1 on GitHub at launch.\nThe platform offers three modes for AI agent creation, catering to creators of different skill levels. ShellAgent is the most powerful and modular Agentic Framework.\nMyShell commercializes high-quality AI agents as investable assets for sustainable returns, benefiting both creators and investors.\nCurrently, 200K+ AI Agents are deployed on MyShell, with 170K active AI creators and 5M+ users.",
@@ -3155,7 +3283,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
-  "fetched": "2026-11-12T15:14:26.284879+00:00",
+  "fetched": "2026-11-14T13:35:32.570606+00:00",
   "genesis": null,
   "github": "https://github.com/myshell-ai",
   "homepage": "https://myshell.ai/",
@@ -3164,13 +3292,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 75.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/myshell_ai",
   "twitter_followers": null,
-  "watchers": 3909
+  "watchers": 3923
  },
  "mysterium": {
   "categories": [
@@ -3497,7 +3625,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
-  "fetched": "2026-11-13T03:41:47.164105+00:00",
+  "fetched": "2026-11-14T13:34:26.077902+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://nonkyc.io",
@@ -3505,13 +3633,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/nonkyc",
   "telegram_users": null,
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
-  "watchers": 697
+  "watchers": 698
  },
  "nym": {
   "categories": [
@@ -3737,7 +3865,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-13T03:41:40.715776+00:00",
+  "fetched": "2026-11-14T13:34:22.828326+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3754,7 +3882,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114915
+  "watchers": 114917
  },
  "pinlink": {
   "categories": [
@@ -4164,6 +4292,41 @@
   "twitter_followers": null,
   "watchers": 90720
  },
+ "resistance-dog": {
+  "categories": [
+   "Meme",
+   "Dog-Themed",
+   "TON Ecosystem",
+   "TON Meme"
+  ],
+  "cex": [
+   "DeDust",
+   "MEXC",
+   "STON.fi"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Resistance Dog ($REDO), is a symbolic representation of the fight against censorship and freedom through digital resistance. The token pays homage to the creation of Pavel Durov, founder of TON - The Open Network and Telegram.\n\n$REDO intends to create, and has begun creating a robust decentralized community that is at the forefront of the battle for digital resistance, with TON - The Open Network, Telegram and the millions of individuals fighting for the same cause.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
+  "fetched": "2026-11-14T13:30:44.018393+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://redoton.com",
+  "platforms": [
+   "the-open-network"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/redotoken",
+  "telegram_users": null,
+  "twitter": "https://x.com/redotoken",
+  "twitter_followers": null,
+  "watchers": 12911
+ },
  "rna-2": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -4180,7 +4343,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-13T03:40:37.390784+00:00",
+  "fetched": "2026-11-14T13:33:19.712939+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -4194,7 +4357,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 109
+  "watchers": 110
  },
  "rocco": {
   "categories": [
@@ -4411,7 +4574,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-13T03:40:34.155497+00:00",
+  "fetched": "2026-11-14T13:33:13.227050+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4420,13 +4583,13 @@
    "etherlink"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/sogniai",
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11938
+  "watchers": 11941
  },
  "solidus-aitech": {
   "categories": [
@@ -4443,7 +4606,6 @@
   "cex": [
    "BingX",
    "Bitget",
-   "BloFin",
    "Gate",
    "HTX",
    "KCEX",
@@ -4451,7 +4613,7 @@
    "MEXC",
    "WhiteBIT"
   ],
-  "cex_count": 9,
+  "cex_count": 8,
   "chat": "https://medium.com/@solidusaitech",
   "commits_4w": null,
   "description": "AITECH Cloud Network (ACN) is an enterprise-grade AI infrastructure ecosystem designed to support the next generation of AI builders. ACN brings together compute, agent orchestration, and an integrated economic layer to enable scalable, real-world AI execution within a secure, Web3-enabled environment.\n\nCompute Layer\nAccess to high-performance GPU infrastructure for AI training, inference, and large-scale workloads. NVIDIA H200's, H100's, L40's, RTX6000s\n\nAI Agent Orchestration Layer\nBuild, deploy, and manage autonomous agents capable of executing complex, multi-step workflows all through the conversational interface.\n\nEconomic Layer ($ACN)\nNative token on Ethereum Network powering payments, coordination, and value exchange across the network\n\nACN is structured to meet enterprise demands, combining performance, flexibility, and decentralized coordination into a single unified system.\n",
@@ -4460,7 +4622,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-11T14:20:28.501728+00:00",
+  "fetched": "2026-11-14T13:32:00.034381+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4476,7 +4638,49 @@
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151643
+  "watchers": 151635
+ },
+ "spacex-backpack-securities": {
+  "categories": [
+   "Tokenized Assets",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Backpack Securities Ecosystem"
+  ],
+  "cex": [
+   "Byreal",
+   "Manifest",
+   "ZeroFi"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Unlike perps or synthetic derivatives that merely track price movements, the $SPCX token represents absolute, uncompromising tangible ownership. At the core of this project is a strict, fully collateralized framework. Every single $SPCX token in circulation is directly backed by one authentic, real-world share of SpaceX stock. Mint and redeemable on Backpack Securities, only on Solana via Sunrise.",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Pancakeswap V3 (Solana)",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://orbmarkets.io/token/SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
+  "fetched": "2026-11-14T13:33:16.468329+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://backpack.exchange/stocks/SPCX",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 658
  },
  "spacex-ondo-tokenized-stock": {
   "categories": [
@@ -5148,7 +5352,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-11-13T03:39:21.148586+00:00",
+  "fetched": "2026-11-14T13:31:50.454910+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -5164,7 +5368,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 23511
+  "watchers": 23510
  },
  "utya": {
   "categories": [
@@ -5185,7 +5389,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-11-12T03:00:35.645135+00:00",
+  "fetched": "2026-11-14T13:30:37.673483+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
@@ -5193,13 +5397,44 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/UtyaDuck",
   "telegram_users": null,
   "twitter": "https://x.com/TonUtyacoin",
   "twitter_followers": null,
-  "watchers": 1905
+  "watchers": 1926
+ },
+ "wasted-3": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xe4706809d3878fffb619fd492eb9e63d9b772581",
+  "fetched": "2026-11-14T13:30:34.503912+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.wasted.vip/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/wastedotvip",
+  "twitter_followers": null,
+  "watchers": 7
  },
  "whale-4": {
   "categories": [
