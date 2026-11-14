@@ -123,61 +123,6 @@
   "twitter_followers": null,
   "watchers": 7830
  },
- "adex": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "BNB Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "AI Agents",
-   "AI Applications",
-   "DeFAI",
-   "x402 Ecosystem",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "Binance",
-   "Bitrue",
-   "Bittime",
-   "Bitvavo",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin",
-   "MEXC",
-   "Mudrex",
-   "TokoCrypto"
-  ],
-  "cex_count": 15,
-  "chat": null,
-  "commits_4w": null,
-  "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
-  "dex": [
-   "PancakeSwap (v2)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V4 (Ethereum)",
-   "Uniswap V4 (Robinhood)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-11-11T14:18:05.946603+00:00",
-  "genesis": "2017-07-01",
-  "github": "https://github.com/heyauradev",
-  "homepage": "https://www.heyaura.com/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "robinhood"
-  ],
-  "reddit": "https://www.reddit.com/r/AdEx",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/+Oki8IRbVXVlmNTQ0",
-  "telegram_users": null,
-  "twitter": "https://x.com/heyAura",
-  "twitter_followers": null,
-  "watchers": 9351
- },
  "agoras-currency-of-tau": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -197,7 +142,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-  "fetched": "2026-11-13T01:44:32.850456+00:00",
+  "fetched": "2026-11-14T19:14:33.072246+00:00",
   "genesis": null,
   "github": "https://github.com/idni/tau",
   "homepage": "https://tau.net/",
@@ -211,7 +156,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 9684
+  "watchers": 9682
  },
  "alphabet-bstocks-tokenized-stock": {
   "categories": [
@@ -413,6 +358,45 @@
   "twitter_followers": null,
   "watchers": 962
  },
+ "arcblock": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "AI Framework",
+   "Made in USA"
+  ],
+  "cex": [
+   "Bitkub",
+   "Coinbase Exchange",
+   "Gate"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The ArcBlock project was created to create the first Blockchain ecosystem in the world. Develop and develop decentralized applications (DApp) according to objectives. ArcBlock, one of the ICO projects emerging in early 2018. Just launched on 3/1/2018, ArcBlock has quickly attracted the attention of technology as well as investors. ArcBlock brings great technological advancements that will open the third generation of blockchain applications.\n\nArcblock work by bridging the gap between different blockchains and their respective ecosystems has not been easy. There are some solutions which attempt to solve this problem, but it is evident there is plenty of room for competition in this regard. Building an open chain access layer capable of spanning multiple new and existing blockchains is a very interesting business model.\n\nBuilding a new ecosystem meant to connect various chains will not be easy. As of right now, the team has completed its token sale, and the first public release candidate for the Open Chain Access Protocol will be released in Q3. Early 2019 will herald the introduction of more technical features and an Ethereum Blocklet prototype.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
+  "fetched": "2026-11-14T19:15:39.625223+00:00",
+  "genesis": null,
+  "github": "https://github.com/ArcBlock/ArcBlock-Token",
+  "homepage": "https://www.arcblock.io/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/arcblock/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/ArcBlock",
+  "telegram_users": null,
+  "twitter": "https://x.com/ArcBlock_io",
+  "twitter_followers": null,
+  "watchers": 11106
+ },
  "audacity": {
   "categories": [
    "Solana Ecosystem",
@@ -477,6 +461,52 @@
   "twitter": "https://x.com/audacityeth_x",
   "twitter_followers": null,
   "watchers": 161
+ },
+ "auki-labs": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Augmented Reality",
+   "Metaverse",
+   "DePIN",
+   "Base Ecosystem",
+   "AI Applications",
+   "Outlier Ventures Portfolio",
+   "Peaq Ecosystem",
+   "Robotics",
+   "Base Native"
+  ],
+  "cex": [
+   "MEXC",
+   "MachineX"
+  ],
+  "cex_count": 2,
+  "chat": "https://auki.medium.com/",
+  "commits_4w": null,
+  "description": "Auki is making the physical world accessible to AI by building the real world web: a way for robots and digital devices like smart glasses and phones to browse, navigate, and search physical locations. At its foundation is the posemesh protocol, a collaborative and decentralized machine perception network that allows robots and XR devices to have a shared understanding of physical space, and a token economy for exchanging spatial data and compute resources.\n\n70% of the world economy is still tied to physical locations and labor, so making the physical world accessible to AI represents a 3X increase in the TAM of AI in general. Auki's goal is to become the decentralized nervous system of AI in the physical world, providing collaborative spatial reasoning for the next 100bn devices on Earth and beyond.\n\nFrom autonomous drone delivery to copilots for physical labor to robotic companions for children and navigation aid for the blind, the Auki network is a fast-growing ecosystem of cutting-edge physical AI applications. \n\nRapidly rolling out into thousands of commercial and private locations world-wide, the Auki network is now home to a growing number of applications that are already collecting millions of dollars in yearly revenue. \n\nWith a growing roster of robot integrations like Unitree, EngineAI, Padbot, Slamtec and more, Auki has cemented itself as the web3 robotics project with the most real world traction. \n\nThis year, Auki demonstrated the world's first large-scale autono",
+  "dex": [
+   "Aerodrome (Base)",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/auki",
+  "explorer": "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
+  "fetched": "2026-11-14T19:15:42.797709+00:00",
+  "genesis": null,
+  "github": "https://github.com/aukilabs",
+  "homepage": "https://www.auki.com/",
+  "platforms": [
+   "base",
+   "peaq"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/AukiNetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/Auki",
+  "twitter_followers": null,
+  "watchers": 6604
  },
  "aurora-near": {
   "categories": [
@@ -663,7 +693,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-11-12T15:12:12.943628+00:00",
+  "fetched": "2026-11-14T19:14:26.651623+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -674,13 +704,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17140
+  "watchers": 17141
  },
  "bitmine-immersion-technologies-bstocks-tokenized-stock": {
   "categories": [
@@ -892,6 +922,45 @@
   "twitter_followers": null,
   "watchers": 185
  },
+ "buttcoin-7": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Back in 2011, long before \u201ccrypto Twitter\u201d, NFTs, or VC-backed chains existed, users of the BitcoinTalk forum came up with a new currency - not to launch a network, but to make fun of btc.... and so: The first memecoin/memecurrency was born.\n\nOn May 23, 2011, a Something Awful poster cracked, \u201cHas anyone called them buttcoins yet?\u201d. It was sophomoric and perfect. Within weeks the gag metastasized into Buttcoin.org, a parody blog that described a \u201cpeer to peer butt\u201d economy while cataloging mining fiascos, exchange blowups, and MLM-adjacent \u201cinnovations\u201d.\n",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+  "fetched": "2026-11-14T19:11:43.796371+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.buttcoinfoundation.org/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ButtCoin",
+  "twitter_followers": null,
+  "watchers": 954
+ },
  "cartoon-money": {
   "categories": [
    "Solana Ecosystem",
@@ -937,9 +1006,10 @@
   ],
   "cex": [
    "GroveX",
-   "KCEX"
+   "KCEX",
+   "Poloniex"
   ],
-  "cex_count": 2,
+  "cex_count": 3,
   "chat": "https://www.youtube.com/watch?v=WgSNI60t6v0",
   "commits_4w": null,
   "description": "$MASK is a fully community-led project, guided by @stellagabber to ensure transparency, strong leadership, and execution against well-defined roadmaps. Every decision is made with accountability and purpose, reflecting the community\u2019s collective vision and priorities. catwifmask was created with a single mission: to make a mark on social media, one $MASK at a time, building a culture and brand that resonates with holders. While the token has no intrinsic financial value, the project is expanding its utility through upcoming merchandise and an NFT collection, introducing new revenue streams to support growth. By empowering the community to take ownership, $MASK ensures that every move is deliberate, coordinated, and aligned with long-term goals, creating a transparent, organised, and sustainable ecosystem.",
@@ -948,7 +1018,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
-  "fetched": "2026-11-12T15:11:55.517195+00:00",
+  "fetched": "2026-11-14T19:11:37.415754+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://thecatwifmask.com/",
@@ -956,13 +1026,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/mask_catwifmask_official",
   "telegram_users": null,
   "twitter": "https://x.com/catwmask",
   "twitter_followers": null,
-  "watchers": 1062
+  "watchers": 1084
  },
  "centrifuge-2": {
   "categories": [
@@ -1374,6 +1444,52 @@
   "twitter_followers": null,
   "watchers": 33293
  },
+ "coq-inu": {
+  "categories": [
+   "Smart Contract Platform",
+   "Avalanche Ecosystem",
+   "Meme",
+   "Avalanche L1",
+   "Made in USA"
+  ],
+  "cex": [
+   "Balancer V2 (Avalanche)",
+   "Crypto.com Exchange",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "SAFEbit"
+  ],
+  "cex_count": 8,
+  "chat": null,
+  "commits_4w": null,
+  "description": "We are the #1 meme coin on AVAX. Founded by well respected members of the community. They took no distribution and put the entire supply of the coin with 150 avax in initial liquidity. The contract has been fully renounced and liquidity burned. ",
+  "dex": [
+   "LFJ",
+   "LFJ V2.1 (Avalanche)",
+   "LFJ V2.2 (Avalanche)",
+   "Uniswap V3 (Avalanche)"
+  ],
+  "discord": "https://discord.gg/5Nde2b9B3m",
+  "explorer": "https://snowtrace.io/token/0x420fca0121dc28039145009570975747295f2329?chainid=43114",
+  "fetched": "2026-11-14T19:11:46.980199+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.coqinu.com/",
+  "platforms": [
+   "avalanche"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/coqinuavax",
+  "twitter_followers": null,
+  "watchers": 52901
+ },
  "deapcoin": {
   "categories": [
    "Entertainment",
@@ -1460,39 +1576,6 @@
   "twitter_followers": null,
   "watchers": 249
  },
- "dippy-speech": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets",
-   "Robotics"
-  ],
-  "cex": [
-   "Subnet Tokens"
-  ],
-  "cex_count": 1,
-  "chat": "https://www.youtube.com/@robotensor",
-  "commits_4w": null,
-  "description": "Best Open-Source Speech Model",
-  "dex": [],
-  "discord": "https://discord.gg/An3YtsAaa6",
-  "explorer": "https://taostats.io/subnets/58/chart",
-  "fetched": "2026-11-11T14:19:18.775659+00:00",
-  "genesis": null,
-  "github": "https://github.com/robotensor",
-  "homepage": "https://attune.robotensor.ai/",
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/robotensor_ai",
-  "twitter_followers": null,
-  "watchers": 186
- },
  "doge-pepe": {
   "categories": [
    "Meme",
@@ -1546,7 +1629,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-11-13T00:23:52.307617+00:00",
+  "fetched": "2026-11-14T19:13:20.107862+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -1554,51 +1637,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
   "watchers": 479
- },
- "dowge": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Dog-Themed",
-   "Pump.fun Ecosystem",
-   "Stock market-themed"
-  ],
-  "cex": [
-   "KCEX",
-   "MEXC",
-   "XT.COM"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-11-11T14:16:46.314774+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.dji6930.com/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 66.67,
-  "stars": null,
-  "telegram": "https://t.me/DOWGEPortal",
-  "telegram_users": null,
-  "twitter": "https://x.com/dji6930",
-  "twitter_followers": null,
-  "watchers": 3503
  },
  "dual": {
   "categories": [
@@ -1813,7 +1858,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
-  "fetched": "2026-11-13T03:39:17.893388+00:00",
+  "fetched": "2026-11-14T19:13:13.601477+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://everything.inc/",
@@ -1823,7 +1868,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2510,57 +2555,6 @@
   "twitter_followers": null,
   "watchers": 233
  },
- "kava": {
-  "categories": [
-   "Smart Contract Platform",
-   "BNB Chain Ecosystem",
-   "Layer 1 (L1)",
-   "Binance Launchpad",
-   "DWF Labs Portfolio",
-   "Osmosis Ecosystem",
-   "YZi Labs (Prev. Binance Labs) Portfolio",
-   "Made in USA"
-  ],
-  "cex": [
-   "Binance",
-   "Binance US",
-   "BingX",
-   "Bit2Me",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "BtcTurk | Kripto",
-   "Bybit",
-   "CEX.IO",
-   "CoinUp.io"
-  ],
-  "cex_count": 28,
-  "chat": "http://bit.ly/33NRUzZ",
-  "commits_4w": null,
-  "description": "Kava is a cross-chain DeFi Hub for decentralized financial services and applications. The Kava DeFi Hub operates like a decentralized bank for digital assets connecting users with products like stablecoins, loans, and interest-bearing accounts so that they can do more and earn more with their digital assets.\n",
-  "dex": [
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://www.mintscan.io/kava",
-  "fetched": "2026-11-11T14:20:34.966658+00:00",
-  "genesis": null,
-  "github": "https://github.com/Kava-Labs/kava",
-  "homepage": "https://www.kava.io/",
-  "platforms": [
-   "binance-smart-chain",
-   "osmosis"
-  ],
-  "reddit": "https://www.reddit.com/r/kava_platform/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/kavalabs",
-  "telegram_users": null,
-  "twitter": "https://x.com/KAVA_CHAIN",
-  "twitter_followers": null,
-  "watchers": 61651
- },
  "kled-ai": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2624,7 +2618,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-11-13T14:35:22.965090+00:00",
+  "fetched": "2026-11-14T19:13:16.871997+00:00",
   "genesis": null,
   "github": "https://github.com/Cryptense/KryllToken",
   "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
@@ -2642,42 +2636,6 @@
   "twitter": "https://x.com/kryll_io",
   "twitter_followers": null,
   "watchers": 5371
- },
- "laqira-protocol": {
-  "categories": [
-   "Gaming (GameFi)",
-   "BNB Chain Ecosystem",
-   "Payment Solutions",
-   "Governance"
-  ],
-  "cex": [
-   "BingX",
-   "MEXC"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "A Metaverse Complex, Tunneling Between People on Earth and Blockchain-Based Technologies",
-  "dex": [
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": "https://discord.com/invite/VfZFAjf7",
-  "explorer": "https://bscscan.com/token/0xc4a1e7106d08b7ff947254b6d75cf2b877d55daf",
-  "fetched": "2026-11-11T14:19:21.972770+00:00",
-  "genesis": null,
-  "github": "https://github.com/laqiraProtocol",
-  "homepage": "https://laqira.io/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/laqiraprotocol",
-  "telegram_users": null,
-  "twitter": "https://x.com/laqiraprotocol",
-  "twitter_followers": null,
-  "watchers": 2355
  },
  "lava-network": {
   "categories": [
@@ -3537,37 +3495,6 @@
   "twitter_followers": null,
   "watchers": 192
  },
- "nihao-cat": {
-  "categories": [
-   "Solana Ecosystem",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Nihao Cat ($NIHAO) is a Solana meme coin built around the viral \u201cNihao Cat\u201d \u2014 a mustachioed cat in a straw hat, tinted shades, and a jacket with Pepe in the pocket, carrying a baseball bat like a street-wise sensei. The character blew up after Ansem updated his profile picture to Nihao Cat, turning a simple greeting into a community mascot. $NIHAO is a community-driven token celebrating that culture: irreverent humor, old-school swagger, and the idea that the friendliest hello still comes with a bat on the shoulder.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump",
-  "fetched": "2026-11-11T14:18:09.061257+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://nihaocatsol.fun",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/nihaocatx",
-  "twitter_followers": null,
-  "watchers": 9
- },
  "ninja-squad": {
   "categories": [
    "Solana Ecosystem",
@@ -3591,7 +3518,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-11-12T15:12:02.850986+00:00",
+  "fetched": "2026-11-14T19:12:10.318410+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://ninjatraders.io/",
@@ -3725,62 +3652,6 @@
   "twitter": "https://x.com/obligatecom",
   "twitter_followers": null,
   "watchers": 16
- },
- "opengradient": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "BNB Chain Ecosystem",
-   "Mantle Ecosystem",
-   "Base Ecosystem",
-   "Binance Alpha Spotlight",
-   "Binance Wallet IDO"
-  ],
-  "cex": [
-   "Binance",
-   "BingX",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bybit",
-   "Coinbase Exchange",
-   "DigiFinex",
-   "Gate",
-   "GroveX",
-   "HTX",
-   "Hotcoin"
-  ],
-  "cex_count": 20,
-  "chat": "https://opengradient.medium.com/",
-  "commits_4w": null,
-  "description": "OpenGradient is the Network for Open Intelligence \u2014 a decentralized infrastructure network designed to host, inference, and verify AI models at scale. Rather than functioning as a standalone blockchain, OpenGradient operates as a specialized AI coprocessor: it enables applications, blockchains, and autonomous agents to outsource computationally-heavy AI tasks to a dedicated network of GPU and Trusted Execution Environment (TEE) nodes. The validator set verifies every computational proof (TEE attestation or zkML proof) at the consensus level before it is committed on-chain, enabling trustless usage of AI from any network or application.",
-  "dex": [
-   "Aerodrome Slipstream 3",
-   "PancakeSwap V3 (Base)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/address/0xFbC2051AE2265686a469421b2C5A2D5462FbF5eB",
-  "fetched": "2026-11-11T14:21:41.410340+00:00",
-  "genesis": null,
-  "github": "https://github.com/OpenGradient",
-  "homepage": "https://www.opengradient.ai/",
-  "platforms": [
-   "base",
-   "binance-smart-chain",
-   "mantle"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/OpenGradient",
-  "twitter_followers": null,
-  "watchers": 2587
  },
  "osaka-protocol": {
   "categories": [
@@ -5436,38 +5307,6 @@
   "twitter_followers": null,
   "watchers": 7
  },
- "whale-4": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme",
-   "Flap Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "WHALE is not just another emotion-driven meme coin launch; it is an experiment in value reconstruction, centered on a cash-flow distribution mechanism and underpinned by a deflationary asset model. With widespread FOMO across 100+ communities and deep-level support from top-tier investors, it leverages a formalized incentive structure to establish itself as the definitive leader in its sector.WHALE TO THE MOON\uff01",
-  "dex": [
-   "PancakeSwap (v2)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x2b1d6b8475d542d3e1c826d0ff22ea5c2cb57777",
-  "fetched": "2026-11-11T14:17:55.986879+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://flap.sh/bnb/0x2b1d6b8475d542d3e1c826d0ff22ea5c2cb57777",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/WhaleBscWorld",
-  "twitter_followers": null,
-  "watchers": 25
- },
  "woo-network": {
   "categories": [
    "Decentralized Exchange (DEX)",
@@ -5540,6 +5379,61 @@
   "twitter_followers": null,
   "watchers": 62355
  },
+ "world-mobile-token": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Cardano Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "DWF Labs Portfolio",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitvavo",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "Hydrex Integral",
+   "Kraken",
+   "MEXC",
+   "Niza.io"
+  ],
+  "cex_count": 8,
+  "chat": "https://www.instagram.com/WorldMobileTeam/",
+  "commits_4w": null,
+  "description": "World Mobile Token (WMTX) is the utility token that powers the World Mobile network, a decentralized mobile network at the forefront of the DePIN space. World Mobile aims to connect the world by leveraging blockchain technology and a sharing economy. By becoming an AirNode operator or a token staker, anyone can earn rewards for providing telco services to customers or securing the network. The World Mobile network is disrupting the trillion-dollar telco industry and creating a more inclusive, sustainable, and privacy-respecting wireless service for everyone.",
+  "dex": [
+   "CSWAP DEX",
+   "Minswap",
+   "PancakeSwap V3 (BSC)",
+   "Raydium (CLMM)",
+   "Sundaeswap",
+   "Uniswap V3 (BSC)"
+  ],
+  "discord": "https://discord.com/invite/Qg54MMMmjG",
+  "explorer": "https://basescan.org/token/0x3e31966d4f81C72D2a55310A6365A56A4393E98D",
+  "fetched": "2026-11-14T19:14:36.259474+00:00",
+  "genesis": null,
+  "github": "https://github.com/worldmobilegroup",
+  "homepage": "https://worldmobile.io",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain",
+   "cardano"
+  ],
+  "reddit": "https://www.reddit.com/r/WorldMobileToken/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/WorldMobileTeam",
+  "telegram_users": null,
+  "twitter": "https://x.com/wmchain",
+  "twitter_followers": null,
+  "watchers": 18147
+ },
  "wormhole": {
   "categories": [
    "Solana Ecosystem",
@@ -5567,7 +5461,7 @@
    "Bitget",
    "Bithumb"
   ],
-  "cex_count": 61,
+  "cex_count": 60,
   "chat": null,
   "commits_4w": null,
   "description": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. ",
@@ -5581,7 +5475,7 @@
   ],
   "discord": "https://discord.com/invite/wormholecrypto",
   "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-11-11T21:32:04.025148+00:00",
+  "fetched": "2026-11-14T19:14:29.862895+00:00",
   "genesis": null,
   "github": "https://github.com/wormhole-foundation/wormhole",
   "homepage": "https://wormhole.com/",
@@ -5598,7 +5492,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
-  "watchers": 43534
+  "watchers": 43536
  },
  "yee-token": {
   "categories": [
@@ -5620,7 +5514,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-11-13T14:33:58.912675+00:00",
+  "fetched": "2026-11-14T19:11:40.602465+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
@@ -5728,7 +5622,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-11-11T14:18:02.726290+00:00",
+  "fetched": "2026-11-14T19:13:23.376523+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
@@ -5739,12 +5633,12 @@
    "ronin"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/zentry",
   "twitter_followers": null,
-  "watchers": 4412
+  "watchers": 4410
  }
 }
