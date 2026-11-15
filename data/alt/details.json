@@ -37,27 +37,27 @@
    "Biconomy.com",
    "Bilaxy",
    "Binance",
+   "Binance US",
    "BingX",
    "Bit2Me",
    "BitDelta",
-   "Bitazza",
-   "Bitbaby"
+   "Bitazza"
   ],
-  "cex_count": 67,
+  "cex_count": 66,
   "chat": "https://www.youtube.com/@1inch_swap",
   "commits_4w": null,
   "description": "1inch is the DeFi ecosystem building financial freedom for everyone.\n\nWe research and develop cutting edge technology that allows our users and partners to realise the potential of decentralized finance, without workarounds or security risks.\n\nAnd we bring the sector together to advocate for compliant DeFi as the future of global finance.\n\nOur products:\n\nWe serve users and builders with products built on open-source, on-chain protocols.  \n\nAccess efficient, secure trading at the best rates through the 1inch dApp and self-custodial 1inch Wallet app, track your crypto with 1inch Portfolio, or spend and borrow against your digital assets with 1inch Card (powered by CryptoLife).\n\nBuilders and enterprise partners can access the core technologies powering 1inch to connect with an ecosystem that offers millions of tokens and tokenized RWAs, integrates 13+ networks and includes the first native swaps between Solana and the EVM",
   "dex": [
    "PancakeSwap (v2)",
    "PancakeSwap V3 (BSC)",
-   "SquadSwap Dynamo (BSC)",
    "Uniswap V2 (Ethereum)",
    "Uniswap V3 (BSC)",
-   "Uniswap V3 (Base)"
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
   ],
   "discord": "https://discord.com/invite/1inch",
   "explorer": "https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302",
-  "fetched": "2026-11-14T01:57:40.732147+00:00",
+  "fetched": "2026-11-15T14:00:26.516782+00:00",
   "genesis": null,
   "github": "https://github.com/1inch",
   "homepage": "https://1inch.com/",
@@ -74,7 +74,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/1inch",
   "twitter_followers": null,
-  "watchers": 118436
+  "watchers": 118425
  },
  "across-protocol": {
   "categories": [
@@ -836,52 +836,45 @@
   "twitter_followers": null,
   "watchers": 431
  },
- "broadcom-xstock": {
+ "brickken": {
   "categories": [
    "Tokenized Assets",
    "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Tokenized Stocks",
+   "Impossible Finance Launchpad",
    "Ethereum Ecosystem",
    "Real World Assets (RWA)",
-   "Mantle Ecosystem",
-   "TON Ecosystem",
-   "BackedFi xStocks Ecosystem"
+   "Tokenized Commodities",
+   "RWA Protocol",
+   "x402 Ecosystem"
   ],
   "cex": [
-   "Gate",
-   "Kraken"
+   "MEXC"
   ],
-  "cex_count": 2,
-  "chat": null,
+  "cex_count": 1,
+  "chat": "https://www.facebook.com/BrickkenSTO",
   "commits_4w": null,
-  "description": "\"For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 57 US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.\"",
+  "description": "Brickken enables businesses to create digital tokens backed by tokenized Real World Assets (RWA). Through the Token Suite, Clients can raise private or public capital by creating their own custom white-label token store &amp; token offering. \nCapturing the whole token lifecycle, token issuers can also manage both their assets &amp; investors under a seamless dashboard enabling cap table management, dividend distribution, and full investor - compliance.",
   "dex": [
-   "Meteora",
-   "Orca",
-   "Raydium (CLMM)"
+   "Uniswap V4 (Ethereum)"
   ],
-  "discord": null,
-  "explorer": "https://www.arbiscan.io/token/0x38bac69cbbd28156796e4163b2b6dcb81e336565",
-  "fetched": "2026-11-12T03:04:14.574945+00:00",
+  "discord": "https://discord.com/invite/m43zKP48Mc",
+  "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
+  "fetched": "2026-11-15T14:00:33.042868+00:00",
   "genesis": null,
-  "github": null,
-  "homepage": "https://xstocks.com/",
+  "github": "https://github.com/Brickken",
+  "homepage": "https://brickken.com/",
   "platforms": [
-   "arbitrum-one",
    "binance-smart-chain",
-   "ethereum",
-   "mantle"
+   "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
-  "telegram": "https://t.me/xstocksfi",
+  "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/xStocksFi",
+  "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 185
+  "watchers": 114136
  },
  "buttcoin-7": {
   "categories": [
@@ -941,7 +934,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "fetched": "2026-11-14T13:31:47.280923+00:00",
+  "fetched": "2026-11-15T13:57:52.858259+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cartoon-money.com/",
@@ -949,13 +942,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/cartoonmoney_ai",
   "twitter_followers": null,
-  "watchers": 245
+  "watchers": 254
  },
  "catwifmask": {
   "categories": [
@@ -1122,6 +1115,45 @@
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
   "watchers": 2119
+ },
+ "circle-rstock-2": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Morph L2 Ecosystem",
+   "Remora Markets Tokenized rStocks",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Circle Internet Group is a fintech and digital dollar infrastructure company best known for issuing and operating the USDC stablecoin and EURC. Through Circle Mint, APIs, wallet infrastructure, and settlement tools, the company serves exchanges, financial institutions, enterprises, and developers that need regulated digital-dollar payments, treasury operations, cross-border settlement, and on-chain application access. Its economics are tied to stablecoin circulation, reserve income, transaction activity, and adoption of new infrastructure products. In 2025, Circle launched Circle Payments Network and advanced Arc, a Layer-1 blockchain initiative focused on stablecoin payments and settlement.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+  "fetched": "2026-11-15T13:59:22.356583+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://realityfinance.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "morph-l2"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RealityFi_xyz",
+  "twitter_followers": null,
+  "watchers": 19
  },
  "claudia-2": {
   "categories": [
@@ -1542,8 +1574,10 @@
    "Frog-Themed",
    "The Boy\u2019s Club"
   ],
-  "cex": [],
-  "cex_count": 0,
+  "cex": [
+   "Matcha (Ethereum)"
+  ],
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "Doge Pepe ($DOPE) is an Ethereum-based memecoin inspired by a viral AI coding accident that resulted in the creation of a unique 3D hybrid character combining Doge and Pepe, two of the internet's most recognizable meme icons.\n\nThe story began when a creator experimenting with 3D meme design accidentally ran a script through the wrong API, consuming over 400 million tokens and generating approximately $1,900 in API charges. The unexpected result was a humorous Doge\u2013Pepe hybrid character, nicknamed \"DOPE.\"\n\nDoge Pepe transforms this accidental creation into a community-driven meme identity, celebrating internet humor, AI mishaps, creativity, and meme culture.\n\nBuilt on Ethereum, $DOPE represents the character and its origin story rather than claiming to be an AI tool or technology platform.\n\n**Project slogan:** Wrong API. Right face.",
@@ -1553,7 +1587,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x73df7018cbcb919ccde48c3f12f4326688ac4446",
-  "fetched": "2026-11-14T13:30:40.844941+00:00",
+  "fetched": "2026-11-15T13:57:56.069569+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dogepepeeth.lol/",
@@ -1561,13 +1595,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 60.0,
+  "sentiment_up": 42.86,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/DogePepeETH",
   "twitter_followers": null,
-  "watchers": 382
+  "watchers": 455
  },
  "dot": {
   "categories": [
@@ -1896,7 +1930,7 @@
   ],
   "discord": "https://discord.com/invite/flyingtulip",
   "explorer": "https://etherscan.io/token/0x5DD1A7A369e8273371d2DBf9d83356057088082c",
-  "fetched": "2026-11-13T00:55:14.370680+00:00",
+  "fetched": "2026-11-15T14:00:36.279253+00:00",
   "genesis": null,
   "github": "https://github.com/flyingtulipdotcom",
   "homepage": "https://flyingtulip.com/",
@@ -1907,13 +1941,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 25.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/flyingtulipgroup",
   "telegram_users": null,
   "twitter": "https://x.com/flyingtulip_",
   "twitter_followers": null,
-  "watchers": 1424
+  "watchers": 1426
  },
  "forta": {
   "categories": [
@@ -2090,6 +2124,38 @@
   "twitter_followers": null,
   "watchers": 46
  },
+ "gato-the-cat": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Cat-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Gato just left the alley after years of scrappy survival as a street cat in the shadows, bought the entire bank with style and precision, and still has eight lives left for the next epic moonshot in the markets. Meow is the new money now that this feline has proven cats can conquer finance, with whiskers twitching in anticipation as the world watches this former street cat turn into a banking mogul ready to pounce on the biggest opportunities yet while keeping eight lives in reserve for whatever comes next in the wild world of high-stakes investing and pure feline fortune.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xAb54A27A4B41957BEB30d5eAbD2cFad559081A87",
+  "fetched": "2026-11-15T13:56:46.356436+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.gatothecat.fun",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/gatothecat",
+  "telegram_users": null,
+  "twitter": "https://x.com/gatothecat9",
+  "twitter_followers": null,
+  "watchers": 46
+ },
  "georgeplaysclashroyale": {
   "categories": [
    "Solana Ecosystem",
@@ -2254,6 +2320,37 @@
   "twitter_followers": null,
   "watchers": 141
  },
+ "identity-md": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "IMD is the cut of the name. Identity.md is the full mark. The project started as Fren Pet on Base, bridged to Ethereum, became VIBE, then became IMD. The seats. The swarm. The cut. Identity.md (IMD) is a community meme token on Ethereum. It has a fixed supply of 1,000,000,000 tokens with no minting. Allocation is 100% to liquidity / public, with no team allocation and no vesting. The token has no audit or whitepaper. It is a fair launch with no presale or ICO.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xf944abfbf83c706316973e2c47a156710c84d7e9",
+  "fetched": "2026-11-15T13:56:49.481581+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://imdcoin.fun",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 33.33,
+  "stars": null,
+  "telegram": "https://t.me/ImdCoinETH",
+  "telegram_users": null,
+  "twitter": "https://x.com/ImdCoinETH",
+  "twitter_followers": null,
+  "watchers": 51
+ },
  "iexec-rlc": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2335,7 +2432,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
-  "fetched": "2026-11-14T02:29:10.498195+00:00",
+  "fetched": "2026-11-15T13:58:02.676423+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -2664,7 +2761,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-14T13:33:06.767699+00:00",
+  "fetched": "2026-11-15T13:59:19.077807+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2680,7 +2777,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3597
+  "watchers": 3596
  },
  "lisk": {
   "categories": [
@@ -2792,41 +2889,6 @@
   "twitter_followers": null,
   "watchers": 38970
  },
- "loopin-network": {
-  "categories": [
-   "Decentralized Finance (DeFi)",
-   "Solana Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Addressing the core challenges of coordination, pricing, and liquidity in decentralized physical infrastructure networks (DePIN), the PinFi protocol introduces a distinctive dynamic pricing mechanism. It enables providers to allocate excess computing resources to a \u201cdissipative\u201d PinFi liquidity pool, distinct from traditional DeFi liquidity pools, ensuring seamless access for clients at equitable, market-based prices. This approach significantly reduces the costs of accessing computing power, potentially to as low as 1% compared to existing services, while simultaneously enhancing security and dependability. The PinFi protocol is poised to transform the dynamics of supply and demand in computing power networks, setting a new standard for efficiency and accessibility.\n-\nPinFi, the groundbreaking Physical Infrastructure Finance protocol that's revolutionizing the way we access and distribute computing resources. In an era where AI computing power is as essential as electricity, PinFi stands at the forefront of the digital revolution, introducing a novel approach to pooling, distributing, and financing computing resources across networks. This not only makes such resources more accessible and affordable but also ensures a more efficient and equitable distribution of computing power.",
-  "dex": [
-   "Raydium (CLMM)",
-   "Uniswap V2 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/loopin",
-  "explorer": "https://etherscan.io/token/0x975dA7b2325F815F1dE23C8B68f721fb483B8071",
-  "fetched": "2026-11-12T03:03:11.272226+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.loopin.network/",
-  "platforms": [
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/loopin_network",
-  "twitter_followers": null,
-  "watchers": 751
- },
  "magic": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2929,6 +2991,57 @@
   "twitter_followers": null,
   "watchers": 3769
  },
+ "marlin": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Smart Contract Platform",
+   "Decentralized Finance (DeFi)",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Zero Knowledge (ZK)",
+   "DWF Labs Portfolio",
+   "Coinbase Ventures Portfolio",
+   "Pantera Capital Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "BitDelta",
+   "Bitvavo",
+   "Coinbase Exchange",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "LBank",
+   "MEXC",
+   "WEEX"
+  ],
+  "cex_count": 9,
+  "chat": "https://blog.marlin.org/",
+  "commits_4w": null,
+  "description": "High-performance network infrastructure for modern decentralized networks\n\n",
+  "dex": [
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/pdQZyyy",
+  "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
+  "fetched": "2026-11-15T13:59:15.833525+00:00",
+  "genesis": null,
+  "github": "https://github.com/marlinprotocol/OpenWeaver",
+  "homepage": "https://www.marlin.org/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/marlinprotocol/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/marlinprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/marlinprotocol",
+  "twitter_followers": null,
+  "watchers": 31925
+ },
  "mass-vehicle-ledger": {
   "categories": [
    "Internet of Things (IOT)",
@@ -2969,64 +3082,6 @@
   "twitter": "https://x.com/mvlchain",
   "twitter_followers": null,
   "watchers": 2973
- },
- "matrixdock-gold": {
-  "categories": [
-   "Tokenized Assets",
-   "Tokenized Gold",
-   "Solana Ecosystem",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "Sui Ecosystem",
-   "Real World Assets (RWA)",
-   "Tron Ecosystem",
-   "Tokenized Commodities",
-   "Stellar Ecosystem",
-   "Hyperliquid Ecosystem",
-   "HyperEVM Ecosystem",
-   "Plume Network Ecosystem",
-   "HashKey Chain Ecosystem",
-   "Matrixdock Ecosystem",
-   "Arc Ecosystem"
-  ],
-  "cex": [
-   "Aquarius",
-   "Bluefin",
-   "KuCoin",
-   "Momentum",
-   "Rooster Protocol"
-  ],
-  "cex_count": 5,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Matrixdock Gold token XAUm is an ERC-20 and BEP-20 token backed 1:1 by 1 troy ounce of fine weight, high-grade gold certified by the LBMA (London Bullion Market Association). Each token represents physical gold securely stored in reputable, high-security vaults. The total supply of XAUm will always match the underlying gold holdings, ensuring transparency and trustworthiness for investors and users.",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Raydium (CLMM)",
-   "Uniswap V3 (Arc)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Arc)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
-  "fetched": "2026-11-12T03:03:08.054539+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.matrixdock.com/xaum",
-  "platforms": [
-   "arc",
-   "binance-smart-chain",
-   "ethereum",
-   "hashkey-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/matrixdock",
-  "twitter_followers": null,
-  "watchers": 935
  },
  "merlin-chain": {
   "categories": [
@@ -3165,38 +3220,6 @@
   "twitter": "https://x.com/MMTFinance",
   "twitter_followers": null,
   "watchers": 4038
- },
- "moolah": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "$Moolah is a meme token inspired by the mascot of ListaDAO, a decentralized finance (DeFi) protocol. Launched on the Flap.sh platform, $Moolah has garnered attention due to its official authorization from ListaDAO and its strategic positioning within the DeFi and meme coin ecosystems.                                      $Moolah\u2019s official authorization by ListaDAO sets it apart from many other meme coins, which often lack formal endorsements. According to posts on X, ListaDAO has actively promoted $Moolah, with mentions of its mascot status and interactions with the token\u2019s official account (@Moolah_bsc\n). This backing suggests a strategic alignment with ListaDAO\u2019s broader goals, potentially positioning $Moolah as a \u201cblue-chip\u201d meme coin within the ecosystem. Additionally, Flap.sh and even Binance Chain have shown support through social media engagement, hinting at broader institutional interest.\n\n",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xbab528425edb1e0e36d3719bc3307d9c8cce8888",
-  "fetched": "2026-11-12T03:00:29.030443+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://moolahbnb.com",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/moolah_cto",
-  "telegram_users": null,
-  "twitter": "https://x.com/Moolah_bsc",
-  "twitter_followers": null,
-  "watchers": 275
  },
  "myshell": {
   "categories": [
@@ -3434,7 +3457,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb3a6add33f777ac6ea0ec88bdf533573c8bbbc03",
-  "fetched": "2026-11-14T01:54:08.226599+00:00",
+  "fetched": "2026-11-15T13:56:43.221783+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://mihao.site",
@@ -3442,13 +3465,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 40.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/MiHaoCat",
   "twitter_followers": null,
-  "watchers": 262
+  "watchers": 317
  },
  "ni-hao-cat-2": {
   "categories": [
@@ -3632,7 +3655,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/BwB3tNH92jKw6naNGDYDbDwRo8bvYxZVvZjRZRcoWR2h",
-  "fetched": "2026-11-13T14:36:32.692867+00:00",
+  "fetched": "2026-11-15T13:58:09.169352+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.obligate.com/otfy",
@@ -4164,6 +4187,47 @@
   "twitter_followers": null,
   "watchers": 12568
  },
+ "reppo": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Base Ecosystem",
+   "AI Agents",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Baseline (Base)",
+   "Hydrex Integral",
+   "Kraken",
+   "Ourbit"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "AI TRAINING DATA \ud83e\udd1d PREDICTION MARKETS\n\nOn REPPO.AI, user A publishes AI collabs - Vibe coded apps, GenAI videos/images, interaction with robots etc. &amp; user B predicts quality by voting in weekly epochs. Both split emissions 50-50 while high quality AI training data is created.",
+  "dex": [
+   "Aerodrome Slipstream 2",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xff8104251e7761163fac3211ef5583fb3f8583d6",
+  "fetched": "2026-11-15T14:01:39.569768+00:00",
+  "genesis": null,
+  "github": "https://github.com/Reppo-Labs",
+  "homepage": "https://reppo.xyz/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Reppo",
+  "twitter_followers": null,
+  "watchers": 1256
+ },
  "reserve-rights-token": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -4505,7 +4569,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-14T13:33:13.227050+00:00",
+  "fetched": "2026-11-15T14:01:42.824286+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4514,13 +4578,13 @@
    "etherlink"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/sogniai",
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11941
+  "watchers": 11943
  },
  "solidus-aitech": {
   "categories": [
@@ -4597,7 +4661,7 @@
   ],
   "discord": null,
   "explorer": "https://orbmarkets.io/token/SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
-  "fetched": "2026-11-14T13:33:16.468329+00:00",
+  "fetched": "2026-11-15T14:01:46.061685+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://backpack.exchange/stocks/SPCX",
@@ -4611,7 +4675,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 658
+  "watchers": 659
  },
  "spacex-ondo-tokenized-stock": {
   "categories": [
@@ -4685,7 +4749,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-11-13T01:18:06.960526+00:00",
+  "fetched": "2026-11-15T13:59:12.553429+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -4693,13 +4757,13 @@
    "arbitrum-one"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 89
+  "watchers": 91
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
@@ -5190,7 +5254,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
-  "fetched": "2026-11-14T02:29:04.079248+00:00",
+  "fetched": "2026-11-15T13:57:59.342102+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -5204,7 +5268,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 51
+  "watchers": 54
  },
  "uranium": {
   "categories": [
@@ -5283,7 +5347,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-11-14T13:31:50.454910+00:00",
+  "fetched": "2026-11-15T13:58:05.935055+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -5299,7 +5363,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 23510
+  "watchers": 23507
  },
  "utya": {
   "categories": [
@@ -5553,6 +5617,60 @@
   "twitter": "https://x.com/wormhole",
   "twitter_followers": null,
   "watchers": 43536
+ },
+ "xsgd": {
+  "categories": [
+   "Stablecoins",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Arbitrum Ecosystem",
+   "Zilliqa Ecosystem",
+   "Ethereum Ecosystem",
+   "SGD Stablecoin",
+   "Base Ecosystem",
+   "Hedera Ecosystem",
+   "XRP Ledger Ecosystem",
+   "Fiat-backed Stablecoin",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Coinbase Exchange",
+   "Pharaoh DLMM"
+  ],
+  "cex_count": 3,
+  "chat": "https://www.facebook.com/Xfers/",
+  "commits_4w": null,
+  "description": "XSGD is the world's first Travel Rule compliant stablecoin - backed by the Singapore-Dollar. XSGD is part of the StraitsX stablecoin initiative for SEA by Xfers.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Meteora",
+   "Orca",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x70e8de73ce538da2beed35d14187f6959a8eca96",
+  "fetched": "2026-11-15T14:00:29.767265+00:00",
+  "genesis": null,
+  "github": "https://github.com/Xfers/StraitsX-tokens/tree/master/Ethereum",
+  "homepage": "https://www.straitsx.com/sg/xsgd",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/StraitsX",
+  "twitter_followers": null,
+  "watchers": 1720
  },
  "yee-token": {
   "categories": [
