@@ -420,6 +420,13 @@
 "repo": "minos-protocol/minos_subnet",
 "t": 1794750840.6798031
 },
+"misscomputer/mscomputer-miner": {
+"capped": false,
+"commits_30d": 1,
+"last_commit": "2026-11-15T17:09:29Z",
+"repo": "misscomputer/mscomputer-miner",
+"t": 1794772002.3647141
+},
 "mobiusfund/investing": {
 "capped": false,
 "commits_30d": 7,
