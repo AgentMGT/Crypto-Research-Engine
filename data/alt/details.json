@@ -104,7 +104,7 @@
   ],
   "discord": "https://discord.across.to/",
   "explorer": "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
-  "fetched": "2026-11-14T02:30:20.746897+00:00",
+  "fetched": "2026-11-16T00:04:28.404807+00:00",
   "genesis": null,
   "github": "https://github.com/across-protocol",
   "homepage": "https://across.to/",
@@ -121,7 +121,62 @@
   "telegram_users": null,
   "twitter": "https://x.com/AcrossProtocol",
   "twitter_followers": null,
-  "watchers": 7830
+  "watchers": 7826
+ },
+ "adex": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "AI Agents",
+   "AI Applications",
+   "DeFAI",
+   "x402 Ecosystem",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "Mudrex",
+   "TokoCrypto"
+  ],
+  "cex_count": 15,
+  "chat": null,
+  "commits_4w": null,
+  "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
+  "fetched": "2026-11-16T00:02:08.574446+00:00",
+  "genesis": "2017-07-01",
+  "github": "https://github.com/heyauradev",
+  "homepage": "https://www.heyaura.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "robinhood"
+  ],
+  "reddit": "https://www.reddit.com/r/AdEx",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/+Oki8IRbVXVlmNTQ0",
+  "telegram_users": null,
+  "twitter": "https://x.com/heyAura",
+  "twitter_followers": null,
+  "watchers": 9350
  },
  "agoras-currency-of-tau": {
   "categories": [
@@ -388,7 +443,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xC4700aE5a5E6cD6B70E7190a0458e568089E98e2",
-  "fetched": "2026-11-14T02:27:47.580873+00:00",
+  "fetched": "2026-11-15T23:59:34.287472+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://audacityeth.lol",
@@ -396,13 +451,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 80.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/audacityeth_x",
   "twitter_followers": null,
-  "watchers": 161
+  "watchers": 285
  },
  "auki-labs": {
   "categories": [
@@ -762,7 +817,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
-  "fetched": "2026-11-13T02:26:37.338190+00:00",
+  "fetched": "2026-11-16T00:00:39.775661+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://bobothebear.io",
@@ -770,13 +825,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/bobocouncil",
   "twitter_followers": null,
-  "watchers": 431
+  "watchers": 433
  },
  "brickken": {
   "categories": [
@@ -817,6 +872,54 @@
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
   "watchers": 114136
+ },
+ "broadcom-xstock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Mantle Ecosystem",
+   "TON Ecosystem",
+   "BackedFi xStocks Ecosystem"
+  ],
+  "cex": [
+   "Gate",
+   "Kraken",
+   "Manifest"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "\"For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 57 US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.\"",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://www.arbiscan.io/token/0x38bac69cbbd28156796e4163b2b6dcb81e336565",
+  "fetched": "2026-11-16T00:02:15.209246+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://xstocks.com/",
+  "platforms": [
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum",
+   "mantle"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/xstocksfi",
+  "telegram_users": null,
+  "twitter": "https://x.com/xStocksFi",
+  "twitter_followers": null,
+  "watchers": 185
  },
  "buttcoin-7": {
   "categories": [
@@ -1266,7 +1369,7 @@
    "Bitunix",
    "BloFin"
   ],
-  "cex_count": 32,
+  "cex_count": 33,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1279,7 +1382,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-11-14T02:32:40.145976+00:00",
+  "fetched": "2026-11-16T00:01:57.991431+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1289,13 +1392,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/cookie_dao",
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33293
+  "watchers": 33283
  },
  "coq-inu": {
   "categories": [
@@ -2510,10 +2613,9 @@
    "Believe.app Ecosystem"
   ],
   "cex": [
-   "LBank",
-   "XT.COM"
+   "LBank"
   ],
-  "cex_count": 2,
+  "cex_count": 1,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -2523,7 +2625,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
-  "fetched": "2026-11-14T02:28:57.536507+00:00",
+  "fetched": "2026-11-16T00:02:05.194233+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.kled.ai/",
@@ -2531,13 +2633,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/useKled",
   "twitter_followers": null,
-  "watchers": 1967
+  "watchers": 1965
  },
  "kryll": {
   "categories": [
@@ -3977,11 +4079,12 @@
   "description": "",
   "dex": [
    "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)"
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V4 (BSC)"
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
-  "fetched": "2026-11-13T00:25:19.052031+00:00",
+  "fetched": "2026-11-16T00:02:01.645860+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -4297,7 +4400,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-11-14T13:30:44.018393+00:00",
+  "fetched": "2026-11-16T00:00:44.149672+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -4311,7 +4414,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12911
+  "watchers": 12910
  },
  "rna-2": {
   "categories": [
@@ -4329,7 +4432,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-14T13:33:19.712939+00:00",
+  "fetched": "2026-11-16T00:04:25.156224+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -4818,12 +4921,12 @@
    "BingX",
    "BitKan",
    "Bitget",
+   "Bitkub",
    "Bitlo",
    "Bitrue",
-   "Bittime",
-   "Bitunix"
+   "Bittime"
   ],
-  "cex_count": 38,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network \u2013 a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. ",
@@ -4833,7 +4936,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-11-14T02:31:30.479178+00:00",
+  "fetched": "2026-11-16T00:00:54.646658+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -4841,13 +4944,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
-  "watchers": 10167
+  "watchers": 10170
  },
  "starpower": {
   "categories": [
@@ -4951,7 +5054,7 @@
   ],
   "discord": "https://discord.gg/HhkJR6HCd",
   "explorer": "https://basescan.org/token/0xC52aeDec3374422d7510E294cfAa90799595CBa3",
-  "fetched": "2026-11-14T02:32:36.933099+00:00",
+  "fetched": "2026-11-16T00:03:21.770088+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.surplusintelligence.ai/",
@@ -4965,7 +5068,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AskSurplus",
   "twitter_followers": null,
-  "watchers": 627
+  "watchers": 630
  },
  "swarm-bzz": {
   "categories": [
@@ -4990,7 +5093,7 @@
   ],
   "discord": "https://discord.gg/GU22h2utj6",
   "explorer": "https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb",
-  "fetched": "2026-11-14T02:30:17.448118+00:00",
+  "fetched": "2026-11-16T00:04:31.649916+00:00",
   "genesis": null,
   "github": "https://github.com/ethersphere",
   "homepage": "https://ethswarm.org/",
@@ -5048,6 +5151,61 @@
   "twitter_followers": null,
   "watchers": 132
  },
+ "tesla-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Binance Alpha Spotlight",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "BingX",
+   "CoinW",
+   "CommunityV3",
+   "Gate",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks",
+   "Toobit"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "TSLAon is the Ondo Tokenized version of Tesla, giving tokenholders economic exposure similar to holding TSLA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)",
+   "Uniswap V4 (Robinhood)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+  "fetched": "2026-11-16T00:00:47.770159+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/tslaon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 389
+ },
  "tokenbot-2": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -5099,6 +5257,59 @@
   "twitter_followers": null,
   "watchers": 7512
  },
+ "tokenised-gbp": {
+  "categories": [
+   "Stablecoins",
+   "GBP Stablecoin",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Gnosis Chain Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Fiat-backed Stablecoin"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Coinbase Exchange",
+   "Hydrex Integral",
+   "Kraken"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "tGBP is the first and only British Pound pegged stablecoin issued by a UK FCA-registered firm. tGBP maintains a 1:1 peg to the British Pound Sterling through a robust, transparent backing mechanism designed for stability, redeemability, and regulatory compliance. tGBP is fully collateralised by fiat and short term zero coupon bonds issued by HM Treasury. tGBP facilitates on-chain sterling payments, programmable transactions, and exposure to GBP-linked Real World Assets (RWAs) like tokenised bonds.",
+  "dex": [
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Polygon)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+  "fetched": "2026-11-16T00:03:18.491624+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.tokenisedgbp.com",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/tokenGBP",
+  "twitter_followers": null,
+  "watchers": 347
+ },
  "tornado-cash": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -5124,7 +5335,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-11-14T01:59:00.228066+00:00",
+  "fetched": "2026-11-16T00:00:51.240302+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -5368,6 +5579,40 @@
   "twitter": "https://x.com/wastedotvip",
   "twitter_followers": null,
   "watchers": 7
+ },
+ "wingbits": {
+  "categories": [
+   "Solana Ecosystem",
+   "DePIN"
+  ],
+  "cex": [
+   "Kraken"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The native token of Wingbits, the world's first rewards-based decentralized flight tracking network. WINGS powers a global DePIN ecosystem where contributors earn rewards for collecting ADS-B aviation data, creating the world's largest virtual map of the sky while transforming how flight data is gathered, verified, and shared.",
+  "dex": [
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
+  "fetched": "2026-11-16T00:04:34.874460+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://wingbits.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/WingbitsMENACommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/wingbits",
+  "twitter_followers": null,
+  "watchers": 496
  },
  "woo-network": {
   "categories": [
@@ -5667,7 +5912,7 @@
    "Bybit",
    "CoinW"
   ],
-  "cex_count": 28,
+  "cex_count": 29,
   "chat": null,
   "commits_4w": null,
   "description": "YieldBasis enables users to provide BTC as liquidity in an AMM pool without impermanent loss (IL), while still earning trading fees.",
@@ -5679,7 +5924,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x01791F726B4103694969820be083196cC7c045fF",
-  "fetched": "2026-11-13T14:35:12.109994+00:00",
+  "fetched": "2026-11-16T00:02:11.912792+00:00",
   "genesis": null,
   "github": "https://github.com/yield-basis",
   "homepage": "https://yieldbasis.com/",
@@ -5688,13 +5933,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/yieldbasis",
   "telegram_users": null,
   "twitter": "https://x.com/yieldbasis",
   "twitter_followers": null,
-  "watchers": 2366
+  "watchers": 2362
  },
  "zentry": {
   "categories": [
