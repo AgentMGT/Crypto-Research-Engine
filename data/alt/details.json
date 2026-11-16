@@ -528,14 +528,14 @@
    "Coinbase Exchange",
    "Crypto.com Exchange",
    "Gate",
+   "HTX",
    "KuCoin",
    "MEXC",
    "Mudrex",
    "Near Intents",
-   "Rhea Finance",
-   "Trisolaris"
+   "Rhea Finance"
   ],
-  "cex_count": 13,
+  "cex_count": 14,
   "chat": null,
   "commits_4w": null,
   "description": "Aurora is an EVM built on the NEAR Protocol, delivering a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.",
@@ -545,7 +545,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-14T13:33:10.013813+00:00",
+  "fetched": "2026-11-16T19:10:02.472376+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -555,13 +555,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23717
+  "watchers": 23716
  },
  "ava-ai": {
   "categories": [
@@ -1487,7 +1487,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-  "fetched": "2026-11-14T02:27:44.381038+00:00",
+  "fetched": "2026-11-16T19:09:57.590473+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dessatalks.space/",
@@ -1501,7 +1501,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/DessaOnSOL",
   "twitter_followers": null,
-  "watchers": 249
+  "watchers": 250
  },
  "dmt-nat": {
   "categories": [
@@ -1765,7 +1765,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
-  "fetched": "2026-11-14T20:15:32.206196+00:00",
+  "fetched": "2026-11-16T19:09:51.005414+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://eagles.land",
@@ -2201,7 +2201,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
-  "fetched": "2026-11-15T13:58:02.676423+00:00",
+  "fetched": "2026-11-16T19:11:18.350172+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -2215,7 +2215,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 21
+  "watchers": 23
  },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
@@ -2381,6 +2381,41 @@
   "twitter": "https://x.com/JeanPhilMadame",
   "twitter_followers": null,
   "watchers": 178
+ },
+ "jobcoin-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "JobCoin ($JOBCOIN) is a dynamic meme token on the Solana blockchain, centered around the humorous narrative of escaping the 9-5 grind and achieving financial freedom through crypto. It embodies the dream of retiring early with wealth and leisure, resonating with a vibrant, global community of dreamers and meme enthusiasts. The project thrives on its community-driven ethos, where members actively shape its direction through creative input, meme generation, and collaborative initiatives. JobCoin\u2019s endless meme potential, spanning workplace humor, financial independence, and lifestyle aspirations which fuels its engaging presence on platforms like Twitter. A passionate community and a playful yet ambitious vision, JobCoin offers boundless possibilities for growth, entertainment, and connection in the crypto space.",
+  "dex": [
+   "Meteora DAMM V2",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+  "fetched": "2026-11-16T19:09:54.244638+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://jobcoin.capital",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/JobCoinSOL",
+  "twitter_followers": null,
+  "watchers": 232
  },
  "kled-ai": {
   "categories": [
@@ -2628,7 +2663,7 @@
    "Bitvavo",
    "BtcTurk | Kripto"
   ],
-  "cex_count": 40,
+  "cex_count": 38,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -2642,7 +2677,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-11-15T01:57:58.195013+00:00",
+  "fetched": "2026-11-16T19:11:15.072516+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2652,13 +2687,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38908
+  "watchers": 38904
  },
  "marlin": {
   "categories": [
@@ -3026,6 +3061,54 @@
   "twitter_followers": null,
   "watchers": 7967
  },
+ "newton-protocol": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance HODLer Airdrops",
+   "DeFAI"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo"
+  ],
+  "cex_count": 33,
+  "chat": "https://www.tiktok.com/@magic.newton",
+  "commits_4w": null,
+  "description": "The Newton Protocol is a decentralized infrastructure layer for verifiable onchain automation and secure agent authorization. It enables protocols, DAOs, and users to execute complex actions through verifiable agents, without relying on centralized bots or offchain coordination. Users can securely authorize agents to act on their behalf using programmable permissions, ensuring that actions occur only under conditions they approve. By combining trusted execution environments (TEEs), zero-knowledge proofs, and a modular agent architecture, Newton Protocol brings automation fully onchain, enhancing transparency, composability, and trust.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+  "fetched": "2026-11-16T19:12:24.914093+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://newt.foundation/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/newtfoundation",
+  "twitter_followers": null,
+  "watchers": 2674
+ },
  "ni-hao-cat": {
   "categories": [
    "Meme",
@@ -3351,7 +3434,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0xFbC2051AE2265686a469421b2C5A2D5462FbF5eB",
-  "fetched": "2026-11-15T01:58:07.783869+00:00",
+  "fetched": "2026-11-16T19:11:21.569244+00:00",
   "genesis": null,
   "github": "https://github.com/OpenGradient",
   "homepage": "https://www.opengradient.ai/",
@@ -3361,13 +3444,13 @@
    "mantle"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": 83.33,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/OpenGradient",
   "twitter_followers": null,
-  "watchers": 2595
+  "watchers": 2596
  },
  "ovr": {
   "categories": [
@@ -3649,7 +3732,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x226bb599a12c826476e3a771454697ea52e9e220",
-  "fetched": "2026-11-14T01:58:56.948263+00:00",
+  "fetched": "2026-11-16T19:10:08.489229+00:00",
   "genesis": "2017-07-18",
   "github": "https://github.com/Propy/ethereum",
   "homepage": "https://propy.com",
@@ -3658,13 +3741,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/propy",
   "telegram_users": null,
   "twitter": "https://x.com/PropyInc",
   "twitter_followers": null,
-  "watchers": 23071
+  "watchers": 23065
  },
  "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
   "categories": [
@@ -4157,7 +4240,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9f2e3eb0160117c56b07652fe66a08a48b5bd7b5",
-  "fetched": "2026-11-14T02:31:27.248467+00:00",
+  "fetched": "2026-11-16T19:12:34.588169+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/sofion",
@@ -4173,7 +4256,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 90
+  "watchers": 91
  },
  "sogni-ai": {
   "categories": [
@@ -4324,7 +4407,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-11-15T13:59:12.553429+00:00",
+  "fetched": "2026-11-16T19:12:28.137202+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -4388,6 +4471,98 @@
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
   "watchers": 10170
+ },
+ "starpower": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "DePIN",
+   "Binance Alpha Spotlight",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "Aster",
+   "KCEX"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (BSC)"
+  ],
+  "discord": "https://discord.com/invite/starpowernetwork",
+  "explorer": "https://solscan.io/token/STARqri3xhy6Pyv1EpgdjkPDVcs9FncKcaEP6527krs",
+  "fetched": "2026-11-16T19:12:31.346886+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.starpower.world/",
+  "platforms": [
+   "binance-smart-chain",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/starpowerworld",
+  "twitter_followers": null,
+  "watchers": 333
+ },
+ "stp-network": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Decentralized Finance (DeFi)",
+   "Derivatives",
+   "Synthetic Issuer",
+   "Base Ecosystem",
+   "AI Agents",
+   "Synthetic",
+   "AI Agent Launchpad",
+   "Base Native"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "BloFin",
+   "Coinbase Exchange"
+  ],
+  "cex_count": 27,
+  "chat": null,
+  "commits_4w": null,
+  "description": "AWE Network is building the infrastructure and asset layer for the agentic economy. Open rails for identity and payments \u2014 and the products that put them to work.\n\nAWE is the governance token for the AWE ecosystem.\n\nAWE started as the Autonomous World Engine \u2014 a multi-agent framework where up to a thousand agents could run in parallel inside persistent worlds. World.fun stress-tested the engine with live worlds and real users and was the foundation for the Agentic World Economy.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0x1B4617734C43F6159F3a70b7E06d883647512778",
+  "fetched": "2026-11-16T19:11:11.826628+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.awenetwork.ai/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/STPofficial",
+  "telegram_users": null,
+  "twitter": "https://x.com/awenetwork_ai",
+  "twitter_followers": null,
+  "watchers": 7966
  },
  "super-inu-2": {
   "categories": [
@@ -4643,7 +4818,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
-  "fetched": "2026-11-14T02:31:33.710407+00:00",
+  "fetched": "2026-11-16T19:13:37.925181+00:00",
   "genesis": null,
   "github": "https://github.com/clanker-devco",
   "homepage": "https://www.clanker.world/",
@@ -4657,7 +4832,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 7512
+  "watchers": 7511
  },
  "tokenised-gbp": {
   "categories": [
