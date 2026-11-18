@@ -11,38 +11,38 @@
 "commits_30d": 41,
 "last_commit": "2026-11-11T23:11:17Z",
 "repo": "404-Repo/404-gen-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "actual-computer/actual-subnet-95": {
 "missing": true,
 "repo": "actual-computer/actual-subnet-95",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "affinefoundation/affine": {
 "capped": true,
 "commits_30d": 100,
 "last_commit": "2026-11-08T23:51:56Z",
 "repo": "AffineFoundation/affine",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "afterpartyai/bittensor-conversation-genome-project": {
 "capped": false,
 "commits_30d": 2,
 "last_commit": "2026-10-27T17:51:41Z",
 "repo": "afterpartyai/bittensor-conversation-genome-project",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "attelierai/attelierai_subnet": {
 "missing": true,
 "repo": "attelierai/attelierai_subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "aurelius-protocol/aurelius-protocol": {
 "capped": false,
 "commits_30d": 4,
 "last_commit": "2026-11-07T00:59:23Z",
 "repo": "Aurelius-Protocol/Aurelius-Protocol",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "axorganization/axonry": {
 "capped": false,
@@ -53,225 +53,225 @@
 },
 "backend-developers-ltd/computehorde": {
 "capped": false,
-"commits_30d": 19,
-"last_commit": "2026-11-17T19:59:26Z",
+"commits_30d": 21,
+"last_commit": "2026-11-18T12:17:58Z",
 "repo": "backend-developers-ltd/ComputeHorde",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "barbariandev/mantis": {
 "capped": false,
 "commits_30d": 17,
 "last_commit": "2026-11-17T15:29:00Z",
 "repo": "Barbariandev/MANTIS",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "barbariandev/refinery": {
 "capped": false,
 "commits_30d": 2,
 "last_commit": "2026-11-06T23:33:26Z",
 "repo": "Barbariandev/refinery",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "bitcast-network/bitcast": {
 "capped": false,
 "commits_30d": 3,
 "last_commit": "2026-11-13T14:51:45Z",
 "repo": "bitcast-network/bitcast",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "bitmind-ai/yugos": {
 "capped": true,
 "commits_30d": 100,
 "last_commit": "2026-11-13T22:27:46Z",
 "repo": "BitMind-AI/yugos",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "bitsec-ai/sandbox": {
 "capped": false,
 "commits_30d": 11,
 "last_commit": "2026-11-02T18:13:45Z",
 "repo": "Bitsec-AI/sandbox",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "byteleapai/byteleap-miner": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-08-11T02:08:13Z",
 "repo": "byteleapai/byteleap-Miner",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "cadmindai/cadmind-einstein": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T16:13:04Z",
+"last_commit": "2026-11-18T09:39:30Z",
 "repo": "cadmindai/cadmind-einstein",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "capabilityforge-next/capabilityforge": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-09-09T13:54:34Z",
 "repo": "capabilityforge-next/capabilityforge",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "carbonphysicsai/carbon": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-18T02:31:36Z",
+"last_commit": "2026-11-18T16:44:48Z",
 "repo": "carbonphysicsai/Carbon",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "cathedralai/cathedral-sandbox": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T18:40:04Z",
+"last_commit": "2026-11-18T18:15:00Z",
 "repo": "cathedralai/cathedral-sandbox",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "chronollm/sn38": {
 "capped": false,
 "commits_30d": 4,
 "last_commit": "2026-11-12T11:34:40Z",
 "repo": "chronollm/sn38",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "chutesai/chutes": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-07-23T11:03:44Z",
 "repo": "chutesai/chutes",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "coldint/hotfloat": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-06-15T17:31:11Z",
 "repo": "coldint/hotfloat",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "conjectures-io/conjectures-validator": {
 "capped": true,
 "commits_30d": 100,
 "last_commit": "2026-11-16T21:28:32Z",
 "repo": "conjectures-io/conjectures-validator",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "connito-ai/connito": {
 "capped": false,
 "commits_30d": 10,
 "last_commit": "2026-10-30T14:28:47Z",
 "repo": "Connito-AI/Connito",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "cookingtao": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-09-23T15:23:34Z",
 "repo": "CookingTao/CookingTAO-Subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "cortexlm/cortex": {
 "capped": false,
-"commits_30d": 63,
+"commits_30d": 35,
 "last_commit": "2026-10-20T14:44:57Z",
 "repo": "CortexLM/cortex",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "corvxai/almanac": {
 "capped": false,
-"commits_30d": 37,
+"commits_30d": 35,
 "last_commit": "2026-11-18T01:05:10Z",
 "repo": "corvxai/almanac",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "creativebuilds/sn77": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-06-24T19:27:26Z",
 "repo": "creativebuilds/sn77",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "danilabsai/subnet": {
 "capped": false,
 "commits_30d": 30,
 "last_commit": "2026-11-10T21:20:50Z",
 "repo": "DaniLabsAI/subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "datura-ai/desearch": {
 "capped": true,
 "commits_30d": 100,
 "last_commit": "2026-11-17T20:45:31Z",
 "repo": "datura-ai/desearch",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "datura-ai/lium-io": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T20:16:15Z",
+"last_commit": "2026-11-18T16:26:22Z",
 "repo": "Datura-ai/lium-io",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "deltacompute24/infinitequant-subnet": {
 "capped": false,
 "commits_30d": 48,
 "last_commit": "2026-11-16T16:55:36Z",
 "repo": "DeltaCompute24/InfiniteQuant-Subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "dendritehq/soma": {
 "capped": false,
 "commits_30d": 65,
 "last_commit": "2026-11-17T15:23:46Z",
 "repo": "DendriteHQ/SOMA",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "dendritelabs/ingot": {
-"capped": true,
-"commits_30d": 100,
+"capped": false,
+"commits_30d": 91,
 "last_commit": "2026-11-17T18:56:47Z",
 "repo": "DendriteLabs/ingot",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "deprecated/deprecated": {
 "missing": true,
 "repo": "deprecated/deprecated",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "desciclaims/claims": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T01:46:11Z",
+"last_commit": "2026-11-18T17:39:22Z",
 "repo": "DeSciClaims/Claims",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "endure-network/endure-subnet": {
 "capped": false,
 "commits_30d": 7,
 "last_commit": "2026-10-21T04:59:44Z",
 "repo": "Endure-Network/endure-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "entrius/allways": {
 "capped": false,
-"commits_30d": 21,
+"commits_30d": 18,
 "last_commit": "2026-11-17T16:01:21Z",
 "repo": "entrius/allways",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "entrius/gittensor": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-12T22:46:29Z",
 "repo": "entrius/gittensor",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "everyframe-studios/everyframe-miner": {
 "capped": true,
 "commits_30d": 100,
 "last_commit": "2026-11-15T01:23:59Z",
 "repo": "everyframe-studios/everyframe-miner",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "forgenet47/gpuforge": {
 "capped": false,
@@ -283,515 +283,515 @@
 "fugal-ai/fugal-subnet": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T21:08:53Z",
+"last_commit": "2026-11-18T17:52:15Z",
 "repo": "fugal-ai/fugal-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "genomesio/subnet-niome": {
 "capped": false,
 "commits_30d": 8,
 "last_commit": "2026-11-10T07:47:20Z",
 "repo": "genomesio/subnet-niome",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "gradients-ai/g.o.d": {
 "capped": false,
-"commits_30d": 28,
+"commits_30d": 27,
 "last_commit": "2026-11-17T14:33:43Z",
 "repo": "gradients-ai/G.O.D",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "graphiteai/graphite-subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2025-10-12T15:50:57Z",
 "repo": "GraphiteAI/Graphite-Subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "hanlinai/engy": {
 "capped": false,
-"commits_30d": 14,
+"commits_30d": 12,
 "last_commit": "2026-11-17T16:39:56Z",
 "repo": "hanlinai/engy",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "harnyx/harnyx": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-18T03:06:43Z",
+"last_commit": "2026-11-18T13:20:08Z",
 "repo": "harnyx/harnyx",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "heraldmedia/herald": {
 "capped": false,
 "commits_30d": 11,
 "last_commit": "2026-11-13T14:21:51Z",
 "repo": "HeraldMedia/herald",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "heroncovelabs/ormas-subnet": {
 "capped": false,
 "commits_30d": 12,
 "last_commit": "2026-11-17T03:35:32Z",
 "repo": "heroncovelabs/ormas-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "hone-subnet-org/hone-subnet": {
 "capped": false,
 "commits_30d": 22,
 "last_commit": "2026-11-14T00:46:59Z",
 "repo": "hone-subnet-org/hone-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "ippcteam/sn21-adtao": {
 "capped": false,
-"commits_30d": 64,
-"last_commit": "2026-11-13T16:58:35Z",
+"commits_30d": 69,
+"last_commit": "2026-11-18T17:29:18Z",
 "repo": "ippcteam/SN21-adtao",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "it-s-ai/llm-detection": {
 "capped": false,
 "commits_30d": 2,
 "last_commit": "2026-10-28T09:15:53Z",
 "repo": "It-s-AI/llm-detection",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "komms-protocol/komms-docs": {
 "capped": false,
 "commits_30d": 6,
 "last_commit": "2026-10-31T01:26:30Z",
 "repo": "Komms-protocol/komms-docs",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "kubetee-ai/kubetee-subnet": {
 "capped": false,
-"commits_30d": 57,
-"last_commit": "2026-11-17T16:35:21Z",
+"commits_30d": 56,
+"last_commit": "2026-11-18T14:27:49Z",
 "repo": "KubeTEE-AI/kubetee-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "latent-to/cacheon": {
 "capped": false,
-"commits_30d": 87,
-"last_commit": "2026-11-15T22:59:01Z",
+"commits_30d": 89,
+"last_commit": "2026-11-18T08:51:06Z",
 "repo": "latent-to/cacheon",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "leadpoet/leadpoet": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T07:50:41Z",
+"last_commit": "2026-11-18T06:26:30Z",
 "repo": "leadpoet/leadpoet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "macrocosm-os/apex": {
 "capped": false,
 "commits_30d": 11,
 "last_commit": "2026-11-04T11:24:57Z",
 "repo": "macrocosm-os/apex",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "macrocosm-os/data-universe": {
 "capped": false,
 "commits_30d": 3,
 "last_commit": "2026-10-22T20:51:22Z",
 "repo": "macrocosm-os/data-universe",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "macrocosm-os/iota": {
 "capped": false,
 "commits_30d": 2,
 "last_commit": "2026-11-01T09:01:15Z",
 "repo": "macrocosm-os/iota",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "manifold-inc/targon": {
 "capped": false,
 "commits_30d": 1,
 "last_commit": "2026-11-09T06:21:26Z",
 "repo": "manifold-inc/targon",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "metanova-labs/nova": {
 "capped": false,
 "commits_30d": 10,
 "last_commit": "2026-11-14T15:22:47Z",
 "repo": "metanova-labs/nova",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "minos-protocol/minos_subnet": {
 "capped": false,
 "commits_30d": 2,
 "last_commit": "2026-11-06T00:54:31Z",
 "repo": "minos-protocol/minos_subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "misscomputer/mscomputer-miner": {
 "capped": false,
-"commits_30d": 2,
-"last_commit": "2026-11-16T00:11:50Z",
+"commits_30d": 3,
+"last_commit": "2026-11-18T10:23:45Z",
 "repo": "misscomputer/mscomputer-miner",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "mobiusfund/investing": {
 "capped": false,
 "commits_30d": 7,
 "last_commit": "2026-11-11T01:00:33Z",
 "repo": "mobiusfund/investing",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "mode-network/synth-subnet": {
 "capped": false,
 "commits_30d": 13,
 "last_commit": "2026-11-06T15:53:30Z",
 "repo": "mode-network/synth-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "moirai115/moirai": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-09-03T07:04:04Z",
 "repo": "moirai115/MoirAI",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "natixnetwork/streetvision-subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-05-07T12:26:51Z",
 "repo": "natixnetwork/streetvision-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "nepher-ai/nepher-subnet": {
 "capped": false,
 "commits_30d": 2,
 "last_commit": "2026-11-06T10:05:29Z",
 "repo": "nepher-ai/nepher-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "neverplayalone/neverplayalone_subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-11-02T05:19:51Z",
 "repo": "neverplayalone/neverplayalone_subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "nodexo-ai/nodexo": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-07-23T13:38:57Z",
 "repo": "nodexo-ai/nodexo",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "numinouslabs/numinous": {
 "capped": false,
 "commits_30d": 6,
 "last_commit": "2026-11-10T18:18:23Z",
 "repo": "numinouslabs/numinous",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "ooo-hq/zils": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-18T03:36:14Z",
+"last_commit": "2026-11-18T17:28:46Z",
 "repo": "ooo-hq/zils",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "openroboto-ai/openroboto-subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-05T07:57:59Z",
 "repo": "openroboto-ai/openroboto-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "orgs/beam-network": {
 "missing": true,
 "repo": "orgs/Beam-Network",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "orgs/ditto-assistant": {
 "missing": true,
 "repo": "orgs/ditto-assistant",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "oro-ai/oro": {
 "capped": false,
 "commits_30d": 30,
 "last_commit": "2026-11-16T23:53:46Z",
 "repo": "ORO-AI/oro",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "orpheus-ai/zeus": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-15T11:51:26Z",
 "repo": "Orpheus-AI/Zeus",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "pareton-ai/pareton": {
 "capped": false,
 "commits_30d": 64,
 "last_commit": "2026-11-13T20:49:07Z",
 "repo": "Pareton-ai/pareton",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "qbittensor-labs/enigma": {
 "capped": false,
 "commits_30d": 3,
 "last_commit": "2026-11-10T21:41:45Z",
 "repo": "qbittensor-labs/enigma",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "qbittensor-labs/quantum-compute": {
 "capped": false,
 "commits_30d": 8,
 "last_commit": "2026-11-13T05:16:07Z",
 "repo": "qbittensor-labs/quantum-compute",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "ralphlabsai/ralph": {
 "capped": false,
 "commits_30d": 3,
 "last_commit": "2026-11-03T00:44:40Z",
 "repo": "RalphLabsAI/ralph",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "reaxlabs/reax-subnet": {
 "capped": false,
-"commits_30d": 16,
+"commits_30d": 14,
 "last_commit": "2026-11-04T11:32:13Z",
 "repo": "reaxlabs/reax-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "rec4ll-main": {
 "capped": false,
 "commits_30d": 3,
 "last_commit": "2026-11-17T16:35:56Z",
 "repo": "rec4ll-main/recall-miner",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "redteamsubnet/redteam": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-13T10:23:20Z",
 "repo": "RedTeamSubnet/RedTeam",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "reliquadotai/reliquary": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-18T02:39:10Z",
+"last_commit": "2026-11-18T15:38:29Z",
 "repo": "reliquadotai/reliquary",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "ridgesai/ridges": {
 "capped": false,
 "commits_30d": 82,
 "last_commit": "2026-11-16T21:10:46Z",
 "repo": "ridgesai/ridges",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "robotensor/attune-subnet": {
 "capped": false,
 "commits_30d": 13,
 "last_commit": "2026-11-13T11:49:35Z",
 "repo": "robotensor/attune-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "score-technologies/turbovision": {
 "capped": false,
 "commits_30d": 24,
-"last_commit": "2026-11-17T14:40:42Z",
+"last_commit": "2026-11-18T15:59:10Z",
 "repo": "score-technologies/turbovision",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "subnet46/sn46-validator": {
 "capped": false,
 "commits_30d": 10,
 "last_commit": "2026-11-05T17:19:14Z",
 "repo": "Subnet46/sn46-validator",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "sundae-bar/bittensor-subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-16T15:30:43Z",
 "repo": "sundae-bar/bittensor-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "swarm-subnet/swarm": {
 "capped": false,
-"commits_30d": 20,
-"last_commit": "2026-11-17T17:46:08Z",
+"commits_30d": 40,
+"last_commit": "2026-11-18T17:46:16Z",
 "repo": "swarm-subnet/swarm",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "tag101-ai/tag101": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-14T02:06:53Z",
 "repo": "tag101-ai/tag101",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "taofu-labs/true-performance-network": {
 "capped": false,
-"commits_30d": 16,
+"commits_30d": 15,
 "last_commit": "2026-11-02T12:10:24Z",
 "repo": "taofu-labs/true-performance-network",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "taos-im/sn-79": {
 "capped": false,
 "commits_30d": 5,
 "last_commit": "2026-11-10T14:54:53Z",
 "repo": "taos-im/sn-79",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "taoshidev/vanta-network": {
 "capped": false,
-"commits_30d": 17,
-"last_commit": "2026-11-13T23:26:20Z",
+"commits_30d": 22,
+"last_commit": "2026-11-18T10:32:04Z",
 "repo": "taoshidev/vanta-network",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "taostat/blockmachine": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-07-27T01:59:55Z",
 "repo": "taostat/blockmachine",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "taostat/gm-miner": {
 "capped": false,
-"commits_30d": 85,
+"commits_30d": 84,
 "last_commit": "2026-11-09T21:24:26Z",
 "repo": "taostat/gm-miner",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "taostatus/taostatus-subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-11-06T17:39:33Z",
 "repo": "taostatus/taostatus-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "tatsuproject/chipforge_sn108": {
 "capped": false,
 "commits_30d": 24,
 "last_commit": "2026-11-11T08:29:38Z",
 "repo": "TatsuProject/ChipForge_SN108",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "team-rizzo/alpharidge-ai": {
 "capped": false,
 "commits_30d": 12,
 "last_commit": "2026-11-13T17:26:43Z",
 "repo": "Team-Rizzo/alpharidge-ai",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "tensorlink-ai/cascade": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T09:15:30Z",
+"last_commit": "2026-11-18T07:40:30Z",
 "repo": "TensorLink-AI/cascade",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "tensorplex-labs/dojo": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2025-11-03T07:51:15Z",
 "repo": "tensorplex-labs/dojo",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "terza-labs/terza-miner": {
 "capped": false,
 "commits_30d": 1,
 "last_commit": "2026-10-21T10:28:35Z",
 "repo": "terza-labs/terza-miner",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "thenervelab/thebrain": {
 "capped": false,
-"commits_30d": 36,
+"commits_30d": 31,
 "last_commit": "2026-11-14T07:56:05Z",
 "repo": "thenervelab/thebrain",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "toptensor/cliqueai": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-05T06:34:54Z",
 "repo": "toptensor/CliqueAI",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "trajectoryrl/trajectoryrl": {
 "capped": false,
 "commits_30d": 8,
 "last_commit": "2026-11-08T10:30:24Z",
 "repo": "trajectoryRL/trajectoryRL",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "trishoolai/trishool-phase2": {
 "capped": false,
 "commits_30d": 2,
 "last_commit": "2026-10-27T15:41:02Z",
 "repo": "TrishoolAI/trishool-phase2",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "unarbos/teutonic": {
 "capped": false,
-"commits_30d": 30,
+"commits_30d": 29,
 "last_commit": "2026-11-17T15:26:48Z",
 "repo": "unarbos/teutonic",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "urfoundation/sn": {
 "capped": true,
 "commits_30d": 100,
-"last_commit": "2026-11-17T22:14:19Z",
+"last_commit": "2026-11-18T05:26:51Z",
 "repo": "urfoundation/sn",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "verathos-ai/verathos": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-14T19:13:47Z",
 "repo": "verathos-ai/verathos",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "vidaio-subnet/vidaio-subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-08-20T09:12:45Z",
 "repo": "vidaio-subnet/vidaio-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "vora-inc/noah": {
 "capped": false,
-"commits_30d": 10,
+"commits_30d": 8,
 "last_commit": "2026-11-05T02:09:15Z",
 "repo": "Vora-Inc/NOAH",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "weircompute/weir-subnet": {
 "capped": false,
 "commits_30d": 11,
 "last_commit": "2026-11-12T14:03:58Z",
 "repo": "weircompute/weir-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "witnessvision/witness_subnet": {
 "capped": false,
 "commits_30d": 0,
 "last_commit": "2026-10-03T19:53:27Z",
 "repo": "witnessvision/witness_subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 },
 "yanez-compliance/miid-subnet": {
 "capped": false,
-"commits_30d": 21,
+"commits_30d": 19,
 "last_commit": "2026-11-11T23:23:00Z",
 "repo": "yanez-compliance/MIID-subnet",
-"t": 1794973398.5064814
+"t": 1795025792.612375
 }
 }
