@@ -44,6 +44,13 @@
 "repo": "Aurelius-Protocol/Aurelius-Protocol",
 "t": 1794973398.5064814
 },
+"axorganization/axonry": {
+"capped": false,
+"commits_30d": 69,
+"last_commit": "2026-11-18T15:19:46Z",
+"repo": "AxOrganization/axonry",
+"t": 1795016137.500426
+},
 "backend-developers-ltd/computehorde": {
 "capped": false,
 "commits_30d": 19,
