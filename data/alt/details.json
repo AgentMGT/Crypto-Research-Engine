@@ -104,7 +104,7 @@
   ],
   "discord": "https://discord.across.to/",
   "explorer": "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
-  "fetched": "2026-11-16T00:04:28.404807+00:00",
+  "fetched": "2026-11-18T03:50:29.403999+00:00",
   "genesis": null,
   "github": "https://github.com/across-protocol",
   "homepage": "https://across.to/",
@@ -121,7 +121,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AcrossProtocol",
   "twitter_followers": null,
-  "watchers": 7826
+  "watchers": 7823
  },
  "adex": {
   "categories": [
@@ -425,52 +425,6 @@
   "twitter_followers": null,
   "watchers": 285
  },
- "auki-labs": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Augmented Reality",
-   "Metaverse",
-   "DePIN",
-   "Base Ecosystem",
-   "AI Applications",
-   "Outlier Ventures Portfolio",
-   "Peaq Ecosystem",
-   "Robotics",
-   "Base Native"
-  ],
-  "cex": [
-   "MEXC",
-   "MachineX"
-  ],
-  "cex_count": 2,
-  "chat": "https://auki.medium.com/",
-  "commits_4w": null,
-  "description": "Auki is making the physical world accessible to AI by building the real world web: a way for robots and digital devices like smart glasses and phones to browse, navigate, and search physical locations. At its foundation is the posemesh protocol, a collaborative and decentralized machine perception network that allows robots and XR devices to have a shared understanding of physical space, and a token economy for exchanging spatial data and compute resources.\n\n70% of the world economy is still tied to physical locations and labor, so making the physical world accessible to AI represents a 3X increase in the TAM of AI in general. Auki's goal is to become the decentralized nervous system of AI in the physical world, providing collaborative spatial reasoning for the next 100bn devices on Earth and beyond.\n\nFrom autonomous drone delivery to copilots for physical labor to robotic companions for children and navigation aid for the blind, the Auki network is a fast-growing ecosystem of cutting-edge physical AI applications. \n\nRapidly rolling out into thousands of commercial and private locations world-wide, the Auki network is now home to a growing number of applications that are already collecting millions of dollars in yearly revenue. \n\nWith a growing roster of robot integrations like Unitree, EngineAI, Padbot, Slamtec and more, Auki has cemented itself as the web3 robotics project with the most real world traction. \n\nThis year, Auki demonstrated the world's first large-scale autono",
-  "dex": [
-   "Aerodrome (Base)",
-   "PancakeSwap V3 (Base)",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": "https://discord.gg/auki",
-  "explorer": "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
-  "fetched": "2026-11-14T19:15:42.797709+00:00",
-  "genesis": null,
-  "github": "https://github.com/aukilabs",
-  "homepage": "https://www.auki.com/",
-  "platforms": [
-   "base",
-   "peaq"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/AukiNetwork",
-  "telegram_users": null,
-  "twitter": "https://x.com/Auki",
-  "twitter_followers": null,
-  "watchers": 6604
- },
  "aurora-near": {
   "categories": [
    "Near Protocol Ecosystem",
@@ -487,14 +441,14 @@
    "Coinbase Exchange",
    "Crypto.com Exchange",
    "Gate",
-   "HTX",
    "KuCoin",
    "MEXC",
    "Mudrex",
    "Near Intents",
-   "Rhea Finance"
+   "Rhea Finance",
+   "Trisolaris"
   ],
-  "cex_count": 14,
+  "cex_count": 13,
   "chat": null,
   "commits_4w": null,
   "description": "Aurora is an EVM built on the NEAR Protocol, delivering a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.",
@@ -504,7 +458,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-16T19:10:02.472376+00:00",
+  "fetched": "2026-11-18T03:48:13.205931+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -514,13 +468,100 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23716
+  "watchers": 23714
+ },
+ "basecat": {
+  "categories": [
+   "Meme",
+   "Base Ecosystem",
+   "Cat-Themed",
+   "Base Meme"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "BingX",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Matcha (Base)",
+   "Ourbit",
+   "o1 Launchpad"
+  ],
+  "cex_count": 10,
+  "chat": null,
+  "commits_4w": null,
+  "description": "the cat on Base \ncommunity-run home for $BASECAT",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
+  "fetched": "2026-11-18T03:46:50.475366+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://basecatonbase.com",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/basecatonbase",
+  "telegram_users": null,
+  "twitter": "https://x.com/BasecatOnBase",
+  "twitter_followers": null,
+  "watchers": 1008
+ },
+ "ben-pasternak": {
+  "categories": [
+   "Solana Ecosystem",
+   "Launchpad",
+   "Meme",
+   "Solana Meme",
+   "Believe.app Ecosystem"
+  ],
+  "cex": [
+   "CEX.IO",
+   "Gate",
+   "KCEX",
+   "Toobit",
+   "Webot"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Meteora",
+   "Meteora DAMM V2"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/BLVxek8YMXUQhcKmMvrFTrzh5FXg8ec88Crp6otEaCMf",
+  "fetched": "2026-11-18T03:46:47.223622+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://believe.app/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/launchcoin",
+  "twitter_followers": null,
+  "watchers": 6471
  },
  "bio-protocol": {
   "categories": [
@@ -754,44 +795,58 @@
   "twitter_followers": null,
   "watchers": 185
  },
- "buttcoin-7": {
+ "bubblemaps": {
   "categories": [
+   "Analytics",
+   "BNB Chain Ecosystem",
    "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Pump.fun Ecosystem"
+   "Binance HODLer Airdrops",
+   "Binance Wallet IDO",
+   "InfoFi"
   ],
   "cex": [
-   "KCEX",
-   "LBank"
+   "Aster",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bybit",
+   "CEX.IO",
+   "Coinone"
   ],
-  "cex_count": 2,
+  "cex_count": 29,
   "chat": null,
   "commits_4w": null,
-  "description": "Back in 2011, long before \u201ccrypto Twitter\u201d, NFTs, or VC-backed chains existed, users of the BitcoinTalk forum came up with a new currency - not to launch a network, but to make fun of btc.... and so: The first memecoin/memecurrency was born.\n\nOn May 23, 2011, a Something Awful poster cracked, \u201cHas anyone called them buttcoins yet?\u201d. It was sophomoric and perfect. Within weeks the gag metastasized into Buttcoin.org, a parody blog that described a \u201cpeer to peer butt\u201d economy while cataloging mining fiascos, exchange blowups, and MLM-adjacent \u201cinnovations\u201d.\n",
+  "description": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient \u2014allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding massive amounts\n- Launchpads, KOLs, and VCs exploiting the lack of transparency for profit",
   "dex": [
    "Meteora",
-   "Orca",
-   "PumpSwap",
-   "Raydium (CLMM)"
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap V3 (Solana)",
+   "Raydium (CLMM)",
+   "Uniswap V4 (BSC)"
   ],
   "discord": null,
-  "explorer": "https://solscan.io/token/Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
-  "fetched": "2026-11-14T19:11:43.796371+00:00",
+  "explorer": "https://solscan.io/token/FQgtfugBdpFN7PZ6NdPrZpVLDBrPGxXesi4gVu3vErhY",
+  "fetched": "2026-11-18T03:47:03.443827+00:00",
   "genesis": null,
-  "github": null,
-  "homepage": "https://www.buttcoinfoundation.org/",
+  "github": "https://github.com/bubblemaps",
+  "homepage": "https://bubblemaps.io",
   "platforms": [
+   "binance-smart-chain",
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
-  "telegram": null,
+  "telegram": "https://t.me/bubblemaps",
   "telegram_users": null,
-  "twitter": "https://x.com/ButtCoin",
+  "twitter": "https://x.com/bubblemaps",
   "twitter_followers": null,
-  "watchers": 954
+  "watchers": 4251
  },
  "cartoon-money": {
   "categories": [
@@ -889,44 +944,6 @@
   "twitter_followers": null,
   "watchers": 7477
  },
- "catwifmask": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Cat-Themed",
-   "Pump.fun Ecosystem"
-  ],
-  "cex": [
-   "GroveX",
-   "KCEX",
-   "Poloniex"
-  ],
-  "cex_count": 3,
-  "chat": "https://www.youtube.com/watch?v=WgSNI60t6v0",
-  "commits_4w": null,
-  "description": "$MASK is a fully community-led project, guided by @stellagabber to ensure transparency, strong leadership, and execution against well-defined roadmaps. Every decision is made with accountability and purpose, reflecting the community\u2019s collective vision and priorities. catwifmask was created with a single mission: to make a mark on social media, one $MASK at a time, building a culture and brand that resonates with holders. While the token has no intrinsic financial value, the project is expanding its utility through upcoming merchandise and an NFT collection, introducing new revenue streams to support growth. By empowering the community to take ownership, $MASK ensures that every move is deliberate, coordinated, and aligned with long-term goals, creating a transparent, organised, and sustainable ecosystem.",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/6MQpbiTC2YcogidTmKqMLK82qvE9z5QEm7EP3AEDpump",
-  "fetched": "2026-11-14T19:11:37.415754+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://thecatwifmask.com/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/mask_catwifmask_official",
-  "telegram_users": null,
-  "twitter": "https://x.com/catwmask",
-  "twitter_followers": null,
-  "watchers": 1084
- },
  "chainflip": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -953,7 +970,7 @@
   ],
   "discord": "https://discord.gg/chainflip-community",
   "explorer": "https://etherscan.io/token/0x826180541412d574cf1336d22c0c0a287822678a",
-  "fetched": "2026-11-16T02:05:45.482785+00:00",
+  "fetched": "2026-11-18T03:48:09.966651+00:00",
   "genesis": null,
   "github": "https://github.com/chainflip-io/",
   "homepage": "https://chainflip.io/",
@@ -967,7 +984,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chainflip",
   "twitter_followers": null,
-  "watchers": 20830
+  "watchers": 20832
  },
  "circle-rstock-2": {
   "categories": [
@@ -1148,87 +1165,6 @@
   "twitter_followers": null,
   "watchers": 33282
  },
- "coq-inu": {
-  "categories": [
-   "Smart Contract Platform",
-   "Avalanche Ecosystem",
-   "Meme",
-   "Avalanche L1",
-   "Made in USA"
-  ],
-  "cex": [
-   "Balancer V2 (Avalanche)",
-   "Crypto.com Exchange",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin",
-   "MEXC",
-   "SAFEbit"
-  ],
-  "cex_count": 8,
-  "chat": null,
-  "commits_4w": null,
-  "description": "We are the #1 meme coin on AVAX. Founded by well respected members of the community. They took no distribution and put the entire supply of the coin with 150 avax in initial liquidity. The contract has been fully renounced and liquidity burned. ",
-  "dex": [
-   "LFJ",
-   "LFJ V2.1 (Avalanche)",
-   "LFJ V2.2 (Avalanche)",
-   "Uniswap V3 (Avalanche)"
-  ],
-  "discord": "https://discord.gg/5Nde2b9B3m",
-  "explorer": "https://snowtrace.io/token/0x420fca0121dc28039145009570975747295f2329?chainid=43114",
-  "fetched": "2026-11-14T19:11:46.980199+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.coqinu.com/",
-  "platforms": [
-   "avalanche"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/coqinuavax",
-  "twitter_followers": null,
-  "watchers": 52901
- },
- "crepe-2": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [
-   "KCEX",
-   "MEXC",
-   "XT.COM"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Feel the power of decentralization. Copytrading, Swap, Liquid Pools. Anything related to DeFi. $CREPE is also meme.\n\nCrypto users can swap tokens within #BNBChain. Users can add liquid to Pools. Also do Staking.\n\n$CREPE also scans popular high-profit wallets to create a list and allows you to copytrade he profit transactions of most profitable traders. With a successful presale raising 80 BNB, Crepe has garnered early traction and community trust. Built on Polygon and BNB Smart Chain, it introduces the Planetary Augmented Asset Makerspace (PaaM\u2122), a powerful system that lets users create customizable, diversified asset baskets including crypto, RWAs like real estate and commodities, and other financial instruments\u2014all within an intuitive interface.",
-  "dex": [
-   "PancakeSwap (v2)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xeb2B7d5691878627eff20492cA7c9a71228d931D",
-  "fetched": "2026-11-15T01:55:39.084394+00:00",
-  "genesis": null,
-  "github": "https://github.com/crepefun",
-  "homepage": "https://crepe.fun/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/crepefun",
-  "telegram_users": null,
-  "twitter": "https://x.com/crepe_bsc",
-  "twitter_followers": null,
-  "watchers": 5922
- },
  "deapcoin": {
   "categories": [
    "Entertainment",
@@ -1351,7 +1287,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-  "fetched": "2026-11-16T19:09:57.590473+00:00",
+  "fetched": "2026-11-18T03:46:53.742679+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dessatalks.space/",
@@ -1359,7 +1295,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -1437,40 +1373,6 @@
   "twitter_followers": null,
   "watchers": 455
  },
- "dot": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Base Ecosystem"
-  ],
-  "cex": [
-   "Matcha (Base)"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Dot is a privacy-centric AI ecosystem. It gives people access to powerful AI tools without the surveillance that comes with mainstream models. Every major AI assistant today logs your conversations, ties them to your identity, and uses them to train, profile, and target you. Dot is built on the opposite premise: we ask for nothing, so you can ask us anything. The ecosystem runs on open-weight models that can be self-hosted and inspected, meaning no third party sits between you and the AI. Products include dotchat (private conversational AI) and dotcode (a private coding assistant), with more tools planned under the same principle: your data stays yours.",
-  "dex": [
-   "Uniswap V2 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-11-14T19:13:20.107862+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://usedot.xyz",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/usedotai",
-  "twitter_followers": null,
-  "watchers": 479
- },
  "dowge": {
   "categories": [
    "Solana Ecosystem",
@@ -1508,46 +1410,6 @@
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
   "watchers": 3499
- },
- "dual": {
-  "categories": [
-   "Infrastructure",
-   "Ethereum Ecosystem",
-   "Base Ecosystem",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "Kraken"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Dual is the tokenization engine for real world assets.\n\nBuild programmable tokens for anything, from currencies and loyalty points to real estate, treasuries, and physical products. Production-ready enterprise-grade infrastructure that scales from simple assets to complex use cases.\n\nDUAL is the utility token that powers the ecosystem. Businesses, creatives, and developers fund their projects by depositing $DUAL or using USD, which is converted into $DUAL via the open market.",
-  "dex": [
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V3 (Robinhood)",
-   "Uniswap V4 (Base)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "https://discord.com/invite/dualorg",
-  "explorer": "https://etherscan.io/token/0x6aF487BEb661CCeCD1D045E9561A0dAC9AA5c7db",
-  "fetched": "2026-11-14T20:16:35.463831+00:00",
-  "genesis": null,
-  "github": "https://github.com/dualorg",
-  "homepage": "https://www.dual.org/",
-  "platforms": [
-   "base",
-   "ethereum",
-   "robinhood"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/dualcommunity",
-  "telegram_users": null,
-  "twitter": "https://x.com/dualorg",
-  "twitter_followers": null,
-  "watchers": 536
  },
  "egl1": {
   "categories": [
@@ -1622,7 +1484,7 @@
   ],
   "discord": null,
   "explorer": "https://tonscan.org/address/EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp",
-  "fetched": "2026-11-15T19:52:10.194915+00:00",
+  "fetched": "2026-11-18T03:49:26.119572+00:00",
   "genesis": null,
   "github": "https://github.com/evaafi",
   "homepage": "https://app.evaa.finance/",
@@ -1631,13 +1493,13 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": 45.45,
+  "sentiment_up": 42.86,
   "stars": null,
   "telegram": "https://t.me/evaaprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/evaaprotocol",
   "twitter_followers": null,
-  "watchers": 3883
+  "watchers": 4050
  },
  "everything": {
   "categories": [
@@ -1882,6 +1744,37 @@
   "twitter_followers": null,
   "watchers": 331
  },
+ "golden-dragon": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Golden Dragon is a closed digital ecosystem designed to bring together a wide array of tools and services, offering users an integrated platform. The project aims to create a high-tech environment where individuals can access resources necessary for their personal and professional development. Furthermore, Golden Dragon focuses on establishing a modern economic system built on transparency and advanced technologies to support its user base in achieving their digital ecosystem goals.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x3Ad7DaCb4573De5B01BF720cb4A86B296f05abb4",
+  "fetched": "2026-11-18T03:46:56.961555+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://golden-feniks.com/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/GoldenFENIKS",
+  "telegram_users": null,
+  "twitter": "https://x.com/GD_BSC",
+  "twitter_followers": null,
+  "watchers": 38
+ },
  "gstock": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -2065,7 +1958,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
-  "fetched": "2026-11-16T19:11:18.350172+00:00",
+  "fetched": "2026-11-18T03:50:35.868621+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -2241,6 +2134,46 @@
   "twitter": "https://x.com/JobCoinSOL",
   "twitter_followers": null,
   "watchers": 232
+ },
+ "kaio": {
+  "categories": [
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)"
+  ],
+  "cex": [
+   "Bitget",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "KCEX",
+   "KuCoin",
+   "MEXC",
+   "OrangeX",
+   "Ourbit",
+   "Toobit"
+  ],
+  "cex_count": 10,
+  "chat": null,
+  "commits_4w": null,
+  "description": "KAIO provides institutional-grade real-world asset (RWA) tokenization infrastructure that seamlessly connects traditional investment funds with digital capital markets. Through its purpose-built protocol, KAIO enables leading global asset managers to issue and distribute regulated tokenized funds across multiple high-performance blockchain networks \u2014 including Ethereum, Sei, Hedera, Solana, Aptos, and others \u2014 significantly expanding global access to institutional-quality real-world asset strategies for qualified investors. \n\nBy tokenizing feeder structures and shares in flagship funds, KAIO brings onchain access to proven strategies such as the BlackRock ICS US Dollar Liquidity Fund (one of the world\u2019s largest institutional money market funds), the Brevan Howard Master Fund, Hamilton Lane\u2019s Senior Credit Opportunities Fund (SCOPE) via the HL SCOPE Access Fund, and Laser Digital\u2019s Laser Carry Fund (LCF), among others. These tokenized vehicles deliver secure, compliant exposure to money market, macro, private credit, and alternative strategies while unlocking new levels of programmability, composability, and 24/7 liquidity in DeFi environments. ",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
+  "fetched": "2026-11-18T03:48:16.419114+00:00",
+  "genesis": null,
+  "github": "https://github.com/librecapital",
+  "homepage": "https://www.kaio.xyz/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/KAIO_RWA",
+  "telegram_users": null,
+  "twitter": "https://x.com/KAIO_xyz",
+  "twitter_followers": null,
+  "watchers": 656
  },
  "kled-ai": {
   "categories": [
@@ -2520,6 +2453,46 @@
   "twitter_followers": null,
   "watchers": 38904
  },
+ "mamo": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "AI Agents",
+   "Virtuals Protocol Ecosystem",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "LBank"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Mamo turns what used to be complex into easy, human-first routines.\n\nIt works quietly in the background, finding smart opportunities for your money while you focus on what matters in your life. Think of Mamo as your knowledgeable friend who understands how to help your money grow and explain everything in plain language.\n\nBehind the scenes, Mamo applies proven strategies and real-time data to optimize your portfolio, reinvest earnings when conditions are right, and adapt to market shifts \u2014 all with your approval and full transparency.\n\nNo noise. No confusion. Just calm, steady growth.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V2 (Base)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
+  "fetched": "2026-11-18T03:48:06.712656+00:00",
+  "genesis": null,
+  "github": "https://github.com/moonwell-fi/mamo-contracts",
+  "homepage": "https://mamo.bot",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/MamoAIbot",
+  "telegram_users": null,
+  "twitter": "https://x.com/mamo",
+  "twitter_followers": null,
+  "watchers": 3768
+ },
  "marlin": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2714,39 +2687,6 @@
   "twitter_followers": null,
   "watchers": 351
  },
- "minotaur-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Bittensor Ecosystem",
-   "Bittensor Subnets",
-   "Robotics"
-  ],
-  "cex": [
-   "Subnet Tokens"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "THOR is building open robotics infrastructure through Bittensor Subnet 112 (SN112), starting with a marketplace for commissioning robotics training data. Its initial focus is expert video annotation: buyers define the task and acceptance criteria, qualified contributors produce the annotations, and THOR coordinates verification and delivery. The initial private pilot is designed for professional annotation firms, with permissionless annotation planned after beta. Its longer-term direction connects data, models and hardware to support robotics research and deployment.",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://taostats.io/subnets/112/chart",
-  "fetched": "2026-11-14T20:16:38.653500+00:00",
-  "genesis": null,
-  "github": "https://github.com/subnet112/minotaur_subnet",
-  "homepage": "https://thormachines.ai/",
-  "platforms": [
-   "bittensor"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/THORMachines",
-  "twitter_followers": null,
-  "watchers": 84
- },
  "myshell": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2801,49 +2741,6 @@
   "twitter": "https://x.com/myshell_ai",
   "twitter_followers": null,
   "watchers": 3927
- },
- "mysterium": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Polygon Ecosystem",
-   "Ethereum Ecosystem",
-   "Telegram Apps",
-   "DePIN",
-   "Cybersecurity",
-   "Privacy Infrastructure",
-   "Privacy"
-  ],
-  "cex": [
-   "MEXC"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Launched on 02/03/2022 by a team based in the United States, Mystery is a community token that rewards its holders with massive draws while making its token deflationary by burning tokens used to purchase tickets to the draw.",
-  "dex": [
-   "Quickswap",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V3 (Polygon)"
-  ],
-  "discord": "https://discordapp.com/invite/n3vtSwc",
-  "explorer": "https://etherscan.io/token/0x4cf89ca06ad997bc732dc876ed2a7f26a9e7f361",
-  "fetched": "2026-11-15T01:56:45.469688+00:00",
-  "genesis": "2017-06-13",
-  "github": "https://github.com/MysteriumNetwork/node",
-  "homepage": "https://mysterium.network/",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "polygon-pos"
-  ],
-  "reddit": "https://www.reddit.com/r/MysteriumNetwork/",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/mysterium_network",
-  "telegram_users": null,
-  "twitter": "https://x.com/MysteriumNet",
-  "twitter_followers": null,
-  "watchers": 4803
  },
  "newton-protocol": {
   "categories": [
@@ -3196,7 +3093,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-15T19:50:41.076784+00:00",
+  "fetched": "2026-11-18T03:50:32.640248+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3213,7 +3110,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114914
+  "watchers": 114912
  },
  "pha": {
   "categories": [
@@ -3499,45 +3396,6 @@
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
   "watchers": 23
- },
- "purple-pepe": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Frog-Themed",
-   "Solana Meme",
-   "The Boy\u2019s Club",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "KCEX"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "$PURPE is a community-led token originally deployed on the Solana blockchain in July 2023 and is also available on BNB Smart Chain. It is recognized as the first Purple Pepe created on Solana. The project is managed by the WallStreetBets Facebook community, which consists of over 580,000 members, following a community takeover over a year ago. Since the CTO, the community has maintained development and expanded the ecosystem through the launch of web applications, games, and a community-built website.",
-  "dex": [
-   "Meteora",
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/HBoNJ5v8g71s2boRivrHnfSB5MVPLDHHyVjruPfhGkvL",
-  "fetched": "2026-11-15T01:55:32.726451+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://purpe.xyz",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/Purpe_SOL",
-  "telegram_users": null,
-  "twitter": "https://x.com/purplepepes0l",
-  "twitter_followers": null,
-  "watchers": 4597
  },
  "renzo": {
   "categories": [
@@ -3852,7 +3710,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-  "fetched": "2026-11-16T15:52:15.865591+00:00",
+  "fetched": "2026-11-18T03:49:19.690671+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sanctum.so/",
@@ -3866,7 +3724,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/sanctumso",
   "twitter_followers": null,
-  "watchers": 5746
+  "watchers": 5745
  },
  "saucecoin": {
   "categories": [
@@ -4089,7 +3947,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-11-16T19:12:28.137202+00:00",
+  "fetched": "2026-11-18T03:50:42.263749+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -4401,7 +4259,7 @@
   ],
   "discord": "https://discord.gg/GU22h2utj6",
   "explorer": "https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb",
-  "fetched": "2026-11-16T00:04:31.649916+00:00",
+  "fetched": "2026-11-18T03:51:45.604915+00:00",
   "genesis": null,
   "github": "https://github.com/ethersphere",
   "homepage": "https://ethswarm.org/",
@@ -4499,7 +4357,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
-  "fetched": "2026-11-16T00:00:47.770159+00:00",
+  "fetched": "2026-11-18T03:47:00.191971+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/tslaon",
@@ -4510,7 +4368,7 @@
    "robinhood"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -4553,7 +4411,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
-  "fetched": "2026-11-16T19:13:37.925181+00:00",
+  "fetched": "2026-11-18T03:50:39.063471+00:00",
   "genesis": null,
   "github": "https://github.com/clanker-devco",
   "homepage": "https://www.clanker.world/",
@@ -4567,7 +4425,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 7511
+  "watchers": 7512
  },
  "tokenised-gbp": {
   "categories": [
@@ -4715,7 +4573,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
-  "fetched": "2026-11-16T15:52:12.616679+00:00",
+  "fetched": "2026-11-18T03:49:22.918951+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -4845,7 +4703,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-11-15T19:49:28.329074+00:00",
+  "fetched": "2026-11-18T03:45:43.925978+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
@@ -4853,13 +4711,13 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/UtyaDuck",
   "telegram_users": null,
   "twitter": "https://x.com/TonUtyacoin",
   "twitter_followers": null,
-  "watchers": 1928
+  "watchers": 1948
  },
  "wingbits": {
   "categories": [
