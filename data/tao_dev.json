@@ -357,6 +357,13 @@
 "repo": "It-s-AI/llm-detection",
 "t": 1795102905.348116
 },
+"kokoahdotcom/kokoah-subnet": {
+"capped": true,
+"commits_30d": 100,
+"last_commit": "2026-11-16T23:54:32Z",
+"repo": "kokoahdotcom/kokoah-subnet",
+"t": 1795144239.5863976
+},
 "komms-protocol/komms-docs": {
 "capped": false,
 "commits_30d": 6,
