@@ -633,6 +633,54 @@
   "twitter_followers": null,
   "watchers": 17139
  },
+ "bluzelle": {
+  "categories": [
+   "Smart Contract Platform",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Decentralized Science (DeSci)",
+   "Osmosis Ecosystem",
+   "Energi Ecosystem",
+   "GMCI DePIN Index",
+   "GMCI Index"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Gate",
+   "GroveX",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 5,
+  "chat": null,
+  "commits_4w": null,
+  "description": "At Bluzelle, we see technology as a powerful tool to solve humanity's most pressing challenges. As creators of a robust decentralized blockchain ecosystem\u2014including the Bluzelle Chain, BLZ token, and NFT marketplace Capella\u2014we are uniquely positioned to revolutionize how science is conducted, funded, and shared. Our DeSci (Decentralized Science) platform is designed to empower all scientific fields, fostering innovation across disciplines. ",
+  "dex": [
+   "ApeSwap",
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x5732046a883704404f284ce41ffadd5b007fd668",
+  "fetched": "2026-11-21T04:55:08.900190+00:00",
+  "genesis": "2018-01-15",
+  "github": "https://github.com/njmurarka/bluzelle",
+  "homepage": "https://bluzelle.com/",
+  "platforms": [
+   "binance-smart-chain",
+   "energi",
+   "ethereum",
+   "osmosis"
+  ],
+  "reddit": "https://www.reddit.com/r/Bluzelle/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/bluzelle",
+  "telegram_users": null,
+  "twitter": "https://x.com/BluzelleHQ",
+  "twitter_followers": null,
+  "watchers": 23872
+ },
  "brickken": {
   "categories": [
    "Tokenized Assets",
@@ -932,7 +980,7 @@
   ],
   "discord": "https://discord.gg/4Vu2CPepng",
   "explorer": "https://solscan.io/token/69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump",
-  "fetched": "2026-11-21T04:45:41.989855+00:00",
+  "fetched": "2026-11-21T04:55:05.625952+00:00",
   "genesis": null,
   "github": "https://github.com/codecflow",
   "homepage": "https://codecflow.ai/",
@@ -1991,8 +2039,7 @@
    "Base Ecosystem",
    "Hyperliquid Ecosystem",
    "Outlier Ventures Portfolio",
-   "HyperEVM Ecosystem",
-   "Base Native"
+   "HyperEVM Ecosystem"
   ],
   "cex": [
    "Binance",
@@ -2018,7 +2065,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-11-18T15:40:55.169544+00:00",
+  "fetched": "2026-11-21T04:56:25.439531+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2460,7 +2507,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
-  "fetched": "2026-11-19T03:28:39.972171+00:00",
+  "fetched": "2026-11-21T04:57:35.244229+00:00",
   "genesis": null,
   "github": "https://github.com/myshell-ai",
   "homepage": "https://myshell.ai/",
@@ -3496,6 +3543,42 @@
   "twitter_followers": null,
   "watchers": 151626
  },
+ "spacex-reality-protocol": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
+  "fetched": "2026-11-21T04:57:28.760052+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
+  "platforms": [
+   "arbitrum-one"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": null,
+  "twitter_followers": null,
+  "watchers": 91
+ },
  "spdr-s-p-500-etf-ondo-tokenized-etf": {
   "categories": [
    "Tokenized Assets",
@@ -3550,6 +3633,49 @@
   "twitter_followers": null,
   "watchers": 512
  },
+ "spy-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Real World Assets (RWA)",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "LBank",
+   "Metric (BSC)"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
+  "fetched": "2026-11-21T04:57:32.012890+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/en/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 56
+ },
  "ssv-network": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -3573,7 +3699,7 @@
    "Bitrue",
    "Bittime"
   ],
-  "cex_count": 39,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network \u2013 a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. ",
@@ -3583,7 +3709,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-11-18T15:39:45.286810+00:00",
+  "fetched": "2026-11-21T04:56:15.640457+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -3591,7 +3717,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -3691,6 +3817,46 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 599
+ },
+ "swarm-bzz": {
+  "categories": [
+   "Storage",
+   "Gnosis Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "CoinList Launchpad"
+  ],
+  "cex": [
+   "CoinW",
+   "Gate",
+   "MEXC"
+  ],
+  "cex_count": 3,
+  "chat": "https://www.youtube.com/@ethereumswarm4033",
+  "commits_4w": null,
+  "description": "Swarm is a system of peer-to-peer networked nodes that create a decentralised storage and communication service. The system is economically self-sustaining due to a built-in incentive system enforced through smart contracts on the Ethereum blockchain and powered by the BZZ token.",
+  "dex": [
+   "Sushiswap V3 (Gnosis)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/GU22h2utj6",
+  "explorer": "https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb",
+  "fetched": "2026-11-21T04:56:22.114586+00:00",
+  "genesis": null,
+  "github": "https://github.com/ethersphere",
+  "homepage": "https://ethswarm.org/",
+  "platforms": [
+   "ethereum",
+   "xdai"
+  ],
+  "reddit": "https://www.reddit.com/r/ethswarm/",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ethswarm",
+  "twitter_followers": null,
+  "watchers": 4045
  },
  "swarms": {
   "categories": [
@@ -4619,7 +4785,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x01791F726B4103694969820be083196cC7c045fF",
-  "fetched": "2026-11-19T15:46:08.361547+00:00",
+  "fetched": "2026-11-21T04:56:18.883214+00:00",
   "genesis": null,
   "github": "https://github.com/yield-basis",
   "homepage": "https://yieldbasis.com/",
@@ -4634,7 +4800,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/yieldbasis",
   "twitter_followers": null,
-  "watchers": 2362
+  "watchers": 2375
  },
  "zentry": {
   "categories": [
@@ -4656,6 +4822,7 @@
   ],
   "cex": [
    "BitKan",
+   "Bitazza",
    "Bitkub",
    "Bybit",
    "DigiFinex",
@@ -4667,7 +4834,7 @@
    "Ourbit",
    "Toobit"
   ],
-  "cex_count": 11,
+  "cex_count": 12,
   "chat": "https://medium.com/zentry",
   "commits_4w": null,
   "description": "Zentry is building the Human-Agentic Operating System\u2014a next-gen AI + crypto infrastructure where human life fuels AI, and AI in turn amplifies human potential. Through its tri-layer stack (zApp, zAI, zData), Zentry transforms everyday activity into structured data, trains intelligent agents, and powers a new user-owned economy. It's not just tech\u2014it\u2019s a platform for civilization-scale co-evolution between people and machines.",
@@ -4677,7 +4844,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-11-18T18:29:25.130185+00:00",
+  "fetched": "2026-11-21T04:55:12.287401+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
