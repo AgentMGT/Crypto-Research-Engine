@@ -104,7 +104,7 @@
   ],
   "discord": "https://discord.across.to/",
   "explorer": "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
-  "fetched": "2026-11-20T03:22:30.371509+00:00",
+  "fetched": "2026-11-21T04:38:00.014875+00:00",
   "genesis": null,
   "github": "https://github.com/across-protocol",
   "homepage": "https://across.to/",
@@ -241,7 +241,7 @@
   ],
   "discord": "https://discord.com/invite/anyoneprotocol",
   "explorer": "https://etherscan.io/token/0xfeac2eae96899709a43e252b6b92971d32f9c0f9",
-  "fetched": "2026-11-19T15:48:24.890456+00:00",
+  "fetched": "2026-11-21T04:36:43.842312+00:00",
   "genesis": null,
   "github": "https://github.com/anyone-protocol",
   "homepage": "https://anyone.io/",
@@ -257,7 +257,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AnyoneFDN",
   "twitter_followers": null,
-  "watchers": 36566
+  "watchers": 36563
  },
  "altura": {
   "categories": [
@@ -472,7 +472,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-19T15:46:01.689348+00:00",
+  "fetched": "2026-11-21T04:36:53.501406+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -488,7 +488,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23711
+  "watchers": 23712
  },
  "ava-ai": {
   "categories": [
@@ -575,93 +575,6 @@
   "twitter": "https://x.com/BPuppy80020",
   "twitter_followers": null,
   "watchers": 140
- },
- "basecat": {
-  "categories": [
-   "Meme",
-   "Base Ecosystem",
-   "Cat-Themed",
-   "Base Meme"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "BingX",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Matcha (Base)",
-   "Ourbit",
-   "o1 Launchpad"
-  ],
-  "cex_count": 10,
-  "chat": null,
-  "commits_4w": null,
-  "description": "the cat on Base \ncommunity-run home for $BASECAT",
-  "dex": [
-   "Aerodrome Slipstream 3",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
-  "fetched": "2026-11-18T03:46:50.475366+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://basecatonbase.com",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/basecatonbase",
-  "telegram_users": null,
-  "twitter": "https://x.com/BasecatOnBase",
-  "twitter_followers": null,
-  "watchers": 1008
- },
- "ben-pasternak": {
-  "categories": [
-   "Solana Ecosystem",
-   "Launchpad",
-   "Meme",
-   "Solana Meme",
-   "Believe.app Ecosystem"
-  ],
-  "cex": [
-   "CEX.IO",
-   "Gate",
-   "KCEX",
-   "Toobit",
-   "Webot"
-  ],
-  "cex_count": 5,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Meteora",
-   "Meteora DAMM V2"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/BLVxek8YMXUQhcKmMvrFTrzh5FXg8ec88Crp6otEaCMf",
-  "fetched": "2026-11-18T03:46:47.223622+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://believe.app/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/launchcoin",
-  "twitter_followers": null,
-  "watchers": 6471
  },
  "bio-protocol": {
   "categories": [
@@ -807,59 +720,6 @@
   "twitter_followers": null,
   "watchers": 186
  },
- "bubblemaps": {
-  "categories": [
-   "Analytics",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Binance HODLer Airdrops",
-   "Binance Wallet IDO",
-   "InfoFi"
-  ],
-  "cex": [
-   "Aster",
-   "Binance",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bitunix",
-   "Bybit",
-   "CEX.IO",
-   "Coinone"
-  ],
-  "cex_count": 29,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Blockchain data is inherently cluttered, noisy, and highly technical. \n\nBubblemaps transforms this complexity into a visual experience, making analysis engaging and efficient \u2014allowing users to address modern crypto challenges:\n\n- Tokenomics being difficult to analyse and understand\n- Memecoins bundling their supply and dumping on the retail\n- Celebrities launching tokens while secretly holding massive amounts\n- Launchpads, KOLs, and VCs exploiting the lack of transparency for profit",
-  "dex": [
-   "Meteora",
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap V3 (Solana)",
-   "Raydium (CLMM)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/FQgtfugBdpFN7PZ6NdPrZpVLDBrPGxXesi4gVu3vErhY",
-  "fetched": "2026-11-18T03:47:03.443827+00:00",
-  "genesis": null,
-  "github": "https://github.com/bubblemaps",
-  "homepage": "https://bubblemaps.io",
-  "platforms": [
-   "binance-smart-chain",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/bubblemaps",
-  "telegram_users": null,
-  "twitter": "https://x.com/bubblemaps",
-  "twitter_followers": null,
-  "watchers": 4251
- },
  "buttcoin-7": {
   "categories": [
    "Solana Ecosystem",
@@ -868,10 +728,11 @@
    "Pump.fun Ecosystem"
   ],
   "cex": [
+   "Byreal",
    "KCEX",
    "LBank"
   ],
-  "cex_count": 2,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "Back in 2011, long before \u201ccrypto Twitter\u201d, NFTs, or VC-backed chains existed, users of the BitcoinTalk forum came up with a new currency - not to launch a network, but to make fun of btc.... and so: The first memecoin/memecurrency was born.\n\nOn May 23, 2011, a Something Awful poster cracked, \u201cHas anyone called them buttcoins yet?\u201d. It was sophomoric and perfect. Within weeks the gag metastasized into Buttcoin.org, a parody blog that described a \u201cpeer to peer butt\u201d economy while cataloging mining fiascos, exchange blowups, and MLM-adjacent \u201cinnovations\u201d.\n",
@@ -883,7 +744,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
-  "fetched": "2026-11-18T18:29:15.342346+00:00",
+  "fetched": "2026-11-21T04:35:30.921427+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.buttcoinfoundation.org/",
@@ -891,7 +752,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -918,7 +779,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "fetched": "2026-11-20T03:15:19.107902+00:00",
+  "fetched": "2026-11-21T04:34:24.400589+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cartoon-money.com/",
@@ -932,7 +793,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cartoonmoney_ai",
   "twitter_followers": null,
-  "watchers": 276
+  "watchers": 278
  },
  "chainflip": {
   "categories": [
@@ -1357,7 +1218,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-11-19T03:26:10.505928+00:00",
+  "fetched": "2026-11-21T04:35:40.589973+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -1365,13 +1226,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
-  "watchers": 481
+  "watchers": 480
  },
  "evaa-protocol": {
   "categories": [
@@ -1597,37 +1458,6 @@
   "twitter_followers": null,
   "watchers": 46
  },
- "golden-dragon": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Golden Dragon is a closed digital ecosystem designed to bring together a wide array of tools and services, offering users an integrated platform. The project aims to create a high-tech environment where individuals can access resources necessary for their personal and professional development. Furthermore, Golden Dragon focuses on establishing a modern economic system built on transparency and advanced technologies to support its user base in achieving their digital ecosystem goals.",
-  "dex": [
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x3Ad7DaCb4573De5B01BF720cb4A86B296f05abb4",
-  "fetched": "2026-11-18T03:46:56.961555+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://golden-feniks.com/en/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/GoldenFENIKS",
-  "telegram_users": null,
-  "twitter": "https://x.com/GD_BSC",
-  "twitter_followers": null,
-  "watchers": 38
- },
  "golem": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1796,7 +1626,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
-  "fetched": "2026-11-18T03:50:35.868621+00:00",
+  "fetched": "2026-11-21T04:38:16.373283+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -1907,7 +1737,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
-  "fetched": "2026-11-20T03:16:29.121338+00:00",
+  "fetched": "2026-11-21T04:39:19.634106+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.kled.ai/",
@@ -1915,13 +1745,59 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/useKled",
   "twitter_followers": null,
-  "watchers": 1963
+  "watchers": 1962
+ },
+ "kryll": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Decentralized Finance (DeFi)",
+   "Analytics",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Base Ecosystem"
+  ],
+  "cex": [
+   "Coinbase Exchange",
+   "Gate",
+   "KuCoin"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "At its core, Kryll features innovative technology that unifies data access and thought flow, skillfully combining Web3 data with AI capabilities. This enables Kryll\u00b3 to offer comprehensive coverage of crypto markets and projects, along with advanced analysis and decision-making tools, simplifying the complex ecosystem.\n\nThe KRL token is essential to the Kryll\u00b3 ecosystem, unlocking exclusive features, serving as a payment method, and enabling participation in governance decisions.\n\nKey tools include SmartFolio, an AI-powered portfolio manager that tracks and analyzes digital assets across multiple blockchains, providing real-time insights for optimized investments.\n\nX-Ray is a market analysis tool using AI to evaluate tokens, offering details on smart contracts, on-chain data, social activity, and financial indicators.\n\nGem Detector identifies emerging high-potential tokens through multi-chain surveillance and deep learning algorithms. Harpoon monitors top traders' strategies and transactions, offering insights into smart money movements.\n\nNews Hub centralizes dozens of information sources into a unified, queryable platform for news and updates, enhancing decision-making processes.\n\nKryll\u00b3 also offers its partners a revolutionary tool: Agent K. K is a conversational agent integrated into Web3 platforms and media sites, enabling natural language interaction with content. It makes complex concepts accessible to a wider audience, which is particularly beneficial for beginners.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Optimism)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
+  "fetched": "2026-11-21T04:36:56.745709+00:00",
+  "genesis": null,
+  "github": "https://github.com/Cryptense/KryllToken",
+  "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "optimistic-ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/Kryll_io",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/kryll_io",
+  "telegram_users": null,
+  "twitter": "https://x.com/kryll_io",
+  "twitter_followers": null,
+  "watchers": 5370
  },
  "lava-network": {
   "categories": [
@@ -2346,7 +2222,7 @@
   ],
   "discord": "https://discord.com/invite/JYqDYMu76e",
   "explorer": "https://etherscan.io/token/0x0f3a12b78fee11ee088e454a0547bdbc5a253a6d",
-  "fetched": "2026-11-19T15:48:34.658748+00:00",
+  "fetched": "2026-11-21T04:38:09.891557+00:00",
   "genesis": null,
   "github": "https://github.com/MerlinLayer2",
   "homepage": "https://merlinchain.io/",
@@ -2356,13 +2232,13 @@
    "merlin-chain"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/merlin_chain",
   "telegram_users": null,
   "twitter": "https://x.com/MerlinLayer2",
   "twitter_followers": null,
-  "watchers": 9686
+  "watchers": 9683
  },
  "micron-technology-ondo-tokenized-stock": {
   "categories": [
@@ -2606,12 +2482,11 @@
   "description": "you met me at a very chinese time in my life",
   "dex": [
    "Meteora",
-   "Orca",
    "PumpSwap"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-  "fetched": "2026-11-19T03:25:03.411631+00:00",
+  "fetched": "2026-11-21T04:34:27.591511+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://mihao.fun/",
@@ -2619,13 +2494,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 33.33,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/iamnihaocat",
   "twitter_followers": null,
-  "watchers": 244
+  "watchers": 250
  },
  "ninja-squad": {
   "categories": [
@@ -2853,7 +2728,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
-  "fetched": "2026-11-18T18:30:28.615672+00:00",
+  "fetched": "2026-11-21T04:35:37.360573+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pinlink.ai/",
@@ -2867,7 +2742,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
-  "watchers": 16922
+  "watchers": 16923
  },
  "propy": {
   "categories": [
@@ -3218,7 +3093,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-11-20T03:14:52.486430+00:00",
+  "fetched": "2026-11-21T04:34:21.205892+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -3232,7 +3107,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12908
+  "watchers": 12907
  },
  "rna-2": {
   "categories": [
@@ -3250,7 +3125,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-20T03:22:27.085773+00:00",
+  "fetched": "2026-11-21T04:38:06.676843+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -3342,14 +3217,14 @@
    "Crypto.com Exchange",
    "DigiFinex",
    "Gate",
+   "KCEX",
    "Kraken",
    "KuCoin",
    "MEXC",
    "Mudrex",
-   "Ourbit",
-   "Upbit"
+   "Ourbit"
   ],
-  "cex_count": 12,
+  "cex_count": 13,
   "chat": "https://www.twitch.tv/sanctumso",
   "commits_4w": null,
   "description": "",
@@ -3359,7 +3234,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-  "fetched": "2026-11-18T03:49:19.690671+00:00",
+  "fetched": "2026-11-21T04:38:03.375354+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sanctum.so/",
@@ -3373,7 +3248,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/sanctumso",
   "twitter_followers": null,
-  "watchers": 5745
+  "watchers": 5748
  },
  "saucecoin": {
   "categories": [
@@ -3469,7 +3344,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-20T03:20:13.571159+00:00",
+  "fetched": "2026-11-21T04:36:50.281297+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -3484,7 +3359,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11946
+  "watchers": 11947
  },
  "solidus-aitech": {
   "categories": [
@@ -3534,42 +3409,6 @@
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
   "watchers": 151626
- },
- "spacex-reality-protocol": {
-  "categories": [
-   "Tokenized Assets",
-   "Arbitrum Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "Reality Ecosystem"
-  ],
-  "cex": [
-   "Bitget"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "Uniswap V3 (Arbitrum One)"
-  ],
-  "discord": null,
-  "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-11-18T03:50:42.263749+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
-  "platforms": [
-   "arbitrum-one"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 91
  },
  "spdr-s-p-500-etf-ondo-tokenized-etf": {
   "categories": [
@@ -3767,46 +3606,6 @@
   "twitter_followers": null,
   "watchers": 599
  },
- "swarm-bzz": {
-  "categories": [
-   "Storage",
-   "Gnosis Chain Ecosystem",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "CoinList Launchpad"
-  ],
-  "cex": [
-   "CoinW",
-   "Gate",
-   "MEXC"
-  ],
-  "cex_count": 3,
-  "chat": "https://www.youtube.com/@ethereumswarm4033",
-  "commits_4w": null,
-  "description": "Swarm is a system of peer-to-peer networked nodes that create a decentralised storage and communication service. The system is economically self-sustaining due to a built-in incentive system enforced through smart contracts on the Ethereum blockchain and powered by the BZZ token.",
-  "dex": [
-   "Sushiswap V3 (Gnosis)",
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": "https://discord.gg/GU22h2utj6",
-  "explorer": "https://etherscan.io/token/0x19062190b1925b5b6689d7073fdfc8c2976ef8cb",
-  "fetched": "2026-11-18T03:51:45.604915+00:00",
-  "genesis": null,
-  "github": "https://github.com/ethersphere",
-  "homepage": "https://ethswarm.org/",
-  "platforms": [
-   "ethereum",
-   "xdai"
-  ],
-  "reddit": "https://www.reddit.com/r/ethswarm/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ethswarm",
-  "twitter_followers": null,
-  "watchers": 4044
- },
  "swarms": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3855,6 +3654,68 @@
   "twitter": "https://x.com/swarms_corp",
   "twitter_followers": null,
   "watchers": 7502
+ },
+ "synapse-2": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Fantom Ecosystem",
+   "Arbitrum Ecosystem",
+   "Olympus Pro Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Bridge Governance Tokens",
+   "Base Ecosystem",
+   "Alameda Research Portfolio",
+   "Intent",
+   "Hyperliquid Ecosystem",
+   "HyperEVM Ecosystem"
+  ],
+  "cex": [
+   "BTCC",
+   "Binance",
+   "BingX",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Crypto.com Exchange",
+   "DigiFinex",
+   "Gate",
+   "GroveX",
+   "Hyperliquid"
+  ],
+  "cex_count": 26,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Synapse is a cross-chain layer \u221e protocol powering frictionless interoperability between blockchains. \nBy providing decentralized, permissionless transactions between any L1, sidechain, or L2 ecosystem, Synapse powers integral blockchain activities such as asset transfers, swaps, and generalized messaging with cross-chain functionality - and in so doing enables new primitives based off of its cross-chain architecture.\nAt Synapse you can bridge and swap stable assets between chains and provide liquidity to fuel cross-chain swapping in pools with minimal impermanent loss.",
+  "dex": [
+   "Fraxswap (Ethereum)",
+   "LFJ",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
+  "fetched": "2026-11-21T04:35:34.136759+00:00",
+  "genesis": null,
+  "github": "https://github.com/synapsecns",
+  "homepage": "https://synapseprotocol.com",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/synapseprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/SynapseProtocol",
+  "twitter_followers": null,
+  "watchers": 28850
  },
  "taiwan-semiconductor-manufacturing-ondo-tokenized-stock": {
   "categories": [
@@ -3941,112 +3802,6 @@
   "twitter": "https://x.com/Backpack",
   "twitter_followers": null,
   "watchers": 79
- },
- "tesla-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "Binance Alpha Spotlight",
-   "HyperEVM Ecosystem",
-   "Ondo Tokenized Assets",
-   "Robinhood Ecosystem"
-  ],
-  "cex": [
-   "BingX",
-   "CoinW",
-   "CommunityV3",
-   "Gate",
-   "KCEX",
-   "LBank",
-   "MEXC",
-   "Ondo Stocks",
-   "Toobit"
-  ],
-  "cex_count": 9,
-  "chat": null,
-  "commits_4w": null,
-  "description": "TSLAon is the Ondo Tokenized version of Tesla, giving tokenholders economic exposure similar to holding TSLA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [
-   "PancakeSwap (v2)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)",
-   "Uniswap V4 (Robinhood)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/address/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
-  "fetched": "2026-11-18T03:47:00.191971+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/assets/tslaon",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "hyperevm",
-   "robinhood"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 389
- },
- "tokenbot-2": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Launchpad",
-   "Base Ecosystem",
-   "AI Applications",
-   "Clanker Ecosystem",
-   "Binance Alpha Spotlight",
-   "Base Native"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "Biconomy.com",
-   "BingX",
-   "Bitget",
-   "Bitunix",
-   "CoinW",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "Hibt",
-   "KCEX"
-  ],
-  "cex_count": 17,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Clanker is an autonomous agent for deploying tokens. Currently, users may request clanker to deploy an ERC-20 token on Base by tagging it @clanker on Farcaster.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (Base)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/token/0x1bc0c42215582d5a085795f4badbac3ff36d1bcb",
-  "fetched": "2026-11-18T03:50:39.063471+00:00",
-  "genesis": null,
-  "github": "https://github.com/clanker-devco",
-  "homepage": "https://www.clanker.world/",
-  "platforms": [
-   "base"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 7512
  },
  "tokenised-gbp": {
   "categories": [
@@ -4162,7 +3917,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
-  "fetched": "2026-11-18T03:49:22.918951+00:00",
+  "fetched": "2026-11-21T04:38:13.149062+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -4176,7 +3931,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 54
+  "watchers": 55
  },
  "usa": {
   "categories": [
@@ -4382,6 +4137,58 @@
   "twitter": "https://x.com/WASTEDMEMECOIN",
   "twitter_followers": null,
   "watchers": 708
+ },
+ "wayfinder": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "AI Agents",
+   "Binance Alpha Spotlight",
+   "DeFAI",
+   "Base Native"
+  ],
+  "cex": [
+   "BTSE",
+   "BVOX",
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "BloFin"
+  ],
+  "cex_count": 25,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Wayfinder is a non-custodial AI agent for crypto trading. From one chat or trading UI, users trade spot on 13 EVM chains plus Solana, Hyperliquid perps and Polymarket, with limit, stop and TP/SL orders across all. The agent researches markets, scores market-moving posts on X (Signals), screens new tokens (Trenches), runs scheduled jobs and strategies, and is accessible by SMS.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Base)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/aiwayfinder",
+  "explorer": "https://etherscan.io/token/0x28d38dF637dB75533bD3F71426F3410a82041544",
+  "fetched": "2026-11-21T04:36:47.076531+00:00",
+  "genesis": null,
+  "github": "https://github.com/WayfinderFoundation",
+  "homepage": "https://www.wayfinder.ai/",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AIWayfinder",
+  "twitter_followers": null,
+  "watchers": 3973
  },
  "wingbits": {
   "categories": [
