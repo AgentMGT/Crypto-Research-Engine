@@ -8,20 +8,36 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+  # Phone-friendly Scan now: GitHub's mobile site and app hide the "Run workflow" button,
+  # so opening an issue titled "scan" also starts a run (owner and collaborators only).
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
-  group: refresh
+  # Issues that aren't scan requests get their own group, so they never bump a queued scan.
+  group: refresh${{ github.event_name == 'issues' && !startsWith(github.event.issue.title, 'scan') && !startsWith(github.event.issue.title, 'Scan') && format('-skip-{0}', github.run_id) || '' }}
   cancel-in-progress: false
 
 jobs:
   build:
+    if: >-
+      github.event_name != 'issues' ||
+      ((startsWith(github.event.issue.title, 'scan') || startsWith(github.event.issue.title, 'Scan')) &&
+       contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.issue.author_association))
     runs-on: ubuntu-latest
     steps:
+      - name: Close the scan request issue
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }} --comment "Scan started. The site updates in about 5 minutes."
+
       - uses: actions/checkout@v5
 
       - uses: actions/setup-python@v6

@@ -375,7 +375,8 @@
     fetch(api, { headers: { Accept: "application/vnd.github+json" } })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(function (d) {
-        var runs = d.workflow_runs || [];
+        // Issues that weren't scan requests show up as skipped runs: ignore them.
+        var runs = (d.workflow_runs || []).filter(function (r) { return r.conclusion !== "skipped"; });
         var active = runs.filter(function (r) { return r.status !== "completed"; })[0];
         // The run started after the button was pressed (a minute of slack for clock skew).
         var mine = since && runs.filter(function (r) { return Date.parse(r.created_at) > since - 60000; })[0];
@@ -412,7 +413,9 @@
 
   btn.addEventListener("click", function () {
     store(Date.now());
-    window.open(document.getElementById("scan-open").href, "_blank", "noopener");
+    // Phones get the issue route: GitHub's mobile site and app don't show the Run workflow button.
+    var phone = window.matchMedia && window.matchMedia("(pointer: coarse)").matches && window.innerWidth < 900;
+    window.open(document.getElementById(phone ? "scan-issue" : "scan-open").href, "_blank", "noopener");
     pop.hidden = false;
     show("Waiting for the run to start…");
     schedule(15000);
