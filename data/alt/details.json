@@ -389,7 +389,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xb98d4c97425d9908e66e53a6fdf673acca0be986",
-  "fetched": "2026-11-20T03:20:16.857207+00:00",
+  "fetched": "2026-11-21T14:41:48.484407+00:00",
   "genesis": null,
   "github": "https://github.com/ArcBlock/ArcBlock-Token",
   "homepage": "https://www.arcblock.io/",
@@ -403,7 +403,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ArcBlock_io",
   "twitter_followers": null,
-  "watchers": 11104
+  "watchers": 11105
  },
  "audacity": {
   "categories": [
@@ -438,6 +438,52 @@
   "twitter": "https://x.com/dacitycoin_gta",
   "twitter_followers": null,
   "watchers": 136
+ },
+ "auki-labs": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Augmented Reality",
+   "Metaverse",
+   "DePIN",
+   "Base Ecosystem",
+   "AI Applications",
+   "Outlier Ventures Portfolio",
+   "Peaq Ecosystem",
+   "Robotics",
+   "Base Native"
+  ],
+  "cex": [
+   "MEXC",
+   "MachineX"
+  ],
+  "cex_count": 2,
+  "chat": "https://auki.medium.com/",
+  "commits_4w": null,
+  "description": "Auki is making the physical world accessible to AI by building the real world web: a way for robots and digital devices like smart glasses and phones to browse, navigate, and search physical locations. At its foundation is the posemesh protocol, a collaborative and decentralized machine perception network that allows robots and XR devices to have a shared understanding of physical space, and a token economy for exchanging spatial data and compute resources.\n\n70% of the world economy is still tied to physical locations and labor, so making the physical world accessible to AI represents a 3X increase in the TAM of AI in general. Auki's goal is to become the decentralized nervous system of AI in the physical world, providing collaborative spatial reasoning for the next 100bn devices on Earth and beyond.\n\nFrom autonomous drone delivery to copilots for physical labor to robotic companions for children and navigation aid for the blind, the Auki network is a fast-growing ecosystem of cutting-edge physical AI applications. \n\nRapidly rolling out into thousands of commercial and private locations world-wide, the Auki network is now home to a growing number of applications that are already collecting millions of dollars in yearly revenue. \n\nWith a growing roster of robot integrations like Unitree, EngineAI, Padbot, Slamtec and more, Auki has cemented itself as the web3 robotics project with the most real world traction. \n\nThis year, Auki demonstrated the world's first large-scale autono",
+  "dex": [
+   "Aerodrome (Base)",
+   "PancakeSwap V3 (Base)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/auki",
+  "explorer": "https://basescan.org/token/0xf9569cfb8fd265e91aa478d86ae8c78b8af55df4",
+  "fetched": "2026-11-21T14:42:54.908666+00:00",
+  "genesis": null,
+  "github": "https://github.com/aukilabs",
+  "homepage": "https://www.auki.com/",
+  "platforms": [
+   "base",
+   "peaq"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/AukiNetwork",
+  "telegram_users": null,
+  "twitter": "https://x.com/Auki",
+  "twitter_followers": null,
+  "watchers": 6611
  },
  "aurora-near": {
   "categories": [
@@ -680,6 +726,45 @@
   "twitter": "https://x.com/BluzelleHQ",
   "twitter_followers": null,
   "watchers": 23872
+ },
+ "bobo-coin-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem",
+   "4chan-Themed"
+  ],
+  "cex": [
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "XT.COM"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Bobo Coin is a meme Solana token based off of Bobo the Bear. Bobo the Bear is a meme character associated with bearish markets and is often posted on 4chan's /biz/ board. It originated in 2018 and has since gained popularity with over 40,000 mentions. Bobo is commonly shared alongside Apu Apustaja and Pepe the Frog memes to satirize poor investment choices and express pessimism in financial markets.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/4nV5gNwwP68zUDat26ySChREqVaQaLudfJBkSgEzpump",
+  "fetched": "2026-11-21T14:39:22.937611+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://bobothebear.io",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/bobocouncil",
+  "twitter_followers": null,
+  "watchers": 434
  },
  "brickken": {
   "categories": [
@@ -1160,7 +1245,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x1a3496c18d558bd9c6c8f609e1b129f67ab08163",
-  "fetched": "2026-11-20T03:19:09.511695+00:00",
+  "fetched": "2026-11-21T14:41:45.313561+00:00",
   "genesis": null,
   "github": "https://github.com/Digita-Entertainment-Asset/DEP",
   "homepage": "https://dea.sg/",
@@ -1171,13 +1256,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/DEAPcoin_group",
   "telegram_users": null,
   "twitter": "https://x.com/PlayMining_SG",
   "twitter_followers": null,
-  "watchers": 10317
+  "watchers": 10316
  },
  "dessa": {
   "categories": [
@@ -1322,6 +1407,62 @@
   "twitter_followers": null,
   "watchers": 480
  },
+ "eigenlayer": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Data Availability",
+   "Restaking",
+   "Polychain Capital Portfolio",
+   "AI Framework",
+   "Made in USA",
+   "x402 Ecosystem"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Aivora Exchange",
+   "BTCC",
+   "BTSE",
+   "BVOX",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "Binance US",
+   "BingX",
+   "Bit2Me",
+   "BitKan"
+  ],
+  "cex_count": 66,
+  "chat": "https://www.youtube.com/@EigenLayer",
+  "commits_4w": null,
+  "description": "Renzo is a restaking protocol that abstracts and manages AVS strategies for Liquid Restaking Tokens (LRTs), making Ethereum and Solana restaking ezpz and accessible to everyone. The products $ezETH, $pzETH, and $ezSOL serve as interfaces to the EigenLayer, Symbiotic, and Jito Network ecosystems, respectively. Renzo's mission is to make restaking easy and accessible to everyone while abstracting the complexity away from the end user.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/eigenlayer",
+  "explorer": "https://etherscan.io/token/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
+  "fetched": "2026-11-21T14:40:35.725604+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.eigencloud.xyz/",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/eigenlayer",
+  "twitter_followers": null,
+  "watchers": 29649
+ },
  "evaa-protocol": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -1370,6 +1511,91 @@
   "twitter": "https://x.com/evaaprotocol",
   "twitter_followers": null,
   "watchers": 4121
+ },
+ "everything": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "Kraken",
+   "MEXC"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Everything unifies multiple decentralized finance protocols into one cohesive, interoperable ecosystem. At its core, the $EV token functions as the primary mechanism for governance, utility, and value accrual, aligning incentives across all products while enabling users to participate in decision-making, access platform features, and benefit from the ecosystem\u2019s overall growth and long-term sustainability.",
+  "dex": [
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xe7e7e741c23a4767831a56a8c99f522c5ac1e7e7",
+  "fetched": "2026-11-21T14:41:51.685274+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://everything.inc/",
+  "platforms": [
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/every_thing",
+  "twitter_followers": null,
+  "watchers": 268
+ },
+ "flying-tulip": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "BNB Chain Ecosystem",
+   "Derivatives",
+   "Perpetuals",
+   "Avalanche Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Sonic Ecosystem"
+  ],
+  "cex": [
+   "THENA"
+  ],
+  "cex_count": 1,
+  "chat": "https://blog.flyingtulip.com/",
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Curve (Ethereum)",
+   "PancakeSwap (v2)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/flyingtulip",
+  "explorer": "https://etherscan.io/token/0x5DD1A7A369e8273371d2DBf9d83356057088082c",
+  "fetched": "2026-11-21T14:41:38.936500+00:00",
+  "genesis": null,
+  "github": "https://github.com/flyingtulipdotcom",
+  "homepage": "https://flyingtulip.com/",
+  "platforms": [
+   "avalanche",
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/flyingtulipgroup",
+  "telegram_users": null,
+  "twitter": "https://x.com/flyingtulip_",
+  "twitter_followers": null,
+  "watchers": 1424
  },
  "forta": {
   "categories": [
@@ -1730,6 +1956,39 @@
   "twitter_followers": null,
   "watchers": 23
  },
+ "jager-hunter": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Binance Alpha Spotlight"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x74836cC0E821A6bE18e407E6388E430B689C66e9",
+  "fetched": "2026-11-21T14:40:26.199665+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://jager.meme/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/jager_BSC",
+  "telegram_users": null,
+  "twitter": "https://x.com/jager_BSC",
+  "twitter_followers": null,
+  "watchers": 1861
+ },
  "jobcoin-2": {
   "categories": [
    "Solana Ecosystem",
@@ -1840,52 +2099,6 @@
   "twitter": "https://x.com/useKled",
   "twitter_followers": null,
   "watchers": 1962
- },
- "kryll": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Decentralized Finance (DeFi)",
-   "Analytics",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "Optimism Ecosystem",
-   "Base Ecosystem"
-  ],
-  "cex": [
-   "Coinbase Exchange",
-   "Gate",
-   "KuCoin"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "At its core, Kryll features innovative technology that unifies data access and thought flow, skillfully combining Web3 data with AI capabilities. This enables Kryll\u00b3 to offer comprehensive coverage of crypto markets and projects, along with advanced analysis and decision-making tools, simplifying the complex ecosystem.\n\nThe KRL token is essential to the Kryll\u00b3 ecosystem, unlocking exclusive features, serving as a payment method, and enabling participation in governance decisions.\n\nKey tools include SmartFolio, an AI-powered portfolio manager that tracks and analyzes digital assets across multiple blockchains, providing real-time insights for optimized investments.\n\nX-Ray is a market analysis tool using AI to evaluate tokens, offering details on smart contracts, on-chain data, social activity, and financial indicators.\n\nGem Detector identifies emerging high-potential tokens through multi-chain surveillance and deep learning algorithms. Harpoon monitors top traders' strategies and transactions, offering insights into smart money movements.\n\nNews Hub centralizes dozens of information sources into a unified, queryable platform for news and updates, enhancing decision-making processes.\n\nKryll\u00b3 also offers its partners a revolutionary tool: Agent K. K is a conversational agent integrated into Web3 platforms and media sites, enabling natural language interaction with content. It makes complex concepts accessible to a wider audience, which is particularly beneficial for beginners.",
-  "dex": [
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V3 (Optimism)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-11-21T04:36:56.745709+00:00",
-  "genesis": null,
-  "github": "https://github.com/Cryptense/KryllToken",
-  "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "ethereum",
-   "optimistic-ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/Kryll_io",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/kryll_io",
-  "telegram_users": null,
-  "twitter": "https://x.com/kryll_io",
-  "twitter_followers": null,
-  "watchers": 5370
  },
  "kryll": {
   "categories": [
@@ -2549,7 +2762,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-11-20T03:19:06.249669+00:00",
+  "fetched": "2026-11-21T14:41:42.155441+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -2557,13 +2770,61 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
   "watchers": 7968
+ },
+ "newton-protocol": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance HODLer Airdrops",
+   "DeFAI"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bithumb",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo"
+  ],
+  "cex_count": 35,
+  "chat": "https://www.tiktok.com/@magic.newton",
+  "commits_4w": null,
+  "description": "The Newton Protocol is a decentralized infrastructure layer for verifiable onchain automation and secure agent authorization. It enables protocols, DAOs, and users to execute complex actions through verifiable agents, without relying on centralized bots or offchain coordination. Users can securely authorize agents to act on their behalf using programmable permissions, ensuring that actions occur only under conditions they approve. By combining trusted execution environments (TEEs), zero-knowledge proofs, and a modular agent architecture, Newton Protocol brings automation fully onchain, enhancing transparency, composability, and trust.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+  "fetched": "2026-11-21T14:42:58.102860+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://newt.foundation/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/newtfoundation",
+  "twitter_followers": null,
+  "watchers": 2676
  },
  "ni-hao-cat": {
   "categories": [
@@ -2877,6 +3138,38 @@
   "twitter_followers": null,
   "watchers": 16923
  },
+ "pipi-2": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Frog-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Meet Pipi, the most unbothered toad on Ethereum. Dressed in a bright pink Hawaiian shirt, a gold chain, and sunset-tinted aviator shades, Pipi lives permanently on golden-hour time, phone in hand, cruising through neon palm-lined nights without ever breaking a sweat. While the rest of the market panics over every red candle, Pipi just leans back, watches the synthwave sun dip below the horizon, and enjoys the ride. Powered by pure community energy and laid-back vibes, Pipi is a memecoin for holders who know how to stay cool, ride the waves, and keep the glow going long after dark.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x0f8f5e8c6579f8e183a1140868b70d67233eb213",
+  "fetched": "2026-11-21T14:39:19.720994+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.pipithetoad.fun/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/toadonethereum",
+  "twitter_followers": null,
+  "watchers": 23
+ },
  "propy": {
   "categories": [
    "Tokenized Real Estate",
@@ -3026,7 +3319,7 @@
    "BtcTurk | Kripto",
    "Bybit"
   ],
-  "cex_count": 34,
+  "cex_count": 35,
   "chat": null,
   "commits_4w": null,
   "description": "RedStone Is The Fastest Growing oracle, specialising in yield-bearing collateral for lending markets and securing $10bn+ . Blue chip DeFi protocols are our clients including Spark, Morpho, Compound, Pendle, Venus, Lido, EtherFi, Ethena, Puffer, Balancer, Lombard, Enzyme, Frax, Agora, M^0 and 80+ other Clients. RedStone provides a wide variety of in-demand assets such as LSTs, LRTs, Bitcoin LSTs and many others.",
@@ -3037,7 +3330,7 @@
   ],
   "discord": "https://discord.gg/redstonedefi",
   "explorer": "https://etherscan.io/token/0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE",
-  "fetched": "2026-11-18T15:43:28.456650+00:00",
+  "fetched": "2026-11-21T14:43:01.308896+00:00",
   "genesis": null,
   "github": "https://github.com/redstone-finance",
   "homepage": "https://www.redstone.finance/",
@@ -3046,13 +3339,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/redstonefinance",
   "telegram_users": null,
   "twitter": "https://x.com/redstone_defi",
   "twitter_followers": null,
-  "watchers": 7014
+  "watchers": 7030
  },
  "renzo": {
   "categories": [
@@ -3399,7 +3692,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-11-18T15:38:32.188081+00:00",
+  "fetched": "2026-11-21T14:40:29.393806+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4343,7 +4636,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x160a8a73059d54f68d77ac1626c08425ec2ec0e0",
-  "fetched": "2026-11-18T15:38:35.470316+00:00",
+  "fetched": "2026-11-21T14:39:16.512893+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.wantedstar.site",
@@ -4351,13 +4644,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/WantedStarCoin",
   "twitter_followers": null,
-  "watchers": 13
+  "watchers": 138
  },
  "wasted-4": {
   "categories": [
@@ -4644,7 +4937,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70e8de73ce538da2beed35d14187f6959a8eca96",
-  "fetched": "2026-11-20T03:17:36.084584+00:00",
+  "fetched": "2026-11-21T14:40:32.563719+00:00",
   "genesis": null,
   "github": "https://github.com/Xfers/StraitsX-tokens/tree/master/Ethereum",
   "homepage": "https://www.straitsx.com/sg/xsgd",
@@ -4661,7 +4954,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/StraitsX",
   "twitter_followers": null,
-  "watchers": 1719
+  "watchers": 1720
  },
  "xyo-network": {
   "categories": [
