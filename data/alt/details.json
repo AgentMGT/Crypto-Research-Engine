@@ -680,6 +680,37 @@
   "twitter_followers": null,
   "watchers": 17139
  },
+ "blob-4": {
+  "categories": [
+   "Solana Ecosystem",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The Big Blob of Compute.",
+  "dex": [
+   "PumpSwap"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
+  "fetched": "2026-11-22T14:38:37.595467+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.blob.community/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/BL0B0nS0L",
+  "twitter_followers": null,
+  "watchers": 10
+ },
  "bluzelle": {
   "categories": [
    "Smart Contract Platform",
@@ -966,7 +997,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "fetched": "2026-11-21T04:44:25.999322+00:00",
+  "fetched": "2026-11-22T14:34:55.125489+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cartoon-money.com/",
@@ -980,7 +1011,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cartoonmoney_ai",
   "twitter_followers": null,
-  "watchers": 278
+  "watchers": 281
  },
  "chainflip": {
   "categories": [
@@ -1088,6 +1119,45 @@
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
   "watchers": 2123
+ },
+ "circle-rstock-2": {
+  "categories": [
+   "Tokenized Assets",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Morph L2 Ecosystem",
+   "Remora Markets Tokenized rStocks",
+   "Reality Ecosystem"
+  ],
+  "cex": [
+   "Bitget"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Circle Internet Group is a fintech and digital dollar infrastructure company best known for issuing and operating the USDC stablecoin and EURC. Through Circle Mint, APIs, wallet infrastructure, and settlement tools, the company serves exchanges, financial institutions, enterprises, and developers that need regulated digital-dollar payments, treasury operations, cross-border settlement, and on-chain application access. Its economics are tied to stablecoin circulation, reserve income, transaction activity, and adoption of new infrastructure products. In 2025, Circle launched Circle Payments Network and advanced Arc, a Layer-1 blockchain initiative focused on stablecoin payments and settlement.",
+  "dex": [
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": null,
+  "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
+  "fetched": "2026-11-22T14:38:40.821254+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://realityfinance.xyz/",
+  "platforms": [
+   "arbitrum-one",
+   "morph-l2"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RealityFi_xyz",
+  "twitter_followers": null,
+  "watchers": 20
  },
  "claudia-2": {
   "categories": [
@@ -1498,7 +1568,7 @@
   ],
   "discord": null,
   "explorer": "https://www.tapalytics.xyz/token/dmt-nat",
-  "fetched": "2026-11-20T03:21:20.390914+00:00",
+  "fetched": "2026-11-22T14:38:50.501726+00:00",
   "genesis": null,
   "github": "https://github.com/Trac-Systems/ord-tap/",
   "homepage": "https://natgmi.com/",
@@ -1512,7 +1582,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/natgmi",
   "twitter_followers": null,
-  "watchers": 1179
+  "watchers": 1182
  },
  "dot": {
   "categories": [
@@ -1532,7 +1602,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-11-21T04:45:45.209735+00:00",
+  "fetched": "2026-11-22T14:37:27.786604+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -1540,13 +1610,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
-  "watchers": 480
+  "watchers": 481
  },
  "eigenlayer": {
   "categories": [
@@ -1756,7 +1826,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-11-20T15:27:01.252713+00:00",
+  "fetched": "2026-11-22T14:33:48.591108+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://froggiebsc.xyz/",
@@ -1764,7 +1834,7 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/Froggie_bsc1",
   "telegram_users": null,
@@ -1807,6 +1877,38 @@
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 46
+ },
+ "golden-butterfly-sacred-armor": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Chinese Meme"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "\u91d1\u8776\u5723\u7532\nDung Beetle International Alliance \u00b7 1,000 Iron Army Members Holding 100,000 Tokens + 150 Core Foundation Members Holding 300,000 Tokens\nNational Offline Promotion: Over 70 Offline Promotion Workshops Operating Simultaneously\nPangu has enabled countless people to witness that \"community is power\". Today, the Dung Beetle ecosystem features a more mature model, a clearer closed loop, and more determined executors!\n\n\ud83d\udfe9 Transaction Tax Mechanism (3% charged on both buying and selling sides)\n\u00b7 1% \u2192 Used for repurchase and burning of Dung Beetle tokens\n\u00b7 1% \u2192 Used to purchase Dung Beetle tokens to form LP, which flows back to the Dung Beetle liquidity pool\n\u00b7 1% \u2192 Dividends for token holders (distributed in Dung Beetle tokens to holders with no less than 20,000 tokens held)\n\n\u2705 Ecological Supporting Partners\n\u00b7 \ud83d\udd39 Butterfly Platform ecological support (traffic + technical empowerment)\n\u00b7 \ud83d\udd39 Professional market value management team &amp; market maker (stable market protection)\n\u00b7 \ud83d\udd39 Joint consolidation by the consensus iron army of Dung Beetle International Alliance (community consensus backing)\n\u00b7 \ud83d\udd39 Post-market boosting support of US$1.5 million from the Foundation of Dung Beetle International Alliance (capital backing)",
+  "dex": [
+   "PancakeSwap (v2)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/address/0x3e86832b28854b5c7a86e8666ac4ab92cda1843e",
+  "fetched": "2026-11-22T14:34:58.333719+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://x.com/skl_flap",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/SKL_Flap",
+  "telegram_users": null,
+  "twitter": "https://x.com/skl_flap",
   "twitter_followers": null,
   "watchers": 46
  },
@@ -1932,6 +2034,63 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 23
+ },
+ "ishares-silver-trust-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Tokenized Exchange-Traded Funds (ETFs)",
+   "Ondo Tokenized Assets",
+   "Tokenized Exchange-Traded Product (ETPs)",
+   "Tokenized Commodity Exchange-Traded Products (ETPs)"
+  ],
+  "cex": [
+   "BingX",
+   "Gate",
+   "Hibt",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks",
+   "Ourbit",
+   "Toobit",
+   "XT.COM"
+  ],
+  "cex_count": 9,
+  "chat": null,
+  "commits_4w": null,
+  "description": "SLVon is the Ondo Tokenized version of iShares Silver Trust, giving tokenholders economic exposure similar to holding SLV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
+  "fetched": "2026-11-22T14:37:24.562174+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/slvon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 1151
  },
  "jagent": {
   "categories": [
@@ -2097,7 +2256,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
-  "fetched": "2026-11-21T04:39:19.634106+00:00",
+  "fetched": "2026-11-22T14:36:18.051011+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.kled.ai/",
@@ -2105,7 +2264,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -2332,6 +2491,56 @@
   "twitter_followers": null,
   "watchers": 3768
  },
+ "marlin": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Smart Contract Platform",
+   "Decentralized Finance (DeFi)",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Zero Knowledge (ZK)",
+   "DWF Labs Portfolio",
+   "Coinbase Ventures Portfolio",
+   "Pantera Capital Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio"
+  ],
+  "cex": [
+   "BitDelta",
+   "Bitvavo",
+   "Coinbase Exchange",
+   "Gate",
+   "Kraken",
+   "KuCoin",
+   "LBank",
+   "MEXC"
+  ],
+  "cex_count": 8,
+  "chat": "https://blog.marlin.org/",
+  "commits_4w": null,
+  "description": "High-performance network infrastructure for modern decentralized networks\n\n",
+  "dex": [
+   "Uniswap V2 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/pdQZyyy",
+  "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
+  "fetched": "2026-11-22T14:38:44.094283+00:00",
+  "genesis": null,
+  "github": "https://github.com/marlinprotocol/OpenWeaver",
+  "homepage": "https://www.marlin.org/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/marlinprotocol/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/marlinprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/marlinprotocol",
+  "twitter_followers": null,
+  "watchers": 31920
+ },
  "matrixdock-gold": {
   "categories": [
    "Tokenized Assets",
@@ -2444,6 +2653,54 @@
   "twitter_followers": null,
   "watchers": 9683
  },
+ "microsoft-xstock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Mantle Ecosystem",
+   "TON Ecosystem",
+   "BackedFi xStocks Ecosystem"
+  ],
+  "cex": [
+   "Hadron",
+   "Kraken",
+   "Manifest"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "\"For too long, investing has come with barriers. Borders. Brokers. Limitations. It\u2019s been complicated, costly, and \u2014 for millions \u2014 out of reach. xStocks were created to change that.\n\nxStocks are tokenized stocks. They\u2019re backed 1:1 by the underlying assets, composable with DeFi protocols, compliant with EU regulations, accessible to non-US users, and provide a legal claim to the value of the stock.\n\nxStocks enable easy access to 57 US Stocks and ETFs to regular users through top centralized and decentralized exchanges, and can be integrated with other DeFi protocols like any other token.\"",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://www.arbiscan.io/token/0x5621737f42dae558b81269fcb9e9e70c19aa6b35",
+  "fetched": "2026-11-22T14:38:47.314307+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://xstocks.com/",
+  "platforms": [
+   "arbitrum-one",
+   "binance-smart-chain",
+   "ethereum",
+   "mantle"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/xstocksfi",
+  "telegram_users": null,
+  "twitter": "https://x.com/xStocksFi",
+  "twitter_followers": null,
+  "watchers": 354
+ },
  "momentum-3": {
   "categories": [
    "Decentralized Exchange (DEX)",
@@ -2533,7 +2790,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
-  "fetched": "2026-11-21T04:57:35.244229+00:00",
+  "fetched": "2026-11-22T14:36:14.782439+00:00",
   "genesis": null,
   "github": "https://github.com/myshell-ai",
   "homepage": "https://myshell.ai/",
@@ -2548,7 +2805,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/myshell_ai",
   "twitter_followers": null,
-  "watchers": 3930
+  "watchers": 3929
  },
  "natix-network": {
   "categories": [
@@ -2943,7 +3200,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
-  "fetched": "2026-11-21T03:22:04.780610+00:00",
+  "fetched": "2026-11-22T14:37:34.320709+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -3431,7 +3688,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-21T04:46:54.882957+00:00",
+  "fetched": "2026-11-22T14:35:05.096519+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -3440,7 +3697,7 @@
    "etherlink"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/sogniai",
   "telegram_users": null,
@@ -3517,7 +3774,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-11-21T04:57:28.760052+00:00",
+  "fetched": "2026-11-22T14:35:11.513256+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -3553,10 +3810,9 @@
    "KCEX",
    "LBank",
    "MEXC",
-   "Manifest",
    "Ondo Stocks"
   ],
-  "cex_count": 8,
+  "cex_count": 7,
   "chat": null,
   "commits_4w": null,
   "description": "SPYon is the Ondo Tokenized version of the SPDR S&amp;P 500 ETF, giving tokenholders economic exposure similar to holding SPY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
@@ -3568,7 +3824,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xFeDC5f4a6c38211c1338aa411018DFAf26612c08",
-  "fetched": "2026-11-21T03:20:41.802437+00:00",
+  "fetched": "2026-11-22T14:37:30.996808+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/spyon",
@@ -3585,7 +3841,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 512
+  "watchers": 513
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
@@ -3614,7 +3870,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
-  "fetched": "2026-11-21T04:57:32.012890+00:00",
+  "fetched": "2026-11-22T14:36:21.280927+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -3962,6 +4218,53 @@
   "twitter_followers": null,
   "watchers": 85
  },
+ "test-3": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Binance Alpha Spotlight",
+   "Four.meme Ecosystem (BNB Memes)"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitrue",
+   "Bitunix",
+   "CoinUp.io",
+   "Coinstore",
+   "DigiFinex",
+   "Gate",
+   "GroveX"
+  ],
+  "cex_count": 19,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Say \"Hello\" to , Test Token, deployed by Binance on four.meme!\n\nThis innovative memecoin is designed to captivate the crypto community with its unique features and promising potential.\n\nTest Token is set to make waves in the crypto market.\n\nGet ready to embark on an exciting journey with Test Token, and be part of the future of decentralized finance and meme culture.\n\nDev's previous project hit 100b",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x86Bb94DdD16Efc8bc58e6b056e8df71D9e666429",
+  "fetched": "2026-11-22T14:35:01.807554+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://testtoken.vip/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/Testonbsc",
+  "telegram_users": null,
+  "twitter": "https://x.com/TestonBSC",
+  "twitter_followers": null,
+  "watchers": 3153
+ },
  "tokenised-gbp": {
   "categories": [
    "Stablecoins",
@@ -4076,7 +4379,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
-  "fetched": "2026-11-21T04:48:17.287356+00:00",
+  "fetched": "2026-11-22T14:35:08.304849+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -4090,7 +4393,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 55
+  "watchers": 57
  },
  "usa": {
   "categories": [
@@ -4692,7 +4995,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-11-20T03:14:55.734035+00:00",
+  "fetched": "2026-11-22T14:33:51.811950+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
