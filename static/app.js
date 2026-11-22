@@ -413,9 +413,9 @@
 
   btn.addEventListener("click", function () {
     store(Date.now());
-    // Phones get the issue route: GitHub's mobile site and app don't show the Run workflow button.
-    var phone = window.matchMedia && window.matchMedia("(pointer: coarse)").matches && window.innerWidth < 900;
-    window.open(document.getElementById(phone ? "scan-issue" : "scan-open").href, "_blank", "noopener");
+    // The "scan" issue form works the same on every device and has one obvious button;
+    // GitHub's Run workflow button is easy to miss and hidden on phones.
+    window.open(document.getElementById("scan-issue").href, "_blank", "noopener");
     pop.hidden = false;
     show("Waiting for the run to start…");
     schedule(15000);
