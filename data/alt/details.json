@@ -1669,11 +1669,12 @@
    "Gate",
    "KCEX",
    "Kraken",
+   "Metric (BSC)",
    "Ourbit",
    "STON.fi (V2)",
    "Toobit"
   ],
-  "cex_count": 9,
+  "cex_count": 10,
   "chat": null,
   "commits_4w": null,
   "description": "",
@@ -1685,7 +1686,7 @@
   ],
   "discord": null,
   "explorer": "https://tonscan.org/address/EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp",
-  "fetched": "2026-11-19T15:48:31.369515+00:00",
+  "fetched": "2026-11-22T03:10:34.621986+00:00",
   "genesis": null,
   "github": "https://github.com/evaafi",
   "homepage": "https://app.evaa.finance/",
@@ -1694,13 +1695,13 @@
    "the-open-network"
   ],
   "reddit": null,
-  "sentiment_up": 40.0,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": "https://t.me/evaaprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/evaaprotocol",
   "twitter_followers": null,
-  "watchers": 4121
+  "watchers": 4323
  },
  "everything": {
   "categories": [
@@ -2892,6 +2893,38 @@
   "twitter_followers": null,
   "watchers": 2900
  },
+ "nkyc-token": {
+  "categories": [
+   "Exchange-based Tokens",
+   "BNB Chain Ecosystem",
+   "Centralized Exchange (CEX) Token"
+  ],
+  "cex": [
+   "Nonkyc.io"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Pay trade fees with NonKYC Token (NKYC) on Nonkyc.io Exchange and get a 25% discount. \n\nFounded in 2023, NonKYC.io strives to provide its users with the best trading experience and give small and medium market cap assets a reliable trading hub. Our goal is to maintain a fast and user friendly system while also concentrating on security to keep users, data, and assets safe. Security of our users' data &amp; assets is always our top priority and we are focused on building an easy to use digital asset trading platform for everyone to enjoy.\n\nThe NonKYC platform system is NOT from some predesigned script package or preexisting codebase. It has been created from the ground up by professional developers who are well experienced in Cryptocurrency. NonKYC has been designed to scale horizontally as we grow to become a top tier exchange.\n\n",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x59769630b236398c2471eb26e6a529448030d94f",
+  "fetched": "2026-11-22T03:10:44.334280+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://nonkyc.io",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/nonkyc",
+  "telegram_users": null,
+  "twitter": "https://x.com/nonkyc_exchange",
+  "twitter_followers": null,
+  "watchers": 702
+ },
  "nym": {
   "categories": [
    "Smart Contract Platform",
@@ -3326,7 +3359,7 @@
    "Bittime",
    "Bitunix"
   ],
-  "cex_count": 39,
+  "cex_count": 38,
   "chat": null,
   "commits_4w": null,
   "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
@@ -3337,7 +3370,7 @@
   ],
   "discord": "https://discord.gg/renzoprotocol",
   "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
-  "fetched": "2026-11-20T15:31:56.112576+00:00",
+  "fetched": "2026-11-22T03:10:37.836074+00:00",
   "genesis": null,
   "github": "https://github.com/Renzo-Protocol",
   "homepage": "https://www.renzofinance.com/",
@@ -3347,13 +3380,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/RenzoFinance",
   "twitter_followers": null,
-  "watchers": 12558
+  "watchers": 12553
  },
  "reppo": {
   "categories": [
@@ -3773,7 +3806,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-20T15:28:17.466758+00:00",
+  "fetched": "2026-11-22T03:10:41.107174+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -3783,13 +3816,13 @@
    "solana"
   ],
   "reddit": "https://www.reddit.com/r/AITECHtoken",
-  "sentiment_up": 0.0,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/solidusaitech",
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151626
+  "watchers": 151619
  },
  "spacex-reality-protocol": {
   "categories": [
