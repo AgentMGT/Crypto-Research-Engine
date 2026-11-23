@@ -290,7 +290,7 @@
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-22T02:18:39.133201+00:00",
+  "fetched": "2026-11-23T02:48:51.244876+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -305,7 +305,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113420
+  "watchers": 113421
  },
  "anthropic-prestocks-2": {
   "categories": [
@@ -560,7 +560,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump",
-  "fetched": "2026-11-22T02:15:02.490249+00:00",
+  "fetched": "2026-11-23T02:46:19.382006+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://barkingpuppysol.com/",
@@ -574,7 +574,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BPuppy80020",
   "twitter_followers": null,
-  "watchers": 140
+  "watchers": 141
  },
  "basecat": {
   "categories": [
@@ -880,6 +880,39 @@
   "twitter_followers": null,
   "watchers": 4264
  },
+ "burn-lucky-sheep": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Chinese Meme",
+   "Flap Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "BE THE LUCKY SHEEP. TAKE IT ALL.\nA burn-powered game of timing, conviction and one decisive moment. Step into the chamber when the protocol is ready.\n\nWhat is Lucky Sheep?\nThe whitepaper describes a decentralized last-burner game using a \u201cburning means locking\u201d model, a countdown and a grand prize. Custody and release rules for committed tokens need contract clarification.\n\nA simple wager. A relentless clock.\nEvery burn moves the game forward. The round rewards the last participant and the most committed burners. The exact rules and weights await verification against deployed contracts.",
+  "dex": [
+   "PancakeSwap (v2)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x72eff1574f9042adaea5a9832a182735fcd97777#transactions",
+  "fetched": "2026-11-23T02:46:13.019984+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://flap.sh/bnb/0x72EfF1574f9042ADaeA5A9832A182735fcD97777",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/LuckySheep2027",
+  "telegram_users": null,
+  "twitter": "https://x.com/luckysheep2027",
+  "twitter_followers": null,
+  "watchers": 9
+ },
  "buttcoin-7": {
   "categories": [
    "Solana Ecosystem",
@@ -1173,21 +1206,21 @@
   ],
   "cex": [
    "LBank",
-   "MEXC",
-   "Manifest"
+   "MEXC"
   ],
-  "cex_count": 3,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
   "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
   "dex": [
    "Meteora",
    "Meteora DAMM V2",
-   "PumpSwap"
+   "PumpSwap",
+   "Raydium (CLMM)"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-11-22T02:14:58.095698+00:00",
+  "fetched": "2026-11-23T02:46:16.184635+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -1195,13 +1228,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 70.0,
+  "sentiment_up": 85.71,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 154
+  "watchers": 163
  },
  "codec-flow": {
   "categories": [
@@ -1266,13 +1299,13 @@
    "BingX",
    "BitKan",
    "Bitget",
-   "Bithumb",
    "Bitkub",
    "Bitrue",
    "Bittime",
-   "Bitunix"
+   "Bitunix",
+   "BloFin"
   ],
-  "cex_count": 34,
+  "cex_count": 33,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -1285,7 +1318,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-11-22T02:16:12.360598+00:00",
+  "fetched": "2026-11-23T02:48:38.515037+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -1295,13 +1328,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": "https://t.me/cookie_dao",
   "telegram_users": null,
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
-  "watchers": 33272
+  "watchers": 33274
  },
  "credible-finance": {
   "categories": [
@@ -1583,7 +1616,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/address/0xf4d97f2da56e8c3098f3a8d538db630a2606a024",
-  "fetched": "2026-11-21T03:22:07.973205+00:00",
+  "fetched": "2026-11-23T02:50:01.586546+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://venice.ai",
@@ -1591,13 +1624,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/AskVenice",
   "twitter_followers": null,
-  "watchers": 1450
+  "watchers": 1469
  },
  "dmt-nat": {
   "categories": [
@@ -1917,6 +1950,42 @@
   "twitter_followers": null,
   "watchers": 268
  },
+ "fartboy": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "KCEX",
+   "MEXC"
+  ],
+  "cex_count": 2,
+  "chat": "https://www.youtube.com/@CoinsKid",
+  "commits_4w": null,
+  "description": "Fartboy is a playful and community-focused cryptocurrency inspired by the comic book character. It is a token on the Solana network.",
+  "dex": [
+   "Raydium"
+  ],
+  "discord": "https://discord.gg/coinskid",
+  "explorer": "https://solscan.io/account/DhHVd5s4hqBGnTkFztsK98WGPtYUJjpUCqNnWaNLWb4F",
+  "fetched": "2026-11-23T02:47:25.780582+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.fartboysol.com",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/iamfartboy",
+  "telegram_users": null,
+  "twitter": "https://x.com/FARTBOY_CTO",
+  "twitter_followers": null,
+  "watchers": 1698
+ },
  "flying-tulip": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -2122,6 +2191,58 @@
   "twitter": "https://x.com/skl_flap",
   "twitter_followers": null,
   "watchers": 46
+ },
+ "goplus-security": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Base Ecosystem",
+   "Cybersecurity",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "OKX Ventures Portfolio",
+   "Binance HODLer Airdrops",
+   "Binance Alpha Spotlight",
+   "Base Native"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitunix",
+   "Bybit",
+   "CEX.IO",
+   "CoinW",
+   "DigiFinex",
+   "Gate",
+   "GroveX"
+  ],
+  "cex_count": 20,
+  "chat": "https://goplussecurity.medium.com/",
+  "commits_4w": null,
+  "description": "GoPlus is revolutionizing Web3 user security through its permissionless and user-driven User Security Network, which provides comprehensive protection across the entire user transaction lifecycle. GoPlus aims to create a more secure and user-friendly Web3 on-chain interaction environment by filling the gap of the security layer in the current blockchain's architecture, providing users with more effective and better-experienced on-chain security protection.\n\n",
+  "dex": [
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/goplus",
+  "explorer": "https://basescan.org/address/0x0c1dc73159e30c4b06170f2593d3118968a0dca5",
+  "fetched": "2026-11-23T02:48:48.052398+00:00",
+  "genesis": null,
+  "github": "https://github.com/GoPlusSecurity/GPS-AUDIT",
+  "homepage": "https://gopluslabs.io/",
+  "platforms": [
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/GoPlusSecurity",
+  "telegram_users": null,
+  "twitter": "https://x.com/GoPlusSecurity",
+  "twitter_followers": null,
+  "watchers": 2999
  },
  "hims-hers-health-ondo-tokenized-stock": {
   "categories": [
@@ -2526,7 +2647,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-22T02:16:15.674253+00:00",
+  "fetched": "2026-11-23T02:47:28.980748+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2536,7 +2657,7 @@
    "osmosis"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+4FqlzOzdMTo1ZTdk",
   "telegram_users": null,
@@ -3264,7 +3385,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-22T02:17:28.419314+00:00",
+  "fetched": "2026-11-23T02:48:44.861638+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3281,7 +3402,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114911
+  "watchers": 114909
  },
  "pinlink": {
   "categories": [
@@ -3623,6 +3744,46 @@
   "twitter_followers": null,
   "watchers": 12553
  },
+ "reppo": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Base Ecosystem",
+   "AI Agents",
+   "Base Native"
+  ],
+  "cex": [
+   "Baseline (Base)",
+   "Hydrex Integral",
+   "Kraken",
+   "Ourbit"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "AI TRAINING DATA \ud83e\udd1d PREDICTION MARKETS\n\nOn REPPO.AI, user A publishes AI collabs - Vibe coded apps, GenAI videos/images, interaction with robots etc. &amp; user B predicts quality by voting in weekly epochs. Both split emissions 50-50 while high quality AI training data is created.",
+  "dex": [
+   "Aerodrome Slipstream 2",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xff8104251e7761163fac3211ef5583fb3f8583d6",
+  "fetched": "2026-11-23T02:47:35.343335+00:00",
+  "genesis": null,
+  "github": "https://github.com/Reppo-Labs",
+  "homepage": "https://reppo.xyz/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/Reppo",
+  "twitter_followers": null,
+  "watchers": 1249
+ },
  "reserve-rights-token": {
   "categories": [
    "Decentralized Finance (DeFi)",
@@ -3646,10 +3807,10 @@
    "Bit2Me",
    "BitDelta",
    "Bitget",
-   "Bithumb",
-   "Bitkub"
+   "Bitkub",
+   "Bitlo"
   ],
-  "cex_count": 53,
+  "cex_count": 52,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -3663,7 +3824,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-22T02:18:32.723959+00:00",
+  "fetched": "2026-11-23T02:48:41.697217+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -3674,13 +3835,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/reservecurrency",
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90712
+  "watchers": 90713
  },
  "resistance-dog": {
   "categories": [
@@ -3889,6 +4050,58 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 11
+ },
+ "simon-s-cat": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Meme",
+   "Cat-Themed",
+   "TokenFi Launchpad",
+   "Binance HODLer Airdrops",
+   "IP Meme"
+  ],
+  "cex": [
+   "Azbit",
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitrue",
+   "Bittime",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "CoinW",
+   "Gate",
+   "HTX"
+  ],
+  "cex_count": 22,
+  "chat": "https://www.youtube.com/user/simonscat",
+  "commits_4w": null,
+  "description": "Simon\u2019s Cat Token is the officially endorsed memecoin, backed by full IP rights from the iconic Simon\u2019s Cat brand.\n\nOriginating from the beloved British animated series created by Simon Tofield, Simon\u2019s Cat has garnered over 1.6 billion views on its official YouTube channel and even more across various social networks. \n\nThe project aims to establish the brand\u2019s presence in Web3 while also contributing to initiatives aimed at feeding and rescuing cats globally.",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x6894cde390a3f51155ea41ed24a33a4827d3063d",
+  "fetched": "2026-11-23T02:46:22.564054+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.simons.cat",
+  "platforms": [
+   "binance-smart-chain",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/SimonsCatWorld",
+  "telegram_users": null,
+  "twitter": "https://x.com/SimonsCatMeme",
+  "twitter_followers": null,
+  "watchers": 119591
  },
  "sogni-ai": {
   "categories": [
@@ -4133,7 +4346,7 @@
    "Bitrue",
    "Bittime"
   ],
-  "cex_count": 40,
+  "cex_count": 39,
   "chat": null,
   "commits_4w": null,
   "description": "SSV promotes decentralization, security, and liveness across the Ethereum consensus layer and forms the foundation of SSV.network \u2013 a fully decentralized and robust ETH staking network. Using the network will be open and simple for anyone who wants to run an Ethereum validator; from DIY users all the way to staking pools and big institutional staking services. This applies to using the network both as a user or a service provider; regardless of staking configuration, as long as duties are properly executed, anyone is eligible to provide service and reap rewards for doing so. ",
@@ -4143,7 +4356,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-11-21T04:56:15.640457+00:00",
+  "fetched": "2026-11-23T02:47:32.139424+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -4151,13 +4364,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
-  "watchers": 10171
+  "watchers": 10170
  },
  "super-inu-2": {
   "categories": [
@@ -4561,6 +4774,7 @@
    "Stablecoins",
    "Tokenized Assets",
    "USD Stablecoin",
+   "Avalanche Ecosystem",
    "Celo Ecosystem",
    "Ethereum Ecosystem",
    "Real World Assets (RWA)",
@@ -4574,14 +4788,14 @@
    "Bitget",
    "Bitkub",
    "Bybit",
-   "Crypto.com Exchange",
    "Gate",
    "GroveX",
    "HTX",
    "KCEX",
-   "Kraken"
+   "Kraken",
+   "MEXC"
   ],
-  "cex_count": 15,
+  "cex_count": 14,
   "chat": null,
   "commits_4w": null,
   "description": "USA\u20ae is Tether's U.S.-regulated, dollar-backed stablecoin developed specifically to operate within the United States\u2019 new federal stablecoin framework established under the GENIUS Act. The issuer of USA\u20ae is Anchorage Digital Bank, N.A., America\u2019s first federally regulated stablecoin issuer.",
@@ -4592,11 +4806,12 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0x07041776f5007ACa2A54844F50503a18A72A8b68",
-  "fetched": "2026-11-20T15:29:20.676772+00:00",
+  "fetched": "2026-11-23T02:49:57.653379+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usat.io/",
   "platforms": [
+   "avalanche",
    "celo",
    "ethereum"
   ],
@@ -5189,7 +5404,7 @@
   ],
   "discord": "https://discord.com/invite/fJM9cHuvvB",
   "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-  "fetched": "2026-11-22T02:18:45.561879+00:00",
+  "fetched": "2026-11-23T02:49:54.499215+00:00",
   "genesis": null,
   "github": "https://github.com/Zebec-protocol",
   "homepage": "https://zebec.io/",
@@ -5197,13 +5412,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 28.57,
+  "sentiment_up": 81.25,
   "stars": null,
   "telegram": "https://t.me/zebecprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/Zebec_HQ",
   "twitter_followers": null,
-  "watchers": 21539
+  "watchers": 21557
  },
  "zentry": {
   "categories": [
