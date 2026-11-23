@@ -136,7 +136,6 @@
   "cex": [
    "Biconomy.com",
    "Binance",
-   "Binance US",
    "Bitrue",
    "Bittime",
    "Bitvavo",
@@ -145,9 +144,10 @@
    "Kraken",
    "KuCoin",
    "MEXC",
-   "Mudrex"
+   "Mudrex",
+   "Toobit"
   ],
-  "cex_count": 15,
+  "cex_count": 14,
   "chat": null,
   "commits_4w": null,
   "description": "heyAura is a personal AI agent, helping users optimize their portfolio by generating yield, identifying opportunities, and automatically claiming airdrops. It gathers real-time data by analyzing onchain activity, assessing risk tolerance, and considering current market conditions and trends to deliver the most suitable suggestions. heyAura can even execute strategies on smart accounts by taking into account the user risk tolerance level.",
@@ -159,7 +159,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-11-22T03:50:26.758102+00:00",
+  "fetched": "2026-11-23T22:47:16.685109+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -539,6 +539,55 @@
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
   "watchers": 23711
+ },
+ "ava-ai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Solana Ecosystem",
+   "Meme",
+   "AI Meme",
+   "AI Agents",
+   "Pump.fun Ecosystem",
+   "Binance Alpha Spotlight",
+   "Made in USA"
+  ],
+  "cex": [
+   "BitKan",
+   "Bitunix",
+   "BloFin",
+   "Gate",
+   "KCEX",
+   "Kraken",
+   "KuCoin",
+   "LBank",
+   "MEXC",
+   "Ourbit"
+  ],
+  "cex_count": 10,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Ava is the first AI Agent to be built on HoloworldAI.\n\n$AVA was initially launched by the community after Holoworld welcomed to the world, AVA the Holo AI intern. Since then, it has grown tremendously into a vibrant community.\n\nAs Holoworld progresses, @AVA_holo will be the primary AI agent IP for showcasing Holoworlds latest developments. From on-chain experiments to unreleased AI agent features, they will lean on Ava to demonstrate our vision and gather feedback from our community.",
+  "dex": [
+   "Orca",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
+  "fetched": "2026-11-23T22:43:27.399962+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.holoworld.com/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/AvaAIonSol",
+  "telegram_users": null,
+  "twitter": "https://x.com/AVA_holo",
+  "twitter_followers": null,
+  "watchers": 6618
  },
  "barking-puppy": {
   "categories": [
@@ -1197,7 +1246,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/64/chart",
-  "fetched": "2026-11-22T02:19:52.036708+00:00",
+  "fetched": "2026-11-23T22:47:23.151725+00:00",
   "genesis": null,
   "github": "https://github.com/rayonlabs/chutes",
   "homepage": "https://chutes.ai/",
@@ -1211,7 +1260,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/chutes_ai",
   "twitter_followers": null,
-  "watchers": 2123
+  "watchers": 2122
  },
  "circle-rstock-2": {
   "categories": [
@@ -1708,7 +1757,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump",
-  "fetched": "2026-11-22T02:16:05.819604+00:00",
+  "fetched": "2026-11-23T22:43:30.675156+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.dessatalks.space/",
@@ -1722,7 +1771,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/DessaOnSOL",
   "twitter_followers": null,
-  "watchers": 251
+  "watchers": 252
  },
  "diem": {
   "categories": [
@@ -2419,6 +2468,49 @@
   "twitter_followers": null,
   "watchers": 143
  },
+ "intel-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "CommunityV3",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "INTCon is the Ondo Tokenized version of Intel, giving tokenholders economic exposure similar to holding INTC and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0xFdA09936DbD717368De0835bA441d9E62069d36f",
+  "fetched": "2026-11-23T22:45:56.903136+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/intcon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 286
+ },
  "ishares-msci-south-korea-etf-bstocks-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -2584,6 +2676,41 @@
   "twitter_followers": null,
   "watchers": 1861
  },
+ "jobcoin-2": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "JobCoin ($JOBCOIN) is a dynamic meme token on the Solana blockchain, centered around the humorous narrative of escaping the 9-5 grind and achieving financial freedom through crypto. It embodies the dream of retiring early with wealth and leisure, resonating with a vibrant, global community of dreamers and meme enthusiasts. The project thrives on its community-driven ethos, where members actively shape its direction through creative input, meme generation, and collaborative initiatives. JobCoin\u2019s endless meme potential, spanning workplace humor, financial independence, and lifestyle aspirations which fuels its engaging presence on platforms like Twitter. A passionate community and a playful yet ambitious vision, JobCoin offers boundless possibilities for growth, entertainment, and connection in the crypto space.",
+  "dex": [
+   "Meteora DAMM V2",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
+  "fetched": "2026-11-23T22:44:37.451534+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://jobcoin.capital",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/JobCoinSOL",
+  "twitter_followers": null,
+  "watchers": 233
+ },
  "kled-ai": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -2599,12 +2726,11 @@
   "commits_4w": null,
   "description": "",
   "dex": [
-   "Meteora",
-   "Orca"
+   "Meteora"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
-  "fetched": "2026-11-22T14:36:18.051011+00:00",
+  "fetched": "2026-11-23T22:48:26.470212+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.kled.ai/",
@@ -2618,7 +2744,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/useKled",
   "twitter_followers": null,
-  "watchers": 1962
+  "watchers": 1960
  },
  "kryll": {
   "categories": [
@@ -2647,7 +2773,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-11-21T04:47:01.255050+00:00",
+  "fetched": "2026-11-23T22:44:40.671676+00:00",
   "genesis": null,
   "github": "https://github.com/Cryptense/KryllToken",
   "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
@@ -2664,7 +2790,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/kryll_io",
   "twitter_followers": null,
-  "watchers": 5370
+  "watchers": 5371
  },
  "lava-network": {
   "categories": [
@@ -3391,6 +3517,113 @@
   "twitter_followers": null,
   "watchers": 702
  },
+ "opengradient": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "BNB Chain Ecosystem",
+   "Mantle Ecosystem",
+   "Base Ecosystem",
+   "Binance Alpha Spotlight",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "Bithumb",
+   "Bitkub",
+   "Bitrue",
+   "Bybit",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "GroveX",
+   "HTX",
+   "Hotcoin"
+  ],
+  "cex_count": 19,
+  "chat": "https://opengradient.medium.com/",
+  "commits_4w": null,
+  "description": "OpenGradient is the Network for Open Intelligence \u2014 a decentralized infrastructure network designed to host, inference, and verify AI models at scale. Rather than functioning as a standalone blockchain, OpenGradient operates as a specialized AI coprocessor: it enables applications, blockchains, and autonomous agents to outsource computationally-heavy AI tasks to a dedicated network of GPU and Trusted Execution Environment (TEE) nodes. The validator set verifies every computational proof (TEE attestation or zkML proof) at the consensus level before it is committed on-chain, enabling trustless usage of AI from any network or application.",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "PancakeSwap V3 (Base)",
+   "Pancakeswap Infinity CLMM (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/address/0xFbC2051AE2265686a469421b2C5A2D5462FbF5eB",
+  "fetched": "2026-11-23T22:46:03.530610+00:00",
+  "genesis": null,
+  "github": "https://github.com/OpenGradient",
+  "homepage": "https://www.opengradient.ai/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "mantle"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/OpenGradient",
+  "twitter_followers": null,
+  "watchers": 2605
+ },
+ "osaka-protocol": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Avalanche Ecosystem",
+   "Polygon Ecosystem",
+   "Meme",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Base Ecosystem",
+   "Dog-Themed",
+   "Base Native"
+  ],
+  "cex": [
+   "Ourbit",
+   "XT.COM"
+  ],
+  "cex_count": 2,
+  "chat": "https://medium.com/@mephis3",
+  "commits_4w": null,
+  "description": "Osaka protocol is a decentralized project that started with an airdrop for 30% of total supply to all people that sold SHIB before it went to moon. The purpose of Osaka Phase 1 is to establish a distributed community that works together to propagate the ecosystem.",
+  "dex": [
+   "LFJ",
+   "PancakeSwap (v2)",
+   "Uniswap V2 (Base)",
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Arbitrum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xa21af1050f7b26e0cff45ee51548254c41ed6b5c",
+  "fetched": "2026-11-23T22:43:34.055783+00:00",
+  "genesis": null,
+  "github": "https://github.com/osakaprotocol",
+  "homepage": "https://osaka.win",
+  "platforms": [
+   "arbitrum-one",
+   "avalanche",
+   "base",
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/Osakaprotocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/osakaprotocol",
+  "twitter_followers": null,
+  "watchers": 29698
+ },
  "ovr": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3443,6 +3676,66 @@
   "twitter_followers": null,
   "watchers": 114909
  },
+ "pha": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Smart Contract Platform",
+   "Oracle",
+   "Polkadot Ecosystem",
+   "Ethereum Ecosystem",
+   "Interoperability",
+   "Layer 2 (L2)",
+   "Zero Knowledge (ZK)",
+   "DePIN",
+   "DWF Labs Portfolio",
+   "Rollup",
+   "AI Agents",
+   "Sora Ecosystem",
+   "AI Framework",
+   "Made in USA"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Bilaxy",
+   "Binance",
+   "Bit2Me",
+   "BitKan",
+   "Bitget",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "CEX.IO"
+  ],
+  "cex_count": 37,
+  "chat": "https://www.youtube.com/@PhalaNetwork",
+  "commits_4w": null,
+  "description": "What Is Phala Network (PHA)?\n\nPhala Network (https://phala.network/) is the Execution Layer for Web3 AI, enabling AI to interact with blockchains and unlocking Web3 for the first billion users.\n\nPhala\u2019s multi-proof system solves the AI execution problem, allowing you to build tamper-proof and unstoppable AI Agents that integrate with smart contracts through the AI-Agent Contract.\n\n1. Agentize Smart Contracts: Develop AI Agents for smart contracts using natural and programming languages.\n2. Connect to Multi-Agents: Make your agents accessible to other cross-chain AI Agents.\n3. Launch AI Agents and Earn: Own your agents and build a profitable token economy.\n\nPHALA as the AI Execution Layer:\n\nPhala leverages AI Agents to interface with blockchain technology, ensuring behavior aligns with intentions and preventing fraud. Using Phala's Blockchain-TEE hybrid system, AI Agents can act like smart contracts with decentralized hosting, governance by smart contracts, protected prompts, and low latency with no gas fees.\n\nPhala Network\u2019s AI Ecosystem:\n\nPhala leads Web3 and AI integration with:\n\n1. AI Agent Contract (https://docs.phala.network/ai-agent-contract/getting-started): For building decentralized AI applications.\n2. Agent Wars (https://agentwars.phala.network/home): A platform to create, interact with, and monetize AI agents.\n3. Redpill (https://red-pill.ai/join): An AI aggregator optimizing multiple AI models, increasing network usage and computation power.\n\nHow Many PHA Coins Ar",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/phala-network",
+  "explorer": "https://etherscan.io/token/0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+  "fetched": "2026-11-23T22:46:06.827990+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://phala.network/",
+  "platforms": [
+   "ethereum",
+   "sora"
+  ],
+  "reddit": null,
+  "sentiment_up": 66.67,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/PhalaNetwork",
+  "twitter_followers": null,
+  "watchers": 56865
+ },
  "pinlink": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3466,7 +3759,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
-  "fetched": "2026-11-21T04:45:38.785265+00:00",
+  "fetched": "2026-11-23T22:45:53.650678+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pinlink.ai/",
@@ -3480,7 +3773,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
-  "watchers": 16923
+  "watchers": 16915
  },
  "pipi-2": {
   "categories": [
@@ -3903,7 +4196,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-11-21T04:44:22.782838+00:00",
+  "fetched": "2026-11-23T22:43:24.139302+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -3917,7 +4210,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/redotoken",
   "twitter_followers": null,
-  "watchers": 12907
+  "watchers": 12905
  },
  "rna-2": {
   "categories": [
@@ -4214,7 +4507,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-22T03:10:41.107174+00:00",
+  "fetched": "2026-11-23T22:46:10.040168+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4230,7 +4523,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151619
+  "watchers": 151618
  },
  "spacex-reality-protocol": {
   "categories": [
@@ -4252,7 +4545,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x5181b7dd097b42d7787ee78efab86f43d4e12f44",
-  "fetched": "2026-11-22T14:35:11.513256+00:00",
+  "fetched": "2026-11-23T22:47:19.909424+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bitget.com/asia/spot/RSPCXUSDT",
@@ -4493,6 +4786,55 @@
   "twitter_followers": null,
   "watchers": 4045
  },
+ "swarms": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Solana Ecosystem",
+   "AI Agents",
+   "Pump.fun Ecosystem",
+   "Binance Alpha Spotlight",
+   "AI Framework"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "BingX",
+   "BitKan",
+   "Bitunix",
+   "BloFin",
+   "CoinW",
+   "Gate",
+   "HTX",
+   "KCEX",
+   "Kraken",
+   "KuCoin",
+   "LBank"
+  ],
+  "cex_count": 17,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Orca",
+   "Raydium"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/account/74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump",
+  "fetched": "2026-11-23T22:47:13.408632+00:00",
+  "genesis": null,
+  "github": "https://github.com/kyegomez/swarms",
+  "homepage": "https://swarms.world/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/swarms_corp",
+  "twitter_followers": null,
+  "watchers": 7501
+ },
  "synapse-2": {
   "categories": [
    "BNB Chain Ecosystem",
@@ -4536,7 +4878,7 @@
   ],
   "discord": null,
   "explorer": "https://optimistic.etherscan.io/token/0x5a5fff6f753d7c11a56a52fe47a177a87e431655",
-  "fetched": "2026-11-21T04:45:35.599114+00:00",
+  "fetched": "2026-11-23T22:44:43.871690+00:00",
   "genesis": null,
   "github": "https://github.com/synapsecns",
   "homepage": "https://synapseprotocol.com",
@@ -4547,13 +4889,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 50.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/synapseprotocol",
   "telegram_users": null,
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
-  "watchers": 28850
+  "watchers": 28852
  },
  "take-two-interactive-software-backpack-securities": {
   "categories": [
@@ -4759,7 +5101,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xab78b89b5bb00236be0b4b20704cbfa04efc711c",
-  "fetched": "2026-11-22T14:35:08.304849+00:00",
+  "fetched": "2026-11-23T22:44:47.089228+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.binance.com/bstocks-landing",
@@ -4773,7 +5115,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 57
+  "watchers": 60
  },
  "tsuki": {
   "categories": [
@@ -5152,6 +5494,61 @@
   "twitter_followers": null,
   "watchers": 499
  },
+ "world-mobile-token": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Cardano Ecosystem",
+   "DePIN",
+   "Base Ecosystem",
+   "DWF Labs Portfolio",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitvavo",
+   "Coinbase Exchange",
+   "DigiFinex",
+   "Gate",
+   "Hydrex Integral",
+   "Kraken",
+   "MEXC",
+   "Niza.io",
+   "WingRiders"
+  ],
+  "cex_count": 9,
+  "chat": "https://www.instagram.com/WorldMobileTeam/",
+  "commits_4w": null,
+  "description": "World Mobile Token (WMTX) is the utility token that powers the World Mobile network, a decentralized mobile network at the forefront of the DePIN space. World Mobile aims to connect the world by leveraging blockchain technology and a sharing economy. By becoming an AirNode operator or a token staker, anyone can earn rewards for providing telco services to customers or securing the network. The World Mobile network is disrupting the trillion-dollar telco industry and creating a more inclusive, sustainable, and privacy-respecting wireless service for everyone.",
+  "dex": [
+   "CSWAP DEX",
+   "Minswap",
+   "PancakeSwap V3 (BSC)",
+   "Sundaeswap",
+   "Uniswap V3 (BSC)"
+  ],
+  "discord": "https://discord.com/invite/Qg54MMMmjG",
+  "explorer": "https://basescan.org/token/0x3e31966d4f81C72D2a55310A6365A56A4393E98D",
+  "fetched": "2026-11-23T22:46:00.202333+00:00",
+  "genesis": null,
+  "github": "https://github.com/worldmobilegroup",
+  "homepage": "https://worldmobile.io",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain",
+   "cardano"
+  ],
+  "reddit": "https://www.reddit.com/r/WorldMobileToken/",
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/WorldMobileTeam",
+  "telegram_users": null,
+  "twitter": "https://x.com/wmchain",
+  "twitter_followers": null,
+  "watchers": 18140
+ },
  "xsgd": {
   "categories": [
    "Stablecoins",
@@ -5368,10 +5765,8 @@
   ],
   "cex": [
    "BitKan",
-   "Bitazza",
    "Bitkub",
    "Bybit",
-   "DigiFinex",
    "Gate",
    "HTX",
    "Hibt",
@@ -5380,7 +5775,7 @@
    "Ourbit",
    "Toobit"
   ],
-  "cex_count": 12,
+  "cex_count": 10,
   "chat": "https://medium.com/zentry",
   "commits_4w": null,
   "description": "Zentry is building the Human-Agentic Operating System\u2014a next-gen AI + crypto infrastructure where human life fuels AI, and AI in turn amplifies human potential. Through its tri-layer stack (zApp, zAI, zData), Zentry transforms everyday activity into structured data, trains intelligent agents, and powers a new user-owned economy. It's not just tech\u2014it\u2019s a platform for civilization-scale co-evolution between people and machines.",
@@ -5390,7 +5785,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-11-21T04:55:12.287401+00:00",
+  "fetched": "2026-11-23T22:44:50.311880+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
@@ -5401,12 +5796,12 @@
    "ronin"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/zentry",
   "twitter_followers": null,
-  "watchers": 4410
+  "watchers": 4408
  }
 }
