@@ -622,6 +622,63 @@
   "twitter_followers": null,
   "watchers": 1010
  },
+ "bio-protocol": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Binance Launchpool",
+   "Solana Ecosystem",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Decentralized Science (DeSci)",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "BTSE",
+   "BVOX",
+   "BigONE",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitbaby",
+   "Bitget",
+   "Bitlo",
+   "Bitrue"
+  ],
+  "cex_count": 49,
+  "chat": null,
+  "commits_4w": null,
+  "description": "BIO is a curation and liquidity protocol for Decentralized Science (DeSci). Our mission is to accelerate biotechnology by giving global communities of patients, scientists and biotech professionals the ability to collectively fund, build and own tokenized biotech projects and intellectual property (IP). \n\nThe team behind BIO helped create Molecule, a tokenization platform for early-stage biomedicine, and VitaDAO, the largest decentralized community for longevity science. Building on these successes, BIO is designed to catalyze an onchain scientific economy through decentralized funding, incentives and liquidity.\n\nThe BIO token gives holders access to BIO's network of scientific communities and IP, enabling broad exposure to the DeSci economy.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "Aerodrome Slipstream 2",
+   "Aerodrome Slipstream 3",
+   "Meteora DAMM V2",
+   "PancakeSwap V3 (BSC)",
+   "PancakeSwap V3 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
+  "fetched": "2026-11-23T18:03:24.509615+00:00",
+  "genesis": null,
+  "github": "https://github.com/bio-xyz",
+  "homepage": "https://www.bio.xyz/",
+  "platforms": [
+   "base",
+   "binance-smart-chain",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": "https://t.me/bio_protocol",
+  "telegram_users": null,
+  "twitter": "https://x.com/bioprotocol",
+  "twitter_followers": null,
+  "watchers": 17141
+ },
  "blob-4": {
   "categories": [
    "Solana Ecosystem",
@@ -972,7 +1029,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "fetched": "2026-11-22T14:34:55.125489+00:00",
+  "fetched": "2026-11-23T18:03:10.438097+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cartoon-money.com/",
@@ -986,7 +1043,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/cartoonmoney_ai",
   "twitter_followers": null,
-  "watchers": 281
+  "watchers": 285
  },
  "carv": {
   "categories": [
@@ -1276,6 +1333,39 @@
   "twitter_followers": null,
   "watchers": 1746
  },
+ "conconai": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Marketing",
+   "Ethereum Ecosystem",
+   "AI Applications"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://www.youtube.com/@ConConAI",
+  "commits_4w": null,
+  "description": "ConConAI is a network of AI shopping advisors. Each advisor works in one consumption category, such as travel, cars, real estate, film, music, health information and investing research, and runs on its own website. A user describes what they need in plain language, and the advisor answers with one reasoned recommendation instead of a long list of search results. The advisor never buys on the user's behalf; the user always makes the final decision. Businesses can apply to have their products and services considered by the advisors through the partner platform at partners.conconai.com. CON is the ERC-20 token of the network on Ethereum.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x7ad1A8Fc42Ac150B04dED5825D21a0C90b6d28D8",
+  "fetched": "2026-11-23T18:06:21.834491+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.conconai.com",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/conconai",
+  "telegram_users": null,
+  "twitter": "https://x.com/ConCon_AI",
+  "twitter_followers": null,
+  "watchers": 226
+ },
  "cookie": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1335,6 +1425,49 @@
   "twitter": "https://x.com/cookiedotfun",
   "twitter_followers": null,
   "watchers": 33274
+ },
+ "coq-inu": {
+  "categories": [
+   "Smart Contract Platform",
+   "Avalanche Ecosystem",
+   "Meme",
+   "Avalanche L1",
+   "Made in USA"
+  ],
+  "cex": [
+   "Balancer V2 (Avalanche)",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC",
+   "SAFEbit"
+  ],
+  "cex_count": 7,
+  "chat": null,
+  "commits_4w": null,
+  "description": "We are the #1 meme coin on AVAX. Founded by well respected members of the community. They took no distribution and put the entire supply of the coin with 150 avax in initial liquidity. The contract has been fully renounced and liquidity burned. ",
+  "dex": [
+   "LFJ",
+   "LFJ V2.1 (Avalanche)"
+  ],
+  "discord": "https://discord.gg/5Nde2b9B3m",
+  "explorer": "https://snowtrace.io/token/0x420fca0121dc28039145009570975747295f2329?chainid=43114",
+  "fetched": "2026-11-23T18:02:46.393851+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.coqinu.com/",
+  "platforms": [
+   "avalanche"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/coqinuavax",
+  "twitter_followers": null,
+  "watchers": 52890
  },
  "credible-finance": {
   "categories": [
@@ -1750,7 +1883,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-11-22T14:37:27.786604+00:00",
+  "fetched": "2026-11-23T18:04:28.283954+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -1758,13 +1891,13 @@
    "base"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
-  "watchers": 481
+  "watchers": 480
  },
  "dowge": {
   "categories": [
@@ -1893,7 +2026,7 @@
   ],
   "discord": null,
   "explorer": "https://tonscan.org/address/EQBKMfjX_a_dsOLm-juxyVZytFP7_KKnzGv6J01kGc72gVBp",
-  "fetched": "2026-11-22T03:10:34.621986+00:00",
+  "fetched": "2026-11-23T18:05:11.237999+00:00",
   "genesis": null,
   "github": "https://github.com/evaafi",
   "homepage": "https://app.evaa.finance/",
@@ -1908,7 +2041,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/evaaprotocol",
   "twitter_followers": null,
-  "watchers": 4323
+  "watchers": 4395
  },
  "everything": {
   "categories": [
@@ -2144,7 +2277,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-11-22T03:49:13.766991+00:00",
+  "fetched": "2026-11-23T18:04:42.379635+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2152,13 +2285,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/binance",
   "twitter_followers": null,
-  "watchers": 46
+  "watchers": 47
  },
  "golden-butterfly-sacred-armor": {
   "categories": [
@@ -2286,49 +2419,6 @@
   "twitter_followers": null,
   "watchers": 143
  },
- "intel-ondo-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Tokenized Stocks",
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)",
-   "HyperEVM Ecosystem",
-   "Ondo Tokenized Assets"
-  ],
-  "cex": [
-   "CommunityV3",
-   "LBank",
-   "MEXC",
-   "Ondo Stocks"
-  ],
-  "cex_count": 4,
-  "chat": null,
-  "commits_4w": null,
-  "description": "INTCon is the Ondo Tokenized version of Intel, giving tokenholders economic exposure similar to holding INTC and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://etherscan.io/address/0xFdA09936DbD717368De0835bA441d9E62069d36f",
-  "fetched": "2026-11-20T15:29:23.880892+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://app.ondo.finance/assets/intcon",
-  "platforms": [
-   "binance-smart-chain",
-   "ethereum",
-   "hyperevm",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/ondofinance",
-  "twitter_followers": null,
-  "watchers": 286
- },
  "ishares-msci-south-korea-etf-bstocks-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -2406,7 +2496,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4",
-  "fetched": "2026-11-22T14:37:24.562174+00:00",
+  "fetched": "2026-11-23T18:04:35.493279+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/slvon",
@@ -2423,7 +2513,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 1151
+  "watchers": 1153
  },
  "jagent": {
   "categories": [
@@ -2493,46 +2583,6 @@
   "twitter": "https://x.com/jager_BSC",
   "twitter_followers": null,
   "watchers": 1861
- },
- "kaio": {
-  "categories": [
-   "Ethereum Ecosystem",
-   "Real World Assets (RWA)"
-  ],
-  "cex": [
-   "Bitget",
-   "Coinbase Exchange",
-   "DigiFinex",
-   "Gate",
-   "KCEX",
-   "KuCoin",
-   "MEXC",
-   "OrangeX",
-   "Ourbit",
-   "Toobit"
-  ],
-  "cex_count": 10,
-  "chat": null,
-  "commits_4w": null,
-  "description": "KAIO provides institutional-grade real-world asset (RWA) tokenization infrastructure that seamlessly connects traditional investment funds with digital capital markets. Through its purpose-built protocol, KAIO enables leading global asset managers to issue and distribute regulated tokenized funds across multiple high-performance blockchain networks \u2014 including Ethereum, Sei, Hedera, Solana, Aptos, and others \u2014 significantly expanding global access to institutional-quality real-world asset strategies for qualified investors. \n\nBy tokenizing feeder structures and shares in flagship funds, KAIO brings onchain access to proven strategies such as the BlackRock ICS US Dollar Liquidity Fund (one of the world\u2019s largest institutional money market funds), the Brevan Howard Master Fund, Hamilton Lane\u2019s Senior Credit Opportunities Fund (SCOPE) via the HL SCOPE Access Fund, and Laser Digital\u2019s Laser Carry Fund (LCF), among others. These tokenized vehicles deliver secure, compliant exposure to money market, macro, private credit, and alternative strategies while unlocking new levels of programmability, composability, and 24/7 liquidity in DeFi environments. ",
-  "dex": [],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x00bac91fd8f5b4a0dc03c8021139b76f6549ee7e",
-  "fetched": "2026-11-20T03:21:23.614834+00:00",
-  "genesis": null,
-  "github": "https://github.com/librecapital",
-  "homepage": "https://www.kaio.xyz/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/KAIO_RWA",
-  "telegram_users": null,
-  "twitter": "https://x.com/KAIO_xyz",
-  "twitter_followers": null,
-  "watchers": 655
  },
  "kled-ai": {
   "categories": [
@@ -2822,7 +2872,7 @@
   ],
   "discord": "https://discord.gg/pdQZyyy",
   "explorer": "https://etherscan.io/token/0x57b946008913b82e4df85f501cbaed910e58d26c",
-  "fetched": "2026-11-22T14:38:44.094283+00:00",
+  "fetched": "2026-11-23T18:06:18.569165+00:00",
   "genesis": null,
   "github": "https://github.com/marlinprotocol/OpenWeaver",
   "homepage": "https://www.marlin.org/",
@@ -2951,6 +3001,51 @@
   "twitter_followers": null,
   "watchers": 9681
  },
+ "micron-technology-ondo-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Tokenized Stocks",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "HyperEVM Ecosystem",
+   "Ondo Tokenized Assets"
+  ],
+  "cex": [
+   "CommunityV3",
+   "LBank",
+   "MEXC",
+   "Ondo Stocks"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "MUon is the Ondo Tokenized version of Micron Technology, giving tokenholders economic exposure similar to holding MU and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "dex": [
+   "Meteora"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0x050362Ab1072Cb2Ce74d74770E22A3203Ad04ee5",
+  "fetched": "2026-11-23T18:05:07.491561+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.ondo.finance/assets/muon",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum",
+   "hyperevm",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ondofinance",
+  "twitter_followers": null,
+  "watchers": 475
+ },
  "microsoft-xstock": {
   "categories": [
    "Tokenized Assets",
@@ -3072,14 +3167,14 @@
    "BingX",
    "BitKan",
    "Bitget",
-   "Bithumb",
    "Bitkub",
    "Bitrue",
    "Bitunix",
    "BloFin",
-   "CEX.IO"
+   "CEX.IO",
+   "CoinW"
   ],
-  "cex_count": 28,
+  "cex_count": 27,
   "chat": null,
   "commits_4w": null,
   "description": "MyShell (http://myshell.ai/) is an AI consumer layer for everyone to build, share, and own AI agents. The team bridges AI and Blockchain through Agentic Frameworks, open-source models, and AI creator community. MyShell also provides users with AI-powered entertainment and utility while offering them shared ownership.\nTo learn more about MyShell, check the whitepaper (https://docs.myshell.ai/).\nMyShell leads in open-source AI with flagship models like MeloTTS (20M downloads in 2024) and OpenVoice (30K GitHub stars, top 0.03%). Both trended #1 on GitHub at launch.\nThe platform offers three modes for AI agent creation, catering to creators of different skill levels. ShellAgent is the most powerful and modular Agentic Framework.\nMyShell commercializes high-quality AI agents as investable assets for sustainable returns, benefiting both creators and investors.\nCurrently, 200K+ AI Agents are deployed on MyShell, with 170K active AI creators and 5M+ users.",
@@ -3088,7 +3183,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
-  "fetched": "2026-11-22T14:36:14.782439+00:00",
+  "fetched": "2026-11-23T18:04:31.842804+00:00",
   "genesis": null,
   "github": "https://github.com/myshell-ai",
   "homepage": "https://myshell.ai/",
@@ -3103,7 +3198,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/myshell_ai",
   "twitter_followers": null,
-  "watchers": 3929
+  "watchers": 3928
  },
  "natix-network": {
   "categories": [
@@ -3130,7 +3225,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-11-21T14:41:42.155441+00:00",
+  "fetched": "2026-11-23T18:05:14.929744+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3138,13 +3233,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7968
+  "watchers": 7970
  },
  "newton-protocol": {
   "categories": [
@@ -3295,62 +3390,6 @@
   "twitter": "https://x.com/nonkyc_exchange",
   "twitter_followers": null,
   "watchers": 702
- },
- "opengradient": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "BNB Chain Ecosystem",
-   "Mantle Ecosystem",
-   "Base Ecosystem",
-   "Binance Alpha Spotlight",
-   "Binance Wallet IDO"
-  ],
-  "cex": [
-   "Binance",
-   "BingX",
-   "Bithumb",
-   "Bitkub",
-   "Bitrue",
-   "Bybit",
-   "Coinbase Exchange",
-   "DigiFinex",
-   "Gate",
-   "GroveX",
-   "HTX",
-   "Hotcoin"
-  ],
-  "cex_count": 19,
-  "chat": "https://opengradient.medium.com/",
-  "commits_4w": null,
-  "description": "OpenGradient is the Network for Open Intelligence \u2014 a decentralized infrastructure network designed to host, inference, and verify AI models at scale. Rather than functioning as a standalone blockchain, OpenGradient operates as a specialized AI coprocessor: it enables applications, blockchains, and autonomous agents to outsource computationally-heavy AI tasks to a dedicated network of GPU and Trusted Execution Environment (TEE) nodes. The validator set verifies every computational proof (TEE attestation or zkML proof) at the consensus level before it is committed on-chain, enabling trustless usage of AI from any network or application.",
-  "dex": [
-   "Aerodrome Slipstream 3",
-   "PancakeSwap V3 (Base)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V3 (Base)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://basescan.org/address/0xFbC2051AE2265686a469421b2C5A2D5462FbF5eB",
-  "fetched": "2026-11-20T15:31:46.448934+00:00",
-  "genesis": null,
-  "github": "https://github.com/OpenGradient",
-  "homepage": "https://www.opengradient.ai/",
-  "platforms": [
-   "base",
-   "binance-smart-chain",
-   "mantle"
-  ],
-  "reddit": null,
-  "sentiment_up": 50.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/OpenGradient",
-  "twitter_followers": null,
-  "watchers": 2599
  },
  "ovr": {
   "categories": [
@@ -3563,42 +3602,44 @@
   "twitter_followers": null,
   "watchers": 25
  },
- "pumpcade": {
+ "purple-pepe": {
   "categories": [
    "Solana Ecosystem",
-   "Pump.fun Ecosystem",
-   "Pump Fund Portfolio"
+   "Meme",
+   "Frog-Themed",
+   "Solana Meme",
+   "The Boy\u2019s Club",
+   "Made in USA"
   ],
   "cex": [
-   "KCEX",
-   "LBank",
-   "XT.COM"
+   "Biconomy.com",
+   "KCEX"
   ],
-  "cex_count": 3,
+  "cex_count": 2,
   "chat": null,
   "commits_4w": null,
-  "description": "Pumpcade is building the next generation of predictions markets. We enable real time fast paced predictions markets that are embedded into livestreaming platforms. These markets are pre-defined and resolve automatically via the Pumpcade backend. Creating markets is simple and can be done in a single click. Predicting on active markets is done anywhere there's a livestream chat. Pumpcade allows streamers to overlay the markets, or have markets automatically embedded onto the page via the extension.",
+  "description": "$PURPE is a community-led token originally deployed on the Solana blockchain in July 2023 and is also available on BNB Smart Chain. It is recognized as the first Purple Pepe created on Solana. The project is managed by the WallStreetBets Facebook community, which consists of over 580,000 members, following a community takeover over a year ago. Since the CTO, the community has maintained development and expanded the ecosystem through the launch of web applications, games, and a community-built website.",
   "dex": [
    "Meteora",
-   "PumpSwap"
+   "Raydium"
   ],
   "discord": null,
-  "explorer": "https://solscan.io/token/Gyk8SCVBJ1rHcxhSEE6p6fh9ZcxZhS9JFRSAWZXaBGBF",
-  "fetched": "2026-11-20T15:31:59.310236+00:00",
+  "explorer": "https://solscan.io/token/HBoNJ5v8g71s2boRivrHnfSB5MVPLDHHyVjruPfhGkvL",
+  "fetched": "2026-11-23T18:02:39.454469+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://pumpca.de/",
+  "homepage": "https://purpe.xyz",
   "platforms": [
    "solana"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
-  "telegram": null,
+  "telegram": "https://t.me/Purpe_SOL",
   "telegram_users": null,
-  "twitter": "https://x.com/pumpcade",
+  "twitter": "https://x.com/purplepepes0l",
   "twitter_followers": null,
-  "watchers": 854
+  "watchers": 4598
  },
  "qanplatform": {
   "categories": [
@@ -3936,11 +3977,11 @@
    "Binance",
    "BingX",
    "Bit2Me",
-   "Bithumb",
    "Bitkub",
-   "Bitlo"
+   "Bitlo",
+   "Bitrue"
   ],
-  "cex_count": 43,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -3952,7 +3993,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-11-22T03:49:10.565336+00:00",
+  "fetched": "2026-11-23T18:03:20.900437+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4035,7 +4076,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-11-21T14:40:29.393806+00:00",
+  "fetched": "2026-11-23T18:02:35.867691+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4125,7 +4166,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-22T14:35:05.096519+00:00",
+  "fetched": "2026-11-23T18:03:17.352711+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4134,13 +4175,13 @@
    "etherlink"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/sogniai",
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11947
+  "watchers": 11950
  },
  "solidus-aitech": {
   "categories": [
@@ -4261,7 +4302,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0xFeDC5f4a6c38211c1338aa411018DFAf26612c08",
-  "fetched": "2026-11-22T14:37:30.996808+00:00",
+  "fetched": "2026-11-23T18:04:38.737481+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://app.ondo.finance/assets/spyon",
@@ -4278,7 +4319,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
-  "watchers": 513
+  "watchers": 514
  },
  "spy-bstocks-tokenized-stock": {
   "categories": [
@@ -4861,7 +4902,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-11-22T03:49:07.386006+00:00",
+  "fetched": "2026-11-23T18:03:13.753597+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -4898,7 +4939,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-11-22T03:48:04.085810+00:00",
+  "fetched": "2026-11-23T18:02:43.037288+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
@@ -4912,7 +4953,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TonUtyacoin",
   "twitter_followers": null,
-  "watchers": 1960
+  "watchers": 1965
  },
  "vine": {
   "categories": [
@@ -5095,7 +5136,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
-  "fetched": "2026-11-20T15:30:39.992130+00:00",
+  "fetched": "2026-11-23T18:06:25.446715+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://wingbits.com/",
@@ -5110,66 +5151,6 @@
   "twitter": "https://x.com/wingbits",
   "twitter_followers": null,
   "watchers": 499
- },
- "wormhole": {
-  "categories": [
-   "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Ethereum Ecosystem",
-   "Interoperability",
-   "Base Ecosystem",
-   "Multicoin Capital Portfolio",
-   "Cross-chain Communication",
-   "Made in USA",
-   "Governance",
-   "Base Native"
-  ],
-  "cex": [
-   "Aero Slipstream (Base)",
-   "BTSE",
-   "BVOX",
-   "BYDFi",
-   "Backpack Exchange ",
-   "Biconomy.com",
-   "Binance",
-   "BingX",
-   "Bit2Me",
-   "BitKan",
-   "Bitget",
-   "Bithumb"
-  ],
-  "cex_count": 60,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. ",
-  "dex": [
-   "Aerodrome (Base)",
-   "Orca",
-   "PumpSwap",
-   "Raydium",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": "https://discord.com/invite/wormholecrypto",
-  "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
-  "fetched": "2026-11-20T03:18:39.603223+00:00",
-  "genesis": null,
-  "github": "https://github.com/wormhole-foundation/wormhole",
-  "homepage": "https://wormhole.com/",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "ethereum",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/wormholecrypto",
-  "telegram_users": null,
-  "twitter": "https://x.com/wormhole",
-  "twitter_followers": null,
-  "watchers": 43536
  },
  "xsgd": {
   "categories": [
@@ -5225,59 +5206,6 @@
   "twitter": "https://x.com/StraitsX",
   "twitter_followers": null,
   "watchers": 1720
- },
- "xyo-network": {
-  "categories": [
-   "Internet of Things (IOT)",
-   "Oracle",
-   "NFT",
-   "Metaverse",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Alleged SEC Securities",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "Bithumb",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "Coinbase Exchange",
-   "Crypto.com Exchange",
-   "Gate",
-   "GroveX",
-   "HTX",
-   "Kraken",
-   "KuCoin"
-  ],
-  "cex_count": 15,
-  "chat": "https://www.youtube.com/channel/UCyZDqb9pgntVHJVt1pxXtsw",
-  "commits_4w": null,
-  "description": "XYO is the cryptographic proof layer for the real world, collecting, validating, and delivering physical-world data to AI, robotics, Web3, and enterprise systems. XYO, the original Decentralized Physical Infrastructure Network (DePIN), has been operating since 2018 and now has more than 10 million nodes worldwide. \n\nAt the core of XYO is XYO Layer One, a scalable data blockchain built to support high-volume data industries such as AI, robotics, location intelligence, and real-world asset (RWA) systems. Designed for high throughput and low transaction costs, it gives these data-intensive applications the capacity to process and validate information across massive datasets. XYO Layer One anchors XYO's Proof of Location and Proof of Origin technologies, establishing a verified origin, precise timing, and trusted source behind every piece of data. This verified data directly feeds the XYO AI SDK, a product built by XYO to provide accessibility for developers to build AI-powered applications, autonomous agents, robotics integrations and more using real-world data.\n\nXYO employs a unique dual-token model:\n\nXYO Token: An externally traded token supporting the DePIN ecosystem, rewards, staking, and governance, enhancing overall ecosystem value and scarcity.\n\n\nXL1 Token: Internal to the XYO Layer One blockchain, facilitating transactions, gas fees, and other blockchain-specific use cases.\n\nThe dual-token economics are strategically designed to increase scarcity and promote sustainable ",
-  "dex": [
-   "Curve (Ethereum)",
-   "Uniswap V2 (Ethereum)",
-   "Uniswap V3 (Ethereum)",
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": "https://discord.gg/officialxyo",
-  "explorer": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758",
-  "fetched": "2026-11-20T15:30:33.488093+00:00",
-  "genesis": null,
-  "github": "https://github.com/XYOracleNetwork/api-archivist-nodejs",
-  "homepage": "https://xyo.network/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/XYONetwork/",
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/official_xyo",
-  "telegram_users": null,
-  "twitter": "https://x.com/officialxyo",
-  "twitter_followers": null,
-  "watchers": 38894
  },
  "yee-token": {
   "categories": [
