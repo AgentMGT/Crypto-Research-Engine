@@ -794,6 +794,46 @@
   "twitter_followers": null,
   "watchers": 9
  },
+ "buttcoin-7": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Solana Meme",
+   "Pump.fun Ecosystem"
+  ],
+  "cex": [
+   "Byreal",
+   "KCEX",
+   "LBank"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Back in 2011, long before \u201ccrypto Twitter\u201d, NFTs, or VC-backed chains existed, users of the BitcoinTalk forum came up with a new currency - not to launch a network, but to make fun of btc.... and so: The first memecoin/memecurrency was born.\n\nOn May 23, 2011, a Something Awful poster cracked, \u201cHas anyone called them buttcoins yet?\u201d. It was sophomoric and perfect. Within weeks the gag metastasized into Buttcoin.org, a parody blog that described a \u201cpeer to peer butt\u201d economy while cataloging mining fiascos, exchange blowups, and MLM-adjacent \u201cinnovations\u201d.\n",
+  "dex": [
+   "Meteora",
+   "Orca",
+   "PumpSwap",
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump",
+  "fetched": "2026-11-24T17:40:50.308211+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.buttcoinfoundation.org/",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ButtCoin",
+  "twitter_followers": null,
+  "watchers": 962
+ },
  "cartoon-money": {
   "categories": [
    "Solana Ecosystem",
@@ -2695,13 +2735,13 @@
    "Bitget",
    "Bitunix",
    "Bybit",
+   "Coinone",
    "DigiFinex",
    "Gate",
    "HTX",
-   "Hibt",
-   "Kraken"
+   "Hibt"
   ],
-  "cex_count": 19,
+  "cex_count": 20,
   "chat": null,
   "commits_4w": null,
   "description": "Merlin Chain serves as a Layer 2 solution for Bitcoin, incorporating essential components like ZK-Rollup networks, decentralized oracle networks, and fraud proofs within the Bitcoin chain. Its primary objective is to empower the native assets, protocols, and application ecosystem of Bitcoin Layer 1, facilitating ongoing innovation and maximizing asset potential on Layer 2 networks.\n",
@@ -2711,7 +2751,7 @@
   ],
   "discord": "https://discord.com/invite/JYqDYMu76e",
   "explorer": "https://etherscan.io/token/0x0f3a12b78fee11ee088e454a0547bdbc5a253a6d",
-  "fetched": "2026-11-23T01:20:37.561866+00:00",
+  "fetched": "2026-11-24T17:40:53.521875+00:00",
   "genesis": null,
   "github": "https://github.com/MerlinLayer2",
   "homepage": "https://merlinchain.io/",
@@ -2721,13 +2761,13 @@
    "merlin-chain"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/merlin_chain",
   "telegram_users": null,
   "twitter": "https://x.com/MerlinLayer2",
   "twitter_followers": null,
-  "watchers": 9681
+  "watchers": 9684
  },
  "meta-platforms-ondo-tokenized-stock": {
   "categories": [
@@ -3020,6 +3060,54 @@
   "twitter_followers": null,
   "watchers": 7970
  },
+ "newton-protocol": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "Binance HODLer Airdrops",
+   "DeFAI"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "Biconomy.com",
+   "BigONE",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo",
+   "Bybit"
+  ],
+  "cex_count": 31,
+  "chat": "https://www.tiktok.com/@magic.newton",
+  "commits_4w": null,
+  "description": "The Newton Protocol is a decentralized infrastructure layer for verifiable onchain automation and secure agent authorization. It enables protocols, DAOs, and users to execute complex actions through verifiable agents, without relying on centralized bots or offchain coordination. Users can securely authorize agents to act on their behalf using programmable permissions, ensuring that actions occur only under conditions they approve. By combining trusted execution environments (TEEs), zero-knowledge proofs, and a modular agent architecture, Newton Protocol brings automation fully onchain, enhancing transparency, composability, and trust.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xD0eC028a3D21533Fdd200838F39c85B03679285D",
+  "fetched": "2026-11-24T17:42:03.955582+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://newt.foundation/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/newtfoundation",
+  "twitter_followers": null,
+  "watchers": 2678
+ },
  "ni-hao-cat-2": {
   "categories": [
    "Solana Ecosystem",
@@ -3147,6 +3235,37 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 757
+ },
+ "obligate-trade-finance-yield": {
+  "categories": [
+   "Solana Ecosystem",
+   "Real World Assets (RWA)"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": "https://medium.com/@obligate",
+  "commits_4w": null,
+  "description": "oTFY is a yield-accruing RWA token providing exposure to a diversified, revolving portfolio of investment-grade digital bonds. The bonds finance asset-backed physical commodity transactions managed by a Singapore-based investment manager. They are issued by a Luxembourg securitization vehicle as Swiss-law ledger-based securities, with Obligate acting as product sponsor.\n\nNear-term priorities include additional on-chain money-market integrations \u2014 such as a dedicated Morpho lending market alongside the existing Kamino market \u2014 and inclusion in multi-issuer RWA vaults, giving holders more venues to use oTFY as collateral and to earn yield",
+  "dex": [
+   "Raydium (CLMM)"
+  ],
+  "discord": null,
+  "explorer": "https://solscan.io/token/BwB3tNH92jKw6naNGDYDbDwRo8bvYxZVvZjRZRcoWR2h",
+  "fetched": "2026-11-24T17:40:56.674843+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.obligate.com/otfy",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/ObligateAG",
+  "telegram_users": null,
+  "twitter": "https://x.com/obligatecom",
+  "twitter_followers": null,
+  "watchers": 17
  },
  "opengradient": {
   "categories": [
@@ -4842,7 +4961,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/address/0x07041776f5007ACa2A54844F50503a18A72A8b68",
-  "fetched": "2026-11-23T02:49:57.653379+00:00",
+  "fetched": "2026-11-24T17:41:59.908097+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usat.io/",
@@ -5201,7 +5320,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-11-22T14:33:51.811950+00:00",
+  "fetched": "2026-11-24T17:40:47.111819+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
