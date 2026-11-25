@@ -262,6 +262,48 @@
   "twitter_followers": null,
   "watchers": 113411
  },
+ "anthropic-bstocks-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "BNB Chain Ecosystem",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "bStocks Ecosystem"
+  ],
+  "cex": [
+   "Binance",
+   "BingX",
+   "LBank",
+   "Metric (BSC)"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x38dd26788cf2d901e3abf04efe3007d459d0fc53",
+  "fetched": "2026-11-25T11:31:07.900449+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.bstocks.finance/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/binance",
+  "twitter_followers": null,
+  "watchers": 5
+ },
  "apple-xstock": {
   "categories": [
    "Tokenized Assets",
@@ -352,7 +394,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-24T06:06:26.094629+00:00",
+  "fetched": "2026-11-25T11:31:11.194968+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -362,7 +404,7 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
@@ -439,7 +481,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump",
-  "fetched": "2026-11-24T06:02:46.492972+00:00",
+  "fetched": "2026-11-25T11:28:35.644904+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://barkingpuppysol.com/",
@@ -889,7 +931,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-11-24T06:02:43.234304+00:00",
+  "fetched": "2026-11-25T11:28:29.242950+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -903,7 +945,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 171
+  "watchers": 170
  },
  "conconai": {
   "categories": [
@@ -961,13 +1003,13 @@
    "BingX",
    "BitKan",
    "Bitget",
-   "Bitkub",
    "Bitrue",
    "Bittime",
    "Bitunix",
-   "BloFin"
+   "BloFin",
+   "Bybit"
   ],
-  "cex_count": 33,
+  "cex_count": 32,
   "chat": "https://docs.cookie.community/cookie-dao",
   "commits_4w": null,
   "description": "Cookie DAO is the largest AI agents index and a data layer for AI and humans. It created crypto\u2019s first AI Agents index, [cookie.fun](http://cookie.fun/), giving investors and traders a top-level overview of the AI agents market. It eliminates the need to blindly invest in hundreds of new AI agents by providing data that allows for informed and targeted investments. Real-time analytics make powerful decision-making easier and safer for traders to laser-pick the most promising agents to invest in or spot market and sentiment shifts in real time.\n\nBased on 7TB of live data feeds, Cookie DAO is building the primary infrastructure for AI agents-driven reality. Cookie DAO is the first project on the market to aggregate and index live data of all AI agents, presenting it in human\u2014and AI-friendly formats\u2014index dashboards and agent APIs.\n\nCookie DAO is powered by the COOKIE token, which guarantees that Cookie DAO keeps gathering and indexing the growing amount of AI agent data. It is a utility token that that grants access to the token-gated sections of the [cookie.fun](http://cookie.fun) index and is required for AI agents that plug into the Cookie DAO APIs.",
@@ -980,7 +1022,7 @@
   ],
   "discord": "https://discord.com/invite/XKhHrHtSHK",
   "explorer": "https://bscscan.com/token/0xc0041ef357b183448b235a8ea73ce4e4ec8c265f",
-  "fetched": "2026-11-24T06:07:45.707229+00:00",
+  "fetched": "2026-11-25T11:33:24.406244+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.cookie.fun/",
@@ -990,7 +1032,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/cookie_dao",
   "telegram_users": null,
@@ -1070,7 +1112,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump",
-  "fetched": "2026-11-24T06:04:03.074187+00:00",
+  "fetched": "2026-11-25T11:29:48.602339+00:00",
   "genesis": null,
   "github": "https://github.com/daydreamsai/daydreams",
   "homepage": "https://www.daydreams.systems",
@@ -1080,13 +1122,13 @@
    "starknet"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/+kGzGMRvsQhY5Njg0",
   "telegram_users": null,
   "twitter": "https://x.com/daydreamsagents",
   "twitter_followers": null,
-  "watchers": 1361
+  "watchers": 1364
  },
  "deapcoin": {
   "categories": [
@@ -1333,10 +1375,10 @@
    "Bitunix",
    "Bitvavo",
    "CoinUp.io",
-   "DODO (BSC)",
-   "DigiFinex"
+   "Coinone",
+   "DODO (BSC)"
   ],
-  "cex_count": 29,
+  "cex_count": 31,
   "chat": null,
   "commits_4w": null,
   "description": "DODO is a Decentralized Exchange (DEX) running on Ethereum and Binance Smart Chain.&nbsp;\n\nDeveloped by the DODO team, Proactive Market Maker (PMM) is an oracle-aided algorithm with an advanced pricing formula that provides contract-fillable liquidity. Traders get lower slippage with PMM than Automated Market Maker (AMM).\n\nPMM leverages price oracles to retrieve accurate market prices of assets as input. It then aims to provide sufficient liquidity near the market price for every asset. The result is that liquidity decreases rapidly when far away from the market price. The following graphs compare the price curves of DODO (PMM) and Uniswap (AMM).",
@@ -1348,7 +1390,7 @@
   ],
   "discord": "https://discord.com/invite/tyKReUK",
   "explorer": "https://etherscan.io/token/0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
-  "fetched": "2026-11-23T01:18:08.464813+00:00",
+  "fetched": "2026-11-25T11:31:01.498339+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://dodoex.io/",
@@ -1359,13 +1401,13 @@
    "energi"
   ],
   "reddit": "https://www.reddit.com/r/DodoEx/",
-  "sentiment_up": 50.0,
+  "sentiment_up": 33.33,
   "stars": null,
   "telegram": "https://t.me/dodoex_official",
   "telegram_users": null,
   "twitter": "https://x.com/BreederDodo",
   "twitter_followers": null,
-  "watchers": 38688
+  "watchers": 38699
  },
  "dot": {
   "categories": [
@@ -1385,7 +1427,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-11-23T18:04:28.283954+00:00",
+  "fetched": "2026-11-25T11:30:55.043796+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -1399,7 +1441,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
-  "watchers": 480
+  "watchers": 481
  },
  "dowge": {
   "categories": [
@@ -1701,11 +1743,10 @@
    "KCEX",
    "KuCoin",
    "MEXC",
-   "Matcha (Base)",
    "Mudrex",
    "Upbit"
   ],
-  "cex_count": 12,
+  "cex_count": 11,
   "chat": null,
   "commits_4w": null,
   "description": "Forta (FORT) is the leading decentralized security solution for Web3, backed by major players like Coinbase and a16z, providing AI-powered real-time threat prevention for DeFi.\n\nForta Firewall, its flagship product, is the first AI-powered on-chain security and compliance solution that proactively blocks harmful activity while allowing legitimate transactions to proceed uninterrupted. This \u201csecurity by default\u201d approach protects user funds without compromising usability.\n\nUnlike traditional security solutions that react after an attack, Forta Firewall stops malicious transactions before execution at the RPC level.",
@@ -1718,7 +1759,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-11-23T01:18:05.299443+00:00",
+  "fetched": "2026-11-25T11:32:21.171958+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1729,13 +1770,13 @@
    "polygon-pos"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7715
+  "watchers": 7714
  },
  "froggie": {
   "categories": [
@@ -1860,7 +1901,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/address/0x3e86832b28854b5c7a86e8666ac4ab92cda1843e",
-  "fetched": "2026-11-22T14:34:58.333719+00:00",
+  "fetched": "2026-11-25T11:28:32.450286+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://x.com/skl_flap",
@@ -1946,13 +1987,13 @@
    "Bitkub",
    "Bitunix",
    "Bybit",
-   "CEX.IO",
    "CoinW",
    "DigiFinex",
    "Gate",
-   "GroveX"
+   "GroveX",
+   "KuCoin"
   ],
-  "cex_count": 20,
+  "cex_count": 19,
   "chat": "https://goplussecurity.medium.com/",
   "commits_4w": null,
   "description": "GoPlus is revolutionizing Web3 user security through its permissionless and user-driven User Security Network, which provides comprehensive protection across the entire user transaction lifecycle. GoPlus aims to create a more secure and user-friendly Web3 on-chain interaction environment by filling the gap of the security layer in the current blockchain's architecture, providing users with more effective and better-experienced on-chain security protection.\n\n",
@@ -1962,7 +2003,7 @@
   ],
   "discord": "https://discord.com/invite/goplus",
   "explorer": "https://basescan.org/address/0x0c1dc73159e30c4b06170f2593d3118968a0dca5",
-  "fetched": "2026-11-23T02:48:48.052398+00:00",
+  "fetched": "2026-11-25T11:33:27.625764+00:00",
   "genesis": null,
   "github": "https://github.com/GoPlusSecurity/GPS-AUDIT",
   "homepage": "https://gopluslabs.io/",
@@ -1971,13 +2012,13 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/GoPlusSecurity",
   "telegram_users": null,
   "twitter": "https://x.com/GoPlusSecurity",
   "twitter_followers": null,
-  "watchers": 2999
+  "watchers": 3002
  },
  "intel-ondo-tokenized-stock": {
   "categories": [
@@ -2265,7 +2306,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-24T06:05:16.298105+00:00",
+  "fetched": "2026-11-25T11:30:58.248057+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2307,17 +2348,16 @@
    "HTX",
    "Hibt"
   ],
-  "cex_count": 22,
+  "cex_count": 21,
   "chat": null,
   "commits_4w": null,
   "description": "Lisk is building Modern Finance: one place for businesses to hold, move, invest, and control their money globally, across fiat and stablecoins. Finance and operations teams use Lisk to manage accounts, make payments and set approvals within a single workspace, so money stays visible and under control. Businesses can hold and move funds in fiat and stablecoins on the same platform, without stitching together separate tools for each. LSK is the loyalty token of Lisk, and businesses will be able to earn and spend LSK on the platform. The LSK token runs on Ethereum, which is its primary network.",
   "dex": [
-   "Uniswap V4 (Base)",
    "Uniswap V4 (Ethereum)"
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-11-24T06:06:32.606861+00:00",
+  "fetched": "2026-11-25T11:29:42.128046+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
@@ -2328,13 +2368,13 @@
    "hyperliquid"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30378
+  "watchers": 30379
  },
  "magic": {
   "categories": [
@@ -2544,6 +2584,55 @@
   "twitter": "https://x.com/matrixdock",
   "twitter_followers": null,
   "watchers": 951
+ },
+ "memecoin-2": {
+  "categories": [
+   "NFT",
+   "Binance Launchpool",
+   "Meme",
+   "Ethereum Ecosystem",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "GMCI Meme Index",
+   "GMCI Index"
+  ],
+  "cex": [
+   "Azbit",
+   "BTCC",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitDelta",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue"
+  ],
+  "cex_count": 47,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/memeland",
+  "explorer": "https://etherscan.io/token/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74",
+  "fetched": "2026-11-25T11:28:26.035394+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.memecoin.org/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/memecoin",
+  "twitter_followers": null,
+  "watchers": 157756
  },
  "merlin-chain": {
   "categories": [
@@ -2823,7 +2912,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-11-23T18:05:14.929744+00:00",
+  "fetched": "2026-11-25T11:31:04.687798+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -2837,7 +2926,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7970
+  "watchers": 7971
  },
  "newton-protocol": {
   "categories": [
@@ -2924,6 +3013,47 @@
   "twitter": "https://x.com/iamnihaocat",
   "twitter_followers": null,
   "watchers": 265
+ },
+ "ninja-squad": {
+  "categories": [
+   "Solana Ecosystem",
+   "Meme",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "BingX",
+   "MEXC",
+   "Paribu"
+  ],
+  "cex_count": 3,
+  "chat": "https://ninjasquad.medium.com/",
+  "commits_4w": null,
+  "description": "Ninja Squad Token ($NST) is the native token of the Ninja Traders ecosystem, which provides access to Ninja Traders products developed for both beginner and advanced traders. With a rich history of delivering products and insightful content since our inception in 2017, the Ninja ecosystem continues to evolve and expand, embracing innovation and introducing new features. The key to gaining access to these products is as simple as holding $NST or owning a Ninja Squad NFT. By doing so, traders gain exclusive access to products designed to elevate their trading experience to a new level.\n\nIn brief, $NST holders have access to the following products;\n- Ninja Terminal grants access to a live cryptocurrency news feed where traders can connect with their API key to open and manage positions in real-time, ensuring users are not losing any precious second while trading live feed.\n- Ninja Tools enables users to monitor on-chain and futures data, long/short ratios, heat maps, wallet analyses, economic calendar, and more on a single screen. Additionally, the ability to set personalized alerts ensures that users stay ahead of the market.\n- Ninja Capital grants exclusive access to allocations from upcoming investor rounds of top projects. It's your chance to invest before anyone else with specially reserved spots for Ninja.\n- Mentorship grants access to intimate discussions with our professional analysis team. Engage in conversations, gain valuable insights, and refine your trading strategi",
+  "dex": [
+   "Meteora",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V4 (Arbitrum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
+  "fetched": "2026-11-25T11:29:38.926830+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://ninjatraders.io/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/ninjatraderstr",
+  "telegram_users": null,
+  "twitter": "https://x.com/ninjasquadnft",
+  "twitter_followers": null,
+  "watchers": 2898
  },
  "nvidia-ondo-tokenized-stock": {
   "categories": [
@@ -3154,7 +3284,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-24T06:07:42.458599+00:00",
+  "fetched": "2026-11-25T11:32:17.987749+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3623,7 +3753,7 @@
    "Bitkub",
    "Bitlo"
   ],
-  "cex_count": 52,
+  "cex_count": 51,
   "chat": "https://www.youtube.com/@reserveprotocol",
   "commits_4w": null,
   "description": "What Is Reserve Rights (RSR)?\n\nReserve Rights (RSR) is an ERC-20 token that serves two main purposes for the Reserve protocol: overcollateralization of Reserve stablecoins (RTokens) through staking and governing them through proposing &amp; voting on changes to their configuration.\n\nThe Reserve Rights (RSR) token was launched in May 2019 following a successful initial exchange offering IEO on the Huobi Prime platform.\n\n\nWhat is Reserve Rights (RSR) used for?\n\nBesides being the governance token for Reserve stablecoins (RTokens), by which changes to RTokens can be proposed &amp; voted for with RSR, Reserve Rights exists as a backstop to make Reserve stablecoin (RToken) holders whole in the unlikely event of a collateral token default. In order for RSR holders to provide this overcollateralization, they can decide to stake on any one RToken, or divide their RSR tokens by staking on multiple RTokens. RSR holders can also decide not to stake their RSR at all.\n\nIn return for providing this first-loss capital, RSR stakers can expect to receive a portion of the revenue the RToken they stake on makes. As a general rule, RSR stakers can expect higher returns (APYs) the bigger the market cap of the RToken they stake on becomes.\n\nIn contrast with the \u201cstaking\u201d you see in a lot of other projects these days, RSR staking is built to last. In Reserve\u2019s model, late participants do not pay for early participants, nor is a trust in staking of other parties required.\n\nFor more detailed informati",
@@ -3637,7 +3767,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x320623b8e4ff03373931769a31fc52a4e78b5d70",
-  "fetched": "2026-11-24T06:06:35.896083+00:00",
+  "fetched": "2026-11-25T11:32:14.485242+00:00",
   "genesis": null,
   "github": "https://github.com/reserve-protocol/rsr",
   "homepage": "https://reserve.org/",
@@ -3654,7 +3784,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/reserveprotocol",
   "twitter_followers": null,
-  "watchers": 90712
+  "watchers": 90709
  },
  "resistance-dog": {
   "categories": [
@@ -4169,7 +4299,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-11-24T06:04:06.342964+00:00",
+  "fetched": "2026-11-25T11:29:45.346933+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -4177,7 +4307,7 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -5173,7 +5303,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-11-23T22:44:50.311880+00:00",
+  "fetched": "2026-11-25T11:29:51.801196+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
@@ -5184,7 +5314,7 @@
    "ronin"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
