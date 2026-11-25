@@ -160,7 +160,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xade00c28244d5ce17d72e40330b1c318cd12b7c3",
-  "fetched": "2026-11-23T22:47:16.685109+00:00",
+  "fetched": "2026-11-25T17:14:06.017168+00:00",
   "genesis": "2017-07-01",
   "github": "https://github.com/heyauradev",
   "homepage": "https://www.heyaura.com/",
@@ -176,7 +176,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/heyAura",
   "twitter_followers": null,
-  "watchers": 9347
+  "watchers": 9348
  },
  "agoras-currency-of-tau": {
   "categories": [
@@ -554,36 +554,54 @@
   "twitter_followers": null,
   "watchers": 17140
  },
- "blob-4": {
+ "bless-2": {
   "categories": [
+   "BNB Chain Ecosystem",
    "Solana Ecosystem",
-   "Pump.fun Ecosystem"
+   "DePIN",
+   "Binance Alpha Spotlight"
   ],
-  "cex": [],
-  "cex_count": 0,
+  "cex": [
+   "Biconomy.com",
+   "BingX",
+   "Bitget",
+   "Gate",
+   "KCEX",
+   "Kraken",
+   "LBank",
+   "MEXC",
+   "Metric (BSC)",
+   "Ourbit",
+   "Toobit",
+   "Webot"
+  ],
+  "cex_count": 13,
   "chat": null,
   "commits_4w": null,
-  "description": "The Big Blob of Compute.",
+  "description": "Bless Network is a decentralized computing platform designed to transform idle capacity from everyday devices into a global shared computer. Founded in SanFrancisco, USA, under the name Blockless in 2022.\nBy leveraging laptops, desktops, and mobile devices, Bless enables applications to access distributed computing resources directly from their user base. As moreusers join, the available network capacity scales proportionally, creating a self-sustaining infrastructure layer.\nThe network is built on its neutral application framework (nnApp) and nested node infrastructure, which allow developers to deploy compute-intensive applicationsacross heterogeneous devices. This model reduces dependence on centralized cloud providers, a common bottleneck for decentralized ecosystems.",
   "dex": [
-   "PumpSwap"
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (BSC)",
+   "Uniswap V4 (BSC)"
   ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump",
-  "fetched": "2026-11-22T14:38:37.595467+00:00",
+  "discord": "https://discord.com/invite/blessnetwork",
+  "explorer": "https://solscan.io/token/A1t2UviBYwyfYZDJyKY2W6Td8ritgsCriUDuNaAQN49S",
+  "fetched": "2026-11-25T17:16:38.016196+00:00",
   "genesis": null,
-  "github": null,
-  "homepage": "https://www.blob.community/",
+  "github": "https://github.com/blessnetwork",
+  "homepage": "https://bless.network/",
   "platforms": [
+   "binance-smart-chain",
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 28.57,
   "stars": null,
-  "telegram": null,
+  "telegram": "https://t.me/blessnetofficial",
   "telegram_users": null,
-  "twitter": "https://x.com/BL0B0nS0L",
+  "twitter": "https://x.com/theblessnetwork",
   "twitter_followers": null,
-  "watchers": 10
+  "watchers": 6168
  },
  "bobo-coin-2": {
   "categories": [
@@ -867,45 +885,6 @@
   "twitter_followers": null,
   "watchers": 2122
  },
- "circle-rstock-2": {
-  "categories": [
-   "Tokenized Assets",
-   "Arbitrum Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "Morph L2 Ecosystem",
-   "Remora Markets Tokenized rStocks",
-   "Reality Ecosystem"
-  ],
-  "cex": [
-   "Bitget"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Circle Internet Group is a fintech and digital dollar infrastructure company best known for issuing and operating the USDC stablecoin and EURC. Through Circle Mint, APIs, wallet infrastructure, and settlement tools, the company serves exchanges, financial institutions, enterprises, and developers that need regulated digital-dollar payments, treasury operations, cross-border settlement, and on-chain application access. Its economics are tied to stablecoin circulation, reserve income, transaction activity, and adoption of new infrastructure products. In 2025, Circle launched Circle Payments Network and advanced Arc, a Layer-1 blockchain initiative focused on stablecoin payments and settlement.",
-  "dex": [
-   "Uniswap V3 (Arbitrum One)"
-  ],
-  "discord": null,
-  "explorer": "https://arbiscan.io/token/0x861a85a78c371bc0a02675bbe00a4cbc0826b421",
-  "fetched": "2026-11-22T14:38:40.821254+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://realityfinance.xyz/",
-  "platforms": [
-   "arbitrum-one",
-   "morph-l2"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/RealityFi_xyz",
-  "twitter_followers": null,
-  "watchers": 20
- },
  "claudia-2": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1181,6 +1160,54 @@
   "twitter_followers": null,
   "watchers": 10316
  },
+ "debridge": {
+  "categories": [
+   "Solana Ecosystem",
+   "Bridge Governance Tokens",
+   "Cross-chain Communication",
+   "Intent",
+   "Governance"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Bitget",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "Bybit",
+   "Coinbase Exchange",
+   "Coinone",
+   "Crypto.com Exchange",
+   "Gate",
+   "KCEX"
+  ],
+  "cex_count": 24,
+  "chat": "https://www.facebook.com/deBridgeFinance/",
+  "commits_4w": null,
+  "description": "deBridge is the bridge that moves at lightspeed. With zero locked liquidity or liquidity pools, deBridge enables value and information to flow anywhere virtually instantly with deep liquidity and guaranteed rates.",
+  "dex": [
+   "Meteora",
+   "Orca"
+  ],
+  "discord": "https://discord.com/invite/debridge",
+  "explorer": "https://solscan.io/token/DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+  "fetched": "2026-11-25T17:15:21.963555+00:00",
+  "genesis": null,
+  "github": "https://github.com/debridge-finance",
+  "homepage": "https://debridge.com",
+  "platforms": [
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 0.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/debridge",
+  "twitter_followers": null,
+  "watchers": 5938
+ },
  "delysium": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -1308,39 +1335,6 @@
   "twitter": "https://x.com/AskVenice",
   "twitter_followers": null,
   "watchers": 1470
- },
- "dmt-nat": {
-  "categories": [
-   "Ethereum Ecosystem",
-   "Inscriptions"
-  ],
-  "cex": [
-   "Nonkyc.io"
-  ],
-  "cex_count": 1,
-  "chat": "https://www.youtube.com/@TheBlockRunner",
-  "commits_4w": null,
-  "description": "$NAT is a Bitcoin-native token derived directly from Bitcoin\u2019s block data, making it inseparable from the network itself. Launched through a fair mint with no pre-mines or insider allocations, it aligns with Bitcoin\u2019s ethos of openness and decentralization. Today, $NAT is earned by Bitcoin miners as a second subsidy alongside block rewards, creating an additional incentive layer designed to strengthen Bitcoin\u2019s long-term sustainability and security budget. By embedding value creation into the chain, $NAT reframes the question: how much is Bitcoin\u2019s security worth?",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://www.tapalytics.xyz/token/dmt-nat",
-  "fetched": "2026-11-22T14:38:50.501726+00:00",
-  "genesis": null,
-  "github": "https://github.com/Trac-Systems/ord-tap/",
-  "homepage": "https://natgmi.com/",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/dmt_nat",
-  "telegram_users": null,
-  "twitter": "https://x.com/natgmi",
-  "twitter_followers": null,
-  "watchers": 1182
  },
  "dodo": {
   "categories": [
@@ -1480,6 +1474,87 @@
   "twitter": "https://x.com/dji6930",
   "twitter_followers": null,
   "watchers": 3498
+ },
+ "dual": {
+  "categories": [
+   "Infrastructure",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Robinhood Ecosystem"
+  ],
+  "cex": [
+   "Kraken",
+   "Matcha (Ethereum)"
+  ],
+  "cex_count": 2,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Dual is the tokenization engine for real world assets.\n\nBuild programmable tokens for anything, from currencies and loyalty points to real estate, treasuries, and physical products. Production-ready enterprise-grade infrastructure that scales from simple assets to complex use cases.\n\nDUAL is the utility token that powers the ecosystem. Businesses, creatives, and developers fund their projects by depositing $DUAL or using USD, which is converted into $DUAL via the open market.",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V3 (Robinhood)",
+   "Uniswap V4 (Base)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/dualorg",
+  "explorer": "https://etherscan.io/token/0x6aF487BEb661CCeCD1D045E9561A0dAC9AA5c7db",
+  "fetched": "2026-11-25T17:18:01.377907+00:00",
+  "genesis": null,
+  "github": "https://github.com/dualorg",
+  "homepage": "https://www.dual.org/",
+  "platforms": [
+   "base",
+   "ethereum",
+   "robinhood"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/dualcommunity",
+  "telegram_users": null,
+  "twitter": "https://x.com/dualorg",
+  "twitter_followers": null,
+  "watchers": 539
+ },
+ "egl1": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme"
+  ],
+  "cex": [
+   "Bitget",
+   "Bittime",
+   "Bitunix",
+   "Gate",
+   "KuCoin",
+   "LBank",
+   "Ourbit",
+   "XT.COM"
+  ],
+  "cex_count": 8,
+  "chat": null,
+  "commits_4w": null,
+  "description": "1st ever Superhero meme \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8 I am Eagle\u2019s Landing \ud83e\udd85\nAmerica 1st, bold eagle 1st, So be the EGL1.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0xf4b385849f2e817e92bffbfb9aeb48f950ff4444",
+  "fetched": "2026-11-25T17:14:02.834198+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://eagles.land",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/EGL1Nest",
+  "telegram_users": null,
+  "twitter": "https://x.com/egll_american",
+  "twitter_followers": null,
+  "watchers": 604
  },
  "eigenlayer": {
   "categories": [
@@ -2213,7 +2288,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/1zJX5gRnjLgmTpq5sVwkq69mNDQkCemqoasyjaPW6jm",
-  "fetched": "2026-11-23T22:48:26.470212+00:00",
+  "fetched": "2026-11-25T17:14:09.118069+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.kled.ai/",
@@ -2221,13 +2296,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/useKled",
   "twitter_followers": null,
-  "watchers": 1960
+  "watchers": 1959
  },
  "kryll": {
   "categories": [
@@ -2256,7 +2331,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-11-23T22:44:40.671676+00:00",
+  "fetched": "2026-11-25T17:15:18.795294+00:00",
   "genesis": null,
   "github": "https://github.com/Cryptense/KryllToken",
   "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
@@ -2375,6 +2450,62 @@
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
   "watchers": 30379
+ },
+ "livepeer": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Harmony Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "DePIN",
+   "Coinbase Ventures Portfolio",
+   "Multicoin Capital Portfolio",
+   "Pantera Capital Portfolio",
+   "GMCI DePIN Index",
+   "GMCI Index",
+   "Coinbase 50 Index"
+  ],
+  "cex": [
+   "BTCC",
+   "BTSE",
+   "BVOX",
+   "Biconomy.com",
+   "Binance",
+   "Binance US",
+   "BingX",
+   "Bit2Me",
+   "BitDelta",
+   "BitKan",
+   "Bitbaby",
+   "Bitbank"
+  ],
+  "cex_count": 54,
+  "chat": null,
+  "commits_4w": null,
+  "description": "The Livepeer project aims to deliver a live video streaming network protocol that is fully decentralized, highly scalable, crypto token incentivized, and results in a solution which can serve as the live media layer in the decentralized development (web3) stack. In addition, Livepeer is meant to provide an economically efficient alternative to centralized broadcasting solutions for any existing broadcaster. In this document we describe the Livepeer Protocol - a delegated stake based protocol for incentivizing participants in a live video broadcast network in a game-theoretically secure way. We present solutions for the scalable verification of decentralized work, as well as the prevention of useless work in an attempt to game the token allocations in an inflationary system.\n\nThe Livepeer Token (LPT) is the protocol token of the Livepeer network. But it is not the medium of exchange token. Broadcasters use Ethereum's Ether (ETH) to broadcast video on the network. Nodes who contribute processing and bandwidth earn ETH in the form of fees from broadcasters. LPT is a staking token that participants who want to perform work on the network stake in order to coordinate how work gets distributed on the network, and to provide security that the work will get done honestly and correctly. LPT has the following purposes:\n\nIt serves as a bonding mechanism in a delegated proof of stake system, in which stake is delegated towards transcoders (or validators) who participate in the protocol t",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Arbitrum One)"
+  ],
+  "discord": "https://discord.gg/RR4kFAh",
+  "explorer": "https://etherscan.io/token/0x58b6a8a3302369daec383334672404ee733ab239",
+  "fetched": "2026-11-25T17:16:28.358989+00:00",
+  "genesis": "2018-10-01",
+  "github": "https://github.com/livepeer/livepeerjs",
+  "homepage": "https://livepeer.org/",
+  "platforms": [
+   "arbitrum-one",
+   "ethereum",
+   "harmony-shard-0"
+  ],
+  "reddit": "https://www.reddit.com/r/livepeer",
+  "sentiment_up": 66.67,
+  "stars": null,
+  "telegram": "https://t.me/livepeerorg",
+  "telegram_users": null,
+  "twitter": "https://x.com/Livepeer",
+  "twitter_followers": null,
+  "watchers": 38973
  },
  "magic": {
   "categories": [
@@ -2687,6 +2818,46 @@
   "twitter": "https://x.com/MerlinLayer2",
   "twitter_followers": null,
   "watchers": 9684
+ },
+ "meta-coinbase-tokenized-stock": {
+  "categories": [
+   "Tokenized Assets",
+   "Tokenized Stocks",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "Coinbase Ecosystem"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Matcha (Base)",
+   "Nami"
+  ],
+  "cex_count": 3,
+  "chat": null,
+  "commits_4w": null,
+  "description": "\"About Meta (Coinbase Tokenized Stock) (METAc)\n\nMeta (Coinbase Tokenized Stock) is an onchain certificate that provides economic exposure to shares of Meta through a tokenized security issued by Coinbase Onchain SPV Ltd in the Abu Dhabi Global Market (ADGM).\n\nEach token initially represents a 1:1 beneficial interest in shares held in a segregated custody account with a regulated broker-dealer and custodian. The applicable share-to-token ratio may change over time to reflect reinvested distributions, fees, taxes, corporate actions, and other adjustments.\n\nThe token can be held and transferred through supported blockchain networks and used in decentralized finance markets. Dividends and other distributions received on the underlying shares are generally reinvested, after applicable taxes, fees, and expenses, with the resulting economic benefit reflected through an adjustment to the share-to-token ratio.\n\nWhat Is Meta (Coinbase Tokenized Stock)?\n\nMeta (Coinbase Tokenized Stock) is part of Coinbase's onchain capital-markets infrastructure, designed to represent traditional financial instruments as regulated digital securities.\n\nThe token is a certificate over shares rather than a direct investment in Meta. Each token represents a proportional beneficial interest in the pool of underlying shares and related property held on trust by Coinbase Onchain SPV Ltd. The underlying shares are held in segregated custody, while Onchain Marketplace Ltd operates the tokenization infrastructure",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xb2000000000000000000008bC8786B856E61707C",
+  "fetched": "2026-11-25T17:16:31.590020+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.coinbase.com/tokenize",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/coinbase",
+  "twitter_followers": null,
+  "watchers": 53
  },
  "meta-platforms-ondo-tokenized-stock": {
   "categories": [
@@ -3533,45 +3704,6 @@
   "twitter_followers": null,
   "watchers": 23064
  },
- "proshares-ultrapro-qqq-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Tokenized Stocks",
-   "Real World Assets (RWA)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x462b5f13b7c7748279358962925c5de83bb9e598",
-  "fetched": "2026-11-22T14:37:34.320709+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.binance.com/bstocks-landing",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 25
- },
  "pumpcade": {
   "categories": [
    "Solana Ecosystem",
@@ -3805,7 +3937,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBZ_cafPyDr5KUTs0aNxh0ZTDhkpEZONmLJA2SNGlLm4Cko",
-  "fetched": "2026-11-23T22:43:24.139302+00:00",
+  "fetched": "2026-11-25T17:13:59.200387+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://redoton.com",
@@ -3973,12 +4105,11 @@
   "commits_4w": null,
   "description": "",
   "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
+   "PancakeSwap (v2)"
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0xd7ccd29b6Fd1464Edb425F24B01115556e737777",
-  "fetched": "2026-11-23T18:02:35.867691+00:00",
+  "fetched": "2026-11-25T17:12:52.774870+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://flap.sh/bnb/0xd7ccd29b6fd1464edb425f24b01115556e737777",
@@ -4116,7 +4247,7 @@
   ],
   "discord": "https://discord.com/invite/solidus-ai-tech-938725761865625600",
   "explorer": "https://etherscan.io/token/0x3e76dd57e649a263a532cc9bcc58b32a065fb2a4",
-  "fetched": "2026-11-23T22:46:10.040168+00:00",
+  "fetched": "2026-11-25T17:16:25.161227+00:00",
   "genesis": null,
   "github": "https://github.com/Solidus-Ai-Tech",
   "homepage": "https://aitech.io",
@@ -4126,13 +4257,13 @@
    "solana"
   ],
   "reddit": "https://www.reddit.com/r/AITECHtoken",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/solidusaitech",
   "telegram_users": null,
   "twitter": "https://x.com/AITECHio",
   "twitter_followers": null,
-  "watchers": 151618
+  "watchers": 151619
  },
  "spacex-reality-protocol": {
   "categories": [
@@ -4222,49 +4353,6 @@
   "twitter": "https://x.com/ondofinance",
   "twitter_followers": null,
   "watchers": 514
- },
- "spy-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Real World Assets (RWA)",
-   "Tokenized Exchange-Traded Funds (ETFs)",
-   "Tokenized Exchange-Traded Product (ETPs)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank",
-   "Metric (BSC)"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)",
-   "Uniswap V3 (BSC)",
-   "Uniswap V4 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x7138b48df7d98d7e3cc221bfe7192d0a178182d8",
-  "fetched": "2026-11-22T14:36:21.280927+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.bstocks.finance/en/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/binance",
-  "twitter_followers": null,
-  "watchers": 56
  },
  "ssv-network": {
   "categories": [
@@ -4464,7 +4552,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/account/74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump",
-  "fetched": "2026-11-23T22:47:13.408632+00:00",
+  "fetched": "2026-11-25T17:16:34.838520+00:00",
   "genesis": null,
   "github": "https://github.com/kyegomez/swarms",
   "homepage": "https://swarms.world/",
@@ -4472,13 +4560,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/swarms_corp",
   "twitter_followers": null,
-  "watchers": 7501
+  "watchers": 7500
  },
  "synapse-2": {
   "categories": [
@@ -4542,52 +4630,36 @@
   "twitter_followers": null,
   "watchers": 28852
  },
- "test-3": {
+ "test-liquid-staking": {
   "categories": [
    "BNB Chain Ecosystem",
-   "Meme",
-   "Binance Alpha Spotlight",
-   "Four.meme Ecosystem (BNB Memes)"
+   "Meme"
   ],
-  "cex": [
-   "BTCC",
-   "BTSE",
-   "Binance",
-   "BingX",
-   "BitKan",
-   "Bitrue",
-   "Bitunix",
-   "CoinUp.io",
-   "Coinstore",
-   "DigiFinex",
-   "Gate",
-   "GroveX"
-  ],
-  "cex_count": 19,
+  "cex": [],
+  "cex_count": 0,
   "chat": null,
   "commits_4w": null,
-  "description": "Say \"Hello\" to , Test Token, deployed by Binance on four.meme!\n\nThis innovative memecoin is designed to captivate the crypto community with its unique features and promising potential.\n\nTest Token is set to make waves in the crypto market.\n\nGet ready to embark on an exciting journey with Test Token, and be part of the future of decentralized finance and meme culture.\n\nDev's previous project hit 100b",
+  "description": "Test Liquid Staking (TLS) is the flagship representative of the MemeFi movement on the BNB Chain. Launched by Flap.sh founder Cedric during the EASY Residency S3 demo day, TLS bridges the gap between viral meme culture and sustainable DeFi returns. \n\nUnlike traditional memes, TLS offers real wealth management features through a 90 percent dividend structure for holders of 10,000 tokens or more. With a 2 percent buy tax and 3 percent sell tax, the project ensures growth through a 10 percent LP reflux mechanism. \n\nBy leveraging Lista DAO infrastructure, TLS creates a stable yet explosive ecosystem where community culture meets professional financial utility for long term value.",
   "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)"
+   "PancakeSwap (v2)"
   ],
   "discord": null,
-  "explorer": "https://bscscan.com/token/0x86Bb94DdD16Efc8bc58e6b056e8df71D9e666429",
-  "fetched": "2026-11-22T14:35:01.807554+00:00",
+  "explorer": "https://bscscan.com/token/0x0598075dc4d1c9484DAa80C62313AAD39fc77777",
+  "fetched": "2026-11-25T17:12:56.004948+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://testtoken.vip/",
+  "homepage": "https://flaptls.cc/",
   "platforms": [
    "binance-smart-chain"
   ],
   "reddit": null,
   "sentiment_up": null,
   "stars": null,
-  "telegram": "https://t.me/Testonbsc",
+  "telegram": "https://t.me/TLS_FLAP",
   "telegram_users": null,
-  "twitter": "https://x.com/TestonBSC",
+  "twitter": "https://x.com/flaptls",
   "twitter_followers": null,
-  "watchers": 3153
+  "watchers": 7
  },
  "tokenised-gbp": {
   "categories": [
@@ -4979,7 +5051,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/WingsAYbfs4qnEgcw8jpSvetqp8XHM3GkKvow54WLcd",
-  "fetched": "2026-11-23T18:06:25.446715+00:00",
+  "fetched": "2026-11-25T17:14:12.343810+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://wingbits.com/",
@@ -5103,7 +5175,7 @@
   ],
   "discord": "https://discord.com/invite/Qg54MMMmjG",
   "explorer": "https://basescan.org/token/0x3e31966d4f81C72D2a55310A6365A56A4393E98D",
-  "fetched": "2026-11-23T22:46:00.202333+00:00",
+  "fetched": "2026-11-25T17:14:15.515601+00:00",
   "genesis": null,
   "github": "https://github.com/worldmobilegroup",
   "homepage": "https://worldmobile.io",
@@ -5114,13 +5186,13 @@
    "cardano"
   ],
   "reddit": "https://www.reddit.com/r/WorldMobileToken/",
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": "https://t.me/WorldMobileTeam",
   "telegram_users": null,
   "twitter": "https://x.com/wmchain",
   "twitter_followers": null,
-  "watchers": 18140
+  "watchers": 18137
  },
  "yee-token": {
   "categories": [
