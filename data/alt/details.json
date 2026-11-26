@@ -104,7 +104,7 @@
   ],
   "discord": "https://discord.across.to/",
   "explorer": "https://etherscan.io/token/0x44108f0223a3c3028f5fe7aec7f9bb2e66bef82f",
-  "fetched": "2026-11-24T17:30:18.175929+00:00",
+  "fetched": "2026-11-26T04:16:20.118293+00:00",
   "genesis": null,
   "github": "https://github.com/across-protocol",
   "homepage": "https://across.to/",
@@ -245,7 +245,7 @@
   ],
   "discord": "https://discord.gg/GgQWeK8jmS",
   "explorer": "https://bscscan.com/token/0x8263cd1601fe73c066bf49cc09841f35348e3be0",
-  "fetched": "2026-11-24T17:27:32.389386+00:00",
+  "fetched": "2026-11-26T04:16:23.339911+00:00",
   "genesis": null,
   "github": "https://github.com/alturanft",
   "homepage": "https://www.altura.com/",
@@ -260,7 +260,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/altura",
   "twitter_followers": null,
-  "watchers": 113411
+  "watchers": 113410
  },
  "anthropic-bstocks-tokenized-stock": {
   "categories": [
@@ -790,67 +790,6 @@
   "twitter_followers": null,
   "watchers": 291
  },
- "carv": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Infrastructure",
-   "Gaming (GameFi)",
-   "NFT",
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Arbitrum Ecosystem",
-   "Impossible Finance Launchpad",
-   "Ethereum Ecosystem",
-   "Animoca Brands Portfolio",
-   "Base Ecosystem",
-   "Binance Alpha Spotlight",
-   "Base Native"
-  ],
-  "cex": [
-   "Bitget",
-   "Bitrue",
-   "Bitunix",
-   "Bitvavo",
-   "BloFin",
-   "Bybit",
-   "Gate",
-   "HTX",
-   "Kraken",
-   "KuCoin",
-   "MEXC",
-   "Mudrex"
-  ],
-  "cex_count": 18,
-  "chat": "https://medium.com/@Carv",
-  "commits_4w": null,
-  "description": "CARV is where Sovereign AI Beings live, learn, and evolve.\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\n\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV\u2019s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\n\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3.",
-  "dex": [
-   "Aerodrome SlipStream",
-   "PancakeSwap V3 (BSC)",
-   "Uniswap V3 (Arbitrum One)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": "https://discord.com/invite/carv",
-  "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
-  "fetched": "2026-11-23T01:20:24.725648+00:00",
-  "genesis": null,
-  "github": "https://github.com/carv-protocol",
-  "homepage": "https://carv.io",
-  "platforms": [
-   "arbitrum-one",
-   "base",
-   "binance-smart-chain",
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/carv_official",
-  "twitter_followers": null,
-  "watchers": 7473
- },
  "chutes": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -925,6 +864,48 @@
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
   "watchers": 170
+ },
+ "clearpool-2": {
+  "categories": [
+   "Ethereum Ecosystem"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Bitget",
+   "Bitunix",
+   "Bybit",
+   "KCEX",
+   "KuCoin",
+   "MEXC",
+   "OrangeX",
+   "Ourbit",
+   "WEEX",
+   "XT.COM"
+  ],
+  "cex_count": 11,
+  "chat": "https://clearpool.medium.com/",
+  "commits_4w": null,
+  "description": "Clearpool is an institutional credit marketplace that connects lenders with vetted institutional borrowers through on-chain vaults. Currently on EVM, Ripple has committed a significant investment to make Clearpool the flagship lending market on the XRP Ledger.\n\nEach vault is an independent market with a risk curator, who underwrites borrowers off-chain, structures legal agreements and monitors repayments. Lenders deposit stablecoins and earn yield from professional trading firms and stablecoin enabled Fintechs.\n\nProducts include credit vaults (including revolving credit lines for fintech and payments companies), the Treasury Pool backed by short-term U.S. Treasury bills, X-Pool for delta-neutral fund strategies, and Clearpool Prime, a permissioned environment for KYC/AML-verified counterparties. \n\nClearpool runs on Ethereum and other EVM networks and is extending to the XRP Ledger. \n\nCLEAR is the protocol\u2019s governance and utility token.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.com/invite/YYzxscA4nu",
+  "explorer": "https://etherscan.io/token/0x5200f539478F58D9aEA962095ba3b16b5e550E00",
+  "fetched": "2026-11-26T04:15:09.865830+00:00",
+  "genesis": null,
+  "github": "https://github.com/clearpool-finance",
+  "homepage": "https://clearpool.finance/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 80.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/ClearpoolFin",
+  "twitter_followers": null,
+  "watchers": 184
  },
  "conconai": {
   "categories": [
@@ -1437,44 +1418,6 @@
   "twitter_followers": null,
   "watchers": 481
  },
- "dowge": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Dog-Themed",
-   "Pump.fun Ecosystem",
-   "Stock market-themed"
-  ],
-  "cex": [
-   "KCEX",
-   "MEXC",
-   "XT.COM"
-  ],
-  "cex_count": 3,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PumpSwap"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/DQnkBM4eYYMnVE8Qy2K3BB7uts1fh2EwBVktEz6jpump",
-  "fetched": "2026-11-23T01:17:58.632404+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.dji6930.com/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 0.0,
-  "stars": null,
-  "telegram": "https://t.me/DOWGEPortal",
-  "telegram_users": null,
-  "twitter": "https://x.com/dji6930",
-  "twitter_followers": null,
-  "watchers": 3498
- },
  "dual": {
   "categories": [
    "Infrastructure",
@@ -1583,7 +1526,7 @@
    "BitKan",
    "Bitazza"
   ],
-  "cex_count": 63,
+  "cex_count": 64,
   "chat": "https://www.youtube.com/@EigenLayer",
   "commits_4w": null,
   "description": "Renzo is a restaking protocol that abstracts and manages AVS strategies for Liquid Restaking Tokens (LRTs), making Ethereum and Solana restaking ezpz and accessible to everyone. The products $ezETH, $pzETH, and $ezSOL serve as interfaces to the EigenLayer, Symbiotic, and Jito Network ecosystems, respectively. Renzo's mission is to make restaking easy and accessible to everyone while abstracting the complexity away from the end user.",
@@ -1595,7 +1538,7 @@
   ],
   "discord": "https://discord.gg/eigenlayer",
   "explorer": "https://etherscan.io/token/0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
-  "fetched": "2026-11-24T06:04:09.603763+00:00",
+  "fetched": "2026-11-26T04:13:47.711048+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.eigencloud.xyz/",
@@ -1610,7 +1553,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/eigenlayer",
   "twitter_followers": null,
-  "watchers": 29641
+  "watchers": 29638
  },
  "evaa-protocol": {
   "categories": [
@@ -2138,45 +2081,6 @@
   "twitter_followers": null,
   "watchers": 288
  },
- "ishares-msci-south-korea-etf-bstocks-tokenized-stock": {
-  "categories": [
-   "Tokenized Assets",
-   "BNB Chain Ecosystem",
-   "Real World Assets (RWA)",
-   "Tokenized Exchange-Traded Funds (ETFs)",
-   "Tokenized Exchange-Traded Product (ETPs)",
-   "bStocks Ecosystem"
-  ],
-  "cex": [
-   "Binance",
-   "LBank"
-  ],
-  "cex_count": 2,
-  "chat": null,
-  "commits_4w": null,
-  "description": "",
-  "dex": [
-   "PancakeSwap V3 (BSC)",
-   "Pancakeswap Infinity CLMM (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xbe82f76637dba2c114c41df856c2c51e522e2cb8",
-  "fetched": "2026-11-23T01:21:44.015603+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": null,
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 23
- },
  "ishares-silver-trust-ondo-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -2234,6 +2138,39 @@
   "twitter_followers": null,
   "watchers": 1153
  },
+ "jager-hunter": {
+  "categories": [
+   "BNB Chain Ecosystem",
+   "Meme",
+   "Binance Alpha Spotlight"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "PancakeSwap (v2)",
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://bscscan.com/token/0x74836cC0E821A6bE18e407E6388E430B689C66e9",
+  "fetched": "2026-11-26T04:12:31.467602+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://jager.meme/",
+  "platforms": [
+   "binance-smart-chain"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/jager_BSC",
+  "telegram_users": null,
+  "twitter": "https://x.com/jager_BSC",
+  "twitter_followers": null,
+  "watchers": 1862
+ },
  "jobcoin-2": {
   "categories": [
    "Solana Ecosystem",
@@ -2247,13 +2184,12 @@
   "commits_4w": null,
   "description": "JobCoin ($JOBCOIN) is a dynamic meme token on the Solana blockchain, centered around the humorous narrative of escaping the 9-5 grind and achieving financial freedom through crypto. It embodies the dream of retiring early with wealth and leisure, resonating with a vibrant, global community of dreamers and meme enthusiasts. The project thrives on its community-driven ethos, where members actively shape its direction through creative input, meme generation, and collaborative initiatives. JobCoin\u2019s endless meme potential, spanning workplace humor, financial independence, and lifestyle aspirations which fuels its engaging presence on platforms like Twitter. A passionate community and a playful yet ambitious vision, JobCoin offers boundless possibilities for growth, entertainment, and connection in the crypto space.",
   "dex": [
-   "Meteora DAMM V2",
    "PumpSwap",
    "Raydium (CLMM)"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
-  "fetched": "2026-11-23T22:44:37.451534+00:00",
+  "fetched": "2026-11-26T04:13:38.010554+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://jobcoin.capital",
@@ -2261,13 +2197,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 16.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/JobCoinSOL",
   "twitter_followers": null,
-  "watchers": 233
+  "watchers": 241
  },
  "kled-ai": {
   "categories": [
@@ -2398,6 +2334,54 @@
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
   "watchers": 3597
+ },
+ "liquity-bold-2": {
+  "categories": [
+   "Stablecoins",
+   "Decentralized Finance (DeFi)",
+   "USD Stablecoin",
+   "Ethereum Ecosystem",
+   "Optimism Ecosystem",
+   "Base Ecosystem",
+   "Crypto-backed Stablecoin",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Ethereum)",
+   "Aero Stable (Optimism)",
+   "Ekubo V2 (Ethereum)",
+   "Velodrome Finance V2 (Optimism)"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "BOLD is a fully redeemable USD-pegged stablecoin issued by the Liquity Protocol. It is used to pay out loans within the Liquity ecosystem, which allows users to set their own interest rates and borrow against ETHm, wstETH, and rETH as collateral. Loans must maintain a minimum collateral ratio of 110% and are secured by a Stability Pool containing BOLD and by fellow borrowers acting as guarantors of last resort.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Curve (Ethereum)",
+   "Curve (Optimism)",
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/address/0x6440f144b7e50d6a8439336510312d2f54beb01d",
+  "fetched": "2026-11-26T04:15:02.193514+00:00",
+  "genesis": null,
+  "github": "https://github.com/liquity/bold",
+  "homepage": "https://www.liquity.org/",
+  "platforms": [
+   "base",
+   "ethereum",
+   "optimistic-ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/LiquityProtocol",
+  "twitter_followers": null,
+  "watchers": 312
  },
  "lisk": {
   "categories": [
@@ -2697,7 +2681,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2103E845C5E135493Bb6c2A4f0B8651956eA8682",
-  "fetched": "2026-11-23T01:18:14.844902+00:00",
+  "fetched": "2026-11-26T04:14:54.375691+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.matrixdock.com/xaum",
@@ -2714,7 +2698,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/matrixdock",
   "twitter_followers": null,
-  "watchers": 951
+  "watchers": 953
  },
  "memecoin-2": {
   "categories": [
@@ -3226,6 +3210,38 @@
   "twitter_followers": null,
   "watchers": 2898
  },
+ "non-playable-shiba": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem",
+   "Dog-Themed"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Non-Playable Shiba isn\u2019t just another dog coin riding the endless wave of canine memes. It\u2019s the memecoin powered by the original Shiba Inu meme\u2014the one so instantly recognizable it almost feels illegal to claim. While countless tokens borrow the dog, Non-Playable Shiba owns the cultural weight of the meme itself. Non-playable means no forced utility theater, no fake game, no empty roadmap promises. Just pure, unapologetic meme energy backed by the most iconic dog face on the internet. The question isn\u2019t whether dogs are over. The question is: which Shiba is actually playable? This one isn\u2019t. And that\u2019s the point.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xb1dc57ed65b3bce06e1d5645d0304fe84cc8963d",
+  "fetched": "2026-11-26T04:12:28.250776+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.npshiba.fun",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 66.67,
+  "stars": null,
+  "telegram": "https://t.me/npshibacoin",
+  "telegram_users": null,
+  "twitter": "https://x.com/npshibacoin",
+  "twitter_followers": null,
+  "watchers": 132
+ },
  "nvidia-ondo-tokenized-stock": {
   "categories": [
    "Tokenized Assets",
@@ -3489,7 +3505,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9579dde255f9a982d2598ff87fdcf2887ea8a273",
-  "fetched": "2026-11-24T17:26:13.098015+00:00",
+  "fetched": "2026-11-26T04:12:24.962040+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.pepeintel.com",
@@ -3497,13 +3513,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 86.67,
+  "sentiment_up": 66.67,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/pei_erc20",
   "twitter_followers": null,
-  "watchers": 131
+  "watchers": 224
  },
  "pha": {
   "categories": [
@@ -3574,12 +3590,11 @@
    "RWA Protocol"
   ],
   "cex": [
-   "DigiFinex",
    "Gate",
    "KuCoin",
    "MEXC"
   ],
-  "cex_count": 4,
+  "cex_count": 3,
   "chat": null,
   "commits_4w": null,
   "description": "PinLink is the first RWA-Tokenized DePIN platform, empowering users with fractionalized ownership of DePIN assets. DePINs (Decentralized Physical Infrastructure Networks) hold the promise of completely revolutionizing how AI developers source their physical infrastructure. DePINs work by using token rewards to incentivize owners of physical infrastructure assets to connect their devices to decentralized networks where they can be rented by end users in need of those services. Whether its GPUs, TPUs, CPUs or cloud storage capacity, AI developers have multiple needs that can be met by DePINs, which offer the promise of a more cost-effective and decentralized solution.",
@@ -3588,7 +3603,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x2e44f3f609ff5aa4819b323fd74690f07c3607c4",
-  "fetched": "2026-11-23T22:45:53.650678+00:00",
+  "fetched": "2026-11-26T04:13:41.237700+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://pinlink.ai/",
@@ -3602,7 +3617,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/pinlinkai",
   "twitter_followers": null,
-  "watchers": 16915
+  "watchers": 16916
  },
  "power-ledger": {
   "categories": [
@@ -3802,7 +3817,7 @@
   ],
   "discord": "https://discord.com/invite/pEHCdjEJQc",
   "explorer": "https://etherscan.io/token/0xaaa9214f675316182eaa21c85f0ca99160cc3aaa",
-  "fetched": "2026-11-23T01:20:27.977957+00:00",
+  "fetched": "2026-11-26T04:17:29.936941+00:00",
   "genesis": null,
   "github": "https://github.com/qanplatform/qanx-token",
   "homepage": "https://www.qanplatform.com/",
@@ -3811,13 +3826,66 @@
    "ethereum"
   ],
   "reddit": "https://www.reddit.com/r/QANplatform/",
-  "sentiment_up": 80.0,
+  "sentiment_up": 75.0,
   "stars": null,
   "telegram": "https://t.me/QANplatform",
   "telegram_users": null,
   "twitter": "https://x.com/QANplatform",
   "twitter_followers": null,
-  "watchers": 20968
+  "watchers": 20975
+ },
+ "renzo": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Binance Launchpool",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Restaking",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "OKX Ventures Portfolio"
+  ],
+  "cex": [
+   "BTCC",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitlo",
+   "Bitrue",
+   "Bittime",
+   "Bitunix",
+   "Bitvavo"
+  ],
+  "cex_count": 36,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Renzo Finance is a blockchain technology company building the tools and infrastructure needed to make professional-grade yield strategies accessible onchain.\n\nRenzo takes strategies that have traditionally required professional trading desks and complex infrastructure and makes them easier to access and automate. The strategies operate directly inside accounts users already own and control. Users keep control of their assets and positions, and Renzo never pools or takes custody of their funds.\n\nThe debut product is Renzo Basis, a delta-neutral strategy running on Hyperliquid. It buys spot and shorts an equal-sized perpetual on the same asset, so price moves on the two legs offset each other. Yield comes from the funding rate that leveraged longs pay shorts, settled hourly. BTC and HYPE are the first markets, with additional markets added over time.",
+  "dex": [
+   "Aerodrome (Base)",
+   "Orca",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/renzoprotocol",
+  "explorer": "https://etherscan.io/token/0x3b50805453023a91a8bf641e279401a0b23fa6f9",
+  "fetched": "2026-11-26T04:13:44.475478+00:00",
+  "genesis": null,
+  "github": "https://github.com/Renzo-Protocol",
+  "homepage": "https://www.renzofinance.com/",
+  "platforms": [
+   "base",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/RenzoFinance",
+  "twitter_followers": null,
+  "watchers": 12554
  },
  "reppo": {
   "categories": [
@@ -3969,7 +4037,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://taostats.io/subnets/117/chart",
-  "fetched": "2026-11-24T17:20:42.402759+00:00",
+  "fetched": "2026-11-26T04:16:16.855242+00:00",
   "genesis": null,
   "github": null,
   "homepage": null,
@@ -3983,7 +4051,7 @@
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 112
+  "watchers": 111
  },
  "rocket-pool": {
   "categories": [
@@ -4124,58 +4192,6 @@
   "twitter": null,
   "twitter_followers": null,
   "watchers": 11
- },
- "simon-s-cat": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Solana Ecosystem",
-   "Meme",
-   "Cat-Themed",
-   "TokenFi Launchpad",
-   "Binance HODLer Airdrops",
-   "IP Meme"
-  ],
-  "cex": [
-   "Azbit",
-   "Biconomy.com",
-   "BingX",
-   "BitKan",
-   "Bitrue",
-   "Bittime",
-   "Bitvavo",
-   "BloFin",
-   "Bybit",
-   "CoinW",
-   "Gate",
-   "HTX"
-  ],
-  "cex_count": 22,
-  "chat": "https://www.youtube.com/user/simonscat",
-  "commits_4w": null,
-  "description": "Simon\u2019s Cat Token is the officially endorsed memecoin, backed by full IP rights from the iconic Simon\u2019s Cat brand.\n\nOriginating from the beloved British animated series created by Simon Tofield, Simon\u2019s Cat has garnered over 1.6 billion views on its official YouTube channel and even more across various social networks. \n\nThe project aims to establish the brand\u2019s presence in Web3 while also contributing to initiatives aimed at feeding and rescuing cats globally.",
-  "dex": [
-   "PancakeSwap (v2)",
-   "PancakeSwap V3 (BSC)",
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x6894cde390a3f51155ea41ed24a33a4827d3063d",
-  "fetched": "2026-11-23T02:46:22.564054+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.simons.cat",
-  "platforms": [
-   "binance-smart-chain",
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/SimonsCatWorld",
-  "telegram_users": null,
-  "twitter": "https://x.com/SimonsCatMeme",
-  "twitter_followers": null,
-  "watchers": 119591
  },
  "sogni-ai": {
   "categories": [
@@ -4403,45 +4419,93 @@
   "twitter_followers": null,
   "watchers": 10169
  },
- "super-inu-2": {
+ "status": {
   "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Dog-Themed",
-   "Solana Meme",
-   "Stonk Ecosystem"
+   "Infrastructure",
+   "Smart Contract Platform",
+   "SocialFi",
+   "Ethereum Ecosystem",
+   "Layer 2 (L2)",
+   "Privacy Infrastructure",
+   "Privacy"
   ],
   "cex": [
+   "Bitkub",
+   "Bitunix",
+   "Coinone",
+   "DigiFinex",
    "Gate",
-   "KCEX",
-   "LBank"
+   "HTX",
+   "Indodax",
+   "MEXC",
+   "OKX",
+   "Ourbit",
+   "Upbit",
+   "Upbit Indonesia "
   ],
-  "cex_count": 3,
+  "cex_count": 12,
   "chat": null,
   "commits_4w": null,
-  "description": "",
+  "description": "Status is a mobile operating system that will completely change the way the world interacts with the Ethereum network.  Designed as a decentralized browser and private messenger, Status allows you to connect to the entire Ethereum network right in the palm of your hand. Status provides you access to all of Ethereum\u2019s decentralized applications (dapps) through an app on your smartphone. It opens the door to mass adoption of Ethereum dapps by targeting the fastest growing computer segment in the world \u2013 smartphone users.\n\nThe creators behind Status are working towards bringing a decentralized world to life. Status essentially combines a messenger and a browser that allows everyday smartphone users to use decentralized applications, also known as dapps. Status is available on both Android and iOS. Status users can safely send, receive, and store Ether and other Ethereum crypto assets on their phone. They can also discover nearby Status users to exchange currency, services, and ideas locally.\n\nThe first time the world heard about the idea of Status was September 2016, at DevCon2, an annual conference for developers on the Ethereum blockchain. Co-founders Carl Bennetts and Jarrad Hope gave a presentation revealing the plans for their Ethereum light client.\n\nSNT is currently available for trade on many online exchanges, including Huobi, Binance, and Bittrex.",
   "dex": [
-   "Meteora",
-   "Raydium",
-   "Raydium (CLMM)"
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V3 (Ethereum)"
   ],
   "discord": null,
-  "explorer": "https://solscan.io/token/DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
-  "fetched": "2026-11-23T01:16:55.383316+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.stonkfun.xyz/token/DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
+  "explorer": "https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+  "fetched": "2026-11-26T04:15:05.918918+00:00",
+  "genesis": "2017-06-19",
+  "github": "https://github.com/status-im/status-react",
+  "homepage": "https://status.im/",
   "platforms": [
-   "solana"
+   "ethereum"
   ],
-  "reddit": null,
+  "reddit": "https://www.reddit.com/r/statusim/",
   "sentiment_up": 100.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
-  "twitter": null,
+  "twitter": "https://x.com/ethstatus",
   "twitter_followers": null,
-  "watchers": 603
+  "watchers": 18262
+ },
+ "surplus-intelligence": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "Bankr Ecosystem"
+  ],
+  "cex": [
+   "Hydrex Integral",
+   "KCEX",
+   "LBank",
+   "Matcha (Base)"
+  ],
+  "cex_count": 4,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Surplus Intelligence is a free market for AI inference on Base.\n\nInference is becoming a core cost of software. Agents, coding tools, and automated workflows will call models constantly. That creates a demand for a cheaper, more liquid, more programmable market for inference.\n\nSurplus turns unused capacity into revenue, and turns inference into a market-priced resource.\n\nOil has NYMEX. Equities have Nasdaq. Inference has Surplus.",
+  "dex": [
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/HhkJR6HCd",
+  "explorer": "https://basescan.org/token/0xC52aeDec3374422d7510E294cfAa90799595CBa3",
+  "fetched": "2026-11-26T04:15:13.541768+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://www.surplusintelligence.ai/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 20.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/AskSurplus",
+  "twitter_followers": null,
+  "watchers": 681
  },
  "sushi": {
   "categories": [
@@ -4629,6 +4693,38 @@
   "twitter": "https://x.com/SynapseProtocol",
   "twitter_followers": null,
   "watchers": 28852
+ },
+ "tacit-token": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Tacit is a family of immutable privacy pools: shield ETH, then pay, swap and withdraw privately on Ethereum, Base and Robinhood Chain. TAC is its token. It was etched on Bitcoin with a fixed supply of 21,000,000 and no mint authority, with amounts confidential by default. On Ethereum, TAC is an ERC-20 that Tacit's pool mints when TAC is withdrawn from the private pool and burns when TAC is shielded into it, so the ERC-20's supply is only the public part of the 21,000,000.",
+  "dex": [
+   "Uniswap V2 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xA1313eb9f3A445606D9583bcAc3ebeB56a858279",
+  "fetched": "2026-11-26T04:14:57.732182+00:00",
+  "genesis": null,
+  "github": "https://github.com/src-company/tacit",
+  "homepage": "https://tacit.finance",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/tacitfi",
+  "twitter_followers": null,
+  "watchers": 257
  },
  "test-liquid-staking": {
   "categories": [
@@ -5002,37 +5098,6 @@
   "twitter_followers": null,
   "watchers": 79
  },
- "wanted-star": {
-  "categories": [
-   "Meme",
-   "Ethereum Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Wanted Star (WSTAR) is an Ethereum-based meme token built around a star-themed internet character and a playful \u201cwanted\u201d visual identity. The project focuses on community participation, online memes, and the sharing of its branding across social channels. WSTAR is intended for entertainment and community use; it does not represent ownership in a company, a claim on revenue, or a guaranteed financial return. The project\u2019s published information identifies its token contract and official social account so users can verify the token and follow updates. No additional product utility is currently described by the project.",
-  "dex": [
-   "Uniswap V4 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x160a8a73059d54f68d77ac1626c08425ec2ec0e0",
-  "fetched": "2026-11-23T01:16:48.864675+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.wantedstar.site",
-  "platforms": [
-   "ethereum"
-  ],
-  "reddit": null,
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": null,
-  "telegram_users": null,
-  "twitter": "https://x.com/WantedStarCoin",
-  "twitter_followers": null,
-  "watchers": 301
- },
  "wingbits": {
   "categories": [
    "Solana Ecosystem",
@@ -5194,6 +5259,66 @@
   "twitter_followers": null,
   "watchers": 18137
  },
+ "wormhole": {
+  "categories": [
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Ethereum Ecosystem",
+   "Interoperability",
+   "Base Ecosystem",
+   "Multicoin Capital Portfolio",
+   "Cross-chain Communication",
+   "Made in USA",
+   "Governance",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "BTSE",
+   "BVOX",
+   "BYDFi",
+   "Backpack Exchange ",
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "Bit2Me",
+   "BitKan",
+   "Bitget",
+   "Bitkub"
+  ],
+  "cex_count": 60,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Wormhole is a cross-chain messaging protocol that enables secure transfers of data or tokens across different blockchain networks. It supports a variety of applications, including DeFi, NFTs, and governance, by allowing data to be moved between blockchains efficiently and securely. Wormhole employs multiple verification methods to ensure the integrity and validity of the data transmitted through its network. ",
+  "dex": [
+   "Aerodrome (Base)",
+   "Orca",
+   "PumpSwap",
+   "Raydium",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/wormholecrypto",
+  "explorer": "https://solscan.io/token/85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+  "fetched": "2026-11-26T04:13:51.045427+00:00",
+  "genesis": null,
+  "github": "https://github.com/wormhole-foundation/wormhole",
+  "homepage": "https://wormhole.com/",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "ethereum",
+   "solana"
+  ],
+  "reddit": null,
+  "sentiment_up": 50.0,
+  "stars": null,
+  "telegram": "https://t.me/wormholecrypto",
+  "telegram_users": null,
+  "twitter": "https://x.com/wormhole",
+  "twitter_followers": null,
+  "watchers": 43532
+ },
  "yee-token": {
   "categories": [
    "Meme",
@@ -5214,7 +5339,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x9ac9468e7e3e1d194080827226b45d0b892c77fd",
-  "fetched": "2026-11-24T17:40:47.111819+00:00",
+  "fetched": "2026-11-26T04:12:34.696024+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://yeetoken.vip/",
@@ -5228,7 +5353,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/YeeErc20",
   "twitter_followers": null,
-  "watchers": 657
+  "watchers": 659
  },
  "yield-basis": {
   "categories": [
@@ -5263,7 +5388,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x01791F726B4103694969820be083196cC7c045fF",
-  "fetched": "2026-11-24T17:27:35.558103+00:00",
+  "fetched": "2026-11-26T04:17:26.662484+00:00",
   "genesis": null,
   "github": "https://github.com/yield-basis",
   "homepage": "https://yieldbasis.com/",
@@ -5279,61 +5404,6 @@
   "twitter": "https://x.com/yieldbasis",
   "twitter_followers": null,
   "watchers": 2387
- },
- "zebec-network": {
-  "categories": [
-   "Decentralized Finance (DeFi)",
-   "Solana Ecosystem",
-   "Real World Assets (RWA)",
-   "Payment Solutions",
-   "DePIN",
-   "Coinbase Ventures Portfolio",
-   "Alameda Research Portfolio",
-   "Circle Ventures Portfolio",
-   "OKX Ventures Portfolio",
-   "RWA Protocol",
-   "Made in USA"
-  ],
-  "cex": [
-   "Biconomy.com",
-   "BingX",
-   "BitKan",
-   "Bitget",
-   "Bitrue",
-   "BloFin",
-   "Crypto.com Exchange",
-   "DigiFinex",
-   "Gate",
-   "HTX",
-   "Hotcoin",
-   "Kraken"
-  ],
-  "cex_count": 18,
-  "chat": "https://medium.com/zebec-protocol",
-  "commits_4w": null,
-  "description": "Zebec's integrated products - real time payroll apps, on-chain payments infrastructure and networked DePIN - serve companies of all sizes, merchants and individuals and help transcend the boundaries of traditional banking and diminish the role of financial intermediaries. ",
-  "dex": [
-   "Meteora",
-   "Orca",
-   "Raydium (CLMM)"
-  ],
-  "discord": "https://discord.com/invite/fJM9cHuvvB",
-  "explorer": "https://solscan.io/token/ZBCNpuD7YMXzTHB2fhGkGi78MNsHGLRXUhRewNRm9RU",
-  "fetched": "2026-11-23T02:49:54.499215+00:00",
-  "genesis": null,
-  "github": "https://github.com/Zebec-protocol",
-  "homepage": "https://zebec.io/",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": 81.25,
-  "stars": null,
-  "telegram": "https://t.me/zebecprotocol",
-  "telegram_users": null,
-  "twitter": "https://x.com/Zebec_HQ",
-  "twitter_followers": null,
-  "watchers": 21557
  },
  "zentry": {
   "categories": [
