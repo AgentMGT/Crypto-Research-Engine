@@ -178,6 +178,45 @@
   "twitter_followers": null,
   "watchers": 9348
  },
+ "aeon-2": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Base Ecosystem",
+   "AI Agents",
+   "AI Framework",
+   "Bankr Ecosystem",
+   "Uniswap v4 Hooks"
+  ],
+  "cex": [
+   "LBank",
+   "Matcha (Base)"
+  ],
+  "cex_count": 2,
+  "chat": "https://www.youtube.com/@aeonfun",
+  "commits_4w": null,
+  "description": "The most autonomous agent framework.\nGive it a direction \u2014 it'll leverage 121 skills like deep research, PR reviews, market monitoring, Vercel deploys, and more to get it done. No approval loops. No babysitting. Configure once, forget forever.\n\nMost agent tools put you in the driver's seat \u2014 approve this tool call, review this diff, confirm this action. That's useful for interactive work. But there's a whole class of tasks where you just want the work done while you're not there: morning briefs, market monitoring, PR reviews, research digests, security scans.\n\nThe key difference: other agents are interactive tools you use. Aeon is an autonomous system you configure and walk away from. It decides when to run, what to check, and when to bother you. It scores its own output, detects degradation, and patches failing skills without intervention.\n\nThis isn't better for everything \u2014 you still want Claude Code for writing code interactively. But for the 90% of recurring tasks that don't need you in the loop, the most autonomous agent is the one that never asks.",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xBf8E8f0e8866a7052F948C16508644347c57aba3",
+  "fetched": "2026-11-26T16:54:04.792465+00:00",
+  "genesis": null,
+  "github": "https://github.com/aeonfun/aeon",
+  "homepage": "https://www.aeon.fun/",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 66.67,
+  "stars": null,
+  "telegram": "https://t.me/aeon_agent",
+  "telegram_users": null,
+  "twitter": "https://x.com/aeonframework",
+  "twitter_followers": null,
+  "watchers": 378
+ },
  "agoras-currency-of-tau": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -373,7 +412,6 @@
   "cex": [
    "Biconomy.com",
    "Bybit",
-   "ChangeNOW",
    "Coinbase Exchange",
    "Crypto.com Exchange",
    "Gate",
@@ -382,9 +420,10 @@
    "Mudrex",
    "Near Intents",
    "Rhea Finance",
-   "Trisolaris"
+   "Trisolaris",
+   "WhiteBIT"
   ],
-  "cex_count": 13,
+  "cex_count": 12,
   "chat": null,
   "commits_4w": null,
   "description": "Aurora is an EVM built on the NEAR Protocol, delivering a turn-key solution for developers to operate their apps on an Ethereum-compatible, high-throughput, scalable and future-safe platform, with low transaction costs for their users.",
@@ -394,7 +433,7 @@
   ],
   "discord": "https://discord.gg/dEFJBz8HQV",
   "explorer": "https://etherscan.io/token/0xaaaaaa20d9e0e2461697782ef11675f668207961",
-  "fetched": "2026-11-25T11:31:11.194968+00:00",
+  "fetched": "2026-11-26T16:57:46.630137+00:00",
   "genesis": null,
   "github": "https://github.com/aurora-is-near/aurora-engine",
   "homepage": "https://aurora.dev/",
@@ -404,13 +443,13 @@
    "near-protocol"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/auroraisnear",
   "telegram_users": null,
   "twitter": "https://x.com/auroraisnear",
   "twitter_followers": null,
-  "watchers": 23710
+  "watchers": 23709
  },
  "ava-ai": {
   "categories": [
@@ -481,7 +520,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/3B1ijcocM5EDga6XxQ7JLW7weocQPWWjuhBYG8Vepump",
-  "fetched": "2026-11-25T11:28:35.644904+00:00",
+  "fetched": "2026-11-26T16:54:01.583597+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://barkingpuppysol.com/",
@@ -495,7 +534,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/BPuppy80020",
   "twitter_followers": null,
-  "watchers": 141
+  "watchers": 143
  },
  "bio-protocol": {
   "categories": [
@@ -665,7 +704,7 @@
   ],
   "discord": "https://discord.com/invite/m43zKP48Mc",
   "explorer": "https://etherscan.io/token/0xfc209eeba3d744aa741cc5c2a73ebf9c977b5f82",
-  "fetched": "2026-11-25T05:00:35.754117+00:00",
+  "fetched": "2026-11-26T16:57:33.785614+00:00",
   "genesis": null,
   "github": "https://github.com/Brickken",
   "homepage": "https://brickken.com/",
@@ -674,13 +713,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
-  "watchers": 114130
+  "watchers": 114126
  },
  "burn-lucky-sheep": {
   "categories": [
@@ -774,7 +813,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump",
-  "fetched": "2026-11-25T04:58:12.645360+00:00",
+  "fetched": "2026-11-26T16:52:48.657061+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://cartoon-money.com/",
@@ -782,13 +821,74 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 66.67,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/cartoonmoney_ai",
   "twitter_followers": null,
-  "watchers": 291
+  "watchers": 300
+ },
+ "carv": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "Infrastructure",
+   "Gaming (GameFi)",
+   "NFT",
+   "BNB Chain Ecosystem",
+   "Solana Ecosystem",
+   "Arbitrum Ecosystem",
+   "Impossible Finance Launchpad",
+   "Ethereum Ecosystem",
+   "Animoca Brands Portfolio",
+   "Base Ecosystem",
+   "Binance Alpha Spotlight",
+   "Base Native"
+  ],
+  "cex": [
+   "Bitget",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "Bybit",
+   "Gate",
+   "HTX",
+   "Kraken",
+   "KuCoin",
+   "MEXC"
+  ],
+  "cex_count": 19,
+  "chat": "https://medium.com/@Carv",
+  "commits_4w": null,
+  "description": "CARV is where Sovereign AI Beings live, learn, and evolve.\nWhat are AI Beings? They are sovereign intelligences born natively on-chain. AI Beings are designed with purpose, autonomy, and the capacity for growth. They possess memory, identity, and the ability to perceive and interact with their environment, not just to execute tasks, but to make independent decisions, adapt over time, and pursue self-defined goals.\n\nAnchored by its proprietary CARV SVM Chain, D.A.T.A. Framework, and CARV ID/Agent ID system (ERC-7231), CARV enables verifiable, consent-based AI Beings that learn, adapt, and co-create with users. Driven by CARV\u2019s AI-first stack, consumer AI apps incubated through CARV Labs launched on Google Play, App Store and beyond, reaching billions of people, bringing agent-powered experiences and real-world incentives into mainstream digital life.\n\nWith 8M+ CARV IDs issued, 60K+ verifier nodes, and 1,000+ integrated games, CARV bridges AI agents, Web3 infrastructure, and real-world utility, fueling the rise of agent-driven economies. At its core, $CARV token powers staking, governance, and coordination across this stack, making CARV the operating system for AI Beings on Web3.",
+  "dex": [
+   "Aerodrome SlipStream",
+   "PancakeSwap V3 (BSC)",
+   "Uniswap V3 (Arbitrum One)",
+   "Uniswap V3 (Base)"
+  ],
+  "discord": "https://discord.com/invite/carv",
+  "explorer": "https://basescan.org/token/0xc08cd26474722ce93f4d0c34d16201461c10aa8c",
+  "fetched": "2026-11-26T16:57:43.405800+00:00",
+  "genesis": null,
+  "github": "https://github.com/carv-protocol",
+  "homepage": "https://carv.io",
+  "platforms": [
+   "arbitrum-one",
+   "base",
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/carv_official",
+  "twitter_followers": null,
+  "watchers": 7472
  },
  "chutes": {
   "categories": [
@@ -843,13 +943,12 @@
   "description": "Claudia is an AI influencer character and a platform built around that character on Solana, at useclaudia.xyz. Claudia posts on X (@claudia_onchain) and TikTok and comments on the memecoin market. The platform has a memecoin terminal for Solana coins with charts, live trades and holder data. Developer tools let anyone build their own AI agents. These include five npm packages under @useclaudia (an SDK, media generation, social publishing, a CLI and an MCP server), a desktop app called Claudia Local, and a library of 54 agent skills. $CLAUDIA is the platform\u2019s official token on Solana.",
   "dex": [
    "Meteora",
-   "Meteora DAMM V2",
    "PumpSwap",
    "Raydium (CLMM)"
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM#metadata",
-  "fetched": "2026-11-25T11:28:29.242950+00:00",
+  "fetched": "2026-11-26T16:53:55.076778+00:00",
   "genesis": null,
   "github": "https://github.com/claudia-onchain",
   "homepage": "https://useclaudia.xyz/",
@@ -857,13 +956,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/claudia_onchain",
   "twitter_followers": null,
-  "watchers": 170
+  "watchers": 171
  },
  "clearpool-2": {
   "categories": [
@@ -924,7 +1023,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x7ad1A8Fc42Ac150B04dED5825D21a0C90b6d28D8",
-  "fetched": "2026-11-25T05:00:45.656076+00:00",
+  "fetched": "2026-11-26T16:58:49.881593+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.conconai.com",
@@ -938,7 +1037,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ConCon_AI",
   "twitter_followers": null,
-  "watchers": 238
+  "watchers": 246
  },
  "cookie": {
   "categories": [
@@ -1072,7 +1171,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/GMzuntWYJLpNuCizrSR7ZXggiMdDzTNiEmSNHHunpump",
-  "fetched": "2026-11-25T11:29:48.602339+00:00",
+  "fetched": "2026-11-26T16:54:07.963894+00:00",
   "genesis": null,
   "github": "https://github.com/daydreamsai/daydreams",
   "homepage": "https://www.daydreams.systems",
@@ -1402,7 +1501,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0x23a2847d772803f9efc64b4277b782b06296fe51",
-  "fetched": "2026-11-25T11:30:55.043796+00:00",
+  "fetched": "2026-11-26T16:56:27.413086+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://usedot.xyz",
@@ -1416,7 +1515,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/usedotai",
   "twitter_followers": null,
-  "watchers": 481
+  "watchers": 482
  },
  "dual": {
   "categories": [
@@ -1851,7 +1950,7 @@
   ],
   "discord": null,
   "explorer": "https://bscscan.com/token/0x46ceefda28dd7207059ed19b0acdc026955bb15c",
-  "fetched": "2026-11-25T04:59:22.593290+00:00",
+  "fetched": "2026-11-26T16:56:24.164357+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.bstocks.finance/en/",
@@ -2301,12 +2400,11 @@
    "Bybit",
    "Gate",
    "Kraken",
-   "KuCoin",
    "MEXC",
    "Osmosis",
    "Toobit"
   ],
-  "cex_count": 7,
+  "cex_count": 6,
   "chat": "https://www.lavanet.xyz/blog",
   "commits_4w": null,
   "description": "Lava's vision is to enable AI agents and anyone to use blockchain apps, 24/7, with no downtime.\n\nLava is a protocol which coordinates traffic from AI agents, apps and wallets on every blockchain. Specifically, the protocol focuses on RPC requests, which are used by everyone to make basic blockchain interactions such as sending any transaction or checking your wallet address. \n\nLava aggregates data providers and directs RPC traffic based on the speed and reliability of the provider. The protocol has chains and apps like NEAR, Starknet, Filecoin, and Axelar already paying LAVA stakers and providers $1m+ to offer ultra-reliable service. \n",
@@ -2317,7 +2415,7 @@
   ],
   "discord": "https://discord.gg/e92uH2xNyx",
   "explorer": "https://arbiscan.io/token/0x11e969e9b3f89cb16d686a03cd8508c9fc0361af",
-  "fetched": "2026-11-25T11:30:58.248057+00:00",
+  "fetched": "2026-11-26T16:57:36.954968+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.lavanet.xyz/",
@@ -2327,13 +2425,13 @@
    "osmosis"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/+4FqlzOzdMTo1ZTdk",
   "telegram_users": null,
   "twitter": "https://x.com/lavanetxyz",
   "twitter_followers": null,
-  "watchers": 3597
+  "watchers": 3596
  },
  "liquity-bold-2": {
   "categories": [
@@ -2385,10 +2483,8 @@
  },
  "lisk": {
   "categories": [
-   "Smart Contract Platform",
    "Ethereum Ecosystem",
    "Payment Solutions",
-   "Base Ecosystem",
    "Hyperliquid Ecosystem",
    "Outlier Ventures Portfolio",
    "HyperEVM Ecosystem"
@@ -2416,24 +2512,23 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f",
-  "fetched": "2026-11-25T11:29:42.128046+00:00",
+  "fetched": "2026-11-26T16:55:14.456184+00:00",
   "genesis": null,
   "github": "https://github.com/LiskHQ/lisk-sdk",
   "homepage": "https://lisk.com",
   "platforms": [
-   "base",
    "ethereum",
    "hyperevm",
    "hyperliquid"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/Lisk",
   "twitter_followers": null,
-  "watchers": 30379
+  "watchers": 30380
  },
  "livepeer": {
   "categories": [
@@ -3067,7 +3162,7 @@
   ],
   "discord": "https://discord.com/invite/natix-network-811964821000028160",
   "explorer": "https://solscan.io/token/FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX",
-  "fetched": "2026-11-25T11:31:04.687798+00:00",
+  "fetched": "2026-11-26T16:56:30.567327+00:00",
   "genesis": null,
   "github": "https://github.com/natixnetwork",
   "homepage": "https://www.natix.network/",
@@ -3075,13 +3170,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": "https://t.me/NATIXNetwork",
   "telegram_users": null,
   "twitter": "https://x.com/NATIXNetwork",
   "twitter_followers": null,
-  "watchers": 7971
+  "watchers": 7973
  },
  "newton-protocol": {
   "categories": [
@@ -3520,6 +3615,37 @@
   "twitter": "https://x.com/pei_erc20",
   "twitter_followers": null,
   "watchers": 224
+ },
+ "pepe-wojak": {
+  "categories": [
+   "Meme",
+   "Ethereum Ecosystem"
+  ],
+  "cex": [],
+  "cex_count": 0,
+  "chat": null,
+  "commits_4w": null,
+  "description": "Pepe Wojak (PEJAK) is a meme token on Ethereum that brings together two of the most recognizable characters in internet culture: Pepe the frog and Wojak, the simple sketched face known for expressing every human feeling online. The project imagines what happens when the smug confidence of Pepe meets the honest emotions of Wojak, creating a hybrid character who captures both the wins and the losses of crypto life. Rather than presenting itself as complex financial infrastructure, PEJAK focuses on humor, storytelling, and shared internet culture.",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xE018d1E8747Ac44D87D35197ba1E9A73A721097c",
+  "fetched": "2026-11-26T16:53:51.865156+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://pepewojak.fun/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 71.43,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/pepewojak_X",
+  "twitter_followers": null,
+  "watchers": 86
  },
  "pha": {
   "categories": [
@@ -4083,7 +4209,7 @@
    "Bitlo",
    "Bitrue"
   ],
-  "cex_count": 43,
+  "cex_count": 40,
   "chat": null,
   "commits_4w": null,
   "description": "Rocket Pool is Ethereum\u2019s most decentralised liquid staking protocol.\nLiquid stakers can participate by depositing as little as 0.01 ETH to receive the rETH liquid staking token.\nRocket Pool is a fully non-custodial solution, and its node operators are economically-aligned to perform well for stakers. Joining as a node operator is fully permissionless and requires just 16 ETH (instead of the usual 32). A boosted ROI is provided from both operator commission plus RPL rewards. The Rocket Pool team have been in the staking space since its inception in 2016, which gives them a pedigree and track record without peer.",
@@ -4095,7 +4221,7 @@
   ],
   "discord": "https://discordapp.com/invite/tCRG54c",
   "explorer": "https://etherscan.io/token/0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-  "fetched": "2026-11-25T04:58:19.310950+00:00",
+  "fetched": "2026-11-26T16:55:17.641341+00:00",
   "genesis": null,
   "github": "https://github.com/rocket-pool/rocketpool",
   "homepage": "https://www.rocketpool.net",
@@ -4111,7 +4237,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/Rocket_Pool",
   "twitter_followers": null,
-  "watchers": 25875
+  "watchers": 25874
  },
  "sanctum-2": {
   "categories": [
@@ -4403,7 +4529,7 @@
   ],
   "discord": "https://discord.com/invite/eDXSP9R",
   "explorer": "https://etherscan.io/token/0x9d65ff81a3c488d585bbfb0bfe3c7707c7917f54",
-  "fetched": "2026-11-25T11:29:45.346933+00:00",
+  "fetched": "2026-11-26T16:56:20.897276+00:00",
   "genesis": null,
   "github": "https://github.com/ssvlabs",
   "homepage": "https://ssv.network/",
@@ -4411,13 +4537,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 81.82,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/ssv_network",
   "twitter_followers": null,
-  "watchers": 10169
+  "watchers": 10199
  },
  "status": {
   "categories": [
@@ -4834,7 +4960,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
-  "fetched": "2026-11-25T05:01:58.798225+00:00",
+  "fetched": "2026-11-26T16:57:40.194737+00:00",
   "genesis": null,
   "github": "https://github.com/tornadocash",
   "homepage": "https://tornadocash.eth.limo",
@@ -4849,7 +4975,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TornadoCash",
   "twitter_followers": null,
-  "watchers": 19348
+  "watchers": 19347
  },
  "tsmc-bstocks-tokenized-stock": {
   "categories": [
@@ -5014,7 +5140,7 @@
   ],
   "discord": "https://discord.usual.money/",
   "explorer": "https://etherscan.io/token/0xc4441c2be5d8fa8126822b9929ca0b81ea0de38e",
-  "fetched": "2026-11-25T04:58:16.033543+00:00",
+  "fetched": "2026-11-26T16:55:11.201790+00:00",
   "genesis": null,
   "github": "https://github.com/usual-dao",
   "homepage": "https://usual.money/",
@@ -5024,13 +5150,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 23507
+  "watchers": 23506
  },
  "utya": {
   "categories": [
@@ -5051,7 +5177,7 @@
   "dex": [],
   "discord": null,
   "explorer": "https://tonviewer.com/EQBaCgUwOoc6gHCNln_oJzb0mVs79YG7wYoavh-o1ItaneLA",
-  "fetched": "2026-11-25T04:57:02.861759+00:00",
+  "fetched": "2026-11-26T16:53:58.257087+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://tonutya.com/",
@@ -5065,7 +5191,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/TonUtyacoin",
   "twitter_followers": null,
-  "watchers": 1965
+  "watchers": 1964
  },
  "variational-x": {
   "categories": [
