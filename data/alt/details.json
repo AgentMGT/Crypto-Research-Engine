@@ -485,7 +485,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
-  "fetched": "2026-11-25T04:58:09.404225+00:00",
+  "fetched": "2026-11-27T16:40:08.874168+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.holoworld.com/",
@@ -499,7 +499,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/AVA_holo",
   "twitter_followers": null,
-  "watchers": 6617
+  "watchers": 6618
  },
  "barking-puppy": {
   "categories": [
@@ -536,6 +536,103 @@
   "twitter": "https://x.com/BPuppy80020",
   "twitter_followers": null,
   "watchers": 143
+ },
+ "basecat": {
+  "categories": [
+   "Meme",
+   "Base Ecosystem",
+   "Cat-Themed",
+   "Base Meme"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "BingX",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "KCEX",
+   "LBank",
+   "MEXC",
+   "Matcha (Base)",
+   "Ourbit",
+   "o1 Launchpad"
+  ],
+  "cex_count": 10,
+  "chat": null,
+  "commits_4w": null,
+  "description": "the cat on Base \ncommunity-run home for $BASECAT",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "Uniswap V3 (Base)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": null,
+  "explorer": "https://basescan.org/token/0xb2000000000000000000004c27f6523082f41d01",
+  "fetched": "2026-11-27T16:39:05.333989+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://basecatonbase.com",
+  "platforms": [
+   "base"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/basecatonbase",
+  "telegram_users": null,
+  "twitter": "https://x.com/BasecatOnBase",
+  "twitter_followers": null,
+  "watchers": 1019
+ },
+ "benqi": {
+  "categories": [
+   "Decentralized Finance (DeFi)",
+   "Yield Farming",
+   "Binance Launchpool",
+   "Lending/Borrowing Protocols",
+   "Avalanche Ecosystem",
+   "Liquid Staking Governance Tokens",
+   "DragonFly Capital Portfolio",
+   "Liquid Staking"
+  ],
+  "cex": [
+   "Azbit",
+   "Binance",
+   "Bitkub",
+   "Bitrue",
+   "Bittime",
+   "Blackhole V2",
+   "CoinW",
+   "Coinbase Exchange",
+   "Crypto.com Exchange",
+   "Gate",
+   "Kraken",
+   "KuCoin"
+  ],
+  "cex_count": 19,
+  "chat": null,
+  "commits_4w": null,
+  "description": "BENQI is a decentralized non-custodial liquidity market protocol, built on Avalanche. The protocol enables users to effortlessly lend, borrow, and earn interest with their digital assets. Depositors providing liquidity to the protocol may earn passive income, while borrowers are able to borrow in an over-collateralized manner.",
+  "dex": [
+   "LFJ",
+   "LFJ V2.2 (Avalanche)"
+  ],
+  "discord": null,
+  "explorer": "https://snowtrace.io/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+  "fetched": "2026-11-27T16:42:37.878914+00:00",
+  "genesis": null,
+  "github": null,
+  "homepage": "https://app.benqi.fi/",
+  "platforms": [
+   "avalanche"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/BenqiFinance",
+  "telegram_users": null,
+  "twitter": "https://x.com/BenqiFinance",
+  "twitter_followers": null,
+  "watchers": 30439
  },
  "bio-protocol": {
   "categories": [
@@ -575,7 +672,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
-  "fetched": "2026-11-25T04:59:25.840922+00:00",
+  "fetched": "2026-11-27T16:41:25.032010+00:00",
   "genesis": null,
   "github": "https://github.com/bio-xyz",
   "homepage": "https://www.bio.xyz/",
@@ -586,13 +683,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/bio_protocol",
   "telegram_users": null,
   "twitter": "https://x.com/bioprotocol",
   "twitter_followers": null,
-  "watchers": 17140
+  "watchers": 17134
  },
  "bless-2": {
   "categories": [
@@ -721,39 +818,6 @@
   "twitter": "https://x.com/Brickken",
   "twitter_followers": null,
   "watchers": 114126
- },
- "burn-lucky-sheep": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme",
-   "Chinese Meme",
-   "Flap Ecosystem"
-  ],
-  "cex": [],
-  "cex_count": 0,
-  "chat": null,
-  "commits_4w": null,
-  "description": "BE THE LUCKY SHEEP. TAKE IT ALL.\nA burn-powered game of timing, conviction and one decisive moment. Step into the chamber when the protocol is ready.\n\nWhat is Lucky Sheep?\nThe whitepaper describes a decentralized last-burner game using a \u201cburning means locking\u201d model, a countdown and a grand prize. Custody and release rules for committed tokens need contract clarification.\n\nA simple wager. A relentless clock.\nEvery burn moves the game forward. The round rewards the last participant and the most committed burners. The exact rules and weights await verification against deployed contracts.",
-  "dex": [
-   "PancakeSwap (v2)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0x72eff1574f9042adaea5a9832a182735fcd97777#transactions",
-  "fetched": "2026-11-24T06:03:56.304459+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://flap.sh/bnb/0x72EfF1574f9042ADaeA5A9832A182735fcD97777",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/LuckySheep2027",
-  "telegram_users": null,
-  "twitter": "https://x.com/luckysheep2027",
-  "twitter_followers": null,
-  "watchers": 9
  },
  "buttcoin-7": {
   "categories": [
@@ -1387,6 +1451,39 @@
   "twitter_followers": null,
   "watchers": 1470
  },
+ "dmt-nat": {
+  "categories": [
+   "Ethereum Ecosystem",
+   "Inscriptions"
+  ],
+  "cex": [
+   "Nonkyc.io"
+  ],
+  "cex_count": 1,
+  "chat": "https://www.youtube.com/@TheBlockRunner",
+  "commits_4w": null,
+  "description": "$NAT is a Bitcoin-native token derived directly from Bitcoin\u2019s block data, making it inseparable from the network itself. Launched through a fair mint with no pre-mines or insider allocations, it aligns with Bitcoin\u2019s ethos of openness and decentralization. Today, $NAT is earned by Bitcoin miners as a second subsidy alongside block rewards, creating an additional incentive layer designed to strengthen Bitcoin\u2019s long-term sustainability and security budget. By embedding value creation into the chain, $NAT reframes the question: how much is Bitcoin\u2019s security worth?",
+  "dex": [
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": null,
+  "explorer": "https://www.tapalytics.xyz/token/dmt-nat",
+  "fetched": "2026-11-27T16:42:44.190006+00:00",
+  "genesis": null,
+  "github": "https://github.com/Trac-Systems/ord-tap/",
+  "homepage": "https://natgmi.com/",
+  "platforms": [
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": "https://t.me/dmt_nat",
+  "telegram_users": null,
+  "twitter": "https://x.com/natgmi",
+  "twitter_followers": null,
+  "watchers": 1187
+ },
  "dodo": {
   "categories": [
    "Decentralized Exchange (DEX)",
@@ -1847,7 +1944,7 @@
   ],
   "discord": null,
   "explorer": "https://explorer.forta.network/",
-  "fetched": "2026-11-25T11:32:21.171958+00:00",
+  "fetched": "2026-11-27T16:43:50.629485+00:00",
   "genesis": null,
   "github": "https://github.com/forta-network",
   "homepage": "https://forta.org/",
@@ -1864,40 +1961,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/FortaNetwork",
   "twitter_followers": null,
-  "watchers": 7714
- },
- "froggie": {
-  "categories": [
-   "BNB Chain Ecosystem",
-   "Meme"
-  ],
-  "cex": [
-   "Bitget"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Froggie ($FROGGIE) is a community-driven meme coin launched on the Binance Smart Chain (BSC), inspired by the viral \"Neural Frog\" (\u795e\u7ecf\u86d9) meme that originated within WeChat's massive ecosystem of over 1.3 billion users. The meme evolved from WeChat's unofficial \"Crazy Frog\" mascot, which has been a cultural staple since 2016, representing internet humor, creativity, and spontaneous community energy in Chinese digital culture.The project's name, \"Froggie,\" was officially decided through a public community vote initiated by WeChat's official X (formerly Twitter) account in mid-2025, where it secured 44.5% of the votes against alternatives like \"Nervous Frog.\" This grassroots naming process underscores its emphasis on decentralized participation and viral appeal, drawing parallels to iconic meme coins like Dogecoin and Pepe while targeting an untapped Asian market fueled by WeChat's sticker polls and humor-driven campaigns.Key aspects of the project include:Blockchain and Tokenomics: Built on BSC as a BEP-20 token (contract address: 0xa45f5eb48cecd034751651aeeda6271bd5df8888), with transparent, audited smart contracts to ensure trust and no hidden taxes.\nCommunity Focus: 100% driven by holders, with no confirmed founder involvement; growth relies on meme proliferation, social media buzz (especially on X), and global engagement rather than centralized marketing.\nMarket Traction: Launched in July 2025, it quickly hit a $12 million market cap with a 54% price surge in 24 hours, later",
-  "dex": [
-   "PancakeSwap V3 (BSC)"
-  ],
-  "discord": null,
-  "explorer": "https://bscscan.com/token/0xa45f5eb48cecd034751651aeeda6271bd5df8888",
-  "fetched": "2026-11-24T06:03:53.047233+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://froggiebsc.xyz/",
-  "platforms": [
-   "binance-smart-chain"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/Froggie_bsc1",
-  "telegram_users": null,
-  "twitter": "https://x.com/froggie_bsc0",
-  "twitter_followers": null,
-  "watchers": 193
+  "watchers": 7715
  },
  "gamestop-bstocks-tokenized-stock": {
   "categories": [
@@ -2078,10 +2142,10 @@
    "CoinW",
    "DigiFinex",
    "Gate",
-   "GroveX",
-   "KuCoin"
+   "KuCoin",
+   "LBank"
   ],
-  "cex_count": 19,
+  "cex_count": 18,
   "chat": "https://goplussecurity.medium.com/",
   "commits_4w": null,
   "description": "GoPlus is revolutionizing Web3 user security through its permissionless and user-driven User Security Network, which provides comprehensive protection across the entire user transaction lifecycle. GoPlus aims to create a more secure and user-friendly Web3 on-chain interaction environment by filling the gap of the security layer in the current blockchain's architecture, providing users with more effective and better-experienced on-chain security protection.\n\n",
@@ -2091,7 +2155,7 @@
   ],
   "discord": "https://discord.com/invite/goplus",
   "explorer": "https://basescan.org/address/0x0c1dc73159e30c4b06170f2593d3118968a0dca5",
-  "fetched": "2026-11-25T11:33:27.625764+00:00",
+  "fetched": "2026-11-27T16:43:57.319478+00:00",
   "genesis": null,
   "github": "https://github.com/GoPlusSecurity/GPS-AUDIT",
   "homepage": "https://gopluslabs.io/",
@@ -2100,13 +2164,52 @@
    "binance-smart-chain"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 0.0,
   "stars": null,
   "telegram": "https://t.me/GoPlusSecurity",
   "telegram_users": null,
   "twitter": "https://x.com/GoPlusSecurity",
   "twitter_followers": null,
-  "watchers": 3002
+  "watchers": 3007
+ },
+ "hunt-token": {
+  "categories": [
+   "Gaming (GameFi)",
+   "NFT",
+   "Ethereum Ecosystem",
+   "Base Ecosystem",
+   "Governance",
+   "Base Native"
+  ],
+  "cex": [
+   "Upbit"
+  ],
+  "cex_count": 1,
+  "chat": null,
+  "commits_4w": null,
+  "description": "",
+  "dex": [
+   "Uniswap V3 (Ethereum)",
+   "Uniswap V4 (Base)"
+  ],
+  "discord": "https://discord.gg/ZFnssyzvde",
+  "explorer": "https://etherscan.io/token/0x9aab071b4129b083b01cb5a0cb513ce7eca26fa5",
+  "fetched": "2026-11-27T16:44:00.569695+00:00",
+  "genesis": null,
+  "github": "https://github.com/Steemhunt",
+  "homepage": "https://hunt.town",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": "https://www.reddit.com/r/steemhunt",
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/steemhunt",
+  "twitter_followers": null,
+  "watchers": 1550
  },
  "intel-ondo-tokenized-stock": {
   "categories": [
@@ -2260,7 +2363,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/AyrQpt5xsVYiN4BqgZdd2tZJAWswT9yLUZmP1jKqpump",
-  "fetched": "2026-11-26T04:13:38.010554+00:00",
+  "fetched": "2026-11-27T16:38:58.713824+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://jobcoin.capital",
@@ -2268,13 +2371,13 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 16.67,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": "https://x.com/JobCoinSOL",
   "twitter_followers": null,
-  "watchers": 241
+  "watchers": 245
  },
  "kled-ai": {
   "categories": [
@@ -2338,7 +2441,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0",
-  "fetched": "2026-11-25T17:15:18.795294+00:00",
+  "fetched": "2026-11-27T16:40:18.605203+00:00",
   "genesis": null,
   "github": "https://github.com/Cryptense/KryllToken",
   "homepage": "https://kryll.io?utm_source=coingecko&utm_medium=krl",
@@ -2576,7 +2679,6 @@
   "cex": [
    "BVOX",
    "Binance",
-   "Binance US",
    "BitKan",
    "Bitkub",
    "Bitlo",
@@ -2585,9 +2687,10 @@
    "Bitunix",
    "Bitvavo",
    "BtcTurk | Kripto",
-   "Bybit"
+   "Bybit",
+   "CoinTR"
   ],
-  "cex_count": 37,
+  "cex_count": 35,
   "chat": null,
   "commits_4w": null,
   "description": "What is Magic?\n\nMAGIC is the native token of Treasure. Treasure creates AI-powered entertainment experiences using MAGIC.",
@@ -2601,7 +2704,7 @@
   ],
   "discord": null,
   "explorer": "https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342",
-  "fetched": "2026-11-24T06:05:12.923345+00:00",
+  "fetched": "2026-11-27T16:41:28.258556+00:00",
   "genesis": null,
   "github": "https://github.com/TreasureProject",
   "homepage": "https://treasure.lol/",
@@ -2611,13 +2714,13 @@
    "ethereum"
   ],
   "reddit": null,
-  "sentiment_up": 100.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
   "twitter": null,
   "twitter_followers": null,
-  "watchers": 38899
+  "watchers": 38901
  },
  "mass-vehicle-ledger": {
   "categories": [
@@ -2641,7 +2744,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0xa849eaae994fb86afa73382e9bd88c2b6b18dc71",
-  "fetched": "2026-11-25T05:00:32.498383+00:00",
+  "fetched": "2026-11-27T16:41:31.431258+00:00",
   "genesis": null,
   "github": "https://github.com/mvlchain/PWSwitch",
   "homepage": "https://mvlchain.io/",
@@ -2959,6 +3062,61 @@
   "twitter_followers": null,
   "watchers": 357
  },
+ "myshell": {
+  "categories": [
+   "Artificial Intelligence (AI)",
+   "BNB Chain Ecosystem",
+   "Ethereum Ecosystem",
+   "DragonFly Capital Portfolio",
+   "YZi Labs (Prev. Binance Labs) Portfolio",
+   "Delphi Ventures Portfolio",
+   "OKX Ventures Portfolio",
+   "Binance HODLer Airdrops",
+   "AI Agent Launchpad",
+   "Binance Alpha Spotlight",
+   "AI Framework",
+   "Binance Wallet IDO"
+  ],
+  "cex": [
+   "Biconomy.com",
+   "Binance",
+   "BingX",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "BloFin",
+   "CEX.IO",
+   "Coinone",
+   "Gate"
+  ],
+  "cex_count": 24,
+  "chat": null,
+  "commits_4w": null,
+  "description": "MyShell (http://myshell.ai/) is an AI consumer layer for everyone to build, share, and own AI agents. The team bridges AI and Blockchain through Agentic Frameworks, open-source models, and AI creator community. MyShell also provides users with AI-powered entertainment and utility while offering them shared ownership.\nTo learn more about MyShell, check the whitepaper (https://docs.myshell.ai/).\nMyShell leads in open-source AI with flagship models like MeloTTS (20M downloads in 2024) and OpenVoice (30K GitHub stars, top 0.03%). Both trended #1 on GitHub at launch.\nThe platform offers three modes for AI agent creation, catering to creators of different skill levels. ShellAgent is the most powerful and modular Agentic Framework.\nMyShell commercializes high-quality AI agents as investable assets for sustainable returns, benefiting both creators and investors.\nCurrently, 200K+ AI Agents are deployed on MyShell, with 170K active AI creators and 5M+ users.",
+  "dex": [
+   "PancakeSwap V3 (BSC)"
+  ],
+  "discord": null,
+  "explorer": "https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3",
+  "fetched": "2026-11-27T16:42:34.693037+00:00",
+  "genesis": null,
+  "github": "https://github.com/myshell-ai",
+  "homepage": "https://myshell.ai/",
+  "platforms": [
+   "binance-smart-chain",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": 100.0,
+  "stars": null,
+  "telegram": null,
+  "telegram_users": null,
+  "twitter": "https://x.com/myshell_ai",
+  "twitter_followers": null,
+  "watchers": 3929
+ },
  "natix-network": {
   "categories": [
    "Artificial Intelligence (AI)",
@@ -3070,7 +3228,7 @@
   ],
   "discord": null,
   "explorer": "https://solscan.io/token/4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-  "fetched": "2026-11-24T17:26:25.868334+00:00",
+  "fetched": "2026-11-27T16:40:12.059394+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://mihao.fun/",
@@ -3078,7 +3236,7 @@
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": 50.0,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
@@ -3109,7 +3267,7 @@
   ],
   "discord": null,
   "explorer": "https://etherscan.io/token/0x70bef3bb2f001da2fddb207dae696cd9faff3f5d",
-  "fetched": "2026-11-25T11:29:38.926830+00:00",
+  "fetched": "2026-11-27T16:39:02.033274+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://ninjatraders.io/",
@@ -3125,7 +3283,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/ninjasquadnft",
   "twitter_followers": null,
-  "watchers": 2898
+  "watchers": 2897
  },
  "non-playable-shiba": {
   "categories": [
@@ -3281,7 +3439,7 @@
   ],
   "discord": "https://discord.com/invite/PBcECmFQYZ",
   "explorer": "https://etherscan.io/token/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-  "fetched": "2026-11-25T11:32:17.987749+00:00",
+  "fetched": "2026-11-27T16:40:15.349319+00:00",
   "genesis": null,
   "github": "https://github.com/OVR-Platform/unity-sdk",
   "homepage": "https://www.overthereality.ai/",
@@ -3298,7 +3456,7 @@
   "telegram_users": null,
   "twitter": "https://x.com/OVRtheReality",
   "twitter_followers": null,
-  "watchers": 114909
+  "watchers": 114908
  },
  "pepe-intelligence": {
   "categories": [
@@ -3400,57 +3558,6 @@
   "twitter_followers": null,
   "watchers": 16916
  },
- "power-ledger": {
-  "categories": [
-   "Energy",
-   "Ethereum Ecosystem",
-   "DePIN",
-   "Alleged SEC Securities",
-   "Energi Ecosystem",
-   "GMCI DePIN Index",
-   "Blockchain Capital Portfolio",
-   "GMCI Index"
-  ],
-  "cex": [
-   "BTC Markets",
-   "BTCC",
-   "Biconomy.com",
-   "Binance",
-   "BitKan",
-   "Bitkub",
-   "Bitrue",
-   "Bittime",
-   "Bitvavo",
-   "BloFin",
-   "Coinbase Exchange",
-   "Crypto.com Exchange"
-  ],
-  "cex_count": 22,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Powerledger (POWR) is a technology company that builds software for distributed and decentralised energy markets for a sustainable future. It has developed a blockchain-based platform that enables the tracking and trading of energy, flexibility services and environmental commodities. Its goal is to provide the platform for a fully modernised, market-driven grid that offers consumers a choice in their energy while driving the democratisation of power.\nHeadquartered in Zug, Switzerland, Powerledger operates in more than 10 countries. Powerledger operates on two blockchain layers; the POWR token is issued on Ethereum as an ERC-20 token, and the Powerledger blockchain - a native Solana based blockchain to process energy transactions on a more scalable network. \n\n\nThe POWR token is an ERC-20 token that acts as a licence required for businesses such as; utilities, renewable energy operators, microgrids, companies committed to 100% renewable energy and property developers to access Powerledger\u2019s platform, and will be able to be used to pay for transactions on the Powerledger blockchain in future. In 2015, 30 countries had reached grid parity, meaning that the price of solar-generated energy was equal to or less than the cost of local retail electricity. Powerledger combines renewable energy and blockchain technology to offer energy solutions that are cheaper and more sustainable than traditional energy alternatives.\n\n\nPowerledger was founded in 2016 to solve a pressing problem: Ener",
-  "dex": [
-   "Uniswap V3 (Ethereum)"
-  ],
-  "discord": null,
-  "explorer": "https://etherscan.io/token/0x595832f8fc6bf59c85c527fec3740a1b7a361269",
-  "fetched": "2026-11-24T06:07:39.187769+00:00",
-  "genesis": "2017-06-03",
-  "github": "https://github.com/PowerLedger",
-  "homepage": "https://powerledger.io/",
-  "platforms": [
-   "energi",
-   "ethereum"
-  ],
-  "reddit": "https://www.reddit.com/r/PowerLedger/",
-  "sentiment_up": 100.0,
-  "stars": null,
-  "telegram": "https://t.me/powerledger",
-  "telegram_users": null,
-  "twitter": "https://x.com/PowerLedger_io",
-  "twitter_followers": null,
-  "watchers": 21649
- },
  "propy": {
   "categories": [
    "Tokenized Real Estate",
@@ -3537,42 +3644,36 @@
   "twitter_followers": null,
   "watchers": 27
  },
- "pumpcade": {
+ "pumpchan": {
   "categories": [
    "Solana Ecosystem",
-   "Pump.fun Ecosystem",
-   "Pump Fund Portfolio"
+   "Pump.fun Ecosystem"
   ],
-  "cex": [
-   "KCEX",
-   "LBank",
-   "XT.COM"
-  ],
-  "cex_count": 3,
+  "cex": [],
+  "cex_count": 0,
   "chat": null,
   "commits_4w": null,
-  "description": "Pumpcade is building the next generation of predictions markets. We enable real time fast paced predictions markets that are embedded into livestreaming platforms. These markets are pre-defined and resolve automatically via the Pumpcade backend. Creating markets is simple and can be done in a single click. Predicting on active markets is done anywhere there's a livestream chat. Pumpcade allows streamers to overlay the markets, or have markets automatically embedded onto the page via the extension.",
+  "description": "PumpChan (PUMPCHAN) is a meme token on the Solana blockchain built around a simple visual idea: the combination of a pump.fun-style bonding curve or chart with a chan character. The project\u2019s identity is expressed through this character artwork and the tagline \u201cThe curve. The girl. The launch.\u201d The concept centers on internet humor and a consistent visual character rather than a separate technical protocol or financial service. PumpChan is not presented as an official Pump.fun product, partnership, sequel, or rights-bearing work.\n\n",
   "dex": [
-   "Meteora",
    "PumpSwap"
   ],
   "discord": null,
-  "explorer": "https://solscan.io/token/Gyk8SCVBJ1rHcxhSEE6p6fh9ZcxZhS9JFRSAWZXaBGBF",
-  "fetched": "2026-11-24T06:05:22.800228+00:00",
+  "explorer": "https://solscan.io/token/Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump",
+  "fetched": "2026-11-27T16:42:40.972572+00:00",
   "genesis": null,
   "github": null,
-  "homepage": "https://pumpca.de/",
+  "homepage": "https://www.thepumpchan.lol",
   "platforms": [
    "solana"
   ],
   "reddit": null,
-  "sentiment_up": 0.0,
+  "sentiment_up": null,
   "stars": null,
   "telegram": null,
   "telegram_users": null,
-  "twitter": "https://x.com/pumpcade",
+  "twitter": "https://x.com/ThePumpChan",
   "twitter_followers": null,
-  "watchers": 875
+  "watchers": 8
  },
  "purple-pepe": {
   "categories": [
@@ -3651,6 +3752,58 @@
   "twitter": "https://x.com/QANplatform",
   "twitter_followers": null,
   "watchers": 20975
+ },
+ "redstone-oracles": {
+  "categories": [
+   "Infrastructure",
+   "Oracle",
+   "Binance Launchpool",
+   "Ethereum Ecosystem",
+   "Real World Assets (RWA)",
+   "Base Ecosystem",
+   "Base Native"
+  ],
+  "cex": [
+   "Aero Slipstream (Base)",
+   "Binance",
+   "BitKan",
+   "Bitget",
+   "Bitkub",
+   "Bitrue",
+   "Bitunix",
+   "Bitvavo",
+   "BloFin",
+   "BtcTurk | Kripto",
+   "Bybit",
+   "CEX.IO"
+  ],
+  "cex_count": 34,
+  "chat": null,
+  "commits_4w": null,
+  "description": "RedStone Is The Fastest Growing oracle, specialising in yield-bearing collateral for lending markets and securing $10bn+ . Blue chip DeFi protocols are our clients including Spark, Morpho, Compound, Pendle, Venus, Lido, EtherFi, Ethena, Puffer, Balancer, Lombard, Enzyme, Frax, Agora, M^0 and 80+ other Clients. RedStone provides a wide variety of in-demand assets such as LSTs, LRTs, Bitcoin LSTs and many others.",
+  "dex": [
+   "Aerodrome Slipstream 3",
+   "PancakeSwap V3 (Ethereum)",
+   "Uniswap V4 (Ethereum)"
+  ],
+  "discord": "https://discord.gg/redstonedefi",
+  "explorer": "https://etherscan.io/token/0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE",
+  "fetched": "2026-11-27T16:42:47.401417+00:00",
+  "genesis": null,
+  "github": "https://github.com/redstone-finance",
+  "homepage": "https://www.redstone.finance/",
+  "platforms": [
+   "base",
+   "ethereum"
+  ],
+  "reddit": null,
+  "sentiment_up": null,
+  "stars": null,
+  "telegram": "https://t.me/redstonefinance",
+  "telegram_users": null,
+  "twitter": "https://x.com/redstone_defi",
+  "twitter_followers": null,
+  "watchers": 7021
  },
  "renzo": {
   "categories": [
@@ -4053,10 +4206,9 @@
    "Base Native"
   ],
   "cex": [
-   "Matcha (Base)",
    "Oku Trade (Etherlink)"
   ],
-  "cex_count": 2,
+  "cex_count": 1,
   "chat": "https://www.youtube.com/@SogniAI",
   "commits_4w": null,
   "description": "",
@@ -4065,7 +4217,7 @@
   ],
   "discord": null,
   "explorer": "https://basescan.org/token/0xE014d2A4da6E450f21b5050120D291e63c8940FD",
-  "fetched": "2026-11-25T05:01:49.017660+00:00",
+  "fetched": "2026-11-27T16:43:54.083849+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://www.sogni.ai/",
@@ -4074,13 +4226,13 @@
    "etherlink"
   ],
   "reddit": null,
-  "sentiment_up": null,
+  "sentiment_up": 100.0,
   "stars": null,
   "telegram": "https://t.me/sogniai",
   "telegram_users": null,
   "twitter": "https://x.com/Sogni_Protocol",
   "twitter_followers": null,
-  "watchers": 11951
+  "watchers": 11953
  },
  "solidus-aitech": {
   "categories": [
@@ -4676,41 +4828,6 @@
   "twitter_followers": null,
   "watchers": 62
  },
- "tsuki": {
-  "categories": [
-   "Solana Ecosystem",
-   "Meme",
-   "Solana Meme",
-   "Cat-Themed"
-  ],
-  "cex": [
-   "KCEX"
-  ],
-  "cex_count": 1,
-  "chat": null,
-  "commits_4w": null,
-  "description": "Solana native cat coin $TSUKI [Japanese Meaning: Moon \u6708] guides the way to the moon. It mirrors the moon's ethereal beauty and embodies profound growth, rooted deeply in Japanese culture.",
-  "dex": [
-   "Raydium"
-  ],
-  "discord": null,
-  "explorer": "https://solscan.io/token/463SK47VkB7uE7XenTHKiVcMtxRsfNE2X4Q9wByaURVA",
-  "fetched": "2026-11-24T06:02:49.743778+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "http://tsukionsol.xyz",
-  "platforms": [
-   "solana"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/tsukionsol",
-  "telegram_users": null,
-  "twitter": null,
-  "twitter_followers": null,
-  "watchers": 725
- },
  "usa": {
   "categories": [
    "Stablecoins",
@@ -5214,6 +5331,7 @@
   ],
   "cex": [
    "BitKan",
+   "Bitazza",
    "Bitkub",
    "Bybit",
    "Gate",
@@ -5224,7 +5342,7 @@
    "Ourbit",
    "Toobit"
   ],
-  "cex_count": 10,
+  "cex_count": 11,
   "chat": "https://medium.com/zentry",
   "commits_4w": null,
   "description": "Zentry is building the Human-Agentic Operating System\u2014a next-gen AI + crypto infrastructure where human life fuels AI, and AI in turn amplifies human potential. Through its tri-layer stack (zApp, zAI, zData), Zentry transforms everyday activity into structured data, trains intelligent agents, and powers a new user-owned economy. It's not just tech\u2014it\u2019s a platform for civilization-scale co-evolution between people and machines.",
@@ -5234,7 +5352,7 @@
   ],
   "discord": "https://discord.gg/zentryofficial",
   "explorer": "https://etherscan.io/token/0xdbb7a34bf10169d6d2d0d02a6cbb436cf4381bfa",
-  "fetched": "2026-11-25T11:29:51.801196+00:00",
+  "fetched": "2026-11-27T16:41:21.837532+00:00",
   "genesis": null,
   "github": null,
   "homepage": "https://zentry.com",
@@ -5252,45 +5370,5 @@
   "twitter": "https://x.com/zentry",
   "twitter_followers": null,
   "watchers": 4408
- },
- "zyfi": {
-  "categories": [
-   "Artificial Intelligence (AI)",
-   "Impossible Finance Launchpad",
-   "ZkSync Ecosystem",
-   "Base Ecosystem",
-   "AI Agents",
-   "DeFAI",
-   "Base Native"
-  ],
-  "cex": [
-   "Hydrex Integral"
-  ],
-  "cex_count": 1,
-  "chat": "https://blog.zyf.ai/",
-  "commits_4w": null,
-  "description": "Zyfai gives you self-custodial access to autonomous low-risk DeFi. Our hyper-customizable Agents transform idle capital into productive assets by continuously monitoring money markets and rebalancing between curated opportunities. Built with Smart Accounts, Session Keys, and verifiable execution via ZK proofs and ERC-8004, Zyfai keeps users in control while Agents handle execution, optimization, and risk monitoring in the background. The result is sustainable, risk-adjusted yield where your capital is always working and always under your control.",
-  "dex": [
-   "PancakeSwap V3 (zkSync)",
-   "Uniswap V3 (Base)"
-  ],
-  "discord": "https://discord.gg/zyfai",
-  "explorer": "https://basescan.org/token/0xd080ed3c74a20250a2c9821885203034acd2d5ae",
-  "fetched": "2026-11-24T06:03:59.560130+00:00",
-  "genesis": null,
-  "github": null,
-  "homepage": "https://www.zyf.ai/",
-  "platforms": [
-   "base",
-   "zksync"
-  ],
-  "reddit": null,
-  "sentiment_up": null,
-  "stars": null,
-  "telegram": "https://t.me/zkzyfi",
-  "telegram_users": null,
-  "twitter": "https://x.com/Zyfai_",
-  "twitter_followers": null,
-  "watchers": 976
  }
 }
