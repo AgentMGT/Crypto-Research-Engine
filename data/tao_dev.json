@@ -696,6 +696,13 @@
 "repo": "Team-Rizzo/alpharidge-ai",
 "t": 1795797383.4729033
 },
+"telureo/ttedu-subnet": {
+"capped": false,
+"commits_30d": 4,
+"last_commit": "2026-11-27T21:17:36Z",
+"repo": "telureo/ttedu-subnet",
+"t": 1795838127.8592772
+},
 "tensorlink-ai/cascade": {
 "capped": true,
 "commits_30d": 100,
